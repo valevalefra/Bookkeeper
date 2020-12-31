@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - openjdk8
+
+addons:
+  sonarcloud:
+    organization: valevalefra
+    token: 74e09e47c9c0bf4f6359f4d1cd8a4d02878b0785
+script:
+  - mvn clean verify sonar:sonar
