@@ -9,5 +9,5 @@ addons:
     token: "74e09e47c9c0bf4f6359f4d1cd8a4d02878b0785" # encrypted value of your tok
 
 script:
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud 
   - mvn clean verify sonar:sonar
