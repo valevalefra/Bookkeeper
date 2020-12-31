@@ -1,0 +1,156 @@
+
+◊org.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#updateLastRecord(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogRecordWithDLSN;)Ljava/util/concurrent/CompletableFuture;ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaA1 A(A"startingBlock*æ	
+startingBlockü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaAA B([ã
+à
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java@ @(
+%15"
+__annotate*
+java.lang.Override*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadataı
+Ú
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaAU A(\7
+segment,org.apache.distributedlog.LogSegmentMetadata"__annotation*
+
+%15â
+Ü
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java@ @(
+%16"
+__annotate*
+java.lang.Override*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSNÛ
+
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaBT B(Z5
+record+org.apache.distributedlog.LogRecordWithDLSN"__annotation*
+
+%16*
+1*À6
+1ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaC C(Ê„
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaC C($$
+%0org.apache.distributedlog.DLSN"Uorg.apache.distributedlog.LogRecordWithDLSN#getDlsn()Lorg/apache/distributedlog/DLSN;*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN2	getDlsn()˚
+¯
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaC C(%&
+dlsnorg.apache.distributedlog.DLSN"__id*&
+$
+%0org.apache.distributedlog.DLSNΩ∫
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaD D(*
+%1boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2isInProgress()Ò
+Ó
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaD E(T
+
+%2void"Ecom.google.common.base.Preconditions#checkState(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+""*EC
+AUpdating last dlsn for an inprogress log segment isn't supported.µ≤
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaF F(7
+%3boolean"corg.apache.distributedlog.LogSegmentMetadata#isDLSNinThisSegment(Lorg/apache/distributedlog/DLSN;)Z*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata*(
+&
+dlsnorg.apache.distributedlog.DLSN25isDLSNinThisSegment(Lorg/apache/distributedlog/DLSN;)¸
+˘
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaG G(
+%4java.lang.String"__concat*	
+DLSN *(
+&
+dlsnorg.apache.distributedlog.DLSNÇ
+ˇ
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaG G(>
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+ doesn't belong to segment ú
+ô
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaG G(H
+%6java.lang.String"__concat*
+
+%5java.lang.String*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata–
+Õ
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaF G(I
+
+%7void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+
+%3boolean*
+
+%6java.lang.Stringïí
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaH. H(?:
+%84org.apache.distributedlog.LogSegmentMetadata$Mutator"lorg.apache.distributedlog.LogSegmentMetadata#mutator()Lorg/apache/distributedlog/LogSegmentMetadata$Mutator;*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2	mutator()ìê
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaH. I(":
+%94org.apache.distributedlog.LogSegmentMetadata$Mutator"òorg.apache.distributedlog.LogSegmentMetadata$Mutator#setLastDLSN(Lorg/apache/distributedlog/DLSN;)Lorg/apache/distributedlog/LogSegmentMetadata$Mutator;*<
+:
+%84org.apache.distributedlog.LogSegmentMetadata$Mutator*(
+&
+dlsnorg.apache.distributedlog.DLSN2-setLastDLSN(Lorg/apache/distributedlog/DLSN;)∏µ
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaJ J(6
+%10long"7org.apache.distributedlog.LogRecord#getTransactionId()J*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN2getTransactionId()ÒÓ
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaH. J(7M
+%11Forg.apache.distributedlog.LogSegmentMetadata$LogSegmentMetadataBuilder"ùorg.apache.distributedlog.LogSegmentMetadata$LogSegmentMetadataBuilder#setLastTxId(J)Lorg/apache/distributedlog/LogSegmentMetadata$LogSegmentMetadataBuilder;*<
+:
+%94org.apache.distributedlog.LogSegmentMetadata$Mutator*
+
+%10long2setLastTxId(J)¸˘
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaH. K('M
+%12Forg.apache.distributedlog.LogSegmentMetadata$LogSegmentMetadataBuilder"ƒorg.apache.distributedlog.LogSegmentMetadata$LogSegmentMetadataBuilder#setRecordCount(Lorg/apache/distributedlog/LogRecord;)Lorg/apache/distributedlog/LogSegmentMetadata$LogSegmentMetadataBuilder;*O
+M
+%11Forg.apache.distributedlog.LogSegmentMetadata$LogSegmentMetadataBuilder*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN25setRecordCount(Lorg/apache/distributedlog/LogRecord;)≤Ø
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaH. L(3
+%13,org.apache.distributedlog.LogSegmentMetadata"|org.apache.distributedlog.LogSegmentMetadata$LogSegmentMetadataBuilder#build()Lorg/apache/distributedlog/LogSegmentMetadata;*O
+M
+%12Forg.apache.distributedlog.LogSegmentMetadata$LogSegmentMetadataBuilder2build()û
+õ
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaH L(:
+
+newSegment,org.apache.distributedlog.LogSegmentMetadata"__id*5
+3
+%13,org.apache.distributedlog.LogSegmentMetadata“œ
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaM M(0-
+%14&java.util.concurrent.CompletableFuture"Øorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#updateSegmentMetadata(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;*EC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater*<
+:
+
+newSegment,org.apache.distributedlog.LogSegmentMetadata2EupdateSegmentMetadata(Lorg/apache/distributedlog/LogSegmentMetadata;)"”
+ü
+î/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaM M(1/
+-
+%14&java.util.concurrent.CompletableFuture:7
+segment,org.apache.distributedlog.LogSegmentMetadata:5
+record+org.apache.distributedlog.LogRecordWithDLSNBEC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater

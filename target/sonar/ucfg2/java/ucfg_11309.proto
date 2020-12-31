@@ -1,0 +1,32 @@
+
+Ûorg.apache.bookkeeper.common.util.OrderedScheduler#scheduleWithFixedDelayOrdered(Ljava/lang/Object;Lorg/apache/bookkeeper/common/util/SafeRunnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/OrderedScheduler.java‚ ‚(;"1*Œ
+1ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/OrderedScheduler.java„ „(ñî
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/OrderedScheduler.java„ „((I
+%0Ccom.google.common.util.concurrent.ListeningScheduledExecutorService"˜org.apache.bookkeeper.common.util.OrderedScheduler#chooseThread(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListeningScheduledExecutorService;*64
+2org.apache.bookkeeper.common.util.OrderedScheduler*!
+
+orderingKeyjava.lang.Object2 chooseThread(Ljava/lang/Object;)´±
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/OrderedScheduler.java„ „(cA
+%1;com.google.common.util.concurrent.ListenableScheduledFuture"Îcom.google.common.util.concurrent.ListeningScheduledExecutorService#scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture;*K
+I
+%0Ccom.google.common.util.concurrent.ListeningScheduledExecutorService*;
+9
+command.org.apache.bookkeeper.common.util.SafeRunnable*
+""*
+""*'
+%
+unitjava.util.concurrent.TimeUnit2MscheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)"Ð
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/OrderedScheduler.java„ „(dC
+A
+%1;com.google.common.util.concurrent.ListenableScheduledFuture:
+orderingKeyjava.lang.Object:9
+command.org.apache.bookkeeper.common.util.SafeRunnable:
+"":
+"":%
+unitjava.util.concurrent.TimeUnitB64
+2org.apache.bookkeeper.common.util.OrderedScheduler

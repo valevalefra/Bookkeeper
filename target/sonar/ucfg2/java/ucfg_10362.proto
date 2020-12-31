@@ -1,0 +1,176 @@
+
+žorg.apache.bookkeeper.meta.LedgerMetadataSerDe#parseVersion2Config(Ljava/io/InputStream;Ljava/util/Optional;)Lorg/apache/bookkeeper/client/api/LedgerMetadata;„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java…" …(5"9*é	
+2„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java” ”(€ý
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java”% ”(=
+%15java.lang.Long"*java.util.Optional#get()Ljava/lang/Object;**
+(
+metadataStoreCtimejava.util.Optional2get()°­
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java” ”(>9
+%162org.apache.bookkeeper.client.LedgerMetadataBuilder"zorg.apache.bookkeeper.client.LedgerMetadataBuilder#withCreationTime(J)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*?
+=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder*
+
+%15java.lang.Long2withCreationTime(J)¡ž
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java” ”(Y9
+%172org.apache.bookkeeper.client.LedgerMetadataBuilder"}org.apache.bookkeeper.client.LedgerMetadataBuilder#storingCreationTime(Z)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*;
+9
+%162org.apache.bookkeeper.client.LedgerMetadataBuilder*
+""2storingCreationTime(Z)*
+1*‰
+3„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java“ “(%ôñ
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java“ “(1
+%14boolean"java.util.Optional#isPresent()Z**
+(
+metadataStoreCtimejava.util.Optional2isPresent()*
+2
+1*·
+4„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java’ ’(¥¢
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java’ ’(-9
+%132org.apache.bookkeeper.client.LedgerMetadataBuilder"}org.apache.bookkeeper.client.LedgerMetadataBuilder#storingCreationTime(Z)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*?
+=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder*
+""2storingCreationTime(Z)*
+1*¸
+5„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaŽ$ Ž(1¾»
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaŽ$ Ž(9C
+%10<org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat"Šorg.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat$Builder#build()Lorg/apache/bookkeeper/proto/DataFormats$LedgerMetadataFormat;*W
+U
+formatBuilderDorg.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat$Builder2build()
+š
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaŽ Ž(:D
+data<org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat"__id*E
+C
+%10<org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat‡
+„
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java (#
+%11void"°org.apache.bookkeeper.meta.LedgerMetadataSerDe#decodeFormat(Lorg/apache/bookkeeper/proto/DataFormats$LedgerMetadataFormat;Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;)V*2"0
+.org.apache.bookkeeper.meta.LedgerMetadataSerDe*F
+D
+data<org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat*?
+=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder¸µ
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java (
+%12boolean"Horg.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat#hasCtime()Z*F
+D
+data<org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat2
+hasCtime()*
+3
+4*‰
+6„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹ ‹(OØ
+Õ
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹ ‹(O#
+readerjava.io.InputStreamReader"__id*!
+
+%7java.io.InputStreamReaderœ
+™
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaŒ Œ(3
+
+%9void"`com.google.protobuf.TextFormat#merge(Ljava/lang/Readable;Lcom/google/protobuf/Message$Builder;)V*"" 
+com.google.protobuf.TextFormat*%
+#
+readerjava.io.InputStreamReader*W
+U
+formatBuilderDorg.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat$Builder*
+5*‘
+7„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹( ‹(OÆÃ
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹, ‹(=
+%7java.io.InputStreamReader"java.io.InputStreamReader¶
+³
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹( ‹(O
+%8"Jjava.io.InputStreamReader#<init>(Ljava/io/InputStream;Ljava/lang/String;)V*!
+
+%7java.io.InputStreamReader*
+
+isjava.io.InputStream*
+
+%6java.lang.String*
+6*Ì
+8„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹> ‹(@¸
+µ
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹B ‹(G
+%5java.nio.charset.Charset"__id*
+""ÿü
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‹B ‹(N
+%6java.lang.String"1java.nio.charset.Charset#name()Ljava/lang/String;* 
+
+%5java.nio.charset.Charset2name()*
+7*«
+9„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‡( ‡(=í
+ê
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‡( ‡(F8
+%02org.apache.bookkeeper.client.LedgerMetadataBuilder"oorg.apache.bookkeeper.client.LedgerMetadataBuilder#create()Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*6"4
+2org.apache.bookkeeper.client.LedgerMetadataBuilder£
+ 
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaˆ' ˆ(@	
+%1int"__id*
+""±®
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‡( ˆ(A8
+%22org.apache.bookkeeper.client.LedgerMetadataBuilder"ƒorg.apache.bookkeeper.client.LedgerMetadataBuilder#withMetadataFormatVersion(I)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*:
+8
+%02org.apache.bookkeeper.client.LedgerMetadataBuilder*
+	
+%1int2withMetadataFormatVersion(I)‹
+ˆ
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java‡ ˆ(B=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder"__id*:
+8
+%22org.apache.bookkeeper.client.LedgerMetadataBuilderÜ
+Ù
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaŠ5 Š(IB
+%3<org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat"__id*
+""ª
+§
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaŠ5 Š(VJ
+%4Dorg.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat$Builder"org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat#newBuilder()Lorg/apache/bookkeeper/proto/DataFormats$LedgerMetadataFormat$Builder;*@">
+<org.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormatµ
+²
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaŠ Š(WU
+formatBuilderDorg.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat$Builder"__id*L
+J
+%4Dorg.apache.bookkeeper.proto.DataFormats$LedgerMetadataFormat$Builder*
+8*Ê
+1„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java– –(ùö
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java– –(6
+%18/org.apache.bookkeeper.client.api.LedgerMetadata"korg.apache.bookkeeper.client.LedgerMetadataBuilder#build()Lorg/apache/bookkeeper/client/api/LedgerMetadata;*?
+=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder2build()"Á
+„
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.java– –(8
+6
+%18/org.apache.bookkeeper.client.api.LedgerMetadata:
+isjava.io.InputStream:(
+metadataStoreCtimejava.util.OptionalB2"0
+.org.apache.bookkeeper.meta.LedgerMetadataSerDe

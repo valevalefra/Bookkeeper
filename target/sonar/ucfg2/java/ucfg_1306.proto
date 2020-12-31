@@ -1,0 +1,143 @@
+
+Ùorg.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl#increment(Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;JLorg/apache/bookkeeper/api/kv/options/IncrementOption;)Ljava/util/concurrent/CompletableFuture;˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¤@ ¤(I"startingBlock*Å
+startingBlock˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¤I §(jì
+é
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java£ £(
+%12"
+__annotate*
+java.lang.Override*!
+
+pKeyio.netty.buffer.ByteBufÖ
+Ó
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¤R ¤(V
+pKeyio.netty.buffer.ByteBuf"__annotation*
+
+%12ì
+é
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java£ £(
+%13"
+__annotate*
+java.lang.Override*!
+
+lKeyio.netty.buffer.ByteBufÖ
+Ó
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¥R ¥(V
+lKeyio.netty.buffer.ByteBuf"__annotation*
+
+%13‹
+ˆ
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java£ £(
+%14"
+__annotate*
+java.lang.Override*@
+>
+option4org.apache.bookkeeper.api.kv.options.IncrementOptionõ
+ò
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java§c §(i>
+option4org.apache.bookkeeper.api.kv.options.IncrementOption"__annotation*
+
+%14*
+1*².
+1˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¨ ¨(¥¢
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¨ ¨(
+%0io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*!
+
+pKeyio.netty.buffer.ByteBuf2retain()¥¢
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java© ©(
+%1io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*!
+
+lKeyio.netty.buffer.ByteBuf2retain()â
+ß
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java« «(=H
+%2Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"×org.apache.bookkeeper.clients.impl.kv.KvUtils#newIncrementRequest(Lio/netty/buffer/ByteBuf;JLorg/apache/bookkeeper/api/kv/options/IncrementOption;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*!
+
+lKeyio.netty.buffer.ByteBuf*
+""*@
+>
+option4org.apache.bookkeeper.api.kv.options.IncrementOptionö
+ó
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¬ ¬(1E
+%3?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder"©org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl#newRoutingHeader(Lio/netty/buffer/ByteBuf;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;*@>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl*!
+
+pKeyio.netty.buffer.ByteBuf¡ž
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java« ¬(2H
+%4Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"Óorg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#setHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*J
+H
+%2Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder*G
+E
+%3?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder2LsetHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;)¾»
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java« ­(@
+%5:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest"†org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;*J
+H
+%4Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder2build()Á
+¾
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java¯ ¯(J
+%6Dorg.apache.bookkeeper.clients.impl.container.StorageContainerChannel"__id*O*M>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl"
+	scChannel©
+¦
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java° °(3
+%7-java.util.concurrent.ScheduledExecutorService"__id*N*L>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl"
+
+executor±
+®
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java± ±(6
+%80org.apache.bookkeeper.common.util.Backoff$Policy"__id*S*Q>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl"
+backoffPolicy½
+º
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaª ²(	E
+%9?org.apache.bookkeeper.clients.impl.kv.IncrementRequestProcessor"…org.apache.bookkeeper.clients.impl.kv.IncrementRequestProcessor#of(Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;Ljava/util/function/Function;Lorg/apache/bookkeeper/clients/impl/container/StorageContainerChannel;Ljava/util/concurrent/ScheduledExecutorService;Lorg/apache/bookkeeper/common/util/Backoff$Policy;)Lorg/apache/bookkeeper/clients/impl/kv/IncrementRequestProcessor;*C"A
+?org.apache.bookkeeper.clients.impl.kv.IncrementRequestProcessor*B
+@
+%5:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest*
+""*L
+J
+%6Dorg.apache.bookkeeper.clients.impl.container.StorageContainerChannel*5
+3
+%7-java.util.concurrent.ScheduledExecutorService*8
+6
+%80org.apache.bookkeeper.common.util.Backoff$Policy•’
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaª ²(-
+%10&java.util.concurrent.CompletableFuture"rorg.apache.bookkeeper.clients.utils.ListenableFutureRpcProcessor#process()Ljava/util/concurrent/CompletableFuture;*G
+E
+%9?org.apache.bookkeeper.clients.impl.kv.IncrementRequestProcessor2	process()³°
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaª µ(
+-
+%11&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%10&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)"Ì
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaª µ(/
+-
+%11&java.util.concurrent.CompletableFuture:
+pKeyio.netty.buffer.ByteBuf:
+lKeyio.netty.buffer.ByteBuf:
+"":>
+option4org.apache.bookkeeper.api.kv.options.IncrementOptionB@>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl

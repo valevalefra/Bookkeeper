@@ -1,0 +1,320 @@
+
+“org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#processLogMetadatas(Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Z)Lorg/apache/distributedlog/metadata/LogMetadataForWriter;†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaó  ó(3"29*â
+24†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§, §(NŸ
+÷
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§, §(N	
+%8int"Porg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#bytesToInt([B)I*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*
+
+%7byte[]*
+23*∏
+25†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§ §(ø
+º
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§ §((	
+%6int"__id*
+""∆√
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§7 §(M
+%7byte[]"Gorg.apache.bookkeeper.versioning.Versioned#getValue()Ljava/lang/Object;*;
+9
+versionData*org.apache.bookkeeper.versioning.Versioned2
+getValue()*
+24*Ò
+14†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≠ ≠(S¡
+æ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≠ ≠(S
+%20long"Oorg.apache.distributedlog.util.DLUtils#deserializeLogSegmentSequenceNumber([B)J**"(
+&org.apache.distributedlog.util.DLUtils*
+
+%19byte[]*
+11*ä
+26†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¢ ¢(Qõ
+ò
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¢ ¢(Q9
+versionData*org.apache.bookkeeper.versioning.Versioned"__id*2
+0
+%4*org.apache.bookkeeper.versioning.Versionedº
+π
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java£ £(-
+
+%5void"Éorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#ensureMetadataExist(Lorg/apache/bookkeeper/versioning/Versioned;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*<
+:
+maxTxnIdData*org.apache.bookkeeper.versioning.Versioned*
+25*˜
+15†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≠ ≠(«ƒ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≠< ≠(R
+%19byte[]"Gorg.apache.bookkeeper.versioning.Versioned#getValue()Ljava/lang/Object;*;
+9
+maxLSSNData*org.apache.bookkeeper.versioning.Versioned2
+getValue()*
+14*Ç
+27†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¢, ¢(5ø
+º
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¢: ¢(O	
+%3int"__id*
+""ê
+ç
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¢, ¢(P0
+%4*org.apache.bookkeeper.versioning.Versioned"
+__arrayGet*
+
+	metadatasjava.util.List*
+	
+%3int*
+26*ã
+28†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaü ü(Sú
+ô
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaü ü(S:
+maxTxnIdData*org.apache.bookkeeper.versioning.Versioned"__id*2
+0
+%1*org.apache.bookkeeper.versioning.Versionedº
+π
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java† †(-
+
+%2void"Éorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#ensureMetadataExist(Lorg/apache/bookkeeper/versioning/Versioned;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*<
+:
+maxTxnIdData*org.apache.bookkeeper.versioning.Versioned*
+27*ã
+17†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java™ ™(Uú
+ô
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java™ ™(U9
+maxLSSNData*org.apache.bookkeeper.versioning.Versioned"__id*3
+1
+%17*org.apache.bookkeeper.versioning.Versionedº
+π
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java´ ´(,
+%18void"Éorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#ensureMetadataExist(Lorg/apache/bookkeeper/versioning/Versioned;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*;
+9
+maxLSSNData*org.apache.bookkeeper.versioning.Versioned*
+15*Ç
+29†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaü- ü(6ø
+º
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaü; ü(Q	
+%0int"__id*
+""ê
+ç
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaü- ü(R0
+%1*org.apache.bookkeeper.versioning.Versioned"
+__arrayGet*
+
+	metadatasjava.util.List*
+	
+%0int*
+28*Ö
+18†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java™, ™(5¿
+Ω
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java™: ™(S
+
+%16int"__id*
+""í
+è
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java™, ™(T1
+%17*org.apache.bookkeeper.versioning.Versioned"
+__arrayGet*
+
+	metadatasjava.util.List*
+
+
+%16int*
+17*‰
+19†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java® ®(G¥
+±
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java® ®(G
+%15void"Éorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#ensureMetadataExist(Lorg/apache/bookkeeper/versioning/Versioned;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*3
+1
+%14*org.apache.bookkeeper.versioning.Versioned*
+18*é
+5†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaπ ∫(?"Â
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaπ ∫(?@
+>
+%297org.apache.distributedlog.metadata.LogMetadataForWriter*œ	
+6†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaπ, π(/üú
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaπ π(+>
+%297org.apache.distributedlog.metadata.LogMetadataForWriter"7org.apache.distributedlog.metadata.LogMetadataForWriterˇ
+¸
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaπ ∫(>
+%30"˜org.apache.distributedlog.metadata.LogMetadataForWriter#<init>(Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Lorg/apache/bookkeeper/versioning/Versioned;Lorg/apache/bookkeeper/versioning/Versioned;Lorg/apache/bookkeeper/versioning/Versioned;)V*@
+>
+%297org.apache.distributedlog.metadata.LogMetadataForWriter*
+
+urijava.net.URI*
+
+logNamejava.lang.String*#
+!
+logIdentifierjava.lang.String*;
+9
+maxLSSNData*org.apache.bookkeeper.versioning.Versioned*<
+:
+maxTxnIdData*org.apache.bookkeeper.versioning.Versioned*>
+<
+allocationData*org.apache.bookkeeper.versioning.Versioned*
+5*Õ
+7†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java∑ ∑(Bü
+ú
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java∑ ∑(B<
+allocationData*org.apache.bookkeeper.versioning.Versioned"__id*3
+1
+%27*org.apache.bookkeeper.versioning.Versioned*
+6*ö
+8†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java∑7 ∑(;ÖÇ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java∑% ∑(61
+%27*org.apache.bookkeeper.versioning.Versioned"*org.apache.bookkeeper.versioning.Versioned‰
+·
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java∑! ∑(B
+%28"porg.apache.bookkeeper.versioning.Versioned#<init>(Ljava/lang/Object;Lorg/apache/bookkeeper/versioning/Version;)V*3
+1
+%27*org.apache.bookkeeper.versioning.Versioned*
+""*
+""*
+7*è
+9†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¥ ¥(Hü
+ú
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¥ ¥(H<
+allocationData*org.apache.bookkeeper.versioning.Versioned"__id*3
+1
+%25*org.apache.bookkeeper.versioning.Versionedø
+º
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaµ µ(3
+%26void"Éorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#ensureMetadataExist(Lorg/apache/bookkeeper/versioning/Versioned;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*>
+<
+allocationData*org.apache.bookkeeper.versioning.Versioned*
+6*Ö
+20†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java® ®(¿
+Ω
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java®. ®(E
+
+%13int"__id*
+""í
+è
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java®  ®(F1
+%14*org.apache.bookkeeper.versioning.Versioned"
+__arrayGet*
+
+	metadatasjava.util.List*
+
+
+%13int*
+19*‰
+21†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¶ ¶(B¥
+±
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¶ ¶(B
+%12void"Éorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#ensureMetadataExist(Lorg/apache/bookkeeper/versioning/Versioned;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*3
+1
+%11*org.apache.bookkeeper.versioning.Versioned*
+20*Ñ
+10†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¥! ¥(*¿
+Ω
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¥/ ¥(G
+
+%24int"__id*
+""í
+è
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¥! ¥(H1
+%25*org.apache.bookkeeper.versioning.Versioned"
+__arrayGet*
+
+	metadatasjava.util.List*
+
+
+%24int*
+9*Ö
+22†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¶ ¶(¿
+Ω
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¶. ¶(@
+
+%10int"__id*
+""í
+è
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¶  ¶(A1
+%11*org.apache.bookkeeper.versioning.Versioned"
+__arrayGet*
+
+	metadatasjava.util.List*
+
+
+%10int*
+21*•
+11†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≤ ≤(.Ú
+Ô
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≤ ≤(.<
+allocationData*org.apache.bookkeeper.versioning.Versioned"__id*
+""*
+8
+10*Ã
+23†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§ §(Nú
+ô
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§ §(O
+
+%9void"6com.google.common.base.Preconditions#checkArgument(Z)V*("&
+$com.google.common.base.Preconditions*
+""*
+22:
+urijava.net.URI:
+logNamejava.lang.String:!
+logIdentifierjava.lang.String:
+	metadatasjava.util.List:
+""BD"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore

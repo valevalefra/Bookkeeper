@@ -1,0 +1,70 @@
+
+5org.apache.bookkeeper.client.LedgerEntry#getEntry()[B|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaH H("1*µ
+1|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaI I(Þ
+Û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaI I(
+%0io.netty.buffer.ByteBuf"__id*6*4*
+(org.apache.bookkeeper.client.LedgerEntry"
+data³
+°
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaI I(K
+
+%1void"Ecom.google.common.base.Preconditions#checkState(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+""*+)
+'entry content can be accessed only onceÞ
+Û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaJ  J($
+%2io.netty.buffer.ByteBuf"__id*6*4*
+(org.apache.bookkeeper.client.LedgerEntry"
+dataèå
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaJ  J(4	
+%3int"(io.netty.buffer.ByteBuf#readableBytes()I*
+
+%2io.netty.buffer.ByteBuf2readableBytes() 
+
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaJ J(6
+entrybyte[]"__id*
+""Þ
+Û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaK K(
+%4io.netty.buffer.ByteBuf"__id*6*4*
+(org.apache.bookkeeper.client.LedgerEntry"
+data£ 
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaK K(
+%5io.netty.buffer.ByteBuf">io.netty.buffer.ByteBuf#readBytes([B)Lio/netty/buffer/ByteBuf;*
+
+%4io.netty.buffer.ByteBuf*
+
+entrybyte[]2readBytes([B)Þ
+Û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaL L(
+%6io.netty.buffer.ByteBuf"__id*6*4*
+(org.apache.bookkeeper.client.LedgerEntry"
+dataçä
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaL L(
+%7boolean")io.netty.util.ReferenceCounted#release()Z*
+
+%6io.netty.buffer.ByteBuf2	release()Å
+Â
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaM M(4*
+(org.apache.bookkeeper.client.LedgerEntry"
+data"__id*
+"""‘
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaN N(
+
+entrybyte[]B,*
+(org.apache.bookkeeper.client.LedgerEntry

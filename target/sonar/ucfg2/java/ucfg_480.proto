@@ -1,0 +1,23 @@
+
+áorg.apache.bookkeeper.statelib.impl.kv.KVUtils#newCommand(Lio/netty/buffer/ByteBuf;)Lorg/apache/bookkeeper/proto/statestore/kv/Command;Ä
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaF F("1*ı
+1Ä
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaG G(çä
+Ä
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaG! G(3
+%0java.nio.ByteBuffer"8io.netty.buffer.ByteBuf#nioBuffer()Ljava/nio/ByteBuffer;*#
+!
+cmdBufio.netty.buffer.ByteBuf2nioBuffer()õ
+ò
+Ä
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaG G(47
+%11org.apache.bookkeeper.proto.statestore.kv.Command"Öorg.apache.bookkeeper.proto.statestore.kv.Command#parseFrom(Ljava/nio/ByteBuffer;)Lorg/apache/bookkeeper/proto/statestore/kv/Command;*5"3
+1org.apache.bookkeeper.proto.statestore.kv.Command*
+
+%0java.nio.ByteBuffer"æ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaG G(59
+7
+%11org.apache.bookkeeper.proto.statestore.kv.Command:!
+cmdBufio.netty.buffer.ByteBufB2"0
+.org.apache.bookkeeper.statelib.impl.kv.KVUtils

@@ -1,0 +1,82 @@
+
+dorg.apache.distributedlog.BKAsyncLogWriter#markEndOfStream()Ljava/util/concurrent/CompletableFuture;‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÔ# Ô(2"4*†
+2‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÛ% Û(Få
+â
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÛ% Û(H,
+%2&java.util.concurrent.CompletableFuture"vorg.apache.distributedlog.BKAsyncLogWriter#getLogSegmentWriterForEndOfStream()Ljava/util/concurrent/CompletableFuture;*.,
+*org.apache.distributedlog.BKAsyncLogWriter‡
+„
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÛ Û(H@
+logSegmentWriterFuture&java.util.concurrent.CompletableFuture"__id*.
+,
+%2&java.util.concurrent.CompletableFuture*
+1*ª
+3‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaØ% Ø()†
+ƒ
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaØ% Ø(7,
+%1&java.util.concurrent.CompletableFuture"__id*A*?,
+*org.apache.distributedlog.BKAsyncLogWriter"
+rollingFuture‡
+„
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaØ Ø(7@
+logSegmentWriterFuture&java.util.concurrent.CompletableFuture"__id*.
+,
+%1&java.util.concurrent.CompletableFuture*
+2
+1*›
+4‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÕ$ Õ(-±
+®
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÕ$ Õ(=&
+%0 com.google.common.base.Stopwatch"Rcom.google.common.base.Stopwatch#createStarted()Lcom/google/common/base/Stopwatch;*$""
+ com.google.common.base.Stopwatchî
+ë
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÕ Õ(>-
+	stopwatch com.google.common.base.Stopwatch"__id*(
+&
+%0 com.google.common.base.Stopwatchß
+Ü
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÖ Ö(E@
+logSegmentWriterFuture&java.util.concurrent.CompletableFuture"__id*
+""*
+3*„
+1‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÞ Þ(°­
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaß ß(L,
+%3&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*B
+@
+logSegmentWriterFuture&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)˜
+•
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaà à(,/
+%4)org.apache.bookkeeper.stats.OpStatsLogger"__id*P*N,
+*org.apache.distributedlog.BKAsyncLogWriter"
+markEndOfStreamOpStatsLoggerå
+â
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÞ á(,
+%5&java.util.concurrent.CompletableFuture"Øorg.apache.bookkeeper.common.concurrent.FutureUtils#stats(Ljava/util/concurrent/CompletableFuture;Lorg/apache/bookkeeper/stats/OpStatsLogger;Lcom/google/common/base/Stopwatch;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*.
+,
+%3&java.util.concurrent.CompletableFuture*1
+/
+%4)org.apache.bookkeeper.stats.OpStatsLogger*/
+-
+	stopwatch com.google.common.base.Stopwatch"¼
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogWriter.javaÞ á(.
+,
+%5&java.util.concurrent.CompletableFutureB.,
+*org.apache.distributedlog.BKAsyncLogWriter

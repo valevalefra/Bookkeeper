@@ -1,0 +1,122 @@
+
+Sorg.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager#getReplicasCheckCTime()J‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java„ „(%"20*Æ
+13‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹A ‹(Téæ
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹A ‹(l
+%11long"Torg.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat#getReplicasCheckCTime()J*T
+R
+replicasCheckFormat;org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat2getReplicasCheckCTime()¹
+¶
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹A ‹(l
+%10long"__id*
+
+%11long*
+11*
+15‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹ ‹(&ëè
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹ ‹(>
+%9boolean"Torg.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat#hasReplicasCheckCTime()Z*T
+R
+replicasCheckFormat;org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat2hasReplicasCheckCTime()*
+13
+12*˜
+16‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‰ ‰(½
+º
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‰ ‰(
+%7org.slf4j.Logger"__id*
+""·´
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‰ ‰(I
+
+%8void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
+
+%7org.slf4j.Logger*0.
+,getReplicasCheckCTime completed successfully2debug(Ljava/lang/String;)*
+15*”
+18‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‡ ‡(Z¶
+³
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‡ ‡(ZR
+replicasCheckFormat;org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat"__id*C
+A
+%4;org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat½
+º
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.javaˆ ˆ(
+%5org.slf4j.Logger"__id*
+""öó
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.javaˆ ˆ($
+%6boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%5org.slf4j.Logger2isDebugEnabled()*
+15
+16*‚
+19‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java† †(L½
+º
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java† †(L
+databyte[]"__id*
+
+%2byte[]è
+å
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‡6 ‡(IA
+%3;org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat"__id*
+""¶
+³
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‡6 ‡(YA
+%4;org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat"†org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat#parseFrom([B)Lorg/apache/bookkeeper/proto/DataFormats$ReplicasCheckFormat;*?"=
+;org.apache.bookkeeper.proto.DataFormats$ReplicasCheckFormat*
+
+databyte[]*
+18*Ù
+20‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java† †(Œ
+‰
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java† †($
+%0org.apache.zookeeper.ZooKeeper"__id*G*E<
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager"
+zkc’
+
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java†& †(=
+%1java.lang.String"__id*[*Y<
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager"
+replicasCheckCtimeZnode”‘
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java† †(K
+%2byte[]"]org.apache.zookeeper.ZooKeeper#getData(Ljava/lang/String;ZLorg/apache/zookeeper/data/Stat;)[B*&
+$
+%0org.apache.zookeeper.ZooKeeper*
+
+%1java.lang.String*
+""*
+""2<getData(Ljava/lang/String;ZLorg/apache/zookeeper/data/Stat;)*
+19*·
+11‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹ ‹(r"œ
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹ ‹(r
+""*Ù
+12‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹p ‹(q¸
+µ
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java‹o ‹(q
+%10long"__id*
+
+
+%12int*
+11B><
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager

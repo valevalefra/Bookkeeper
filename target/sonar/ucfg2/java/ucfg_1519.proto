@@ -1,0 +1,47 @@
+
+¶org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#incr(Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;)Ljava/util/concurrent/CompletableFuture;î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java∏0 ∏(4"startingBlock*ø
+startingBlockî
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java∏4 ∏(Sí
+è
+î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java∑ ∑(
+%3"
+__annotate*
+java.lang.Override*L
+J
+incrementReq:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest¸
+˘
+î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java∏F ∏(RJ
+incrementReq:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest"__annotation*
+
+%3*
+1*¬
+1î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaπ π(á
+Ñ
+î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaπ π((,
+%0&java.util.concurrent.CompletableFuture"≠org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#doIncrement(Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;)Ljava/util/concurrent/CompletableFuture;*?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl*L
+J
+incrementReq:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest£†
+î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaπ ¬(,
+%1&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%0&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)´®
+î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaπ À(,
+%2&java.util.concurrent.CompletableFuture"{java.util.concurrent.CompletableFuture#exceptionally(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%1&java.util.concurrent.CompletableFuture*
+""2,exceptionally(Ljava/util/function/Function;)"«
+î
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaπ À(.
+,
+%2&java.util.concurrent.CompletableFuture:J
+incrementReq:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequestB?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl

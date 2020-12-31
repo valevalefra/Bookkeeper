@@ -1,0 +1,114 @@
+
+áorg.apache.distributedlog.BKLogSegmentWriter#asyncWrite(Lorg/apache/distributedlog/LogRecord;Z)Ljava/util/concurrent/CompletableFuture;ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaπ0 π(:"21*—
+13ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaƒ ƒ(.∂
+≥
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaƒ ƒ(6,
+%6&java.util.concurrent.CompletableFuture"ëorg.apache.distributedlog.BKLogSegmentWriter#writeControlLogRecord(Lorg/apache/distributedlog/LogRecord;)Ljava/util/concurrent/CompletableFuture;*0.
+,org.apache.distributedlog.BKLogSegmentWriter*/
+-
+record#org.apache.distributedlog.LogRecord*
+12*Ì
+17ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java¿ ¿(“
+œ
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java¿ ¿(,
+%1&java.util.concurrent.CompletableFuture"_org.apache.distributedlog.BKLogSegmentWriter#transmit()Ljava/util/concurrent/CompletableFuture;*0.
+,org.apache.distributedlog.BKLogSegmentWriter*
+13*π
+6ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaÕ Õ(!†ù
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaÕ Õ(#
+%11void"=org.apache.distributedlog.BKLogSegmentWriter#flushIfNeeded()V*0.
+,org.apache.distributedlog.BKLogSegmentWriter2flushIfNeeded()*
+1*ñ
+8ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java   (@˙
+˜
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java   (@0
+result&java.util.concurrent.CompletableFuture"__id*/
+-
+%10&java.util.concurrent.CompletableFuture*
+6
+1*˘
+9ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java   ((≈
+¬
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java /  (?$
+%9org.apache.distributedlog.DLSN"__id*
+""ò
+ï
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java   (@-
+%10&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*&
+$
+%9org.apache.distributedlog.DLSN*
+8*Ø
+20ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaº º(êç
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaº º("
+%0boolean"0org.apache.distributedlog.LogRecord#isControl()Z*/
+-
+record#org.apache.distributedlog.LogRecord2isControl()*
+17
+11*Ï
+21ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java∫) ∫(-—
+Œ
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java∫ ∫(.0
+result&java.util.concurrent.CompletableFuture"__id*
+""*
+20*ô
+10ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java« «(0˘
+ˆ
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java« «(00
+result&java.util.concurrent.CompletableFuture"__id*.
+,
+%8&java.util.concurrent.CompletableFuture*	
+6
+9
+1*À
+11ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java« «((∞
+≠
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java« «(0,
+%8&java.util.concurrent.CompletableFuture"ãorg.apache.distributedlog.BKLogSegmentWriter#writeUserRecord(Lorg/apache/distributedlog/LogRecord;)Ljava/util/concurrent/CompletableFuture;*0.
+,org.apache.distributedlog.BKLogSegmentWriter*/
+-
+record#org.apache.distributedlog.LogRecord*
+10*Ë
+12ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaƒ ƒ(6˘
+ˆ
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.javaƒ ƒ(60
+result&java.util.concurrent.CompletableFuture"__id*.
+,
+%6&java.util.concurrent.CompletableFuture“
+œ
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java≈ ≈(,
+%7&java.util.concurrent.CompletableFuture"_org.apache.distributedlog.BKLogSegmentWriter#transmit()Ljava/util/concurrent/CompletableFuture;*0.
+,org.apache.distributedlog.BKLogSegmentWriter*
+1*÷
+1ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java€ €("¬
+ã
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogSegmentWriter.java€ €(2
+0
+result&java.util.concurrent.CompletableFuture:-
+record#org.apache.distributedlog.LogRecord:
+""B0.
+,org.apache.distributedlog.BKLogSegmentWriter

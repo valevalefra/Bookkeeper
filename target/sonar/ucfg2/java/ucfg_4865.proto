@@ -1,0 +1,166 @@
+
+Morg.apache.bookkeeper.stream.cluster.StreamCluster#createDefaultNamespaces()V„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaå å(("22*Í
+13„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaø ø(\”
+‘
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaø ø(\A
+nsProps6org.apache.bookkeeper.stream.proto.NamespaceProperties"__id*?
+=
+%156org.apache.bookkeeper.stream.proto.NamespacePropertiesŸ
+œ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaù ù(
+%16"__id*
+""*
+15
+0*¿
+14„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaø2 ø([«
+¨
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaø2 ø([=
+%156org.apache.bookkeeper.stream.proto.NamespaceProperties"vorg.apache.bookkeeper.common.concurrent.FutureUtils#result(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*/
+-
+%14&java.util.concurrent.CompletableFuture*
+13*Ø
+15„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaø2 ø(8ÄÁ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaø9 ø(Z-
+%14&java.util.concurrent.CompletableFuture"org.apache.bookkeeper.clients.admin.StorageAdminClient#getNamespace(Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;*A
+?
+admin6org.apache.bookkeeper.clients.admin.StorageAdminClient*#
+!
+namespaceNamejava.lang.String2 getNamespace(Ljava/lang/String;)*
+14*©
+18„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javañ ó(’
+
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javañ ó(?
+admin6org.apache.bookkeeper.clients.admin.StorageAdminClient"__id*?
+=
+%136org.apache.bookkeeper.clients.admin.StorageAdminClient*
+15
+0*¡
+19„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javañ( ó(Š
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javañ( ó(=
+%136org.apache.bookkeeper.clients.admin.StorageAdminClient"worg.apache.bookkeeper.clients.StorageClientBuilder#buildAdmin()Lorg/apache/bookkeeper/clients/admin/StorageAdminClient;*;
+9
+%122org.apache.bookkeeper.clients.StorageClientBuilder2buildAdmin()*
+18*à
+20„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaò ò("ÌÉ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javañ( ò(#9
+%122org.apache.bookkeeper.clients.StorageClientBuilder"±org.apache.bookkeeper.clients.StorageClientBuilder#withSettings(Lorg/apache/bookkeeper/clients/config/StorageClientSettings;)Lorg/apache/bookkeeper/clients/StorageClientBuilder;*;
+9
+%112org.apache.bookkeeper.clients.StorageClientBuilder*H
+F
+settings:org.apache.bookkeeper.clients.config.StorageClientSettings2JwithSettings(Lorg/apache/bookkeeper/clients/config/StorageClientSettings;)*
+19*†
+21„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javañ( ñ(<ò
+ï
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javañ( ñ(I9
+%112org.apache.bookkeeper.clients.StorageClientBuilder"sorg.apache.bookkeeper.clients.StorageClientBuilder#newBuilder()Lorg/apache/bookkeeper/clients/StorageClientBuilder;*6"4
+2org.apache.bookkeeper.clients.StorageClientBuilder*
+20*÷$
+22„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaæ æ("Á¾
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaè è(
+%0java.util.List"Torg.apache.bookkeeper.stream.cluster.StreamCluster#getRpcEndpoints()Ljava/util/List;*64
+2org.apache.bookkeeper.stream.cluster.StreamCluster2getRpcEndpoints()ƒ€
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaè è(&
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%0java.util.List2stream()ËÈ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaè é(E
+%2java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%1java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)¯
+¬
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaê ê(0 
+%3java.util.stream.Collector"Yjava.util.stream.Collectors#joining(Ljava/lang/CharSequence;)Ljava/util/stream/Collector;*"
+java.util.stream.Collectors*
+,ßÜ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaè ê(1
+%4java.lang.String"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%2java.util.stream.Stream*"
+ 
+%3java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)²
+¯
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaæ ê(2
+%5java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+bk://%s/*
+
+%4java.lang.StringÊ
+Ç
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaæ ê(3
+
+serviceUrijava.lang.String"__id*
+
+%5java.lang.String¢
+Ÿ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaë) ë(KH
+%6Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder"‹org.apache.bookkeeper.clients.config.StorageClientSettings#newBuilder()Lorg/apache/bookkeeper/clients/config/StorageClientSettings$Builder;*>"<
+:org.apache.bookkeeper.clients.config.StorageClientSettingsŠ‡
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaë) ì(#H
+%7Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder"¥org.apache.bookkeeper.clients.config.StorageClientSettings_Builder#serviceUri(Ljava/lang/String;)Lorg/apache/bookkeeper/clients/config/StorageClientSettings$Builder;*J
+H
+%6Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder* 
+
+
+serviceUrijava.lang.String2serviceUri(Ljava/lang/String;)ÒÏ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaë) í(H
+%8Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder"–org.apache.bookkeeper.clients.config.StorageClientSettings_Builder#usePlaintext(Z)Lorg/apache/bookkeeper/clients/config/StorageClientSettings$Builder;*J
+H
+%7Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder*
+""2usePlaintext(Z)ª§
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaë) î(@
+%9:org.apache.bookkeeper.clients.config.StorageClientSettings"†org.apache.bookkeeper.clients.config.StorageClientSettings$Builder#build()Lorg/apache/bookkeeper/clients/config/StorageClientSettings;*J
+H
+%8Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder2build()œ
+™
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaë î(F
+settings:org.apache.bookkeeper.clients.config.StorageClientSettings"__id*B
+@
+%9:org.apache.bookkeeper.clients.config.StorageClientSettingsŸ
+œ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javaï ï(
+%10"__id*
+""À
+½
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.javağ ğ()!
+namespaceNamejava.lang.String"__id*	
+default*
+21*¤
+0 "œ
+„
+x/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/cluster/StreamCluster.java (
+implicit returnB64
+2org.apache.bookkeeper.stream.cluster.StreamCluster

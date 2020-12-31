@@ -1,0 +1,117 @@
+
+†org.apache.bookkeeper.client.UpdateLedgerOp#replaceBookieInEnsembles(Lorg/apache/bookkeeper/client/api/LedgerMetadata;Lorg/apache/bookkeeper/net/BookieSocketAddress;Lorg/apache/bookkeeper/net/BookieSocketAddress;)Lorg/apache/bookkeeper/client/api/LedgerMetadata;
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java£" £(:"5*
+2
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java§ §(C¯
+¬
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java§ §(C
+ejava.util.Map$Entry"__id*
+""Ì
+É
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java§ §(C
+ejava.util.Map$Entry"
+__arrayGet*
+
+%2java.util.Set*
+""*
+3
+1*ë
+3
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¨4 ¨(5òï
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¨4 ¨(@
+%3	!capture!"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+ejava.util.Map$Entry2
+getValue()ûø
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¨4 ¨(I
+%4java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%3	!capture!2stream()ÈÅ
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¨4 ©(B
+%5java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%4java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)Œ
+‰
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.javaª ª(, 
+%6java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÚ×
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¨4 ª(-
+%7java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%5java.util.stream.Stream*"
+ 
+%6java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)Ä
+Á
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¨ ª(.
+newEnsemblejava.util.List"__id*
+
+%7java.util.Listóğ
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java«) «(3
+%8java.lang.Long".java.util.Map$Entry#getKey()Ljava/lang/Object;*
+
+ejava.util.Map$Entry2getKey()õò
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java« «(A8
+%92org.apache.bookkeeper.client.LedgerMetadataBuilder"org.apache.bookkeeper.client.LedgerMetadataBuilder#replaceEnsembleEntry(JLjava/util/List;)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*?
+=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder*
+
+%8java.lang.Long*
+
+newEnsemblejava.util.List2'replaceEnsembleEntry(JLjava/util/List;)*
+2*Û
+4
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java§F §(NÒÏ
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java§F §(`
+%1java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()÷ô
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java§F §(k
+%2java.util.Set"-java.util.SortedMap#entrySet()Ljava/util/Set;*
+
+%1java.util.NavigableMap2
+entrySet()*
+2*ó
+5
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¦( ¦(=Ù
+Ö
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¦( ¦(L8
+%02org.apache.bookkeeper.client.LedgerMetadataBuilder"org.apache.bookkeeper.client.LedgerMetadataBuilder#from(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*6"4
+2org.apache.bookkeeper.client.LedgerMetadataBuilder*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadataˆ
+…
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java¦ ¦(M=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder"__id*:
+8
+%02org.apache.bookkeeper.client.LedgerMetadataBuilder*
+4*Á
+1
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java® ®(öó
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java® ®(6
+%10/org.apache.bookkeeper.client.api.LedgerMetadata"korg.apache.bookkeeper.client.LedgerMetadataBuilder#build()Lorg/apache/bookkeeper/client/api/LedgerMetadata;*?
+=
+builder2org.apache.bookkeeper.client.LedgerMetadataBuilder2build()"¾
+
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/UpdateLedgerOp.java® ®(8
+6
+%10/org.apache.bookkeeper.client.api.LedgerMetadata:;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata:<
+oldBookieId-org.apache.bookkeeper.net.BookieSocketAddress:<
+newBookieId-org.apache.bookkeeper.net.BookieSocketAddressB/"-
++org.apache.bookkeeper.client.UpdateLedgerOp

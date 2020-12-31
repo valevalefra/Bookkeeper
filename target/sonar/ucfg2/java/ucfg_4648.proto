@@ -1,0 +1,143 @@
+
+Íorg.apache.distributedlog.fs.DLFileSystem#create(Lorg/apache/hadoop/fs/Path;Lorg/apache/hadoop/fs/permission/FsPermission;ZISJLorg/apache/hadoop/util/Progressable;)Lorg/apache/hadoop/fs/FSDataOutputStream;‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java¾ ¾($"startingBlock*Œ
+2‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÇ Ç(óð
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÇ Ç(
+%0boolean"Oorg.apache.distributedlog.fs.DLFileSystem#delete(Lorg/apache/hadoop/fs/Path;Z)Z*-+
+)org.apache.distributedlog.fs.DLFileSystem*#
+!
+pathorg.apache.hadoop.fs.Path*
+""2$delete(Lorg/apache/hadoop/fs/Path;Z)*
+1*•
+startingBlock‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java¾$ Ä(?á
+Þ
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java½ ½(
+%11"
+__annotate*
+java.lang.Override*#
+!
+pathorg.apache.hadoop.fs.PathË
+È
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java¾* ¾(.!
+pathorg.apache.hadoop.fs.Path"__annotation*
+
+%11ü
+ù
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java½ ½(
+%12"
+__annotate*
+java.lang.Override*>
+<
+fsPermission,org.apache.hadoop.fs.permission.FsPermissionæ
+ã
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java¿2 ¿(><
+fsPermission,org.apache.hadoop.fs.permission.FsPermission"__annotation*
+
+%12ó
+ð
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java½ ½(
+%13"
+__annotate*
+java.lang.Override*5
+3
+progressable#org.apache.hadoop.util.ProgressableÝ
+Ú
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÄ2 Ä(>3
+progressable#org.apache.hadoop.util.Progressable"__annotation*
+
+%13*
+2
+1*‡#
+1‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÊ0 Ê(Q…‚
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÊ4 Ê(O;
+%15org.apache.distributedlog.DistributedLogConfiguration"5org.apache.distributedlog.DistributedLogConfiguration—
+”
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÊ0 Ê(Q
+%2"?org.apache.distributedlog.DistributedLogConfiguration#<init>()V*=
+;
+%15org.apache.distributedlog.DistributedLogConfigurationš
+—
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÊ Ê(RB
+	confLocal5org.apache.distributedlog.DistributedLogConfiguration"__id*=
+;
+%15org.apache.distributedlog.DistributedLogConfiguration
+Œ
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaË# Ë();
+%35org.apache.distributedlog.DistributedLogConfiguration"__id*9*7+
+)org.apache.distributedlog.fs.DLFileSystem"
+dlConfãà
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaË Ë(*
+
+%4void"{org.apache.commons.configuration.CompositeConfiguration#addConfiguration(Lorg/apache/commons/configuration/Configuration;)V*D
+B
+	confLocal5org.apache.distributedlog.DistributedLogConfiguration*=
+;
+%35org.apache.distributedlog.DistributedLogConfiguration2BaddConfiguration(Lorg/apache/commons/configuration/Configuration;)±®
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÌ Ì(.;
+%55org.apache.distributedlog.DistributedLogConfiguration"org.apache.distributedlog.DistributedLogConfiguration#setEnsembleSize(I)Lorg/apache/distributedlog/DistributedLogConfiguration;*D
+B
+	confLocal5org.apache.distributedlog.DistributedLogConfiguration*
+""2setEnsembleSize(I)¸µ
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÍ Í(1;
+%65org.apache.distributedlog.DistributedLogConfiguration"‚org.apache.distributedlog.DistributedLogConfiguration#setWriteQuorumSize(I)Lorg/apache/distributedlog/DistributedLogConfiguration;*D
+B
+	confLocal5org.apache.distributedlog.DistributedLogConfiguration*
+""2setWriteQuorumSize(I)´±
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÎ Î(/;
+%75org.apache.distributedlog.DistributedLogConfiguration"€org.apache.distributedlog.DistributedLogConfiguration#setAckQuorumSize(I)Lorg/apache/distributedlog/DistributedLogConfiguration;*D
+B
+	confLocal5org.apache.distributedlog.DistributedLogConfiguration*
+""2setAckQuorumSize(I)¾»
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÏ Ï(2;
+%85org.apache.distributedlog.DistributedLogConfiguration"…org.apache.distributedlog.DistributedLogConfiguration#setMaxLogSegmentBytes(J)Lorg/apache/distributedlog/DistributedLogConfiguration;*D
+B
+	confLocal5org.apache.distributedlog.DistributedLogConfiguration*
+""2setMaxLogSegmentBytes(J)È
+Å
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÐ( Ð(>
+%9java.util.Optional"=java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;*"
+java.util.Optional*D
+B
+	confLocal5org.apache.distributedlog.DistributedLogConfigurationÇ
+Ä
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÐ Ð(?.
+%10'org.apache.hadoop.fs.FSDataOutputStream"‹org.apache.distributedlog.fs.DLFileSystem#append(Lorg/apache/hadoop/fs/Path;ILjava/util/Optional;)Lorg/apache/hadoop/fs/FSDataOutputStream;*-+
+)org.apache.distributedlog.fs.DLFileSystem*#
+!
+pathorg.apache.hadoop.fs.Path*
+""*
+
+%9java.util.Optional"À
+‹
+/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÐ Ð(@0
+.
+%10'org.apache.hadoop.fs.FSDataOutputStream:!
+pathorg.apache.hadoop.fs.Path:<
+fsPermission,org.apache.hadoop.fs.permission.FsPermission:
+"":
+"":
+"":
+"":3
+progressable#org.apache.hadoop.util.ProgressableB-+
+)org.apache.distributedlog.fs.DLFileSystem

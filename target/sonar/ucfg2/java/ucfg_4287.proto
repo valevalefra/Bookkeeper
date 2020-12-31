@@ -1,0 +1,63 @@
+
+²org.apache.distributedlog.ReadUtils#asyncReadLastRecord(Ljava/lang/String;Lorg/apache/distributedlog/LogSegmentMetadata;ZZZIILjava/util/concurrent/atomic/AtomicInteger;Ljava/util/concurrent/ExecutorService;Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;)Ljava/util/concurrent/CompletableFuture;€
+v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaM7 M(J"1*¼
+1€
+v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaX+ X(Cú÷
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaX/ X(A;
+%05org.apache.distributedlog.selector.LastRecordSelector"5org.apache.distributedlog.selector.LastRecordSelectorŒ
+‰
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaX+ X(C
+%1"?org.apache.distributedlog.selector.LastRecordSelector#<init>()V*=
+;
+%05org.apache.distributedlog.selector.LastRecordSelector
+Š
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaX X(D@
+selector4org.apache.distributedlog.selector.LogRecordSelector"__id*=
+;
+%05org.apache.distributedlog.selector.LastRecordSelectorá
+Þ
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaY [(A,
+%2&java.util.concurrent.CompletableFuture"æorg.apache.distributedlog.ReadUtils#asyncReadRecord(Ljava/lang/String;Lorg/apache/distributedlog/LogSegmentMetadata;ZZZIILjava/util/concurrent/atomic/AtomicInteger;Ljava/util/concurrent/ExecutorService;Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;Lorg/apache/distributedlog/selector/LogRecordSelector;ZJ)Ljava/util/concurrent/CompletableFuture;*'"%
+#org.apache.distributedlog.ReadUtils* 
+
+
+streamNamejava.lang.String*3
+1
+l,org.apache.distributedlog.LogSegmentMetadata*
+""*
+""*
+""*
+""*
+""*@
+>
+numRecordsScanned)java.util.concurrent.atomic.AtomicInteger*9
+7
+executorService$java.util.concurrent.ExecutorService*I
+G
+
+entryStore9org.apache.distributedlog.logsegment.LogSegmentEntryStore*B
+@
+selector4org.apache.distributedlog.selector.LogRecordSelector*
+""*
+"""³
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaY [(B.
+,
+%2&java.util.concurrent.CompletableFuture:
+
+streamNamejava.lang.String:1
+l,org.apache.distributedlog.LogSegmentMetadata:
+"":
+"":
+"":
+"":
+"":>
+numRecordsScanned)java.util.concurrent.atomic.AtomicInteger:7
+executorService$java.util.concurrent.ExecutorService:G
+
+entryStore9org.apache.distributedlog.logsegment.LogSegmentEntryStoreB'"%
+#org.apache.distributedlog.ReadUtils

@@ -1,0 +1,619 @@
+
+Çorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler#channelRead(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaç ç("startingBlock*€
+13}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java™- ™(/‰·
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java™- ™(<%
+%30com.google.protobuf.ByteString"gorg.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage#getPayload()Lcom/google/protobuf/ByteString;*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2getPayload()˘ˆ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java™- ™(J
+%31byte[]".com.google.protobuf.ByteString#toByteArray()[B*'
+%
+%30com.google.protobuf.ByteString2toByteArray()¨
+©
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java™ ™(K
+payloadbyte[]"__id*
+
+%31byte[]è
+å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java´ ´((4
+%32-org.apache.bookkeeper.auth.ClientAuthProvider"__id*O*M;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler"
+authProvider√
+¿
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java´1 ´(H+
+%33$org.apache.bookkeeper.auth.AuthToken"Sorg.apache.bookkeeper.auth.AuthToken#wrap([B)Lorg/apache/bookkeeper/auth/AuthToken;*("&
+$org.apache.bookkeeper.auth.AuthToken*
+
+payloadbyte[]û
+õ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¨  ¨(3<
+%345org.apache.bookkeeper.auth.ClientAuthProvider$Factory"__id*V*T;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler"
+authProviderFactory≈¬
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¨  ¨(C
+%35java.lang.String"Worg.apache.bookkeeper.auth.ClientAuthProvider$Factory#getPluginName()Ljava/lang/String;*>
+<
+%345org.apache.bookkeeper.auth.ClientAuthProvider$Factory2getPluginName()ß§
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java´N ´(aT
+%36Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback"Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback¸
+˘
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java´J ¨(D
+%37"Ãorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback#<init>(Lorg/apache/bookkeeper/proto/AuthHandler$ClientSideHandler;Lio/netty/channel/ChannelHandlerContext;Ljava/lang/String;)V*V
+T
+%36Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback*/
+-
+ctx&io.netty.channel.ChannelHandlerContext*
+
+%35java.lang.String‘—
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java´ ¨(E
+%38void"òorg.apache.bookkeeper.auth.ClientAuthProvider#process(Lorg/apache/bookkeeper/auth/AuthToken;Lorg/apache/bookkeeper/auth/AuthCallbacks$GenericCallback;)V*6
+4
+%32-org.apache.bookkeeper.auth.ClientAuthProvider*-
++
+%33$org.apache.bookkeeper.auth.AuthToken*V
+T
+%36Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback2iprocess(Lorg/apache/bookkeeper/auth/AuthToken;Lorg/apache/bookkeeper/auth/AuthCallbacks$GenericCallback;)*
+0*‹
+14}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java£7 £(:´®
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java£7 £(D
+%21io.netty.channel.Channel"Jio.netty.channel.ChannelHandlerContext#channel()Lio/netty/channel/Channel;*/
+-
+ctx&io.netty.channel.ChannelHandlerContext2	channel()óî
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java£7 £(T
+%22java.net.SocketAddress"@io.netty.channel.Channel#remoteAddress()Ljava/net/SocketAddress;*!
+
+%21io.netty.channel.Channel2remoteAddress()À
+»
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java£  £(U 
+remotejava.net.SocketAddress"__id*
+
+%22java.net.SocketAddress©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java§  §(#
+%23org.slf4j.Logger"__id*
+""˜
+Ù
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java§) •(P
+%24java.lang.String"__concat*" 
+Authentication is not enabled.*,*
+(Considering this client {} authenticated”–
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java§  •(Y
+%25void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%23org.slf4j.Logger*
+
+%24java.lang.String*"
+ 
+remotejava.net.SocketAddress2*info(Ljava/lang/String;Ljava/lang/Object;)ª∏
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¶G ¶(d^
+%26Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback"Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback„
+‡
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¶C ¶(i
+%27"ƒorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback#<init>(Lorg/apache/bookkeeper/proto/AuthHandler$ClientSideHandler;Lio/netty/channel/ChannelHandlerContext;)V*`
+^
+%26Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback*/
+-
+ctx&io.netty.channel.ChannelHandlerContext…
+∆
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¶  ¶(j]
+cbWorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback"__id*`
+^
+%26Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallbackú
+ô
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaß5 ß(H
+
+%28int"__id*
+""´®
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaß  ß(O
+%29void"}org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback#operationComplete(ILjava/lang/Void;)V*_
+]
+cbWorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback*
+
+
+%28int*
+""2$operationComplete(ILjava/lang/Void;)"á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java®  ®('
+""*ñ
+15}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java†$ †((¥±
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java†$ †(:
+%16boolean"Jorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#hasAuthResponse()Z*A
+?
+resp7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2hasAuthResponse()£†
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java°@ °(VA
+%17:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage"Öorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#getAuthResponse()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$AuthMessage;*A
+?
+resp7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getAuthResponse()è
+å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java° °(W@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage"__id*C
+A
+%17:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¢  ¢(C
+%18java.lang.String"__id*
+""÷”
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¢K ¢(a
+%19java.lang.String"`org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage#getAuthPluginName()Ljava/lang/String;*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2getAuthPluginName()íè
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¢  ¢(b
+%20boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%18java.lang.String*
+
+%19java.lang.String2equals(Ljava/lang/Object;)*
+13
+14*î
+
+16}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaû û(/îë
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaû5 û(E@
+%139org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"~org.apache.bookkeeper.proto.BookkeeperProtocol$Response#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*A
+?
+resp7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getStatus()ß§
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaû5 û(Q
+
+%14int"Forg.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode#getNumber()I*B
+@
+%139org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2getNumber()»≈
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaû û(R
+%15void"yorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler#authenticationError(Lio/netty/channel/ChannelHandlerContext;I)V*=;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler*/
+-
+ctx&io.netty.channel.ChannelHandlerContext*
+
+
+%14int2>authenticationError(Lio/netty/channel/ChannelHandlerContext;I)*
+0*•	
+17}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaú ú(‘
+—
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaú ú(B
+%9<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"__id*
+""îë
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaù ù(,@
+%109org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"~org.apache.bookkeeper.proto.BookkeeperProtocol$Response#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*A
+?
+resp7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getStatus()“
+œ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaù0 ù(M@
+%119org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""“
+œ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaù0 ù(Q@
+%129org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""*
+15
+16*º
+18}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaô ô("‘
+—
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaô ô("B
+%7<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"__id*
+""⁄
+◊
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaö ö(3
+
+%8void"vio.netty.channel.ChannelInboundHandlerAdapter#channelRead(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V*
+""*/
+-
+ctx&io.netty.channel.ChannelHandlerContext*
+
+msgjava.lang.Object*
+0*ë
+19}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaï ï(®
+•
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaï ï(
+%4org.slf4j.Logger"__id*
+""™ß
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaï[ ï(h
+%5io.netty.channel.Channel"Jio.netty.channel.ChannelHandlerContext#channel()Lio/netty/channel/Channel;*/
+-
+ctx&io.netty.channel.ChannelHandlerContext2	channel()Æ´
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaï ï(i
+
+%6void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%4org.slf4j.Logger*97
+5dropping received malformed message {} from bookie {}*
+
+msgjava.lang.Object* 
+
+%5io.netty.channel.Channel2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+0*ú
+0 "î
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java“ “(	
+implicit return*Ì
+1}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∑I ∑(L‡
+›
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∑ ∑(M;
+resp3org.apache.bookkeeper.proto.BookieProtocol$Response"__id*
+
+msgjava.lang.Object*
+2
+8*ã
+2}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaÃ Ã(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaÃ Ã(
+%69org.slf4j.Logger"__id*
+""´®
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaÃQ Ã(^
+%70io.netty.channel.Channel"Jio.netty.channel.ChannelHandlerContext#channel()Lio/netty/channel/Channel;*/
+-
+ctx&io.netty.channel.ChannelHandlerContext2	channel()ß§
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaÃ Ã(_
+%71void"Norg.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%69org.slf4j.Logger*/-
++dropping received message {} from bookie {}*
+
+msgjava.lang.Object*!
+
+%70io.netty.channel.Channel2<warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+0*¿
+startingBlock}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaç ç(Fﬁ
+€
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaå å(
+%72"
+__annotate*
+java.lang.Override*/
+-
+ctx&io.netty.channel.ChannelHandlerContext»
+≈
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaç6 ç(9-
+ctx&io.netty.channel.ChannelHandlerContext"__annotation*
+
+%72»
+≈
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaå å(
+%73"
+__annotate*
+java.lang.Override*
+
+msgjava.lang.Object≤
+Ø
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaçB ç(E
+msgjava.lang.Object"__annotation*
+
+%73*
+23*⁄
+4}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∆) ∆(+‰·
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∆) ∆(8%
+%60com.google.protobuf.ByteString"gorg.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage#getPayload()Lcom/google/protobuf/ByteString;*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2getPayload()˘ˆ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∆) ∆(F
+%61byte[]".com.google.protobuf.ByteString#toByteArray()[B*'
+%
+%60com.google.protobuf.ByteString2toByteArray()¨
+©
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∆ ∆(G
+payloadbyte[]"__id*
+
+%61byte[]è
+å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java« «($4
+%62-org.apache.bookkeeper.auth.ClientAuthProvider"__id*O*M;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler"
+authProvider√
+¿
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java«- «(D+
+%63$org.apache.bookkeeper.auth.AuthToken"Sorg.apache.bookkeeper.auth.AuthToken#wrap([B)Lorg/apache/bookkeeper/auth/AuthToken;*("&
+$org.apache.bookkeeper.auth.AuthToken*
+
+payloadbyte[]û
+õ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java»  »(3<
+%645org.apache.bookkeeper.auth.ClientAuthProvider$Factory"__id*V*T;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler"
+authProviderFactory≈¬
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java»  »(C
+%65java.lang.String"Worg.apache.bookkeeper.auth.ClientAuthProvider$Factory#getPluginName()Ljava/lang/String;*>
+<
+%645org.apache.bookkeeper.auth.ClientAuthProvider$Factory2getPluginName()ß§
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java«J «(]T
+%66Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback"Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback¸
+˘
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java«F »(D
+%67"Ãorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback#<init>(Lorg/apache/bookkeeper/proto/AuthHandler$ClientSideHandler;Lio/netty/channel/ChannelHandlerContext;Ljava/lang/String;)V*V
+T
+%66Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback*/
+-
+ctx&io.netty.channel.ChannelHandlerContext*
+
+%65java.lang.String‘—
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java« »(E
+%68void"òorg.apache.bookkeeper.auth.ClientAuthProvider#process(Lorg/apache/bookkeeper/auth/AuthToken;Lorg/apache/bookkeeper/auth/AuthCallbacks$GenericCallback;)V*6
+4
+%62-org.apache.bookkeeper.auth.ClientAuthProvider*-
++
+%63$org.apache.bookkeeper.auth.AuthToken*V
+T
+%66Morg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthRequestCallback2iprocess(Lorg/apache/bookkeeper/auth/AuthToken;Lorg/apache/bookkeeper/auth/AuthCallbacks$GenericCallback;)*
+0*€
+5}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaø3 ø(6´®
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaø3 ø(@
+%51io.netty.channel.Channel"Jio.netty.channel.ChannelHandlerContext#channel()Lio/netty/channel/Channel;*/
+-
+ctx&io.netty.channel.ChannelHandlerContext2	channel()óî
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaø3 ø(P
+%52java.net.SocketAddress"@io.netty.channel.Channel#remoteAddress()Ljava/net/SocketAddress;*!
+
+%51io.netty.channel.Channel2remoteAddress()À
+»
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaø ø(Q 
+remotejava.net.SocketAddress"__id*
+
+%52java.net.SocketAddress©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¿ ¿(
+%53org.slf4j.Logger"__id*
+""˜
+Ù
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¿% ¡(P
+%54java.lang.String"__concat*" 
+Authentication is not enabled.*,*
+(Considering this client {} authenticated”–
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¿ ¡(Y
+%55void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%53org.slf4j.Logger*
+
+%54java.lang.String*"
+ 
+remotejava.net.SocketAddress2*info(Ljava/lang/String;Ljava/lang/Object;)ª∏
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¬C ¬(`^
+%56Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback"Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback„
+‡
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¬? ¬(e
+%57"ƒorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback#<init>(Lorg/apache/bookkeeper/proto/AuthHandler$ClientSideHandler;Lio/netty/channel/ChannelHandlerContext;)V*`
+^
+%56Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback*/
+-
+ctx&io.netty.channel.ChannelHandlerContext…
+∆
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¬ ¬(f]
+cbWorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback"__id*`
+^
+%56Worg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallbackú
+ô
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java√1 √(D
+
+%58int"__id*
+""´®
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java√ √(K
+%59void"}org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback#operationComplete(ILjava/lang/Void;)V*_
+]
+cbWorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler$AuthHandshakeCompleteCallback*
+
+
+%58int*
+""2$operationComplete(ILjava/lang/Void;)"á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaƒ ƒ(#
+""*‘
+6}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaΩ[ Ω(_õ
+ò
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaΩ< Ω(lA
+%47:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage"__id*N*L
+;
+resp3org.apache.bookkeeper.proto.BookieProtocol$Response"
+authMessageè
+å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaΩ Ω(m@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage"__id*C
+A
+%47:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaæ æ(?
+%48java.lang.String"__id*
+""÷”
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaæG æ(]
+%49java.lang.String"`org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage#getAuthPluginName()Ljava/lang/String;*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2getAuthPluginName()íè
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaæ æ(^
+%50boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%48java.lang.String*
+
+%49java.lang.String2equals(Ljava/lang/Object;)*
+4
+5*Ã
+7}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaª ª(+¬ø
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaª ª(@
+%46void"yorg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler#authenticationError(Lio/netty/channel/ChannelHandlerContext;I)V*=;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler*/
+-
+ctx&io.netty.channel.ChannelHandlerContext*
+""2>authenticationError(Lio/netty/channel/ChannelHandlerContext;I)*
+0*…
+8}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaπ π(#ù
+ö
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaπ π((
+%44byte"__id*
+""ú
+ô
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∫* ∫(<
+
+%45int"__id*
+""*
+6
+7*¿	
+20}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaìQ ì(T‰
+·
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaì ì(U?
+resp7org.apache.bookkeeper.proto.BookkeeperProtocol$Response"__id*
+
+msgjava.lang.Objectúô
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaî î(,C
+%2=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Çorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*A
+?
+resp7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getHeader()™ß
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaî î(;B
+%3<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"äorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getOperation()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;*E
+C
+%2=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2getOperation()*
+19
+10*‡
+10}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò ò( ùö
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò ò(,D
+%42=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Çorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*A
+?
+resp7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getHeader()¨©
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò ò(;C
+%43<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"äorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getOperation()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;*F
+D
+%42=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2getOperation()*
+17
+18
+11*Â
+22}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaë ë(⁄
+◊
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaë ë(+
+
+%1void"vio.netty.channel.ChannelInboundHandlerAdapter#channelRead(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V*
+""*/
+-
+ctx&io.netty.channel.ChannelHandlerContext*
+
+msgjava.lang.Object*
+0*å
+11}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∞ ∞(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∞ ∞(
+%39org.slf4j.Logger"__id*
+""´®
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∞U ∞(b
+%40io.netty.channel.Channel"Jio.netty.channel.ChannelHandlerContext#channel()Lio/netty/channel/Channel;*/
+-
+ctx&io.netty.channel.ChannelHandlerContext2	channel()ß§
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∞ ∞(c
+%41void"Norg.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%39org.slf4j.Logger*/-
++dropping received message {} from bookie {}*
+
+msgjava.lang.Object*!
+
+%40io.netty.channel.Channel2<warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+0*§
+23}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaé é( é
+ã
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaé é( 3
+%0-org.apache.bookkeeper.auth.ClientAuthProvider"__id*O*M;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler"
+authProvider*
+20
+22
+0
+1:-
+ctx&io.netty.channel.ChannelHandlerContext:
+msgjava.lang.ObjectB=;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler

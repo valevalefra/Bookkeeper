@@ -1,0 +1,91 @@
+
+¢org.apache.bookkeeper.proto.AuthHandler$ServerSideHandler#checkAuthPlugin(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$AuthMessage;Lio/netty/channel/Channel;)Z}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaó ó('"4*á
+2}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaô ô(®
+•
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaô ô(
+%5org.slf4j.Logger"__id*
+""Ö
+Ç
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaô ô(v
+%6java.lang.String"__concat*?=
+;Received message from incompatible auth plugin. Local = {},*
+ Remote = {}, Channel = {}ù
+ö
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaö ö(+;
+%75org.apache.bookkeeper.auth.BookieAuthProvider$Factory"__id*V*T;
+9org.apache.bookkeeper.proto.AuthHandler$ServerSideHandler"
+authProviderFactory√¿
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaö ö(;
+%8java.lang.String"Worg.apache.bookkeeper.auth.BookieAuthProvider$Factory#getPluginName()Ljava/lang/String;*=
+;
+%75org.apache.bookkeeper.auth.BookieAuthProvider$Factory2getPluginName()’“
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaö= ö(S
+%9java.lang.String"`org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage#getAuthPluginName()Ljava/lang/String;*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2getAuthPluginName()áÑ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaô ö(T
+%10void"Oorg.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%5org.slf4j.Logger*
+
+%6java.lang.String*
+
+%8java.lang.String*
+
+%9java.lang.String2=error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)"á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaõ õ(
+""*⁄
+
+3}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò, ò(.’“
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò, ò(B
+%1java.lang.String"`org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage#getAuthPluginName()Ljava/lang/String;*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2getAuthPluginName()ù
+ö
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaòJ ò(];
+%25org.apache.bookkeeper.auth.BookieAuthProvider$Factory"__id*V*T;
+9org.apache.bookkeeper.proto.AuthHandler$ServerSideHandler"
+authProviderFactory√¿
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaòJ ò(m
+%3java.lang.String"Worg.apache.bookkeeper.auth.BookieAuthProvider$Factory#getPluginName()Ljava/lang/String;*=
+;
+%25org.apache.bookkeeper.auth.BookieAuthProvider$Factory2getPluginName()èå
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò, ò(n
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+
+%3java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*»
+4}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò ò(ª∏
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaò ò('
+%0boolean"Oorg.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage#hasAuthPluginName()Z*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2hasAuthPluginName()*
+2
+3*å
+1}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaù ù("á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaù ù(
+"":@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage:
+srcio.netty.channel.ChannelB=;
+9org.apache.bookkeeper.proto.AuthHandler$ServerSideHandler

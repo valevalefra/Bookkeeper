@@ -1,0 +1,105 @@
+
+šorg.apache.bookkeeper.client.PendingReadOp$SequenceReadRequest#maybeSendSpeculativeRead(Ljava/util/BitSet;)Lorg/apache/bookkeeper/net/BookieSocketAddress;€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaí) í(A"startingBlock*Ø
+2€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaù ù(‘
+Ž
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaù ù(0
+%5*org.apache.bookkeeper.client.ClientContext"__id*Q*O@
+>org.apache.bookkeeper.client.PendingReadOp$SequenceReadRequest"
+	clientCtx÷ô
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaù ù(*8
+%62org.apache.bookkeeper.client.BookKeeperClientStats"oorg.apache.bookkeeper.client.ClientContext#getClientStats()Lorg/apache/bookkeeper/client/BookKeeperClientStats;*2
+0
+%5*org.apache.bookkeeper.client.ClientContext2getClientStats()ÿü
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaù ù(F)
+%7#org.apache.bookkeeper.stats.Counter"sorg.apache.bookkeeper.client.BookKeeperClientStats#getSpeculativeReadCounter()Lorg/apache/bookkeeper/stats/Counter;*:
+8
+%62org.apache.bookkeeper.client.BookKeeperClientStats2getSpeculativeReadCounter()òï
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaù ù(L
+
+%8void"*org.apache.bookkeeper.stats.Counter#inc()V*+
+)
+%7#org.apache.bookkeeper.stats.Counter2inc()Š
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaú ú(%3
+%9-org.apache.bookkeeper.net.BookieSocketAddress"|org.apache.bookkeeper.client.PendingReadOp$SequenceReadRequest#sendNextRead()Lorg/apache/bookkeeper/net/BookieSocketAddress;*B@
+>org.apache.bookkeeper.client.PendingReadOp$SequenceReadRequest2sendNextRead()"º
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaú ú(&5
+3
+%9-org.apache.bookkeeper.net.BookieSocketAddress*–	
+3€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaò ò(+Æ
+Ã
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaò ò(-
+%2java.util.BitSet"borg.apache.bookkeeper.client.PendingReadOp$SequenceReadRequest#getSentToBitSet()Ljava/util/BitSet;*B@
+>org.apache.bookkeeper.client.PendingReadOp$SequenceReadRequestÂ
+¿
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaò ò(.
+sentTojava.util.BitSet"__id*
+
+%2java.util.BitSet•’
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaó ó(!
+
+%3void")java.util.BitSet#and(Ljava/util/BitSet;)V*
+
+sentTojava.util.BitSet*
+
+	heardFromjava.util.BitSet2and(Ljava/util/BitSet;)ßÜ
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaø ø($	
+%4int"java.util.BitSet#cardinality()I*
+
+sentTojava.util.BitSet2cardinality()*
+2
+1*«
+startingBlock€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaíA í(SÒ
+Ï
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaì ì(
+%10"
+__annotate*
+java.lang.Override*
+
+	heardFromjava.util.BitSet¼
+¹
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaíI í(R
+	heardFromjava.util.BitSet"__annotation*
+
+%10*
+5*”
+4€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaï ï("‹
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaï ï(
+""*Â
+5€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaî î(*‡„
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaî. î(A5
+%0/org.apache.bookkeeper.client.api.LedgerMetadata"oorg.apache.bookkeeper.client.PendingReadOp#getLedgerMetadata()Lorg/apache/bookkeeper/client/api/LedgerMetadata;*B@
+>org.apache.bookkeeper.client.PendingReadOp$SequenceReadRequest2getLedgerMetadata()§¤
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaî. î(V	
+%1int"Eorg.apache.bookkeeper.client.api.LedgerMetadata#getWriteQuorumSize()I*7
+5
+%0/org.apache.bookkeeper.client.api.LedgerMetadata2getWriteQuorumSize()*
+3
+4*”
+1€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaü ü("‹
+€
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.javaü ü(
+"":
+	heardFromjava.util.BitSetBB@
+>org.apache.bookkeeper.client.PendingReadOp$SequenceReadRequest

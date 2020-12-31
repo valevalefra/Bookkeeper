@@ -1,0 +1,50 @@
+
+eorg.apache.bookkeeper.bookie.InterleavedLedgerStorage#getActiveLedgersInRange(JJ)Ljava/lang/Iterable;ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java„ „(1"1*Î
+1ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java‰> ‰(Kì
+ê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java‰> ‰(K,
+%0&org.apache.bookkeeper.util.SnapshotMap"__id*L*J7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+activeLedgers∂≥
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java‰> ‰(V
+%1java.util.NavigableMap"Iorg.apache.bookkeeper.util.SnapshotMap#snapshot()Ljava/util/NavigableMap;*.
+,
+%0&org.apache.bookkeeper.util.SnapshotMap2
+snapshot()Í
+Á
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java‰ ‰(W1
+bkActiveLedgersSnapshotjava.util.NavigableMap"__id*
+
+%1java.util.NavigableMapìê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÂ0 Ê(A
+%2java.util.NavigableMap"]java.util.NavigableMap#subMap(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableMap;*3
+1
+bkActiveLedgersSnapshotjava.util.NavigableMap*
+""*
+""*
+""*
+""2.subMap(Ljava/lang/Object;ZLjava/lang/Object;Z)‹
+Ÿ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÂ Ê(B#
+subBkActiveLedgersjava.util.Map"__id*
+
+%2java.util.NavigableMap˛˚
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaË Ë(*
+%3java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*%
+#
+subBkActiveLedgersjava.util.Map2keySet()"•
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaË Ë(+
+
+%3java.util.Set:
+"":
+""B97
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage

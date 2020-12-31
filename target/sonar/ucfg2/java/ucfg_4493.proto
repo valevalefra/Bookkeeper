@@ -1,0 +1,59 @@
+
+borg.apache.distributedlog.AppendOnlyStreamWriter#write([B)Ljava/util/concurrent/CompletableFuture;é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java0# 0(("1*Â
+1é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java1 1(ë
+é
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java2. 2(70
+%0*org.apache.distributedlog.BKAsyncLogWriter"__id*C*A2
+0org.apache.distributedlog.AppendOnlyStreamWriter"
+	logWriter‰·
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java2B 2(K)
+%1#org.apache.distributedlog.LogRecord"#org.apache.distributedlog.LogRecordì
+ê
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java2> 2(]
+%2"0org.apache.distributedlog.LogRecord#<init>(J[B)V*+
+)
+%1#org.apache.distributedlog.LogRecord*
+""*
+
+databyte[]“œ
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java2. 2(^,
+%3&java.util.concurrent.CompletableFuture"org.apache.distributedlog.BKAsyncLogWriter#write(Lorg/apache/distributedlog/LogRecord;)Ljava/util/concurrent/CompletableFuture;*2
+0
+%0*org.apache.distributedlog.BKAsyncLogWriter*+
+)
+%1#org.apache.distributedlog.LogRecord2,write(Lorg/apache/distributedlog/LogRecord;)Å
+˛
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java2 2(_5
+writeResult&java.util.concurrent.CompletableFuture"__id*.
+,
+%3&java.util.concurrent.CompletableFuture™ß
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java3, 3(AL
+%4Forg.apache.distributedlog.AppendOnlyStreamWriter$WriteCompleteListener"Forg.apache.distributedlog.AppendOnlyStreamWriter$WriteCompleteListener¯
+ı
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java3( 3(M
+%5"Éorg.apache.distributedlog.AppendOnlyStreamWriter$WriteCompleteListener#<init>(Lorg/apache/distributedlog/AppendOnlyStreamWriter;J)V*N
+L
+%4Forg.apache.distributedlog.AppendOnlyStreamWriter$WriteCompleteListener*
+""¯ı
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java3 3(N,
+%6&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*7
+5
+writeResult&java.util.concurrent.CompletableFuture*N
+L
+%4Forg.apache.distributedlog.AppendOnlyStreamWriter$WriteCompleteListener2-whenComplete(Ljava/util/function/BiConsumer;)"¡
+é
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamWriter.java3 3(O.
+,
+%6&java.util.concurrent.CompletableFuture:
+databyte[]B42
+0org.apache.distributedlog.AppendOnlyStreamWriter

@@ -1,0 +1,206 @@
+
+§org.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoCompare(Lorg/apache/bookkeeper/api/kv/op/CompareOp;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java»" »(0"2*Ú)
+2à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java…" …()Å
+˛
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java…" …(6?
+%09org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"yorg.apache.bookkeeper.stream.proto.kv.rpc.Compare#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*5"3
+1org.apache.bookkeeper.stream.proto.kv.rpc.Compare‰·
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java %  (13
+%1-org.apache.bookkeeper.api.kv.op.CompareTarget"aorg.apache.bookkeeper.api.kv.op.CompareOp#target()Lorg/apache/bookkeeper/api/kv/op/CompareTarget;*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2target()Ô
+Ï
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java   (2E
+%2?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget"≠org.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoTarget(Lorg/apache/bookkeeper/api/kv/op/CompareTarget;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareTarget;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*5
+3
+%1-org.apache.bookkeeper.api.kv.op.CompareTargetÌÍ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java…"  (3?
+%39org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"¡org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder#setTarget(Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareTarget;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*A
+?
+%09org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder*G
+E
+%2?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget2LsetTarget(Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareTarget;)‰·
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÀ% À(13
+%4-org.apache.bookkeeper.api.kv.op.CompareResult"aorg.apache.bookkeeper.api.kv.op.CompareOp#result()Lorg/apache/bookkeeper/api/kv/op/CompareResult;*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2result()Ô
+Ï
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÀ À(2E
+%5?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareResult"≠org.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoResult(Lorg/apache/bookkeeper/api/kv/op/CompareResult;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareResult;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*5
+3
+%4-org.apache.bookkeeper.api.kv.op.CompareResultÌÍ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java…" À(3?
+%69org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"¡org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder#setResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareResult;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*A
+?
+%39org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder*G
+E
+%5?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareResult2LsetResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareResult;)´®
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÃ Ã((
+%7io.netty.buffer.ByteBuf"Aorg.apache.bookkeeper.api.kv.op.CompareOp#key()Ljava/lang/Object;*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2key()˝
+˙
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÃ Ã()$
+%8com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*
+
+%7io.netty.buffer.ByteBufÑÅ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java…" Ã(*?
+%99org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"ùorg.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder#setKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*A
+?
+%69org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder*&
+$
+%8com.google.protobuf.ByteString2(setKey(Lcom/google/protobuf/ByteString;)ù
+ö
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java… Ã(+D
+builder9org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"__id*A
+?
+%99org.apache.bookkeeper.stream.proto.kv.rpc.Compare$BuilderÂ‚
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÕ Õ(4
+%10-org.apache.bookkeeper.api.kv.op.CompareTarget"aorg.apache.bookkeeper.api.kv.op.CompareOp#target()Lorg/apache/bookkeeper/api/kv/op/CompareTarget;*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2target()*
+6
+7
+8
+9
+1*©
+4à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‹ ‹(Å
+˛
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‹! ‹(2%
+%23com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*"
+ 
+valueio.netty.buffer.ByteBufèå
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‹ ‹(3@
+%249org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"üorg.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder#setValue(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*F
+D
+builder9org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder*'
+%
+%23com.google.protobuf.ByteString2*setValue(Lcom/google/protobuf/ByteString;)*
+1*ä
+5à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java⁄ ⁄($ô
+ñ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java⁄ ⁄(?
+%22io.netty.buffer.ByteBuf"Cio.netty.buffer.Unpooled#wrappedBuffer([B)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+""ÿ
+’
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java⁄ ⁄(? 
+valueio.netty.buffer.ByteBuf"__id* 
+
+%22io.netty.buffer.ByteBuf*
+4*˘
+6à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java◊ ◊(“
+œ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java◊ ◊(4
+%20-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""∞≠
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÿ  ÿ(+
+%21io.netty.buffer.ByteBuf"Corg.apache.bookkeeper.api.kv.op.CompareOp#value()Ljava/lang/Object;*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2value()ÿ
+’
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÿ ÿ(, 
+valueio.netty.buffer.ByteBuf"__id* 
+
+%21io.netty.buffer.ByteBuf*
+4
+5*…
+7à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‘ ‘(“
+œ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‘ ‘(4
+%17-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""íè
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java’* ’(8
+%18long"5org.apache.bookkeeper.api.kv.op.CompareOp#revision()J*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2
+revision()…∆
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java’ ’(9@
+%199org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"âorg.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder#setCreateRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*F
+D
+builder9org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder*
+
+%18long2setCreateRevision(J)*
+1*√
+8à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java— —(“
+œ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java— —(4
+%14-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""íè
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java“' “(5
+%15long"5org.apache.bookkeeper.api.kv.op.CompareOp#revision()J*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2
+revision()√¿
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java“ “(6@
+%169org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"Üorg.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder#setModRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*F
+D
+builder9org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder*
+
+%15long2setModRevision(J)*
+1*ª
+9à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaŒ Œ(“
+œ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaŒ Œ(4
+%11-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""íè
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaœ# œ(1
+%12long"5org.apache.bookkeeper.api.kv.op.CompareOp#revision()J*2
+0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOp2
+revision()ª∏
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaœ œ(2@
+%139org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder"Çorg.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder#setVersion(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$Builder;*F
+D
+builder9org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder*
+
+%12long2setVersion(J)*
+1*‰
+1à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java· ·("”
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java· ·(F
+D
+builder9org.apache.bookkeeper.stream.proto.kv.rpc.Compare$Builder:0
+cmp)org.apache.bookkeeper.api.kv.op.CompareOpB1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils

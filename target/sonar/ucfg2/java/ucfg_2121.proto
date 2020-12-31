@@ -1,0 +1,124 @@
+
+µorg.apache.distributedlog.BKLogHandler#asyncGetLogRecordCount(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/DLSN;)Ljava/util/concurrent/CompletableFuture;Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‘$ ‘(:"8*Ç	
+2Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaË Ë()¢ü
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaË= Ë(T	
+%8int">org.apache.distributedlog.LogSegmentMetadata#getRecordCount()I*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata2getRecordCount()î
+ë
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaË Ë(h,
+%9&java.util.concurrent.CompletableFuture"∂org.apache.distributedlog.BKLogHandler#asyncGetLogRecordCount(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/DLSN;J)Ljava/util/concurrent/CompletableFuture;**(
+&org.apache.distributedlog.BKLogHandler*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata*-
++
+	beginDLSNorg.apache.distributedlog.DLSN*
+	
+%8int"∏
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaË Ë(i.
+,
+%9&java.util.concurrent.CompletableFuture*µ
+3Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÁ Á(üú
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÁ Á(8
+%7boolean"corg.apache.distributedlog.LogSegmentMetadata#isDLSNinThisSegment(Lorg/apache/distributedlog/DLSN;)Z*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata*-
++
+	beginDLSNorg.apache.distributedlog.DLSN25isDLSNinThisSegment(Lorg/apache/distributedlog/DLSN;)*
+2
+1*·	
+4Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‡ ‡(*Å˛
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‡ ‡(2,
+%5&java.util.concurrent.CompletableFuture"ñorg.apache.distributedlog.BKLogHandler#asyncReadLastUserRecord(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;**(
+&org.apache.distributedlog.BKLogHandler*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata2GasyncReadLastUserRecord(Lorg/apache/distributedlog/LogSegmentMetadata;)îë
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‡ Ê(,
+%6&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%5&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)"∏
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‡ Ê(.
+,
+%6&java.util.concurrent.CompletableFuture*∏
+5Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaﬂ ﬂ(¢ü
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaﬂ ﬂ((
+%4boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+3
+4*Â	
+6Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java÷ ÷(*Å˛
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java÷ ÷(2,
+%2&java.util.concurrent.CompletableFuture"ñorg.apache.distributedlog.BKLogHandler#asyncReadLastUserRecord(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;**(
+&org.apache.distributedlog.BKLogHandler*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata2GasyncReadLastUserRecord(Lorg/apache/distributedlog/LogSegmentMetadata;)òï
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java÷ ﬁ(,
+%3&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%2&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"∏
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java÷ ﬁ(.
+,
+%3&java.util.concurrent.CompletableFuture*µ
+7Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java’% ’(+üú
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java’% ’(J
+%1boolean"corg.apache.distributedlog.LogSegmentMetadata#isDLSNinThisSegment(Lorg/apache/distributedlog/DLSN;)Z*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata*-
++
+	beginDLSNorg.apache.distributedlog.DLSN25isDLSNinThisSegment(Lorg/apache/distributedlog/DLSN;)*
+5
+6*∏
+8Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java’ ’(¢ü
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java’ ’(!
+%0boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+5
+7*Ë
+1Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÍ Í(£†
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÍ, Í(C
+
+%10int">org.apache.distributedlog.LogSegmentMetadata#getRecordCount()I*8
+6
+ledger,org.apache.distributedlog.LogSegmentMetadata2getRecordCount()¯
+ı
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÍ Í(D-
+%11&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*
+
+
+%10int"π
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÍ Í(E/
+-
+%11&java.util.concurrent.CompletableFuture:6
+ledger,org.apache.distributedlog.LogSegmentMetadata:+
+	beginDLSNorg.apache.distributedlog.DLSNB*(
+&org.apache.distributedlog.BKLogHandler

@@ -1,0 +1,287 @@
+
+Åorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy#onClusterChanged(Ljava/util/Set;Ljava/util/Set;)Ljava/util/Set;ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÄ$ Ä(4"startingBlock*Ô
+13ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaè è(#ƒ¡
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaè è(2
+%14void"korg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy#handleBookiesThatJoined(Ljava/util/Set;)V*EC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy*9
+7
+joinedBookies&com.google.common.collect.ImmutableSet2(handleBookiesThatJoined(Ljava/util/Set;)*
+6
+11*Ê
+14ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaé é(!æª
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaé é(.
+%13void"iorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy#handleBookiesThatLeft(Ljava/util/Set;)V*EC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy*7
+5
+leftBookies&com.google.common.collect.ImmutableSet2&handleBookiesThatLeft(Ljava/util/Set;)*
+13*æ	
+15ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaã ã(Wå
+â
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaã ã(W5
+deadBookies&com.google.common.collect.ImmutableSet"__id*/
+-
+%10&com.google.common.collect.ImmutableSet≈
+¬
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaå å(
+%11org.slf4j.Logger"__id*
+""øº
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaå ç(<
+%12void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%11org.slf4j.Logger*\Z
+XCluster changed : left bookies are {}, joined bookies are {}, while dead bookies are {}.*7
+5
+leftBookies&com.google.common.collect.ImmutableSet*9
+7
+joinedBookies&com.google.common.collect.ImmutableSet*7
+5
+deadBookies&com.google.common.collect.ImmutableSet2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+14*ñ
+16ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaã ã(WÓÎ
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaã ã(W-
+%10&com.google.common.collect.ImmutableSet"^com.google.common.collect.Sets$SetView#immutableCopy()Lcom/google/common/collect/ImmutableSet;*.
+,
+%9&com.google.common.collect.Sets$SetView2immutableCopy()*
+15*¯
+17ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaâ â(Zç
+ä
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaâ â(Z7
+joinedBookies&com.google.common.collect.ImmutableSet"__id*.
+,
+%8&com.google.common.collect.ImmutableSet¿
+Ω
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaã ã(G,
+%9&com.google.common.collect.Sets$SetView"qcom.google.common.collect.Sets#difference(Ljava/util/Set;Ljava/util/Set;)Lcom/google/common/collect/Sets$SetView;*"" 
+com.google.common.collect.Sets*7
+5
+leftBookies&com.google.common.collect.ImmutableSet*"
+ 
+readOnlyBookiesjava.util.Set*
+16*ï
+18ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaâ â(ZÌÍ
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaâ â(Z,
+%8&com.google.common.collect.ImmutableSet"^com.google.common.collect.Sets$SetView#immutableCopy()Lcom/google/common/collect/ImmutableSet;*.
+,
+%7&com.google.common.collect.Sets$SetView2immutableCopy()*
+17*ﬁ
+19ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaá á(Xã
+à
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaá á(X5
+leftBookies&com.google.common.collect.ImmutableSet"__id*.
+,
+%6&com.google.common.collect.ImmutableSet®
+•
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaâ â(J,
+%7&com.google.common.collect.Sets$SetView"qcom.google.common.collect.Sets#difference(Ljava/util/Set;Ljava/util/Set;)Lcom/google/common/collect/Sets$SetView;*"" 
+com.google.common.collect.Sets*"
+ 
+writableBookiesjava.util.Set*
+
+oldBookieSetjava.util.Set*
+18*ı
+2ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaó ó("‘
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaó ó(7
+5
+deadBookies&com.google.common.collect.ImmutableSet*’
+3ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaî î(KØ
+¨
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaî î(KXC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"
+readOnlyBookies"__id*/
+-
+%21&com.google.common.collect.ImmutableSet*
+2*ƒ
+startingBlockò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÄ4 Å(5Ì
+Í
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaˇ ˇ(
+%25"
+__annotate*
+java.lang.Override*"
+ 
+writableBookiesjava.util.Set◊
+‘
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÄN Ä(] 
+writableBookiesjava.util.Set"__annotation*
+
+%25Ì
+Í
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaˇ ˇ(
+%26"
+__annotate*
+java.lang.Override*"
+ 
+readOnlyBookiesjava.util.Set◊
+‘
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÅ% Å(4 
+readOnlyBookiesjava.util.Set"__annotation*
+
+%26*
+23*≤
+4ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaî' î(3å
+â
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaî' î(K-
+%21&com.google.common.collect.ImmutableSet"mcom.google.common.collect.ImmutableSet#copyOf(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableSet;**"(
+&com.google.common.collect.ImmutableSet*"
+ 
+readOnlyBookiesjava.util.Set*
+3*†
+6ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaì ì( ˜Ù
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaì ì(*
+%20boolean"java.util.Set#isEmpty()Z*"
+ 
+readOnlyBookiesjava.util.Set2	isEmpty()*
+2
+4*Ô
+7ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaë ë(ø
+º
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaë ë(&;
+%174org.apache.bookkeeper.client.WeightedRandomSelection"__id*\*ZC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"
+weightedSelectionî
+ë
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaë1 ë(C
+%18java.util.Map"__id*X*VC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"
+bookieInfoMapÌ
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaë ë(D
+%19void"Porg.apache.bookkeeper.client.WeightedRandomSelection#updateMap(Ljava/util/Map;)V*=
+;
+%174org.apache.bookkeeper.client.WeightedRandomSelection*
+
+%18java.util.Map2updateMap(Ljava/util/Map;)*
+6*º
+9ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaê> ê(Kìê
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaê> ê(R
+
+%16int"$java.util.AbstractCollection#size()I*9
+7
+joinedBookies&com.google.common.collect.ImmutableSet2size()*
+6
+7*ï
+20ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaá á(XÌÍ
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaá á(X,
+%6&com.google.common.collect.ImmutableSet"^com.google.common.collect.Sets$SetView#immutableCopy()Lcom/google/common/collect/ImmutableSet;*.
+,
+%5&com.google.common.collect.Sets$SetView2immutableCopy()*
+19*≠
+21ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÖ Ö(J⁄
+◊
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÖ Ö(J
+oldBookieSetjava.util.Set"__id*
+
+%4java.util.Set®
+•
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaá á(H,
+%5&com.google.common.collect.Sets$SetView"qcom.google.common.collect.Sets#difference(Ljava/util/Set;Ljava/util/Set;)Lcom/google/common/collect/Sets$SetView;*"" 
+com.google.common.collect.Sets*
+
+oldBookieSetjava.util.Set*"
+ 
+writableBookiesjava.util.Set*
+20*Ï
+
+22ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÑ Ñ(<Â
+‚
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÑ Ñ(<7
+joinedBookies&com.google.common.collect.ImmutableSet"__id*
+""„
+‡
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÑ Ñ(I5
+leftBookies&com.google.common.collect.ImmutableSet"__id*
+""„
+‡
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÑ Ñ(V5
+deadBookies&com.google.common.collect.ImmutableSet"__id*
+""í
+è
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÖ4 Ö(@
+%3java.util.Map"__id*W*UC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"
+knownBookies˚¯
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÖ4 Ö(I
+%4java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
+
+%3java.util.Map2keySet()*
+21*ª
+11ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaê$ ê(/ëé
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaê$ ê(6
+
+%15int"$java.util.AbstractCollection#size()I*7
+5
+leftBookies&com.google.common.collect.ImmutableSet2size()*
+7
+9*ø	
+23ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÇ Ç(∞
+≠
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÇ Ç(7
+%01java.util.concurrent.locks.ReentrantReadWriteLock"__id*Q*OC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"
+rwLock•¢
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÇ Ç(A
+%1;java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock"zjava.util.concurrent.locks.ReentrantReadWriteLock#writeLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;*9
+7
+%01java.util.concurrent.locks.ReentrantReadWriteLock2writeLock()ºπ
+ò
+ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy.javaÇ Ç(!
+
+%2void"Cjava.util.concurrent.locks.ReentrantReadWriteLock$WriteLock#lock()V*C
+A
+%1;java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock2lock()*
+22: 
+writableBookiesjava.util.Set: 
+readOnlyBookiesjava.util.SetBEC
+Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy

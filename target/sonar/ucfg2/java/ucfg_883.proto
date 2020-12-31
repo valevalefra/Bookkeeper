@@ -1,0 +1,64 @@
+
+worg.apache.bookkeeper.common.router.StringUtf8HashRouter#getRoutingKeyData(Ljava/lang/String;)Lio/netty/buffer/ByteBuf;ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java* *($"startingBlock*µ
+startingBlockˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java*$ *(0Ó
+Ð
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java) )(
+%5"
+__annotate*
+java.lang.Override*
+
+keyjava.lang.String½
+º
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java*, *(/
+keyjava.lang.String"__annotation*
+
+%5*
+1*ê
+1ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java+ +(Ú×
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java+ +(!	
+%0int"java.lang.String#length()I*
+
+keyjava.lang.String2length()Ê
+Ç
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java, ,(7,
+%1&io.netty.buffer.PooledByteBufAllocator"__id*
+""½º
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java, ,(F
+%2io.netty.buffer.ByteBuf"Kio.netty.buffer.AbstractByteBufAllocator#buffer(I)Lio/netty/buffer/ByteBuf;*.
+,
+%1&io.netty.buffer.PooledByteBufAllocator*
+""2	buffer(I)Ø
+Õ
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java, ,(G!
+keyBufio.netty.buffer.ByteBuf"__id*
+
+%2io.netty.buffer.ByteBuf¼
+¹
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java-& -(+
+%3java.nio.charset.Charset"__id*
+""¢Ÿ
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java- -(,	
+%4int"^io.netty.buffer.ByteBuf#writeCharSequence(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)I*#
+!
+keyBufio.netty.buffer.ByteBuf*
+
+keyjava.lang.String* 
+
+%3java.nio.charset.Charset2EwriteCharSequence(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)"°
+ˆ
+~/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/router/StringUtf8HashRouter.java. .(#
+!
+keyBufio.netty.buffer.ByteBuf:
+keyjava.lang.StringB<:
+8org.apache.bookkeeper.common.router.StringUtf8HashRouter

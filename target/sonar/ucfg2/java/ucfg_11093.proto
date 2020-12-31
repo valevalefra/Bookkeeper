@@ -1,0 +1,110 @@
+
+´org.apache.bookkeeper.common.component.ComponentStarter#startComponent(Lorg/apache/bookkeeper/common/component/LifecycleComponent;)Ljava/util/concurrent/CompletableFuture;å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.java@* @(8"1*÷-
+1å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaA) A(BËÂ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaA- A(@,
+%0&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFuture˙
+˜
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaA) A(B
+%1"0java.util.concurrent.CompletableFuture#<init>()V*.
+,
+%0&java.util.concurrent.CompletableFuture˙
+˜
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaA A(C0
+future&java.util.concurrent.CompletableFuture"__id*.
+,
+%0&java.util.concurrent.CompletableFuture∂≥
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaC C(%S
+%2Morg.apache.bookkeeper.common.component.ComponentStarter$ComponentShutdownHook"Morg.apache.bookkeeper.common.component.ComponentStarter$ComponentShutdownHook™
+ß
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaC C(8
+%3"∫org.apache.bookkeeper.common.component.ComponentStarter$ComponentShutdownHook#<init>(Lorg/apache/bookkeeper/common/component/LifecycleComponent;Ljava/util/concurrent/CompletableFuture;)V*U
+S
+%2Morg.apache.bookkeeper.common.component.ComponentStarter$ComponentShutdownHook*H
+F
+	component9org.apache.bookkeeper.common.component.LifecycleComponent*2
+0
+future&java.util.concurrent.CompletableFutureºπ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaB. B(4
+%4java.lang.Thread"java.lang.ThreadÍ
+Á
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaB* E(	
+%5"@java.lang.Thread#<init>(Ljava/lang/Runnable;Ljava/lang/String;)V*
+
+%4java.lang.Thread*U
+S
+%2Morg.apache.bookkeeper.common.component.ComponentStarter$ComponentShutdownHook*
+component-shutdown-thread⁄
+◊
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaB E(
+&
+shutdownHookThreadjava.lang.Thread"__id*
+
+%4java.lang.Threadı
+Ú
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaH H(
+%6java.lang.Runtime"1java.lang.Runtime#getRuntime()Ljava/lang/Runtime;*"
+java.lang.Runtime¿Ω
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaH H(@
+
+%7void"6java.lang.Runtime#addShutdownHook(Ljava/lang/Thread;)V*
+
+%6java.lang.Runtime*(
+&
+shutdownHookThreadjava.lang.Thread2#addShutdownHook(Ljava/lang/Thread;)Ø¨
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaK P(
+
+
+%8void"{org.apache.bookkeeper.common.component.LifecycleComponent#setExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V*H
+F
+	component9org.apache.bookkeeper.common.component.LifecycleComponent*
+""2@setExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)ñì
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaR" R(8C
+%9=org.apache.bookkeeper.common.component.ComponentInfoPublisher"=org.apache.bookkeeper.common.component.ComponentInfoPublisher©
+¶
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaR R(:
+%10"Gorg.apache.bookkeeper.common.component.ComponentInfoPublisher#<init>()V*E
+C
+%9=org.apache.bookkeeper.common.component.ComponentInfoPublisheràÖ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaR R(;
+%11void"áorg.apache.bookkeeper.common.component.LifecycleComponent#publishInfo(Lorg/apache/bookkeeper/common/component/ComponentInfoPublisher;)V*H
+F
+	component9org.apache.bookkeeper.common.component.LifecycleComponent*E
+C
+%9=org.apache.bookkeeper.common.component.ComponentInfoPublisher2LpublishInfo(Lorg/apache/bookkeeper/common/component/ComponentInfoPublisher;)◊‘
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaT+ T(>
+%12java.lang.String"Uorg.apache.bookkeeper.common.component.LifecycleComponent#getName()Ljava/lang/String;*H
+F
+	component9org.apache.bookkeeper.common.component.LifecycleComponent2	getName()∂≥
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaU U(
+%13void"Borg.apache.bookkeeper.common.component.LifecycleComponent#start()V*H
+F
+	component9org.apache.bookkeeper.common.component.LifecycleComponent2start()◊‘
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaV* V(=
+%14java.lang.String"Uorg.apache.bookkeeper.common.component.LifecycleComponent#getName()Ljava/lang/String;*H
+F
+	component9org.apache.bookkeeper.common.component.LifecycleComponent2	getName()"√
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/component/ComponentStarter.javaW W(2
+0
+future&java.util.concurrent.CompletableFuture:F
+	component9org.apache.bookkeeper.common.component.LifecycleComponentB;"9
+7org.apache.bookkeeper.common.component.ComponentStarter

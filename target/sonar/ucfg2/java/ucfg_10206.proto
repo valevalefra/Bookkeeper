@@ -1,0 +1,81 @@
+
+Yorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase#complete()Zí
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÕ Õ("3*Á
+2í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java– –(æ
+ª
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java– –(
+%2org.slf4j.Logger"__id*
+""“œ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java– –(d
+
+%3void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%2org.slf4j.Logger*LJ
+HNo valid entry is found in entry log after scan, removing entry log now.2info(Ljava/lang/String;)’
+“
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java— —("J
+%4Dorg.apache.bookkeeper.bookie.AbstractLogCompactor$LogRemovalListener"__id*i*gO
+Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase"
+logRemovalListener¥
+±
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java—2 —(:3
+%5-org.apache.bookkeeper.bookie.EntryLogMetadata"__id*_*]O
+Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase"
+
+metadata¨©
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java—2 —(J
+
+%6long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*5
+3
+%5-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()ÏÈ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java— —(K
+
+%7void"Worg.apache.bookkeeper.bookie.AbstractLogCompactor$LogRemovalListener#removeEntryLog(J)V*L
+J
+%4Dorg.apache.bookkeeper.bookie.AbstractLogCompactor$LogRemovalListener*
+
+
+%6long2removeEntryLog(J)≤
+Ø
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java“ “(.
+%8(org.apache.bookkeeper.bookie.EntryLogger"__id*b*`O
+Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase"
+entryLogger¥±
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java“ “(4
+
+%9void"Borg.apache.bookkeeper.bookie.EntryLogger#removeCurCompactionLog()V*0
+.
+%8(org.apache.bookkeeper.bookie.EntryLogger2removeCurCompactionLog()"ù
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java” ”(
+""*ü
+3í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaŒ Œ(î
+ë
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaŒ Œ(
+%0java.util.List"__id*^*\O
+Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase"	
+offsetsÂ‚
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaŒ Œ(!
+%1boolean"java.util.List#isEmpty()Z*
+
+%0java.util.List2	isEmpty()*
+2
+1*∏
+1í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java’ ’("ù
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java’ ’(
+""BQO
+Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase

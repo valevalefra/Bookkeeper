@@ -1,0 +1,45 @@
+
+forg.apache.bookkeeper.bookie.Bookie#fenceLedger(J[B)Lcom/google/common/util/concurrent/SettableFuture;y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java‡# ‡(."1*Õ
+1y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java‰" ‰()ì
+é
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java‰" ‰()0
+%0*org.apache.bookkeeper.bookie.HandleFactory"__id*4*2%
+#org.apache.bookkeeper.bookie.Bookie"	
+handles€ý
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java‰" ‰(H3
+%1-org.apache.bookkeeper.bookie.LedgerDescriptor"horg.apache.bookkeeper.bookie.HandleFactory#getHandle(J[B)Lorg/apache/bookkeeper/bookie/LedgerDescriptor;*2
+0
+%0*org.apache.bookkeeper.bookie.HandleFactory*
+""*
+
+	masterKeybyte[]2getHandle(J[B)ô
+ñ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java‰ ‰(I7
+handle-org.apache.bookkeeper.bookie.LedgerDescriptor"__id*5
+3
+%1-org.apache.bookkeeper.bookie.LedgerDescriptor´
+±
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaŠ+ Š(?*
+%2$org.apache.bookkeeper.bookie.Journal"Worg.apache.bookkeeper.bookie.Bookie#getJournal(J)Lorg/apache/bookkeeper/bookie/Journal;*'%
+#org.apache.bookkeeper.bookie.Bookie*
+""üù
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaŠ Š(@6
+%30com.google.common.util.concurrent.SettableFuture"œorg.apache.bookkeeper.bookie.LedgerDescriptor#fenceAndLogInJournal(Lorg/apache/bookkeeper/bookie/Journal;)Lcom/google/common/util/concurrent/SettableFuture;*9
+7
+handle-org.apache.bookkeeper.bookie.LedgerDescriptor*,
+*
+%2$org.apache.bookkeeper.bookie.Journal2<fenceAndLogInJournal(Lorg/apache/bookkeeper/bookie/Journal;)"µ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaŠ Š(A8
+6
+%30com.google.common.util.concurrent.SettableFuture:
+"":
+	masterKeybyte[]B'%
+#org.apache.bookkeeper.bookie.Bookie

@@ -1,0 +1,67 @@
+
+×org.apache.bookkeeper.client.BookKeeper#initializeEnsemblePlacementPolicy(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lorg/apache/bookkeeper/net/DNSToSwitchMapping;Lio/netty/util/HashedWheelTimer;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy;}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaª$ ª(E"7*Â
+3}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java² ³(9"½
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java² ³(9<
+:
+%34org.apache.bookkeeper.client.EnsemblePlacementPolicy*Û
+4}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java³ ³(ÑÎ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java² ³(8:
+%34org.apache.bookkeeper.client.EnsemblePlacementPolicy"³org.apache.bookkeeper.client.EnsemblePlacementPolicy#initialize(Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/Optional;Lio/netty/util/HashedWheelTimer;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy;*
+
+%1	!capture!*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*
+
+%2java.util.Optional*)
+'
+timerio.netty.util.HashedWheelTimer*B
+@
+featureProvider-org.apache.bookkeeper.feature.FeatureProvider*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger2Èinitialize(Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/Optional;Lio/netty/util/HashedWheelTimer;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/bookkeeper/stats/StatsLogger;)*
+3*Ä
+5}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java²E ²(Iº
+·
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java²K ²(u
+%2java.util.Optional"Ejava.util.Optional#ofNullable(Ljava/lang/Object;)Ljava/util/Optional;*"
+java.util.Optional*=
+;
+dnsResolver,org.apache.bookkeeper.net.DNSToSwitchMapping*
+4*š
+6}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java± ±(c¿
+¼
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java± ±(c
+	policyClsjava.lang.Class"__id*
+
+%0java.lang.ClassÎ
+Ë
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java² ²(9
+%1	!capture!"borg.apache.bookkeeper.common.util.ReflectionUtils#newInstance(Ljava/lang/Class;)Ljava/lang/Object;*5"3
+1org.apache.bookkeeper.common.util.ReflectionUtils*
+
+	policyClsjava.lang.Class*
+5*Ù
+7}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java±A ±(EÏÌ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java±A ±(b
+%0java.lang.Class"\org.apache.bookkeeper.conf.ClientConfiguration#getEnsemblePlacementPolicy()Ljava/lang/Class;*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getEnsemblePlacementPolicy()*
+6:6
+conf.org.apache.bookkeeper.conf.ClientConfiguration:;
+dnsResolver,org.apache.bookkeeper.net.DNSToSwitchMapping:'
+timerio.netty.util.HashedWheelTimer:@
+featureProvider-org.apache.bookkeeper.feature.FeatureProvider:6
+statsLogger'org.apache.bookkeeper.stats.StatsLoggerB+)
+'org.apache.bookkeeper.client.BookKeeper

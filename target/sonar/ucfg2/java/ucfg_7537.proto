@@ -1,0 +1,39 @@
+
+†org.apache.bookkeeper.client.LedgerMetadataUtils#getLastEnsembleKey(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)Ljava/lang/Long;„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaG G(""1*‰
+1„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaH H(ÕÒ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaH H(1
+%0java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()ÞÛ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaH H(;
+%1boolean"java.util.Map#isEmpty()Z*
+
+%0java.util.NavigableMap2	isEmpty()Ê
+Ç
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaH H(r
+
+%2void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+""*64
+2Metadata should never be created with no ensemblesÕÒ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaI I()
+%3java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()üù
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaI I(3
+%4java.lang.Long"/java.util.SortedMap#lastKey()Ljava/lang/Object;*
+
+%3java.util.NavigableMap2	lastKey()"Ÿ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaI I(4
+
+%4java.lang.Long:;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadataB4"2
+0org.apache.bookkeeper.client.LedgerMetadataUtils

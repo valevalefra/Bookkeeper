@@ -1,0 +1,163 @@
+
+åorg.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl#put(Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;Lorg/apache/bookkeeper/api/kv/options/PutOption;)Ljava/util/concurrent/CompletableFuture;–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javas: s(="startingBlock*ñ
+startingBlock–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javas= v(Xê
+ç
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javar r(
+%13"
+__annotate*
+java.lang.Override*!
+
+pKeyio.netty.buffer.ByteBufÔ
+Ñ
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javasF s(J
+pKeyio.netty.buffer.ByteBuf"__annotation*
+
+%13ê
+ç
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javar r(
+%14"
+__annotate*
+java.lang.Override*!
+
+lKeyio.netty.buffer.ByteBufÔ
+Ñ
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javatF t(J
+lKeyio.netty.buffer.ByteBuf"__annotation*
+
+%14ë
+è
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javar r(
+%15"
+__annotate*
+java.lang.Override*"
+ 
+valueio.netty.buffer.ByteBufÕ
+Ò
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javauF u(K 
+valueio.netty.buffer.ByteBuf"__annotation*
+
+%15ƒ
+€
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javar r(
+%16"
+__annotate*
+java.lang.Override*:
+8
+option.org.apache.bookkeeper.api.kv.options.PutOptioní
+ê
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javavQ v(W8
+option.org.apache.bookkeeper.api.kv.options.PutOption"__annotation*
+
+%16*
+1*‚0
+1–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaw w(£ 
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaw w(
+%0io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*!
+
+pKeyio.netty.buffer.ByteBuf2retain()£ 
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javax x(
+%1io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*!
+
+lKeyio.netty.buffer.ByteBuf2retain()¤¡
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javay y(
+%2io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*"
+ 
+valueio.netty.buffer.ByteBuf2retain()ö
+ó
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java{ {(6B
+%3<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder"Ýorg.apache.bookkeeper.clients.impl.kv.KvUtils#newPutRequest(Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;Lorg/apache/bookkeeper/api/kv/options/PutOption;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest$Builder;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*!
+
+lKeyio.netty.buffer.ByteBuf*"
+ 
+valueio.netty.buffer.ByteBuf*:
+8
+option.org.apache.bookkeeper.api.kv.options.PutOptionô
+ñ
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java| |(1E
+%4?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder"©org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl#newRoutingHeader(Lio/netty/buffer/ByteBuf;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;*@>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl*!
+
+pKeyio.netty.buffer.ByteBuf‡„
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java{ |(2B
+%5<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder"Çorg.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder#setHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest$Builder;*D
+B
+%3<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder*G
+E
+%4?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder2LsetHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;)£ 
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java{ }(:
+%64org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest"zorg.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest;*D
+B
+%5<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder2build()¿
+¼
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java (J
+%7Dorg.apache.bookkeeper.clients.impl.container.StorageContainerChannel"__id*O*M>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl"
+	scChannel©
+¦
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java€ €(3
+%8-java.util.concurrent.ScheduledExecutorService"__id*N*L>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl"
+
+executor±
+®
+˜
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.java (6
+%90org.apache.bookkeeper.common.util.Backoff$Policy"__id*S*Q>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl"
+backoffPolicy™
+–
+—
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaz ‚(	@
+%109org.apache.bookkeeper.clients.impl.kv.PutRequestProcessor"óorg.apache.bookkeeper.clients.impl.kv.PutRequestProcessor#of(Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest;Ljava/util/function/Function;Lorg/apache/bookkeeper/clients/impl/container/StorageContainerChannel;Ljava/util/concurrent/ScheduledExecutorService;Lorg/apache/bookkeeper/common/util/Backoff$Policy;)Lorg/apache/bookkeeper/clients/impl/kv/PutRequestProcessor;*=";
+9org.apache.bookkeeper.clients.impl.kv.PutRequestProcessor*<
+:
+%64org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest*
+""*L
+J
+%7Dorg.apache.bookkeeper.clients.impl.container.StorageContainerChannel*5
+3
+%8-java.util.concurrent.ScheduledExecutorService*8
+6
+%90org.apache.bookkeeper.common.util.Backoff$PolicyŒ
+—
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaz ‚(-
+%11&java.util.concurrent.CompletableFuture"rorg.apache.bookkeeper.clients.utils.ListenableFutureRpcProcessor#process()Ljava/util/concurrent/CompletableFuture;*B
+@
+%109org.apache.bookkeeper.clients.impl.kv.PutRequestProcessor2	process()²¯
+—
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaz †(
+-
+%12&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%11&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)"Ë
+—
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaz †(/
+-
+%12&java.util.concurrent.CompletableFuture:
+pKeyio.netty.buffer.ByteBuf:
+lKeyio.netty.buffer.ByteBuf: 
+valueio.netty.buffer.ByteBuf:8
+option.org.apache.bookkeeper.api.kv.options.PutOptionB@>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl

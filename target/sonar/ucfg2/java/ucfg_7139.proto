@@ -1,0 +1,245 @@
+
+Borg.apache.bookkeeper.bookie.Journal$ForceWriteRequest#process(Z)Iz
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÒ Ò("22*∆
+13z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÅ Å(ã
+à
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÅ Å(7
+%160org.apache.bookkeeper.bookie.Journal$LastLogMark"__id*K*I8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+lastLogMarkØ¨
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÅ Å(O
+%17void"Corg.apache.bookkeeper.bookie.Journal$LastLogMark#setCurLogMark(JJ)V*9
+7
+%160org.apache.bookkeeper.bookie.Journal$LastLogMark*
+""*
+""2setCurLogMark(JJ)*
+11*◊
+14z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaˇT ˇ(\≥
+∞
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaˇT ˇ(h$
+%14java.util.concurrent.TimeUnit"__id*
+""òï
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˛ ˇ(i
+%15void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%12)org.apache.bookkeeper.stats.OpStatsLogger*
+
+%13long*&
+$
+%14java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
+13*å
+15z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaˇ1 ˇ(:É
+Ä
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaˇ1 ˇ(R
+%13long"<org.apache.bookkeeper.common.util.MathUtils#elapsedNanos(J)J*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+""*
+14*ã
+16z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˛ ˛( ã
+à
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˛ ˛( 6
+%11/org.apache.bookkeeper.bookie.stats.JournalStats"__id*L*J8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+journalStatsÙÒ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˛ ˛(60
+%12)org.apache.bookkeeper.stats.OpStatsLogger"porg.apache.bookkeeper.bookie.stats.JournalStats#getJournalSyncStats()Lorg/apache/bookkeeper/stats/OpStatsLogger;*8
+6
+%11/org.apache.bookkeeper.bookie.stats.JournalStats2getJournalSyncStats()*
+15*°
+17z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¸ ¸(;Å
+˛
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˝ ˝( 1
+%9+org.apache.bookkeeper.bookie.JournalChannel"__id*G*E8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"	
+logFileîë
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˝ ˝(2
+%10void":org.apache.bookkeeper.bookie.JournalChannel#forceWrite(Z)V*3
+1
+%9+org.apache.bookkeeper.bookie.JournalChannel*
+""2forceWrite(Z)*
+16*ˇ
+18z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¸% ¸(.ˆ
+Û
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¸% ¸(:
+
+%8long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+17*Ü
+2z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaå å(0"Ñ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaå å(0
+""*û
+3z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaå å((ù
+ö
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaå å((C
+%27<org.apache.bookkeeper.common.collections.RecyclableArrayList"__id*Q*O8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+forceWriteWaiters˜Ù
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaå å(/
+
+%28int"java.util.ArrayList#size()I*E
+C
+%27<org.apache.bookkeeper.common.collections.RecyclableArrayList2size()*
+2*ı
+5z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaâ â(>ÌÍ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaâ â(>
+%26void"*org.apache.bookkeeper.stats.Counter#inc()V*,
+*
+%25#org.apache.bookkeeper.stats.Counter2inc()*
+11*Å
+6z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaâ â( ã
+à
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaâ â( 6
+%24/org.apache.bookkeeper.bookie.stats.JournalStats"__id*L*J8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+journalStatsÏÈ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaâ â(8*
+%25#org.apache.bookkeeper.stats.Counter"lorg.apache.bookkeeper.bookie.stats.JournalStats#getJournalCbQueueSize()Lorg/apache/bookkeeper/stats/Counter;*8
+6
+%24/org.apache.bookkeeper.bookie.stats.JournalStats2getJournalCbQueueSize()*
+5*€
+7z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaá á($Ä
+˝
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaá á($+
+%22$java.util.concurrent.ExecutorService"__id*L*J8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+cbThreadPool—Œ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaá á(0
+%23void"<java.util.concurrent.Executor#execute(Ljava/lang/Runnable;)V*-
++
+%22$java.util.concurrent.ExecutorService*7
+5
+qe/org.apache.bookkeeper.bookie.Journal$QueueEntry2execute(Ljava/lang/Runnable;)*
+6*Ä
+8z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÖ Ö(=ˆ
+Û
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÖ Ö(=5
+qe/org.apache.bookkeeper.bookie.Journal$QueueEntry"__id*8
+6
+%21/org.apache.bookkeeper.bookie.Journal$QueueEntry*
+6
+7*„
+9z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÖ$ Ö(5ù
+ö
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÖ$ Ö(5C
+%20<org.apache.bookkeeper.common.collections.RecyclableArrayList"__id*Q*O8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+forceWriteWaitersºπ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÖ$ Ö(<6
+%21/org.apache.bookkeeper.bookie.Journal$QueueEntry",java.util.ArrayList#get(I)Ljava/lang/Object;*E
+C
+%20<org.apache.bookkeeper.common.collections.RecyclableArrayList*
+""2get(I)*
+8*á
+21z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˜ ˜("Ñ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java˜ ˜(
+""*œ
+22z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÚ Ú(ä
+á
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÚ Ú(5
+%0/org.apache.bookkeeper.bookie.stats.JournalStats"__id*L*J8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+journalStatsÏÈ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÚ Ú(1)
+%1#org.apache.bookkeeper.stats.Counter"morg.apache.bookkeeper.bookie.stats.JournalStats#getForceWriteQueueSize()Lorg/apache/bookkeeper/stats/Counter;*7
+5
+%0/org.apache.bookkeeper.bookie.stats.JournalStats2getForceWriteQueueSize()ÎË
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÚ Ú(7
+
+%2void"*org.apache.bookkeeper.stats.Counter#dec()V*+
+)
+%1#org.apache.bookkeeper.stats.Counter2dec()ä
+á
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÛ Û(5
+%3/org.apache.bookkeeper.bookie.stats.JournalStats"__id*L*J8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+journalStatsˆÛ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÛ Û(0/
+%4)org.apache.bookkeeper.stats.OpStatsLogger"rorg.apache.bookkeeper.bookie.stats.JournalStats#getFwEnqueueTimeStats()Lorg/apache/bookkeeper/stats/OpStatsLogger;*7
+5
+%3/org.apache.bookkeeper.bookie.stats.JournalStats2getFwEnqueueTimeStats()Ç
+ˇ
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÙ) Ù(L
+
+%5long"<org.apache.bookkeeper.common.util.MathUtils#elapsedNanos(J)J*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+""≤
+Ø
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÙN Ù(b#
+%6java.util.concurrent.TimeUnit"__id*
+""îë
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÛ Ù(c
+
+%7void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*1
+/
+%4)org.apache.bookkeeper.stats.OpStatsLogger*
+
+
+%5long*%
+#
+%6java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
+13
+18
+21*¢
+11z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÑ  Ñ(!ù
+ö
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÑ$ Ñ(5C
+%18<org.apache.bookkeeper.common.collections.RecyclableArrayList"__id*Q*O8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
+forceWriteWaiters˜Ù
+z
+n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÑ$ Ñ(<
+
+%19int"java.util.ArrayList#size()I*E
+C
+%18<org.apache.bookkeeper.common.collections.RecyclableArrayList2size()*
+3
+9:
+""B:8
+6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest

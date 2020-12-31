@@ -1,0 +1,266 @@
+
+Çorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#deleteNamespace(Ljava/lang/String;Lorg/apache/bookkeeper/stream/proto/NamespaceMetadata;)Ljava/util/concurrent/CompletableFuture;ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java§/ §(>"2"1*©
+2ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java© ©(Ü
+Ù
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaª ª(4P
+%0Jorg.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse$Builder"›org.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/storage/DeleteNamespaceResponse$Builder;*F"D
+Borg.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponseï
+ì
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java« «(;;
+%15org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
+""¥¢
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaª «(<P
+%2Jorg.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse$Builder"×org.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/storage/DeleteNamespaceResponse$Builder;*R
+P
+%0Jorg.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse$Builder*=
+;
+%15org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)äá
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaª ¬(H
+%3Borg.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse"–org.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/storage/DeleteNamespaceResponse;*R
+P
+%2Jorg.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse$Builder2build()Î
+Ë
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java© ¬(,
+%4&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*J
+H
+%3Borg.apache.bookkeeper.stream.proto.storage.DeleteNamespaceResponse"Ñ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java© ¬(.
+,
+%4&java.util.concurrent.CompletableFuture*¦b
+1ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¯ ¯(.À
+½
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¯ ¯(.
+%5byte[]"__id*
+""Œ
+‰
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¯ ¯(6
+%6byte[]"oorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#getNamespaceNameKey(Ljava/lang/String;)[B*I"G
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
+
+nsNamejava.lang.StringÏ
+Ì
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¯ ¯(7
+	nsNameKeybyte[]"__id*
+
+%6byte[]À
+½
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java° °(*
+%7byte[]"__id*
+""­ª
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java°+ °(@<
+%86org.apache.bookkeeper.stream.proto.NamespaceProperties"worg.apache.bookkeeper.stream.proto.NamespaceMetadata#getProps()Lorg/apache/bookkeeper/stream/proto/NamespaceProperties;*D
+B
+
+nsMetadata4org.apache.bookkeeper.stream.proto.NamespaceMetadata2
+getProps()ÌÉ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java°+ °(Q
+
+%9long"Horg.apache.bookkeeper.stream.proto.NamespaceProperties#getNamespaceId()J*>
+<
+%86org.apache.bookkeeper.stream.proto.NamespaceProperties2getNamespaceId()ê
+ç
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java° °(R
+%10byte[]"\org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#getNamespaceIdKey(J)[B*I"G
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
+
+
+%9longÎ
+Ë
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java° °(S
+nsIdKeybyte[]"__id*
+
+%10byte[]Á
+¾
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java± ±(0
+%11byte[]"__id*
+""®«
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java±1 ±(F=
+%126org.apache.bookkeeper.stream.proto.NamespaceProperties"worg.apache.bookkeeper.stream.proto.NamespaceMetadata#getProps()Lorg/apache/bookkeeper/stream/proto/NamespaceProperties;*D
+B
+
+nsMetadata4org.apache.bookkeeper.stream.proto.NamespaceMetadata2
+getProps()ÎË
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java±1 ±(W
+%13long"Horg.apache.bookkeeper.stream.proto.NamespaceProperties#getNamespaceId()J*?
+=
+%126org.apache.bookkeeper.stream.proto.NamespaceProperties2getNamespaceId()î
+ë
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java± ±(X
+%14byte[]"_org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#getNamespaceIdEndKey(J)[B*I"G
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
+
+%13longÑ
+Î
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java± ±(Y
+
+nsIdEndKeybyte[]"__id*
+
+%14byte[]¿
+¼
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java´& ´(+=
+%156org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*T*RG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl"
+store“
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java´& ´(43
+%16,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"morg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newTxn()Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*?
+=
+%156org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2newTxn()¿
+¼
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¶ ¶(=
+%176org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*T*RG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl"
+storeè
+å
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¶& ¶(=4
+%18-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""š
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¶ ¶(O0
+%19)org.apache.bookkeeper.api.kv.op.CompareOp"Æorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newCompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*?
+=
+%176org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*6
+4
+%18-org.apache.bookkeeper.api.kv.op.CompareResult*
+
+	nsNameKeybyte[]*
+""2dnewCompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)¿
+¼
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java· ·(=
+%206org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*T*RG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl"
+storeè
+å
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java·& ·(=4
+%21-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""›˜
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java· ·(M0
+%22)org.apache.bookkeeper.api.kv.op.CompareOp"Æorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newCompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*?
+=
+%206org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*6
+4
+%21-org.apache.bookkeeper.api.kv.op.CompareResult*
+
+nsIdKeybyte[]*
+""2dnewCompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)¸µ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java´& ¸(3
+%23,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"‹org.apache.bookkeeper.api.kv.op.TxnOpBuilder#If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*5
+3
+%16,org.apache.bookkeeper.api.kv.op.TxnOpBuilder*2
+0
+%19)org.apache.bookkeeper.api.kv.op.CompareOp*2
+0
+%22)org.apache.bookkeeper.api.kv.op.CompareOp20If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)¿
+¼
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaº º(=
+%246org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*T*RG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl"
+storeÌÉ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaº º(*/
+%25(org.apache.bookkeeper.api.kv.op.DeleteOp"~org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newDelete(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/DeleteOp;*?
+=
+%246org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*
+
+	nsNameKeybyte[]2newDelete(Ljava/lang/Object;)¿
+¼
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java» »(=
+%266org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*T*RG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl"
+store‘Ž
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java» »(9/
+%27(org.apache.bookkeeper.api.kv.op.DeleteOp"•org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newDeleteRange(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/DeleteOp;*?
+=
+%266org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*
+
+nsIdKeybyte[]*
+
+
+nsIdEndKeybyte[]24newDeleteRange(Ljava/lang/Object;Ljava/lang/Object;)¬©
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java´& ¼(3
+%28,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"†org.apache.bookkeeper.api.kv.op.TxnOpBuilder#Then([Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*5
+3
+%23,org.apache.bookkeeper.api.kv.op.TxnOpBuilder*1
+/
+%25(org.apache.bookkeeper.api.kv.op.DeleteOp*1
+/
+%27(org.apache.bookkeeper.api.kv.op.DeleteOp2+Then([Lorg/apache/bookkeeper/api/kv/op/Op;)ïì
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java´& ½(,
+%29%org.apache.bookkeeper.api.kv.op.TxnOp"[org.apache.bookkeeper.api.kv.op.TxnOpBuilder#build()Lorg/apache/bookkeeper/api/kv/op/TxnOp;*5
+3
+%28,org.apache.bookkeeper.api.kv.op.TxnOpBuilder2build()Š
+‡
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java´ ½(.
+txnOp%org.apache.bookkeeper.api.kv.op.TxnOp"__id*.
+,
+%29%org.apache.bookkeeper.api.kv.op.TxnOp¿
+¼
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¿ ¿(=
+%306org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*T*RG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl"
+store‹ˆ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¿ ¿(-
+%31&java.util.concurrent.CompletableFuture"”org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStoreWriteView#txn(Lorg/apache/bookkeeper/api/kv/op/TxnOp;)Ljava/util/concurrent/CompletableFuture;*?
+=
+%306org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*0
+.
+txnOp%org.apache.bookkeeper.api.kv.op.TxnOp2,txn(Lorg/apache/bookkeeper/api/kv/op/TxnOp;)¯¬
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¿ Ì(
+-
+%32&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%31&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)¹¶
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¿ Ì(7-
+%33&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%32&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)"Ò
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java¿ Ì(8/
+-
+%33&java.util.concurrent.CompletableFuture:
+nsNamejava.lang.String:B
+
+nsMetadata4org.apache.bookkeeper.stream.proto.NamespaceMetadataBIG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl

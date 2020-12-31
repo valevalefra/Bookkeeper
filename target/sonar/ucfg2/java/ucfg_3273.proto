@@ -1,0 +1,102 @@
+
+©org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore#deleteLogSegment(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java|1 |(A"startingBlock*∫
+2†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÄ Ä(å
+â
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÄ Ä(-
+bk'org.apache.bookkeeper.client.BookKeeper"__id*/
+-
+%3'org.apache.bookkeeper.client.BookKeeper*
+1*∑
+startingBlockû
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java|A |(]â
+Ü
+û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java{ {(
+%8"
+__annotate*
+java.lang.Override*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadataÛ
+
+û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java|U |(\7
+segment,org.apache.distributedlog.LogSegmentMetadata"__annotation*
+
+%8*
+6*…
+5†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÄ Ä(≠
+™
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÄ Ä(0
+%2*org.apache.distributedlog.BookKeeperClient"__id*M*KB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+bkcÎË
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÄ Ä(-
+%3'org.apache.bookkeeper.client.BookKeeper"Yorg.apache.distributedlog.BookKeeperClient#get()Lorg/apache/bookkeeper/client/BookKeeper;*2
+0
+%2*org.apache.distributedlog.BookKeeperClient2get()*
+2*ø
+6û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java}F }(Mﬁ€
+û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java}. }(E^
+%0Xorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"Xorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest⁄
+◊
+û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java}* }(N
+%1"êorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest#<init>(Lorg/apache/distributedlog/LogSegmentMetadata;)V*`
+^
+%0Xorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadataÒ
+Ó
+û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java} }(Oc
+requestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"__id*`
+^
+%0Xorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest·
+ﬁ
+û
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java~ ~(-
+bk'org.apache.bookkeeper.client.BookKeeper"__id*
+""*
+5*®
+1†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÑ Ñ(
+¡æ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÑ Ñ(6
+
+%5long"?org.apache.distributedlog.LogSegmentMetadata#getLogSegmentId()J*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentId()éã
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÑ Ñ(F
+
+%6void"äorg.apache.bookkeeper.client.BookKeeper#asyncDeleteLedger(JLorg/apache/bookkeeper/client/AsyncCallback$DeleteCallback;Ljava/lang/Object;)V*/
+-
+bk'org.apache.bookkeeper.client.BookKeeper*
+
+
+%5long*DB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore*e
+c
+requestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest2aasyncDeleteLedger(JLorg/apache/bookkeeper/client/AsyncCallback$DeleteCallback;Ljava/lang/Object;)‘
+—
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÖ Ö($,
+%7&java.util.concurrent.CompletableFuture"__id*x*v
+c
+requestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"
+deletePromise"”
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÖ Ö(%.
+,
+%7&java.util.concurrent.CompletableFuture:7
+segment,org.apache.distributedlog.LogSegmentMetadataBDB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore

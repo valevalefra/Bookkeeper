@@ -1,0 +1,55 @@
+
+òorg.apache.bookkeeper.clients.impl.kv.RangeRequestProcessor#sendRPC(Lorg/apache/bookkeeper/clients/impl/channel/StorageServerChannel;Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest;)Lcom/google/common/util/concurrent/ListenableFuture;•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaQ. Q(5"startingBlock*Ê	
+startingBlock•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaQ5 R(K•
+’
+•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaP P(
+%2"
+__annotate*
+java.lang.Override*N
+L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannelÿ
+ü
+•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaQK Q(TL
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__annotation*
+
+%2Š
+‡
+•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaP P(
+%3"
+__annotate*
+java.lang.Override*C
+A
+request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequestô
+ñ
+•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaRC R(JA
+request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest"__annotation*
+
+%3*
+1*ô
+1•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaS S(þû
+•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaS S(*W
+%0Qorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub"¤org.apache.bookkeeper.clients.impl.channel.StorageServerChannel#getTableService()Lorg/apache/bookkeeper/stream/proto/kv/rpc/TableServiceGrpc$TableServiceFutureStub;*N
+L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel2getTableService()þû
+•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaS S(98
+%12com.google.common.util.concurrent.ListenableFuture"Åorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub#range(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest;)Lcom/google/common/util/concurrent/ListenableFuture;*Y
+W
+%0Qorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub*C
+A
+request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2?range(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest;)"Ô
+•
+Š/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessor.javaS S(::
+8
+%12com.google.common.util.concurrent.ListenableFuture:L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel:A
+request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequestB?=
+;org.apache.bookkeeper.clients.impl.kv.RangeRequestProcessor

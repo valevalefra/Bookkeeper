@@ -1,0 +1,173 @@
+
+„org.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksdbCheckpointTask#finalizeCheckpoint(Ljava/lang/String;Ljava/io/File;[B)V¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java² ²(#"11*ö
+2¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÂ Â(:ÇÄ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÂ Â(:
+%13byte[]"7com.google.protobuf.AbstractMessageLite#toByteArray()[B*G
+E
+%12>org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata2toByteArray()*
+1*ÿ
+3¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÁ Á(Sè
+å
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÁ Á(S
+osjava.io.OutputStream"__id*
+
+%11java.io.OutputStreamåâ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÂ Â(,E
+%12>org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata"org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/store/CheckpointMetadata;*[
+Y
+metadataBuilderForg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder2build()*
+2*â
+4¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÁ Á(.Ú
+×
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÁ Á(.D
+%10=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore"__id*e*cN
+Lorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksdbCheckpointTask"
+checkpointStoreÖÓ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÁ Á(S
+%11java.io.OutputStream"xorg.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore#openOutputStream(Ljava/lang/String;)Ljava/io/OutputStream;*F
+D
+%10=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore*(
+&
+destCheckpointPathjava.lang.String2$openOutputStream(Ljava/lang/String;)*
+3*™
+5¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¾ ¾(ğ
+í
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¾% ¾(?
+
+%6long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System’
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¾ ¾(@L
+%7Forg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder"org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder#setCreatedAt(J)Lorg/apache/bookkeeper/stream/proto/kv/store/CheckpointMetadata$Builder;*[
+Y
+metadataBuilderForg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder*
+
+
+%6long2setCreatedAt(J)¥
+¢
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÀM À(U
+%8java.lang.String"__id*^*\N
+Lorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksdbCheckpointTask"
+
+dbPrefixÈ
+Å
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÀ$ À(d
+%9java.lang.String"Œorg.apache.bookkeeper.statelib.impl.rocksdb.RocksUtils#getDestCheckpointMetadataPath(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*:"8
+6org.apache.bookkeeper.statelib.impl.rocksdb.RocksUtils*
+
+%8java.lang.String*"
+ 
+checkpointIdjava.lang.Stringï
+ì
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÀ À(e&
+destCheckpointPathjava.lang.String"__id*
+
+%9java.lang.String*
+4*ø
+6¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¼ ¼(æ
+ã
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¼$ ¼(I$
+%4com.google.protobuf.ByteString"Wcom.google.protobuf.UnsafeByteOperations#unsafeWrap([B)Lcom/google/protobuf/ByteString;*,"*
+(com.google.protobuf.UnsafeByteOperations*
+
+txidbyte[]àİ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¼ ¼(JL
+%5Forg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder"¸org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder#setTxid(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/store/CheckpointMetadata$Builder;*[
+Y
+metadataBuilderForg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder*&
+$
+%4com.google.protobuf.ByteString2)setTxid(Lcom/google/protobuf/ByteString;)*
+5*ï
+8¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¸ ¸(Ë
+È
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¸ ¸(
+filejava.io.File"__id*
+""ì
+é
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¸ ¸(
+filejava.io.File"
+__arrayGet*
+
+filesjava.io.File[]*
+""*	
+5
+6
+9*ö
+9¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¹ ¹(Œ‰
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¹% ¹(3
+%2java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()¸µ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java¹ ¹(4L
+%3Forg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder"«org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder#addFiles(Ljava/lang/String;)Lorg/apache/bookkeeper/stream/proto/kv/store/CheckpointMetadata$Builder;*[
+Y
+metadataBuilderForg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder*
+
+%2java.lang.String2addFiles(Ljava/lang/String;)*
+8*Ô
+11¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaµ µ(&–“
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaµ µ(2
+%0java.io.File[]"'java.io.File#listFiles()[Ljava/io/File;*!
+
+checkpointedDirjava.io.File2listFiles()Ş
+Û
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaµ µ(3
+filesjava.io.File[]"__id*
+
+%0java.io.File[]Ï
+Ì
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java·5 ·(TL
+%1Forg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder"“org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/store/CheckpointMetadata$Builder;*B"@
+>org.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadataØ
+Õ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.java· ·(UY
+metadataBuilderForg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder"__id*N
+L
+%1Forg.apache.bookkeeper.stream.proto.kv.store.CheckpointMetadata$Builder*
+8*Á
+0 "¹
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÄ Ä(
+implicit return*¾
+1¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÂ Â(;Œ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/RocksdbCheckpointTask.javaÂ Â(;
+%14void"java.io.OutputStream#write([B)V*
+
+osjava.io.OutputStream*
+
+%13byte[]2	write([B)*
+0: 
+checkpointIdjava.lang.String:
+checkpointedDirjava.io.File:
+txidbyte[]BPN
+Lorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksdbCheckpointTask

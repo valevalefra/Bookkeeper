@@ -1,0 +1,811 @@
+
+üorg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck#accept(Lorg/apache/bookkeeper/versioning/Versioned;Ljava/lang/Throwable;)V
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaø ø("startingBlock*ﬂ
+24
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÏ% Ï(/ŒÀ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÏ2 Ï(A
+
+%42int"java.util.List#size()I*
+
+segmentsjava.util.List2size()*
+3
+23*∂,
+25
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java›" ›(*¨©
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java›" ›(?
+
+%25int"Eorg.apache.bookkeeper.client.api.LedgerMetadata#getWriteQuorumSize()I*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getWriteQuorumSize()®•
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaﬁ  ﬁ(;
+
+%26int"Corg.apache.bookkeeper.client.api.LedgerMetadata#getAckQuorumSize()I*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAckQuorumSize()¶£
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaﬂ ﬂ(9
+
+%27int"Borg.apache.bookkeeper.client.api.LedgerMetadata#getEnsembleSize()I*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getEnsembleSize()ÖÇ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java‡F ‡(dB
+%28;org.apache.bookkeeper.client.RoundRobinDistributionSchedule";org.apache.bookkeeper.client.RoundRobinDistributionSchedule≥
+∞
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java‡B ·(0
+%29"Horg.apache.bookkeeper.client.RoundRobinDistributionSchedule#<init>(III)V*D
+B
+%28;org.apache.bookkeeper.client.RoundRobinDistributionSchedule*
+""*
+""*
+""•
+¢
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java‡ ·(1S
+distributionSchedule;org.apache.bookkeeper.client.RoundRobinDistributionSchedule"__id*D
+B
+%28;org.apache.bookkeeper.client.RoundRobinDistributionSchedule–Õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java„ „(.
+%30java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()ˆÛ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java„ „(9
+%31java.util.Set"-java.util.SortedMap#entrySet()Ljava/util/Set;*
+
+%30java.util.NavigableMap2
+entrySet()∑¥
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java‚R ‚(^
+%32java.util.LinkedList"java.util.LinkedList¯
+ı
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java‚N „(:
+%33"4java.util.LinkedList#<init>(Ljava/util/Collection;)V*
+
+%32java.util.LinkedList*
+
+%31java.util.Set≈
+¬
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java‚ „(;
+segmentsjava.util.List"__id*
+
+%32java.util.LinkedListŒÀ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaËN Ë(]
+
+%34int"java.util.List#size()I*
+
+segmentsjava.util.List2size()Õ
+ 
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaË_ Ë(tL
+%35Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback"__id*s*qV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+mcbForThisLedgerRangeû
+õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÈ È(-
+
+%36int"__id*
+""û
+õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÈ/ È(M
+
+%37int"__id*
+""ôñ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaË1 Ë(>L
+%38Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback"Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallbackÔ
+Ï
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaË- È(N
+%39"ïorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback#<init>(ILorg/apache/zookeeper/AsyncCallback$VoidCallback;Ljava/lang/Object;II)V*N
+L
+%38Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback*
+""*N
+L
+%35Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback*
+""*
+
+
+%36int*
+
+
+%37intµ
+≤
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaË È(OY
+mcbForThisLedgerEorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback"__id*N
+L
+%38Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback±Æ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÎ Î(^
+%40java.util.HashMap"java.util.HashMapƒ
+¡
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÎ Î(`
+%41"java.util.HashMap#<init>()V*
+
+%40java.util.HashMap“
+œ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÍ Î(a*
+bookiesSegmentInfoMapjava.util.HashMap"__id*
+
+%40java.util.HashMap*
+24*·
+26
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java◊ ◊(´
+®
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java◊ ◊(
+%20org.slf4j.Logger"__id*
+""˘ˆ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java◊ ÿ(&
+%21void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%20org.slf4j.Logger*WU
+SLedger: {} is closed but it doesn't has any entries, so skipping the replicas check*
+""2+debug(Ljava/lang/String;Ljava/lang/Object;)Õ
+ 
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŸ Ÿ(%L
+%22Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback"__id*s*qV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+mcbForThisLedgerRangeû
+õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŸ4 Ÿ(G
+
+%23int"__id*
+""≤Ø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŸ Ÿ(T
+%24void"{org.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback#processResult(ILjava/lang/String;Ljava/lang/Object;)V*N
+L
+%22Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback*
+
+
+%23int*
+""*
+""24processResult(ILjava/lang/String;Ljava/lang/Object;)"â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java⁄ ⁄(
+""*∑
+27
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java’% ’(-•¢
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java’% ’(>
+%19long"Aorg.apache.bookkeeper.client.api.LedgerMetadata#getLastEntryId()J*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getLastEntryId()*
+25
+26*€
+28
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœ œ(´
+®
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœ œ(
+%14org.slf4j.Logger"__id*
+""Û
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœ –(&
+%15void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%14org.slf4j.Logger*QO
+MLedger: {} is not yet closed, so skipping the replicas check analysis for now*
+""2+debug(Ljava/lang/String;Ljava/lang/Object;)Õ
+ 
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java— —(%L
+%16Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback"__id*s*qV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+mcbForThisLedgerRangeû
+õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java—4 —(G
+
+%17int"__id*
+""≤Ø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java— —(T
+%18void"{org.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback#processResult(ILjava/lang/String;Ljava/lang/Object;)V*N
+L
+%16Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback*
+
+
+%17int*
+""*
+""24processResult(ILjava/lang/String;Ljava/lang/Object;)"â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java“ “(
+""*É
+29
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÕ& Õ(1ŒÀ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÕ& Õ(<6
+%12/org.apache.bookkeeper.client.api.LedgerMetadata"Gorg.apache.bookkeeper.versioning.Versioned#getValue()Ljava/lang/Object;*;
+9
+metadataVer*org.apache.bookkeeper.versioning.Versioned2
+getValue()Å
+˛
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÕ Õ(=;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata"__id*8
+6
+%12/org.apache.bookkeeper.client.api.LedgerMetadataúô
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŒ Œ($
+%13boolean";org.apache.bookkeeper.client.api.LedgerMetadata#isClosed()Z*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2
+isClosed()*
+27
+28*è
+30
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java« «(™
+ß
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java« «(
+%7org.slf4j.Logger"__id*
+""ìê
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java« «(c
+
+%8void"Norg.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%7org.slf4j.Logger*-+
+)Unable to read the ledger: {} information*
+""*"
+ 
+	exceptionjava.lang.Throwable2<warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Ã
+…
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java» »()K
+%9Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback"__id*s*qV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+mcbForThisLedgerRangeµ
+≤
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java»8 »(_
+
+%10int"Qorg.apache.bookkeeper.client.BKException#getExceptionCode(Ljava/lang/Throwable;)I*,"*
+(org.apache.bookkeeper.client.BKException*"
+ 
+	exceptionjava.lang.Throwable±Æ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java» »(l
+%11void"{org.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback#processResult(ILjava/lang/String;Ljava/lang/Object;)V*M
+K
+%9Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback*
+
+
+%10int*
+""*
+""24processResult(ILjava/lang/String;Ljava/lang/Object;)"â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java… …(
+""*∫
+31
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java√ √(™
+ß
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java√ √(
+%2org.slf4j.Logger"__id*
+""ÿ’
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java√ √(d
+
+%3void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%2org.slf4j.Logger*86
+4Ignoring replicas check of already deleted ledger {}*
+""2+debug(Ljava/lang/String;Ljava/lang/Object;)Ã
+…
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaƒ ƒ()K
+%4Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback"__id*s*qV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+mcbForThisLedgerRangeù
+ö
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaƒ8 ƒ(K	
+%5int"__id*
+""Ø¨
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaƒ ƒ(X
+
+%6void"{org.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback#processResult(ILjava/lang/String;Ljava/lang/Object;)V*M
+K
+%4Eorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback*
+	
+%5int*
+""*
+""24processResult(ILjava/lang/String;Ljava/lang/Object;)"â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java≈ ≈(
+""*Ê
+32
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¡ ¡(¥
+±
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¡ ¬(4	
+%0int"Qorg.apache.bookkeeper.client.BKException#getExceptionCode(Ljava/lang/Throwable;)I*,"*
+(org.apache.bookkeeper.client.BKException*"
+ 
+	exceptionjava.lang.Throwableù
+ö
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¬8 ¬(t	
+%1int"__id*
+""*
+30
+31*ö
+10
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaâ â(´
+®
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaâ â(
+%65org.slf4j.Logger"__id*
+""∞
+≠
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaä$ ã(k
+%66java.lang.String"__concat*FD
+BFor ledger: {}, in Segment: {}, no entry is expected to contain in*?=
+; this bookie: {}. So skipping getListOfEntriesOfLedger call¨©
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaâ å(U
+%67void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%65org.slf4j.Logger*
+
+%66java.lang.String*
+""*(
+&
+segmentEnsemblejava.util.Map$Entry*C
+A
+bookieInEnsemble-org.apache.bookkeeper.net.BookieSocketAddress2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+9*§
+11
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaà à(´
+®
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaà à(
+%63org.slf4j.Logger"__id*
+""Â‚
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaà à(0
+%64boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%63org.slf4j.Logger2isDebugEnabled()*
+9
+10*€
+12
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˛ Ä(:’
+“
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˛ Ä(:.
+entriesStripedToThisBookiejava.util.BitSet"__id*
+
+%59java.util.BitSetÚÔ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÅ Å(@
+
+%62int"java.util.BitSet#cardinality()I*0
+.
+entriesStripedToThisBookiejava.util.BitSet2cardinality()*
+8
+11*Ô
+13
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaˇ ˇ(2†ù
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaˇ Ä(9
+%61java.util.BitSet"oorg.apache.bookkeeper.client.RoundRobinDistributionSchedule#getEntriesStripedToTheBookie(IJJ)Ljava/util/BitSet;*U
+S
+distributionSchedule;org.apache.bookkeeper.client.RoundRobinDistributionSchedule*
+""*
+""*
+""2!getEntriesStripedToTheBookie(IJJ)æ
+ª
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaˇ Ä(9
+%59java.util.BitSet"__id*
+
+%61java.util.BitSet*
+12*˙
+14
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˛M ˛(Y´
+®
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˛M ˛(Y
+%60java.util.BitSet"__id*
+""æ
+ª
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˛M ˛(Y
+%59java.util.BitSet"__id*
+
+%60java.util.BitSet*
+12*è
+15
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˝A ˝(Rı
+Ú
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˝A ˝(c4
+%58-org.apache.bookkeeper.net.BookieSocketAddress"
+__arrayGet*%
+#
+ensembleOfSegmentjava.util.List*
+""Ö
+Ç
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˝ ˝(dA
+bookieInEnsemble-org.apache.bookkeeper.net.BookieSocketAddress"__id*6
+4
+%58-org.apache.bookkeeper.net.BookieSocketAddress*
+13
+14*È
+16
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¸* ¸(5◊‘
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¸8 ¸(P
+
+%57int"java.util.List#size()I*%
+#
+ensembleOfSegmentjava.util.List2size()*
+24
+15*Ö
+18
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˚ ˚(0“
+œ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˚4 ˚(P
+%55java.util.Map$Entry"
+__arrayGet*
+
+segmentsjava.util.List*
+""Û
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˚4 ˚(Y
+%56java.lang.Long".java.util.Map$Entry#getKey()Ljava/lang/Object;*
+
+%55java.util.Map$Entry2getKey()¨
+©
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˚ ˚(Y
+%52boolean"__id*
+
+%54boolean*
+16*∫
+19
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˙< ˙(Q¨
+©
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java˙< ˙(_
+%52boolean"__id*
+
+%53boolean*
+16*û
+0 "ñ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java• •(	
+implicit return*¥
+1
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaõ õ(m¬
+ø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaõ õ(m.
+bookiesSegmentInfoTuplejava.util.Map$Entry"__id*
+""‡
+›
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaõ õ(m.
+bookiesSegmentInfoTuplejava.util.Map$Entry"
+__arrayGet*
+
+%77java.util.Set*
+""*
+2
+0*†"
+2
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaù= ù(T¶£
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaù= ù(]4
+%78-org.apache.bookkeeper.net.BookieSocketAddress".java.util.Map$Entry#getKey()Ljava/lang/Object;*0
+.
+bookiesSegmentInfoTuplejava.util.Map$Entry2getKey()Ö
+Ç
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaù ù(^A
+bookieInEnsemble-org.apache.bookkeeper.net.BookieSocketAddress"__id*6
+4
+%78-org.apache.bookkeeper.net.BookieSocketAddressãà
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaûW ü(#
+%79java.util.List"0java.util.Map$Entry#getValue()Ljava/lang/Object;*0
+.
+bookiesSegmentInfoTuplejava.util.Map$Entry2
+getValue()Ã
+…
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaû ü($'
+bookieSegmentInfoListjava.util.List"__id*
+
+%79java.util.List§
+°
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java† †(3
+%80,org.apache.bookkeeper.client.BookKeeperAdmin"__id*c*aV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+adminØ¨
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java† †(T-
+%81&java.util.concurrent.CompletableFuture"§org.apache.bookkeeper.client.BookKeeperAdmin#asyncGetListOfEntriesOfLedger(Lorg/apache/bookkeeper/net/BookieSocketAddress;J)Ljava/util/concurrent/CompletableFuture;*5
+3
+%80,org.apache.bookkeeper.client.BookKeeperAdmin*C
+A
+bookieInEnsemble-org.apache.bookkeeper.net.BookieSocketAddress*
+""2OasyncGetListOfEntriesOfLedger(Lorg/apache/bookkeeper/net/BookieSocketAddress;J)≤
+Ø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java£  £(9-
+%82&java.util.concurrent.ConcurrentHashMap"__id*w*uV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+ledgersWithMissingEntries∂
+≥
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java£; £(X-
+%83&java.util.concurrent.ConcurrentHashMap"__id*{*yV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck"
+ledgersWithUnavailableBookies√¿
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java°* °(Za
+%84Zorg.apache.bookkeeper.replication.Auditor$GetListOfEntriesOfLedgerCallbackForReplicasCheck"Zorg.apache.bookkeeper.replication.Auditor$GetListOfEntriesOfLedgerCallbackForReplicasCheckÄ
+˝
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java°& £(k
+%85"æorg.apache.bookkeeper.replication.Auditor$GetListOfEntriesOfLedgerCallbackForReplicasCheck#<init>(JIIILorg/apache/bookkeeper/net/BookieSocketAddress;Ljava/util/List;Ljava/util/concurrent/ConcurrentHashMap;Ljava/util/concurrent/ConcurrentHashMap;Lorg/apache/bookkeeper/proto/BookkeeperInternalCallbacks$MultiCallback;)V*c
+a
+%84Zorg.apache.bookkeeper.replication.Auditor$GetListOfEntriesOfLedgerCallbackForReplicasCheck*
+""*
+""*
+""*
+""*C
+A
+bookieInEnsemble-org.apache.bookkeeper.net.BookieSocketAddress*)
+'
+bookieSegmentInfoListjava.util.List*/
+-
+%82&java.util.concurrent.ConcurrentHashMap*/
+-
+%83&java.util.concurrent.ConcurrentHashMap*[
+Y
+mcbForThisLedgerEorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallbackˆÛ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java† £(l-
+%86&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%81&java.util.concurrent.CompletableFuture*c
+a
+%84Zorg.apache.bookkeeper.replication.Auditor$GetListOfEntriesOfLedgerCallbackForReplicasCheck2-whenComplete(Ljava/util/function/BiConsumer;)*
+1*ç
+3
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaú ú(%Å˛
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaú ú(0
+%77java.util.Set"+java.util.HashMap#entrySet()Ljava/util/Set;*,
+*
+bookiesSegmentInfoMapjava.util.HashMap2
+entrySet()*
+1*¯
+startingBlock
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaø ø(VÏ
+È
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaæ æ(
+%87"
+__annotate*
+java.lang.Override*;
+9
+metadataVer*org.apache.bookkeeper.versioning.Versioned÷
+”
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaø5 ø(@9
+metadataVer*org.apache.bookkeeper.versioning.Versioned"__annotation*
+
+%87”
+–
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaæ æ(
+%88"
+__annotate*
+java.lang.Override*"
+ 
+	exceptionjava.lang.ThrowableΩ
+∫
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaøL ø(U 
+	exceptionjava.lang.Throwable"__annotation*
+
+%88*
+29
+32*Ø	
+6
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaó ó()ß§
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaó2 ó(TS
+%74Lorg.apache.bookkeeper.replication.Auditor$BookieExpectedToContainSegmentInfo"Lorg.apache.bookkeeper.replication.Auditor$BookieExpectedToContainSegmentInfoœ
+Ã
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaó. ò(^
+%75"org.apache.bookkeeper.replication.Auditor$BookieExpectedToContainSegmentInfo#<init>(JJLjava/util/Map$Entry;Ljava/util/BitSet;)V*U
+S
+%74Lorg.apache.bookkeeper.replication.Auditor$BookieExpectedToContainSegmentInfo*
+""*
+""*(
+&
+segmentEnsemblejava.util.Map$Entry*0
+.
+entriesStripedToThisBookiejava.util.BitSet¶
+£
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaó ò(_
+%76boolean"
+__arrayAdd*)
+'
+bookieSegmentInfoListjava.util.List*: *U
+S
+%74Lorg.apache.bookkeeper.replication.Auditor$BookieExpectedToContainSegmentInfo*
+16*¶
+7
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaî0 î(cµ≤
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaî4 î(a
+%71java.util.ArrayList"java.util.ArrayList»
+≈
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaî0 î(c
+%72"java.util.ArrayList#<init>()V*
+
+%71java.util.ArrayList—
+Œ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaî î(c'
+bookieSegmentInfoListjava.util.List"__id*
+
+%71java.util.ArrayList√
+¿
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaï ï(Z
+%73java.util.List"__mapSet*,
+*
+bookiesSegmentInfoMapjava.util.HashMap*C
+A
+bookieInEnsemble-org.apache.bookkeeper.net.BookieSocketAddress*)
+'
+bookieSegmentInfoListjava.util.List*
+6*ˆ
+8
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaëU ë(jò
+ï
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaëU í(2
+%70java.util.List"__mapGet*,
+*
+bookiesSegmentInfoMapjava.util.HashMap*C
+A
+bookieInEnsemble-org.apache.bookkeeper.net.BookieSocketAddressÃ
+…
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaë í(3'
+bookieSegmentInfoListjava.util.List"__id*
+
+%70java.util.List*
+6
+7*Ì
+9
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaé é((û
+õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaé7 é(J
+
+%68int"__id*
+""øº
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaé é(W
+%69void"{org.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback#processResult(ILjava/lang/String;Ljava/lang/Object;)V*[
+Y
+mcbForThisLedgerEorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$MultiCallback*
+
+
+%68int*
+""*
+""24processResult(ILjava/lang/String;Ljava/lang/Object;)*
+16*É
+21
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Ú("“
+œ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Ú(6
+%50java.util.Map$Entry"
+__arrayGet*
+
+segmentsjava.util.List*
+""Û
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Ú(?
+%51java.lang.Long".java.util.Map$Entry#getKey()Ljava/lang/Object;*
+
+%50java.util.Map$Entry2getKey()¶
+£
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Ú(C
+%47long"__id*
+
+%49long*
+18
+19*∏
+22
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÒ@ Ò(K¶
+£
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÒ@ Ò(K
+%47long"__id*
+
+%48long*
+18
+19*—
+23
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÌY Ì(a“
+œ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÌY Ì(q
+%43java.util.Map$Entry"
+__arrayGet*
+
+segmentsjava.util.List*
+""–
+Õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÌ Ì(r&
+segmentEnsemblejava.util.Map$Entry"__id*
+
+%43java.util.Map$Entry˛˚
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÓD Ó(^
+%44	!capture!"0java.util.Map$Entry#getValue()Ljava/lang/Object;*(
+&
+segmentEnsemblejava.util.Map$Entry2
+getValue()√
+¿
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÓ Ó(_#
+ensembleOfSegmentjava.util.List"__id*
+
+%44	!capture!ˇ¸
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÔ3 Ô(K
+%45java.lang.Long".java.util.Map$Entry#getKey()Ljava/lang/Object;*(
+&
+segmentEnsemblejava.util.Map$Entry2getKey()ŒÀ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java< (K
+
+%46int"java.util.List#size()I*
+
+segmentsjava.util.List2size()*
+21
+22:9
+metadataVer*org.apache.bookkeeper.versioning.Versioned: 
+	exceptionjava.lang.ThrowableBXV
+Torg.apache.bookkeeper.replication.Auditor$ReadLedgerMetadataCallbackForReplicasCheck

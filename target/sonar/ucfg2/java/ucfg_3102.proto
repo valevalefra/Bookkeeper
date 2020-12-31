@@ -1,0 +1,119 @@
+
+‹org.apache.distributedlog.BKDistributedLogNamespace#renameLog(Ljava/lang/String;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÆ# Æ(,"startingBlock*â
+3“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÌ Õ("Æ
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÌ Õ(.
+,
+%6&java.util.concurrent.CompletableFuture*’
+startingBlock“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÆ, Æ(Lâ
+ß
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÅ Å(
+%8"
+__annotate*
+java.lang.Override*
+
+oldNamejava.lang.StringÌ
+É
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÆ4 Æ(;
+oldNamejava.lang.String"__annotation*
+
+%8â
+ß
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÅ Å(
+%9"
+__annotate*
+java.lang.Override*
+
+newNamejava.lang.StringÌ
+É
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÆD Æ(K
+newNamejava.lang.String"__annotation*
+
+%9*
+9*Ç
+4“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÍ Õ(¦£
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÌ Õ(,
+%6&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%5&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)*
+3*è
+5“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÌ? Ì(FÇÄ
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÌ Ì(G,
+%5&java.util.concurrent.CompletableFuture"~org.apache.distributedlog.metadata.LogMetadataStore#getLogLocation(Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;*;
+9
+%43org.apache.distributedlog.metadata.LogMetadataStore*
+
+oldNamejava.lang.String2"getLogLocation(Ljava/lang/String;)*
+4*Ç
+6“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÊ Ê(HÙ
+Ö
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÊ Ê(H
+
+newLogNamejava.lang.String"__id*
+
+%2java.lang.StringŸ
+œ
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÌ Ì(9
+%33org.apache.distributedlog.namespace.NamespaceDriver"__id*C*A5
+3org.apache.distributedlog.BKDistributedLogNamespace"
+driver¨¥
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÌ Ì(/9
+%43org.apache.distributedlog.metadata.LogMetadataStore"~org.apache.distributedlog.namespace.NamespaceDriver#getLogMetadataStore()Lorg/apache/distributedlog/metadata/LogMetadataStore;*;
+9
+%33org.apache.distributedlog.namespace.NamespaceDriver2getLogMetadataStore()*
+5*à
+7“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÉ É(HÙ
+Ö
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÉ É(H
+
+oldLogNamejava.lang.String"__id*
+
+%1java.lang.Stringã
+à
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÊ& Ê(G
+%2java.lang.String"eorg.apache.distributedlog.util.DLUtils#validateAndNormalizeName(Ljava/lang/String;)Ljava/lang/String;**"(
+&org.apache.distributedlog.util.DLUtils*
+
+newNamejava.lang.String*
+6*„
+8“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÉ& É(>ã
+à
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÉ& É(G
+%1java.lang.String"eorg.apache.distributedlog.util.DLUtils#validateAndNormalizeName(Ljava/lang/String;)Ljava/lang/String;**"(
+&org.apache.distributedlog.util.DLUtils*
+
+oldNamejava.lang.String*
+7*Â
+9“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÈ È(¡
+ž
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogNamespace.javaÈ È(
+
+%0void"Aorg.apache.distributedlog.BKDistributedLogNamespace#checkState()V*75
+3org.apache.distributedlog.BKDistributedLogNamespace*
+8:
+oldNamejava.lang.String:
+newNamejava.lang.StringB75
+3org.apache.distributedlog.BKDistributedLogNamespace

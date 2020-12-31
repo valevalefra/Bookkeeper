@@ -1,0 +1,163 @@
+
+Öorg.apache.bookkeeper.tools.cli.commands.bookie.LocalConsistencyCheckCommand#check(Lorg/apache/bookkeeper/conf/ServerConfiguration;)Z°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java< <("7*÷
+2°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaG G("¨
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaG G(
+""*◊
+3°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaD D(:Ä
+˝
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaD D(:I
+error@org.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency"__id*
+""¢
+ü
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaD D(:I
+error@org.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency"
+__arrayGet*
+
+errorsjava.util.List*
+""*
+2
+4*„
+4°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaE E(Œ
+À
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaE E(
+%10org.slf4j.Logger"__id*
+""·ﬁ
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaE3 E(F
+%11long"Oorg.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency#getLedgerId()J*K
+I
+error@org.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency2getLedgerId()ﬂ‹
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaEH E(Z
+%12long"Norg.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency#getEntryId()J*K
+I
+error@org.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency2getEntryId()ÜÉ
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaE\ E(p
+%13java.lang.Exception"dorg.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency#getException()Ljava/lang/Exception;*K
+I
+error@org.apache.bookkeeper.bookie.LedgerStorage$DetectedInconsistency2getException()îë
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaE E(q
+%14void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%10org.slf4j.Logger*
+Ledger {}, entry {}: *
+
+%11long*
+
+%12long*
+
+%13java.lang.Exception2,error(Ljava/lang/String;[Ljava/lang/Object;)*
+3*∂
+6°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaC C(Õ
+ 
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaC C(
+%8org.slf4j.Logger"__id*
+""∑¥
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaC C(6
+
+%9void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%8org.slf4j.Logger*" 
+=== Check returned errors: ===2info(Ljava/lang/String;)*
+3*‚
+7°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java= =(Õ
+ 
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java= =(
+%0org.slf4j.Logger"__id*
+""√¿
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java= =(>
+
+%1void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%0org.slf4j.Logger*.,
+*=== Performing local consistency check ===2info(Ljava/lang/String;)çä
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java>6 >(I4
+%2.org.apache.bookkeeper.conf.ServerConfiguration".org.apache.bookkeeper.conf.ServerConfigurationã
+à
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java>2 >(O
+%3"jorg.apache.bookkeeper.conf.ServerConfiguration#<init>(Lorg/apache/bookkeeper/conf/AbstractConfiguration;)V*6
+4
+%2.org.apache.bookkeeper.conf.ServerConfiguration*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration¨
+©
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java> >(PE
+serverConfiguration.org.apache.bookkeeper.conf.ServerConfiguration"__id*6
+4
+%2.org.apache.bookkeeper.conf.ServerConfigurationù
+ö
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java?& ?(a0
+%4*org.apache.bookkeeper.bookie.LedgerStorage"«org.apache.bookkeeper.bookie.Bookie#mountLedgerStorageOffline(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/bookie/LedgerStorage;)Lorg/apache/bookkeeper/bookie/LedgerStorage;*'"%
+#org.apache.bookkeeper.bookie.Bookie*G
+E
+serverConfiguration.org.apache.bookkeeper.conf.ServerConfiguration*
+""û
+õ
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java? ?(b;
+ledgerStorage*org.apache.bookkeeper.bookie.LedgerStorage"__id*2
+0
+%4*org.apache.bookkeeper.bookie.LedgerStorageâ
+Ü
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaA A(&
+%5java.util.Optional".java.util.Optional#empty()Ljava/util/Optional;*"
+java.util.Optional≠™
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java@; A('
+%6java.util.List"forg.apache.bookkeeper.bookie.LedgerStorage#localConsistencyCheck(Ljava/util/Optional;)Ljava/util/List;*=
+;
+ledgerStorage*org.apache.bookkeeper.bookie.LedgerStorage*
+
+%5java.util.Optional2+localConsistencyCheck(Ljava/util/Optional;)ﬂ
+‹
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.java@ A((
+errorsjava.util.List"__id*
+
+%6java.util.ListÓÎ
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaB B(	
+%7int"java.util.List#size()I*
+
+errorsjava.util.List2size()*
+6
+1*Ÿ
+1°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaI I(Œ
+À
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaI I(
+%15org.slf4j.Logger"__id*
+""Ø¨
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaI I(,
+%16void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%15org.slf4j.Logger*
+=== Check passed ===2info(Ljava/lang/String;)"¨
+°
+ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommand.javaJ J(
+"":6
+conf.org.apache.bookkeeper.conf.ServerConfigurationBPN
+Lorg.apache.bookkeeper.tools.cli.commands.bookie.LocalConsistencyCheckCommand

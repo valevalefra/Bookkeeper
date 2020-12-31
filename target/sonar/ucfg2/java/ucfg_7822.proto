@@ -1,0 +1,252 @@
+
+√org.apache.bookkeeper.replication.AutoRecoveryMain#buildAutoRecoveryServer(Lorg/apache/bookkeeper/server/conf/BookieConfiguration;)Lorg/apache/bookkeeper/common/component/LifecycleComponentStack;à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java⁄* ⁄(A"3*Ú7
+2à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ- Ì(Póî
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ1 Ì(NF
+%18?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder"?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder™
+ß
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ- Ì(P
+%19"Iorg.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder#<init>()V*H
+F
+%18?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builderºπ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÓ% Ó(P9
+%202org.apache.bookkeeper.replication.AutoRecoveryMain"Ñorg.apache.bookkeeper.server.service.AutoRecoveryService#getAutoRecoveryServer()Lorg/apache/bookkeeper/replication/AutoRecoveryMain;*Q
+O
+autoRecoveryService8org.apache.bookkeeper.server.service.AutoRecoveryService2getAutoRecoveryServer()ÌÍ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ- Ó(QF
+%21?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder"∆org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder#setAutoRecovery(Lorg/apache/bookkeeper/replication/AutoRecoveryMain;)Lorg/apache/bookkeeper/server/http/BKHttpServiceProvider$Builder;*H
+F
+%18?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder*;
+9
+%202org.apache.bookkeeper.replication.AutoRecoveryMain2EsetAutoRecovery(Lorg/apache/bookkeeper/replication/AutoRecoveryMain;)éã
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÔ, Ô(@5
+%22.org.apache.bookkeeper.conf.ServerConfiguration"uorg.apache.bookkeeper.server.conf.BookieConfiguration#getServerConf()Lorg/apache/bookkeeper/conf/ServerConfiguration;*?
+=
+conf5org.apache.bookkeeper.server.conf.BookieConfiguration2getServerConf()ÔÏ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ- Ô(AF
+%23?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder"…org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder#setServerConfiguration(Lorg/apache/bookkeeper/conf/ServerConfiguration;)Lorg/apache/bookkeeper/server/http/BKHttpServiceProvider$Builder;*H
+F
+%21?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder*7
+5
+%22.org.apache.bookkeeper.conf.ServerConfiguration2HsetServerConfiguration(Lorg/apache/bookkeeper/conf/ServerConfiguration;)¢ü
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java& (M0
+%24)org.apache.bookkeeper.stats.StatsProvider"worg.apache.bookkeeper.server.service.StatsProviderService#getStatsProvider()Lorg/apache/bookkeeper/stats/StatsProvider;*S
+Q
+statsProviderService9org.apache.bookkeeper.server.service.StatsProviderService2getStatsProvider()‘—
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ- (NF
+%25?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder"æorg.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder#setStatsProvider(Lorg/apache/bookkeeper/stats/StatsProvider;)Lorg/apache/bookkeeper/server/http/BKHttpServiceProvider$Builder;*H
+F
+%23?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder*2
+0
+%24)org.apache.bookkeeper.stats.StatsProvider2=setStatsProvider(Lorg/apache/bookkeeper/stats/StatsProvider;)§°
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ- (V>
+%267org.apache.bookkeeper.server.http.BKHttpServiceProvider"Äorg.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder#build()Lorg/apache/bookkeeper/server/http/BKHttpServiceProvider;*H
+F
+%25?org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder2build()õ
+ò
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÌ (WC
+provider7org.apache.bookkeeper.server.http.BKHttpServiceProvider"__id*@
+>
+%267org.apache.bookkeeper.server.http.BKHttpServiceProvider˘ˆ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÒ* Ò(57
+%270org.apache.bookkeeper.server.service.HttpService"0org.apache.bookkeeper.server.service.HttpServiceÏ
+È
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÒ& Ò(V
+%28"”org.apache.bookkeeper.server.service.HttpService#<init>(Lorg/apache/bookkeeper/server/http/BKHttpServiceProvider;Lorg/apache/bookkeeper/server/conf/BookieConfiguration;Lorg/apache/bookkeeper/stats/StatsLogger;)V*9
+7
+%270org.apache.bookkeeper.server.service.HttpService*E
+C
+provider7org.apache.bookkeeper.server.http.BKHttpServiceProvider*?
+=
+conf5org.apache.bookkeeper.server.conf.BookieConfiguration*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLoggerê
+ç
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÒ Ò(W?
+httpService0org.apache.bookkeeper.server.service.HttpService"__id*9
+7
+%270org.apache.bookkeeper.server.service.HttpService°û
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÛ Û(3M
+%29Forg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder"ÿorg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder#addComponent(Lorg/apache/bookkeeper/common/component/LifecycleComponent;)Lorg/apache/bookkeeper/common/component/LifecycleComponentStack$Builder;*Y
+W
+serverBuilderForg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder*A
+?
+httpService0org.apache.bookkeeper.server.service.HttpService2IaddComponent(Lorg/apache/bookkeeper/common/component/LifecycleComponent;)µ
+≤
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÙ Ù(
+%30org.slf4j.Logger"__id*
+""Á‰
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÙ6 Ù(Q
+%31java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*
+""2	getName()ﬁ€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÙ Ù(R
+%32void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%30org.slf4j.Logger*!
+Load lifecycle component : {}*
+
+%31java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+1*ó@
+3à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java€8 €(O∂
+≥
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java€8 €(\L
+%0Forg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder"ìorg.apache.bookkeeper.common.component.LifecycleComponentStack#newBuilder()Lorg/apache/bookkeeper/common/component/LifecycleComponentStack$Builder;*B"@
+>org.apache.bookkeeper.common.component.LifecycleComponentStackëé
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java€8 ‹(0L
+%1Forg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder"´org.apache.bookkeeper.common.component.LifecycleComponentStack$Builder#withName(Ljava/lang/String;)Lorg/apache/bookkeeper/common/component/LifecycleComponentStack$Builder;*N
+L
+%0Forg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder*
+autorecovery-server2withName(Ljava/lang/String;)Ω
+∫
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java€ ‹(1W
+serverBuilderForg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder"__id*N
+L
+%1Forg.apache.bookkeeper.common.component.LifecycleComponentStack$Builderäá
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaﬂ8 ﬂ(L?
+%29org.apache.bookkeeper.server.service.StatsProviderService"9org.apache.bookkeeper.server.service.StatsProviderServiceî
+ë
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaﬂ4 ﬂ(R
+%3"zorg.apache.bookkeeper.server.service.StatsProviderService#<init>(Lorg/apache/bookkeeper/server/conf/BookieConfiguration;)V*A
+?
+%29org.apache.bookkeeper.server.service.StatsProviderService*?
+=
+conf5org.apache.bookkeeper.server.conf.BookieConfiguration™
+ß
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaﬂ ﬂ(SQ
+statsProviderService9org.apache.bookkeeper.server.service.StatsProviderService"__id*A
+?
+%29org.apache.bookkeeper.server.service.StatsProviderService°û
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java‡& ‡(M/
+%4)org.apache.bookkeeper.stats.StatsProvider"worg.apache.bookkeeper.server.service.StatsProviderService#getStatsProvider()Lorg/apache/bookkeeper/stats/StatsProvider;*S
+Q
+statsProviderService9org.apache.bookkeeper.server.service.StatsProviderService2getStatsProvider()èå
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java‡& ‡(`-
+%5'org.apache.bookkeeper.stats.StatsLogger"uorg.apache.bookkeeper.stats.StatsProvider#getStatsLogger(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/StatsLogger;*1
+/
+%4)org.apache.bookkeeper.stats.StatsProvider* 2"getStatsLogger(Ljava/lang/String;)Å
+˛
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java‡ ‡(a:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger"__id*/
+-
+%5'org.apache.bookkeeper.stats.StatsLogger≤Ø
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java‚ ‚(8L
+%6Forg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder"ÿorg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder#addComponent(Lorg/apache/bookkeeper/common/component/LifecycleComponent;)Lorg/apache/bookkeeper/common/component/LifecycleComponentStack$Builder;*Y
+W
+serverBuilderForg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder*S
+Q
+statsProviderService9org.apache.bookkeeper.server.service.StatsProviderService2IaddComponent(Lorg/apache/bookkeeper/common/component/LifecycleComponent;)¥
+±
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java„ „(
+%7org.slf4j.Logger"__id*
+""Ê„
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java„2 „(V
+%8java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*
+""2	getName()€ÿ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java„ „(W
+
+%9void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%7org.slf4j.Logger*!
+Load lifecycle component : {}*
+
+%8java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)âÜ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÊ6 Ê(I?
+%108org.apache.bookkeeper.server.service.AutoRecoveryService"8org.apache.bookkeeper.server.service.AutoRecoveryService¸
+˘
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÊ2 Ê(`
+%11"¢org.apache.bookkeeper.server.service.AutoRecoveryService#<init>(Lorg/apache/bookkeeper/server/conf/BookieConfiguration;Lorg/apache/bookkeeper/stats/StatsLogger;)V*A
+?
+%108org.apache.bookkeeper.server.service.AutoRecoveryService*?
+=
+conf5org.apache.bookkeeper.server.conf.BookieConfiguration*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger®
+•
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÊ Ê(aO
+autoRecoveryService8org.apache.bookkeeper.server.service.AutoRecoveryService"__id*A
+?
+%108org.apache.bookkeeper.server.service.AutoRecoveryService±Æ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaË Ë(7M
+%12Forg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder"ÿorg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder#addComponent(Lorg/apache/bookkeeper/common/component/LifecycleComponent;)Lorg/apache/bookkeeper/common/component/LifecycleComponentStack$Builder;*Y
+W
+serverBuilderForg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder*Q
+O
+autoRecoveryService8org.apache.bookkeeper.server.service.AutoRecoveryService2IaddComponent(Lorg/apache/bookkeeper/common/component/LifecycleComponent;)µ
+≤
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÈ È(
+%13org.slf4j.Logger"__id*
+""Á‰
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÈ2 È(U
+%14java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*
+""2	getName()ﬁ€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÈ È(V
+%15void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%13org.slf4j.Logger*!
+Load lifecycle component : {}*
+
+%14java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)éã
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÏ Ï( 5
+%16.org.apache.bookkeeper.conf.ServerConfiguration"uorg.apache.bookkeeper.server.conf.BookieConfiguration#getServerConf()Lorg/apache/bookkeeper/conf/ServerConfiguration;*?
+=
+conf5org.apache.bookkeeper.server.conf.BookieConfiguration2getServerConf()µ≤
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.javaÏ Ï(6
+%17boolean"Eorg.apache.bookkeeper.conf.ServerConfiguration#isHttpServerEnabled()Z*7
+5
+%16.org.apache.bookkeeper.conf.ServerConfiguration2isHttpServerEnabled()*
+2
+1*≤
+1à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java˜ ˜( «
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java˜ ˜($E
+%33>org.apache.bookkeeper.common.component.LifecycleComponentStack"éorg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder#build()Lorg/apache/bookkeeper/common/component/LifecycleComponentStack;*Y
+W
+serverBuilderForg.apache.bookkeeper.common.component.LifecycleComponentStack$Builder2build()"‘
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java˜ ˜(%G
+E
+%33>org.apache.bookkeeper.common.component.LifecycleComponentStack:=
+conf5org.apache.bookkeeper.server.conf.BookieConfigurationB6"4
+2org.apache.bookkeeper.replication.AutoRecoveryMain

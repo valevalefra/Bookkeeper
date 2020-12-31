@@ -1,0 +1,155 @@
+
+<org.apache.distributedlog.AppendOnlyStreamReader#read([BII)IŽ
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javax x("startingBlock*ˆ
+2
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java‰ ‰(¼
+¹
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java‰ ‰(
+%8org.slf4j.Logger"__id*
+""¹
+¶
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javaŠ% Š(5O
+%9Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream"__id*J*H2
+0org.apache.distributedlog.AppendOnlyStreamReader"
+currentLogRecordµ²
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javaŠ% Š(D2
+%10+org.apache.distributedlog.LogRecordWithDLSN"…org.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream#getLogRecord()Lorg/apache/distributedlog/LogRecordWithDLSN;*Q
+O
+%9Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream2getLogRecord()¦£
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javaŠ% Š(W
+%11long"7org.apache.distributedlog.LogRecord#getTransactionId()J*4
+2
+%10+org.apache.distributedlog.LogRecordWithDLSN2getTransactionId()‹ˆ
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java‰ Š(X
+%12void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%8org.slf4j.Logger*%#
+!Offset saved = {}, persisted = {}*
+""*
+
+%11long2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+5
+1*´
+3
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java† †("›
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java† †( 
+""*±
+startingBlockŽ
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javax x(/Î
+Ë
+Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javaw w(
+%13"
+__annotate*
+java.lang.Override*
+
+bbyte[]¸
+µ
+Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javax x(
+bbyte[]"__annotation*
+
+%13*
+9*Ç	
+4
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java„# „(0«
+¨
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java„# „(2O
+%6Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream"‹org.apache.distributedlog.AppendOnlyStreamReader#nextLogRecord()Lorg/apache/distributedlog/AppendOnlyStreamReader$LogRecordWithInputStream;*42
+0org.apache.distributedlog.AppendOnlyStreamReader¹
+¶
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java„ „(2H2
+0org.apache.distributedlog.AppendOnlyStreamReader"
+currentLogRecord"__id*Q
+O
+%6Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream¹
+¶
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java… …($O
+%7Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream"__id*J*H2
+0org.apache.distributedlog.AppendOnlyStreamReader"
+currentLogRecord*	
+3
+5
+1*ÿ
+5
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java‚ ‚(+¹
+¶
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java‚ ‚(+O
+%3Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream"__id*J*H2
+0org.apache.distributedlog.AppendOnlyStreamReader"
+currentLogRecord•’
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java‚ ‚(C
+%4java.io.InputStream"vorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream#getPayLoadInputStream()Ljava/io/InputStream;*Q
+O
+%3Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream2getPayLoadInputStream()Š‡
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java‚ ‚(e	
+%5int"java.io.InputStream#read([BII)I*
+
+%4java.io.InputStream*
+
+bbyte[]*
+""*
+""2
+read([BII)*
+2
+4*°
+7Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java} }("™
+Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java} }(
+""*¿	
+8Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java{ {(,©
+¦
+Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java{ {(.O
+%1Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream"‹org.apache.distributedlog.AppendOnlyStreamReader#nextLogRecord()Lorg/apache/distributedlog/AppendOnlyStreamReader$LogRecordWithInputStream;*42
+0org.apache.distributedlog.AppendOnlyStreamReader·
+´
+Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java{ {(.H2
+0org.apache.distributedlog.AppendOnlyStreamReader"
+currentLogRecord"__id*Q
+O
+%1Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream·
+´
+Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java| |( O
+%2Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream"__id*J*H2
+0org.apache.distributedlog.AppendOnlyStreamReader"
+currentLogRecord*	
+5
+7
+1*Ù
+9Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javay y(·
+´
+Ž
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.javaz z(O
+%0Iorg.apache.distributedlog.AppendOnlyStreamReader$LogRecordWithInputStream"__id*J*H2
+0org.apache.distributedlog.AppendOnlyStreamReader"
+currentLogRecord*	
+5
+8
+1*´
+1
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java ("›
+
+ƒ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/AppendOnlyStreamReader.java (
+"":
+bbyte[]:
+"":
+""B42
+0org.apache.distributedlog.AppendOnlyStreamReader

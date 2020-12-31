@@ -1,0 +1,194 @@
+
+∂org.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceImpl#delete(Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest;)Ljava/util/concurrent/CompletableFuture;†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java§2 §(8"startingBlock*”
+2†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java≥ ≥(”–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java≥ ≥((-
+%17&java.util.concurrent.CompletableFuture"•org.apache.bookkeeper.stream.storage.api.kv.TableStore#delete(Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest;)Ljava/util/concurrent/CompletableFuture;*A
+?
+store6org.apache.bookkeeper.stream.storage.api.kv.TableStore*I
+G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest2Fdelete(Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest;)"‘
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java≥ ≥()/
+-
+%17&java.util.concurrent.CompletableFuture*Ê
+3†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java∞ ∞(œÃ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java∞! ∞(5
+%12long"Forg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getStreamId()J*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2getStreamId()Õ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java∞7 ∞(J
+%13long"Eorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getRangeId()J*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2getRangeId()í
+è
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java∞ ∞(K4
+%14-org.apache.bookkeeper.stream.protocol.RangeId"corg.apache.bookkeeper.stream.protocol.RangeId#of(JJ)Lorg/apache/bookkeeper/stream/protocol/RangeId;*1"/
+-org.apache.bookkeeper.stream.protocol.RangeId*
+
+%12long*
+
+%13longö
+ó
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java∞ ∞(L4
+rid-org.apache.bookkeeper.stream.protocol.RangeId"__id*6
+4
+%14-org.apache.bookkeeper.stream.protocol.RangeId”
+–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java± ±(*C
+%15<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreCache"__id*`*^I
+Gorg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceImpl"
+tableStoreCache⁄◊
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java± ±(==
+%166org.apache.bookkeeper.stream.storage.api.kv.TableStore"≥org.apache.bookkeeper.stream.storage.impl.kv.TableStoreCache#getTableStore(Lorg/apache/bookkeeper/stream/protocol/RangeId;)Lorg/apache/bookkeeper/stream/storage/api/kv/TableStore;*E
+C
+%15<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreCache*6
+4
+rid-org.apache.bookkeeper.stream.protocol.RangeId2>getTableStore(Lorg/apache/bookkeeper/stream/protocol/RangeId;)Æ
+´
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java± ±(>?
+store6org.apache.bookkeeper.stream.storage.api.kv.TableStore"__id*?
+=
+%166org.apache.bookkeeper.stream.storage.api.kv.TableStore*
+2
+1*ﬂ
+startingBlock†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java§8 §(Tú
+ô
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java£ £(
+%21"
+__annotate*
+java.lang.Override*I
+G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequestÜ
+É
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java§L §(SG
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest"__annotation*
+
+%21*
+5*—)
+4†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java® ®($ 
+«
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java®5 ®(UK
+%2Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder"ëorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse$Builder;*A"?
+=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse∂
+≥
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java© ©(6F
+%3@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"áorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*<":
+8org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeaderÒ
+Ó
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java™ ™(3;
+%45org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
+""ˇ¸
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java© ™(4F
+%5@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"√org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
+F
+%3@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*=
+;
+%45org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)¡æ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java´& ´(9=
+%67org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"Åorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest#getHeader()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;*I
+G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest2getHeader()óî
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java© ´(:F
+%7@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"Œorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
+F
+%5@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*?
+=
+%67org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2KsetRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)æª
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java© ¨(>
+%88org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader"Çorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;*H
+F
+%7@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder2build()†ù
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java®5 ¨(K
+%9Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder"“org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder#setHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse$Builder;*M
+K
+%2Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder*@
+>
+%88org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader2EsetHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)”–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java®5 ≠(D
+%10=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse"åorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse;*M
+K
+%9Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder2build()Ω
+∫
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java® ≠(-
+%11&java.util.concurrent.CompletableFuture"rjava.util.concurrent.CompletableFuture#completedFuture(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;**"(
+&java.util.concurrent.CompletableFuture*F
+D
+%10=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse"‘
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java® ≠(/
+-
+%11&java.util.concurrent.CompletableFuture*Ù	
+5†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java• •(&¡æ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java• •(2=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"Åorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest#getHeader()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;*I
+G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest2getHeader()∞
+≠
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.java• •(3A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"__id*?
+=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeaderÃ…
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.javaß ß(
+
+%1long"Eorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getRangeId()J*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2getRangeId()*
+3
+4*‘
+1†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.javaµ µ("”
+–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.javaµ µ("C
+%18<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreCache"__id*`*^I
+Gorg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceImpl"
+tableStoreCache∆√
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.javaµ µ(<-
+%19&java.util.concurrent.CompletableFuture"•org.apache.bookkeeper.stream.storage.impl.kv.TableStoreCache#openTableStore(JLorg/apache/bookkeeper/stream/protocol/RangeId;)Ljava/util/concurrent/CompletableFuture;*E
+C
+%18<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreCache*
+""*6
+4
+rid-org.apache.bookkeeper.stream.protocol.RangeId2@openTableStore(JLorg/apache/bookkeeper/stream/protocol/RangeId;)µ≤
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.javaµ ∂(4-
+%20&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%19&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"‘
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImpl.javaµ ∂(5/
+-
+%20&java.util.concurrent.CompletableFuture:G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequestBKI
+Gorg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceImpl

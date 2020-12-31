@@ -1,0 +1,210 @@
+
+zorg.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl#open(Lorg/apache/bookkeeper/client/AsyncCallback$OpenCallback;)V
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.java˚ ˚("11*±
+2
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaè è(•¢
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaè è(0
+%21void"Dorg.apache.bookkeeper.client.LedgerOpenOp#initiateWithoutRecovery()V*1
+/
+op)org.apache.bookkeeper.client.LedgerOpenOp2initiateWithoutRecovery()*
+1*ì
+3
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaç ç(áÑ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaç ç(!
+%20void"5org.apache.bookkeeper.client.LedgerOpenOp#initiate()V*1
+/
+op)org.apache.bookkeeper.client.LedgerOpenOp2
+initiate()*
+1*ê
+5
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaä ä("â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaä ä(
+""*Û
+6
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaâ â(û
+õ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaâ$ â(J
+
+%18int"__id*
+""∆√
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaâ â(W
+%19void"Öorg.apache.bookkeeper.client.AsyncCallback$OpenCallback#openComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Object;)V*?
+=
+cb7org.apache.bookkeeper.client.AsyncCallback$OpenCallback*
+
+
+%18int*
+""*
+""2LopenComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Object;)*
+5*ù
+8
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaà à(Å
+˛
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaà à(.
+%16'org.apache.bookkeeper.client.BookKeeper"__id*E*C;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl"
+bkáÑ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaà à(!
+%17boolean"3org.apache.bookkeeper.client.BookKeeper#isClosed()Z*0
+.
+%16'org.apache.bookkeeper.client.BookKeeper2
+isClosed()*	
+2
+3
+6*ù(
+9
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ/ Ç(1Ä
+˝
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ/ Ç(1-
+%3'org.apache.bookkeeper.client.BookKeeper"__id*E*C;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl"
+bkÄ
+˝
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ3 Ç(5-
+%4'org.apache.bookkeeper.client.BookKeeper"__id*E*C;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl"
+bk€ÿ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ3 Ç(D0
+%5*org.apache.bookkeeper.client.ClientContext"borg.apache.bookkeeper.client.BookKeeper#getClientCtx()Lorg/apache/bookkeeper/client/ClientContext;*/
+-
+%4'org.apache.bookkeeper.client.BookKeeper2getClientCtx()ıÚ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ3 Ç(U8
+%62org.apache.bookkeeper.client.BookKeeperClientStats"oorg.apache.bookkeeper.client.ClientContext#getClientStats()Lorg/apache/bookkeeper/client/BookKeeperClientStats;*2
+0
+%5*org.apache.bookkeeper.client.ClientContext2getClientStats()å
+â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÉK É(U1
+%7+org.apache.bookkeeper.client.api.DigestType"__id*M*K;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl"
+
+digestType’
+“
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÉ9 É(V8
+%82org.apache.bookkeeper.client.BookKeeper$DigestType"ßorg.apache.bookkeeper.client.BookKeeper$DigestType#fromApiDigestType(Lorg/apache/bookkeeper/client/api/DigestType;)Lorg/apache/bookkeeper/client/BookKeeper$DigestType;*6"4
+2org.apache.bookkeeper.client.BookKeeper$DigestType*3
+1
+%7+org.apache.bookkeeper.client.api.DigestTypeÂ
+‚
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÑ/ Ñ(7
+%9byte[]"__id*K*I;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl"
+
+password·ﬁ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ" Ç(.0
+%10)org.apache.bookkeeper.client.LedgerOpenOp")org.apache.bookkeeper.client.LedgerOpenOpﬁ
+€
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ Ñ(B
+%11"íorg.apache.bookkeeper.client.LedgerOpenOp#<init>(Lorg/apache/bookkeeper/client/BookKeeper;Lorg/apache/bookkeeper/client/BookKeeperClientStats;JLorg/apache/bookkeeper/client/BookKeeper$DigestType;[BLorg/apache/bookkeeper/client/AsyncCallback$OpenCallback;Ljava/lang/Object;)V*2
+0
+%10)org.apache.bookkeeper.client.LedgerOpenOp*/
+-
+%3'org.apache.bookkeeper.client.BookKeeper*:
+8
+%62org.apache.bookkeeper.client.BookKeeperClientStats*
+""*:
+8
+%82org.apache.bookkeeper.client.BookKeeper$DigestType*
+
+%9byte[]*?
+=
+cb7org.apache.bookkeeper.client.AsyncCallback$OpenCallback*
+""Ô
+Ï
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÇ Ñ(C/
+op)org.apache.bookkeeper.client.LedgerOpenOp"__id*2
+0
+%10)org.apache.bookkeeper.client.LedgerOpenOpÅ
+˛
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÖ/ Ö(1.
+%12'org.apache.bookkeeper.client.BookKeeper"__id*E*C;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl"
+bkÎË
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÖ/ Ö(@8
+%131java.util.concurrent.locks.ReentrantReadWriteLock"iorg.apache.bookkeeper.client.BookKeeper#getCloseLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock;*0
+.
+%12'org.apache.bookkeeper.client.BookKeeper2getCloseLock()Ü
+É
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÖ Ö(A>
+	closeLock1java.util.concurrent.locks.ReentrantReadWriteLock"__id*:
+8
+%131java.util.concurrent.locks.ReentrantReadWriteLockèå
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÜ Ü( A
+%14:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*@
+>
+	closeLock1java.util.concurrent.locks.ReentrantReadWriteLock2
+readLock()¢ü
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaÜ Ü('
+%15void"Bjava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#lock()V*C
+A
+%14:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2lock()*
+8*”
+10
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.java˛ ˛(øº
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.java˛ ˛(7
+
+%2void"Öorg.apache.bookkeeper.client.AsyncCallback$OpenCallback#openComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Object;)V*?
+=
+cb7org.apache.bookkeeper.client.AsyncCallback$OpenCallback*
+""*
+""*
+""2LopenComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Object;)"â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaˇ ˇ(
+""* 
+11
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.java¸# ¸(+ôñ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.java¸# ¸(-	
+%0int"=org.apache.bookkeeper.client.impl.OpenBuilderBase#validate()I*=;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl2
+validate()ù
+ö
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.java˝ ˝(	
+%1int"__id*
+""*
+9
+10*û
+0 "ñ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaî î(	
+implicit return*ƒ
+1
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaí í(èå
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaí í($A
+%22:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*@
+>
+	closeLock1java.util.concurrent.locks.ReentrantReadWriteLock2
+readLock()¶£
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.javaí í(-
+%23void"Djava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#unlock()V*C
+A
+%22:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2unlock()*
+0:=
+cb7org.apache.bookkeeper.client.AsyncCallback$OpenCallbackB=;
+9org.apache.bookkeeper.client.LedgerOpenOp$OpenBuilderImpl

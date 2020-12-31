@@ -1,0 +1,591 @@
+
+¬org.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaB B(%"startingBlock*¸
+46ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaZ< Z(G…
+∆
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaZ< Z(b
+%12boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*'"%
+#org.apache.commons.lang.StringUtils*'
+%
+excludingBookieIdjava.lang.String*
+44
+45*≤
+24ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javau u(R±
+Æ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javau u(RI
+underreplicatedLedger0org.apache.bookkeeper.meta.UnderreplicatedLedger"__id*9
+7
+%250org.apache.bookkeeper.meta.UnderreplicatedLedgerœÃ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javav< v(_
+%26long"?org.apache.bookkeeper.meta.UnderreplicatedLedger#getLedgerId()J*K
+I
+underreplicatedLedger0org.apache.bookkeeper.meta.UnderreplicatedLedger2getLedgerId()*
+23*›
+47ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaY0 Y(4ﬁ
+€
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaY Y(5)
+	predicatejava.util.function.Predicate"__id*
+""…
+∆
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaZ Z(7
+%11boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*'"%
+#org.apache.commons.lang.StringUtils*'
+%
+includingBookieIdjava.lang.String*
+46
+44*‡
+25ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javauF u(J±Æ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javauF u(Q7
+%250org.apache.bookkeeper.meta.UnderreplicatedLedger"+java.util.Iterator#next()Ljava/lang/Object;*
+
+iterjava.util.Iterator2next()*
+24*È
+49ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaV" V((∫∑
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaV" V(K
+%10boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+printmissingreplica2containsKey(Ljava/lang/Object;)*
+47*∏
+28ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javas s(˝˙
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javas s(%
+%24boolean"java.util.Iterator#hasNext()Z*
+
+iterjava.util.Iterator2	hasNext()*
+25
+14
+17
+21*ô
+29ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javap p(<Í
+Á
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javap p(<
+outputLedgersjava.util.List"__id*
+
+%23java.util.ArrayList*
+28*ç
+51ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaT$ T((⁄
+◊
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaT T((%
+excludingBookieIdjava.lang.String"__id*
+""*
+47
+49*°
+52ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaR$ R(*ˇ
+¸
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaR$ R(I
+%9java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+excludingmissingreplicaÏ
+È
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaR R(I%
+excludingBookieIdjava.lang.String"__id*
+
+%9java.lang.String*
+47
+49*⁄
+30ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javap( p(-´
+®
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javap( p(<
+%23java.util.ArrayList"Ccom.google.common.collect.Lists#newArrayList()Ljava/util/ArrayList;*#"!
+com.google.common.collect.Lists*
+29*
+53ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaQ" Q((Ω∫
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaQ" Q(O
+%8boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+excludingmissingreplica2containsKey(Ljava/lang/Object;)*
+51
+52*Æ
+31ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javan n(aˇ
+¸
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javan n(a0
+outputLedgersWithMissingReplicajava.util.Map"__id* 
+
+%21java.util.LinkedHashMap*
+28*î
+10°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÇ* É(j‰
+·
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÇ* É(j
+%40java.lang.String"Worg.apache.bookkeeper.common.util.JsonUtil#toJson(Ljava/lang/Object;)Ljava/lang/String;*.",
+*org.apache.bookkeeper.common.util.JsonUtil*
+
+%39java.lang.Object*
+9*Å
+32ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javan: n(aﬁ€
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javan> n(_
+%21java.util.LinkedHashMap"java.util.LinkedHashMapÒ
+Ó
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javan: n(a
+%22"!java.util.LinkedHashMap#<init>()V* 
+
+%21java.util.LinkedHashMap*
+31*ç
+55ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaO$ O((⁄
+◊
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaO O((%
+includingBookieIdjava.lang.String"__id*
+""*
+51
+53*ö
+11°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÉ\ É(iÈ
+Ê
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÉ\ É(i
+%39java.lang.Object"__id*!
+
+outputLedgersjava.util.List*
+10*ò
+56ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaM$ M(*ˆ
+Û
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaM$ M(@
+%7java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+missingreplicaÏ
+È
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaM M(@%
+includingBookieIdjava.lang.String"__id*
+
+%7java.lang.String*
+51
+53*´
+12°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÉ: É(Y˙
+˜
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÉ: É(Y
+%39java.lang.Object"__id*2
+0
+outputLedgersWithMissingReplicajava.util.Map*
+10*õ
+35ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javai i(s‰
+·
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javai i(s
+iterjava.util.Iterator"__id*
+
+%19java.util.Iterator˝˙
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javak k(-
+%20boolean"java.util.Iterator#hasNext()Z*
+
+iterjava.util.Iterator2	hasNext()*
+28
+30
+32*Á
+57ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaL" L((¥±
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaL" L(F
+%6boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+missingreplica2containsKey(Ljava/lang/Object;)*
+55
+56*˚
+36ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javah h(t√
+¿
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javah h(tS
+underreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManager"__id*A
+?
+%188org.apache.bookkeeper.meta.LedgerUnderreplicationManagerÜÉ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javai7 i(r
+%19java.util.Iterator"Öorg.apache.bookkeeper.meta.LedgerUnderreplicationManager#listLedgersToRereplicate(Ljava/util/function/Predicate;)Ljava/util/Iterator;*U
+S
+underreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManager*+
+)
+	predicatejava.util.function.Predicate28listLedgersToRereplicate(Ljava/util/function/Predicate;)*
+35*Í
+58ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaH H(+⁄
+◊
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaH H(+%
+includingBookieIdjava.lang.String"__id*
+""⁄
+◊
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaI I(+%
+excludingBookieIdjava.lang.String"__id*
+""*
+57
+55*Ë	
+14°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÅ Å(Ó
+Î
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÅ% Å(:7
+%360org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""Ó
+Î
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÅ% Å(=7
+%370org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""—Œ
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÅ Å(>=
+%386org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%370org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)*
+11
+12*¨
+37ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javag g(c¢
+ü
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javag g(c;
+mFactory/org.apache.bookkeeper.meta.LedgerManagerFactory"__id*8
+6
+%17/org.apache.bookkeeper.meta.LedgerManagerFactoryÿ’
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javahH h(s?
+%188org.apache.bookkeeper.meta.LedgerUnderreplicationManager"åorg.apache.bookkeeper.meta.LedgerManagerFactory#newLedgerUnderreplicationManager()Lorg/apache/bookkeeper/meta/LedgerUnderreplicationManager;*=
+;
+mFactory/org.apache.bookkeeper.meta.LedgerManagerFactory2"newLedgerUnderreplicationManager()*
+36*ﬂ
+59ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaC' C(@õò
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaC+ C(><
+%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponse≠
+™
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaC' C(@
+%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponseØ
+¨
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaC C(AB
+response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponse›⁄
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaE% E(8
+%2java.util.Map"Porg.apache.bookkeeper.http.service.HttpServiceRequest#getParams()Ljava/util/Map;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getParams()€
+ÿ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaE E(9
+paramsjava.util.Map"__id*
+
+%2java.util.MapÁ
+‰
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaG G(2
+%3,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""Á
+‰
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaG G(!2
+%4,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""õò
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaG% G(82
+%5,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
+58
+1*ë
+15ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java (#"Ë
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java ($D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*≈
+38ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javag0 g(bñì
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javag0 g(b6
+%17/org.apache.bookkeeper.meta.LedgerManagerFactory"norg.apache.bookkeeper.bookie.Bookie#getLedgerManagerFactory()Lorg/apache/bookkeeper/meta/LedgerManagerFactory;*,
+*
+%16#org.apache.bookkeeper.bookie.Bookie2getLedgerManagerFactory()*
+37*™
+16ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java~ ~(˚¯
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java~ ~(I=
+%356org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*%#
+!No under replicated ledgers found2setBody(Ljava/lang/String;)*
+15*õ
+
+39ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javad' d(,‘
+—
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javae e(0
+outputLedgersjava.util.List"__id*
+""Â
+‚
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaf f(O0
+outputLedgersWithMissingReplicajava.util.Map"__id*
+""æ
+ª
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javag0 g(</
+%15(org.apache.bookkeeper.proto.BookieServer"__id*`*^L
+Jorg.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerService"
+bookieServerÏÈ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javag0 g(H*
+%16#org.apache.bookkeeper.bookie.Bookie"Yorg.apache.bookkeeper.proto.BookieServer#getBookie()Lorg/apache/bookkeeper/bookie/Bookie;*1
+/
+%15(org.apache.bookkeeper.proto.BookieServer2getBookie()*
+38*‹	
+17ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java} }(Ï
+È
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java}% }(:7
+%320org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""Ï
+È
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java}% }(D7
+%330org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""œÃ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java} }(E=
+%346org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%330org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)*
+16*¶
+19ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javay y(D˜
+Ù
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javay y(D
+%31boolean"
+__arrayAdd*!
+
+outputLedgersjava.util.List*: *
+
+%30long*
+28*œ
+1°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaè è(Ó
+Î
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaè è(27
+%530org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""Ó
+Î
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaè è(<7
+%540org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""—Œ
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaè è(==
+%556org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%540org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Çˇ
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaê ê(F=
+%566org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse**(
+&Not found method. Should be GET method2setBody(Ljava/lang/String;)"Í
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaë ë(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*œ
+startingBlockü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaB% B(Aî
+ë
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaA A(
+%57"
+__annotate*
+java.lang.Override*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest˛
+˚
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaB9 B(@@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
+
+%57*
+59*î
+7°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÜ Ü(#"Í
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÜ Ü($D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*©
+8°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÖ Ö(˙˜
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÖ Ö(2=
+%446org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*"
+ 
+jsonResponsejava.lang.String2setBody(Ljava/lang/String;)*
+7*£	
+9°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÇ É(kÍ
+Á
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÇ É(k 
+jsonResponsejava.lang.String"__id*
+
+%40java.lang.StringŒ
+À
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÑ Ñ(
+%41org.slf4j.Logger"__id*
+""Å
+˛
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÑ Ñ(<
+%42java.lang.String"__concat*
+output body: *"
+ 
+jsonResponsejava.lang.String≤Ø
+°
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaÑ Ñ(=
+%43void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
+
+%41org.slf4j.Logger*
+
+%42java.lang.String2debug(Ljava/lang/String;)*
+8*ç
+41ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java` `(Uﬁ
+€
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java` `(U)
+	predicatejava.util.function.Predicate"__id*
+""*
+39*¸
+42ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java_ _(#…
+∆
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java_ _(>
+%14boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*'"%
+#org.apache.commons.lang.StringUtils*'
+%
+excludingBookieIdjava.lang.String*
+39
+41*Ï
+20ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javay* y(CΩ∫
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javay* y(C
+%30long"?org.apache.bookkeeper.meta.UnderreplicatedLedger#getLedgerId()J*9
+7
+%290org.apache.bookkeeper.meta.UnderreplicatedLedger2getLedgerId()*
+19*ç
+43ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java^ ^(Tﬁ
+€
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java^ ^(T)
+	predicatejava.util.function.Predicate"__id*
+""*
+39*‡
+21ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javay y(%±Æ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javay* y(57
+%290org.apache.bookkeeper.meta.UnderreplicatedLedger"+java.util.Iterator#next()Ljava/lang/Object;*
+
+iterjava.util.Iterator2next()*
+20*¸
+44ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java] ](#…
+∆
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java] ](>
+%13boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*'"%
+#org.apache.commons.lang.StringUtils*'
+%
+includingBookieIdjava.lang.String*
+42
+43*—
+22ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javav w(G¢
+ü
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javav w(G
+%28java.util.List"__mapSet*2
+0
+outputLedgersWithMissingReplicajava.util.Map*
+
+%26long*
+
+%27java.util.List*
+28*ç
+45ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java[ \(?ﬁ
+€
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.java[ \(?)
+	predicatejava.util.function.Predicate"__id*
+""*
+39*ù
+23ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaw  w(5ÓÎ
+ü
+î/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListUnderReplicatedLedgerService.javaw  w(F
+%27java.util.List"Qorg.apache.bookkeeper.meta.UnderreplicatedLedger#getReplicaList()Ljava/util/List;*K
+I
+underreplicatedLedger0org.apache.bookkeeper.meta.UnderreplicatedLedger2getReplicaList()*
+22:@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestBNL
+Jorg.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerService

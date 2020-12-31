@@ -1,0 +1,357 @@
+
+•org.apache.bookkeeper.proto.BookieProtoEncoding$ResponseEnDeCoderPreV3#encode(Ljava/lang/Object;Lio/netty/buffer/ByteBufAllocator;)Ljava/lang/Object;…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaí í("startingBlock*Ó
+25…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaüS ü(TŒ
+‰
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaü ü(U=
+rr7org.apache.bookkeeper.proto.BookieProtocol$ReadResponse"__id*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response«¨
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaý ý($
+%12boolean"Borg.apache.bookkeeper.proto.BookieProtocol$ReadResponse#hasData()Z*?
+=
+rr7org.apache.bookkeeper.proto.BookieProtocol$ReadResponse2	hasData()*
+20
+23*¾
+26…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaú ú(1©¦
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaú ú(1
+%11io.netty.buffer.ByteBuf"=io.netty.buffer.ByteBuf#writeLong(J)Lio/netty/buffer/ByteBuf;* 
+
+bufio.netty.buffer.ByteBuf*
+
+%10long2writeLong(J)*
+25*º
+27…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaú ú(¥¢
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaú" ú(0
+%10long"Aorg.apache.bookkeeper.proto.BookieProtocol$Response#getEntryId()J*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getEntryId()*
+26*¼
+28…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaù ù(2§¤
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaù ù(2
+%9io.netty.buffer.ByteBuf"=io.netty.buffer.ByteBuf#writeLong(J)Lio/netty/buffer/ByteBuf;* 
+
+bufio.netty.buffer.ByteBuf*
+
+
+%8long2writeLong(J)*
+27*»
+29…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaù ù(¦£
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaù" ù(1
+
+%8long"Borg.apache.bookkeeper.proto.BookieProtocol$Response#getLedgerId()J*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getLedgerId()*
+28*¹
+30…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaø ø(2¤¡
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaø ø(2
+%7io.netty.buffer.ByteBuf"<io.netty.buffer.ByteBuf#writeInt(I)Lio/netty/buffer/ByteBuf;* 
+
+bufio.netty.buffer.ByteBuf*
+	
+%6int2writeInt(I)*
+29*¼
+31…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaø ø(§¤
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaø! ø(1	
+%6int"Corg.apache.bookkeeper.proto.BookieProtocol$Response#getErrorCode()I*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getErrorCode()*
+30*·
+10…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java‰W ‰(X£ 
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java‰8 ‰(jA
+%21:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage"„org.apache.bookkeeper.proto.BookieProtocol$AuthResponse#getAuthMessage()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$AuthMessage;*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getAuthMessage()*
+9*¬
+33…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaòB ò(Eæ
+ã
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaò ò(F8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response"__id*
+
+msgjava.lang.Object±®
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaó ó(.
+%0io.netty.buffer.ByteBuf"Cio.netty.buffer.ByteBufAllocator#buffer(I)Lio/netty/buffer/ByteBuf;*/
+-
+	allocator io.netty.buffer.ByteBufAllocator*22	buffer(I)Ò
+Ï
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaó ó(/
+bufio.netty.buffer.ByteBuf"__id*
+
+%0io.netty.buffer.ByteBufØ
+Õ
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaô ô(%=
+%17org.apache.bookkeeper.proto.BookieProtocol$PacketHeader"__id*
+""´±
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaô, ô(B
+
+%2byte"Iorg.apache.bookkeeper.proto.BookieProtocol$Response#getProtocolVersion()B*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getProtocolVersion()¢Ÿ
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaôD ô(Q
+
+%3byte"@org.apache.bookkeeper.proto.BookieProtocol$Response#getOpCode()B*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getOpCode()¼
+¹
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaô ô(]	
+%4int"Corg.apache.bookkeeper.proto.BookieProtocol$PacketHeader#toInt(BBS)I*;"9
+7org.apache.bookkeeper.proto.BookieProtocol$PacketHeader*
+
+
+%2byte*
+
+
+%3byte*
+""¤¡
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaô ô(^
+%5io.netty.buffer.ByteBuf"<io.netty.buffer.ByteBuf#writeInt(I)Lio/netty/buffer/ByteBuf;* 
+
+bufio.netty.buffer.ByteBuf*
+	
+%4int2writeInt(I)*
+5
+18
+31
+10*²
+34…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javað ð("£
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javað ð(
+
+msgjava.lang.Object*¹
+12…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java‡ ‡("ª
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java‡ ‡( 
+
+bufio.netty.buffer.ByteBuf*¾
+13…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java… …(1©¦
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java… …(1
+%20io.netty.buffer.ByteBuf"=io.netty.buffer.ByteBuf#writeLong(J)Lio/netty/buffer/ByteBuf;* 
+
+bufio.netty.buffer.ByteBuf*
+
+%19long2writeLong(J)*
+12*º
+14…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java… …(¥¢
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java…" …(0
+%19long"Aorg.apache.bookkeeper.proto.BookieProtocol$Response#getEntryId()J*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getEntryId()*
+13*¾
+15…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java„ „(2©¦
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java„ „(2
+%18io.netty.buffer.ByteBuf"=io.netty.buffer.ByteBuf#writeLong(J)Lio/netty/buffer/ByteBuf;* 
+
+bufio.netty.buffer.ByteBuf*
+
+%17long2writeLong(J)*
+14*¼
+16…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java„ „(§¤
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java„" „(1
+%17long"Borg.apache.bookkeeper.proto.BookieProtocol$Response#getLedgerId()J*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getLedgerId()*
+15*»
+17…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaƒ ƒ(2¦£
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaƒ ƒ(2
+%16io.netty.buffer.ByteBuf"<io.netty.buffer.ByteBuf#writeInt(I)Lio/netty/buffer/ByteBuf;* 
+
+bufio.netty.buffer.ByteBuf*
+
+
+%15int2writeInt(I)*
+16*½
+18…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaƒ ƒ(¨¥
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaƒ! ƒ(1
+
+%15int"Corg.apache.bookkeeper.proto.BookieProtocol$Response#getErrorCode()I*:
+8
+r3org.apache.bookkeeper.proto.BookieProtocol$Response2getErrorCode()*
+17*±
+2…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java ("£
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java (
+
+msgjava.lang.Object*ù
+3…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŒ Œ(aæã
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŒ Œ(a
+%28void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%25org.slf4j.Logger**(
+&Cannot encode unknown response type {}*
+
+%27java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)*
+2*ñ
+startingBlock…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaí í(DÑ
+Î
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaì ì(
+%30"
+__annotate*
+java.lang.Override*
+
+msgjava.lang.Object»
+¸
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaí$ í('
+msgjava.lang.Object"__annotation*
+
+%30ç
+ä
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaì ì(
+%31"
+__annotate*
+java.lang.Override*/
+-
+	allocator io.netty.buffer.ByteBufAllocatorÑ
+Î
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaí: í(C-
+	allocator io.netty.buffer.ByteBufAllocator"__annotation*
+
+%31*
+33
+34*‰
+4…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŒH Œ(`öó
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŒH Œ(`
+%27java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*
+
+%26java.lang.Class2	getName()*
+3*À
+5…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŒ Œ(²
+¯
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŒ Œ(
+%25org.slf4j.Logger"__id*
+""øõ
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŒH Œ(V
+%26java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+msgjava.lang.Object2
+getClass()*
+4*Ç
+6…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŠ Š(Z"¹
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŠ Š(Z/
+-
+%24&org.apache.bookkeeper.util.ByteBufList*Æ
+7…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŠ Š(Y³
+°
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŠ Š(Y-
+%24&org.apache.bookkeeper.util.ByteBufList"†org.apache.bookkeeper.util.ByteBufList#get(Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)Lorg/apache/bookkeeper/util/ByteBufList;**"(
+&org.apache.bookkeeper.util.ByteBufList* 
+
+bufio.netty.buffer.ByteBuf* 
+
+%23io.netty.buffer.ByteBuf*
+6*²
+8…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŠ0 Š(XŸ
+œ
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŠ0 Š(X
+%23io.netty.buffer.ByteBuf"Cio.netty.buffer.Unpooled#wrappedBuffer([B)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+
+%22byte[]*
+7*Ô
+9…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java‰ ‰(k˜
+•
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java‰ ‰(k@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage"__id*C
+A
+%21:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage¦£
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaŠG Š(W
+%22byte[]"7com.google.protobuf.AbstractMessageLite#toByteArray()[B*B
+@
+am:org.apache.bookkeeper.proto.BookkeeperProtocol$AuthMessage2toByteArray()*
+8*¹
+20…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java€ €(""ª
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java€ €(# 
+
+bufio.netty.buffer.ByteBuf*È
+21…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaþ þ(B"¹
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaþ þ(B/
+-
+%14&org.apache.bookkeeper.util.ByteBufList*È
+22…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaþ þ(A³
+°
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaþ þ(A-
+%14&org.apache.bookkeeper.util.ByteBufList"†org.apache.bookkeeper.util.ByteBufList#get(Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)Lorg/apache/bookkeeper/util/ByteBufList;**"(
+&org.apache.bookkeeper.util.ByteBufList* 
+
+bufio.netty.buffer.ByteBuf* 
+
+%13io.netty.buffer.ByteBuf*
+21*è
+23…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaþ þ(*ÓÐ
+…
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaþ4 þ(@
+%13io.netty.buffer.ByteBuf"Zorg.apache.bookkeeper.proto.BookieProtocol$ReadResponse#getData()Lio/netty/buffer/ByteBuf;*?
+=
+rr7org.apache.bookkeeper.proto.BookieProtocol$ReadResponse2	getData()*
+22:
+msgjava.lang.Object:-
+	allocator io.netty.buffer.ByteBufAllocatorBJH
+Forg.apache.bookkeeper.proto.BookieProtoEncoding$ResponseEnDeCoderPreV3

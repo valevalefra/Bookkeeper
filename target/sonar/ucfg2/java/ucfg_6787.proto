@@ -1,0 +1,86 @@
+
+corg.apache.bookkeeper.bookie.Bookie#getListOfEntriesOfLedger(J)Ljava/util/PrimitiveIterator$OfLong;y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÓ Ó(*"10*Ÿ
+4y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÛ Û(Oç
+ä
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÛ Û(O5
+entriesOfLedger"java.util.PrimitiveIterator$OfLong"__id**
+(
+%7"java.util.PrimitiveIterator$OfLong"´
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÝ Ý(#7
+5
+entriesOfLedger"java.util.PrimitiveIterator$OfLong*ý
+5y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÛ% Û(+÷ô
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÛ% Û(N(
+%7"java.util.PrimitiveIterator$OfLong"morg.apache.bookkeeper.bookie.LedgerDescriptor#getListOfEntriesOfLedger(J)Ljava/util/PrimitiveIterator$OfLong;*9
+7
+handle-org.apache.bookkeeper.bookie.LedgerDescriptor*
+""2getListOfEntriesOfLedger(J)*
+4*à
+6y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÙ Ù(¤
+¡
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÙ Ù(
+%5org.slf4j.Logger"__id*
+""³°
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÙ Ù(<
+
+%6void"=org.slf4j.Logger#trace(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%5org.slf4j.Logger*
+GetEntriesOfLedger {}*
+""2+trace(Ljava/lang/String;Ljava/lang/Object;)*
+5*„
+8y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java× ×(Jô
+ñ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java× ×(J7
+handle-org.apache.bookkeeper.bookie.LedgerDescriptor"__id*5
+3
+%2-org.apache.bookkeeper.bookie.LedgerDescriptor¤
+¡
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaØ Ø(
+%3org.slf4j.Logger"__id*
+""ÝÚ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaØ Ø($
+%4boolean""org.slf4j.Logger#isTraceEnabled()Z*
+
+%3org.slf4j.Logger2isTraceEnabled()*
+5
+6*ê
+9y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java×& ×(-ì
+é
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java×& ×(-0
+%1*org.apache.bookkeeper.bookie.HandleFactory"__id*4*2%
+#org.apache.bookkeeper.bookie.Bookie"	
+handlesõò
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java×& ×(I3
+%2-org.apache.bookkeeper.bookie.LedgerDescriptor"norg.apache.bookkeeper.bookie.HandleFactory#getReadOnlyHandle(J)Lorg/apache/bookkeeper/bookie/LedgerDescriptor;*2
+0
+%1*org.apache.bookkeeper.bookie.HandleFactory*
+""2getReadOnlyHandle(J)*
+8*ü
+10y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÔ Ô(%õ
+ò
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaÔ Ô(1
+
+%0long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+9:
+""B'%
+#org.apache.bookkeeper.bookie.Bookie

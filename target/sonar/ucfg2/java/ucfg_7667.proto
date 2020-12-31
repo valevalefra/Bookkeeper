@@ -1,0 +1,56 @@
+
+õorg.apache.bookkeeper.replication.ReplicationWorker#getUnderreplicatedFragments(Lorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Long;)Ljava/util/Set;â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÈ  È(;"1*·
+1â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÎ$ Î(9üú
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÎ( Î(7I
+%0Corg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback"Corg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback±
+Æ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÎ$ Î(9
+%1"Morg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback#<init>()V*K
+I
+%0Corg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback¥
+±
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÎ Î(:P
+	checkerCbCorg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback"__id*K
+I
+%0Corg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallbackì
+ê
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÏ Ï(0
+%2*org.apache.bookkeeper.client.LedgerChecker"__id*J*H5
+3org.apache.bookkeeper.replication.ReplicationWorker"
+ledgerCheckeræª
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÏ Ï(N
+
+%3void"Æorg.apache.bookkeeper.client.LedgerChecker#checkLedger(Lorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/proto/BookkeeperInternalCallbacks$GenericCallback;J)V*2
+0
+%2*org.apache.bookkeeper.client.LedgerChecker*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*R
+P
+	checkerCbCorg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback*0
+.
+ledgerVerificationPercentagejava.lang.Long2ÇcheckLedger(Lorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/proto/BookkeeperInternalCallbacks$GenericCallback;J)Û
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÌ( Ì(D
+%4java.util.Set"eorg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback#waitAndGetResult()Ljava/util/Set;*R
+P
+	checkerCbCorg.apache.bookkeeper.replication.ReplicationWorker$CheckerCallback2waitAndGetResult()»
+≈
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÌ Ì(E
+	fragmentsjava.util.Set"__id*
+
+%4java.util.Set"™
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÓ Ó(
+
+	fragmentsjava.util.Set:/
+lh)org.apache.bookkeeper.client.LedgerHandle:.
+ledgerVerificationPercentagejava.lang.LongB75
+3org.apache.bookkeeper.replication.ReplicationWorker

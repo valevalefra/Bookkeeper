@@ -1,0 +1,262 @@
+
+„org.apache.bookkeeper.client.EnsembleUtils#replaceBookiesInEnsemble(Lorg/apache/bookkeeper/client/BookieWatcher;Lorg/apache/bookkeeper/client/api/LedgerMetadata;Ljava/util/List;Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java(% ((="17*Ï
+13~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java? ?(Ó
+Î
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java? ?(%4
+%16-org.apache.bookkeeper.net.BookieSocketAddress"
+__arrayGet*
+
+newEnsemblejava.util.List*
+""ÎË
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java? ?(2
+%17boolean"Iorg.apache.bookkeeper.net.BookieSocketAddress#equals(Ljava/lang/Object;)Z*6
+4
+%16-org.apache.bookkeeper.net.BookieSocketAddress*7
+5
+addr-org.apache.bookkeeper.net.BookieSocketAddress2equals(Ljava/lang/Object;)*
+8
+12*ç
+2~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java8 8(:Ø
+¨
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java8 8(:
+entryjava.util.Map$Entry"__id*
+""Ã
+…
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java8 8(:
+entryjava.util.Map$Entry"
+__arrayGet*
+
+%9java.util.Set*
+""*
+15
+1*›
+14~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java< <(™
+ß
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java< <(
+%14org.slf4j.Logger"__id*
+""£†
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java< <(U
+%15void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%14org.slf4j.Logger*%#
+!{} replacing bookie: {} index: {}* 
+
+
+logContextjava.lang.String*7
+5
+addr-org.apache.bookkeeper.net.BookieSocketAddress*
+""2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+13*±
+
+15~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java9 9(˜Ù
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java9 9($
+%10java.lang.Integer".java.util.Map$Entry#getKey()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2getKey()óî
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java:' :(74
+%11-org.apache.bookkeeper.net.BookieSocketAddress"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()¯
+ı
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java: :(85
+addr-org.apache.bookkeeper.net.BookieSocketAddress"__id*6
+4
+%11-org.apache.bookkeeper.net.BookieSocketAddress™
+ß
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java; ;(
+%12org.slf4j.Logger"__id*
+""‰·
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java; ;($
+%13boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%12org.slf4j.Logger2isDebugEnabled()*
+13
+14*˚
+16~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java8= 8(JÔÏ
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java8= 8(U
+%9java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;* 
+
+failedBookiesjava.util.Map2
+entrySet()*
+2*Ú
+17~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java.@ .(K≥∞
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java.4 .(?
+%0java.util.ArrayList"java.util.ArrayList¸
+˘
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java.0 .(L
+%1"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*
+
+%0java.util.ArrayList*
+
+oldEnsemblejava.util.List≈
+¬
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java. .(M
+newEnsemblejava.util.List"__id*
+
+%0java.util.ArrayList§°
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java0 0(5	
+%2int"Borg.apache.bookkeeper.client.api.LedgerMetadata#getEnsembleSize()I*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getEnsembleSize()™ß
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java1 1(2	
+%3int"Eorg.apache.bookkeeper.client.api.LedgerMetadata#getWriteQuorumSize()I*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getWriteQuorumSize()¶£
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java2 2(.	
+%4int"Corg.apache.bookkeeper.client.api.LedgerMetadata#getAckQuorumSize()I*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAckQuorumSize()¿Ω
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java3- 3(I
+%5java.util.Map"Rorg.apache.bookkeeper.client.api.LedgerMetadata#getCustomMetadata()Ljava/util/Map;*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getCustomMetadata()¡
+æ
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java3 3(J
+customMetadatajava.util.Map"__id*
+
+%5java.util.Map˘ˆ
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java59 5(O
+%6java.util.Collection",java.util.Map#values()Ljava/util/Collection;* 
+
+failedBookiesjava.util.Map2values()Ø¨
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java5/ 5(8
+%7java.util.HashSet"java.util.HashSetı
+Ú
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java5+ 5(P
+%8"1java.util.HashSet#<init>(Ljava/util/Collection;)V*
+
+%7java.util.HashSet*
+
+%6java.util.Collectionæ
+ª
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java5 5(Q
+excludejava.util.Set"__id*
+
+%7java.util.HashSet*
+16*∑
+7~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaG H(_˝
+˙
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaG H(_:
+	newBookie-org.apache.bookkeeper.net.BookieSocketAddress"__id*6
+4
+%23-org.apache.bookkeeper.net.BookieSocketAddress¨
+©
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaI I(/4
+%24-org.apache.bookkeeper.net.BookieSocketAddress"
+__arraySet*
+
+newEnsemblejava.util.List*
+""*<
+:
+	newBookie-org.apache.bookkeeper.net.BookieSocketAddress*
+2*‰
+8~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaG0 G(=Ÿ÷
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaG0 H(^4
+%23-org.apache.bookkeeper.net.BookieSocketAddress"õorg.apache.bookkeeper.client.BookieWatcher#replaceBookie(IIILjava/util/Map;Ljava/util/List;ILjava/util/Set;)Lorg/apache/bookkeeper/net/BookieSocketAddress;*=
+;
+bookieWatcher*org.apache.bookkeeper.client.BookieWatcher*
+""*
+""*
+""*!
+
+customMetadatajava.util.Map*
+
+newEnsemblejava.util.List*
+""*
+
+excludejava.util.Set2AreplaceBookie(IIILjava/util/Map;Ljava/util/List;ILjava/util/Set;)*
+7*ß
+11~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaA A(™
+ß
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaA A(
+%20org.slf4j.Logger"__id*
+""Ó
+Î
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaB5 B(I4
+%21-org.apache.bookkeeper.net.BookieSocketAddress"
+__arrayGet*
+
+newEnsemblejava.util.List*
+""˝˙
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaA B(J
+%22void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%20org.slf4j.Logger*GE
+C{} Not changing failed bookie {} at index {}, already changed to {}* 
+
+
+logContextjava.lang.String*7
+5
+addr-org.apache.bookkeeper.net.BookieSocketAddress*
+""*6
+4
+%21-org.apache.bookkeeper.net.BookieSocketAddress2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+2*°
+12~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java@ @(™
+ß
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java@ @(
+%18org.slf4j.Logger"__id*
+""‰·
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.java@ @((
+%19boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%18org.slf4j.Logger2isDebugEnabled()*
+2
+11*ß
+1~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaU U("°
+~
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsembleUtils.javaU U(
+
+newEnsemblejava.util.List:;
+bookieWatcher*org.apache.bookkeeper.client.BookieWatcher:;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata:
+oldEnsemblejava.util.List:
+failedBookiesjava.util.Map:
+
+logContextjava.lang.StringB.",
+*org.apache.bookkeeper.client.EnsembleUtils

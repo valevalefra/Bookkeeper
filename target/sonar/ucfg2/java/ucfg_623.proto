@@ -1,0 +1,206 @@
+
+porg.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore#init(Lorg/apache/bookkeeper/statelib/api/StateStoreSpec;)Vâ
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÿ ÿ(!"startingBlock*Ï
+2â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java (ª∏
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java (
+%11java.lang.String"Norg.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore#name()Ljava/lang/String;*97
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore2name()
+Ì
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÒ Ò(
+%12java.io.File"__id*D*B7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+dbDirÙ
+Ò
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÚ Ú(
+%13org.rocksdb.RocksDB"__id*A*?7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+db´
+®
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÛ Û(D
+%14=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore"__id*N*L7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+checkpointStore™ß
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÔ Ô(0O
+%15Horg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksCheckpointer"Horg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksCheckpointer‹
+Ÿ
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÔ ı(
+%16"»org.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksCheckpointer#<init>(Ljava/lang/String;Ljava/io/File;Lorg/rocksdb/RocksDB;Lorg/apache/bookkeeper/statelib/api/checkpoint/CheckpointStore;ZZ)V*Q
+O
+%15Horg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksCheckpointer*
+
+%11java.lang.String*
+
+%12java.io.File*
+
+%13org.rocksdb.RocksDB*F
+D
+%14=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore*
+""*
+""≥
+∞
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÔ ı(I7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+checkpointer"__id*Q
+O
+%15Horg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.RocksCheckpointerõò
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaˆ" ˆ(A4
+%17-java.util.concurrent.ScheduledExecutorService"{org.apache.bookkeeper.statelib.api.StateStoreSpec#getCheckpointIOScheduler()Ljava/util/concurrent/ScheduledExecutorService;*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec2getCheckpointIOScheduler()ü
+ú
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaˆ ˆ(AP7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+checkpointScheduler"__id*6
+4
+%17-java.util.concurrent.ScheduledExecutorService*
+0*Ñ
+3â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java‚ ‚(æª
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java‚ ‚("
+%5java.lang.String"Morg.apache.bookkeeper.statelib.api.StateStoreSpec#getName()Ljava/lang/String;*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec2	getName()Ú
+Ô
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java‚ ‚("A7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+name"__id*
+
+%5java.lang.StringˆÛ
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÂ# Â(5.
+%6(org.apache.bookkeeper.common.coder.Coder"iorg.apache.bookkeeper.statelib.api.StateStoreSpec#getKeyCoder()Lorg/apache/bookkeeper/common/coder/Coder;*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec2getKeyCoder()é
+ã
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÂ Â(5E7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+
+keyCoder"__id*0
+.
+%6(org.apache.bookkeeper.common.coder.CoderˆÛ
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÊ# Ê(5.
+%7(org.apache.bookkeeper.common.coder.Coder"iorg.apache.bookkeeper.statelib.api.StateStoreSpec#getValCoder()Lorg/apache/bookkeeper/common/coder/Coder;*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec2getValCoder()é
+ã
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÊ Ê(5E7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+
+valCoder"__id*0
+.
+%7(org.apache.bookkeeper.common.coder.CoderŒÀ
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÈ È(
+
+%8void"worg.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore#openRocksdb(Lorg/apache/bookkeeper/statelib/api/StateStoreSpec;)V*97
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec2@openRocksdb(Lorg/apache/bookkeeper/statelib/api/StateStoreSpec;)°
+û
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÏ Ï(
+
+%9void"Iorg.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore#readLastRevision()V*97
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore´
+®
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÓ Ó(#D
+%10=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore"__id*N*L7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+checkpointStore*
+2
+0*â
+startingBlockâ
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÿ! ÿ(6˜
+Ù
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java÷ ÷(
+%18"
+__annotate*
+java.lang.Override*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpecˇ
+¸
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java◊ ◊("
+%19"
+__annotate*
+java.lang.SuppressWarnings*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpecÍ
+Á
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaÿ1 ÿ(59
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec"__annotation*
+
+%18*
+
+%19*
+5*∑
+4â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaﬂ ﬂ(*†
+ù
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaﬂ ﬂ(0
+
+%4void"äorg.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore#loadRocksdbFromCheckpointStore(Lorg/apache/bookkeeper/statelib/api/StateStoreSpec;)V*97
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec*
+3*¸
+5â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaŸ Ÿ(“œ
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaŸ Ÿ(1
+%0java.io.File"Worg.apache.bookkeeper.statelib.api.StateStoreSpec#getLocalStateStoreDir()Ljava/io/File;*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec2getLocalStateStoreDir()Å
+˛
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.javaŸ ⁄(<
+%1java.io.File"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*
+
+%0java.io.File*1/
+-local state store directory is not configuredØ¨
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java‹ ‹(3C
+%2=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore"Öorg.apache.bookkeeper.statelib.api.StateStoreSpec#getCheckpointStore()Lorg/apache/bookkeeper/statelib/api/checkpoint/CheckpointStore;*;
+9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpec2getCheckpointStore()™
+ß
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java‹ ‹(3L7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+checkpointStore"__id*E
+C
+%2=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore™
+ß
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java› ›(#C
+%3=org.apache.bookkeeper.statelib.api.checkpoint.CheckpointStore"__id*N*L7
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore"
+checkpointStore*
+3
+4*©
+0 "°
+â
+}/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVStore.java˙ ˙(
+implicit return:9
+spec1org.apache.bookkeeper.statelib.api.StateStoreSpecB97
+5org.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore

@@ -1,0 +1,62 @@
+
+Šorg.apache.bookkeeper.statelib.impl.kv.KVUtils#newCommandBuf(Lorg/apache/bookkeeper/proto/statestore/kv/Command;)Lio/netty/buffer/ByteBuf;€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaJ J( "6*ô
+4€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaM M(5æã
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaM M(5
+
+%5void"Hcom.google.protobuf.AbstractMessageLite#writeTo(Ljava/io/OutputStream;)V*:
+8
+cmd1org.apache.bookkeeper.proto.statestore.kv.Command*+
+)
+%3#io.netty.buffer.ByteBufOutputStream2writeTo(Ljava/io/OutputStream;)*
+1*Š
+5€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaM M(ÖÓ
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaM M(/)
+%3#io.netty.buffer.ByteBufOutputStream"#io.netty.buffer.ByteBufOutputStream£
+ 
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaM M(4
+%4"Fio.netty.buffer.ByteBufOutputStream#<init>(Lio/netty/buffer/ByteBuf;)V*+
+)
+%3#io.netty.buffer.ByteBufOutputStream* 
+
+bufio.netty.buffer.ByteBuf*
+4*Š	
+6€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaK K(,Â
+¿
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaK K(4,
+%0&io.netty.buffer.PooledByteBufAllocator"__id*
+""ª§
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaK< K(S	
+%1int"Forg.apache.bookkeeper.proto.statestore.kv.Command#getSerializedSize()I*:
+8
+cmd1org.apache.bookkeeper.proto.statestore.kv.Command2getSerializedSize()º·
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaK K(T
+%2io.netty.buffer.ByteBuf"Kio.netty.buffer.AbstractByteBufAllocator#buffer(I)Lio/netty/buffer/ByteBuf;*.
+,
+%0&io.netty.buffer.PooledByteBufAllocator*
+	
+%1int2	buffer(I)Í
+Ê
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaK K(U
+bufio.netty.buffer.ByteBuf"__id*
+
+%2io.netty.buffer.ByteBuf*
+5*®
+1€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaR R("¥
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.javaR R( 
+
+bufio.netty.buffer.ByteBuf:8
+cmd1org.apache.bookkeeper.proto.statestore.kv.CommandB2"0
+.org.apache.bookkeeper.statelib.impl.kv.KVUtils

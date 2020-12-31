@@ -1,0 +1,198 @@
+
+ëorg.apache.bookkeeper.tools.common.BKCommand#apply(Lorg/apache/bookkeeper/tools/common/BKFlags;Lorg/apache/bookkeeper/tools/framework/CliFlags;)Z~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaC C("17*¨
+14~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaO& O(B˚¯
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaO* O(@=
+%67org.apache.commons.configuration.CompositeConfiguration"7org.apache.commons.configuration.CompositeConfigurationç
+ä
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaO& O(B
+%7"Aorg.apache.commons.configuration.CompositeConfiguration#<init>()V*?
+=
+%67org.apache.commons.configuration.CompositeConfigurationã
+à
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaO O(C?
+conf7org.apache.commons.configuration.CompositeConfiguration"__id*?
+=
+%67org.apache.commons.configuration.CompositeConfigurationÍ
+Á
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaP# P(5
+%8java.lang.String"__id*G*E
+5
+bkFlags*org.apache.bookkeeper.tools.common.BKFlags"
+
+configFileì
+ê
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaP P(6
+%9boolean"Acom.google.common.base.Strings#isNullOrEmpty(Ljava/lang/String;)Z*"" 
+com.google.common.base.Strings*
+
+%8java.lang.String*
+1
+12*ü
+15~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaI I(†ù
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaJ J(
+%4java.lang.String"Iorg.apache.bookkeeper.tools.framework.CliCommand#path()Ljava/lang/String;*0.
+,org.apache.bookkeeper.tools.common.BKCommand2path()Í
+Á
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaJ J(.
+%5java.lang.String"__id*G*E
+5
+bkFlags*org.apache.bookkeeper.tools.common.BKFlags"
+
+serviceUri"à
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaK K(
+""*§
+16~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaG G(#Í
+Á
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaG+ G(=
+%1java.lang.String"__id*G*E
+5
+bkFlags*org.apache.bookkeeper.tools.common.BKFlags"
+
+serviceUriˆ
+Û
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaG G(>1
+%2+org.apache.bookkeeper.common.net.ServiceURI"sorg.apache.bookkeeper.common.net.ServiceURI#create(Ljava/lang/String;)Lorg/apache/bookkeeper/common/net/ServiceURI;*/"-
++org.apache.bookkeeper.common.net.ServiceURI*
+
+%1java.lang.String˘
+ˆ
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaG G(>9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__id*3
+1
+%2+org.apache.bookkeeper.common.net.ServiceURI±Æ
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaH H(-
+%3boolean"morg.apache.bookkeeper.tools.common.BKCommand#acceptServiceUri(Lorg/apache/bookkeeper/common/net/ServiceURI;)Z*0.
+,org.apache.bookkeeper.tools.common.BKCommand*;
+9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI2?acceptServiceUri(Lorg/apache/bookkeeper/common/net/ServiceURI;)*
+14
+15* 
+17~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaD  D($Ã
+…
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaD D(%9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__id*
+""Í
+Á
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaF F(&
+%0java.lang.String"__id*G*E
+5
+bkFlags*org.apache.bookkeeper.tools.common.BKFlags"
+
+serviceUri*
+14
+16*Ä
+8~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaS S(`î
+ë
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaS S(`F
+
+loadedConf8org.apache.commons.configuration.PropertiesConfiguration"__id*A
+?
+%148org.apache.commons.configuration.PropertiesConfigurationﬁ€
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaT T(1
+%16void"{org.apache.commons.configuration.CompositeConfiguration#addConfiguration(Lorg/apache/commons/configuration/Configuration;)V*A
+?
+conf7org.apache.commons.configuration.CompositeConfiguration*H
+F
+
+loadedConf8org.apache.commons.configuration.PropertiesConfiguration2BaddConfiguration(Lorg/apache/commons/configuration/Configuration;)*
+1*é
+9~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR R(Rø
+º
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR R(R
+configFileUrljava.net.URL"__id*
+
+%13java.net.URL˛˚
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaS9 S(P?
+%148org.apache.commons.configuration.PropertiesConfiguration"8org.apache.commons.configuration.PropertiesConfiguration¿
+Ω
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaS5 S(_
+%15"Porg.apache.commons.configuration.PropertiesConfiguration#<init>(Ljava/net/URL;)V*A
+?
+%148org.apache.commons.configuration.PropertiesConfiguration*
+
+configFileUrljava.net.URL*
+8*Ë
+10~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR$ R(Q‹Ÿ
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR$ R(Q
+%13java.net.URL""java.net.URI#toURL()Ljava/net/URL;*
+
+%12java.net.URI2toURL()*
+9*ı
+11~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR$ R(IËÂ
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR$ R(I
+%12java.net.URI"(java.nio.file.Path#toUri()Ljava/net/URI;*
+
+%11java.nio.file.Path2toUri()*
+10*Ú
+1~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.java^ ^(·ﬁ
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.java^ ^(9
+%23boolean"˜org.apache.bookkeeper.tools.common.BKCommand#apply(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/commons/configuration/CompositeConfiguration;Lorg/apache/bookkeeper/tools/common/BKFlags;Lorg/apache/bookkeeper/tools/framework/CliFlags;)Z*0.
+,org.apache.bookkeeper.tools.common.BKCommand*;
+9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI*A
+?
+conf7org.apache.commons.configuration.CompositeConfiguration*7
+5
+bkFlags*org.apache.bookkeeper.tools.common.BKFlags*
+
+cmdFlagsCommandFlagsT2…apply(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/commons/configuration/CompositeConfiguration;Lorg/apache/bookkeeper/tools/common/BKFlags;Lorg/apache/bookkeeper/tools/framework/CliFlags;)"à
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.java^ ^(:
+""*°
+12~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR$ R()Î
+Ë
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR. R(@
+%10java.lang.String"__id*G*E
+5
+bkFlags*org.apache.bookkeeper.tools.common.BKFlags"
+
+configFile¶
+£
+~
+t/home/valentina/Scrivania/Bookkeeper/tools/framework/src/main/java/org/apache/bookkeeper/tools/common/BKCommand.javaR$ R(A
+%11java.nio.file.Path"Rjava.nio.file.Paths#get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;*"
+java.nio.file.Paths*
+
+%10java.lang.String*
+11:5
+bkFlags*org.apache.bookkeeper.tools.common.BKFlags:
+cmdFlagsCommandFlagsTB0.
+,org.apache.bookkeeper.tools.common.BKCommand

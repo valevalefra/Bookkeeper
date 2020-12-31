@@ -1,0 +1,161 @@
+
+ìorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#buildDeleteOp(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest;)Lorg/apache/bookkeeper/api/kv/op/DeleteOp;”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaú% ú(2"4*¼
+2”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java (%Ð
+Í
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java (4
+%5byte[]"Œorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#newStoreKey(Lcom/google/protobuf/ByteString;Lcom/google/protobuf/ByteString;)[B*@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*(
+&
+rKeycom.google.protobuf.ByteString*+
+)
+lEndKeycom.google.protobuf.ByteStringÇ
+Ä
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java (4
+storeEndKeybyte[]"__id*
+
+%5byte[]*
+1*§
+3”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java€ €(&‚ÿ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java€ €(-	
+%4int"&com.google.protobuf.ByteString#size()I*+
+)
+lEndKeycom.google.protobuf.ByteString2size()*
+2
+1*Õ
+4”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaû û( óð
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaû û(*$
+%0com.google.protobuf.ByteString"aorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getRKey()Lcom/google/protobuf/ByteString;*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2	getRKey()ð
+í
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaû û(+&
+rKeycom.google.protobuf.ByteString"__id*&
+$
+%0com.google.protobuf.ByteStringüù
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaü ü(*$
+%1com.google.protobuf.ByteString"eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest#getKey()Lcom/google/protobuf/ByteString;*I
+G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest2getKey()ð
+í
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaü ü(+&
+lKeycom.google.protobuf.ByteString"__id*&
+$
+%1com.google.protobuf.ByteString†ƒ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaý ý(2$
+%2com.google.protobuf.ByteString"jorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest#getRangeEnd()Lcom/google/protobuf/ByteString;*I
+G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest2getRangeEnd()ó
+ð
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaý ý(3)
+lEndKeycom.google.protobuf.ByteString"__id*&
+$
+%2com.google.protobuf.ByteStringÍ
+Ê
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaþ þ(1
+%3byte[]"Œorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#newStoreKey(Lcom/google/protobuf/ByteString;Lcom/google/protobuf/ByteString;)[B*@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*(
+&
+rKeycom.google.protobuf.ByteString*(
+&
+lKeycom.google.protobuf.ByteStringÄ
+Á
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaþ þ(2
+storeKeybyte[]"__id*
+
+%3byte[]¿
+¼
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÿ ÿ("
+storeEndKeybyte[]"__id*
+""*
+3
+1*Ã%
+1”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ ƒ(ª
+§
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ ƒ(<
+%66org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
+storeŠ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ ƒ(#/
+%7)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*>
+<
+%66org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()ª
+§
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java… …(<
+%86org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
+storeŠ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java… …( /
+%9)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*>
+<
+%86org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()ˆ…
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java… …(09
+%102org.apache.bookkeeper.api.kv.options.OptionFactory"morg.apache.bookkeeper.api.kv.op.OpFactory#optionFactory()Lorg/apache/bookkeeper/api/kv/options/OptionFactory;*1
+/
+%9)org.apache.bookkeeper.api.kv.op.OpFactory2optionFactory()«¨
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java… …(B?
+%118org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"~org.apache.bookkeeper.api.kv.options.OptionFactory#newDeleteOption()Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*;
+9
+%102org.apache.bookkeeper.api.kv.options.OptionFactory2newDeleteOption()ÍÊ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java† †(+
+%12boolean"Iorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest#getPrevKv()Z*I
+G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest2getPrevKv()¹¶
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java… †(,?
+%138org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"|org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder#prevKv(Z)Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*A
+?
+%118org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder*
+
+%12boolean2	prevKv(Z)ãà
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java… ‡($?
+%148org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder#endKey(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*A
+?
+%138org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder*
+
+storeEndKeybyte[]2endKey(Ljava/lang/Object;)èå
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java… ˆ(8
+%151org.apache.bookkeeper.api.kv.options.DeleteOption"Forg.apache.bookkeeper.api.kv.options.Builder#build()Ljava/lang/Object;*A
+?
+%148org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder2build()ÉÆ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ ˆ(/
+%16(org.apache.bookkeeper.api.kv.op.DeleteOp"¤org.apache.bookkeeper.api.kv.op.OpFactory#newDelete(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/DeleteOption;)Lorg/apache/bookkeeper/api/kv/op/DeleteOp;*1
+/
+%7)org.apache.bookkeeper.api.kv.op.OpFactory*
+
+storeKeybyte[]*:
+8
+%151org.apache.bookkeeper.api.kv.options.DeleteOption2PnewDelete(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/DeleteOption;)"Ê
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ ˆ(1
+/
+%16(org.apache.bookkeeper.api.kv.op.DeleteOp:A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader:G
+request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequestB?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl

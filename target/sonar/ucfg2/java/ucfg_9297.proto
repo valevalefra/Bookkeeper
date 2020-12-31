@@ -1,0 +1,205 @@
+
+âorg.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorage#readLedgerIndexEntries(JLorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage$LedgerLoggerProcessor;)V
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java® ®(-"10*Ã
+3
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaÆ" Æ((£ 
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaÈ È(E
+%19void"korg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage$LedgerLoggerProcessor#process(JJJ)V*l
+j
+	processor]org.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage$LedgerLoggerProcessor*
+""*
+""*
+""2process(JJJ)*
+6
+1*‰
+6
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaÁ Á(0æã
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaÁ Á(T
+%18long"Lorg.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex#getLocation(JJ)J*S
+Q
+entryLocationIndex;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex*
+""*
+""2getLocation(JJ)*	
+3
+6
+1*
+9
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¿ ¿(1îë
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¿ ¿(P
+%17long"Torg.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex#getLastEntryInLedger(J)J*S
+Q
+entryLocationIndex;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex*
+""2getLastEntryInLedger(J)*
+6
+1*¾6
+10
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java± ±(Ç
+Ä
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java± ±(E4
+%0.org.apache.bookkeeper.conf.ServerConfiguration"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*>
+<
+
+serverConf.org.apache.bookkeeper.conf.ServerConfiguration*%#
+!ServerConfiguration can't be nullª
+§
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java² ²(Jc
+%1]org.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage$LedgerLoggerProcessor"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*l
+j
+	processor]org.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage$LedgerLoggerProcessor*+)
+'LedgerLoggger info processor can't nullËÈ
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java´P ´(j
+%2java.io.File[]"Morg.apache.bookkeeper.conf.ServerConfiguration#getLedgerDirs()[Ljava/io/File;*>
+<
+
+serverConf.org.apache.bookkeeper.conf.ServerConfiguration2getLedgerDirs()ÄÁ
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaµ  µ(B
+%3float"Gorg.apache.bookkeeper.conf.ServerConfiguration#getDiskUsageThreshold()F*>
+<
+
+serverConf.org.apache.bookkeeper.conf.ServerConfiguration2getDiskUsageThreshold()ÌÉ
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaµD µ(j
+%4float"Korg.apache.bookkeeper.conf.ServerConfiguration#getDiskUsageWarnThreshold()F*>
+<
+
+serverConf.org.apache.bookkeeper.conf.ServerConfiguration2getDiskUsageWarnThreshold()ëè
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaµ µ(,
+%5&org.apache.bookkeeper.util.DiskChecker"&org.apache.bookkeeper.util.DiskChecker
+š
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaµ µ(k
+%6"2org.apache.bookkeeper.util.DiskChecker#<init>(FF)V*.
+,
+%5&org.apache.bookkeeper.util.DiskChecker*
+
+%3float*
+
+%4floatûø
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java´2 ´(C4
+%7.org.apache.bookkeeper.bookie.LedgerDirsManager".org.apache.bookkeeper.bookie.LedgerDirsManagerı
+ú
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java´. µ(l
+%8"Ÿorg.apache.bookkeeper.bookie.LedgerDirsManager#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;[Ljava/io/File;Lorg/apache/bookkeeper/util/DiskChecker;)V*6
+4
+%7.org.apache.bookkeeper.bookie.LedgerDirsManager*>
+<
+
+serverConf.org.apache.bookkeeper.conf.ServerConfiguration*
+
+%2java.io.File[]*.
+,
+%5&org.apache.bookkeeper.util.DiskChecker˜
+•
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java´ µ(mC
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager"__id*6
+4
+%7.org.apache.bookkeeper.bookie.LedgerDirsManagerÙÖ
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¶  ¶(D
+%9java.util.List"Qorg.apache.bookkeeper.bookie.LedgerDirsManager#getAllLedgerDirs()Ljava/util/List;*E
+C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager2getAllLedgerDirs()Ñ
+Î
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¶ ¶(E
+
+ledgerDirsjava.util.List"__id*
+
+%9java.util.ListáŞ
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¸7 ¸(H
+
+%10int"java.util.List#size()I*
+
+
+ledgerDirsjava.util.List2size()¦
+£
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¸ ¸(I
+
+%11int"<org.apache.bookkeeper.common.util.MathUtils#signSafeMod(JI)I*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+""*
+
+
+%10intŞ
+Û
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¹  ¹(8
+%12java.io.File"
+__arrayGet*
+
+
+ledgerDirsjava.util.List*
+""üù
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¹  ¹(C
+%13java.lang.String")java.io.File#toString()Ljava/lang/String;*
+
+%12java.io.File2
+toString()Ú
+×
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java¹ ¹(D"
+ledgerBasePathjava.lang.String"__id*
+
+%13java.lang.String×
+Ô
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java½  ½(82
+%14+org.apache.bookkeeper.stats.NullStatsLogger"__id*
+""–“
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java»4 »(FB
+%15;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex";org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndexú
+÷
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java»0 ½(9
+%16"ñorg.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/bookie/storage/ldb/KeyValueStorageFactory;Ljava/lang/String;Lorg/apache/bookkeeper/stats/StatsLogger;)V*D
+B
+%15;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex*>
+<
+
+serverConf.org.apache.bookkeeper.conf.ServerConfiguration*
+""*$
+"
+ledgerBasePathjava.lang.String*4
+2
+%14+org.apache.bookkeeper.stats.NullStatsLogger´
+±
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.java» ½(:Q
+entryLocationIndex;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex"__id*D
+B
+%15;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex*
+9*¯
+0 "§
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaÍ Í(
+implicit return*ã
+1
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaË Ë(ÆÃ
+
+‚/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaË Ë(&
+%20void"Dorg.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex#close()V*S
+Q
+entryLocationIndex;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex2close()*
+0:
+"":<
+
+serverConf.org.apache.bookkeeper.conf.ServerConfiguration:j
+	processor]org.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage$LedgerLoggerProcessorB<":
+8org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorage

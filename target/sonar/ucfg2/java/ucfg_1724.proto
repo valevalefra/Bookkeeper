@@ -1,0 +1,748 @@
+
+±org.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController#computeIdealState(Lorg/apache/bookkeeper/stream/proto/cluster/ClusterMetadata;Lorg/apache/bookkeeper/stream/proto/cluster/ClusterAssignmentData;Ljava/util/Set;)Lorg/apache/bookkeeper/stream/proto/cluster/ClusterAssignmentData;•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaJ! J(2"startingBlock*Ñ	
+24ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaä' ä(,Ω∫
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaä' ä(54
+%32-org.apache.bookkeeper.net.BookieSocketAddress".java.util.Map$Entry#getKey()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2getKey()¢
+ü
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaä ä(65
+host-org.apache.bookkeeper.net.BookieSocketAddress"__id*6
+4
+%32-org.apache.bookkeeper.net.BookieSocketAddress‰·
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaå å(.
+%33boolean"+java.util.Set#contains(Ljava/lang/Object;)Z*!
+
+currentClusterjava.util.Set*7
+5
+host-org.apache.bookkeeper.net.BookieSocketAddress2contains(Ljava/lang/Object;)*
+17
+18*‹
+25ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaâ? â(W•¢
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaâ? â(b
+%31java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*+
+)
+currentServerAssignmentsjava.util.Map2
+entrySet()*
+17*ı&
+26•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java| |(√
+¿
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java| }(F
+%18java.lang.String"__concat*;9
+7Storage container controller detects cluster changed:\n*64
+2\t {} servers added: {}\n\t {} servers removed: {}˜Ù
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java~ ~(
+
+%19int"java.util.Set#size()I*
+
+serversAddedjava.util.Set2size()˘ˆ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java~/ ~(D
+
+%20int"java.util.Set#size()I*!
+
+serversRemovedjava.util.Set2size()•¢
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÅ) Å(L
+%21java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*+
+)
+currentServerAssignmentsjava.util.Map2
+entrySet()ß§
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÅ) Å(U
+%22java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%21java.util.Set2stream()¯ı
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÅ) Ç(R
+%23java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;* 
+
+%22java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)¯ı
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÅ) É(D
+%24java.util.stream.Stream"Wjava.util.stream.Stream#flatMap(Ljava/util/function/Function;)Ljava/util/stream/Stream;* 
+
+%23java.util.stream.Stream*
+""2&flatMap(Ljava/util/function/Function;)≤
+Ø
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÑ Ñ('!
+%25java.util.stream.Collector"?java.util.stream.Collectors#toSet()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÇˇ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÅ) Ñ((
+%26java.util.Set"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%24java.util.stream.Stream*#
+!
+%25java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)Ú
+Ô
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÅ Ñ()%
+containersToReassignjava.util.Set"__id*
+
+%26java.util.Setíè
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaà à(<t
+%27morg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController$ServerAssignmentDataComparator"morg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController$ServerAssignmentDataComparator•
+¢
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaà à(>
+%28"worg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController$ServerAssignmentDataComparator#<init>()V*v
+t
+%27morg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController$ServerAssignmentDataComparator⁄◊
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaà à(
+%29java.util.TreeSet"java.util.TreeSet˚
+¯
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaà à(?
+%30"1java.util.TreeSet#<init>(Ljava/util/Comparator;)V*
+
+%29java.util.TreeSet*v
+t
+%27morg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController$ServerAssignmentDataComparatorı
+Ú
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaá à(@$
+assignmentQueuejava.util.TreeSet"__id*
+
+%29java.util.TreeSet*
+25*´
+27•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javay y("¸
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javay y( R
+P
+currentState@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData*º
+28•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaw& w(4ÉÄ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaw& w(>
+%17boolean"java.util.Set#isEmpty()Z*!
+
+serversRemovedjava.util.Set2	isEmpty()*
+26
+27*∆
+29•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javas s(ø
+º
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javas s(C-
+%12&com.google.common.collect.Sets$SetView"qcom.google.common.collect.Sets#difference(Ljava/util/Set;Ljava/util/Set;)Lcom/google/common/collect/Sets$SetView;*"" 
+com.google.common.collect.Sets*!
+
+currentClusterjava.util.Set*)
+'
+currentServersAssignedjava.util.Set¸˘
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javas s(S-
+%13&com.google.common.collect.ImmutableSet"^com.google.common.collect.Sets$SetView#immutableCopy()Lcom/google/common/collect/ImmutableSet;*/
+-
+%12&com.google.common.collect.Sets$SetView2immutableCopy()Å
+˛
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javar s(T
+serversAddedjava.util.Set"__id*/
+-
+%13&com.google.common.collect.ImmutableSetø
+º
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javau u(C-
+%14&com.google.common.collect.Sets$SetView"qcom.google.common.collect.Sets#difference(Ljava/util/Set;Ljava/util/Set;)Lcom/google/common/collect/Sets$SetView;*"" 
+com.google.common.collect.Sets*)
+'
+currentServersAssignedjava.util.Set*!
+
+currentClusterjava.util.Set¸˘
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javau u(S-
+%15&com.google.common.collect.ImmutableSet"^com.google.common.collect.Sets$SetView#immutableCopy()Lcom/google/common/collect/ImmutableSet;*/
+-
+%14&com.google.common.collect.Sets$SetView2immutableCopy()É
+Ä
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javat u(T
+serversRemovedjava.util.Set"__id*/
+-
+%15&com.google.common.collect.ImmutableSetÅ˛
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaw w("
+%16boolean"java.util.Set#isEmpty()Z*
+
+serversAddedjava.util.Set2	isEmpty()*
+26
+28*÷
+30•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javan n('±
+Æ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javan n(HG
+%11@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData"Úorg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController#initializeIdealState(Lorg/apache/bookkeeper/stream/proto/cluster/ClusterMetadata;Ljava/util/Set;)Lorg/apache/bookkeeper/stream/proto/cluster/ClusterAssignmentData;*R"P
+Norg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController*O
+M
+clusterMetadata:org.apache.bookkeeper.stream.proto.cluster.ClusterMetadata*!
+
+currentClusterjava.util.Set"Û
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javan n(II
+G
+%11@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData*Ÿ
+31•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaj: j(Rûõ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaj: j([
+%9java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*+
+)
+currentServerAssignmentsjava.util.Map2keySet()Ò
+Ó
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaj j(\'
+currentServersAssignedjava.util.Set"__id*
+
+%9java.util.Setãà
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javam m(,
+%10boolean"java.util.Set#isEmpty()Z*)
+'
+currentServersAssignedjava.util.Set2	isEmpty()*
+29
+30*®
+32•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV d(Û
+
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV d()
+currentServerAssignmentsjava.util.Map"__id*
+
+%5java.util.Map*
+31*Ω
+10ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¶ ¶(ÑÅ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaß ß("
+
+%45int"java.util.TreeSet#size()I*&
+$
+assignmentQueuejava.util.TreeSet2size()˝˙
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaß% ß(N
+%46long"Uorg.apache.bookkeeper.stream.proto.cluster.ClusterMetadata#getNumStorageContainers()J*O
+M
+clusterMetadata:org.apache.bookkeeper.stream.proto.cluster.ClusterMetadata2getNumStorageContainers()*
+4
+8*°
+11ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaü ü(⁄
+◊
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaü ü(
+containerIdjava.lang.Long"__id*
+""â
+Ü
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaü ü(
+containerIdjava.lang.Long"
+__arrayGet*'
+%
+containersToReassignjava.util.Set*
+""*
+10
+12*Ø
+12ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java†L †([øº
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java†L †(g*
+%41#org.apache.commons.lang3.tuple.Pair"/java.util.TreeSet#pollFirst()Ljava/lang/Object;*&
+$
+assignmentQueuejava.util.TreeSet2pollFirst()õ
+ò
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java† †(h8
+leastLoadedServer#org.apache.commons.lang3.tuple.Pair"__id*,
+*
+%41#org.apache.commons.lang3.tuple.Pair‘—
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java° °((
+%42java.util.LinkedList"@org.apache.commons.lang3.tuple.Pair#getValue()Ljava/lang/Object;*:
+8
+leastLoadedServer#org.apache.commons.lang3.tuple.Pair2
+getValue()ç
+ä
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java° °(9
+%43boolean"
+__arrayAdd*
+
+%42java.util.LinkedList*: *
+
+containerIdjava.lang.Long±
+Æ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¢ ¢(2
+%44boolean"
+__arrayAdd*&
+$
+assignmentQueuejava.util.TreeSet*: *:
+8
+leastLoadedServer#org.apache.commons.lang3.tuple.Pair*
+11*Õ
+14ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaö ö('Ù
+Ò
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaö ö('7
+server-org.apache.bookkeeper.net.BookieSocketAddress"__id*
+""õ
+ò
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaö ö('7
+server-org.apache.bookkeeper.net.BookieSocketAddress"
+__arrayGet*
+
+serversAddedjava.util.Set*
+""*
+15
+11*Â	
+15ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaõ õ(∂
+≥
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaõ0 õ(E
+%38java.util.LinkedList"Ecom.google.common.collect.Lists#newLinkedList()Ljava/util/LinkedList;*#"!
+com.google.common.collect.Listsœ
+Ã
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaõ  õ(F*
+%39#org.apache.commons.lang3.tuple.Pair"qorg.apache.commons.lang3.tuple.Pair#of(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang3/tuple/Pair;*'"%
+#org.apache.commons.lang3.tuple.Pair*9
+7
+server-org.apache.bookkeeper.net.BookieSocketAddress*
+
+%38java.util.LinkedList£
+†
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaõ õ(G
+%40boolean"
+__arrayAdd*&
+$
+assignmentQueuejava.util.TreeSet*: *,
+*
+%39#org.apache.commons.lang3.tuple.Pair*
+14*≤
+38•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' d(˝˙
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' d(
+%5java.util.Map"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)*
+32*Æ
+39•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaY Y(#˘
+ˆ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaY d( 
+%4java.util.stream.Collector"yjava.util.stream.Collectors#toMap(Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/stream/Collector;*"
+java.util.stream.Collectors*
+""*
+""*
+38*é
+17ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaâ â(<Ÿ
+÷
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaâ â(<
+entryjava.util.Map$Entry"__id*
+""˜
+Ù
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaâ â(<
+entryjava.util.Map$Entry"
+__arrayGet*
+
+%31java.util.Set*
+""*
+24
+14*≥
+18ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaï ï(°û
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaïF ï(V
+%34java.util.Set"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()‚
+ﬂ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaï2 ï(W
+%35java.util.LinkedList"Ycom.google.common.collect.Lists#newLinkedList(Ljava/lang/Iterable;)Ljava/util/LinkedList;*#"!
+com.google.common.collect.Lists*
+
+%34java.util.SetÕ
+ 
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaï$ ï(X*
+%36#org.apache.commons.lang3.tuple.Pair"qorg.apache.commons.lang3.tuple.Pair#of(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang3/tuple/Pair;*'"%
+#org.apache.commons.lang3.tuple.Pair*7
+5
+host-org.apache.bookkeeper.net.BookieSocketAddress*
+
+%35java.util.LinkedList£
+†
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaï ï(Y
+%37boolean"
+__arrayAdd*&
+$
+assignmentQueuejava.util.TreeSet*: *,
+*
+%36#org.apache.commons.lang3.tuple.Pair*
+17*±
+1ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¿= ¿(A´
+®
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¿= ¿(N
+%68java.util.HashMap">com.google.common.collect.Maps#newHashMap()Ljava/util/HashMap;*"" 
+com.google.common.collect.MapsÚ
+Ô
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¿ ¿(O!
+newAssignmentMapjava.util.Map"__id*
+
+%68java.util.HashMapŒÀ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¡ ≈(
+%69void":java.lang.Iterable#forEach(Ljava/util/function/Consumer;)V*&
+$
+assignmentQueuejava.util.TreeSet*
+""2&forEach(Ljava/util/function/Consumer;)ﬁ
+€
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∆ ∆(1O
+%70Horg.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData$Builder"óorg.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData#newBuilder()Lorg/apache/bookkeeper/stream/proto/cluster/ClusterAssignmentData$Builder;*D"B
+@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData «
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∆ «(,O
+%71Horg.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData$Builder"±org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData$Builder#putAllServers(Ljava/util/Map;)Lorg/apache/bookkeeper/stream/proto/cluster/ClusterAssignmentData$Builder;*Q
+O
+%70Horg.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData$Builder*#
+!
+newAssignmentMapjava.util.Map2putAllServers(Ljava/util/Map;)Á‰
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∆ »(G
+%72@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData"íorg.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData$Builder#build()Lorg/apache/bookkeeper/stream/proto/cluster/ClusterAssignmentData;*Q
+O
+%71Horg.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData$Builder2build()"ı
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∆ »(I
+G
+%72@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData*Ù#
+2ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∞ ∞()øº
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∞ ∞(5*
+%58#org.apache.commons.lang3.tuple.Pair"/java.util.TreeSet#pollFirst()Ljava/lang/Object;*&
+$
+assignmentQueuejava.util.TreeSet2pollFirst()ï
+í
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∞ ∞(52
+leastLoaded#org.apache.commons.lang3.tuple.Pair"__id*,
+*
+%58#org.apache.commons.lang3.tuple.PairΩ∫
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java± ±(3*
+%59#org.apache.commons.lang3.tuple.Pair".java.util.TreeSet#pollLast()Ljava/lang/Object;*&
+$
+assignmentQueuejava.util.TreeSet2
+pollLast()î
+ë
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java± ±(31
+
+mostLoaded#org.apache.commons.lang3.tuple.Pair"__id*,
+*
+%59#org.apache.commons.lang3.tuple.PairÕ 
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¥ ¥(4
+%60java.util.LinkedList"@org.apache.commons.lang3.tuple.Pair#getValue()Ljava/lang/Object;*3
+1
+
+mostLoaded#org.apache.commons.lang3.tuple.Pair2
+getValue()ˆ
+Û
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¥ ¥(B
+%61java.lang.Long"__arrayRemove*
+
+%60java.util.LinkedList*2 Î
+Ë
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java¥ ¥(C
+containerIdjava.lang.Long"__id*
+
+%61java.lang.LongŒÀ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∂ ∂("
+%62java.util.LinkedList"@org.apache.commons.lang3.tuple.Pair#getValue()Ljava/lang/Object;*4
+2
+leastLoaded#org.apache.commons.lang3.tuple.Pair2
+getValue()ä
+á
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∂ ∂(7
+%63void"
+__arrayAdd*
+
+%62java.util.LinkedList*: *
+
+containerIdjava.lang.Long´
+®
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java∏ ∏(,
+%64boolean"
+__arrayAdd*&
+$
+assignmentQueuejava.util.TreeSet*: *4
+2
+leastLoaded#org.apache.commons.lang3.tuple.Pair™
+ß
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaπ π(+
+%65boolean"
+__arrayAdd*&
+$
+assignmentQueuejava.util.TreeSet*: *3
+1
+
+mostLoaded#org.apache.commons.lang3.tuple.Pair∑¥
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaª ª(1*
+%66#org.apache.commons.lang3.tuple.Pair"+java.util.TreeSet#first()Ljava/lang/Object;*&
+$
+assignmentQueuejava.util.TreeSet2first()ï
+í
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaª ª(12
+leastLoaded#org.apache.commons.lang3.tuple.Pair"__id*,
+*
+%66#org.apache.commons.lang3.tuple.Pairµ≤
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaº º(/*
+%67#org.apache.commons.lang3.tuple.Pair"*java.util.TreeSet#last()Ljava/lang/Object;*&
+$
+assignmentQueuejava.util.TreeSet2last()î
+ë
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaº º(/1
+
+mostLoaded#org.apache.commons.lang3.tuple.Pair"__id*,
+*
+%67#org.apache.commons.lang3.tuple.Pair*
+3*ÿ
+
+3ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaØ Ø(Õ 
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaØ Ø($
+%54java.util.LinkedList"@org.apache.commons.lang3.tuple.Pair#getValue()Ljava/lang/Object;*3
+1
+
+mostLoaded#org.apache.commons.lang3.tuple.Pair2
+getValue()˛˚
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaØ Ø(+
+
+%55int"java.util.LinkedList#size()I*
+
+%54java.util.LinkedList2size()ŒÀ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaØ. Ø(D
+%56java.util.LinkedList"@org.apache.commons.lang3.tuple.Pair#getValue()Ljava/lang/Object;*4
+2
+leastLoaded#org.apache.commons.lang3.tuple.Pair2
+getValue()˛˚
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaØ. Ø(K
+
+%57int"java.util.LinkedList#size()I*
+
+%56java.util.LinkedList2size()*
+2
+1*°
+startingBlock•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaJ2 L([ß
+§
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaI I(
+%73"
+__annotate*
+java.lang.Override*O
+M
+clusterMetadata:org.apache.bookkeeper.stream.proto.cluster.ClusterMetadataë
+é
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaJC J(RM
+clusterMetadata:org.apache.bookkeeper.stream.proto.cluster.ClusterMetadata"__annotation*
+
+%73™
+ß
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaI I(
+%74"
+__annotate*
+java.lang.Override*R
+P
+currentState@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentDataî
+ë
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaKI K(UP
+currentState@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData"__annotation*
+
+%74˘
+ˆ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaI I(
+%75"
+__annotate*
+java.lang.Override*!
+
+currentClusterjava.util.Set„
+‡
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaLL L(Z
+currentClusterjava.util.Set"__annotation*
+
+%75*
+45*”
+
+4ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java≠B ≠(Q∑¥
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java≠B ≠(Y*
+%52#org.apache.commons.lang3.tuple.Pair"+java.util.TreeSet#first()Ljava/lang/Object;*&
+$
+assignmentQueuejava.util.TreeSet2first()ï
+í
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java≠ ≠(Z2
+leastLoaded#org.apache.commons.lang3.tuple.Pair"__id*,
+*
+%52#org.apache.commons.lang3.tuple.Pairµ≤
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÆA Æ(W*
+%53#org.apache.commons.lang3.tuple.Pair"*java.util.TreeSet#last()Ljava/lang/Object;*&
+$
+assignmentQueuejava.util.TreeSet2last()î
+ë
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaÆ Æ(X1
+
+mostLoaded#org.apache.commons.lang3.tuple.Pair"__id*,
+*
+%53#org.apache.commons.lang3.tuple.Pair*
+3*Ç
+6ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java™h ™(iÕ
+ 
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java™h ™(i
+
+%49int"__id*
+
+
+%51int*
+4*Ç
+7ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java™d ™(eÕ
+ 
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java™d ™(e
+
+%49int"__id*
+
+
+%50int*
+4*º
+8ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java™ ™()˝˙
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java™ ™(C
+%47long"Uorg.apache.bookkeeper.stream.proto.cluster.ClusterMetadata#getNumStorageContainers()J*O
+M
+clusterMetadata:org.apache.bookkeeper.stream.proto.cluster.ClusterMetadata2getNumStorageContainers()ÑÅ
+ß
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.java™F ™(\
+
+%48int"java.util.TreeSet#size()I*&
+$
+assignmentQueuejava.util.TreeSet2size()*
+6
+7*ÿ
+40•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' X(£†
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' X(
+%3java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%2java.util.Set2stream()*
+39*¡
+41•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' W(åâ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' W(
+%2java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
+
+%1java.util.Map2
+entrySet()*
+40*ª
+42•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' V(3ÜÉ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaV' V(C
+%1java.util.Map"_org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData#getServersMap()Ljava/util/Map;*R
+P
+currentState@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData2getServersMap()*
+41*ô
+43•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaT T(E‰
+·
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaT T(E)
+currentServerAssignmentsjava.util.Map"__id*
+""*
+42*´
+44•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaO O("¸
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaP P( R
+P
+currentState@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData*ª
+45•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaN N(Çˇ
+•
+ö/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/DefaultStorageContainerController.javaN N($
+%0boolean"java.util.Set#isEmpty()Z*!
+
+currentClusterjava.util.Set2	isEmpty()*
+43
+44:M
+clusterMetadata:org.apache.bookkeeper.stream.proto.cluster.ClusterMetadata:P
+currentState@org.apache.bookkeeper.stream.proto.cluster.ClusterAssignmentData:
+currentClusterjava.util.SetBRP
+Norg.apache.bookkeeper.stream.storage.impl.sc.DefaultStorageContainerController

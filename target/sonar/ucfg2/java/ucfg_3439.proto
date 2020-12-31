@@ -1,0 +1,73 @@
+
+†org.apache.distributedlog.zk.LimitedPermitManager#disallowObtainPermits(Lorg/apache/distributedlog/common/util/PermitManager$Permit;)Z‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java‹  ‹(5"startingBlock*ù
+2‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java‘! ‘(&½
+º
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java’ ’(
+%3org.slf4j.Logger"__id*
+""€ý
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java’ ’(R
+
+%4void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%3org.slf4j.Logger*#!
+EnablePermits = {}, Epoch = {}.*
+""*
+""2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)"œ
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java“ “(
+""*ä
+3‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java ( â
+ß
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java ( ;
+%05java.util.concurrent.atomic.AtomicIntegerFieldUpdater"__id*
+""™–
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java (6	
+%1int"Zjava.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndIncrement(Ljava/lang/Object;)I*=
+;
+%05java.util.concurrent.atomic.AtomicIntegerFieldUpdater*53
+1org.apache.distributedlog.zk.LimitedPermitManager2#getAndIncrement(Ljava/lang/Object;)Á¾
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java (6	
+%2int"Iorg.apache.distributedlog.zk.LimitedPermitManager$EpochPermit#getEpoch()I*F
+D
+permit:org.apache.distributedlog.common.util.PermitManager$Permit2
+getEpoch()*
+2
+1*­
+startingBlock‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java‹5 ‹(D‰
+†
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.javaŠ Š(
+%5"
+__annotate*
+java.lang.Override*F
+D
+permit:org.apache.distributedlog.common.util.PermitManager$Permitó
+ð
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java‹= ‹(CD
+permit:org.apache.distributedlog.common.util.PermitManager$Permit"__annotation*
+
+%5*
+3
+4*¶
+4‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java ("œ
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java (
+""*¶
+1‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java• •("œ
+‘
+„/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/zk/LimitedPermitManager.java• •(
+"":D
+permit:org.apache.distributedlog.common.util.PermitManager$PermitB53
+1org.apache.distributedlog.zk.LimitedPermitManager

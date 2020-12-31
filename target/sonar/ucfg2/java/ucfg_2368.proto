@@ -1,0 +1,48 @@
+
+¯org.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#updateSegmentMetadata(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaŸ4 Ÿ(I"1*Â
+1¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java "  (-¬©
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java "  (/0
+%0*org.apache.distributedlog.util.Transaction"{org.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#transaction()Lorg/apache/distributedlog/util/Transaction;*EC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater2transaction()”
+‘
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java   (01
+txn*org.apache.distributedlog.util.Transaction"__id*2
+0
+%0*org.apache.distributedlog.util.TransactionË
+È
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¡ ¡(B
+%1<org.apache.distributedlog.logsegment.LogSegmentMetadataStore"__id*X*VC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater"
+metadataStore„
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¡ ¡(4
+
+%2void"ªorg.apache.distributedlog.logsegment.LogSegmentMetadataStore#updateLogSegment(Lorg/apache/distributedlog/util/Transaction;Lorg/apache/distributedlog/LogSegmentMetadata;)V*D
+B
+%1<org.apache.distributedlog.logsegment.LogSegmentMetadataStore*3
+1
+txn*org.apache.distributedlog.util.Transaction*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2lupdateLogSegment(Lorg/apache/distributedlog/util/Transaction;Lorg/apache/distributedlog/LogSegmentMetadata;)óð
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¢ ¢(,
+%3&java.util.concurrent.CompletableFuture"\org.apache.distributedlog.util.Transaction#execute()Ljava/util/concurrent/CompletableFuture;*3
+1
+txn*org.apache.distributedlog.util.Transaction2	execute()°­
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¢ ¢(:,
+%4&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%3&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)"Ô
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¢ ¢(;.
+,
+%4&java.util.concurrent.CompletableFuture:7
+segment,org.apache.distributedlog.LogSegmentMetadataBEC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater

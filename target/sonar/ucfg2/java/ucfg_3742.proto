@@ -1,0 +1,172 @@
+
+borg.apache.distributedlog.BKSyncLogReader#readNextEntry(Z)Lorg/apache/distributedlog/Entry$Reader;à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaâ â(&"12*÷
+
+2à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaô ô('è
+å
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaô ô('5
+%14.org.apache.distributedlog.ReadAheadEntryReader"__id*B*@+
+)org.apache.distributedlog.BKSyncLogReader"
+readAheadReader¬
+ø
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaôT ô(i$
+%15java.util.concurrent.TimeUnit"__id*
+""Ì
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaô ô(j-
+%16&org.apache.distributedlog.Entry$Reader"éorg.apache.distributedlog.ReadAheadEntryReader#getNextReadAheadEntry(JLjava/util/concurrent/TimeUnit;)Lorg/apache/distributedlog/Entry$Reader;*7
+5
+%14.org.apache.distributedlog.ReadAheadEntryReader*
+""*&
+$
+%15java.util.concurrent.TimeUnit27getNextReadAheadEntry(JLjava/util/concurrent/TimeUnit;)ˆ
+Û
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaô ô(j/
+entry&org.apache.distributedlog.Entry$Reader"__id*/
+-
+%16&org.apache.distributedlog.Entry$Reader*
+1*‘
+3à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaò ò(å
+â
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaò ò(.2
+%12+java.util.concurrent.atomic.AtomicReference"__id*B*@+
+)org.apache.distributedlog.BKSyncLogReader"
+readerException¨©
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaò ò(4
+%13java.io.IOException"Cjava.util.concurrent.atomic.AtomicReference#get()Ljava/lang/Object;*4
+2
+%12+java.util.concurrent.atomic.AtomicReference2get()*
+2
+1*‡
+4à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaó ó(è
+å
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaó ó(5
+%10.org.apache.distributedlog.ReadAheadEntryReader"__id*B*@+
+)org.apache.distributedlog.BKSyncLogReader"
+readAheadReaderµ≤
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaó ó(5
+%11boolean"Eorg.apache.distributedlog.ReadAheadEntryReader#isReadAheadCaughtUp()Z*7
+5
+%10.org.apache.distributedlog.ReadAheadEntryReader2isReadAheadCaughtUp()*
+3
+1*œ
+5à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaî î("æ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaî î(1
+/
+entry&org.apache.distributedlog.Entry$Reader*—
+
+7à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaë ë('é
+ã
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaë ë('4
+%7.org.apache.distributedlog.ReadAheadEntryReader"__id*B*@+
+)org.apache.distributedlog.BKSyncLogReader"
+readAheadReader¡
+æ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaëT ë(i#
+%8java.util.concurrent.TimeUnit"__id*
+""ÌÍ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaë ë(j,
+%9&org.apache.distributedlog.Entry$Reader"éorg.apache.distributedlog.ReadAheadEntryReader#getNextReadAheadEntry(JLjava/util/concurrent/TimeUnit;)Lorg/apache/distributedlog/Entry$Reader;*6
+4
+%7.org.apache.distributedlog.ReadAheadEntryReader*
+""*%
+#
+%8java.util.concurrent.TimeUnit27getNextReadAheadEntry(JLjava/util/concurrent/TimeUnit;)ı
+Ú
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaë ë(j/
+entry&org.apache.distributedlog.Entry$Reader"__id*.
+,
+%9&org.apache.distributedlog.Entry$Reader*
+10*‘
+9à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaè è(ã
+à
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaè è(.1
+%5+java.util.concurrent.atomic.AtomicReference"__id*B*@+
+)org.apache.distributedlog.BKSyncLogReader"
+readerException™ß
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaè è(4
+%6java.io.IOException"Cjava.util.concurrent.atomic.AtomicReference#get()Ljava/lang/Object;*3
+1
+%5+java.util.concurrent.atomic.AtomicReference2get()*	
+4
+5
+7*·
+10à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaé é(#é
+ã
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaé é(#4
+%3.org.apache.distributedlog.ReadAheadEntryReader"__id*B*@+
+)org.apache.distributedlog.BKSyncLogReader"
+readAheadReader≥∞
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaé é(9
+%4boolean"Eorg.apache.distributedlog.ReadAheadEntryReader#isReadAheadCaughtUp()Z*6
+4
+%3.org.apache.distributedlog.ReadAheadEntryReader2isReadAheadCaughtUp()*	
+4
+5
+9*í
+
+11à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaå å("é
+ã
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaå å("4
+%0.org.apache.distributedlog.ReadAheadEntryReader"__id*B*@+
+)org.apache.distributedlog.BKSyncLogReader"
+readAheadReader¡
+æ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaå= å(R#
+%1java.util.concurrent.TimeUnit"__id*
+""ÌÍ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaå å(S,
+%2&org.apache.distributedlog.Entry$Reader"éorg.apache.distributedlog.ReadAheadEntryReader#getNextReadAheadEntry(JLjava/util/concurrent/TimeUnit;)Lorg/apache/distributedlog/Entry$Reader;*6
+4
+%0.org.apache.distributedlog.ReadAheadEntryReader*
+""*%
+#
+%1java.util.concurrent.TimeUnit27getNextReadAheadEntry(JLjava/util/concurrent/TimeUnit;)"ª
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaå å(T.
+,
+%2&org.apache.distributedlog.Entry$Reader*È
+12à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaä ä(!Õ
+ 
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaä ä("/
+entry&org.apache.distributedlog.Entry$Reader"__id*
+""*
+10
+11*œ
+1à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaõ õ("æ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogReader.javaõ õ(1
+/
+entry&org.apache.distributedlog.Entry$Reader:
+""B-+
+)org.apache.distributedlog.BKSyncLogReader

@@ -1,0 +1,263 @@
+
+‘org.apache.bookkeeper.proto.PerChannelBookieClient$ReadLacCompletion#handleV3Response(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response;)Vˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java ($"startingBlock*×
+2ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‘ ‘(Á¾
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‘ ‘(9
+%19void"Ÿorg.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue#logResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;[Ljava/lang/Object;)V*HF
+Dorg.apache.bookkeeper.proto.PerChannelBookieClient$ReadLacCompletion*E
+C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+
+ledgerId*
+""2[logResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;[Ljava/lang/Object;)*
+1*À
+3ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java (µ
+²
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java (
+%17org.slf4j.Logger"__id*
+""ïì
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java ($
+%18boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%17org.slf4j.Logger2isDebugEnabled()*
+2
+1*
+startingBlockˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java$ (J€
+ý
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java€ €(
+%27"
+__annotate*
+java.lang.Override*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Responseê
+ç
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaA (IC
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response"__annotation*
+
+%27*
+10*‹
+4ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java" (*‘Ž
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java9 ([%
+%14com.google.protobuf.ByteString"qorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse#getLastEntryBody()Lcom/google/protobuf/ByteString;*S
+Q
+readLacResponse>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse2getLastEntryBody()·´
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java9 (r
+%15java.nio.ByteBuffer"Jcom.google.protobuf.ByteString#asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;*'
+%
+%14com.google.protobuf.ByteString2asReadOnlyByteBuffer()Â
+¿
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java" (s
+%16io.netty.buffer.ByteBuf"Vio.netty.buffer.Unpooled#wrappedBuffer(Ljava/nio/ByteBuffer;)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+
+%15java.nio.ByteBufferâ
+ß
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java (s*
+lastEntryBufferio.netty.buffer.ByteBuf"__id* 
+
+%16io.netty.buffer.ByteBuf*
+3*ô
+5ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaŒ Œ(ÛØ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaŒ Œ(2
+%13boolean"Rorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse#hasLastEntryBody()Z*S
+Q
+readLacResponse>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse2hasLastEntryBody()*
+3
+4*ù
+
+6ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‰ ‰($…‚
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‰3 ‰(O%
+%10com.google.protobuf.ByteString"korg.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse#getLacBody()Lcom/google/protobuf/ByteString;*S
+Q
+readLacResponse>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse2getLacBody()·´
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‰3 ‰(f
+%11java.nio.ByteBuffer"Jcom.google.protobuf.ByteString#asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;*'
+%
+%10com.google.protobuf.ByteString2asReadOnlyByteBuffer()Â
+¿
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‰ ‰(g
+%12io.netty.buffer.ByteBuf"Vio.netty.buffer.Unpooled#wrappedBuffer(Ljava/nio/ByteBuffer;)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+
+%11java.nio.ByteBufferÜ
+Ù
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‰ ‰(g$
+	lacBufferio.netty.buffer.ByteBuf"__id* 
+
+%12io.netty.buffer.ByteBuf*
+5*†
+7ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java… †(Eœ
+™
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java… †(EC
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*A
+?
+%69org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCodeÎË
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaˆ ˆ(,
+%9boolean"Lorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse#hasLacBody()Z*S
+Q
+readLacResponse>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse2hasLacBody()*
+5
+6*Ô
+8ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java†0 †(8£ 
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java†0 †(D?
+%89org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"~org.apache.bookkeeper.proto.BookkeeperProtocol$Response#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getStatus()˜
+•
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java†0 †(D?
+%69org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*A
+?
+%89org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+7*ê
+9ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java† †(!¹¶
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java† †(-?
+%79org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"…org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*S
+Q
+readLacResponse>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse2getStatus()˜
+•
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java† †(-?
+%69org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*A
+?
+%79org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+7*°
+10ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‚. ‚(6À½
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‚. ‚(KD
+%0>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse"Œorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#getReadLacResponse()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadLacResponse;*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getReadLacResponse()¯
+¬
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‚ ‚(LQ
+readLacResponse>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse"__id*F
+D
+%0>org.apache.bookkeeper.proto.BookkeeperProtocol$ReadLacResponse»
+¸
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒ  ƒ(5
+%1io.netty.buffer.ByteBuf"__id*
+""Û
+Ø
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒ ƒ(6$
+	lacBufferio.netty.buffer.ByteBuf"__id*
+
+%1io.netty.buffer.ByteBuf»
+¸
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java„& „(;
+%2io.netty.buffer.ByteBuf"__id*
+""á
+Þ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java„ „(<*
+lastEntryBufferio.netty.buffer.ByteBuf"__id*
+
+%2io.netty.buffer.ByteBuf£ 
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java…  …(4?
+%39org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"~org.apache.bookkeeper.proto.BookkeeperProtocol$Response#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getStatus()Ý
+Ú
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java…8 …(B?
+%49org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""Ý
+Ú
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java…8 …(F?
+%59org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""*
+8
+9*¨
+0 " 
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java— —(	
+implicit return*®
+1ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java” ”("¨
+¥
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java”+ ”(I
+
+%20int"__id*
+""˜•
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java” ”(J
+
+%21int"org.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue#convertStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;I)I*HF
+Dorg.apache.bookkeeper.proto.PerChannelBookieClient$ReadLacCompletion*E
+C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+
+
+%20int2KconvertStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;I)¶
+³
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java• •(N
+%22Gorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$ReadLacCallback"__id*P*NF
+Dorg.apache.bookkeeper.proto.PerChannelBookieClient$ReadLacCompletion"
+cb™–
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java•- •(>
+%23io.netty.buffer.ByteBuf"8io.netty.buffer.ByteBuf#slice()Lio/netty/buffer/ByteBuf;*&
+$
+	lacBufferio.netty.buffer.ByteBuf2slice()Ÿœ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java– –(6
+%24io.netty.buffer.ByteBuf"8io.netty.buffer.ByteBuf#slice()Lio/netty/buffer/ByteBuf;*,
+*
+lastEntryBufferio.netty.buffer.ByteBuf2slice()€
+ý
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java–8 –(;
+%25java.lang.Object"__id*Q*OF
+Dorg.apache.bookkeeper.proto.PerChannelBookieClient$ReadLacCompletion"
+ctxØÕ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java• –(<
+%26void" org.apache.bookkeeper.proto.BookkeeperInternalCallbacks$ReadLacCallback#readLacComplete(IJLio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;Ljava/lang/Object;)V*P
+N
+%22Gorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$ReadLacCallback*
+""*
+""* 
+
+%23io.netty.buffer.ByteBuf* 
+
+%24io.netty.buffer.ByteBuf*
+
+%25java.lang.Object2WreadLacComplete(IJLio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;Ljava/lang/Object;)*
+0:C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$ResponseBHF
+Dorg.apache.bookkeeper.proto.PerChannelBookieClient$ReadLacCompletion

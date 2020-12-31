@@ -1,0 +1,122 @@
+
+¼org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#createStream(Lorg/apache/bookkeeper/stream/proto/storage/CreateStreamRequest;)Ljava/util/concurrent/CompletableFuture;ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaƒ3 ƒ(?"startingBlock*’
+2ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‰ ‰(Ð
+Í
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‰% ‰(FM
+%4Gorg.apache.bookkeeper.stream.proto.storage.CreateStreamResponse$Builder"•org.apache.bookkeeper.stream.proto.storage.CreateStreamResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/storage/CreateStreamResponse$Builder;*C"A
+?org.apache.bookkeeper.stream.proto.storage.CreateStreamResponse›˜
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‰% ‰(TM
+%5Gorg.apache.bookkeeper.stream.proto.storage.CreateStreamResponse$Builder"Ñorg.apache.bookkeeper.stream.proto.storage.CreateStreamResponse$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/storage/CreateStreamResponse$Builder;*O
+M
+%4Gorg.apache.bookkeeper.stream.proto.storage.CreateStreamResponse$Builder*?
+=
+code5org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)ØÕ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‰% ‰(\E
+%6?org.apache.bookkeeper.stream.proto.storage.CreateStreamResponse"org.apache.bookkeeper.stream.proto.storage.CreateStreamResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/storage/CreateStreamResponse;*O
+M
+%5Gorg.apache.bookkeeper.stream.proto.storage.CreateStreamResponse$Builder2build()Ë
+È
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‰ ‰(],
+%7&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*G
+E
+%6?org.apache.bookkeeper.stream.proto.storage.CreateStreamResponse"Ñ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‰ ‰(^.
+,
+%7&java.util.concurrent.CompletableFuture*à
+3ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java„ „(#ðí
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java„ „(-
+%0java.lang.String"Zorg.apache.bookkeeper.stream.proto.storage.CreateStreamRequest#getName()Ljava/lang/String;*K
+I
+request>org.apache.bookkeeper.stream.proto.storage.CreateStreamRequest2	getName()ä
+á
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java„ „(.
+
+streamNamejava.lang.String"__id*
+
+%0java.lang.Stringôñ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java… …(+
+%1java.lang.String"\org.apache.bookkeeper.stream.proto.storage.CreateStreamRequest#getNsName()Ljava/lang/String;*K
+I
+request>org.apache.bookkeeper.stream.proto.storage.CreateStreamRequest2getNsName()à
+Ý
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java… …(,
+nsNamejava.lang.String"__id*
+
+%1java.lang.StringàÝ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‡ ‡(A;
+%25org.apache.bookkeeper.stream.proto.storage.StatusCode"¶org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#verifyStreamRequest(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;*IG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
+
+nsNamejava.lang.String* 
+
+
+streamNamejava.lang.String29verifyStreamRequest(Ljava/lang/String;Ljava/lang/String;)¨
+¥
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‡ ‡(B=
+code5org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*=
+;
+%25org.apache.bookkeeper.stream.proto.storage.StatusCodeï
+ì
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaˆ ˆ(;
+%35org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
+""*
+2
+1*Ý
+startingBlockž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaƒ? ƒ(\œ
+™
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‚ ‚(
+%10"
+__annotate*
+java.lang.Override*K
+I
+request>org.apache.bookkeeper.stream.proto.storage.CreateStreamRequest†
+ƒ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaƒT ƒ([I
+request>org.apache.bookkeeper.stream.proto.storage.CreateStreamRequest"__annotation*
+
+%10*
+3*¿
+1ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŒ Œ(ÉÆ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŒ0 Œ(G<
+%86org.apache.bookkeeper.stream.proto.StreamConfiguration"†org.apache.bookkeeper.stream.proto.storage.CreateStreamRequest#getStreamConf()Lorg/apache/bookkeeper/stream/proto/StreamConfiguration;*K
+I
+request>org.apache.bookkeeper.stream.proto.storage.CreateStreamRequest2getStreamConf()ø
+õ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŒ Œ(H,
+%9&java.util.concurrent.CompletableFuture"Øorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#createStream(Ljava/lang/String;Ljava/lang/String;Lorg/apache/bookkeeper/stream/proto/StreamConfiguration;)Ljava/util/concurrent/CompletableFuture;*IG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
+
+nsNamejava.lang.String* 
+
+
+streamNamejava.lang.String*>
+<
+%86org.apache.bookkeeper.stream.proto.StreamConfiguration"Ñ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŒ Œ(I.
+,
+%9&java.util.concurrent.CompletableFuture:I
+request>org.apache.bookkeeper.stream.proto.storage.CreateStreamRequestBIG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl

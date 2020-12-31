@@ -1,0 +1,86 @@
+
+ïorg.apache.bookkeeper.statelib.impl.mvcc.MVCCAsyncBytesStoreImpl#txn(Lorg/apache/bookkeeper/api/kv/op/TxnOp;)Ljava/util/concurrent/CompletableFuture;ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÅ8 Å(;"startingBlock*¯
+2ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÑ Ñ("µ≤
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÑ1 Ñ(KN
+%0Horg.apache.bookkeeper.statelib.api.exceptions.InvalidStateStoreException"Horg.apache.bookkeeper.statelib.api.exceptions.InvalidStateStoreExceptionÇ
+ˇ
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÑ- Ñ(r
+%1"dorg.apache.bookkeeper.statelib.api.exceptions.InvalidStateStoreException#<init>(Ljava/lang/String;)V*P
+N
+%0Horg.apache.bookkeeper.statelib.api.exceptions.InvalidStateStoreException*'%
+#State store is not initialized yet.“
+œ
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÑ Ñ(s,
+%2&java.util.concurrent.CompletableFuture"|org.apache.bookkeeper.common.concurrent.FutureUtils#exception(Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*P
+N
+%0Horg.apache.bookkeeper.statelib.api.exceptions.InvalidStateStoreException"»
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÑ Ñ(t.
+,
+%2&java.util.concurrent.CompletableFuture*á
+startingBlockï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÅ; Å(UÙ
+Ò
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÄ Ä(
+%7"
+__annotate*
+java.lang.Override*-
++
+op%org.apache.bookkeeper.api.kv.op.TxnOpﬁ
+€
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaÅR Å(T+
+op%org.apache.bookkeeper.api.kv.op.TxnOp"__annotation*
+
+%7*
+2
+1* 
+1ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaà à(#◊
+‘
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaà à(19
+%33org.apache.bookkeeper.stream.proto.kv.store.Command"óorg.apache.bookkeeper.statelib.impl.mvcc.MVCCUtils#toCommand(Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/stream/proto/kv/store/Command;*6"4
+2org.apache.bookkeeper.statelib.impl.mvcc.MVCCUtils*-
++
+op%org.apache.bookkeeper.api.kv.op.TxnOpû
+õ
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaà à(2>
+command3org.apache.bookkeeper.stream.proto.kv.store.Command"__id*;
+9
+%33org.apache.bookkeeper.stream.proto.kv.store.Commandä
+á
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaâ â(.,
+%4&java.util.concurrent.CompletableFuture"∂org.apache.bookkeeper.statelib.impl.mvcc.MVCCAsyncBytesStoreImpl#writeCommandReturnTxId(Lorg/apache/bookkeeper/stream/proto/kv/store/Command;)Ljava/util/concurrent/CompletableFuture;*DB
+@org.apache.bookkeeper.statelib.impl.mvcc.MVCCAsyncBytesStoreImpl*@
+>
+command3org.apache.bookkeeper.stream.proto.kv.store.Command≤
+Ø
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaäF ä(V3
+%5-java.util.concurrent.ScheduledExecutorService"__id*Z*XB
+@org.apache.bookkeeper.statelib.impl.mvcc.MVCCAsyncBytesStoreImpl"
+writeIOScheduler§°
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaâ ä(W,
+%6&java.util.concurrent.CompletableFuture"õjava.util.concurrent.CompletableFuture#thenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%4&java.util.concurrent.CompletableFuture*
+""*5
+3
+%5-java.util.concurrent.ScheduledExecutorService2LthenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)"»
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCAsyncBytesStoreImpl.javaâ ä(X.
+,
+%6&java.util.concurrent.CompletableFuture:+
+op%org.apache.bookkeeper.api.kv.op.TxnOpBDB
+@org.apache.bookkeeper.statelib.impl.mvcc.MVCCAsyncBytesStoreImpl

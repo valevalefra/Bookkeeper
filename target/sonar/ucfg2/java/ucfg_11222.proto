@@ -1,0 +1,33 @@
+
+Øorg.apache.bookkeeper.common.concurrent.FutureUtils#stats(Ljava/util/concurrent/CompletableFuture;Lorg/apache/bookkeeper/stats/OpStatsLogger;Lcom/google/common/base/Stopwatch;)Ljava/util/concurrent/CompletableFuture;‰
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaê+ ê(0"1*ú
+1‰
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaí í(ýú
+‰
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaí' í(98
+%02org.apache.bookkeeper.common.stats.OpStatsListener"2org.apache.bookkeeper.common.stats.OpStatsListenerÌ
+É
+‰
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaí# í(S
+%1"‰org.apache.bookkeeper.common.stats.OpStatsListener#<init>(Lorg/apache/bookkeeper/stats/OpStatsLogger;Lcom/google/common/base/Stopwatch;)V*:
+8
+%02org.apache.bookkeeper.common.stats.OpStatsListener*<
+:
+opStatsLogger)org.apache.bookkeeper.stats.OpStatsLogger*/
+-
+	stopwatch com.google.common.base.StopwatchÚ×
+‰
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaí í(T,
+%2&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*2
+0
+result&java.util.concurrent.CompletableFuture*:
+8
+%02org.apache.bookkeeper.common.stats.OpStatsListener2-whenComplete(Ljava/util/function/BiConsumer;)"¼
+‰
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaí í(U.
+,
+%2&java.util.concurrent.CompletableFuture:0
+result&java.util.concurrent.CompletableFuture::
+opStatsLogger)org.apache.bookkeeper.stats.OpStatsLogger:-
+	stopwatch com.google.common.base.StopwatchB7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils

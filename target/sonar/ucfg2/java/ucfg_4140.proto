@@ -1,0 +1,189 @@
+
+Iorg.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand#runCmd()Iì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaﬁ ﬁ("8"9*œ
+2ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÌ Ì(Õ
+ 
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÌE Ì(U$
+%19java.util.concurrent.TimeUnit"__id*
+""€
+ÿ
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÌ Ì(V
+%20void"èorg.apache.distributedlog.common.util.SchedulerUtils#shutdownScheduler(Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)V*8"6
+4org.apache.distributedlog.common.util.SchedulerUtils*9
+7
+executorService$java.util.concurrent.ExecutorService*2*&
+$
+%19java.util.concurrent.TimeUnit*
+0
+1*ˆ
+3ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÎ3 Î(>’
+“
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÍ Î(L
+%18void"¸org.apache.distributedlog.admin.DistributedLogAdmin#checkAndRepairDLNamespace(Ljava/net/URI;Lorg/apache/distributedlog/api/namespace/Namespace;Lorg/apache/distributedlog/metadata/MetadataUpdater;Lorg/apache/bookkeeper/common/util/OrderedScheduler;ZZI)V*7"5
+3org.apache.distributedlog.admin.DistributedLogAdmin*
+
+%15java.net.URI*:
+8
+%161org.apache.distributedlog.api.namespace.Namespace*G
+E
+metadataUpdater2org.apache.distributedlog.metadata.MetadataUpdater*A
+?
+	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler*
+""*
+""*
+""*
+2*Ë
+4ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÍD Í(S«ƒ
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÎ4 Î(>
+%17boolean"Korg.apache.distributedlog.tools.DistributedLogTool$PerDLCommand#getForce()Z*CA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand2
+getForce()*
+3*Õ
+5ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÍ4 Í(@¨©
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÍ4 Í(B8
+%161org.apache.distributedlog.api.namespace.Namespace"Åorg.apache.distributedlog.tools.DistributedLogTool$PerDLCommand#getNamespace()Lorg/apache/distributedlog/api/namespace/Namespace;*CA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand2getNamespace()*
+4*ˆ
+6ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÍ Í()’“
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÍ* Í(2
+%15java.net.URI"Vorg.apache.distributedlog.tools.DistributedLogTool$PerDLCommand#getUri()Ljava/net/URI;*CA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand2getUri()*
+5*˜
+7ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaﬂ „(:¢
+ü
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaﬂ „(:E
+metadataUpdater2org.apache.distributedlog.metadata.MetadataUpdater"__id*:
+8
+%02org.apache.distributedlog.metadata.MetadataUpdater¨
+©
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‰) ‰(OI
+%8Corg.apache.bookkeeper.common.util.OrderedScheduler$SchedulerBuilder"çorg.apache.bookkeeper.common.util.OrderedScheduler#newSchedulerBuilder()Lorg/apache/bookkeeper/common/util/OrderedScheduler$SchedulerBuilder;*6"4
+2org.apache.bookkeeper.common.util.OrderedScheduler˝˙
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‰) Â(+G
+%9Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"ùorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#name(Ljava/lang/String;)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*K
+I
+%8Corg.apache.bookkeeper.common.util.OrderedScheduler$SchedulerBuilder*
+dlck-scheduler2name(Ljava/lang/String;)˝
+˙
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÊ  Ê(4
+%10java.lang.Runtime"1java.lang.Runtime#getRuntime()Ljava/lang/Runtime;*"
+java.lang.RuntimeÇˇ
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÊ  Ê(J
+
+%11int"(java.lang.Runtime#availableProcessors()I*
+
+%10java.lang.Runtime2availableProcessors()‡›
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‰) Ê(KH
+%12Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"íorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#numThreads(I)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*I
+G
+%9Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
+
+
+%11int2numThreads(I)ß§
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‰) Á(9
+%132org.apache.bookkeeper.common.util.OrderedScheduler"|org.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#build()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*J
+H
+%12Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder2build()ù
+ö
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‰ Á(?
+	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler"__id*;
+9
+%132org.apache.bookkeeper.common.util.OrderedScheduler∆
+√
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaË. Ë(M+
+%14$java.util.concurrent.ExecutorService"Zjava.util.concurrent.Executors#newCachedThreadPool()Ljava/util/concurrent/ExecutorService;*"" 
+java.util.concurrent.Executorsá
+Ñ
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaË Ë(N7
+executorService$java.util.concurrent.ExecutorService"__id*-
++
+%14$java.util.concurrent.ExecutorService*
+6*È
+8ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‚ ‚(2©¶
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‚I ‚(R;
+%65org.apache.distributedlog.DistributedLogConfiguration"Äorg.apache.distributedlog.tools.DistributedLogTool$PerDLCommand#getConf()Lorg/apache/distributedlog/DistributedLogConfiguration;*CA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand2	getConf()›⁄
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java„ „(8B
+%7<org.apache.distributedlog.logsegment.LogSegmentMetadataStore"öorg.apache.distributedlog.tools.DistributedLogTool$PerDLCommand#getLogSegmentMetadataStore()Lorg/apache/distributedlog/logsegment/LogSegmentMetadataStore;*CA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand2getLogSegmentMetadataStore()§
+°
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‚ „(98
+%22org.apache.distributedlog.metadata.MetadataUpdater"Çorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#createMetadataUpdater(Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/logsegment/LogSegmentMetadataStore;)Lorg/apache/distributedlog/metadata/MetadataUpdater;*E"C
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater*=
+;
+%65org.apache.distributedlog.DistributedLogConfiguration*D
+B
+%7<org.apache.distributedlog.logsegment.LogSegmentMetadataStoreï
+í
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‚ „(98
+%02org.apache.distributedlog.metadata.MetadataUpdater"__id*:
+8
+%22org.apache.distributedlog.metadata.MetadataUpdater*
+7*Ã
+9ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‡? ‡(F©¶
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‡? ‡(H;
+%35org.apache.distributedlog.DistributedLogConfiguration"Äorg.apache.distributedlog.tools.DistributedLogTool$PerDLCommand#getConf()Lorg/apache/distributedlog/DistributedLogConfiguration;*CA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand2	getConf()›⁄
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java· ·(8B
+%4<org.apache.distributedlog.logsegment.LogSegmentMetadataStore"öorg.apache.distributedlog.tools.DistributedLogTool$PerDLCommand#getLogSegmentMetadataStore()Lorg/apache/distributedlog/logsegment/LogSegmentMetadataStore;*CA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand2getLogSegmentMetadataStore()±Æ
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‡ ‡(>M
+%1Gorg.apache.distributedlog.metadata.DryrunLogSegmentMetadataStoreUpdater"Gorg.apache.distributedlog.metadata.DryrunLogSegmentMetadataStoreUpdateræ
+ª
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‡ ·(9
+%5"∆org.apache.distributedlog.metadata.DryrunLogSegmentMetadataStoreUpdater#<init>(Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/logsegment/LogSegmentMetadataStore;)V*O
+M
+%1Gorg.apache.distributedlog.metadata.DryrunLogSegmentMetadataStoreUpdater*=
+;
+%35org.apache.distributedlog.DistributedLogConfiguration*D
+B
+%4<org.apache.distributedlog.logsegment.LogSegmentMetadataStore™
+ß
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‡ ·(98
+%02org.apache.distributedlog.metadata.MetadataUpdater"__id*O
+M
+%1Gorg.apache.distributedlog.metadata.DryrunLogSegmentMetadataStoreUpdater*
+7*≥
+0 "´
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java (	
+implicit return*∫
+1ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÔ Ô("û
+ì
+Ü/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÔ Ô(
+""BCA
+?org.apache.distributedlog.admin.DistributedLogAdmin$DLCKCommand

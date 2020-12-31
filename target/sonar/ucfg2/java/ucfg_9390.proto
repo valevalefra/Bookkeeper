@@ -1,0 +1,1139 @@
+
+Íorg.apache.bookkeeper.client.BookKeeper#<init>(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lorg/apache/zookeeper/ZooKeeper;Lio/netty/channel/EventLoopGroup;Lio/netty/buffer/ByteBufAllocator;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/bookkeeper/net/DNSToSwitchMapping;Lio/netty/util/HashedWheelTimer;Lorg/apache/bookkeeper/feature/FeatureProvider;)V}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaè è("startingBlock*ç
+25}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaª ø(3˝˙
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaª ø(36
+%33/org.apache.bookkeeper.meta.MetadataClientDriver"âorg.apache.bookkeeper.meta.MetadataClientDriver#initialize(Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/concurrent/ScheduledExecutorService;Lorg/apache/bookkeeper/stats/StatsLogger;Ljava/util/Optional;)Lorg/apache/bookkeeper/meta/MetadataClientDriver;*8
+6
+%30/org.apache.bookkeeper.meta.MetadataClientDriver*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*;
+9
+%312org.apache.bookkeeper.common.util.OrderedScheduler*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+%32java.util.Optional2®initialize(Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/concurrent/ScheduledExecutorService;Lorg/apache/bookkeeper/stats/StatsLogger;Ljava/util/Optional;)*
+16
+17*∑
+26}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaª ª(Å
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaª ª(6
+%30/org.apache.bookkeeper.meta.MetadataClientDriver"__id*?*=)
+'org.apache.bookkeeper.client.BookKeeper"
+metadataDriverˇ
+¸
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaΩ Ω(9
+%312org.apache.bookkeeper.common.util.OrderedScheduler"__id*:*8)
+'org.apache.bookkeeper.client.BookKeeper"
+	scheduler•
+¢
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaø ø(2
+%32java.util.Optional"Ejava.util.Optional#ofNullable(Ljava/lang/Object;)Ljava/util/Optional;*"
+java.util.Optional*'
+%
+zkcorg.apache.zookeeper.ZooKeeper*
+25*ç
+27}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaπ π(KÅ
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaπ π(K=)
+'org.apache.bookkeeper.client.BookKeeper"
+metadataDriver"__id*8
+6
+%29/org.apache.bookkeeper.meta.MetadataClientDriver*
+26*ˇ
+28}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaπ& π(5Û
+
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaπ& π(K6
+%29/org.apache.bookkeeper.meta.MetadataClientDriver"org.apache.bookkeeper.meta.MetadataDrivers#getClientDriver(Ljava/lang/String;)Lorg/apache/bookkeeper/meta/MetadataClientDriver;*.",
+*org.apache.bookkeeper.meta.MetadataDrivers*
+zk*
+27*Ω
+29}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∏ ∏(±
+Æ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∏ ∏(i%
+%28org.apache.zookeeper.ZooKeeper"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*'
+%
+zkcorg.apache.zookeeper.ZooKeeper*HF
+DNo external zookeeper provided when no metadata service uri is found*
+28*ç
+30}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∂ ∂(hÅ
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∂ ∂(h=)
+'org.apache.bookkeeper.client.BookKeeper"
+metadataDriver"__id*8
+6
+%27/org.apache.bookkeeper.meta.MetadataClientDriver*
+26*ä
+31}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∂& ∂(h˛
+˚
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∂& ∂(h6
+%27/org.apache.bookkeeper.meta.MetadataClientDriver"{org.apache.bookkeeper.meta.MetadataDrivers#getClientDriver(Ljava/net/URI;)Lorg/apache/bookkeeper/meta/MetadataClientDriver;*.",
+*org.apache.bookkeeper.meta.MetadataDrivers*
+
+%26java.net.URI*
+30*ô
+32}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∂& ∂(5ç
+ä
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∂F ∂(g
+%26java.net.URI"5java.net.URI#create(Ljava/lang/String;)Ljava/net/URI;*"
+java.net.URI*+
+)
+metadataServiceUriStrjava.lang.String*
+31*Ç
+10}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaË  Ë(,˜
+Ù
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaË Ë(,;)
+'org.apache.bookkeeper.client.BookKeeper"
+requestTimer"__id*0
+.
+requestTimerio.netty.util.HashedWheelTimer*
+9*ﬁ
+33}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¥ ¥(HŒ
+À
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¥ ¥(H)
+metadataServiceUriStrjava.lang.String"__id*
+
+%25java.lang.String*
+29
+32*¡
+11}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java„ „(.˘ˆ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java„ „(,=
+%616com.google.common.util.concurrent.ThreadFactoryBuilder"6com.google.common.util.concurrent.ThreadFactoryBuilderå
+â
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java„ „(.
+%62"@com.google.common.util.concurrent.ThreadFactoryBuilder#<init>()V*?
+=
+%616com.google.common.util.concurrent.ThreadFactoryBuilder“œ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java„ „(T=
+%636com.google.common.util.concurrent.ThreadFactoryBuilder"êcom.google.common.util.concurrent.ThreadFactoryBuilder#setNameFormat(Ljava/lang/String;)Lcom/google/common/util/concurrent/ThreadFactoryBuilder;*?
+=
+%616com.google.common.util.concurrent.ThreadFactoryBuilder*
+BookieClientTimer-%d2!setNameFormat(Ljava/lang/String;)€ÿ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java„ „(\)
+%64"java.util.concurrent.ThreadFactory"bcom.google.common.util.concurrent.ThreadFactoryBuilder#build()Ljava/util/concurrent/ThreadFactory;*?
+=
+%636com.google.common.util.concurrent.ThreadFactoryBuilder2build()ª∏
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java‰ ‰(8
+%65long"Oorg.apache.bookkeeper.conf.ClientConfiguration#getTimeoutTimerTickDurationMs()J*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getTimeoutTimerTickDurationMs()∂
+≥
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java‰: ‰(O$
+%66java.util.concurrent.TimeUnit"__id*
+""Æ´
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÂ Â(2
+
+%67int"Iorg.apache.bookkeeper.conf.ClientConfiguration#getTimeoutTimerNumTicks()I*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getTimeoutTimerNumTicks()…∆
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java‚$ ‚(4%
+%68io.netty.util.HashedWheelTimer"io.netty.util.HashedWheelTimerì
+ê
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java‚  Â(3
+%69"mio.netty.util.HashedWheelTimer#<init>(Ljava/util/concurrent/ThreadFactory;JLjava/util/concurrent/TimeUnit;I)V*'
+%
+%68io.netty.util.HashedWheelTimer*+
+)
+%64"java.util.concurrent.ThreadFactory*
+
+%65long*&
+$
+%66java.util.concurrent.TimeUnit*
+
+
+%67intÓ
+Î
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java‚ Â(3;)
+'org.apache.bookkeeper.client.BookKeeper"
+requestTimer"__id*'
+%
+%68io.netty.util.HashedWheelTimer*
+9*÷
+34}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¥+ ¥(/ «
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¥+ ¥(G
+%25java.lang.String"Zorg.apache.bookkeeper.conf.AbstractConfiguration#getMetadataServiceUri()Ljava/lang/String;*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getMetadataServiceUri()*
+33*†
+12}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬁ1 ﬁ(5Ò
+Ó
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬁ7 ﬁ(J&
+%55io.netty.channel.EventLoopGroup"__id*?*=)
+'org.apache.bookkeeper.client.BookKeeper"
+eventLoopGroupÌ
+Í
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬁL ﬁ(Z'
+%56 io.netty.buffer.ByteBufAllocator"__id*:*8)
+'org.apache.bookkeeper.client.BookKeeper"
+	allocatorÉ
+Ä
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬁ\ ﬁ(o8
+%571org.apache.bookkeeper.common.util.OrderedExecutor"__id*?*=)
+'org.apache.bookkeeper.client.BookKeeper"
+mainWorkerPoolˇ
+¸
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬂ ﬂ(9
+%582org.apache.bookkeeper.common.util.OrderedScheduler"__id*:*8)
+'org.apache.bookkeeper.client.BookKeeper"
+	schedulerÂ‚
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬁ  ﬁ(03
+%59,org.apache.bookkeeper.proto.BookieClientImpl",org.apache.bookkeeper.proto.BookieClientImplΩ
+∫
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬁ ﬂ(+
+%60"¥org.apache.bookkeeper.proto.BookieClientImpl#<init>(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lio/netty/channel/EventLoopGroup;Lio/netty/buffer/ByteBufAllocator;Lorg/apache/bookkeeper/common/util/OrderedExecutor;Ljava/util/concurrent/ScheduledExecutorService;Lorg/apache/bookkeeper/stats/StatsLogger;)V*5
+3
+%59,org.apache.bookkeeper.proto.BookieClientImpl*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*(
+&
+%55io.netty.channel.EventLoopGroup*)
+'
+%56 io.netty.buffer.ByteBufAllocator*:
+8
+%571org.apache.bookkeeper.common.util.OrderedExecutor*;
+9
+%582org.apache.bookkeeper.common.util.OrderedScheduler*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger¸
+˘
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaﬁ ﬂ(+;)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieClient"__id*5
+3
+%59,org.apache.bookkeeper.proto.BookieClientImpl*
+10
+11*V
+35}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java† †(.ˇ
+¸
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java†R †(f3
+%1-org.apache.bookkeeper.feature.FeatureProvider"__id*@*>)
+'org.apache.bookkeeper.client.BookKeeper"
+featureProvider¿
+Ω
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java† †(g5
+%2/org.apache.bookkeeper.client.ClientInternalConf"ﬁorg.apache.bookkeeper.client.ClientInternalConf#fromConfigAndFeatureProvider(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lorg/apache/bookkeeper/feature/FeatureProvider;)Lorg/apache/bookkeeper/client/ClientInternalConf;*3"1
+/org.apache.bookkeeper.client.ClientInternalConf*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*5
+3
+%1-org.apache.bookkeeper.feature.FeatureProvider˛
+˚
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java† †(g;)
+'org.apache.bookkeeper.client.BookKeeper"
+internalConf"__id*7
+5
+%2/org.apache.bookkeeper.client.ClientInternalConfï
+í
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java£ £(?I
+%3Corg.apache.bookkeeper.common.util.OrderedScheduler$SchedulerBuilder"çorg.apache.bookkeeper.common.util.OrderedScheduler#newSchedulerBuilder()Lorg/apache/bookkeeper/common/util/OrderedScheduler$SchedulerBuilder;*6"4
+2org.apache.bookkeeper.common.util.OrderedScheduler¬ø
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java£ £(MG
+%4Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"íorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#numThreads(I)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*K
+I
+%3Corg.apache.bookkeeper.common.util.OrderedScheduler$SchedulerBuilder*22numThreads(I)ÔÏ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java£ £(oG
+%5Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"ùorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#name(Ljava/lang/String;)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*I
+G
+%4Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
+BookKeeperClientScheduler2name(Ljava/lang/String;)éã
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java£ £(w8
+%62org.apache.bookkeeper.common.util.OrderedScheduler"|org.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#build()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*I
+G
+%5Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder2build()˛
+˚
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java£ £(w8)
+'org.apache.bookkeeper.client.BookKeeper"
+	scheduler"__id*:
+8
+%62org.apache.bookkeeper.common.util.OrderedSchedulerı
+Ú
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ §(:?
+%79org.apache.bookkeeper.common.util.OrderedExecutor$Builder"yorg.apache.bookkeeper.common.util.OrderedExecutor#newBuilder()Lorg/apache/bookkeeper/common/util/OrderedExecutor$Builder;*5"3
+1org.apache.bookkeeper.common.util.OrderedExecutor‰·
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ •(/G
+%8Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"ùorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#name(Ljava/lang/String;)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*A
+?
+%79org.apache.bookkeeper.common.util.OrderedExecutor$Builder*
+BookKeeperClientWorker2name(Ljava/lang/String;)•¢
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¶ ¶(6	
+%9int"Eorg.apache.bookkeeper.conf.ClientConfiguration#getNumWorkerThreads()I*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getNumWorkerThreads()»≈
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ¶(7H
+%10Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"íorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#numThreads(I)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*I
+G
+%8Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
+	
+%9int2numThreads(I)Ã…
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ß(-H
+%11Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"ªorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#statsLogger(Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*J
+H
+%10Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger26statsLogger(Lorg/apache/bookkeeper/stats/StatsLogger;)∫∑
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java®$ ®(F
+%12boolean"Morg.apache.bookkeeper.conf.ClientConfiguration#getEnableTaskExecutionStats()Z*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getEnableTaskExecutionStats()ﬁ€
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ®(GH
+%13Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"öorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#traceTaskExecution(Z)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*J
+H
+%11Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
+
+%12boolean2traceTaskExecution(Z)¬ø
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java©- ©(R
+%14boolean"Rorg.apache.bookkeeper.conf.AbstractConfiguration#getPreserveMdcForTaskExecution()Z*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2 getPreserveMdcForTaskExecution()Ì
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ©(SH
+%15Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"£org.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#preserveMdcForTaskExecution(Z)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*J
+H
+%13Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
+
+%14boolean2preserveMdcForTaskExecution(Z)Ω∫
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java™+ ™(P
+%16long"Porg.apache.bookkeeper.conf.ClientConfiguration#getTaskExecutionWarnTimeMicros()J*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2 getTaskExecutionWarnTimeMicros()ÈÊ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ™(QH
+%17Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"°org.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#traceTaskWarnTimeMicroSec(J)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*J
+H
+%15Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
+
+%16long2traceTaskWarnTimeMicroSec(J)®•
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java´  ´(8
+%18boolean"Eorg.apache.bookkeeper.conf.AbstractConfiguration#isBusyWaitEnabled()Z*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2isBusyWaitEnabled()÷”
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ´(9H
+%19Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"ñorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#enableBusyWait(Z)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*J
+H
+%17Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
+
+%18boolean2enableBusyWait(Z)èå
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ¨(8
+%201org.apache.bookkeeper.common.util.OrderedExecutor"|org.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#build()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*J
+H
+%19Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder2build()É
+Ä
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java§ ¨(=)
+'org.apache.bookkeeper.client.BookKeeper"
+mainWorkerPool"__id*:
+8
+%201org.apache.bookkeeper.common.util.OrderedExecutor©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaØ1 Ø(S
+%21java.lang.String"__id*
+""íè
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaØ Ø(T.
+%22'org.apache.bookkeeper.stats.StatsLogger"jorg.apache.bookkeeper.stats.StatsLogger#scope(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/StatsLogger;*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+%21java.lang.String2scope(Ljava/lang/String;)ˆ
+Û
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaØ Ø(T:)
+'org.apache.bookkeeper.client.BookKeeper"
+statsLogger"__id*0
+.
+%22'org.apache.bookkeeper.stats.StatsLoggerˆ
+Û
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∞= ∞(M.
+%23'org.apache.bookkeeper.stats.StatsLogger"__id*<*:)
+'org.apache.bookkeeper.client.BookKeeper"
+statsLogger«
+ƒ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∞ ∞(N9
+%242org.apache.bookkeeper.client.BookKeeperClientStats"ùorg.apache.bookkeeper.client.BookKeeperClientStats#newInstance(Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/bookkeeper/client/BookKeeperClientStats;*6"4
+2org.apache.bookkeeper.client.BookKeeperClientStats*0
+.
+%23'org.apache.bookkeeper.stats.StatsLoggerÅ
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java∞ ∞(N:)
+'org.apache.bookkeeper.client.BookKeeper"
+clientStats"__id*;
+9
+%242org.apache.bookkeeper.client.BookKeeperClientStats*
+34*È'
+13}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ ’(4ó
+î
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ ’(=E
+%45>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder"áorg.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder#create()Lorg/apache/bookkeeper/common/allocator/ByteBufAllocatorBuilder;*B"@
+>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilderõò
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java÷# ÷(C;
+%464org.apache.bookkeeper.common.allocator.PoolingPolicy"Çorg.apache.bookkeeper.conf.AbstractConfiguration#getAllocatorPoolingPolicy()Lorg/apache/bookkeeper/common/allocator/PoolingPolicy;*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getAllocatorPoolingPolicy()ﬂ‹
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ ÷(DE
+%47>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder"ƒorg.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder#poolingPolicy(Lorg/apache/bookkeeper/common/allocator/PoolingPolicy;)Lorg/apache/bookkeeper/common/allocator/ByteBufAllocatorBuilder;*G
+E
+%45>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder*=
+;
+%464org.apache.bookkeeper.common.allocator.PoolingPolicy2EpoolingPolicy(Lorg/apache/bookkeeper/common/allocator/PoolingPolicy;)æª
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java◊( ◊(M
+
+%48int"Rorg.apache.bookkeeper.conf.AbstractConfiguration#getAllocatorPoolingConcurrency()I*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2 getAllocatorPoolingConcurrency()ŒÀ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ ◊(NE
+%49>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder"îorg.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder#poolingConcurrency(I)Lorg/apache/bookkeeper/common/allocator/ByteBufAllocatorBuilder;*G
+E
+%47>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder*
+
+
+%48int2poolingConcurrency(I)´®
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÿ' ÿ(K?
+%508org.apache.bookkeeper.common.allocator.OutOfMemoryPolicy"äorg.apache.bookkeeper.conf.AbstractConfiguration#getAllocatorOutOfMemoryPolicy()Lorg/apache/bookkeeper/common/allocator/OutOfMemoryPolicy;*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2getAllocatorOutOfMemoryPolicy()Û
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ ÿ(LE
+%51>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder"Ãorg.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder#outOfMemoryPolicy(Lorg/apache/bookkeeper/common/allocator/OutOfMemoryPolicy;)Lorg/apache/bookkeeper/common/allocator/ByteBufAllocatorBuilder;*G
+E
+%49>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder*A
+?
+%508org.apache.bookkeeper.common.allocator.OutOfMemoryPolicy2MoutOfMemoryPolicy(Lorg/apache/bookkeeper/common/allocator/OutOfMemoryPolicy;)≥∞
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaŸ) Ÿ(OA
+%52:org.apache.bookkeeper.common.allocator.LeakDetectionPolicy"éorg.apache.bookkeeper.conf.AbstractConfiguration#getAllocatorLeakDetectionPolicy()Lorg/apache/bookkeeper/common/allocator/LeakDetectionPolicy;*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2!getAllocatorLeakDetectionPolicy()˝˙
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ Ÿ(PE
+%53>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder"–org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder#leakDetectionPolicy(Lorg/apache/bookkeeper/common/allocator/LeakDetectionPolicy;)Lorg/apache/bookkeeper/common/allocator/ByteBufAllocatorBuilder;*G
+E
+%51>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder*C
+A
+%52:org.apache.bookkeeper.common.allocator.LeakDetectionPolicy2QleakDetectionPolicy(Lorg/apache/bookkeeper/common/allocator/LeakDetectionPolicy;)Á‰
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ ⁄('
+%54 io.netty.buffer.ByteBufAllocator"horg.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder#build()Lio/netty/buffer/ByteBufAllocator;*G
+E
+%53>org.apache.bookkeeper.common.allocator.ByteBufAllocatorBuilder2build()Ì
+Í
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java’ ⁄(8)
+'org.apache.bookkeeper.client.BookKeeper"
+	allocator"__id*)
+'
+%54 io.netty.buffer.ByteBufAllocator*
+12*ò
+36}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaù# ù(2å
+â
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaù ù(2>)
+'org.apache.bookkeeper.client.BookKeeper"
+featureProvider"__id*B
+@
+featureProvider-org.apache.bookkeeper.feature.FeatureProvider*
+35*Ü
+14}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java” ”(-˙
+˜
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java” ”(-8)
+'org.apache.bookkeeper.client.BookKeeper"
+	allocator"__id*6
+4
+byteBufAllocator io.netty.buffer.ByteBufAllocator*
+12*”
+37}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaõ# õ(:≈
+¬
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaõ# õ(F3
+%0-org.apache.bookkeeper.feature.FeatureProvider"__id*
+""ˇ
+¸
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaõ õ(F>)
+'org.apache.bookkeeper.client.BookKeeper"
+featureProvider"__id*5
+3
+%0-org.apache.bookkeeper.feature.FeatureProvider*
+35*á
+38}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaò ò(˜
+Ù
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaò ò(3)
+'org.apache.bookkeeper.client.BookKeeper"
+conf"__id*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*
+36
+37*å
+16}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaŒ" Œ(0¸
+˘
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaŒ Œ(0=)
+'org.apache.bookkeeper.client.BookKeeper"
+eventLoopGroup"__id*3
+1
+eventLoopGroupio.netty.channel.EventLoopGroup*
+13
+14*î
+17}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java "  (/Á‰
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÀ À(,4
+%42-io.netty.util.concurrent.DefaultThreadFactory"-io.netty.util.concurrent.DefaultThreadFactoryü
+ú
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÀ À(=
+%43"Iio.netty.util.concurrent.DefaultThreadFactory#<init>(Ljava/lang/String;)V*6
+4
+%42-io.netty.util.concurrent.DefaultThreadFactory*
+bookkeeper-ioÑ
+Å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java " À(>&
+%44io.netty.channel.EventLoopGroup"∑org.apache.bookkeeper.util.EventLoopUtil#getClientEventLoopGroup(Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/concurrent/ThreadFactory;)Lio/netty/channel/EventLoopGroup;*,"*
+(org.apache.bookkeeper.util.EventLoopUtil*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*6
+4
+%42-io.netty.util.concurrent.DefaultThreadFactoryÒ
+Ó
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java  À(>=)
+'org.apache.bookkeeper.client.BookKeeper"
+eventLoopGroup"__id*(
+&
+%44io.netty.channel.EventLoopGroup*
+13
+14*ú
+0 "î
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+implicit return*Ω
+1}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaä6 ä(Jà
+Ö
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaä6 ä(J7
+%107/org.apache.bookkeeper.meta.LedgerManagerFactory"__id*E*C)
+'org.apache.bookkeeper.client.BookKeeper"
+ledgerManagerFactoryÒÓ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaä6 ä(]0
+%108(org.apache.bookkeeper.meta.LedgerManager"lorg.apache.bookkeeper.meta.LedgerManagerFactory#newLedgerManager()Lorg/apache/bookkeeper/meta/LedgerManager;*9
+7
+%107/org.apache.bookkeeper.meta.LedgerManagerFactory2newLedgerManager()ÏÈ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaä! ä(57
+%109/org.apache.bookkeeper.meta.CleanupLedgerManager"/org.apache.bookkeeper.meta.CleanupLedgerManagerﬁ
+€
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaä ä(^
+%110"corg.apache.bookkeeper.meta.CleanupLedgerManager#<init>(Lorg/apache/bookkeeper/meta/LedgerManager;)V*9
+7
+%109/org.apache.bookkeeper.meta.CleanupLedgerManager*2
+0
+%108(org.apache.bookkeeper.meta.LedgerManagerÅ
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaä ä(^<)
+'org.apache.bookkeeper.client.BookKeeper"
+ledgerManager"__id*9
+7
+%109/org.apache.bookkeeper.meta.CleanupLedgerManagerà
+Ö
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaã! ã(57
+%111/org.apache.bookkeeper.meta.LedgerManagerFactory"__id*E*C)
+'org.apache.bookkeeper.client.BookKeeper"
+ledgerManagerFactoryÅ˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaã! ã(L4
+%112,org.apache.bookkeeper.meta.LedgerIdGenerator"torg.apache.bookkeeper.meta.LedgerManagerFactory#newLedgerIdGenerator()Lorg/apache/bookkeeper/meta/LedgerIdGenerator;*9
+7
+%111/org.apache.bookkeeper.meta.LedgerManagerFactory2newLedgerIdGenerator()Ç
+ˇ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaã ã(L@)
+'org.apache.bookkeeper.client.BookKeeper"
+ledgerIdGenerator"__id*6
+4
+%112,org.apache.bookkeeper.meta.LedgerIdGeneratorÃ…
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç(0
+%113void"}org.apache.bookkeeper.client.BookKeeper#scheduleBookieHealthCheckIfEnabled(Lorg/apache/bookkeeper/conf/ClientConfiguration;)V*+)
+'org.apache.bookkeeper.client.BookKeeper*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2TscheduleBookieHealthCheckIfEnabled(Lorg/apache/bookkeeper/conf/ClientConfiguration;)*
+0*í
+2}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÖ Ü(=à
+Ö
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÖ Ü(=C)
+'org.apache.bookkeeper.client.BookKeeper"
+ledgerManagerFactory"__id*9
+7
+%104/org.apache.bookkeeper.meta.LedgerManagerFactory*
+1*Ω.
+startingBlock}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaè ñ(7
+Ì
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%114"
+__annotate*
+java.lang.SuppressWarnings*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfigurationÖ
+Ç
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%115"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration‹
+Ÿ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaè# è('6
+conf.org.apache.bookkeeper.conf.ClientConfiguration"__annotation*
+
+%114*
+
+%115ﬂ
+‹
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%116"
+__annotate*
+java.lang.SuppressWarnings*'
+%
+zkcorg.apache.zookeeper.ZooKeeperÙ
+Ò
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%117"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*'
+%
+zkcorg.apache.zookeeper.ZooKeeperÀ
+»
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaê! ê($%
+zkcorg.apache.zookeeper.ZooKeeper"__annotation*
+
+%116*
+
+%117Î
+Ë
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%118"
+__annotate*
+java.lang.SuppressWarnings*3
+1
+eventLoopGroupio.netty.channel.EventLoopGroupÄ
+˝
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%119"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*3
+1
+eventLoopGroupio.netty.channel.EventLoopGroup◊
+‘
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaë& ë(41
+eventLoopGroupio.netty.channel.EventLoopGroup"__annotation*
+
+%118*
+
+%119Ó
+Î
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%120"
+__annotate*
+java.lang.SuppressWarnings*6
+4
+byteBufAllocator io.netty.buffer.ByteBufAllocatorÉ
+Ä
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%121"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*6
+4
+byteBufAllocator io.netty.buffer.ByteBufAllocator⁄
+◊
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaí( í(84
+byteBufAllocator io.netty.buffer.ByteBufAllocator"__annotation*
+
+%120*
+
+%121Ù
+Ò
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%122"
+__annotate*
+java.lang.SuppressWarnings*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLoggerâ
+Ü
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%123"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*<
+:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger‡
+›
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaì# ì(2:
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger"__annotation*
+
+%122*
+
+%123ı
+Ú
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%124"
+__annotate*
+java.lang.SuppressWarnings*=
+;
+dnsResolver,org.apache.bookkeeper.net.DNSToSwitchMappingä
+á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%125"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*=
+;
+dnsResolver,org.apache.bookkeeper.net.DNSToSwitchMapping·
+ﬁ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaî* î(5;
+dnsResolver,org.apache.bookkeeper.net.DNSToSwitchMapping"__annotation*
+
+%124*
+
+%125Ë
+Â
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%126"
+__annotate*
+java.lang.SuppressWarnings*0
+.
+requestTimerio.netty.util.HashedWheelTimer˝
+˙
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%127"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*0
+.
+requestTimerio.netty.util.HashedWheelTimer‘
+—
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaï( ï(4.
+requestTimerio.netty.util.HashedWheelTimer"__annotation*
+
+%126*
+
+%127˙
+˜
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaç ç($
+%128"
+__annotate*
+java.lang.SuppressWarnings*B
+@
+featureProvider-org.apache.bookkeeper.feature.FeatureProviderè
+å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaé é(
+%129"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*B
+@
+featureProvider-org.apache.bookkeeper.feature.FeatureProviderÊ
+„
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javañ' ñ(6@
+featureProvider-org.apache.bookkeeper.feature.FeatureProvider"__annotation*
+
+%128*
+
+%129*
+38*ú
+5}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÜ Ü(Ç
+ˇ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÜ Ü(#7
+%103/org.apache.bookkeeper.meta.MetadataClientDriver"__id*?*=)
+'org.apache.bookkeeper.client.BookKeeper"
+metadataDriverçä
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÜ Ü(=7
+%104/org.apache.bookkeeper.meta.LedgerManagerFactory"zorg.apache.bookkeeper.meta.MetadataClientDriver#getLedgerManagerFactory()Lorg/apache/bookkeeper/meta/LedgerManagerFactory;*9
+7
+%103/org.apache.bookkeeper.meta.MetadataClientDriver2getLedgerManagerFactory()*
+2*…
+7}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˝ ˝(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˝ ˝(
+%97org.slf4j.Logger"__id*
+""ûõ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˝ ˝(@
+%98void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%97org.slf4j.Logger*,*
+(Weighted ledger placement is not enabled2info(Ljava/lang/String;)‘
+—
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˛ ˛(+B)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieInfoScheduler"__id*
+""Á‰
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaˇ( ˇ(84
+%99-org.apache.bookkeeper.client.BookieInfoReader"-org.apache.bookkeeper.client.BookieInfoReaderÛ
+
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaˇ$ ˇ(J
+%100"øorg.apache.bookkeeper.client.BookieInfoReader#<init>(Lorg/apache/bookkeeper/client/BookKeeper;Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/concurrent/ScheduledExecutorService;)V*6
+4
+%99-org.apache.bookkeeper.client.BookieInfoReader*+)
+'org.apache.bookkeeper.client.BookKeeper*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*
+""Å
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaˇ ˇ(J?)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieInfoReader"__id*6
+4
+%99-org.apache.bookkeeper.client.BookieInfoReaderÄ
+˝
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÄ Ä(6
+%101.org.apache.bookkeeper.client.BookieWatcherImpl"__id*>*<)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieWatcher¥±
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÄ Ä(:
+%102void"Korg.apache.bookkeeper.client.BookieWatcherImpl#initialBlockingBookieRead()V*8
+6
+%101.org.apache.bookkeeper.client.BookieWatcherImpl2initialBlockingBookieRead()*
+5*∏)
+8}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaı ı(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaı ı(
+%83org.slf4j.Logger"__id*
+""óî
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaı ı(9
+%84void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%83org.slf4j.Logger*%#
+!Weighted ledger placement enabled2info(Ljava/lang/String;)˘ˆ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaˆ1 ˆ(E=
+%856com.google.common.util.concurrent.ThreadFactoryBuilder"6com.google.common.util.concurrent.ThreadFactoryBuilderå
+â
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaˆ- ˆ(G
+%86"@com.google.common.util.concurrent.ThreadFactoryBuilder#<init>()V*?
+=
+%856com.google.common.util.concurrent.ThreadFactoryBuilderﬁ€
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaˆ- ˜(F=
+%876com.google.common.util.concurrent.ThreadFactoryBuilder"êcom.google.common.util.concurrent.ThreadFactoryBuilder#setNameFormat(Ljava/lang/String;)Lcom/google/common/util/concurrent/ThreadFactoryBuilder;*?
+=
+%856com.google.common.util.concurrent.ThreadFactoryBuilder*$"
+ BKClientMetaDataPollScheduler-%d2!setNameFormat(Ljava/lang/String;)é
+ã
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaˆ ˜(GC
+	tFBuilder6com.google.common.util.concurrent.ThreadFactoryBuilder"__id*?
+=
+%876com.google.common.util.concurrent.ThreadFactoryBuilder·ﬁ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¯R ¯(c)
+%88"java.util.concurrent.ThreadFactory"bcom.google.common.util.concurrent.ThreadFactoryBuilder#build()Ljava/util/concurrent/ThreadFactory;*E
+C
+	tFBuilder6com.google.common.util.concurrent.ThreadFactoryBuilder2build()†
+ù
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¯' ¯(d4
+%89-java.util.concurrent.ScheduledExecutorService"îjava.util.concurrent.Executors#newSingleThreadScheduledExecutor(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ScheduledExecutorService;*"" 
+java.util.concurrent.Executors*+
+)
+%88"java.util.concurrent.ThreadFactoryÑ
+Å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java¯ ¯(dB)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieInfoScheduler"__id*6
+4
+%89-java.util.concurrent.ScheduledExecutorServiceÑ
+Å
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˘E ˘(]4
+%90-java.util.concurrent.ScheduledExecutorService"__id*D*B)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieInfoSchedulerÁ‰
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˘( ˘(84
+%91-org.apache.bookkeeper.client.BookieInfoReader"-org.apache.bookkeeper.client.BookieInfoReader¢
+ü
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˘$ ˘(^
+%92"øorg.apache.bookkeeper.client.BookieInfoReader#<init>(Lorg/apache/bookkeeper/client/BookKeeper;Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/concurrent/ScheduledExecutorService;)V*6
+4
+%91-org.apache.bookkeeper.client.BookieInfoReader*+)
+'org.apache.bookkeeper.client.BookKeeper*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*6
+4
+%90-java.util.concurrent.ScheduledExecutorServiceÅ
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˘ ˘(^?)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieInfoReader"__id*6
+4
+%91-org.apache.bookkeeper.client.BookieInfoReaderˇ
+¸
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˙ ˙(5
+%93.org.apache.bookkeeper.client.BookieWatcherImpl"__id*>*<)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieWatcher≤Ø
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˙ ˙(:
+%94void"Korg.apache.bookkeeper.client.BookieWatcherImpl#initialBlockingBookieRead()V*7
+5
+%93.org.apache.bookkeeper.client.BookieWatcherImpl2initialBlockingBookieRead()Å
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˚ ˚(!4
+%95-org.apache.bookkeeper.client.BookieInfoReader"__id*A*?)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieInfoReaderàÖ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java˚ ˚()
+%96void"6org.apache.bookkeeper.client.BookieInfoReader#start()V*6
+4
+%95-org.apache.bookkeeper.client.BookieInfoReader2start()*
+5*Ç)
+9}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÌ Ì(@Ó
+Î
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÓ Ó(.%
+%70io.netty.util.HashedWheelTimer"__id*=*;)
+'org.apache.bookkeeper.client.BookKeeper"
+requestTimerÄ
+˝
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÓ0 Ó(D4
+%71-org.apache.bookkeeper.feature.FeatureProvider"__id*@*>)
+'org.apache.bookkeeper.client.BookKeeper"
+featureProviderˆ
+Û
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÓF Ó(V.
+%72'org.apache.bookkeeper.stats.StatsLogger"__id*<*:)
+'org.apache.bookkeeper.client.BookKeeper"
+statsLogger“
+œ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÌ Ó(W;
+%734org.apache.bookkeeper.client.EnsemblePlacementPolicy"◊org.apache.bookkeeper.client.BookKeeper#initializeEnsemblePlacementPolicy(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lorg/apache/bookkeeper/net/DNSToSwitchMapping;Lio/netty/util/HashedWheelTimer;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy;*+)
+'org.apache.bookkeeper.client.BookKeeper*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*=
+;
+dnsResolver,org.apache.bookkeeper.net.DNSToSwitchMapping*'
+%
+%70io.netty.util.HashedWheelTimer*6
+4
+%71-org.apache.bookkeeper.feature.FeatureProvider*0
+.
+%72'org.apache.bookkeeper.stats.StatsLoggerá
+Ñ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÌ Ó(W>)
+'org.apache.bookkeeper.client.BookKeeper"
+placementPolicy"__id*=
+;
+%734org.apache.bookkeeper.client.EnsemblePlacementPolicyá
+Ñ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÚ Ú(*;
+%744org.apache.bookkeeper.client.EnsemblePlacementPolicy"__id*@*>)
+'org.apache.bookkeeper.client.BookKeeper"
+placementPolicyÅ
+˛
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÚ, Ú(:6
+%75/org.apache.bookkeeper.meta.MetadataClientDriver"__id*?*=)
+'org.apache.bookkeeper.client.BookKeeper"
+metadataDriverãà
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÚ, Ú(R8
+%761org.apache.bookkeeper.discover.RegistrationClient"zorg.apache.bookkeeper.meta.MetadataClientDriver#getRegistrationClient()Lorg/apache/bookkeeper/discover/RegistrationClient;*8
+6
+%75/org.apache.bookkeeper.meta.MetadataClientDriver2getRegistrationClient()ˆ
+Û
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÛ Û( .
+%77'org.apache.bookkeeper.stats.StatsLogger"__id*<*:)
+'org.apache.bookkeeper.client.BookKeeper"
+statsLogger©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÛ' Û(4
+%78java.lang.String"__id*
+""ÜÉ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÛ Û(5.
+%79'org.apache.bookkeeper.stats.StatsLogger"jorg.apache.bookkeeper.stats.StatsLogger#scope(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/StatsLogger;*0
+.
+%77'org.apache.bookkeeper.stats.StatsLogger*
+
+%78java.lang.String2scope(Ljava/lang/String;)ÈÊ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÒ! Ò(25
+%80.org.apache.bookkeeper.client.BookieWatcherImpl".org.apache.bookkeeper.client.BookieWatcherImpl¶
+£
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÒ Û(6
+%81"˙org.apache.bookkeeper.client.BookieWatcherImpl#<init>(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy;Lorg/apache/bookkeeper/discover/RegistrationClient;Lorg/apache/bookkeeper/stats/StatsLogger;)V*7
+5
+%80.org.apache.bookkeeper.client.BookieWatcherImpl*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*=
+;
+%744org.apache.bookkeeper.client.EnsemblePlacementPolicy*:
+8
+%761org.apache.bookkeeper.discover.RegistrationClient*0
+.
+%79'org.apache.bookkeeper.stats.StatsLoggerˇ
+¸
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÒ Û(6<)
+'org.apache.bookkeeper.client.BookKeeper"
+bookieWatcher"__id*7
+5
+%80.org.apache.bookkeeper.client.BookieWatcherImpl»≈
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.javaÙ Ù(5
+%82boolean"Torg.apache.bookkeeper.conf.ClientConfiguration#getDiskWeightBasedPlacementEnabled()Z*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration2$getDiskWeightBasedPlacementEnabled()*
+7
+8:6
+conf.org.apache.bookkeeper.conf.ClientConfiguration:%
+zkcorg.apache.zookeeper.ZooKeeper:1
+eventLoopGroupio.netty.channel.EventLoopGroup:4
+byteBufAllocator io.netty.buffer.ByteBufAllocator::
+rootStatsLogger'org.apache.bookkeeper.stats.StatsLogger:;
+dnsResolver,org.apache.bookkeeper.net.DNSToSwitchMapping:.
+requestTimerio.netty.util.HashedWheelTimer:@
+featureProvider-org.apache.bookkeeper.feature.FeatureProviderB+)
+'org.apache.bookkeeper.client.BookKeeper

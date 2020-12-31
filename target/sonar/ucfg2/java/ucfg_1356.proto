@@ -1,0 +1,71 @@
+
+¶org.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoPutRequest(Lorg/apache/bookkeeper/api/kv/op/PutOp;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest$Builder;à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‰% ‰(6"1*™!
+1à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÂ Â(ç
+ä
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÂ Â(&B
+%0<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder"org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest$Builder;*8"6
+4org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest›⁄
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÊ Ê("4
+%1.org.apache.bookkeeper.api.kv.options.PutOption"^org.apache.bookkeeper.api.kv.op.PutOp#option()Lorg/apache/bookkeeper/api/kv/options/PutOption;*-
++
+op%org.apache.bookkeeper.api.kv.op.PutOp2option()ôñ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÊ Ê(+
+%2boolean"8org.apache.bookkeeper.api.kv.options.PutOption#prevKv()Z*6
+4
+%1.org.apache.bookkeeper.api.kv.options.PutOption2prevKv()¡æ
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÂ Ê(,B
+%3<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder"áorg.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder#setPrevKv(Z)Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest$Builder;*D
+B
+%0<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder*
+
+%2boolean2setPrevKv(Z)¢ü
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÁ Á('
+%4io.netty.buffer.ByteBuf"=org.apache.bookkeeper.api.kv.op.PutOp#key()Ljava/lang/Object;*-
++
+op%org.apache.bookkeeper.api.kv.op.PutOp2key()˝
+˙
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÁ Á(($
+%5com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*
+
+%4io.netty.buffer.ByteBufêç
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÂ Á()B
+%6<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder"£org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder#setKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest$Builder;*D
+B
+%3<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder*&
+$
+%5com.google.protobuf.ByteString2(setKey(Lcom/google/protobuf/ByteString;)¶£
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaË! Ë(+
+%7io.netty.buffer.ByteBuf"?org.apache.bookkeeper.api.kv.op.PutOp#value()Ljava/lang/Object;*-
++
+op%org.apache.bookkeeper.api.kv.op.PutOp2value()˝
+˙
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaË Ë(,$
+%8com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*
+
+%7io.netty.buffer.ByteBufîë
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÂ Ë(-B
+%9<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder"•org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder#setValue(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest$Builder;*D
+B
+%6<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder*&
+$
+%8com.google.protobuf.ByteString2*setValue(Lcom/google/protobuf/ByteString;)"—
+à
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaÂ Ë(.D
+B
+%9<org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest$Builder:+
+op%org.apache.bookkeeper.api.kv.op.PutOpB1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils

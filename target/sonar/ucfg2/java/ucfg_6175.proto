@@ -1,0 +1,98 @@
+
+ëorg.apache.bookkeeper.bookie.Cookie#generateCookie(Lorg/apache/bookkeeper/conf/ServerConfiguration;)Lorg/apache/bookkeeper/bookie/Cookie$Builder;y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java§ §(!"1*Á&
+1y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java¶ ¶( π
+∂
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java¶ ¶(-1
+%0+org.apache.bookkeeper.bookie.Cookie$Builder"]org.apache.bookkeeper.bookie.Cookie#newBuilder()Lorg/apache/bookkeeper/bookie/Cookie$Builder;*'"%
+#org.apache.bookkeeper.bookie.CookieÒ
+Ó
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java¶ ¶(.6
+builder+org.apache.bookkeeper.bookie.Cookie$Builder"__id*3
+1
+%0+org.apache.bookkeeper.bookie.Cookie$Builderó
+î
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.javaß! ß(>	
+%1int"__id*
+""˚¯
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.javaß ß(?1
+%2+org.apache.bookkeeper.bookie.Cookie$Builder"lorg.apache.bookkeeper.bookie.Cookie$Builder#setLayoutVersion(I)Lorg/apache/bookkeeper/bookie/Cookie$Builder;*8
+6
+builder+org.apache.bookkeeper.bookie.Cookie$Builder*
+	
+%1int2setLayoutVersion(I)Æ
+´
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java® ®(;3
+%3-org.apache.bookkeeper.net.BookieSocketAddress"ïorg.apache.bookkeeper.bookie.Bookie#getBookieAddress(Lorg/apache/bookkeeper/conf/ServerConfiguration;)Lorg/apache/bookkeeper/net/BookieSocketAddress;*'"%
+#org.apache.bookkeeper.bookie.Bookie*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration•¢
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java® ®(F
+%4java.lang.String"Jorg.apache.bookkeeper.net.BookieSocketAddress#toString()Ljava/lang/String;*5
+3
+%3-org.apache.bookkeeper.net.BookieSocketAddress2
+toString()§°
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java® ®(G1
+%5+org.apache.bookkeeper.bookie.Cookie$Builder"zorg.apache.bookkeeper.bookie.Cookie$Builder#setBookieHost(Ljava/lang/String;)Lorg/apache/bookkeeper/bookie/Cookie$Builder;*8
+6
+builder+org.apache.bookkeeper.bookie.Cookie$Builder*
+
+%4java.lang.String2!setBookieHost(Ljava/lang/String;)í
+è
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java© ©(-#
+%6com.google.common.base.Joiner"Bcom.google.common.base.Joiner#on(C)Lcom/google/common/base/Joiner;*!"
+com.google.common.base.Joiner*
+""¿Ω
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java©3 ©(L
+%7java.lang.String[]"Vorg.apache.bookkeeper.conf.ServerConfiguration#getJournalDirNames()[Ljava/lang/String;*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2getJournalDirNames()øº
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java© ©(M
+%8java.lang.String"Icom.google.common.base.Joiner#join([Ljava/lang/Object;)Ljava/lang/String;*%
+#
+%6com.google.common.base.Joiner*
+
+%7java.lang.String[]2join([Ljava/lang/Object;)¶£
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java© ©(N1
+%9+org.apache.bookkeeper.bookie.Cookie$Builder"{org.apache.bookkeeper.bookie.Cookie$Builder#setJournalDirs(Ljava/lang/String;)Lorg/apache/bookkeeper/bookie/Cookie$Builder;*8
+6
+builder+org.apache.bookkeeper.bookie.Cookie$Builder*
+
+%8java.lang.String2"setJournalDirs(Ljava/lang/String;)øº
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java™- ™(E
+%10java.lang.String[]"Uorg.apache.bookkeeper.conf.ServerConfiguration#getLedgerDirNames()[Ljava/lang/String;*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2getLedgerDirNames()∏
+µ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java™ ™(F
+%11java.lang.String"Yorg.apache.bookkeeper.bookie.Cookie#encodeDirPaths([Ljava/lang/String;)Ljava/lang/String;*'"%
+#org.apache.bookkeeper.bookie.Cookie*
+
+%10java.lang.String[]¶£
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java™ ™(G2
+%12+org.apache.bookkeeper.bookie.Cookie$Builder"zorg.apache.bookkeeper.bookie.Cookie$Builder#setLedgerDirs(Ljava/lang/String;)Lorg/apache/bookkeeper/bookie/Cookie$Builder;*8
+6
+builder+org.apache.bookkeeper.bookie.Cookie$Builder*
+
+%11java.lang.String2!setLedgerDirs(Ljava/lang/String;)"µ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Cookie.java´ ´(8
+6
+builder+org.apache.bookkeeper.bookie.Cookie$Builder:6
+conf.org.apache.bookkeeper.conf.ServerConfigurationB'"%
+#org.apache.bookkeeper.bookie.Cookie

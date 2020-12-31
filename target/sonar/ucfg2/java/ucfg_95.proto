@@ -1,0 +1,123 @@
+
+Öorg.apache.bookkeeper.tools.perf.dlog.WriteCommand#apply(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/commons/configuration/CompositeConfiguration;Lorg/apache/bookkeeper/tools/common/BKFlags;Lorg/apache/bookkeeper/tools/perf/dlog/PerfWriter$Flags;)Z
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java+ +("startingBlock*∞
+2
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java1 1(ò
+ï
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java1 1(
+%0"__id*
+""å
+â
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java2 2(W1
+%1+org.apache.bookkeeper.common.net.ServiceURI"sorg.apache.bookkeeper.common.net.ServiceURI#create(Ljava/lang/String;)Lorg/apache/bookkeeper/common/net/ServiceURI;*/"-
++org.apache.bookkeeper.common.net.ServiceURI*-+
+)distributedlog://localhost/distributedlog˙
+˜
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java2 2(W9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__id*3
+1
+%1+org.apache.bookkeeper.common.net.ServiceURI*
+1*Œ
+startingBlock
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java+ -(@Î
+Ë
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java* *(
+%5"
+__annotate*
+java.lang.Override*;
+9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI’
+“
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java+' +(19
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__annotation*
+
+%5Ò
+Ó
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java* *(
+%6"
+__annotate*
+java.lang.Override*A
+?
+conf7org.apache.commons.configuration.CompositeConfiguration€
+ÿ
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java,3 ,(7?
+conf7org.apache.commons.configuration.CompositeConfiguration"__annotation*
+
+%6Î
+Ë
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java* *(
+%7"
+__annotate*
+java.lang.Override*;
+9
+globalFlags*org.apache.bookkeeper.tools.common.BKFlags’
+“
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java-$ -(/9
+globalFlags*org.apache.bookkeeper.tools.common.BKFlags"__annotation*
+
+%7Ù
+Ò
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java* *(
+%8"
+__annotate*
+java.lang.Override*D
+B
+cmdFlags6org.apache.bookkeeper.tools.perf.dlog.PerfWriter$Flagsﬁ
+€
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java-7 -(?B
+cmdFlags6org.apache.bookkeeper.tools.perf.dlog.PerfWriter$Flags"__annotation*
+
+%8*
+2
+1*Å
+1
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java5+ 5(5ÓÎ
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java5  5(*6
+%20org.apache.bookkeeper.tools.perf.dlog.PerfWriter"0org.apache.bookkeeper.tools.perf.dlog.PerfWriterÈ
+Ê
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java5 5(@
+%3"üorg.apache.bookkeeper.tools.perf.dlog.PerfWriter#<init>(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/bookkeeper/tools/perf/dlog/PerfWriter$Flags;)V*8
+6
+%20org.apache.bookkeeper.tools.perf.dlog.PerfWriter*;
+9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI*D
+B
+cmdFlags6org.apache.bookkeeper.tools.perf.dlog.PerfWriter$FlagsÄ
+˝
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java5 5(A:
+writer0org.apache.bookkeeper.tools.perf.dlog.PerfWriter"__id*8
+6
+%20org.apache.bookkeeper.tools.perf.dlog.PerfWriteréã
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java6 6(
+
+%4void"7org.apache.bookkeeper.tools.perf.dlog.PerfWriter#run()V*<
+:
+writer0org.apache.bookkeeper.tools.perf.dlog.PerfWriter2run()"â
+
+u/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/WriteCommand.java7 7(
+"":9
+
+serviceURI+org.apache.bookkeeper.common.net.ServiceURI:?
+conf7org.apache.commons.configuration.CompositeConfiguration:9
+globalFlags*org.apache.bookkeeper.tools.common.BKFlags:B
+cmdFlags6org.apache.bookkeeper.tools.perf.dlog.PerfWriter$FlagsB64
+2org.apache.bookkeeper.tools.perf.dlog.WriteCommand

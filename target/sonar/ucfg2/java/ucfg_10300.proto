@@ -1,0 +1,98 @@
+
+´org.apache.bookkeeper.client.BookKeeperAdmin#areEntriesOfLedgerStoredInTheBookie(JLorg/apache/bookkeeper/net/BookieSocketAddress;Lorg/apache/bookkeeper/client/api/LedgerMetadata;)Z‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java« «(="7*˜
+3‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaµ µ("
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaµ µ( 
+""*£
+4‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java´ ´(8
+
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java´ ´(b
+%6boolean"µorg.apache.bookkeeper.client.BookKeeperAdmin#areEntriesOfSegmentStoredInTheBookie(Lorg/apache/bookkeeper/client/api/LedgerMetadata;Lorg/apache/bookkeeper/net/BookieSocketAddress;I)Z*0".
+,org.apache.bookkeeper.client.BookKeeperAdmin*C
+A
+ledgerMetadata/org.apache.bookkeeper.client.api.LedgerMetadata*@
+>
+bookieAddress-org.apache.bookkeeper.net.BookieSocketAddress*
+""*
+3
+6*œ
+5‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java² ²(2ƒ€
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java² ²(9
+%4	!capture!"+java.util.Iterator#next()Ljava/lang/Object;*3
+1
+ensemblesOfSegmentsIteratorjava.util.Iterator2next()½
+º
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java² ²(9
+ensemblejava.util.List"__id*
+
+%4	!capture!ÃÀ
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java³ ³(0
+%5boolean",java.util.List#contains(Ljava/lang/Object;)Z*
+
+ensemblejava.util.List*@
+>
+bookieAddress-org.apache.bookkeeper.net.BookieSocketAddress2contains(Ljava/lang/Object;)*
+4
+6*‰
+6‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java± ±(*öó
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java± ±(4
+%3boolean"java.util.Iterator#hasNext()Z*3
+1
+ensemblesOfSegmentsIteratorjava.util.Iterator2	hasNext()*
+5
+1*ô
+7‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java­N ­(\ÙÖ
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java­N ­(n
+%0java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*C
+A
+ledgerMetadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()‚ÿ
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java­N ­(w
+%1java.util.Collection"2java.util.SortedMap#values()Ljava/util/Collection;*
+
+%0java.util.NavigableMap2values()Ù
+Ö
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java­ ­(x+
+ensemblesOfSegmentsjava.util.Collection"__id*
+
+%1java.util.Collection’
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java®T ®(r
+%2java.util.Iterator"3java.util.Collection#iterator()Ljava/util/Iterator;*-
++
+ensemblesOfSegmentsjava.util.Collection2
+iterator()Ý
+Ú
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java® ®(s1
+ensemblesOfSegmentsIteratorjava.util.Iterator"__id*
+
+%2java.util.Iterator²
+¯
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java¯ ¯(+
+ensemblejava.util.List"__id*
+""*
+6*˜
+1‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaº º("
+‚
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaº º(
+"":
+"":>
+bookieAddress-org.apache.bookkeeper.net.BookieSocketAddress:A
+ledgerMetadata/org.apache.bookkeeper.client.api.LedgerMetadataB0".
+,org.apache.bookkeeper.client.BookKeeperAdmin

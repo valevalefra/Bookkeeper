@@ -1,0 +1,110 @@
+
+Ωorg.apache.bookkeeper.tools.cli.commands.bookie.RebuildDBLedgerLocationsIndexCommand#apply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/framework/CliFlags;)Z©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java- -("startingBlock*ñ
+3©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java1 1(Gﬂ‹
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java1 1(G
+
+%6void"Lorg.apache.bookkeeper.bookie.storage.ldb.LocationsIndexRebuildOp#initiate()V*H
+F
+%4@org.apache.bookkeeper.bookie.storage.ldb.LocationsIndexRebuildOp2
+initiate()*
+1*¯	
+startingBlock©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java- -(Eî
+ë
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java, ,(
+%10"
+__annotate*
+java.lang.Override*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration˛
+˚
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java-- -(16
+conf.org.apache.bookkeeper.conf.ServerConfiguration"__annotation*
+
+%10ò
+ï
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java, ,(
+%11"
+__annotate*
+java.lang.Override*<
+:
+cmdFlags.org.apache.bookkeeper.tools.framework.CliFlagsÇ
+ˇ
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java-< -(D:
+cmdFlags.org.apache.bookkeeper.tools.framework.CliFlags"__annotation*
+
+%11*
+5*∑
+4©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java1( 1(;π∂
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java1 1('F
+%4@org.apache.bookkeeper.bookie.storage.ldb.LocationsIndexRebuildOp"@org.apache.bookkeeper.bookie.storage.ldb.LocationsIndexRebuildOpƒ
+¡
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java1 1(<
+%5"zorg.apache.bookkeeper.bookie.storage.ldb.LocationsIndexRebuildOp#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*H
+F
+%4@org.apache.bookkeeper.bookie.storage.ldb.LocationsIndexRebuildOp*G
+E
+serverConfiguration.org.apache.bookkeeper.conf.ServerConfiguration*
+3*¥
+5©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java. .(’
+“
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java. .(
+%0org.slf4j.Logger"__id*
+""¿Ω
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java. .(3
+
+%1void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%0org.slf4j.Logger*#!
+=== Rebuilding bookie index ===2info(Ljava/lang/String;)ïí
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java/6 /(I4
+%2.org.apache.bookkeeper.conf.ServerConfiguration".org.apache.bookkeeper.conf.ServerConfigurationì
+ê
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java/2 /(O
+%3"jorg.apache.bookkeeper.conf.ServerConfiguration#<init>(Lorg/apache/bookkeeper/conf/AbstractConfiguration;)V*6
+4
+%2.org.apache.bookkeeper.conf.ServerConfiguration*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration¥
+±
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java/ /(PE
+serverConfiguration.org.apache.bookkeeper.conf.ServerConfiguration"__id*6
+4
+%2.org.apache.bookkeeper.conf.ServerConfiguration*
+4*Ñ
+1©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java5 5(’
+“
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java5 5(
+%8org.slf4j.Logger"__id*
+""√¿
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java5 5(6
+
+%9void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%8org.slf4j.Logger*&$
+"-- Done rebuilding bookie index --2info(Ljava/lang/String;)"¥
+©
+û/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommand.java6 6(
+"":6
+conf.org.apache.bookkeeper.conf.ServerConfiguration::
+cmdFlags.org.apache.bookkeeper.tools.framework.CliFlagsBXV
+Torg.apache.bookkeeper.tools.cli.commands.bookie.RebuildDBLedgerLocationsIndexCommand

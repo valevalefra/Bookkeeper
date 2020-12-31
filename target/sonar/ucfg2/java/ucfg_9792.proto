@@ -1,0 +1,274 @@
+
+†org.apache.bookkeeper.proto.BookieRequestProcessor#processStartTLSRequestV3(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Request;Lio/netty/channel/Channel;)Và
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaù ù()"3*í
+2à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java• •(µ
+≤
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java• •(
+%16org.slf4j.Logger"__id*
+""Ø¨
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java• •(D
+%17void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%16org.slf4j.Logger*/-
++Got StartTLS request but TLS not configured2error(Ljava/lang/String;)ﬁ
+€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¶ ¶(<@
+%189org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""ﬁ
+€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¶ ¶(D@
+%199org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""˚¯
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¶ ¶(EF
+%20?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"«org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*M
+K
+response?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder*B
+@
+%199org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)©¶
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaß ß(,>
+%217org.apache.bookkeeper.proto.BookkeeperProtocol$Response"Äorg.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response;*M
+K
+response?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder2build()¶£
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaß ß(-%
+%22io.netty.channel.ChannelFuture"iio.netty.channel.ChannelOutboundInvoker#writeAndFlush(Ljava/lang/Object;)Lio/netty/channel/ChannelFuture;*
+
+cio.netty.channel.Channel*@
+>
+%217org.apache.bookkeeper.proto.BookkeeperProtocol$Response2!writeAndFlush(Ljava/lang/Object;)*
+0*´9
+3à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaû7 û(I€
+ÿ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaû7 û(R=
+%07org.apache.bookkeeper.proto.BookkeeperProtocol$Response"__id*
+""ö
+ó
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaû7 û(_E
+%1?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"Öorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*;"9
+7org.apache.bookkeeper.proto.BookkeeperProtocol$Response™
+ß
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaû û(`K
+response?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"__id*G
+E
+%1?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder·
+ﬁ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaü; ü(\C
+%2=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"__id*
+""≤
+Ø
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaü; ü(iK
+%3Eorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder"ëorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader$Builder;*A"?
+=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader¥
+±
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaü ü(jO
+headerEorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder"__id*M
+K
+%3Eorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder‚
+ﬂ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java† †(<D
+%4>org.apache.bookkeeper.proto.BookkeeperProtocol$ProtocolVersion"__id*
+""‚
+ﬂ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java† †(JD
+%5>org.apache.bookkeeper.proto.BookkeeperProtocol$ProtocolVersion"__id*
+""†ù
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java† †(KK
+%6Eorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder"Ÿorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder#setVersion(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ProtocolVersion;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader$Builder;*Q
+O
+headerEorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder*F
+D
+%5>org.apache.bookkeeper.proto.BookkeeperProtocol$ProtocolVersion2LsetVersion(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ProtocolVersion;)£†
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java° °()C
+%7=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Åorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*=
+;
+r6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getHeader()∂≥
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java° °(8B
+%8<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"äorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getOperation()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;*E
+C
+%7=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2getOperation()ûõ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java° °(9K
+%9Eorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder"Ÿorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder#setOperation(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader$Builder;*Q
+O
+headerEorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder*D
+B
+%8<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType2LsetOperation(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;)§°
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¢ ¢(%D
+%10=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Åorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*=
+;
+r6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getHeader()∫∑
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¢ ¢(0
+%11long"Iorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getTxnId()J*F
+D
+%10=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2
+getTxnId()Ê„
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¢ ¢(1L
+%12Eorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder"òorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder#setTxnId(J)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader$Builder;*Q
+O
+headerEorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder*
+
+%11long2setTxnId(J)øº
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java£ £()D
+%13=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"åorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*Q
+O
+headerEorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader$Builder2build()áÑ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java£ £(*F
+%14?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"Àorg.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#setHeader(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*M
+K
+response?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder*F
+D
+%13=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2JsetHeader(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)î
+ë
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java§ §(7
+%150org.apache.bookkeeper.tls.SecurityHandlerFactory"__id*E*C4
+2org.apache.bookkeeper.proto.BookieRequestProcessor"
+	shFactory*
+2
+1*®
+0 "†
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∆ ∆(
+implicit return*†8
+1à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java™$ ™(-î
+ë
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java™$ ™(-7
+%230org.apache.bookkeeper.tls.SecurityHandlerFactory"__id*E*C4
+2org.apache.bookkeeper.proto.BookieRequestProcessor"
+	shFactoryÂ‚
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java™$ ™(=&
+%24io.netty.handler.ssl.SslHandler"aorg.apache.bookkeeper.tls.SecurityHandlerFactory#newTLSHandler()Lio/netty/handler/ssl/SslHandler;*9
+7
+%230org.apache.bookkeeper.tls.SecurityHandlerFactory2newTLSHandler()Ì
+Í
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java™ ™(>-
+
+sslHandlerio.netty.handler.ssl.SslHandler"__id*(
+&
+%24io.netty.handler.ssl.SslHandler´®
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java´ ´('
+%25 io.netty.channel.ChannelPipeline"Eio.netty.channel.Channel#pipeline()Lio/netty/channel/ChannelPipeline;*
+
+cio.netty.channel.Channel2
+pipeline()ﬁ€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java´ ´(4'
+%26 io.netty.channel.ChannelPipeline"Äio.netty.channel.ChannelPipeline#addFirst(Ljava/lang/String;Lio/netty/channel/ChannelHandler;)Lio/netty/channel/ChannelPipeline;*)
+'
+%25 io.netty.channel.ChannelPipeline*
+tls*/
+-
+
+sslHandlerio.netty.handler.ssl.SslHandler2=addFirst(Ljava/lang/String;Lio/netty/channel/ChannelHandler;)ﬁ
+€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java≠ ≠(<@
+%279org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""ﬁ
+€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java≠ ≠(@@
+%289org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""˚¯
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java≠ ≠(AF
+%29?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"«org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*M
+K
+response?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder*B
+@
+%289org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)‰
+·
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaÆB Æ(eF
+%30?org.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse"__id*
+""ª
+∏
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaÆB Æ(rN
+%31Gorg.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse$Builder"ïorg.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StartTLSResponse$Builder;*C"A
+?org.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse∫
+∑
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaÆ Æ(sR
+builderGorg.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse$Builder"__id*P
+N
+%31Gorg.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse$Builder»≈
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaØ) Ø(8F
+%32?org.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse"êorg.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StartTLSResponse;*T
+R
+builderGorg.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse$Builder2build()°û
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaØ Ø(9F
+%33?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"◊org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#setStartTLSResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StartTLSResponse;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*M
+K
+response?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder*H
+F
+%32?org.apache.bookkeeper.proto.BookkeeperProtocol$StartTLSResponse2VsetStartTLSResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StartTLSResponse;)ŒÀ
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∞ ∞((&
+%34io.netty.util.concurrent.Future"Rio.netty.handler.ssl.SslHandler#handshakeFuture()Lio/netty/util/concurrent/Future;*/
+-
+
+sslHandlerio.netty.handler.ssl.SslHandler2handshakeFuture()Å˛
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∞9 ∞(_;
+%354org.apache.bookkeeper.proto.BookieRequestProcessor$1"4org.apache.bookkeeper.proto.BookieRequestProcessor$1
+Ì
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∞5 √(
+%36"java.lang.Object#<init>()V*=
+;
+%354org.apache.bookkeeper.proto.BookieRequestProcessor$1ﬁ€
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∞ √(&
+%37io.netty.util.concurrent.Future"~io.netty.util.concurrent.Future#addListener(Lio/netty/util/concurrent/GenericFutureListener;)Lio/netty/util/concurrent/Future;*(
+&
+%34io.netty.util.concurrent.Future*=
+;
+%354org.apache.bookkeeper.proto.BookieRequestProcessor$12=addListener(Lio/netty/util/concurrent/GenericFutureListener;)©¶
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaƒ ƒ(,>
+%387org.apache.bookkeeper.proto.BookkeeperProtocol$Response"Äorg.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response;*M
+K
+response?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder2build()¶£
+à
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaƒ ƒ(-%
+%39io.netty.channel.ChannelFuture"iio.netty.channel.ChannelOutboundInvoker#writeAndFlush(Ljava/lang/Object;)Lio/netty/channel/ChannelFuture;*
+
+cio.netty.channel.Channel*@
+>
+%387org.apache.bookkeeper.proto.BookkeeperProtocol$Response2!writeAndFlush(Ljava/lang/Object;)*
+0:;
+r6org.apache.bookkeeper.proto.BookkeeperProtocol$Request:
+cio.netty.channel.ChannelB64
+2org.apache.bookkeeper.proto.BookieRequestProcessor

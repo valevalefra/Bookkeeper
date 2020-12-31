@@ -1,0 +1,184 @@
+
+Yorg.apache.bookkeeper.client.LedgerHandle#force()Ljava/util/concurrent/CompletableFuture;
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaó# ó(("19*ê
+13
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	= ƒ	(Eåâ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	K ƒ	(W2
+%10+org.apache.bookkeeper.client.LedgerHandle$7"+org.apache.bookkeeper.client.LedgerHandle$7ô
+ñ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	G Ž	(
+%11"1org.apache.bookkeeper.util.SafeRunnable#<init>()V*4
+2
+%10+org.apache.bookkeeper.client.LedgerHandle$7*
+12*„
+14
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	 ƒ	(ú
+÷
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	 ƒ	(0
+%8*org.apache.bookkeeper.client.ClientContext"__id*<*:+
+)org.apache.bookkeeper.client.LedgerHandle"
+	clientCtxùö
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	 ƒ	(-7
+%91org.apache.bookkeeper.common.util.OrderedExecutor"qorg.apache.bookkeeper.client.ClientContext#getMainWorkerPool()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*2
+0
+%8*org.apache.bookkeeper.client.ClientContext2getMainWorkerPool()*
+13*Î
+4
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java¦	9 ¦	(AÂ¿
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java¦	 ¦	(F
+%24void"torg.apache.bookkeeper.common.util.OrderedExecutor#executeOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)V*:
+8
+%231org.apache.bookkeeper.common.util.OrderedExecutor*
+""*2
+0
+op*org.apache.bookkeeper.client.ForceLedgerOp2AexecuteOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)*
+1*…
+5
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java¦	 ¦	(û
+ø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java¦	 ¦	(1
+%22*org.apache.bookkeeper.client.ClientContext"__id*<*:+
+)org.apache.bookkeeper.client.LedgerHandle"
+	clientCtxûø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java¦	 ¦	()8
+%231org.apache.bookkeeper.common.util.OrderedExecutor"qorg.apache.bookkeeper.client.ClientContext#getMainWorkerPool()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*3
+1
+%22*org.apache.bookkeeper.client.ClientContext2getMainWorkerPool()*
+4*¦
+18
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaû û(!•’
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaû û(#
+%7boolean"=org.apache.bookkeeper.client.LedgerHandle#isHandleWritable()Z*-+
+)org.apache.bookkeeper.client.LedgerHandle2isHandleWritable()*
+14
+8*Þ
+7
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java—	 —	(û
+ø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java—	 —	(1
+%17*org.apache.bookkeeper.client.ClientContext"__id*<*:+
+)org.apache.bookkeeper.client.LedgerHandle"
+	clientCtxûø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java—	 —	()8
+%181org.apache.bookkeeper.common.util.OrderedExecutor"qorg.apache.bookkeeper.client.ClientContext#getMainWorkerPool()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*3
+1
+%17*org.apache.bookkeeper.client.ClientContext2getMainWorkerPool()åâ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java—	G —	(S2
+%19+org.apache.bookkeeper.client.LedgerHandle$8"+org.apache.bookkeeper.client.LedgerHandle$8ô
+ñ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java—	C ¡	(
+%20"1org.apache.bookkeeper.util.SafeRunnable#<init>()V*4
+2
+%19+org.apache.bookkeeper.client.LedgerHandle$8ÄÁ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java—	 ¡	(
+%21void"torg.apache.bookkeeper.common.util.OrderedExecutor#executeOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)V*:
+8
+%181org.apache.bookkeeper.common.util.OrderedExecutor*
+""*4
+2
+%19+org.apache.bookkeeper.client.LedgerHandle$82AexecuteOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)"µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java¢	 ¢	(2
+0
+result&java.util.concurrent.CompletableFuture*å
+19
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô) ô(BÚ×
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô- ô(@,
+%0&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFutureì
+é
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô) ô(B
+%1"0java.util.concurrent.CompletableFuture#<init>()V*.
+,
+%0&java.util.concurrent.CompletableFutureì
+é
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô ô(C0
+result&java.util.concurrent.CompletableFuture"__id*.
+,
+%0&java.util.concurrent.CompletableFutureú
+÷
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaõ3 õ(<0
+%2*org.apache.bookkeeper.client.ClientContext"__id*<*:+
+)org.apache.bookkeeper.client.LedgerHandle"
+	clientCtxãà
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaõ3 õ(N.
+%3(org.apache.bookkeeper.proto.BookieClient"forg.apache.bookkeeper.client.ClientContext#getBookieClient()Lorg/apache/bookkeeper/proto/BookieClient;*2
+0
+%2*org.apache.bookkeeper.client.ClientContext2getBookieClient()¯¬
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaõP õ(d
+%4java.util.List"Norg.apache.bookkeeper.client.LedgerHandle#getCurrentEnsemble()Ljava/util/List;*-+
+)org.apache.bookkeeper.client.LedgerHandle2getCurrentEnsemble()âß
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaõ õ(,0
+%5*org.apache.bookkeeper.client.ForceLedgerOp"*org.apache.bookkeeper.client.ForceLedgerOp¯
+¬
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaõ õ(m
+%6"Áorg.apache.bookkeeper.client.ForceLedgerOp#<init>(Lorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/proto/BookieClient;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)V*2
+0
+%5*org.apache.bookkeeper.client.ForceLedgerOp*-+
+)org.apache.bookkeeper.client.LedgerHandle*0
+.
+%3(org.apache.bookkeeper.proto.BookieClient*
+
+%4java.util.List*2
+0
+result&java.util.concurrent.CompletableFutureð
+í
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaõ õ(n0
+op*org.apache.bookkeeper.client.ForceLedgerOp"__id*2
+0
+%5*org.apache.bookkeeper.client.ForceLedgerOp*
+18*®
+8
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java–	 –	(#Ÿ
+œ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java–	' –	(7
+%16long"__id*
+""*
+5
+7*¼
+9
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java’	 ’	("µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java’	 ’	(2
+0
+result&java.util.concurrent.CompletableFuture*Ð
+12
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	 Ž	(ÃÀ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaƒ	 Ž	(
+%12void"torg.apache.bookkeeper.common.util.OrderedExecutor#executeOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)V*9
+7
+%91org.apache.bookkeeper.common.util.OrderedExecutor*
+""*4
+2
+%10+org.apache.bookkeeper.client.LedgerHandle$72AexecuteOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)*
+9*¼
+1
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaª	 ª	("µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaª	 ª	(2
+0
+result&java.util.concurrent.CompletableFutureB-+
+)org.apache.bookkeeper.client.LedgerHandle

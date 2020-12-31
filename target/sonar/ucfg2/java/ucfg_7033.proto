@@ -1,0 +1,141 @@
+
+lorg.apache.bookkeeper.bookie.GarbageCollectorThread#extractMetaFromEntryLogs(Ljava/util/Map;)Ljava/util/Map;â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaó* ó(B"18*–
+14â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java• •(è
+å
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java• •(.
+%3(org.apache.bookkeeper.bookie.EntryLogger"__id*H*F5
+3org.apache.bookkeeper.bookie.GarbageCollectorThread"
+entryLoggerûõ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java• •(2
+%4boolean"6org.apache.bookkeeper.bookie.EntryLogger#logExists(J)Z*0
+.
+%3(org.apache.bookkeeper.bookie.EntryLogger*
+""2logExists(J)*
+16
+12
+1*ª
+16â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaü ü(õò
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaü ü(7
+%2boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*"
+ 
+entryLogMetaMapjava.util.Map*
+""2containsKey(Ljava/lang/Object;)*
+14
+16
+1*◊
+6â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≤ ≤(#º
+π
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≤ ≤(A4
+%13-org.apache.bookkeeper.bookie.EntryLogMetadata"__mapSet*"
+ 
+entryLogMetaMapjava.util.Map*
+""*?
+=
+entryLogMeta-org.apache.bookkeeper.bookie.EntryLogMetadata*
+16
+1*Ÿ
+18â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaõ õ(#è
+å
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaõ õ(#.
+%0(org.apache.bookkeeper.bookie.EntryLogger"__id*H*F5
+3org.apache.bookkeeper.bookie.GarbageCollectorThread"
+entryLogger´®
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaõ õ(<
+
+%1long"Borg.apache.bookkeeper.bookie.EntryLogger#getLeastUnflushedLogId()J*0
+.
+%0(org.apache.bookkeeper.bookie.EntryLogger2getLeastUnflushedLogId()*
+16
+1*ÿ
+7â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java∞ ∞(ê
+ç
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java∞ ∞(/
+%11(org.apache.bookkeeper.bookie.EntryLogger"__id*H*F5
+3org.apache.bookkeeper.bookie.GarbageCollectorThread"
+entryLogger™ß
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java∞ ∞(:
+%12boolean";org.apache.bookkeeper.bookie.EntryLogger#removeEntryLog(J)Z*1
+/
+%11(org.apache.bookkeeper.bookie.EntryLogger*
+""2removeEntryLog(J)*
+16
+1*ø
+9â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaØ Ø( •¢
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaØ Ø(*
+%10boolean"8org.apache.bookkeeper.bookie.EntryLogMetadata#isEmpty()Z*?
+=
+entryLogMeta-org.apache.bookkeeper.bookie.EntryLogMetadata2	isEmpty()*
+6
+7*∫
+10â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≠ ≠(\ã
+à
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≠ ≠(\=
+entryLogMeta-org.apache.bookkeeper.bookie.EntryLogMetadata"__id*5
+3
+%8-org.apache.bookkeeper.bookie.EntryLogMetadataî
+ë
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÆ Æ(5
+
+%9void"}org.apache.bookkeeper.bookie.GarbageCollectorThread#removeIfLedgerNotExists(Lorg/apache/bookkeeper/bookie/EntryLogMetadata;)V*75
+3org.apache.bookkeeper.bookie.GarbageCollectorThread*?
+=
+entryLogMeta-org.apache.bookkeeper.bookie.EntryLogMetadata*
+9*±
+11â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≠0 ≠(;è
+å
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≠0 ≠(;.
+%7(org.apache.bookkeeper.bookie.EntryLogger"__id*H*F5
+3org.apache.bookkeeper.bookie.GarbageCollectorThread"
+entryLoggerÜÉ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≠0 ≠([3
+%8-org.apache.bookkeeper.bookie.EntryLogMetadata"norg.apache.bookkeeper.bookie.EntryLogger#getEntryLogMetadata(J)Lorg/apache/bookkeeper/bookie/EntryLogMetadata;*0
+.
+%7(org.apache.bookkeeper.bookie.EntryLogger*
+""2getEntryLogMetadata(J)*
+10*´
+12â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java© ©(µ
+≤
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java© ©(
+%5org.slf4j.Logger"__id*
+""⁄◊
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java© ©(Q
+
+%6void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%5org.slf4j.Logger*1/
+-Extracting entry log meta from entryLogId: {}*
+""2*info(Ljava/lang/String;Ljava/lang/Object;)*
+11*¬
+1â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¡ ¡("∞
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¡ ¡("
+ 
+entryLogMetaMapjava.util.Map: 
+entryLogMetaMapjava.util.MapB75
+3org.apache.bookkeeper.bookie.GarbageCollectorThread

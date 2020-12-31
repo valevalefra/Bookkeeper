@@ -1,0 +1,231 @@
+
+âorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder#build()Lorg/apache/bookkeeper/stream/storage/api/StorageContainerStore;ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaï! ï(&"1*∆o
+1ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javañ ñ(œ
+Ã
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javañ ñ(P
+%0Jorg.apache.bookkeeper.stream.storage.api.sc.StorageContainerManagerFactory"__id*U*SC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+
+scmFactoryè
+å
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javañ ñ(RP
+%1Jorg.apache.bookkeeper.stream.storage.api.sc.StorageContainerManagerFactory"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*R
+P
+%0Jorg.apache.bookkeeper.stream.storage.api.sc.StorageContainerManagerFactory*20
+.StorageContainerManagerFactory is not provided¬
+ø
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaó ó(D
+%2>org.apache.bookkeeper.stream.storage.conf.StorageConfiguration"__id*T*RC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+	storeConfÌ
+Í
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaó ó(GD
+%3>org.apache.bookkeeper.stream.storage.conf.StorageConfiguration"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*F
+D
+%2>org.apache.bookkeeper.stream.storage.conf.StorageConfiguration*(&
+$StorageConfiguration is not providedÀ
+»
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaò ò(%F
+%4@org.apache.bookkeeper.stream.storage.impl.store.MVCCStoreFactory"__id*[*YC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+mvccStoreFactoryÌ
+Í
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaò ò(JF
+%5@org.apache.bookkeeper.stream.storage.impl.store.MVCCStoreFactory"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*H
+F
+%4@org.apache.bookkeeper.stream.storage.impl.store.MVCCStoreFactory*$"
+ MVCCStoreFactory is not providedò
+ï
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaô ô(&
+%6java.net.URI"__id*\*ZC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+defaultBackendUrià
+Ö
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaô ô(N
+%7java.net.URI"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*
+
+%6java.net.URI*'%
+#Default backend uri is not provided„
+‡
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaö ö(+X
+%8Rorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy$Factory"__id*a*_C
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+placementPolicyFactory´
+®
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaö ö(jX
+%9Rorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy$Factory"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*Z
+X
+%8Rorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy$Factory*><
+:Storage Container Placement Policy Factory is not provided¨
+©
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaõ õ(*"
+%10java.util.function.Supplier"__id*`*^C
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+clientManagerSupplier≤
+Ø
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaõ õ(\"
+%11java.util.function.Supplier"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*$
+"
+%10java.util.function.Supplier*1/
+-Storage server client manager is not provided√
+¿
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaû û(E
+%12>org.apache.bookkeeper.stream.storage.conf.StorageConfiguration"__id*T*RC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+	storeConf‰
+·
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaü ü("Y
+%13Rorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy$Factory"__id*a*_C
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+placementPolicyFactoryúô
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaü ü(7Q
+%14Jorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy"≥org.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy$Factory#newPlacementPolicy()Lorg/apache/bookkeeper/stream/protocol/util/StorageContainerPlacementPolicy;*[
+Y
+%13Rorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy$Factory2newPlacementPolicy()ø
+º
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java† †(<
+%155org.apache.bookkeeper.stream.storage.StorageResources"__id*Y*WC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+storeResourcesºπ
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java† †(&G
+%16@org.apache.bookkeeper.common.util.SharedResourceManager$Resource"Éorg.apache.bookkeeper.stream.storage.StorageResources#scheduler()Lorg/apache/bookkeeper/common/util/SharedResourceManager$Resource;*>
+<
+%155org.apache.bookkeeper.stream.storage.StorageResources2scheduler()Ã
+…
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java° °(G
+%17@org.apache.bookkeeper.stream.storage.impl.store.MVCCStoreFactory"__id*[*YC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+mvccStoreFactory¨
+©
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java¢ ¢(!"
+%18java.util.function.Supplier"__id*`*^C
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+clientManagerSupplier’“
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java¢ ¢('Q
+%19Jorg.apache.bookkeeper.clients.impl.internal.api.StorageServerClientManager"3java.util.function.Supplier#get()Ljava/lang/Object;*$
+"
+%18java.util.function.Supplier2get()«ƒ
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaù: ù(VU
+%20Norg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceFactoryImpl"Norg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceFactoryImpl¿
+Ω
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaù6 ¢((
+%21"¥org.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceFactoryImpl#<init>(Lorg/apache/bookkeeper/stream/storage/conf/StorageConfiguration;Lorg/apache/bookkeeper/stream/protocol/util/StorageContainerPlacementPolicy;Lorg/apache/bookkeeper/common/util/SharedResourceManager$Resource;Lorg/apache/bookkeeper/stream/storage/impl/store/MVCCStoreFactory;Lorg/apache/bookkeeper/clients/impl/internal/api/StorageServerClientManager;)V*W
+U
+%20Norg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceFactoryImpl*G
+E
+%12>org.apache.bookkeeper.stream.storage.conf.StorageConfiguration*S
+Q
+%14Jorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy*I
+G
+%16@org.apache.bookkeeper.common.util.SharedResourceManager$Resource*I
+G
+%17@org.apache.bookkeeper.stream.storage.impl.store.MVCCStoreFactory*S
+Q
+%19Jorg.apache.bookkeeper.clients.impl.internal.api.StorageServerClientManager·
+ﬁ
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaù ¢()`
+serviceFactoryNorg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceFactoryImpl"__id*W
+U
+%20Norg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceFactoryImplŸ÷
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java• •(5^
+%22Worg.apache.bookkeeper.stream.storage.impl.service.RangeStoreContainerServiceFactoryImpl"Worg.apache.bookkeeper.stream.storage.impl.service.RangeStoreContainerServiceFactoryImplú
+ô
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java• •(E
+%23"¨org.apache.bookkeeper.stream.storage.impl.service.RangeStoreContainerServiceFactoryImpl#<init>(Lorg/apache/bookkeeper/stream/storage/api/service/RangeStoreServiceFactory;)V*`
+^
+%22Worg.apache.bookkeeper.stream.storage.impl.service.RangeStoreContainerServiceFactoryImpl*b
+`
+serviceFactoryNorg.apache.bookkeeper.stream.storage.impl.service.RangeStoreServiceFactoryImpl¸
+˘
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java§ •(Fr
+containerServiceFactoryWorg.apache.bookkeeper.stream.storage.impl.service.RangeStoreContainerServiceFactoryImpl"__id*`
+^
+%22Worg.apache.bookkeeper.stream.storage.impl.service.RangeStoreContainerServiceFactoryImpl√
+¿
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java® ®(E
+%24>org.apache.bookkeeper.stream.storage.conf.StorageConfiguration"__id*T*RC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+	storeConf–
+Õ
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java© ©(Q
+%25Jorg.apache.bookkeeper.stream.storage.api.sc.StorageContainerManagerFactory"__id*U*SC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+
+scmFactory¨
+©
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java´ ´(!"
+%26java.util.function.Supplier"__id*`*^C
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+clientManagerSupplier’“
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java´ ´('Q
+%27Jorg.apache.bookkeeper.clients.impl.internal.api.StorageServerClientManager"3java.util.function.Supplier#get()Ljava/lang/Object;*$
+"
+%26java.util.function.Supplier2get()Æ
+´
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.java¨ ¨(.
+%28'org.apache.bookkeeper.stats.StatsLogger"__id*V*TC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder"
+statsLogger±Æ
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaß ß(,J
+%29Corg.apache.bookkeeper.stream.storage.impl.StorageContainerStoreImpl"Corg.apache.bookkeeper.stream.storage.impl.StorageContainerStoreImpl≠
+™
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaß ¨(
+%30"öorg.apache.bookkeeper.stream.storage.impl.StorageContainerStoreImpl#<init>(Lorg/apache/bookkeeper/stream/storage/conf/StorageConfiguration;Lorg/apache/bookkeeper/stream/storage/api/sc/StorageContainerManagerFactory;Lorg/apache/bookkeeper/stream/storage/api/sc/StorageContainerServiceFactory;Lorg/apache/bookkeeper/clients/impl/internal/api/StorageServerClientManager;Lorg/apache/bookkeeper/stats/StatsLogger;)V*L
+J
+%29Corg.apache.bookkeeper.stream.storage.impl.StorageContainerStoreImpl*G
+E
+%24>org.apache.bookkeeper.stream.storage.conf.StorageConfiguration*S
+Q
+%25Jorg.apache.bookkeeper.stream.storage.api.sc.StorageContainerManagerFactory*t
+r
+containerServiceFactoryWorg.apache.bookkeeper.stream.storage.impl.service.RangeStoreContainerServiceFactoryImpl*S
+Q
+%27Jorg.apache.bookkeeper.clients.impl.internal.api.StorageServerClientManager*0
+.
+%28'org.apache.bookkeeper.stats.StatsLogger"Î
+ö
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/StorageContainerStoreBuilder.javaß ¨(L
+J
+%29Corg.apache.bookkeeper.stream.storage.impl.StorageContainerStoreImplBEC
+Aorg.apache.bookkeeper.stream.storage.StorageContainerStoreBuilder

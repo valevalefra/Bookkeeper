@@ -1,0 +1,239 @@
+
+∞org.apache.bookkeeper.server.http.service.MetricsService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java0 0(%"startingBlock*«
+13ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java@4 @(8∆√
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java@' @(3
+%17java.io.StringWriter"java.io.StringWriter·
+ﬁ
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java@# @(9
+%18"java.io.StringWriter#<init>(I)V*
+
+%17java.io.StringWriter*2Ä*
+12*Ì
+15ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java9 9(⁄
+◊
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java9 9('7
+%120org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""⁄
+◊
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java9 9(67
+%130org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""Ω∫
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java9 9(7=
+%146org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%130org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)£
+†
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java: ;(,
+%15java.lang.String"__concat*MK
+IStats provider is not enabled. Please enable it by set statsProviderClass*
+ on bookie configuration›⁄
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java: ;(-=
+%166org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*
+
+%15java.lang.String2setBody(Ljava/lang/String;)"÷
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java< <(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*Ω
+16ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java8 8(ú
+ô
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java8 8(!0
+%11)org.apache.bookkeeper.stats.StatsProvider"__id*O*M:
+8org.apache.bookkeeper.server.http.service.MetricsService"
+statsProvider*
+13
+15*Â
+17ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java3 3(Ÿ
+÷
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java3 3('6
+%50org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""Ÿ
+÷
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java3 3(16
+%60org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""ª∏
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java3 3(2<
+%76org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*8
+6
+%60org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)âÜ
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java4 4(02
+%8,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()î
+ë
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java4 4(X
+%9java.lang.String"__concat*4
+2
+%8,org.apache.bookkeeper.http.HttpServer$Method*'%
+# is forbidden. Should be GET method‹Ÿ
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java4 4(Y=
+%106org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*
+
+%9java.lang.String2setBody(Ljava/lang/String;)"÷
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java5 5(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*§
+18ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java1' 1(@âÜ
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java1+ 1(><
+%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponseõ
+ò
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java1' 1(@
+%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponseù
+ö
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java1 1(AB
+response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponse’
+“
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java2 2(2
+%2,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""’
+“
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java2 2(2
+%3,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""âÜ
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java2 2(-2
+%4,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
+16
+17*Ï
+1ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaL L("÷
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaL L(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*ô
+startingBlockç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java0% 0(AÇ
+ˇ
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java/ /(
+%38"
+__annotate*
+java.lang.Override*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestÏ
+È
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java09 0(@@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
+
+%38*
+18*¯
+7ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaD D(;›⁄
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaD D(;=
+%276org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*
+
+%26java.lang.String2setBody(Ljava/lang/String;)*
+1*©
+8ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaD D(:éã
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaD D(:
+%26java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
+
+%25java.lang.StringBuffer2
+toString()*
+7*∂
+9ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaD D(õò
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaD D(/
+%25java.lang.StringBuffer"8java.io.StringWriter#getBuffer()Ljava/lang/StringBuffer;* 
+
+writerjava.io.StringWriter2getBuffer()*
+8*ì	
+10ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaC C(⁄
+◊
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaC C('7
+%220org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""⁄
+◊
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaC C(*7
+%230org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""Ω∫
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaC C(+=
+%246org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%230org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)*
+9*á
+11ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaB B(ÍÁ
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaB B(
+%21void"java.io.StringWriter#flush()V* 
+
+writerjava.io.StringWriter2flush()*
+10*˛
+12ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java@ @(9ÿ
+’
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.java@ @(9
+writerjava.io.StringWriter"__id*
+
+%17java.io.StringWriterú
+ô
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaA A(0
+%19)org.apache.bookkeeper.stats.StatsProvider"__id*O*M:
+8org.apache.bookkeeper.server.http.service.MetricsService"
+statsProviderÁ‰
+ç
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/MetricsService.javaA A(1
+%20void"Lorg.apache.bookkeeper.stats.StatsProvider#writeAllMetrics(Ljava/io/Writer;)V*2
+0
+%19)org.apache.bookkeeper.stats.StatsProvider* 
+
+writerjava.io.StringWriter2!writeAllMetrics(Ljava/io/Writer;)*
+11:@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestB<:
+8org.apache.bookkeeper.server.http.service.MetricsService

@@ -1,0 +1,155 @@
+
+‰org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver#getRegistrationManager()Lorg/apache/bookkeeper/discover/RegistrationManager;•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java:, :(B"5*Þ
+2•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaD D(
+Œ
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaD D(
+%12com.coreos.jetcd.Client"__id*L*J>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+client‹
+ˆ
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaE E(
+%13java.lang.String"__id*O*M>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+	keyPrefix²
+¯
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaF F(=
+%146org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister"__id*P*N>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+
+bkRegisterœ™
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaC C(0B
+%15;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager";org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager‘
+Ž
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaC G(
+%16"¨org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager#<init>(Lcom/coreos/jetcd/Client;Ljava/lang/String;Lorg/apache/bookkeeper/metadata/etcd/EtcdBookieRegister;)V*D
+B
+%15;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager* 
+
+%12com.coreos.jetcd.Client*
+
+%13java.lang.String*?
+=
+%146org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister³
+°
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaC G(J>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+regMgr"__id*D
+B
+%15;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager*
+1*Ð
+3•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaB B(ª
+§
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaB B(9
+%112org.apache.bookkeeper.discover.RegistrationManager"__id*L*J>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+regMgr*
+2
+1*×
+4•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java= =(Ž
+‹
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java= =(
+%1com.coreos.jetcd.Client"__id*L*J>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+client®«
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java= =('
+%2com.coreos.jetcd.Lease"@com.coreos.jetcd.Client#getLeaseClient()Lcom/coreos/jetcd/Lease;*
+
+%1com.coreos.jetcd.Client2getLeaseClient()Î
+Ë
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java> >(%#
+%3java.util.concurrent.TimeUnit"__id*
+""£
+ 
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java>0 >(44
+%4.org.apache.bookkeeper.conf.ServerConfiguration"__id*J*H>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+conf°­
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java>0 >(C	
+%5int"@org.apache.bookkeeper.conf.AbstractConfiguration#getZkTimeout()I*6
+4
+%4.org.apache.bookkeeper.conf.ServerConfiguration2getZkTimeout()–“
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java> >(D
+
+%6long"+java.util.concurrent.TimeUnit#toSeconds(J)J*%
+#
+%3java.util.concurrent.TimeUnit*
+	
+%5int2toSeconds(J)À
+½
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java? ?(M
+%7Gorg.apache.bookkeeper.discover.RegistrationManager$RegistrationListener"__id*N*L>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+
+listener‘Ž
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java< <(/<
+%86org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister"6org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister…
+‚
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java< @(
+%9"¢org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister#<init>(Lcom/coreos/jetcd/Lease;JLorg/apache/bookkeeper/discover/RegistrationManager$RegistrationListener;)V*>
+<
+%86org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister*
+
+%2com.coreos.jetcd.Lease*
+
+
+%6long*O
+M
+%7Gorg.apache.bookkeeper.discover.RegistrationManager$RegistrationListener›˜
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java< @(=
+%106org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister"vorg.apache.bookkeeper.metadata.etcd.EtcdBookieRegister#start()Lorg/apache/bookkeeper/metadata/etcd/EtcdBookieRegister;*>
+<
+%86org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister2start()²
+¯
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java< @(N>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+
+bkRegister"__id*?
+=
+%106org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister*
+3*×
+5•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java; ;(±
+®
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.java; ;(<
+%06org.apache.bookkeeper.metadata.etcd.EtcdBookieRegister"__id*P*N>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+
+bkRegister*
+3
+4* 
+1•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaI I(ª
+§
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaI I(9
+%172org.apache.bookkeeper.discover.RegistrationManager"__id*L*J>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver"
+regMgr"Õ
+•
+Š/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdMetadataBookieDriver.javaI I(;
+9
+%172org.apache.bookkeeper.discover.RegistrationManagerB@>
+<org.apache.bookkeeper.metadata.etcd.EtcdMetadataBookieDriver

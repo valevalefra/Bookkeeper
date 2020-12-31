@@ -1,0 +1,121 @@
+
+šorg.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager#markLedgerUnderreplicatedAsync(JLjava/util/Collection;)Ljava/util/concurrent/CompletableFuture;‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¥# ¥(A"startingBlock*ž
+2‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java§ §(½
+º
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java§ §(
+%2org.slf4j.Logger"__id*
+""¿¼
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java§ §(m
+
+%3void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%2org.slf4j.Logger*=;
+9markLedgerUnderreplicated(ledgerId={}, missingReplica={})*
+""*)
+'
+missingReplicasjava.util.Collection2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+1*Ø
+3‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¦ ¦(½
+º
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¦ ¦(
+%0org.slf4j.Logger"__id*
+""öó
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¦ ¦( 
+%1boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%0org.slf4j.Logger2isDebugEnabled()*
+2
+1*ò
+startingBlock‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¥A ¥(tí
+ê
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¤ ¤(
+%10"
+__annotate*
+java.lang.Override*)
+'
+missingReplicasjava.util.Collection×
+Ô
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¥d ¥(s'
+missingReplicasjava.util.Collection"__annotation*
+
+%10*
+3*Ï
+1‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java©! ©((Ÿ
+œ
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java©1 ©(56
+%40org.apache.bookkeeper.conf.AbstractConfiguration"__id*H*F<
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager"
+confÿ
+ü
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java©! ©(6
+%5java.util.List"norg.apache.bookkeeper.util.ZkUtils#getACLs(Lorg/apache/bookkeeper/conf/AbstractConfiguration;)Ljava/util/List;*&"$
+"org.apache.bookkeeper.util.ZkUtils*8
+6
+%40org.apache.bookkeeper.conf.AbstractConfigurationÏ
+Ì
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java© ©(7
+zkAclsjava.util.List"__id*
+
+%5java.util.ListÙ
+Ö
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.javaª ª(7
+%6java.lang.String"`org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager#getUrLedgerZnode(J)Ljava/lang/String;*><
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager*
+""Ò
+Ï
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.javaª ª(8
+znodejava.lang.String"__id*
+
+%6java.lang.Stringíê
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java«9 «(L,
+%7&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFutureÿ
+ü
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java«5 «(N
+%8"0java.util.concurrent.CompletableFuture#<init>()V*.
+,
+%7&java.util.concurrent.CompletableFuture…
+‚
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java« «(O6
+createFuture&java.util.concurrent.CompletableFuture"__id*.
+,
+%7&java.util.concurrent.CompletableFutureÃ
+À
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java¬ ¬(W
+
+%9void"¿org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager#tryMarkLedgerUnderreplicatedAsync(Ljava/lang/String;Ljava/util/Collection;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)V*><
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager*
+
+znodejava.lang.String*)
+'
+missingReplicasjava.util.Collection*
+
+zkAclsjava.util.List*8
+6
+createFuture&java.util.concurrent.CompletableFuture"Î
+‘
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/ZkLedgerUnderreplicationManager.java­ ­(8
+6
+createFuture&java.util.concurrent.CompletableFuture:
+"":'
+missingReplicasjava.util.CollectionB><
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager

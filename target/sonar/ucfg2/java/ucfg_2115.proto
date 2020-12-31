@@ -1,0 +1,81 @@
+
+horg.apache.distributedlog.BKLogHandler#getLastLogRecordAsync(ZZ)Ljava/util/concurrent/CompletableFuture;Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‚0 ‚(E"1*¨
+1Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‰= ‰(g·ﬁ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‰A ‰(e,
+%0&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFutureÛ
+
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‰= ‰(g
+%1"0java.util.concurrent.CompletableFuture#<init>()V*.
+,
+%0&java.util.concurrent.CompletableFutureÙ
+Ò
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.java‰ ‰(h1
+promise&java.util.concurrent.CompletableFuture"__id*.
+,
+%0&java.util.concurrent.CompletableFutureó
+î
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÂ Â(?
+%29org.apache.distributedlog.metadata.LogStreamMetadataStore"__id*C*A(
+&org.apache.distributedlog.BKLogHandler"
+streamMetadataStoreÑ
+Å
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÊ Ê(4
+%3.org.apache.distributedlog.metadata.LogMetadata"__id*;*9(
+&org.apache.distributedlog.BKLogHandler"
+logMetadata®•
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÊ Ê( 
+%4java.net.URI"Eorg.apache.distributedlog.metadata.LogMetadata#getUri()Ljava/net/URI;*6
+4
+%3.org.apache.distributedlog.metadata.LogMetadata2getUri()Ñ
+Å
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÁ Á(4
+%5.org.apache.distributedlog.metadata.LogMetadata"__id*;*9(
+&org.apache.distributedlog.BKLogHandler"
+logMetadata∏µ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÁ Á($
+%6java.lang.String"Morg.apache.distributedlog.metadata.LogMetadata#getLogName()Ljava/lang/String;*6
+4
+%5.org.apache.distributedlog.metadata.LogMetadata2getLogName()ÈÊ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÂ Ë(	,
+%7&java.util.concurrent.CompletableFuture"çorg.apache.distributedlog.metadata.LogStreamMetadataStore#logExists(Ljava/net/URI;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;*A
+?
+%29org.apache.distributedlog.metadata.LogStreamMetadataStore*
+
+%4java.net.URI*
+
+%6java.lang.String2+logExists(Ljava/net/URI;Ljava/lang/String;)Â‚
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaË Ë(4.
+%8(org.apache.distributedlog.BKLogHandler$2"(org.apache.distributedlog.BKLogHandler$2ﬂ
+‹
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaË ã(	
+%9"java.lang.Object#<init>()V*0
+.
+%8(org.apache.distributedlog.BKLogHandler$2…∆
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaÂ ã(
+-
+%10&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%7&java.util.concurrent.CompletableFuture*0
+.
+%8(org.apache.distributedlog.BKLogHandler$22-whenComplete(Ljava/util/function/BiConsumer;)"Ω
+Ö
+y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogHandler.javaå å(3
+1
+promise&java.util.concurrent.CompletableFuture:
+"":
+""B*(
+&org.apache.distributedlog.BKLogHandler

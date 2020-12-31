@@ -1,0 +1,110 @@
+
+¸org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#processDeleteResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/api/kv/result/DeleteResult;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse;ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java√ √(2"1*ç<
+1ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java≈ ≈('˚¯
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java≈ ≈(1$
+%0com.google.protobuf.ByteString"aorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getRKey()Lcom/google/protobuf/ByteString;*J
+H
+routingHeader7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2	getRKey()Ò
+Ó
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java≈ ≈(2&
+rKeycom.google.protobuf.ByteString"__id*&
+$
+%0com.google.protobuf.ByteStringø
+º
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java∆ ∆(/K
+%1Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder"ëorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse$Builder;*A"?
+=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse´
+®
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java« «(2F
+%2@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"áorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*<":
+8org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeaderÓÎ
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java». »(;.
+%3(org.apache.bookkeeper.api.kv.result.Code"[org.apache.bookkeeper.api.kv.result.Result#code()Lorg/apache/bookkeeper/api/kv/result/Code;*<
+:
+result0org.apache.bookkeeper.api.kv.result.DeleteResult2code()É
+Ä
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java» »(<;
+%45org.apache.bookkeeper.stream.proto.storage.StatusCode"¥org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#mvccCodeToStatusCode(Lorg/apache/bookkeeper/api/kv/result/Code;)Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;*@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*0
+.
+%3(org.apache.bookkeeper.api.kv.result.CodeÙÒ
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java« »(=F
+%5@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"√org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
+F
+%2@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*=
+;
+%45org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)óî
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java« …(0F
+%6@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"Œorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
+F
+%5@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*J
+H
+routingHeader7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2KsetRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)≥∞
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java«  (>
+%78org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader"Çorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;*H
+F
+%6@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder2build()ïí
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java∆  (K
+%8Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder"“org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder#setHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse$Builder;*M
+K
+%1Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder*@
+>
+%78org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader2EsetHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)≥∞
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaÀ À(+
+
+%9long">org.apache.bookkeeper.api.kv.result.DeleteResult#numDeleted()J*<
+:
+result0org.apache.bookkeeper.api.kv.result.DeleteResult2numDeleted()ÚÔ
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java∆ À(,L
+%10Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder"öorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder#setDeleted(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse$Builder;*M
+K
+%8Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder*
+
+
+%9long2setDeleted(J)«ƒ
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaÃ+ Ã(;
+%11java.util.List"Jorg.apache.bookkeeper.api.kv.result.DeleteResult#prevKvs()Ljava/util/List;*<
+:
+result0org.apache.bookkeeper.api.kv.result.DeleteResult2	prevKvs()Ê
+„
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaÃ Ã(Y
+%12java.util.List"lcom.google.common.collect.Lists#transform(Ljava/util/List;Lcom/google/common/base/Function;)Ljava/util/List;*#"!
+com.google.common.collect.Lists*
+
+%11java.util.List*
+""™ß
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java∆ Ã(ZL
+%13Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder"∞org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder#addAllPrevKvs(Ljava/lang/Iterable;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse$Builder;*N
+L
+%10Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder*
+
+%12java.util.List2#addAllPrevKvs(Ljava/lang/Iterable;)…∆
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java∆ Õ(D
+%14=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse"åorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse;*N
+L
+%13Eorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse$Builder2build()"‡
+ï
+à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java∆ Õ(F
+D
+%14=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse:H
+routingHeader7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader::
+result0org.apache.bookkeeper.api.kv.result.DeleteResultB@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils

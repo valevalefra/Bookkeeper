@@ -1,0 +1,241 @@
+
+lorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage#addEntry(Lio/netty/buffer/ByteBuf;)Jû
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java™ ™("startingBlock*›
+2û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java… …(#±
+Æ
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java… …(=
+%23void"}org.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage#triggerFlushAndAddEntry(JJLio/netty/buffer/ByteBuf;)V*KI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage*
+""*
+""*"
+ 
+entryio.netty.buffer.ByteBuf*
+1*å
+startingBlockû
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java™ ™('Û
+
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java© ©(
+%28"
+__annotate*
+java.lang.Override*"
+ 
+entryio.netty.buffer.ByteBuf›
+⁄
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java™! ™(& 
+entryio.netty.buffer.ByteBuf"__annotation*
+
+%28*
+10*ß
+4û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaƒ ƒ(&¬
+ø
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaƒ ƒ(&-
+%21&java.util.concurrent.locks.StampedLock"__id*g*eI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+writeCacheRotationLock∞≠
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaƒ ƒ(8
+%22void"5java.util.concurrent.locks.StampedLock#unlockRead(J)V*/
+-
+%21&java.util.concurrent.locks.StampedLock*
+""2unlockRead(J)*	
+2
+0
+1*ë
+6û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¬ ¬(%√
+¿
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¬ ¬(%:
+%193org.apache.bookkeeper.bookie.storage.ldb.WriteCache"__id*[*YI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+
+writeCacheüú
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¬ ¬(C
+%20boolean"Uorg.apache.bookkeeper.bookie.storage.ldb.WriteCache#put(JJLio/netty/buffer/ByteBuf;)Z*<
+:
+%193org.apache.bookkeeper.bookie.storage.ldb.WriteCache*
+""*
+""*"
+ 
+entryio.netty.buffer.ByteBuf2 put(JJLio/netty/buffer/ByteBuf;)*
+4*ì
+7û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¿ ¿(*¬
+ø
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¿ ¿(*-
+%17&java.util.concurrent.locks.StampedLock"__id*g*eI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+writeCacheRotationLock¢ü
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¿ ¿(5
+%18long"2java.util.concurrent.locks.StampedLock#readLock()J*/
+-
+%17&java.util.concurrent.locks.StampedLock2
+readLock()*
+6*ä
+8û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java∏ ∏(+¬
+ø
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java∏ ∏(+-
+%11&java.util.concurrent.locks.StampedLock"__id*g*eI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+writeCacheRotationLock¥±
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java∏ ∏(?
+%12long";java.util.concurrent.locks.StampedLock#tryOptimisticRead()J*/
+-
+%11&java.util.concurrent.locks.StampedLock2tryOptimisticRead()√
+¿
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaª ª(:
+%133org.apache.bookkeeper.bookie.storage.ldb.WriteCache"__id*[*YI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+
+writeCacheüú
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaª ª(;
+%14boolean"Uorg.apache.bookkeeper.bookie.storage.ldb.WriteCache#put(JJLio/netty/buffer/ByteBuf;)Z*<
+:
+%133org.apache.bookkeeper.bookie.storage.ldb.WriteCache*
+""*
+""*"
+ 
+entryio.netty.buffer.ByteBuf2 put(JJLio/netty/buffer/ByteBuf;)¬
+ø
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaº º(#-
+%15&java.util.concurrent.locks.StampedLock"__id*g*eI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+writeCacheRotationLockØ¨
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaº º(3
+%16boolean"3java.util.concurrent.locks.StampedLock#validate(J)Z*/
+-
+%15&java.util.concurrent.locks.StampedLock*
+""2validate(J)*	
+2
+7
+1*Í
+9û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java≤ ≤( 
+«
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java≤ ≤(
+%9org.slf4j.Logger"__id*
+""ÒÓ
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java≤ ≤(K
+%10void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%9org.slf4j.Logger*
+Add entry. {}@{}, lac = {}*
+""*
+""*
+""2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+8*˙
+10û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java´ ´("õ
+ò
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java´ ´(.
+
+%0long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
++org.apache.bookkeeper.common.util.MathUtilsäá
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java≠& ≠(9	
+%1int"&io.netty.buffer.ByteBuf#readerIndex()I*"
+ 
+entryio.netty.buffer.ByteBuf2readerIndex()íè
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java≠ ≠(:
+
+%2long"#io.netty.buffer.ByteBuf#getLong(I)J*"
+ 
+entryio.netty.buffer.ByteBuf*
+	
+%1int2
+getLong(I)äá
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÆ% Æ(8	
+%3int"&io.netty.buffer.ByteBuf#readerIndex()I*"
+ 
+entryio.netty.buffer.ByteBuf2readerIndex()çä
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÆ Æ(=
+
+%4long"#io.netty.buffer.ByteBuf#getLong(I)J*"
+ 
+entryio.netty.buffer.ByteBuf*
+""2
+getLong(I)äá
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaØ! Ø(4	
+%5int"&io.netty.buffer.ByteBuf#readerIndex()I*"
+ 
+entryio.netty.buffer.ByteBuf2readerIndex()çä
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaØ Ø(:
+
+%6long"#io.netty.buffer.ByteBuf#getLong(I)J*"
+ 
+entryio.netty.buffer.ByteBuf*
+""2
+getLong(I) 
+«
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java± ±(
+%7org.slf4j.Logger"__id*
+""ÉÄ
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java± ±( 
+%8boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%7org.slf4j.Logger2isDebugEnabled()*
+8
+9*æ
+0 "∂
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java— —(
+implicit return*ü
+1û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÕ Õ(Ù
+Ò
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÕ Õ(.
+%24void"dorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage#updateCachedLacIfNeeded(JJ)V*KI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage*
+""*
+""◊
+‘
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaœ œ(2D
+%25=org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorageStats"__id*e*cI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+dbLedgerStorageStatsØ¨
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaœ œ(E0
+%26)org.apache.bookkeeper.stats.OpStatsLogger"{org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorageStats#getAddEntryStats()Lorg/apache/bookkeeper/stats/OpStatsLogger;*F
+D
+%25=org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorageStats2getAddEntryStats()…
+∆
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaœ œ(Q
+%27void"åorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage#recordSuccessfulEvent(Lorg/apache/bookkeeper/stats/OpStatsLogger;J)V*KI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage*2
+0
+%26)org.apache.bookkeeper.stats.OpStatsLogger*
+"""©
+û
+ë/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java– –(
+"": 
+entryio.netty.buffer.ByteBufBKI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage

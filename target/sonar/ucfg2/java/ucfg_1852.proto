@@ -1,0 +1,73 @@
+
+òorg.apache.bookkeeper.api.kv.PTableWriteView#deleteRange(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java±4 ±(?"1*ß!
+1{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤! ≤(*–Õ
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤! ≤(,/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory"^org.apache.bookkeeper.api.kv.PTableBase#opFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*0.
+,org.apache.bookkeeper.api.kv.PTableWriteView2opFactory()ÌÍ
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤! ≤(<8
+%12org.apache.bookkeeper.api.kv.options.OptionFactory"morg.apache.bookkeeper.api.kv.op.OpFactory#optionFactory()Lorg/apache/bookkeeper/api/kv/options/OptionFactory;*1
+/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory2optionFactory()èå
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤! ≤(N>
+%28org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"~org.apache.bookkeeper.api.kv.options.OptionFactory#newDeleteOption()Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*:
+8
+%12org.apache.bookkeeper.api.kv.options.OptionFactory2newDeleteOption()ìê
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤! ≥(>
+%38org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"|org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder#prevKv(Z)Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*@
+>
+%28org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder*
+""2	prevKv(Z)æª
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤! ¥(>
+%48org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"çorg.apache.bookkeeper.api.kv.options.DeleteOptionBuilder#endKey(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*@
+>
+%38org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder*
+
+lEndKeyK2endKey(Ljava/lang/Object;)Ã…
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤! µ(7
+%51org.apache.bookkeeper.api.kv.options.DeleteOption"Forg.apache.bookkeeper.api.kv.options.Builder#build()Ljava/lang/Object;*@
+>
+%48org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder2build()˛
+˚
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java≤ µ(;
+option1org.apache.bookkeeper.api.kv.options.DeleteOption"__id*9
+7
+%51org.apache.bookkeeper.api.kv.options.DeleteOption÷”
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java∂ ∂(.,
+%6&java.util.concurrent.CompletableFuture"¥org.apache.bookkeeper.api.kv.PTableWriteView#delete(Ljava/lang/Object;Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/DeleteOption;)Ljava/util/concurrent/CompletableFuture;*0.
+,org.apache.bookkeeper.api.kv.PTableWriteView*
+	
+pKeyK*
+
+	lStartKeyK*=
+;
+option1org.apache.bookkeeper.api.kv.options.DeleteOption2_delete(Ljava/lang/Object;Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/DeleteOption;)âÜ
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java∂ Ω(,
+%7&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%6&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)ìê
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java∂ æ(7,
+%8&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%7&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)"≠
+{
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.java∂ æ(8.
+,
+%8&java.util.concurrent.CompletableFuture:	
+pKeyK:
+	lStartKeyK:
+lEndKeyKB0.
+,org.apache.bookkeeper.api.kv.PTableWriteView

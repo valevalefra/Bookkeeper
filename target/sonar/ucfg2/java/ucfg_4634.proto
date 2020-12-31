@@ -1,0 +1,67 @@
+
+horg.apache.distributedlog.fs.DLOutputStream#writeControlRecord()Ljava/util/concurrent/CompletableFuture;å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javar$ r(6"2*È
+2å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javas s(œ
+Ã
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javas s(-
+record#org.apache.distributedlog.LogRecord"__id*
+""*
+1*Ω
+1å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javau# u(+Æ
+´
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javauD u(Z
+%0byte[]"__id*
+""§
+°
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javau- u([
+%1io.netty.buffer.ByteBuf"Cio.netty.buffer.Unpooled#wrappedBuffer([B)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+
+%0byte[]‚ﬂ
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javau u(")
+%2#org.apache.distributedlog.LogRecord"#org.apache.distributedlog.LogRecord∑
+¥
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javau u(\
+%3"Gorg.apache.distributedlog.LogRecord#<init>(JLio/netty/buffer/ByteBuf;)V*+
+)
+%2#org.apache.distributedlog.LogRecord*
+""*
+
+%1io.netty.buffer.ByteBufÙ
+Ò
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javau u(\-
+record#org.apache.distributedlog.LogRecord"__id*+
+)
+%2#org.apache.distributedlog.LogRecordêç
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javav v(
+
+%4void"1org.apache.distributedlog.LogRecord#setControl()V*/
+-
+record#org.apache.distributedlog.LogRecord2setControl()â
+Ü
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javax x(2
+%5,org.apache.distributedlog.api.AsyncLogWriter"__id*;*9-
++org.apache.distributedlog.fs.DLOutputStream"
+writerŸ÷
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javax x(#,
+%6&java.util.concurrent.CompletableFuture"Åorg.apache.distributedlog.api.AsyncLogWriter#write(Lorg/apache/distributedlog/LogRecord;)Ljava/util/concurrent/CompletableFuture;*4
+2
+%5,org.apache.distributedlog.api.AsyncLogWriter*/
+-
+record#org.apache.distributedlog.LogRecord2,write(Lorg/apache/distributedlog/LogRecord;)"ø
+å
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLOutputStream.javax x($.
+,
+%6&java.util.concurrent.CompletableFutureB/-
++org.apache.distributedlog.fs.DLOutputStream

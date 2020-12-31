@@ -1,0 +1,202 @@
+
+¥org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#buildTxnOp(Lorg/apache/bookkeeper/stream/proto/kv/rpc/TxnRequest;)Lorg/apache/bookkeeper/api/kv/op/TxnOp;”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¦" ¦(,"11*“
+2”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¯ ¯(æ
+ã
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¯ ¯(<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare"__id*
+""…
+‚
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¯ ¯(<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare"
+__arrayGet*
+
+%10java.util.List*
+""*
+3
+1*Á
+3”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java° °(«
+¨
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java°+ °(0=
+%116org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
+storeŒ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java°+ °(?0
+%12)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*?
+=
+%116org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()Û
+Ø
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java° °(Q0
+%13)org.apache.bookkeeper.api.kv.op.CompareOp"‘org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#fromProtoCompare(Lorg/apache/bookkeeper/api/kv/op/OpFactory;Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare;)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*2
+0
+%12)org.apache.bookkeeper.api.kv.op.OpFactory*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compareþ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java° °(R3
+%14,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"‹org.apache.bookkeeper.api.kv.op.TxnOpBuilder#If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*<
+:
+
+txnBuilder,org.apache.bookkeeper.api.kv.op.TxnOpBuilder*2
+0
+%13)org.apache.bookkeeper.api.kv.op.CompareOp20If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)*
+2*ÿ
+4”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¯ ¯(&ÝÚ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¯ ¯(7
+%10java.util.List"Uorg.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest#getCompareList()Ljava/util/List;*A
+?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest2getCompareList()*
+2*š
+5”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¬ ¬( ê
+ç
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¬ ¬( @
+	requestOp3org.apache.bookkeeper.stream.proto.kv.rpc.RequestOp"__id*
+""ˆ
+…
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¬ ¬( @
+	requestOp3org.apache.bookkeeper.stream.proto.kv.rpc.RequestOp"
+__arrayGet*
+
+%7java.util.List*
+""*
+4
+6*þ	
+6”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java­ ­(ë
+è
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java­ ­(9(
+%8"org.apache.bookkeeper.api.kv.op.Op"Úorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#buildTxnOp(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/RequestOp;)Lorg/apache/bookkeeper/api/kv/op/Op;*?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader*B
+@
+	requestOp3org.apache.bookkeeper.stream.proto.kv.rpc.RequestOpîë
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java­ ­(:2
+%9,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"†org.apache.bookkeeper.api.kv.op.TxnOpBuilder#Else([Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*<
+:
+
+txnBuilder,org.apache.bookkeeper.api.kv.op.TxnOpBuilder**
+(
+%8"org.apache.bookkeeper.api.kv.op.Op2+Else([Lorg/apache/bookkeeper/api/kv/op/Op;)*
+5*þ
+7”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¬# ¬(*ÜÙ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¬# ¬(;
+%7java.util.List"Uorg.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest#getFailureList()Ljava/util/List;*A
+?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest2getFailureList()*
+5*š
+8”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java© ©( ê
+ç
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java© ©( @
+	requestOp3org.apache.bookkeeper.stream.proto.kv.rpc.RequestOp"__id*
+""ˆ
+…
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java© ©( @
+	requestOp3org.apache.bookkeeper.stream.proto.kv.rpc.RequestOp"
+__arrayGet*
+
+%4java.util.List*
+""*
+7
+9*þ	
+9”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaª ª(ë
+è
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaª ª(9(
+%5"org.apache.bookkeeper.api.kv.op.Op"Úorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#buildTxnOp(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/RequestOp;)Lorg/apache/bookkeeper/api/kv/op/Op;*?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader*B
+@
+	requestOp3org.apache.bookkeeper.stream.proto.kv.rpc.RequestOpîë
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaª ª(:2
+%6,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"†org.apache.bookkeeper.api.kv.op.TxnOpBuilder#Then([Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*<
+:
+
+txnBuilder,org.apache.bookkeeper.api.kv.op.TxnOpBuilder**
+(
+%5"org.apache.bookkeeper.api.kv.op.Op2+Then([Lorg/apache/bookkeeper/api/kv/op/Op;)*
+8*ÿ
+10”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java©# ©(*ÜÙ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java©# ©(;
+%4java.util.List"Uorg.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest#getSuccessList()Ljava/util/List;*A
+?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest2getSuccessList()*
+8*±
+11”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java§ §(&¤¡
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java§ §(2=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"yorg.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest#getHeader()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;*A
+?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest2getHeader()¤
+¡
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java§ §(3A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"__id*?
+=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeaderª
+§
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¨2 ¨(7<
+%16org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
+storeŠ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¨2 ¨(F/
+%2)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*>
+<
+%16org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()íê
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¨2 ¨(O2
+%3,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"`org.apache.bookkeeper.api.kv.op.OpFactory#newTxn()Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*1
+/
+%2)org.apache.bookkeeper.api.kv.op.OpFactory2newTxn()’
+
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java¨ ¨(P:
+
+txnBuilder,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"__id*4
+2
+%3,org.apache.bookkeeper.api.kv.op.TxnOpBuilder*
+10*Ó
+1”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java² ²(ìé
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java² ²(!,
+%15%org.apache.bookkeeper.api.kv.op.TxnOp"[org.apache.bookkeeper.api.kv.op.TxnOpBuilder#build()Lorg/apache/bookkeeper/api/kv/op/TxnOp;*<
+:
+
+txnBuilder,org.apache.bookkeeper.api.kv.op.TxnOpBuilder2build()"Ç
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java² ²(".
+,
+%15%org.apache.bookkeeper.api.kv.op.TxnOp:?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.TxnRequestB?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl

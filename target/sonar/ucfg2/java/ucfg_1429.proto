@@ -1,0 +1,196 @@
+
+žorg.apache.bookkeeper.stream.storage.impl.sc.ZkStorageContainerManager#processMyAssignment(Lorg/apache/bookkeeper/stream/proto/cluster/ServerAssignmentData;)VŸ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaí í($"4*Ò
+2Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaþ þ(º
+·
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaþ þ(
+%17"__id*
+""¸
+µ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaþ ÿ(C
+%18java.lang.String"__concat*=;
+9Process container changes:\n\tIdeal = {}\n\tLive = {}\n\t*/-
++Pending = {}\n\tToStart = {}\n\tToStop = {}­
+ª
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.java‚ ‚(*
+%19java.util.Set"__id*j*hH
+Forg.apache.bookkeeper.stream.storage.impl.sc.ZkStorageContainerManager"
+pendingStartStopContainers*
+1*¯
+3Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaý- ý(=ÿü
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaý- ý(G
+%16boolean"java.util.Set#isEmpty()Z*#
+!
+containersToStopjava.util.Set2	isEmpty()*
+2
+1*«8
+4Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaî) î(5ˆ…
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaî) î(I
+%0java.util.List"corg.apache.bookkeeper.stream.proto.cluster.ServerAssignmentData#getContainersList()Ljava/util/List;*Q
+O
+myAssignment?org.apache.bookkeeper.stream.proto.cluster.ServerAssignmentData2getContainersList()ž›
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaî) î(R
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%0java.util.List2stream()©
+¦
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaî[ î(m 
+%2java.util.stream.Collector"?java.util.stream.Collectors#toSet()Ljava/util/stream/Collector;*"
+java.util.stream.Collectors÷ô
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaî) î(n
+%3java.util.Set"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%1java.util.stream.Stream*"
+ 
+%2java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)é
+æ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaî î(o%
+assignedContainerSetjava.util.Set"__id*
+
+%3java.util.Set 
+
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaï5 ï(C
+%4java.util.Map"__id*^*\H
+Forg.apache.bookkeeper.stream.storage.impl.sc.ZkStorageContainerManager"
+liveContainers‚ÿ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaï5 ï(L
+%5java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
+
+%4java.util.Map2keySet()Í
+Ê
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaï% ï(M
+%6java.util.HashSet"Rcom.google.common.collect.Sets#newHashSet(Ljava/lang/Iterable;)Ljava/util/HashSet;*"" 
+com.google.common.collect.Sets*
+
+%5java.util.Seté
+æ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaï ï(N!
+liveContainerSetjava.util.Set"__id*
+
+%6java.util.HashSet¸
+µ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaò ò(S,
+%7&com.google.common.collect.Sets$SetView"qcom.google.common.collect.Sets#difference(Ljava/util/Set;Ljava/util/Set;)Lcom/google/common/collect/Sets$SetView;*"" 
+com.google.common.collect.Sets*'
+%
+assignedContainerSetjava.util.Set*#
+!
+liveContainerSetjava.util.Setôñ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaò ò(c,
+%8&com.google.common.collect.ImmutableSet"^com.google.common.collect.Sets$SetView#immutableCopy()Lcom/google/common/collect/ImmutableSet;*.
+,
+%7&com.google.common.collect.Sets$SetView2immutableCopy()æ
+ã
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaò ò(d
+%9java.util.HashSet"Rcom.google.common.collect.Sets#newHashSet(Ljava/lang/Iterable;)Ljava/util/HashSet;*"" 
+com.google.common.collect.Sets*.
+,
+%8&com.google.common.collect.ImmutableSetê
+ç
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javañ ò(e"
+containersToStartjava.util.Set"__id*
+
+%9java.util.HashSet¹
+¶
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaô ô(S-
+%10&com.google.common.collect.Sets$SetView"qcom.google.common.collect.Sets#difference(Ljava/util/Set;Ljava/util/Set;)Lcom/google/common/collect/Sets$SetView;*"" 
+com.google.common.collect.Sets*#
+!
+liveContainerSetjava.util.Set*'
+%
+assignedContainerSetjava.util.Setöó
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaô ô(c-
+%11&com.google.common.collect.ImmutableSet"^com.google.common.collect.Sets$SetView#immutableCopy()Lcom/google/common/collect/ImmutableSet;*/
+-
+%10&com.google.common.collect.Sets$SetView2immutableCopy()è
+å
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaô ô(d
+%12java.util.HashSet"Rcom.google.common.collect.Sets#newHashSet(Ljava/lang/Iterable;)Ljava/util/HashSet;*"" 
+com.google.common.collect.Sets*/
+-
+%11&com.google.common.collect.ImmutableSetê
+ç
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaó ô(e!
+containersToStopjava.util.Set"__id*
+
+%12java.util.HashSetö
+ó
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaù ù(h
+%13java.util.Set"gcom.google.common.collect.Sets#filter(Ljava/util/Set;Lcom/google/common/base/Predicate;)Ljava/util/Set;*"" 
+com.google.common.collect.Sets*$
+"
+containersToStartjava.util.Set*
+""ç
+ä
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaø ù(h"
+containersToStartjava.util.Set"__id*
+
+%13java.util.Setõ
+ò
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaû û(g
+%14java.util.Set"gcom.google.common.collect.Sets#filter(Ljava/util/Set;Lcom/google/common/base/Predicate;)Ljava/util/Set;*"" 
+com.google.common.collect.Sets*#
+!
+containersToStopjava.util.Set*
+""æ
+ã
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaú û(g!
+containersToStopjava.util.Set"__id*
+
+%14java.util.Set€ý
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaý ý((
+%15boolean"java.util.Set#isEmpty()Z*$
+"
+containersToStartjava.util.Set2	isEmpty()*
+2
+3*¿
+0 "·
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.java‰ ‰(
+implicit return*·
+1Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.java‡ ‡(ÄÁ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.java‡ ‡(>
+%20void":java.lang.Iterable#forEach(Ljava/util/function/Consumer;)V*$
+"
+containersToStartjava.util.Set*
+""2&forEach(Ljava/util/function/Consumer;)ÃÀ
+Ÿ
+’/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManager.javaˆ ˆ(<
+%21void":java.lang.Iterable#forEach(Ljava/util/function/Consumer;)V*#
+!
+containersToStopjava.util.Set*
+""2&forEach(Ljava/util/function/Consumer;)*
+0:O
+myAssignment?org.apache.bookkeeper.stream.proto.cluster.ServerAssignmentDataBJH
+Forg.apache.bookkeeper.stream.storage.impl.sc.ZkStorageContainerManager

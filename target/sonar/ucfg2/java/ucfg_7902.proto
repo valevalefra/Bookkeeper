@@ -1,0 +1,242 @@
+
+horg.apache.bookkeeper.proto.AuthHandler$ClientSideHandler#verifyTlsHostName(Lio/netty/channel/Channel;)Z}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaº º(("14*ú
+13}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaø ø(®
+•
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaø ø(
+%2org.slf4j.Logger"__id*
+""·ﬁ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaø ø((
+%3boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%2org.slf4j.Logger2isDebugEnabled()*
+11
+12*Á
+14}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaΩ$ Ω(+§°
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaΩ$ Ω(6&
+%0 io.netty.channel.ChannelPipeline"Eio.netty.channel.Channel#pipeline()Lio/netty/channel/ChannelPipeline;*%
+#
+channelio.netty.channel.Channel2
+pipeline()Õ 
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaΩ$ Ω(L%
+%1io.netty.handler.ssl.SslHandler"Xio.netty.channel.ChannelPipeline#get(Ljava/lang/Class;)Lio/netty/channel/ChannelHandler;*(
+&
+%0 io.netty.channel.ChannelPipeline*
+""2get(Ljava/lang/Class;)‡
+›
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaΩ Ω(M-
+
+sslHandlerio.netty.handler.ssl.SslHandler"__id*'
+%
+%1io.netty.handler.ssl.SslHandler*
+13
+10*å
+1}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java÷ ÷("á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java÷ ÷( 
+""*Ï
+2}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java‘ ‘(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java‘ ‘(
+%23org.slf4j.Logger"__id*
+""∂≥
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java‘ ‘(`
+%24void"Norg.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%23org.slf4j.Logger*53
+1Failed to validate hostname verification {} on {}*
+
+hostnamejava.lang.String*%
+#
+channelio.netty.channel.Channel2<warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+1*é
+3}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java“# “(4…
+∆
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java“# “(47
+%210org.apache.http.conn.ssl.DefaultHostnameVerifier"__id*
+""µ≤
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java“# “(Q
+%22boolean"forg.apache.http.conn.ssl.DefaultHostnameVerifier#verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z*9
+7
+%210org.apache.http.conn.ssl.DefaultHostnameVerifier*
+
+hostnamejava.lang.String*(
+&
+
+sslSessionjavax.net.ssl.SSLSession24verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)*
+2
+1*≤
+
+4}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaœ œ(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaœ œ(
+%17org.slf4j.Logger"__id*
+""îë
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java– –(3
+%18java.lang.String";javax.net.ssl.SSLSession#getCipherSuite()Ljava/lang/String;*(
+&
+
+sslSessionjavax.net.ssl.SSLSession2getCipherSuite()éã
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java–5 –(M
+%19java.lang.String"8javax.net.ssl.SSLSession#getProtocol()Ljava/lang/String;*(
+&
+
+sslSessionjavax.net.ssl.SSLSession2getProtocol()‘—
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaœ –(W
+%20void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%17org.slf4j.Logger*=;
+9Verifying HostName for {}, Cipher {}, Protocols {}, on {}*
+
+hostnamejava.lang.String*
+
+%18java.lang.String*
+
+%19java.lang.String*%
+#
+channelio.netty.channel.Channel2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
+3*ú
+5}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaŒ Œ(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaŒ Œ(
+%15org.slf4j.Logger"__id*
+""„‡
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaŒ Œ($
+%16boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%15org.slf4j.Logger2isDebugEnabled()*
+3
+4*å
+6}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaÃ Ã("á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaÃ Ã(
+""*§
+7}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java   (©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java   (
+%13org.slf4j.Logger"__id*
+""ÓÎ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java   (U
+%14void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%13org.slf4j.Logger*/-
++can't get remote hostName on ssl session {}*%
+#
+channelio.netty.channel.Channel2+debug(Ljava/lang/String;Ljava/lang/Object;)*
+6*ú
+8}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java… …(©
+¶
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java… …(
+%11org.slf4j.Logger"__id*
+""„‡
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java… …((
+%12boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%11org.slf4j.Logger2isDebugEnabled()*
+6
+7*Ò
+9}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java«0 «(7öó
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java«0 «(G
+%9java.net.SocketAddress"@io.netty.channel.Channel#remoteAddress()Ljava/net/SocketAddress;*%
+#
+channelio.netty.channel.Channel2remoteAddress()ÜÉ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java« «(V
+%10java.lang.String":java.net.InetSocketAddress#getHostName()Ljava/lang/String;*
+
+%9java.net.SocketAddress2getHostName()¡
+æ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java« «(V
+hostnamejava.lang.String"__id*
+
+%10java.lang.String*
+5*‰
+
+10}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaƒ$ ƒ(.üú
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaƒ$ ƒ(7
+%6javax.net.ssl.SSLEngine"Aio.netty.handler.ssl.SslHandler#engine()Ljavax/net/ssl/SSLEngine;*/
+-
+
+sslHandlerio.netty.handler.ssl.SslHandler2engine()ëé
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaƒ$ ƒ(D
+%7javax.net.ssl.SSLSession">javax.net.ssl.SSLEngine#getSession()Ljavax/net/ssl/SSLSession;*
+
+%6javax.net.ssl.SSLEngine2getSession()“
+œ
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.javaƒ ƒ(E&
+
+sslSessionjavax.net.ssl.SSLSession"__id* 
+
+%7javax.net.ssl.SSLSessionÆ
+´
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java≈ ≈(#
+hostnamejava.lang.String"__id*
+""öó
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java∆ ∆('
+%8java.net.SocketAddress"@io.netty.channel.Channel#remoteAddress()Ljava/net/SocketAddress;*%
+#
+channelio.netty.channel.Channel2remoteAddress()*
+8
+9*ç
+11}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¬ ¬("á
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¬ ¬(
+""*±
+12}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¿ ¿(®
+•
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¿ ¿(
+%4org.slf4j.Logger"__id*
+""˙˜
+}
+q/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/AuthHandler.java¿ ¿(c
+
+%5void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%4org.slf4j.Logger*=;
+9can't perform hostname-verification on non-ssl channel {}*%
+#
+channelio.netty.channel.Channel2+debug(Ljava/lang/String;Ljava/lang/Object;)*
+11:#
+channelio.netty.channel.ChannelB=;
+9org.apache.bookkeeper.proto.AuthHandler$ClientSideHandler

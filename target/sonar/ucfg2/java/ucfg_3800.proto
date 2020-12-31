@@ -1,0 +1,322 @@
+
+÷org.apache.distributedlog.BKDistributedLogManager#createWriteHandler(Lorg/apache/distributedlog/metadata/LogMetadataForWriter;Lorg/apache/distributedlog/bk/LedgerMetadata;ZLjava/util/concurrent/CompletableFuture;)Vë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÍ Í(#"12*Å
+2ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaí í(˜Ù
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaí í(&-
+%31&java.util.concurrent.CompletableFuture"aorg.apache.distributedlog.BKLogWriteHandler#lockHandler()Ljava/util/concurrent/CompletableFuture;*=
+;
+writeHandler+org.apache.distributedlog.BKLogWriteHandler2lockHandler()àÖ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaí8 í(\:
+%323org.apache.distributedlog.BKDistributedLogManager$1"3org.apache.distributedlog.BKDistributedLogManager$1¯
+ı
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaí4 û(
+%33"java.lang.Object#<init>()V*<
+:
+%323org.apache.distributedlog.BKDistributedLogManager$1‚ﬂ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaí û(-
+%34&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%31&java.util.concurrent.CompletableFuture*<
+:
+%323org.apache.distributedlog.BKDistributedLogManager$12-whenComplete(Ljava/util/function/BiConsumer;)*
+0*Ñ=
+3ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÅ Å(ú
+ô
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÇ Ç(<
+%135org.apache.distributedlog.DistributedLogConfiguration"__id*?*=3
+1org.apache.distributedlog.BKDistributedLogManager"
+confú
+ô
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÉ É(:
+%143org.apache.distributedlog.namespace.NamespaceDriver"__id*A*?3
+1org.apache.distributedlog.BKDistributedLogManager"
+driverÊ
+„
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÉ1 É(7?
+%158org.apache.distributedlog.namespace.NamespaceDriver$Role"__id*
+""¯ı
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÉ É(8@
+%169org.apache.distributedlog.metadata.LogStreamMetadataStore"ƒorg.apache.distributedlog.namespace.NamespaceDriver#getLogStreamMetadataStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)Lorg/apache/distributedlog/metadata/LogStreamMetadataStore;*<
+:
+%143org.apache.distributedlog.namespace.NamespaceDriver*A
+?
+%158org.apache.distributedlog.namespace.NamespaceDriver$Role2UgetLogStreamMetadataStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)∂
+≥
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÑ Ñ('C
+%17<org.apache.distributedlog.logsegment.LogSegmentMetadataCache"__id*R*P3
+1org.apache.distributedlog.BKDistributedLogManager"
+logSegmentMetadataCacheú
+ô
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÖ Ö(:
+%183org.apache.distributedlog.namespace.NamespaceDriver"__id*A*?3
+1org.apache.distributedlog.BKDistributedLogManager"
+driverÊ
+„
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÖ/ Ö(5?
+%198org.apache.distributedlog.namespace.NamespaceDriver$Role"__id*
+""ÙÒ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÖ Ö(6@
+%209org.apache.distributedlog.logsegment.LogSegmentEntryStore"¬org.apache.distributedlog.namespace.NamespaceDriver#getLogSegmentEntryStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;*<
+:
+%183org.apache.distributedlog.namespace.NamespaceDriver*A
+?
+%198org.apache.distributedlog.namespace.NamespaceDriver$Role2SgetLogSegmentEntryStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)û
+õ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÜ Ü(9
+%212org.apache.bookkeeper.common.util.OrderedScheduler"__id*D*B3
+1org.apache.distributedlog.BKDistributedLogManager"
+	schedulerï
+í
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaà à(.
+%22'org.apache.bookkeeper.stats.StatsLogger"__id*F*D3
+1org.apache.distributedlog.BKDistributedLogManager"
+statsLoggerõ
+ò
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaâ â(!.
+%23'org.apache.bookkeeper.stats.StatsLogger"__id*L*J3
+1org.apache.distributedlog.BKDistributedLogManager"
+perLogStatsLoggerü
+ú
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaä ä( 3
+%24,org.apache.bookkeeper.stats.AlertStatsLogger"__id*K*I3
+1org.apache.distributedlog.BKDistributedLogManager"
+alertStatsLogger˚
+¯
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaã ã(
+%25java.lang.String"__id*C*A3
+1org.apache.distributedlog.BKDistributedLogManager"
+
+clientId¢
+ü
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaç ç(:
+%263org.apache.distributedlog.common.util.PermitLimiter"__id*G*E3
+1org.apache.distributedlog.BKDistributedLogManager"
+writeLimiterü
+ú
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaé é(4
+%27-org.apache.bookkeeper.feature.FeatureProvider"__id*J*H3
+1org.apache.distributedlog.BKDistributedLogManager"
+featureProvider≠
+™
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaè è(J
+%28Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration"__id*B*@3
+1org.apache.distributedlog.BKDistributedLogManager"	
+dynConf¯ı
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÄ3 Ä(D2
+%29+org.apache.distributedlog.BKLogWriteHandler"+org.apache.distributedlog.BKLogWriteHandlerå
+â
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÄ/ ê(
+%30"£org.apache.distributedlog.BKLogWriteHandler#<init>(Lorg/apache/distributedlog/metadata/LogMetadataForWriter;Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/metadata/LogStreamMetadataStore;Lorg/apache/distributedlog/logsegment/LogSegmentMetadataCache;Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Lorg/apache/distributedlog/util/Allocator;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/bookkeeper/stats/AlertStatsLogger;Ljava/lang/String;ILorg/apache/distributedlog/common/util/PermitLimiter;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;Lorg/apache/distributedlog/lock/DistributedLock;)V*4
+2
+%29+org.apache.distributedlog.BKLogWriteHandler*H
+F
+logMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter*>
+<
+%135org.apache.distributedlog.DistributedLogConfiguration*B
+@
+%169org.apache.distributedlog.metadata.LogStreamMetadataStore*E
+C
+%17<org.apache.distributedlog.logsegment.LogSegmentMetadataCache*B
+@
+%209org.apache.distributedlog.logsegment.LogSegmentEntryStore*;
+9
+%212org.apache.bookkeeper.common.util.OrderedScheduler*>
+<
+segmentAllocator(org.apache.distributedlog.util.Allocator*0
+.
+%22'org.apache.bookkeeper.stats.StatsLogger*0
+.
+%23'org.apache.bookkeeper.stats.StatsLogger*5
+3
+%24,org.apache.bookkeeper.stats.AlertStatsLogger*
+
+%25java.lang.String*
+""*<
+:
+%263org.apache.distributedlog.common.util.PermitLimiter*6
+4
+%27-org.apache.bookkeeper.feature.FeatureProvider*L
+J
+%28Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration*8
+6
+lock.org.apache.distributedlog.lock.DistributedLockê
+ç
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÄ ê(;
+writeHandler+org.apache.distributedlog.BKLogWriteHandler"__id*4
+2
+%29+org.apache.distributedlog.BKLogWriteHandler*
+2
+1*≠
+4ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¯ ˘(Qé
+ã
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¯ ˘(Q<
+segmentAllocator(org.apache.distributedlog.util.Allocator"__id*1
+/
+%11(org.apache.distributedlog.util.Allocator*
+3*£
+7ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java˘, ˘(7≠
+™
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java˘9 ˘(@J
+%10Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration"__id*B*@3
+1org.apache.distributedlog.BKDistributedLogManager"	
+dynConf‘—
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¯ ˘(Q/
+%11(org.apache.distributedlog.util.Allocator"ßorg.apache.distributedlog.logsegment.LogSegmentEntryStore#newLogSegmentAllocator(Lorg/apache/distributedlog/metadata/LogMetadataForWriter;Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;Lorg/apache/distributedlog/bk/LedgerMetadata;)Lorg/apache/distributedlog/util/Allocator;*A
+?
+%99org.apache.distributedlog.logsegment.LogSegmentEntryStore*H
+F
+logMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter*L
+J
+%10Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration*?
+=
+ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadata2√newLogSegmentAllocator(Lorg/apache/distributedlog/metadata/LogMetadataForWriter;Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;Lorg/apache/distributedlog/bk/LedgerMetadata;)*
+4*ñ
+
+8ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¯ ¯(%õ
+ò
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¯ ¯(%9
+%73org.apache.distributedlog.namespace.NamespaceDriver"__id*A*?3
+1org.apache.distributedlog.BKDistributedLogManager"
+driverÂ
+‚
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¯> ¯(D>
+%88org.apache.distributedlog.namespace.NamespaceDriver$Role"__id*
+""ÒÓ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¯ ¯(E?
+%99org.apache.distributedlog.logsegment.LogSegmentEntryStore"¬org.apache.distributedlog.namespace.NamespaceDriver#getLogSegmentEntryStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;*;
+9
+%73org.apache.distributedlog.namespace.NamespaceDriver*@
+>
+%88org.apache.distributedlog.namespace.NamespaceDriver$Role2SgetLogSegmentEntryStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)*
+7*Ç
+9ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaˆ ˆ(B„
+‡
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaˆ ˆ(B<
+segmentAllocator(org.apache.distributedlog.util.Allocator"__id*
+""*
+8*ã
+10ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÛ Û(%€
+ÿ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÛ Û(.4
+%6.org.apache.distributedlog.lock.DistributedLock"__id*
+""ç
+ä
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÛ Û(.6
+lock.org.apache.distributedlog.lock.DistributedLock"__id*6
+4
+%6.org.apache.distributedlog.lock.DistributedLock*
+9*ã
+11ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÒ Ò(õ
+ò
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÒ Ò(9
+%23org.apache.distributedlog.namespace.NamespaceDriver"__id*A*?3
+1org.apache.distributedlog.BKDistributedLogManager"
+driverÂ
+‚
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÒ4 Ò(:>
+%38org.apache.distributedlog.namespace.NamespaceDriver$Role"__id*
+""ıÚ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÒ Ò(;?
+%49org.apache.distributedlog.metadata.LogStreamMetadataStore"ƒorg.apache.distributedlog.namespace.NamespaceDriver#getLogStreamMetadataStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)Lorg/apache/distributedlog/metadata/LogStreamMetadataStore;*;
+9
+%23org.apache.distributedlog.namespace.NamespaceDriver*@
+>
+%38org.apache.distributedlog.namespace.NamespaceDriver$Role2UgetLogStreamMetadataStore(Lorg/apache/distributedlog/namespace/NamespaceDriver$Role;)›⁄
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÒ Ò(X4
+%5.org.apache.distributedlog.lock.DistributedLock"¥org.apache.distributedlog.metadata.LogStreamMetadataStore#createWriteLock(Lorg/apache/distributedlog/metadata/LogMetadataForWriter;)Lorg/apache/distributedlog/lock/DistributedLock;*A
+?
+%49org.apache.distributedlog.metadata.LogStreamMetadataStore*H
+F
+logMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2JcreateWriteLock(Lorg/apache/distributedlog/metadata/LogMetadataForWriter;)ç
+ä
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÒ Ò(X6
+lock.org.apache.distributedlog.lock.DistributedLock"__id*6
+4
+%5.org.apache.distributedlog.lock.DistributedLock*
+9*±
+0 "©
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¢ ¢(
+implicit return*Î
+12ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÔ Ô(›
+⁄
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÔ Ô(6
+lock.org.apache.distributedlog.lock.DistributedLock"__id*
+""õ
+ò
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java (;
+%05org.apache.distributedlog.DistributedLogConfiguration"__id*?*=3
+1org.apache.distributedlog.BKDistributedLogManager"
+conf»≈
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java (%
+%1boolean"Korg.apache.distributedlog.DistributedLogConfiguration#isWriteLockEnabled()Z*=
+;
+%05org.apache.distributedlog.DistributedLogConfiguration2isWriteLockEnabled()*
+10
+11*Ò
+1ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java† †(“
+œ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java† †(=
+%35void"yorg.apache.bookkeeper.common.concurrent.FutureUtils#complete(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Object;)V*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*9
+7
+createPromise&java.util.concurrent.CompletableFuture*=
+;
+writeHandler+org.apache.distributedlog.BKLogWriteHandler*
+0:F
+logMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter:=
+ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadata:
+"":7
+createPromise&java.util.concurrent.CompletableFutureB53
+1org.apache.distributedlog.BKDistributedLogManager

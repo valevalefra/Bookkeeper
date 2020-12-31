@@ -1,0 +1,91 @@
+
+³org.apache.distributedlog.admin.DistributedLogAdmin$3#apply(Lorg/apache/distributedlog/LogRecordWithDLSN;)Lorg/apache/distributedlog/admin/DistributedLogAdmin$LogSegmentCandidate;“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaû' û(,"startingBlock*š	
+2“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java€3 €(;±®
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java€ €(2M
+%6Gorg.apache.distributedlog.admin.DistributedLogAdmin$LogSegmentCandidate"Gorg.apache.distributedlog.admin.DistributedLogAdmin$LogSegmentCandidateà
+Ý
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java€ €(D
+%7"¬org.apache.distributedlog.admin.DistributedLogAdmin$LogSegmentCandidate#<init>(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogRecordWithDLSN;)V*O
+M
+%6Gorg.apache.distributedlog.admin.DistributedLogAdmin$LogSegmentCandidate*
+""*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN"ç
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java€ €(EO
+M
+%6Gorg.apache.distributedlog.admin.DistributedLogAdmin$LogSegmentCandidate*Ñ
+3“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÿ  ÿ((­ª
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaÿ  ÿ(S
+%5boolean"worg.apache.distributedlog.LogSegmentMetadata#isRecordPositionWithinSegmentScope(Lorg/apache/distributedlog/LogRecord;)Z*
+""*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN2IisRecordPositionWithinSegmentScope(Lorg/apache/distributedlog/LogRecord;)*
+2
+1*•
+startingBlock“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaû, û(Fü
+ù
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaú ú(
+%8"
+__annotate*
+java.lang.Override*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSNæ
+ã
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaû? û(E5
+record+org.apache.distributedlog.LogRecordWithDLSN"__annotation*
+
+%8*
+5
+1*Ë
+4“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaþ þ(%«¨
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaþ þ(8
+
+%3long"7org.apache.distributedlog.LogRecord#getTransactionId()J*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN2getTransactionId()ùö
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaþ; þ(Q
+
+%4long";org.apache.distributedlog.LogSegmentMetadata#getLastTxId()J*
+""2getLastTxId()*
+2
+3*¤	
+5“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaý ý("Ú×
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaý ý(,$
+%0org.apache.distributedlog.DLSN"Uorg.apache.distributedlog.LogRecordWithDLSN#getDlsn()Lorg/apache/distributedlog/DLSN;*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN2	getDlsn()²¯
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaý7 ý(M$
+%1org.apache.distributedlog.DLSN"Zorg.apache.distributedlog.LogSegmentMetadata#getLastDLSN()Lorg/apache/distributedlog/DLSN;*
+""2getLastDLSN()îë
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.javaý ý(N	
+%2int"Korg.apache.distributedlog.DLSN#compareTo(Lorg/apache/distributedlog/DLSN;)I*&
+$
+%0org.apache.distributedlog.DLSN*&
+$
+%1org.apache.distributedlog.DLSN2+compareTo(Lorg/apache/distributedlog/DLSN;)*
+2
+4*º
+1“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‚ ‚("ž
+“
+†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/admin/DistributedLogAdmin.java‚ ‚( 
+"":5
+record+org.apache.distributedlog.LogRecordWithDLSNB97
+5org.apache.distributedlog.admin.DistributedLogAdmin$3

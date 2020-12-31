@@ -1,0 +1,99 @@
+
+´org.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoDeleteRequest(Lorg/apache/bookkeeper/api/kv/op/DeleteOp;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest$Builder;ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaë- ë(A"3*‰
+2ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javað ð(éæ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javað+ ð(67
+%91org.apache.bookkeeper.api.kv.options.DeleteOption"dorg.apache.bookkeeper.api.kv.op.DeleteOp#option()Lorg/apache/bookkeeper/api/kv/options/DeleteOption;*0
+.
+op(org.apache.bookkeeper.api.kv.op.DeleteOp2option()Á¾
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javað+ ð(?
+%10io.netty.buffer.ByteBuf"Lorg.apache.bookkeeper.api.kv.options.DeleteOption#endKey()Ljava/lang/Object;*9
+7
+%91org.apache.bookkeeper.api.kv.options.DeleteOption2endKey()ÿ
+ü
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javað  ð(@%
+%11com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils* 
+
+%10io.netty.buffer.ByteBufÁ¾
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javað ð(AK
+%12Dorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder"¸org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder#setRangeEnd(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest$Builder;*Q
+O
+builderDorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder*'
+%
+%11com.google.protobuf.ByteString2-setRangeEnd(Lcom/google/protobuf/ByteString;)*
+1*ü
+3ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaì- ì(?®
+«
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaì- ì(LJ
+%0Dorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder"org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest$Builder;*@">
+<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest¨¥
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaí í('
+%1io.netty.buffer.ByteBuf"@org.apache.bookkeeper.api.kv.op.DeleteOp#key()Ljava/lang/Object;*0
+.
+op(org.apache.bookkeeper.api.kv.op.DeleteOp2key()ý
+ú
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaí í(($
+%2com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*
+
+%1io.netty.buffer.ByteBuf°­
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaì- í()J
+%3Dorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder"³org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder#setKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest$Builder;*L
+J
+%0Dorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder*&
+$
+%2com.google.protobuf.ByteString2(setKey(Lcom/google/protobuf/ByteString;)éæ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaî î("7
+%41org.apache.bookkeeper.api.kv.options.DeleteOption"dorg.apache.bookkeeper.api.kv.op.DeleteOp#option()Lorg/apache/bookkeeper/api/kv/options/DeleteOption;*0
+.
+op(org.apache.bookkeeper.api.kv.op.DeleteOp2option()Ÿœ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaî î(+
+%5boolean";org.apache.bookkeeper.api.kv.options.DeleteOption#prevKv()Z*9
+7
+%41org.apache.bookkeeper.api.kv.options.DeleteOption2prevKv()áÞ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaì- î(,J
+%6Dorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder"—org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder#setPrevKv(Z)Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest$Builder;*L
+J
+%3Dorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder*
+
+%5boolean2setPrevKv(Z)³
+°
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaì î(-O
+builderDorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder"__id*L
+J
+%6Dorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builderéæ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaï ï(7
+%71org.apache.bookkeeper.api.kv.options.DeleteOption"dorg.apache.bookkeeper.api.kv.op.DeleteOp#option()Lorg/apache/bookkeeper/api/kv/options/DeleteOption;*0
+.
+op(org.apache.bookkeeper.api.kv.op.DeleteOp2option()À½
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaï ï((
+%8io.netty.buffer.ByteBuf"Lorg.apache.bookkeeper.api.kv.options.DeleteOption#endKey()Ljava/lang/Object;*9
+7
+%71org.apache.bookkeeper.api.kv.options.DeleteOption2endKey()*
+2
+1*ï
+1ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaò ò("Þ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaò ò(Q
+O
+builderDorg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest$Builder:.
+op(org.apache.bookkeeper.api.kv.op.DeleteOpB1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils

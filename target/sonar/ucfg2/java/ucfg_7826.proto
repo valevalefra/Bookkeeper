@@ -1,0 +1,271 @@
+
+∑org.apache.bookkeeper.server.http.service.RecoveryBookieService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaT T(%"startingBlock*å
+2î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javak k(.¶
+£
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javak/ k(35
+%29.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*KA
+?org.apache.bookkeeper.server.http.service.RecoveryBookieService"
+conf’
+“
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javak ~(
+%30java.lang.Object"Æorg.apache.bookkeeper.meta.MetadataDrivers#runFunctionWithRegistrationManager(Lorg/apache/bookkeeper/conf/ServerConfiguration;Ljava/util/function/Function;)Ljava/lang/Object;*.",
+*org.apache.bookkeeper.meta.MetadataDrivers*7
+5
+%29.org.apache.bookkeeper.conf.ServerConfiguration*
+""„
+‡
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÄ Ä(27
+%310org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""„
+‡
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÄ Ä(57
+%320org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""∆√
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÄ Ä(6=
+%336org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%320org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)˜Ù
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÅ Å(F=
+%346org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse**(
+&Success send recovery request command.2setBody(Ljava/lang/String;)"ﬂ
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÇ Ç(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*Ô
+14î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaZ Z(‡
+›
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaZ Z(26
+%30org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""‡
+›
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaZ Z(<6
+%40org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""¬ø
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaZ Z(=<
+%56org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*8
+6
+%40org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Ê„
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.java[ [(8<
+%66org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*
+No request body provide.2setBody(Ljava/lang/String;)"›
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.java\ \(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*≈
+3î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaj= j(L¥
+±
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaj= j(V
+%27java.util.List"__id*{*y
+j
+requestJsonBodyWorg.apache.bookkeeper.server.http.service.RecoveryBookieService$RecoveryRequestJsonBody"
+	bookieSrcÈÊ
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaj= j(`
+%28boolean"java.util.List#isEmpty()Z*
+
+%27java.util.List2	isEmpty()*
+2
+1*Æ
+startingBlockî
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaT% T(Aâ
+Ü
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaS S(
+%39"
+__annotate*
+java.lang.Override*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestÛ
+
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaT9 T(@@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
+
+%39*
+15*–
+15î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaU' U(@êç
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaU+ U(><
+%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponse¢
+ü
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaU' U(@
+%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponse§
+°
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaU U(AB
+response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponse‘—
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaV V(.
+%2java.lang.String"Qorg.apache.bookkeeper.http.service.HttpServiceRequest#getBody()Ljava/lang/String;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2	getBody()€
+ÿ
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaV V(/
+requestBodyjava.lang.String"__id*
+
+%2java.lang.Stringî
+ë
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaW W(0j
+requestJsonBodyWorg.apache.bookkeeper.server.http.service.RecoveryBookieService$RecoveryRequestJsonBody"__id*
+""*
+14
+12*ˆ
+4î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaj j(›
+⁄
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaj j(3
+%24,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""›
+⁄
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaj j(!3
+%25,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""ëé
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaj% j(83
+%26,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
+3
+1*Ô
+
+10î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa a(HÎ
+Ë
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa a(H
+%11java.lang.String"__concat*
+bookie_src: [*
+
+%10java.lang.StringÚ
+Ô
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa b((
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+],  delete_cookie: [‡
+›
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa b(G
+%13java.lang.String"__concat*
+
+%12java.lang.String*
+""ﬂ
+‹
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa b(M
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+]§°
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa b(N
+%15void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
+
+%8org.slf4j.Logger*
+
+%14java.lang.String2debug(Ljava/lang/String;)*
+4*Ë	
+11î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.java` `([Ì
+Í
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.java` `([j
+requestJsonBodyWorg.apache.bookkeeper.server.http.service.RecoveryBookieService$RecoveryRequestJsonBody"__id*_
+]
+%7Worg.apache.bookkeeper.server.http.service.RecoveryBookieService$RecoveryRequestJsonBody¿
+Ω
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa a(
+%8org.slf4j.Logger"__id*
+""≥
+∞
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa( a(A
+%9java.util.List"__id*{*y
+j
+requestJsonBodyWorg.apache.bookkeeper.server.http.service.RecoveryBookieService$RecoveryRequestJsonBody"
+	bookieSrc€
+ÿ
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaa( a(H
+%10java.lang.String"
+__arrayGet*
+
+%9java.util.List*2 *
+10*‰
+12î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.java` `(&¿
+Ω
+î
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.java` `([]
+%7Worg.apache.bookkeeper.server.http.service.RecoveryBookieService$RecoveryRequestJsonBody"jorg.apache.bookkeeper.common.util.JsonUtil#fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;*.",
+*org.apache.bookkeeper.common.util.JsonUtil*!
+
+requestBodyjava.lang.String*
+""*
+11*ç
+1ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÑ Ñ(„
+‡
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÑ Ñ(27
+%350org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""„
+‡
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÑ Ñ(<7
+%360org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""∆√
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÑ Ñ(==
+%376org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%360org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)˜Ù
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÖ Ö(F=
+%386org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse**(
+&Not found method. Should be PUT method2setBody(Ljava/lang/String;)"ﬂ
+ñ
+â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/RecoveryBookieService.javaÜ Ü(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse:@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestBCA
+?org.apache.bookkeeper.server.http.service.RecoveryBookieService

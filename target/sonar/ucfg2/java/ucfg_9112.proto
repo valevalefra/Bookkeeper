@@ -1,0 +1,301 @@
+
+9org.apache.bookkeeper.replication.Auditor#auditBookies()V
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¢ ¢("21*ë
+13
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¥ ¥("â
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¥ ¥(
+""*í
+2
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÀ À((ç
+ä
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÀ À((0
+%33)org.apache.bookkeeper.stats.OpStatsLogger"__id*O*M+
+)org.apache.bookkeeper.replication.Auditor"
+uRLPublishTimeForLostBookies∏
+µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÀS À(h$
+%34java.util.concurrent.TimeUnit"__id*
+""‡›
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÀA À(i
+%35long"Jcom.google.common.base.Stopwatch#elapsed(Ljava/util/concurrent/TimeUnit;)J*/
+-
+	stopwatch com.google.common.base.Stopwatch*&
+$
+%34java.util.concurrent.TimeUnit2(elapsed(Ljava/util/concurrent/TimeUnit;)∏
+µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÃ Ã()$
+%36java.util.concurrent.TimeUnit"__id*
+""ùö
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÀ Ã(*
+%37void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%33)org.apache.bookkeeper.stats.OpStatsLogger*
+
+%35long*&
+$
+%36java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
+1*û
+14
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java≥ ≥(5êç
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java≥ ≥(5"
+%13java.util.concurrent.Future"^java.util.concurrent.ExecutorService#submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;*6
+4
+%10-java.util.concurrent.ScheduledExecutorService*0
+.
+%12'org.apache.bookkeeper.util.SafeRunnable2submit(Ljava/lang/Runnable;)*
+13*‰
+15
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java≥ ≥(˝
+˙
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java≥ ≥(4
+%10-java.util.concurrent.ScheduledExecutorService"__id*;*9+
+)org.apache.bookkeeper.replication.Auditor"
+
+executorÂ
+‚
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java≥( ≥(3
+%11java.lang.Runnable"__id*>*<+
+)org.apache.bookkeeper.replication.Auditor"
+bookieCheckÓ
+Î
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java≥  ≥(4.
+%12'org.apache.bookkeeper.util.SafeRunnable"norg.apache.bookkeeper.util.SafeRunnable#safeRun(Ljava/lang/Runnable;)Lorg/apache/bookkeeper/util/SafeRunnable;*+")
+'org.apache.bookkeeper.util.SafeRunnable*
+
+%11java.lang.Runnable*
+14*¸
+17
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java∞ ∞(.ú
+ô
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java∞ ∞(.>
+%88org.apache.bookkeeper.meta.LedgerUnderreplicationManager"__id*P*N+
+)org.apache.bookkeeper.replication.Auditor"
+ledgerUnderreplicationManagerÀ»
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java∞ ∞(K
+%9boolean"Vorg.apache.bookkeeper.meta.LedgerUnderreplicationManager#isLedgerReplicationEnabled()Z*@
+>
+%88org.apache.bookkeeper.meta.LedgerUnderreplicationManager2isLedgerReplicationEnabled()*
+15
+10*º
+18
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java´ ´(™
+ß
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java´ ´(
+%4org.slf4j.Logger"__id*
+""ãà
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java´ ´()
+
+%5void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%4org.slf4j.Logger*
+Starting auditBookies2info(Ljava/lang/String;)¶
+£
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¨ ¨(7&
+%6 com.google.common.base.Stopwatch"Rcom.google.common.base.Stopwatch#createStarted()Lcom/google/common/base/Stopwatch;*$""
+ com.google.common.base.Stopwatch„
+‡
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¨ ¨(8-
+	stopwatch com.google.common.base.Stopwatch"__id*(
+&
+%6 com.google.common.base.Stopwatch†
+ù
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÆ/ Æ(L
+%7java.util.Map"Vorg.apache.bookkeeper.replication.Auditor#generateBookie2LedgersIndex()Ljava/util/Map;*-+
+)org.apache.bookkeeper.replication.Auditor¡
+æ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÆ Æ(M
+ledgerDetailsjava.util.Map"__id*
+
+%7java.util.Map*
+17*Å
+7
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java«H «(\∂
+≥
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java«H «(n"
+%27java.util.function.Function"__id*
+""º
+π
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java∆ «(o
+%28	!capture!"ìorg.apache.bookkeeper.common.concurrent.FutureUtils#result(Ljava/util/concurrent/CompletableFuture;Ljava/util/function/Function;)Ljava/lang/Object;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*/
+-
+%26&java.util.concurrent.CompletableFuture*$
+"
+%27java.util.function.Function*
+2*…
+8
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java∆ ∆(Ω
+∫
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java« «(F-
+%26&java.util.concurrent.CompletableFuture"èorg.apache.bookkeeper.replication.Auditor#handleLostBookiesAsync(Ljava/util/Collection;Ljava/util/Map;)Ljava/util/concurrent/CompletableFuture;*-+
+)org.apache.bookkeeper.replication.Auditor*%
+#
+lostBookiesjava.util.Collection* 
+
+ledgerDetailsjava.util.Map*
+7*õ
+21
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java• •(+ç
+ä
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java• •(-
+
+%0void"Lorg.apache.bookkeeper.replication.Auditor#waitIfLedgerReplicationDisabled()V*-+
+)org.apache.bookkeeper.replication.Auditor*
+18*ˇ
+10
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaº( º(;õ
+ò
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaº( º(=
+%17java.util.List"Oorg.apache.bookkeeper.replication.Auditor#getAvailableBookies()Ljava/util/List;*-+
+)org.apache.bookkeeper.replication.Auditor«
+ƒ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaº º(>"
+availableBookiesjava.util.List"__id*
+
+%17java.util.ListÌÍ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaæ# æ(9
+%18java.util.Set"%java.util.Map#keySet()Ljava/util/Set;* 
+
+ledgerDetailsjava.util.Map2keySet()¡
+æ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaæ æ(:
+knownBookiesjava.util.Set"__id*
+
+%18java.util.Setó
+î
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaø) ¿(!
+%19java.util.Collection"xorg.apache.commons.collections4.CollectionUtils#subtract(Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/Collection;*3"1
+/org.apache.commons.collections4.CollectionUtils*
+
+knownBookiesjava.util.Set*$
+"
+availableBookiesjava.util.ListŒ
+À
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaø ¿("#
+lostBookiesjava.util.Collection"__id*
+
+%19java.util.Collectionè
+å
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¬ ¬(&0
+%20)org.apache.bookkeeper.stats.OpStatsLogger"__id*Q*O+
+)org.apache.bookkeeper.replication.Auditor" 
+bookieToLedgersMapCreationTime∏
+µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¬Q ¬(f$
+%21java.util.concurrent.TimeUnit"__id*
+""‡›
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¬? ¬(g
+%22long"Jcom.google.common.base.Stopwatch#elapsed(Ljava/util/concurrent/TimeUnit;)J*/
+-
+	stopwatch com.google.common.base.Stopwatch*&
+$
+%21java.util.concurrent.TimeUnit2(elapsed(Ljava/util/concurrent/TimeUnit;)∏
+µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java√ √(%$
+%23java.util.concurrent.TimeUnit"__id*
+""ùö
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java¬ √(&
+%24void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%20)org.apache.bookkeeper.stats.OpStatsLogger*
+
+%22long*&
+$
+%23java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)›⁄
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaƒ ƒ(
+
+%25int"java.util.Collection#size()I*%
+#
+lostBookiesjava.util.Collection2size()*
+8
+1*û
+0 "ñ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java— —(
+implicit return*Û
+1
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŒ Œ(´
+®
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŒ Œ(
+%38org.slf4j.Logger"__id*
+""éã
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŒ Œ(*
+%39void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%38org.slf4j.Logger*
+Completed auditBookies2info(Ljava/lang/String;)Å
+˛
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœ œ(0
+%40)org.apache.bookkeeper.stats.OpStatsLogger"__id*C*A+
+)org.apache.bookkeeper.replication.Auditor"
+auditBookiesTime±Æ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœ1 œ(A'
+%41 com.google.common.base.Stopwatch"Icom.google.common.base.Stopwatch#stop()Lcom/google/common/base/Stopwatch;*/
+-
+	stopwatch com.google.common.base.Stopwatch2stop()∏
+µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœJ œ(_$
+%42java.util.concurrent.TimeUnit"__id*
+""⁄◊
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœ1 œ(`
+%43long"Jcom.google.common.base.Stopwatch#elapsed(Ljava/util/concurrent/TimeUnit;)J*)
+'
+%41 com.google.common.base.Stopwatch*&
+$
+%42java.util.concurrent.TimeUnit2(elapsed(Ljava/util/concurrent/TimeUnit;)∏
+µ
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java– –(%$
+%44java.util.concurrent.TimeUnit"__id*
+""ùö
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaœ –(&
+%45void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%40)org.apache.bookkeeper.stats.OpStatsLogger*
+
+%43long*&
+$
+%44java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
+0B-+
+)org.apache.bookkeeper.replication.Auditor

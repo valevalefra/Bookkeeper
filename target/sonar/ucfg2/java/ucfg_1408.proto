@@ -1,0 +1,93 @@
+
+¡org.apache.bookkeeper.stream.protocol.util.ProtoUtils#createGetStorageContainerEndpointResponse(Ljava/util/List;)Lorg/apache/bookkeeper/stream/proto/storage/GetStorageContainerEndpointResponse;Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java–6 –(_"5*ï
+2Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java‘ ‘(.Î
+Ë
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java‘ ‘(.O
+endpointCorg.apache.bookkeeper.stream.proto.storage.StorageContainerEndpoint"__id*
+""ê
+ç
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java‘ ‘(.O
+endpointCorg.apache.bookkeeper.stream.proto.storage.StorageContainerEndpoint"
+__arrayGet*
+
+	endpointsjava.util.List*
+""*
+3
+1*ÿ
+3Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java’ ’(Ù
+Ò
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java÷ ÷(@\
+%3Vorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder"≥org.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/storage/OneStorageContainerEndpointResponse$Builder;*R"P
+Norg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse◊
+‘
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java◊# ◊(5;
+%45org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
+""…∆
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java÷ ◊(6\
+%5Vorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder"ıorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder#setStatusCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/storage/OneStorageContainerEndpointResponse$Builder;*^
+\
+%3Vorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder*=
+;
+%45org.apache.bookkeeper.stream.proto.storage.StatusCode2FsetStatusCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)ıÚ
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java÷ ÿ(*\
+%6Vorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder"Åorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder#setEndpoint(Lorg/apache/bookkeeper/stream/proto/storage/StorageContainerEndpoint;)Lorg/apache/bookkeeper/stream/proto/storage/OneStorageContainerEndpointResponse$Builder;*^
+\
+%5Vorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder*Q
+O
+endpointCorg.apache.bookkeeper.stream.proto.storage.StorageContainerEndpoint2RsetEndpoint(Lorg/apache/bookkeeper/stream/proto/storage/StorageContainerEndpoint;)Ø¨
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java’ ÿ(+\
+%7Vorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder"ïorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder#addResponses(Lorg/apache/bookkeeper/stream/proto/storage/OneStorageContainerEndpointResponse$Builder;)Lorg/apache/bookkeeper/stream/proto/storage/GetStorageContainerEndpointResponse$Builder;*c
+a
+builderVorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder*^
+\
+%6Vorg.apache.bookkeeper.stream.proto.storage.OneStorageContainerEndpointResponse$Builder2faddResponses(Lorg/apache/bookkeeper/stream/proto/storage/OneStorageContainerEndpointResponse$Builder;)*
+2*ã
+5Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java“> “(aÙ
+Ò
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java“> “(n\
+%0Vorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder"≥org.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/storage/GetStorageContainerEndpointResponse$Builder;*R"P
+Norg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse’
+“
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java“ “(oa
+builderVorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder"__id*^
+\
+%0Vorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder◊
+‘
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java” ”(0;
+%15org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
+""ŒÀ
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java” ”(1\
+%2Vorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder"ıorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder#setStatusCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/storage/GetStorageContainerEndpointResponse$Builder;*c
+a
+builderVorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder*=
+;
+%15org.apache.bookkeeper.stream.proto.storage.StatusCode2FsetStatusCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)*
+2*Ù
+1Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java⁄ ⁄(Å˛
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java⁄ ⁄(T
+%8Norg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse"Æorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/storage/GetStorageContainerEndpointResponse;*c
+a
+builderVorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse$Builder2build()"·
+Ü
+z/home/valentina/Scrivania/Bookkeeper/stream/proto/src/main/java/org/apache/bookkeeper/stream/protocol/util/ProtoUtils.java⁄ ⁄(V
+T
+%8Norg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointResponse:
+	endpointsjava.util.ListB9"7
+5org.apache.bookkeeper.stream.protocol.util.ProtoUtils

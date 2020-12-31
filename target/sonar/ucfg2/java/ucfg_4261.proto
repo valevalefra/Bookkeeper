@@ -1,0 +1,288 @@
+
+∂org.apache.distributedlog.ReadAheadEntryReader#updateLogSegmentMetadata(Lorg/apache/distributedlog/ReadAheadEntryReader$SegmentReader;Lorg/apache/distributedlog/LogSegmentMetadata;)Zé
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaæ æ(,"9*ô
+2é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaœ œ(˝˙
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaœ œ(8
+%37void"Üorg.apache.distributedlog.ReadAheadEntryReader$SegmentReader#updateLogSegmentMetadata(Lorg/apache/distributedlog/LogSegmentMetadata;)V*H
+F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader*=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadata2HupdateLogSegmentMetadata(Lorg/apache/distributedlog/LogSegmentMetadata;)*
+1*–
+3é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaŒ3 Œ(>±Æ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaŒ3 Œ(M
+%36boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+2
+1*Â
+4é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaŒ Œ(öó
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaŒ Œ(3
+%34,org.apache.distributedlog.LogSegmentMetadata"worg.apache.distributedlog.ReadAheadEntryReader$SegmentReader#getSegment()Lorg/apache/distributedlog/LogSegmentMetadata;*H
+F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader2getSegment()©¶
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaŒ Œ(.
+%35boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*5
+3
+%34,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+3
+1*¯
+5é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java… …(ñ
+ì
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…9 …(c
+%21java.lang.String"__concat*
+An inprogress log segment *=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadata˝
+˙
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…9  (=
+%22java.lang.String"__concat*
+
+%21java.lang.String*)'
+% received after a closed log segment öó
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java @  (S3
+%23,org.apache.distributedlog.LogSegmentMetadata"worg.apache.distributedlog.ReadAheadEntryReader$SegmentReader#getSegment()Lorg/apache/distributedlog/LogSegmentMetadata;*H
+F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader2getSegment()â
+Ü
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…9  (S
+%24java.lang.String"__concat*
+
+%22java.lang.String*5
+3
+%23,org.apache.distributedlog.LogSegmentMetadataÏ
+È
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…9  (l
+%25java.lang.String"__concat*
+
+%24java.lang.String*
+ on reading segment Ã…
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaÀ À(?
+%26long"Korg.apache.distributedlog.LogSegmentMetadata#getLogSegmentSequenceNumber()J*=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentSequenceNumber()·
+ﬁ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…9 À(?
+%27java.lang.String"__concat*
+
+%25java.lang.String*
+
+%26long‚
+ﬂ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…9 À(N
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+
+ @ stream ˜
+Ù
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaÀQ À([
+%29java.lang.String"__id*B*@0
+.org.apache.distributedlog.ReadAheadEntryReader"
+
+streamNameÌ
+Í
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…9 À([
+%30java.lang.String"__concat*
+
+%28java.lang.String*
+
+%29java.lang.Stringóî
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java…! …(8C
+%31<org.apache.distributedlog.exceptions.DLIllegalStateException"<org.apache.distributedlog.exceptions.DLIllegalStateException◊
+‘
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java… À(\
+%32"Xorg.apache.distributedlog.exceptions.DLIllegalStateException#<init>(Ljava/lang/String;)V*E
+C
+%31<org.apache.distributedlog.exceptions.DLIllegalStateException*
+
+%30java.lang.Stringûõ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java… À(]
+%33void"Worg.apache.distributedlog.ReadAheadEntryReader#setLastException(Ljava/io/IOException;)V*20
+.org.apache.distributedlog.ReadAheadEntryReader*E
+C
+%31<org.apache.distributedlog.exceptions.DLIllegalStateException2'setLastException(Ljava/io/IOException;)"ô
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaÃ Ã(
+""*–
+6é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java»3 »(>±Æ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java»3 »(M
+%20boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+4
+5*Â
+7é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java» »(öó
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java» »( 3
+%18,org.apache.distributedlog.LogSegmentMetadata"worg.apache.distributedlog.ReadAheadEntryReader$SegmentReader#getSegment()Lorg/apache/distributedlog/LogSegmentMetadata;*H
+F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader2getSegment()©¶
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java» »(/
+%19boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*5
+3
+%18,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+4
+6*û&
+8é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¡ ¡(∫
+∑
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¡ ¡(
+%3org.slf4j.Logger"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¡ ¬(:
+%4java.lang.String"__concat*64
+2Inconsistent state found in entry reader for {} : **(
+&current segment = {}, new segment = {}ˆ
+Û
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java√ √(
+%5java.lang.String"__id*B*@0
+.org.apache.distributedlog.ReadAheadEntryReader"
+
+streamNameôñ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java√ √(/2
+%6,org.apache.distributedlog.LogSegmentMetadata"worg.apache.distributedlog.ReadAheadEntryReader$SegmentReader#getSegment()Lorg/apache/distributedlog/LogSegmentMetadata;*H
+F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader2getSegment()—Œ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¡ √(=
+
+%7void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%3org.slf4j.Logger*
+
+%4java.lang.String*
+
+%5java.lang.String*4
+2
+%6,org.apache.distributedlog.LogSegmentMetadata*=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadata2,error(Ljava/lang/String;[Ljava/lang/Object;)ˆ
+Û
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java≈ ≈( 
+%8java.lang.String"__id*B*@0
+.org.apache.distributedlog.ReadAheadEntryReader"
+
+streamNameÉ
+Ä
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ9 ≈( 
+%9java.lang.String"__concat*1/
+-Inconsistent state found in entry reader for *
+
+%8java.lang.StringÏ
+È
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ9 ≈(:
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+ : current segment = öó
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java≈= ≈(P3
+%11,org.apache.distributedlog.LogSegmentMetadata"worg.apache.distributedlog.ReadAheadEntryReader$SegmentReader#getSegment()Lorg/apache/distributedlog/LogSegmentMetadata;*H
+F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader2getSegment()â
+Ü
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ9 ≈(P
+%12java.lang.String"__concat*
+
+%10java.lang.String*5
+3
+%11,org.apache.distributedlog.LogSegmentMetadataË
+Â
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ9 ≈(e
+%13java.lang.String"__concat*
+
+%12java.lang.String*
+, new segment = ë
+é
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ9 ≈(s
+%14java.lang.String"__concat*
+
+%13java.lang.String*=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadataóî
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ! ƒ(8C
+%15<org.apache.distributedlog.exceptions.DLIllegalStateException"<org.apache.distributedlog.exceptions.DLIllegalStateException◊
+‘
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ ≈(t
+%16"Xorg.apache.distributedlog.exceptions.DLIllegalStateException#<init>(Ljava/lang/String;)V*E
+C
+%15<org.apache.distributedlog.exceptions.DLIllegalStateException*
+
+%14java.lang.Stringûõ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaƒ ≈(u
+%17void"Worg.apache.distributedlog.ReadAheadEntryReader#setLastException(Ljava/io/IOException;)V*20
+.org.apache.distributedlog.ReadAheadEntryReader*E
+C
+%15<org.apache.distributedlog.exceptions.DLIllegalStateException2'setLastException(Ljava/io/IOException;)"ô
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java∆ ∆(
+""*À	
+9é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¿ ¿(ôñ
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¿ ¿(2
+%0,org.apache.distributedlog.LogSegmentMetadata"worg.apache.distributedlog.ReadAheadEntryReader$SegmentReader#getSegment()Lorg/apache/distributedlog/LogSegmentMetadata;*H
+F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader2getSegment()¬ø
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¿ ¿(=
+
+%1long"Korg.apache.distributedlog.LogSegmentMetadata#getLogSegmentSequenceNumber()J*4
+2
+%0,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentSequenceNumber()À»
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java¿A ¿(j
+
+%2long"Korg.apache.distributedlog.LogSegmentMetadata#getLogSegmentSequenceNumber()J*=
+;
+newMetadata,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentSequenceNumber()*
+7
+8*∞
+1é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java— —("ô
+é
+Å/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java— —(
+"":F
+reader<org.apache.distributedlog.ReadAheadEntryReader$SegmentReader:;
+newMetadata,org.apache.distributedlog.LogSegmentMetadataB20
+.org.apache.distributedlog.ReadAheadEntryReader

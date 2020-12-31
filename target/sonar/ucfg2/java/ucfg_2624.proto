@@ -1,0 +1,253 @@
+
+…org.apache.distributedlog.bk.SimpleLedgerAllocator#tryObtain(Lorg/apache/distributedlog/util/Transaction;Lorg/apache/distributedlog/util/Transaction$OpListener;)Ljava/util/concurrent/CompletableFuture;í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaî8 î(A"startingBlock*¬
+2í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.java° °(ô
+ñ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.java° °(*0
+%24)org.apache.bookkeeper.client.LedgerHandle"__id*G*E4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+allocatedLhÜ
+É
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.java° °(+
+%25void"sorg.apache.distributedlog.bk.SimpleLedgerAllocator#completeAllocation(Lorg/apache/bookkeeper/client/LedgerHandle;)V*64
+2org.apache.distributedlog.bk.SimpleLedgerAllocator*2
+0
+%24)org.apache.bookkeeper.client.LedgerHandle*
+1*ç
+3í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaû û(õ
+ò
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaû û(F4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+tryObtainTxn"__id*3
+1
+txn*org.apache.distributedlog.util.Transaction∞
+≠
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaü ü($K4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+tryObtainListener"__id*C
+A
+listener5org.apache.distributedlog.util.Transaction$OpListenerô
+ñ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.java† †(0
+%23)org.apache.bookkeeper.client.LedgerHandle"__id*G*E4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+allocatedLh*
+2
+1*â	
+startingBlockí
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaîA ï(j¯
+ı
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaì ì(
+%27"
+__annotate*
+java.lang.Override*3
+1
+txn*org.apache.distributedlog.util.Transaction‚
+ﬂ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaî\ î(_1
+txn*org.apache.distributedlog.util.Transaction"__annotation*
+
+%27à
+Ö
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaì ì(
+%28"
+__annotate*
+java.lang.Override*C
+A
+listener5org.apache.distributedlog.util.Transaction$OpListenerÚ
+Ô
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaïa ï(iA
+listener5org.apache.distributedlog.util.Transaction$OpListener"__annotation*
+
+%28*
+9*˜
+4í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaõ õ(¢
+ü
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaõG õ(L?
+%178org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*A*?4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+phase¢
+ü
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaúL ú(Q?
+%188org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*A*?4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+phase∑
+¥
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaú ú(Q
+%19java.lang.String"__concat*75
+3Ledger handle is handling over to another thread : *A
+?
+%188org.apache.distributedlog.bk.SimpleLedgerAllocator$Phaseª∏
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaõ- õ(FS
+%20Lorg.apache.distributedlog.bk.SimpleLedgerAllocator$ConcurrentObtainException"Lorg.apache.distributedlog.bk.SimpleLedgerAllocator$ConcurrentObtainException˘
+ˆ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaõ) ú(R
+%21"¢org.apache.distributedlog.bk.SimpleLedgerAllocator$ConcurrentObtainException#<init>(Lorg/apache/distributedlog/bk/SimpleLedgerAllocator$Phase;Ljava/lang/String;)V*U
+S
+%20Lorg.apache.distributedlog.bk.SimpleLedgerAllocator$ConcurrentObtainException*A
+?
+%178org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase*
+
+%19java.lang.String’
+“
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaõ ú(S-
+%22&java.util.concurrent.CompletableFuture"|org.apache.bookkeeper.common.concurrent.FutureUtils#exception(Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*U
+S
+%20Lorg.apache.distributedlog.bk.SimpleLedgerAllocator$ConcurrentObtainException"∆
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaõ ú(T/
+-
+%22&java.util.concurrent.CompletableFuture*æ
+5í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaöI ö(Mõ
+ò
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaöQ ö(]1
+%16*org.apache.distributedlog.util.Transaction"__id*H*F4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+tryObtainTxn*
+3
+4*ô
+6í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö+ ö(0Á
+‰
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö+ ö(0?
+%138org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""Á
+‰
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö+ ö(<?
+%148org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""¢
+ü
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö@ ö(E?
+%158org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*A*?4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+phase*
+4
+5*ô
+7í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö ö(Á
+‰
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö ö(?
+%108org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""Á
+‰
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö ö(?
+%118org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""¢
+ü
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaö" ö('?
+%128org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*A*?4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+phase*
+4
+6*†
+8í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaó ó(Ê
+„
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaóA ó(F>
+%38org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""Ê
+„
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaóA ó(L>
+%48org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""Ä
+˝
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaò: ò(F
+%5java.lang.String"__id*H*F4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+allocatePath˚
+¯
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaò ò(F
+%6java.lang.String"__concat*%#
+!Error on allocating ledger under *
+
+%5java.lang.StringÆ´
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaó- ó(@L
+%7Forg.apache.distributedlog.bk.SimpleLedgerAllocator$AllocationException"Forg.apache.distributedlog.bk.SimpleLedgerAllocator$AllocationExceptionÈ
+Ê
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaó) ò(G
+%8"úorg.apache.distributedlog.bk.SimpleLedgerAllocator$AllocationException#<init>(Lorg/apache/distributedlog/bk/SimpleLedgerAllocator$Phase;Ljava/lang/String;)V*N
+L
+%7Forg.apache.distributedlog.bk.SimpleLedgerAllocator$AllocationException*@
+>
+%48org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase*
+
+%6java.lang.StringÕ
+ 
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaó ò(H,
+%9&java.util.concurrent.CompletableFuture"|org.apache.bookkeeper.common.concurrent.FutureUtils#exception(Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*N
+L
+%7Forg.apache.distributedlog.bk.SimpleLedgerAllocator$AllocationException"≈
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaó ò(I.
+,
+%9&java.util.concurrent.CompletableFuture*ñ
+9í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javañ ñ(Ê
+„
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javañ ñ(>
+%08org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""Ê
+„
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javañ ñ(>
+%18org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*
+""°
+û
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javañ ñ( >
+%28org.apache.distributedlog.bk.SimpleLedgerAllocator$Phase"__id*A*?4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+phase*
+7
+8*˛
+1í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.java£ £(ö
+ó
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.java£ £(-
+%26&java.util.concurrent.CompletableFuture"__id*K*I4
+2org.apache.distributedlog.bk.SimpleLedgerAllocator"
+allocatePromise"∆
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.java£ £(/
+-
+%26&java.util.concurrent.CompletableFuture:1
+txn*org.apache.distributedlog.util.Transaction:A
+listener5org.apache.distributedlog.util.Transaction$OpListenerB64
+2org.apache.distributedlog.bk.SimpleLedgerAllocator

@@ -1,0 +1,44 @@
+
+ãorg.apache.bookkeeper.stream.storage.impl.sc.StorageContainerImpl#buildGrpcServer(Ljava/lang/String;Ljava/util/Collection;)Lio/grpc/Server;ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java8 8()"1*È
+1ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java:) :(?é
+ã
+ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java:) :(S.
+%0(io.grpc.inprocess.InProcessServerBuilder"nio.grpc.inprocess.InProcessServerBuilder#forName(Ljava/lang/String;)Lio/grpc/inprocess/InProcessServerBuilder;*,"*
+(io.grpc.inprocess.InProcessServerBuilder* 
+
+
+serverNamejava.lang.Stringã
+à
+ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java: :(T3
+builder(io.grpc.inprocess.InProcessServerBuilder"__id*0
+.
+%0(io.grpc.inprocess.InProcessServerBuilder∫∑
+ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java; ;(@
+
+%1void":java.lang.Iterable#forEach(Ljava/util/function/Consumer;)V*"
+ 
+servicesjava.util.Collection*
+""2&forEach(Ljava/util/function/Consumer;)Ä˝
+ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java< =(.
+%2(io.grpc.inprocess.InProcessServerBuilder"gio.grpc.internal.AbstractServerImplBuilder#directExecutor()Lio/grpc/internal/AbstractServerImplBuilder;*5
+3
+builder(io.grpc.inprocess.InProcessServerBuilder2directExecutor()≥∞
+ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java< >(
+%3io.grpc.Server"Bio.grpc.internal.AbstractServerImplBuilder#build()Lio/grpc/Server;*0
+.
+%2(io.grpc.inprocess.InProcessServerBuilder2build()"≥
+ò
+ç/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/sc/StorageContainerImpl.java< >(
+
+%3io.grpc.Server:
+
+serverNamejava.lang.String: 
+servicesjava.util.CollectionBE"C
+Aorg.apache.bookkeeper.stream.storage.impl.sc.StorageContainerImpl

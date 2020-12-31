@@ -1,0 +1,781 @@
+
+ªorg.apache.bookkeeper.server.http.BKHttpServiceProvider#provideHttpEndpointService(Lorg/apache/bookkeeper/http/HttpServer$ApiType;)Lorg/apache/bookkeeper/http/service/HttpEndpointService;é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaπ π(9"startingBlock*Ô
+24é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaƒ ƒ(◊
+‘
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaƒ ƒ(3
+%9-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ú
+ô
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java≈9 ≈(F0
+%10)org.apache.bookkeeper.stats.StatsProvider"__id*N*L9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+statsProviderèå
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java≈ ≈()?
+%118org.apache.bookkeeper.server.http.service.MetricsService"8org.apache.bookkeeper.server.http.service.MetricsServiceı
+Ú
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java≈ ≈(G
+%12"ùorg.apache.bookkeeper.server.http.service.MetricsService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/stats/StatsProvider;)V*A
+?
+%118org.apache.bookkeeper.server.http.service.MetricsService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*2
+0
+%10)org.apache.bookkeeper.stats.StatsProvider"‘
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java≈ ≈(HA
+?
+%118org.apache.bookkeeper.server.http.service.MetricsService*ä
+
+25é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¬ ¬(◊
+‘
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¬ ¬(3
+%6-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""öó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java√ √(/D
+%7>org.apache.bookkeeper.server.http.service.ConfigurationService">org.apache.bookkeeper.server.http.service.ConfigurationServiceü
+ú
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java√ √(>
+%8"xorg.apache.bookkeeper.server.http.service.ConfigurationService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*F
+D
+%7>org.apache.bookkeeper.server.http.service.ConfigurationService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"Ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java√ √(?F
+D
+%7>org.apache.bookkeeper.server.http.service.ConfigurationService*‡
+26é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¿ ¿(◊
+‘
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¿ ¿(3
+%3-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ÑÅ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¡ ¡(+9
+%43org.apache.bookkeeper.http.service.HeartbeatService"3org.apache.bookkeeper.http.service.HeartbeatServiceñ
+ì
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¡ ¡(-
+%5"=org.apache.bookkeeper.http.service.HeartbeatService#<init>()V*;
+9
+%43org.apache.bookkeeper.http.service.HeartbeatService"Œ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¡ ¡(.;
+9
+%43org.apache.bookkeeper.http.service.HeartbeatService*Ü
+27é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaº º()ÑÅ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaº º('9
+%13org.apache.bookkeeper.http.service.ErrorHttpService"3org.apache.bookkeeper.http.service.ErrorHttpServiceñ
+ì
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaº º()
+%2"=org.apache.bookkeeper.http.service.ErrorHttpService#<init>()V*;
+9
+%13org.apache.bookkeeper.http.service.ErrorHttpService"Œ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaº º(*;
+9
+%13org.apache.bookkeeper.http.service.ErrorHttpService*ê
+28é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java∫, ∫(9Ä
+˝
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java∫, ∫(;4
+%0.org.apache.bookkeeper.conf.ServerConfiguration"worg.apache.bookkeeper.server.http.BKHttpServiceProvider#getServerConf()Lorg/apache/bookkeeper/conf/ServerConfiguration;*;9
+7org.apache.bookkeeper.server.http.BKHttpServiceProviderì
+ê
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java∫ ∫(<?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"__id*6
+4
+%0.org.apache.bookkeeper.conf.ServerConfiguration*`
+24
+25
+26
+27
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+2
+3
+4
+5
+6
+7
+8
+9
+20
+21
+22
+23*€
+10é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‰ ‰(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‰ ‰(4
+%62-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÂ- Â(9/
+%63(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServer€ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÂ- Â(E*
+%64#org.apache.bookkeeper.bookie.Bookie"Yorg.apache.bookkeeper.proto.BookieServer#getBookie()Lorg/apache/bookkeeper/bookie/Bookie;*1
+/
+%63(org.apache.bookkeeper.proto.BookieServer2getBookie()ïí
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÂ Â(,B
+%65;org.apache.bookkeeper.server.http.service.BookieInfoService";org.apache.bookkeeper.server.http.service.BookieInfoService˚
+¯
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÂ Â(F
+%66"jorg.apache.bookkeeper.server.http.service.BookieInfoService#<init>(Lorg/apache/bookkeeper/bookie/Bookie;)V*D
+B
+%65;org.apache.bookkeeper.server.http.service.BookieInfoService*,
+*
+%64#org.apache.bookkeeper.bookie.Bookie"◊
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÂ Â(GD
+B
+%65;org.apache.bookkeeper.server.http.service.BookieInfoService*Í
+11é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‚ ‚( ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‚ ‚( 4
+%57-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java„0 „(</
+%58(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServer€ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java„0 „(H*
+%59#org.apache.bookkeeper.bookie.Bookie"Yorg.apache.bookkeeper.proto.BookieServer#getBookie()Lorg/apache/bookkeeper/bookie/Bookie;*1
+/
+%58(org.apache.bookkeeper.proto.BookieServer2getBookie()õò
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java„ „(/E
+%60>org.apache.bookkeeper.server.http.service.BookieIsReadyService">org.apache.bookkeeper.server.http.service.BookieIsReadyServiceÅ
+˛
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java„ „(I
+%61"morg.apache.bookkeeper.server.http.service.BookieIsReadyService#<init>(Lorg/apache/bookkeeper/bookie/Bookie;)V*G
+E
+%60>org.apache.bookkeeper.server.http.service.BookieIsReadyService*,
+*
+%59#org.apache.bookkeeper.bookie.Bookie"⁄
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java„ „(JG
+E
+%60>org.apache.bookkeeper.server.http.service.BookieIsReadyService*‡
+12é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‡ ‡(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‡ ‡(4
+%52-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java·. ·(:/
+%53(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServer€ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java·. ·(F*
+%54#org.apache.bookkeeper.bookie.Bookie"Yorg.apache.bookkeeper.proto.BookieServer#getBookie()Lorg/apache/bookkeeper/bookie/Bookie;*1
+/
+%53(org.apache.bookkeeper.proto.BookieServer2getBookie()óî
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java· ·(-C
+%55<org.apache.bookkeeper.server.http.service.BookieStateService"<org.apache.bookkeeper.server.http.service.BookieStateService˝
+˙
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java· ·(G
+%56"korg.apache.bookkeeper.server.http.service.BookieStateService#<init>(Lorg/apache/bookkeeper/bookie/Bookie;)V*E
+C
+%55<org.apache.bookkeeper.server.http.service.BookieStateService*,
+*
+%54#org.apache.bookkeeper.bookie.Bookie"ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java· ·(HE
+C
+%55<org.apache.bookkeeper.server.http.service.BookieStateService*ˆ
+13é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaﬁ ﬁ(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaﬁ ﬁ(4
+%48-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaﬂ; ﬂ(G/
+%49(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServerìê
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaﬂ ﬂ(+A
+%50:org.apache.bookkeeper.server.http.service.GCDetailsService":org.apache.bookkeeper.server.http.service.GCDetailsService˜
+Ù
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaﬂ ﬂ(H
+%51"ûorg.apache.bookkeeper.server.http.service.GCDetailsService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/proto/BookieServer;)V*C
+A
+%50:org.apache.bookkeeper.server.http.service.GCDetailsService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*1
+/
+%49(org.apache.bookkeeper.proto.BookieServer"÷
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaﬂ ﬂ(IC
+A
+%50:org.apache.bookkeeper.server.http.service.GCDetailsService*ˆ
+14é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‹ ‹(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‹ ‹(4
+%44-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java›; ›(G/
+%45(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServerìê
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java› ›(+A
+%46:org.apache.bookkeeper.server.http.service.TriggerGCService":org.apache.bookkeeper.server.http.service.TriggerGCService˜
+Ù
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java› ›(H
+%47"ûorg.apache.bookkeeper.server.http.service.TriggerGCService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/proto/BookieServer;)V*C
+A
+%46:org.apache.bookkeeper.server.http.service.TriggerGCService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*1
+/
+%45(org.apache.bookkeeper.proto.BookieServer"÷
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java› ›(IC
+A
+%46:org.apache.bookkeeper.server.http.service.TriggerGCService*è
+
+15é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java⁄ ⁄(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java⁄ ⁄(4
+%41-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""õò
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java€ €(/E
+%42>org.apache.bookkeeper.server.http.service.ExpandStorageService">org.apache.bookkeeper.server.http.service.ExpandStorageService°
+û
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java€ €(>
+%43"xorg.apache.bookkeeper.server.http.service.ExpandStorageService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*G
+E
+%42>org.apache.bookkeeper.server.http.service.ExpandStorageService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"⁄
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java€ €(?G
+E
+%42>org.apache.bookkeeper.server.http.service.ExpandStorageService*è
+
+16é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÿ ÿ(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÿ ÿ(4
+%38-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""õò
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaŸ Ÿ(/E
+%39>org.apache.bookkeeper.server.http.service.ListDiskFilesService">org.apache.bookkeeper.server.http.service.ListDiskFilesService°
+û
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaŸ Ÿ(>
+%40"xorg.apache.bookkeeper.server.http.service.ListDiskFilesService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*G
+E
+%39>org.apache.bookkeeper.server.http.service.ListDiskFilesService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"⁄
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaŸ Ÿ(?G
+E
+%39>org.apache.bookkeeper.server.http.service.ListDiskFilesService*î
+
+17é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java÷ ÷(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java÷ ÷(4
+%35-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ùö
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java◊ ◊(0F
+%36?org.apache.bookkeeper.server.http.service.GetLastLogMarkService"?org.apache.bookkeeper.server.http.service.GetLastLogMarkService£
+†
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java◊ ◊(?
+%37"yorg.apache.bookkeeper.server.http.service.GetLastLogMarkService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*H
+F
+%36?org.apache.bookkeeper.server.http.service.GetLastLogMarkService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"€
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java◊ ◊(@H
+F
+%36?org.apache.bookkeeper.server.http.service.GetLastLogMarkService*î
+
+18é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‘ ‘(!ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java‘ ‘(!4
+%32-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ùö
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java’ ’(0F
+%33?org.apache.bookkeeper.server.http.service.ListBookieInfoService"?org.apache.bookkeeper.server.http.service.ListBookieInfoService£
+†
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java’ ’(?
+%34"yorg.apache.bookkeeper.server.http.service.ListBookieInfoService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*H
+F
+%33?org.apache.bookkeeper.server.http.service.ListBookieInfoService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"€
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java’ ’(@H
+F
+%33?org.apache.bookkeeper.server.http.service.ListBookieInfoService*É
+19é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java“ “(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java“ “(4
+%28-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ï
+í
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java”= ”(@3
+%29,org.apache.bookkeeper.client.BookKeeperAdmin"__id*D*B9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bkaóî
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java” ”(-C
+%30<org.apache.bookkeeper.server.http.service.ListBookiesService"<org.apache.bookkeeper.server.http.service.ListBookiesServiceÉ
+Ä
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java” ”(A
+%31"§org.apache.bookkeeper.server.http.service.ListBookiesService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/client/BookKeeperAdmin;)V*E
+C
+%30<org.apache.bookkeeper.server.http.service.ListBookiesService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*5
+3
+%29,org.apache.bookkeeper.client.BookKeeperAdmin"ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java” ”(BE
+C
+%30<org.apache.bookkeeper.server.http.service.ListBookiesService*≥
+2é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¯0 ¯(=õò
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¯ ¯(/E
+%96>org.apache.bookkeeper.server.http.service.ConfigurationService">org.apache.bookkeeper.server.http.service.ConfigurationService°
+û
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¯ ¯(>
+%97"xorg.apache.bookkeeper.server.http.service.ConfigurationService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*G
+E
+%96>org.apache.bookkeeper.server.http.service.ConfigurationService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"⁄
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java¯ ¯(?G
+E
+%96>org.apache.bookkeeper.server.http.service.ConfigurationService*Ò
+3é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÙ Ù(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÙ Ù(4
+%91-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ï
+í
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaı> ı(A3
+%92,org.apache.bookkeeper.client.BookKeeperAdmin"__id*D*B9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bkaí
+è
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaıC ı(K+
+%93$java.util.concurrent.ExecutorService"__id*I*G9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+
+executorôñ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaı ı(.D
+%94=org.apache.bookkeeper.server.http.service.DecommissionService"=org.apache.bookkeeper.server.http.service.DecommissionService⁄
+◊
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaı ı(L
+%95"Àorg.apache.bookkeeper.server.http.service.DecommissionService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/client/BookKeeperAdmin;Ljava/util/concurrent/ExecutorService;)V*F
+D
+%94=org.apache.bookkeeper.server.http.service.DecommissionService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*5
+3
+%92,org.apache.bookkeeper.client.BookKeeperAdmin*-
++
+%93$java.util.concurrent.ExecutorService"Ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaı ı(MF
+D
+%94=org.apache.bookkeeper.server.http.service.DecommissionService*Ü
+startingBlocké
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaπ9 π(G¯
+ı
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java∏ ∏(
+%98"
+__annotate*
+java.lang.Override*7
+5
+type-org.apache.bookkeeper.http.HttpServer$ApiType‚
+ﬂ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaπB π(F5
+type-org.apache.bookkeeper.http.HttpServer$ApiType"__annotation*
+
+%98*
+28*æ
+4é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÚ Ú(+ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÚ Ú(+4
+%87-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ï
+í
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÛI Û(L3
+%88,org.apache.bookkeeper.client.BookKeeperAdmin"__id*D*B9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bkaØ¨
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÛ Û(9O
+%89Horg.apache.bookkeeper.server.http.service.LostBookieRecoveryDelayService"Horg.apache.bookkeeper.server.http.service.LostBookieRecoveryDelayServiceõ
+ò
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÛ Û(M
+%90"∞org.apache.bookkeeper.server.http.service.LostBookieRecoveryDelayService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/client/BookKeeperAdmin;)V*Q
+O
+%89Horg.apache.bookkeeper.server.http.service.LostBookieRecoveryDelayService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*5
+3
+%88,org.apache.bookkeeper.client.BookKeeperAdmin"‰
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÛ Û(NQ
+O
+%89Horg.apache.bookkeeper.server.http.service.LostBookieRecoveryDelayService*á
+5é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java (ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java (4
+%83-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ï
+í
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÒ> Ò(A3
+%84,org.apache.bookkeeper.client.BookKeeperAdmin"__id*D*B9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bkaôñ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÒ Ò(.D
+%85=org.apache.bookkeeper.server.http.service.TriggerAuditService"=org.apache.bookkeeper.server.http.service.TriggerAuditServiceÖ
+Ç
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÒ Ò(B
+%86"•org.apache.bookkeeper.server.http.service.TriggerAuditService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/client/BookKeeperAdmin;)V*F
+D
+%85=org.apache.bookkeeper.server.http.service.TriggerAuditService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*5
+3
+%84,org.apache.bookkeeper.client.BookKeeperAdmin"Ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÒ Ò(CF
+D
+%85=org.apache.bookkeeper.server.http.service.TriggerAuditService*‹
+6é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÓ Ó(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÓ Ó(4
+%79-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""Ü
+É
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÔ> Ô(@%
+%80org.apache.zookeeper.ZooKeeper"__id*C*A9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+zkôñ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÔ Ô(.D
+%81=org.apache.bookkeeper.server.http.service.WhoIsAuditorService"=org.apache.bookkeeper.server.http.service.WhoIsAuditorServiceÈ
+Ê
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÔ Ô(A
+%82"óorg.apache.bookkeeper.server.http.service.WhoIsAuditorService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/zookeeper/ZooKeeper;)V*F
+D
+%81=org.apache.bookkeeper.server.http.service.WhoIsAuditorService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*'
+%
+%80org.apache.zookeeper.ZooKeeper"Ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÔ Ô(BF
+D
+%81=org.apache.bookkeeper.server.http.service.WhoIsAuditorService*≈
+7é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÏ Ï(-ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÏ Ï(-4
+%75-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÌK Ì(W/
+%76(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServer≥∞
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÌ Ì(;Q
+%77Jorg.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerService"Jorg.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerServiceó
+î
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÌ Ì(X
+%78"Æorg.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/proto/BookieServer;)V*S
+Q
+%77Jorg.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*1
+/
+%76(org.apache.bookkeeper.proto.BookieServer"Ê
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÌ Ì(YS
+Q
+%77Jorg.apache.bookkeeper.server.http.service.ListUnderReplicatedLedgerService*˚
+8é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÍ Í( ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÍ Í( 4
+%70-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ï
+í
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÎ@ Î(C3
+%71,org.apache.bookkeeper.client.BookKeeperAdmin"__id*D*B9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bkaí
+è
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÎE Î(M+
+%72$java.util.concurrent.ExecutorService"__id*I*G9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+
+executorùö
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÎ Î(0F
+%73?org.apache.bookkeeper.server.http.service.RecoveryBookieService"?org.apache.bookkeeper.server.http.service.RecoveryBookieServiceﬁ
+€
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÎ Î(N
+%74"Õorg.apache.bookkeeper.server.http.service.RecoveryBookieService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/client/BookKeeperAdmin;Ljava/util/concurrent/ExecutorService;)V*H
+F
+%73?org.apache.bookkeeper.server.http.service.RecoveryBookieService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*5
+3
+%71,org.apache.bookkeeper.client.BookKeeperAdmin*-
++
+%72$java.util.concurrent.ExecutorService"€
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÎ Î(OH
+F
+%73?org.apache.bookkeeper.server.http.service.RecoveryBookieService*ß
+
+9é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaË Ë($ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaË Ë($4
+%67-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""•¢
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÈ È(4J
+%68Corg.apache.bookkeeper.server.http.service.AutoRecoveryStatusService"Corg.apache.bookkeeper.server.http.service.AutoRecoveryStatusService´
+®
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÈ È(C
+%69"}org.apache.bookkeeper.server.http.service.AutoRecoveryStatusService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*L
+J
+%68Corg.apache.bookkeeper.server.http.service.AutoRecoveryStatusService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"ﬂ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÈ È(DL
+J
+%68Corg.apache.bookkeeper.server.http.service.AutoRecoveryStatusService*ó
+20é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaŒ Œ("ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaŒ Œ("4
+%24-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ï
+í
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaœA œ(D3
+%25,org.apache.bookkeeper.client.BookKeeperAdmin"__id*D*B9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bkaüú
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaœ œ(1G
+%26@org.apache.bookkeeper.server.http.service.ReadLedgerEntryService"@org.apache.bookkeeper.server.http.service.ReadLedgerEntryServiceã
+à
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaœ œ(E
+%27"®org.apache.bookkeeper.server.http.service.ReadLedgerEntryService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/client/BookKeeperAdmin;)V*I
+G
+%26@org.apache.bookkeeper.server.http.service.ReadLedgerEntryService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*5
+3
+%25,org.apache.bookkeeper.client.BookKeeperAdmin"‹
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaœ œ(FI
+G
+%26@org.apache.bookkeeper.server.http.service.ReadLedgerEntryService*ä
+21é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÃ Ã( ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÃ Ã( 4
+%20-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÕ? Õ(K/
+%21(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServerõò
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÕ Õ(/E
+%22>org.apache.bookkeeper.server.http.service.GetLedgerMetaService">org.apache.bookkeeper.server.http.service.GetLedgerMetaServiceˇ
+¸
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÕ Õ(L
+%23"¢org.apache.bookkeeper.server.http.service.GetLedgerMetaService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/proto/BookieServer;)V*G
+E
+%22>org.apache.bookkeeper.server.http.service.GetLedgerMetaService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*1
+/
+%21(org.apache.bookkeeper.proto.BookieServer"⁄
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÕ Õ(MG
+E
+%22>org.apache.bookkeeper.server.http.service.GetLedgerMetaService*˚
+22é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java   (ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java   (4
+%16-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ö
+ó
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÀ< À(H/
+%17(org.apache.bookkeeper.proto.BookieServer"__id*M*K9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider"
+bookieServerïí
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÀ À(,B
+%18;org.apache.bookkeeper.server.http.service.ListLedgerService";org.apache.bookkeeper.server.http.service.ListLedgerService˘
+ˆ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÀ À(I
+%19"üorg.apache.bookkeeper.server.http.service.ListLedgerService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/proto/BookieServer;)V*D
+B
+%18;org.apache.bookkeeper.server.http.service.ListLedgerService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration*1
+/
+%17(org.apache.bookkeeper.proto.BookieServer"◊
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.javaÀ À(JD
+B
+%18;org.apache.bookkeeper.server.http.service.ListLedgerService*ä
+
+23é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java» »(ÿ
+’
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java» »(4
+%13-org.apache.bookkeeper.http.HttpServer$ApiType"__id*
+""ôñ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java… …(.D
+%14=org.apache.bookkeeper.server.http.service.DeleteLedgerService"=org.apache.bookkeeper.server.http.service.DeleteLedgerServiceü
+ú
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java… …(=
+%15"worg.apache.bookkeeper.server.http.service.DeleteLedgerService#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;)V*F
+D
+%14=org.apache.bookkeeper.server.http.service.DeleteLedgerService*A
+?
+configuration.org.apache.bookkeeper.conf.ServerConfiguration"Ÿ
+é
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/BKHttpServiceProvider.java… …(>F
+D
+%14=org.apache.bookkeeper.server.http.service.DeleteLedgerService:5
+type-org.apache.bookkeeper.http.HttpServer$ApiTypeB;9
+7org.apache.bookkeeper.server.http.BKHttpServiceProvider

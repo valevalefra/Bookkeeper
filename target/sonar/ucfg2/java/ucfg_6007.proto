@@ -1,0 +1,130 @@
+
+µorg.apache.bookkeeper.util.LedgerIdFormatter#newLedgerIdFormatter(Ljava/lang/String;Lorg/apache/bookkeeper/conf/AbstractConfiguration;)Lorg/apache/bookkeeper/util/LedgerIdFormatter;Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaH$ H(8"8*î
+2Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaQ Q(¨
+©
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaQ Q(
+%9org.slf4j.Logger"__id*
+""ÑÅ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaQ Q(i
+%10void"<org.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%9org.slf4j.Logger*PN
+Lspecified unexpected ledgeridformat {}, so default LedgerIdFormatter is used*
+
+optjava.lang.String2*warn(Ljava/lang/String;Ljava/lang/Object;)œ
+Ã
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaR R(23
+%11,org.apache.bookkeeper.util.LedgerIdFormatter"£org.apache.bookkeeper.util.LedgerIdFormatter#newLedgerIdFormatter(Lorg/apache/bookkeeper/conf/AbstractConfiguration;)Lorg/apache/bookkeeper/util/LedgerIdFormatter;*0".
+,org.apache.bookkeeper.util.LedgerIdFormatter*:
+8
+conf0org.apache.bookkeeper.conf.AbstractConfiguration˛
+˚
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaR R(29
+	formatter,org.apache.bookkeeper.util.LedgerIdFormatter"__id*5
+3
+%11,org.apache.bookkeeper.util.LedgerIdFormatter*
+1*·
+3Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaO O(Eîë
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaO O(CH
+%7Borg.apache.bookkeeper.util.LedgerIdFormatter$LongLedgerIdFormatter"Borg.apache.bookkeeper.util.LedgerIdFormatter$LongLedgerIdFormatter¶
+£
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaO O(E
+%8"Lorg.apache.bookkeeper.util.LedgerIdFormatter$LongLedgerIdFormatter#<init>()V*J
+H
+%7Borg.apache.bookkeeper.util.LedgerIdFormatter$LongLedgerIdFormatterì
+ê
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaO O(E9
+	formatter,org.apache.bookkeeper.util.LedgerIdFormatter"__id*J
+H
+%7Borg.apache.bookkeeper.util.LedgerIdFormatter$LongLedgerIdFormatter*
+1*ï
+4Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaN N(ÑÅ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaN N(%
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+long*
+
+optjava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*·
+5Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaM M(Eîë
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaM M(CH
+%4Borg.apache.bookkeeper.util.LedgerIdFormatter$UUIDLedgerIdFormatter"Borg.apache.bookkeeper.util.LedgerIdFormatter$UUIDLedgerIdFormatter¶
+£
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaM M(E
+%5"Lorg.apache.bookkeeper.util.LedgerIdFormatter$UUIDLedgerIdFormatter#<init>()V*J
+H
+%4Borg.apache.bookkeeper.util.LedgerIdFormatter$UUIDLedgerIdFormatterì
+ê
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaM M(E9
+	formatter,org.apache.bookkeeper.util.LedgerIdFormatter"__id*J
+H
+%4Borg.apache.bookkeeper.util.LedgerIdFormatter$UUIDLedgerIdFormatter*
+1*ï
+6Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaL L(ÑÅ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaL L(%
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+uuid*
+
+optjava.lang.String2equals(Ljava/lang/Object;)*
+4
+5*‹
+7Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaK K(Díè
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaK K(BG
+%1Aorg.apache.bookkeeper.util.LedgerIdFormatter$HexLedgerIdFormatter"Aorg.apache.bookkeeper.util.LedgerIdFormatter$HexLedgerIdFormatter§
+°
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaK K(D
+%2"Korg.apache.bookkeeper.util.LedgerIdFormatter$HexLedgerIdFormatter#<init>()V*I
+G
+%1Aorg.apache.bookkeeper.util.LedgerIdFormatter$HexLedgerIdFormatterí
+è
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaK K(D9
+	formatter,org.apache.bookkeeper.util.LedgerIdFormatter"__id*I
+G
+%1Aorg.apache.bookkeeper.util.LedgerIdFormatter$HexLedgerIdFormatter*
+1*Ê
+8Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaI I($œ
+Ã
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaI I($9
+	formatter,org.apache.bookkeeper.util.LedgerIdFormatter"__id*
+""ÉÄ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaJ J(
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+hex*
+
+optjava.lang.String2equals(Ljava/lang/Object;)*
+6
+7*…
+1Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaT T("¿
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LedgerIdFormatter.javaT T(;
+9
+	formatter,org.apache.bookkeeper.util.LedgerIdFormatter:
+optjava.lang.String:8
+conf0org.apache.bookkeeper.conf.AbstractConfigurationB0".
+,org.apache.bookkeeper.util.LedgerIdFormatter

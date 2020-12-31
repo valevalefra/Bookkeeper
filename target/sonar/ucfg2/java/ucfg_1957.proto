@@ -1,0 +1,97 @@
+
+∂org.apache.bookkeeper.api.kv.impl.op.OpFactoryImpl#newPut(Ljava/lang/Object;Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/PutOption;)Lorg/apache/bookkeeper/api/kv/op/PutOp;
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javae e("startingBlock*•
+
+startingBlock
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javae e(B∫
+∑
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javad d(
+%5"
+__annotate*
+java.lang.Override*
+
+
+keyK§
+°
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javae  e(#
+keyK"__annotation*
+
+%5º
+π
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javad d(
+%6"
+__annotate*
+java.lang.Override*
+
+
+valueV¶
+£
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javae' e(,
+
+valueV"__annotation*
+
+%6Í
+Á
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javad d(
+%7"
+__annotate*
+java.lang.Override*:
+8
+option.org.apache.bookkeeper.api.kv.options.PutOption‘
+—
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javae; e(A8
+option.org.apache.bookkeeper.api.kv.options.PutOption"__annotation*
+
+%7*
+1*˘
+1
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javaf f(Û
+
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javaf f(
+%0io.netty.util.Recycler"__id*I*G4
+2org.apache.bookkeeper.api.kv.impl.op.OpFactoryImpl"
+putOpRecyclerëé
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javaf f("4
+%1.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl".io.netty.util.Recycler#get()Ljava/lang/Object;*
+
+%0io.netty.util.Recycler2get()èå
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javaf g(4
+%2.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl"vorg.apache.bookkeeper.api.kv.impl.op.PutOpImpl#key(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/impl/op/PutOpImpl;*6
+4
+%1.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl*
+
+
+keyK2key(Ljava/lang/Object;)ïí
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javaf h(4
+%3.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl"xorg.apache.bookkeeper.api.kv.impl.op.PutOpImpl#value(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/impl/op/PutOpImpl;*6
+4
+%2.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl*
+
+
+valueV2value(Ljava/lang/Object;)Çˇ
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javaf i(4
+%4.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl"óorg.apache.bookkeeper.api.kv.impl.op.PutOpImpl#option(Lorg/apache/bookkeeper/api/kv/options/PutOption;)Lorg/apache/bookkeeper/api/kv/impl/op/PutOpImpl;*6
+4
+%3.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl*:
+8
+option.org.apache.bookkeeper.api.kv.options.PutOption28option(Lorg/apache/bookkeeper/api/kv/options/PutOption;)"π
+
+u/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/impl/op/OpFactoryImpl.javaf i(6
+4
+%4.org.apache.bookkeeper.api.kv.impl.op.PutOpImpl:
+keyK:
+
+valueV:8
+option.org.apache.bookkeeper.api.kv.options.PutOptionB64
+2org.apache.bookkeeper.api.kv.impl.op.OpFactoryImpl

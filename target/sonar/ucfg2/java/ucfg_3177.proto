@@ -1,0 +1,346 @@
+
+Åorg.apache.distributedlog.auditor.DLAuditor#collectLedgers(Ljava/util/List;Ljava/util/List;)Lorg/apache/commons/lang3/tuple/Pair;à
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.java~& ~(4"18*ﬁ
+13ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaï ï("è
+å
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaï ï("<
+%275org.apache.distributedlog.DistributedLogConfiguration"__id*9*7-
++org.apache.distributedlog.auditor.DLAuditor"
+conf≤Ø
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ï(#8
+%281org.apache.distributedlog.BookKeeperClientBuilder"¶org.apache.distributedlog.BookKeeperClientBuilder#dlConfig(Lorg/apache/distributedlog/DistributedLogConfiguration;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*:
+8
+%261org.apache.distributedlog.BookKeeperClientBuilder*>
+<
+%275org.apache.distributedlog.DistributedLogConfiguration2AdlConfig(Lorg/apache/distributedlog/DistributedLogConfiguration;)*
+12*À
+14ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaî î((±Æ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# î()8
+%261org.apache.distributedlog.BookKeeperClientBuilder"}org.apache.distributedlog.BookKeeperClientBuilder#name(Ljava/lang/String;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*:
+8
+%251org.apache.distributedlog.BookKeeperClientBuilder*
+DLAuditor-BK2name(Ljava/lang/String;)*
+13*é
+15ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ì(:Ù
+Ò
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ì(G8
+%251org.apache.distributedlog.BookKeeperClientBuilder"qorg.apache.distributedlog.BookKeeperClientBuilder#newBuilder()Lorg/apache/distributedlog/BookKeeperClientBuilder;*5"3
+1org.apache.distributedlog.BookKeeperClientBuilder*
+14*˜
+16ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaê ê(Aï
+í
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaê ê(A@
+
+bkdlConfig2org.apache.distributedlog.impl.metadata.BKDLConfig"__id*;
+9
+%222org.apache.distributedlog.impl.metadata.BKDLConfig∑
+¥
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaë ë(
+%23org.slf4j.Logger"__id*
+""ãà
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaë ë(F
+%24void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%23org.slf4j.Logger*#!
+Resolved bookkeeper config : {}*B
+@
+
+bkdlConfig2org.apache.distributedlog.impl.metadata.BKDLConfig2*info(Ljava/lang/String;Ljava/lang/Object;)*
+15*ï
+17ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaê$ ê(5˚
+¯
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaê$ ê(@9
+%222org.apache.distributedlog.impl.metadata.BKDLConfig"Æorg.apache.distributedlog.auditor.DLAuditor#resolveBKDLConfig(Lorg/apache/distributedlog/ZooKeeperClient;Ljava/util/List;)Lorg/apache/distributedlog/impl/metadata/BKDLConfig;*/-
++org.apache.distributedlog.auditor.DLAuditor*2
+0
+zkc)org.apache.distributedlog.ZooKeeperClient*
+
+urisjava.util.List*
+16*◊C
+18ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÄ Ä(’“
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÄ Ä(!	
+%0int"java.util.List#size()I*
+
+urisjava.util.List2size()∂
+≥
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÄ Ä(B
+
+%1void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+""*
+No uri provided to audit‹
+Ÿ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÇ Ç(8
+%2java.lang.String"gorg.apache.distributedlog.auditor.DLAuditor#validateAndGetZKServers(Ljava/util/List;)Ljava/lang/String;*/-
++org.apache.distributedlog.auditor.DLAuditor*
+
+urisjava.util.Listœ
+Ã
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÇ Ç(9
+	zkServersjava.lang.String"__id*
+
+%2java.lang.Stringé
+ã
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÑ Ñ(;
+%35org.apache.distributedlog.DistributedLogConfiguration"__id*9*7-
++org.apache.distributedlog.auditor.DLAuditor"
+conf—Œ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÑ Ñ(3	
+%4int"Uorg.apache.distributedlog.DistributedLogConfiguration#getZKRetryBackoffStartMillis()I*=
+;
+%35org.apache.distributedlog.DistributedLogConfiguration2getZKRetryBackoffStartMillis()é
+ã
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÖ Ö(;
+%55org.apache.distributedlog.DistributedLogConfiguration"__id*9*7-
++org.apache.distributedlog.auditor.DLAuditor"
+confÕ 
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÖ Ö(1	
+%6int"Sorg.apache.distributedlog.DistributedLogConfiguration#getZKRetryBackoffMaxMillis()I*=
+;
+%55org.apache.distributedlog.DistributedLogConfiguration2getZKRetryBackoffMaxMillis()©
+¶
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÜ Ü(!	
+%7int"__id*
+""ûõ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÉ& É(HH
+%8Borg.apache.bookkeeper.zookeeper.BoundExponentialBackoffRetryPolicy"Borg.apache.bookkeeper.zookeeper.BoundExponentialBackoffRetryPolicy⁄
+◊
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÉ" Ü("
+%9"Oorg.apache.bookkeeper.zookeeper.BoundExponentialBackoffRetryPolicy#<init>(JJI)V*J
+H
+%8Borg.apache.bookkeeper.zookeeper.BoundExponentialBackoffRetryPolicy*
+	
+%4int*
+	
+%6int*
+	
+%7intû
+õ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaÉ Ü(#:
+retryPolicy+org.apache.bookkeeper.zookeeper.RetryPolicy"__id*J
+H
+%8Borg.apache.bookkeeper.zookeeper.BoundExponentialBackoffRetryPolicy
+Ì
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá á(A7
+%100org.apache.distributedlog.ZooKeeperClientBuilder"oorg.apache.distributedlog.ZooKeeperClientBuilder#newBuilder()Lorg/apache/distributedlog/ZooKeeperClientBuilder;*4"2
+0org.apache.distributedlog.ZooKeeperClientBuilder≠™
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá à(%7
+%110org.apache.distributedlog.ZooKeeperClientBuilder"{org.apache.distributedlog.ZooKeeperClientBuilder#name(Ljava/lang/String;)Lorg/apache/distributedlog/ZooKeeperClientBuilder;*9
+7
+%100org.apache.distributedlog.ZooKeeperClientBuilder*
+DLAuditor-ZK2name(Ljava/lang/String;)«ƒ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá â(%7
+%120org.apache.distributedlog.ZooKeeperClientBuilder"Äorg.apache.distributedlog.ZooKeeperClientBuilder#zkServers(Ljava/lang/String;)Lorg/apache/distributedlog/ZooKeeperClientBuilder;*9
+7
+%110org.apache.distributedlog.ZooKeeperClientBuilder*
+
+	zkServersjava.lang.String2zkServers(Ljava/lang/String;)è
+å
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaä" ä(&<
+%135org.apache.distributedlog.DistributedLogConfiguration"__id*9*7-
++org.apache.distributedlog.auditor.DLAuditor"
+confŸ÷
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaä" ä(H
+
+%14int"Xorg.apache.distributedlog.DistributedLogConfiguration#getZKSessionTimeoutMilliseconds()I*>
+<
+%135org.apache.distributedlog.DistributedLogConfiguration2!getZKSessionTimeoutMilliseconds()üú
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá ä(I7
+%150org.apache.distributedlog.ZooKeeperClientBuilder"vorg.apache.distributedlog.ZooKeeperClientBuilder#sessionTimeoutMs(I)Lorg/apache/distributedlog/ZooKeeperClientBuilder;*9
+7
+%120org.apache.distributedlog.ZooKeeperClientBuilder*
+
+
+%14int2sessionTimeoutMs(I)ûõ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá ã()7
+%160org.apache.distributedlog.ZooKeeperClientBuilder"ùorg.apache.distributedlog.ZooKeeperClientBuilder#retryPolicy(Lorg/apache/bookkeeper/zookeeper/RetryPolicy;)Lorg/apache/distributedlog/ZooKeeperClientBuilder;*9
+7
+%150org.apache.distributedlog.ZooKeeperClientBuilder*<
+:
+retryPolicy+org.apache.bookkeeper.zookeeper.RetryPolicy2:retryPolicy(Lorg/apache/bookkeeper/zookeeper/RetryPolicy;)è
+å
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaå å(<
+%175org.apache.distributedlog.DistributedLogConfiguration"__id*9*7-
++org.apache.distributedlog.auditor.DLAuditor"
+confÕ 
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaå å(*
+%18java.lang.String"Torg.apache.distributedlog.DistributedLogConfiguration#getZkAclId()Ljava/lang/String;*>
+<
+%175org.apache.distributedlog.DistributedLogConfiguration2getZkAclId()ºπ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá å(+7
+%190org.apache.distributedlog.ZooKeeperClientBuilder"~org.apache.distributedlog.ZooKeeperClientBuilder#zkAclId(Ljava/lang/String;)Lorg/apache/distributedlog/ZooKeeperClientBuilder;*9
+7
+%160org.apache.distributedlog.ZooKeeperClientBuilder*
+
+%18java.lang.String2zkAclId(Ljava/lang/String;)ÎË
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá ç(0
+%20)org.apache.distributedlog.ZooKeeperClient"corg.apache.distributedlog.ZooKeeperClientBuilder#build()Lorg/apache/distributedlog/ZooKeeperClient;*9
+7
+%190org.apache.distributedlog.ZooKeeperClientBuilder2build()¸
+˘
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaá ç(0
+zkc)org.apache.distributedlog.ZooKeeperClient"__id*2
+0
+%20)org.apache.distributedlog.ZooKeeperClientΩ
+∫
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaé* é(I+
+%21$java.util.concurrent.ExecutorService"Zjava.util.concurrent.Executors#newCachedThreadPool()Ljava/util/concurrent/ExecutorService;*"" 
+java.util.concurrent.Executors˛
+˚
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaé é(J7
+executorService$java.util.concurrent.ExecutorService"__id*-
++
+%21$java.util.concurrent.ExecutorService*
+17*Œ
+3ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaú ú(5"ª
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaú ú(5,
+*
+%36#org.apache.commons.lang3.tuple.Pair*˘
+4ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaõ õ(R 
+«
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaõ õ(R
+	dlLedgersjava.util.Set"__id*
+
+%35java.util.Setî
+ë
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaú ú(4*
+%36#org.apache.commons.lang3.tuple.Pair"qorg.apache.commons.lang3.tuple.Pair#of(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang3/tuple/Pair;*'"%
+#org.apache.commons.lang3.tuple.Pair*
+
+	bkLedgersjava.util.Set*
+
+	dlLedgersjava.util.Set*
+3*Ó
+5ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaö ö(Q 
+«
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaö ö(Q
+	bkLedgersjava.util.Set"__id*
+
+%34java.util.Setâ
+Ü
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaõ& õ(Q
+%35java.util.Set"qorg.apache.distributedlog.auditor.DLAuditor#collectLedgersFromDL(Ljava/util/List;Ljava/util/List;)Ljava/util/Set;*/-
++org.apache.distributedlog.auditor.DLAuditor*
+
+urisjava.util.List*#
+!
+allocationPathsjava.util.List*
+4*Ö
+6ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaö& ö(:Ì
+Í
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaö& ö(P
+%34java.util.Set"£org.apache.distributedlog.auditor.DLAuditor#collectLedgersFromBK(Lorg/apache/distributedlog/BookKeeperClient;Ljava/util/concurrent/ExecutorService;)Ljava/util/Set;*/-
++org.apache.distributedlog.auditor.DLAuditor*3
+1
+bkc*org.apache.distributedlog.BookKeeperClient*9
+7
+executorService$java.util.concurrent.ExecutorService*
+5*ñ
+7ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì ò(˛
+˚
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì ò(1
+bkc*org.apache.distributedlog.BookKeeperClient"__id*3
+1
+%33*org.apache.distributedlog.BookKeeperClient*
+6*á
+8ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ò(ÔÏ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ò(1
+%33*org.apache.distributedlog.BookKeeperClient"eorg.apache.distributedlog.BookKeeperClientBuilder#build()Lorg/apache/distributedlog/BookKeeperClient;*:
+8
+%321org.apache.distributedlog.BookKeeperClientBuilder2build()*
+7*·
+9ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ó(?…∆
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ó(?8
+%321org.apache.distributedlog.BookKeeperClientBuilder"Ñorg.apache.distributedlog.BookKeeperClientBuilder#ledgersPath(Ljava/lang/String;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*:
+8
+%301org.apache.distributedlog.BookKeeperClientBuilder*
+
+%31java.lang.String2ledgersPath(Ljava/lang/String;)*
+8*Û
+10ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaó! ó(+⁄◊
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaó! ó(>
+%31java.lang.String"Worg.apache.distributedlog.impl.metadata.BKDLConfig#getBkLedgersPath()Ljava/lang/String;*B
+@
+
+bkdlConfig2org.apache.distributedlog.impl.metadata.BKDLConfig2getBkLedgersPath()*
+9*ﬂ
+11ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ñ(D≈¬
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaì# ñ(D8
+%301org.apache.distributedlog.BookKeeperClientBuilder"Çorg.apache.distributedlog.BookKeeperClientBuilder#zkServers(Ljava/lang/String;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*:
+8
+%281org.apache.distributedlog.BookKeeperClientBuilder*
+
+%29java.lang.String2zkServers(Ljava/lang/String;)*
+10*Ç
+12ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javañ ñ()ËÂ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javañ ñ(C
+%29java.lang.String"^org.apache.distributedlog.impl.metadata.BKDLConfig#getBkZkServersForWriter()Ljava/lang/String;*B
+@
+
+bkdlConfig2org.apache.distributedlog.impl.metadata.BKDLConfig2getBkZkServersForWriter()*
+11:
+urisjava.util.List:!
+allocationPathsjava.util.ListB/-
++org.apache.distributedlog.auditor.DLAuditor

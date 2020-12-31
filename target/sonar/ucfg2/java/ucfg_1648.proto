@@ -1,0 +1,70 @@
+
+üorg.apache.bookkeeper.stream.storage.impl.grpc.GrpcServices#create(Lorg/apache/bookkeeper/stream/storage/api/metadata/RangeStoreService;)Ljava/util/Collection;í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java'6 '(<"1*œ!
+1í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java( ((®•
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java) )($I
+%0Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcRootRangeService"Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcRootRangeService–
+Õ
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java) )(+
+%1"íorg.apache.bookkeeper.stream.storage.impl.grpc.GrpcRootRangeService#<init>(Lorg/apache/bookkeeper/stream/storage/api/metadata/RangeStoreService;)V*K
+I
+%0Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcRootRangeService*N
+L
+storeCorg.apache.bookkeeper.stream.storage.api.metadata.RangeStoreService•¢
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java) )(9%
+%2io.grpc.ServerServiceDefinition"áorg.apache.bookkeeper.stream.proto.storage.RootRangeServiceGrpc$RootRangeServiceImplBase#bindService()Lio/grpc/ServerServiceDefinition;*K
+I
+%0Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcRootRangeService2bindService()®•
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java* *($I
+%3Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcMetaRangeService"Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcMetaRangeService–
+Õ
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java* *(+
+%4"íorg.apache.bookkeeper.stream.storage.impl.grpc.GrpcMetaRangeService#<init>(Lorg/apache/bookkeeper/stream/storage/api/metadata/RangeStoreService;)V*K
+I
+%3Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcMetaRangeService*N
+L
+storeCorg.apache.bookkeeper.stream.storage.api.metadata.RangeStoreService•¢
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java* *(9%
+%5io.grpc.ServerServiceDefinition"áorg.apache.bookkeeper.stream.proto.storage.MetaRangeServiceGrpc$MetaRangeServiceImplBase#bindService()Lio/grpc/ServerServiceDefinition;*K
+I
+%3Corg.apache.bookkeeper.stream.storage.impl.grpc.GrpcMetaRangeService2bindService()†ù
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java+ +( E
+%6?org.apache.bookkeeper.stream.storage.impl.grpc.GrpcTableService"?org.apache.bookkeeper.stream.storage.impl.grpc.GrpcTableService»
+≈
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java+ +('
+%7"éorg.apache.bookkeeper.stream.storage.impl.grpc.GrpcTableService#<init>(Lorg/apache/bookkeeper/stream/storage/api/metadata/RangeStoreService;)V*G
+E
+%6?org.apache.bookkeeper.stream.storage.impl.grpc.GrpcTableService*N
+L
+storeCorg.apache.bookkeeper.stream.storage.api.metadata.RangeStoreServiceóî
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java+ +(5%
+%8io.grpc.ServerServiceDefinition"~org.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceImplBase#bindService()Lio/grpc/ServerServiceDefinition;*G
+E
+%6?org.apache.bookkeeper.stream.storage.impl.grpc.GrpcTableService2bindService()´
+®
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java( +(6
+%9java.util.ArrayList"Vcom.google.common.collect.Lists#newArrayList([Ljava/lang/Object;)Ljava/util/ArrayList;*#"!
+com.google.common.collect.Lists*'
+%
+%2io.grpc.ServerServiceDefinition*'
+%
+%5io.grpc.ServerServiceDefinition*'
+%
+%8io.grpc.ServerServiceDefinition"≤
+í
+á/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcServices.java( +(7
+
+%9java.util.ArrayList:L
+storeCorg.apache.bookkeeper.stream.storage.api.metadata.RangeStoreServiceB?"=
+;org.apache.bookkeeper.stream.storage.impl.grpc.GrpcServices

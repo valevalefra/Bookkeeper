@@ -1,0 +1,1341 @@
+
+Qorg.apache.bookkeeper.benchmark.BenchThroughputLatency#main([Ljava/lang/String;)Vê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java ("startingBlock*ˇ
+13ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˝ ˝(#‡
+›
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˛ ˛(2
+%127int"java.lang.Math#min(II)I*"
+java.lang.Math*
+""*
+""*
+7*é
+24ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÕB Õ(Jçä
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÕ+ Õ(A=
+%916org.apache.bookkeeper.benchmark.BenchThroughputLatency"6org.apache.bookkeeper.benchmark.BenchThroughputLatencyÕ
+ 
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÕ' Œ(1
+%92"worg.apache.bookkeeper.benchmark.BenchThroughputLatency#<init>(III[BIILorg/apache/bookkeeper/conf/ClientConfiguration;)V*?
+=
+%916org.apache.bookkeeper.benchmark.BenchThroughputLatency*
+""*
+""*
+""*
+
+passwdbyte[]*
+""*
+""*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfigurationû
+õ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÕ Œ(2?
+bench6org.apache.bookkeeper.benchmark.BenchThroughputLatency"__id*?
+=
+%916org.apache.bookkeeper.benchmark.BenchThroughputLatency‘—
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaœ œ( 
+%93void"Horg.apache.bookkeeper.benchmark.BenchThroughputLatency#setEntryData([B)V*A
+?
+bench6org.apache.bookkeeper.benchmark.BenchThroughputLatency*
+
+databyte[]2setEntryData([B)¡æ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java– –(
+%94java.lang.Thread"java.lang.Thread´
+®
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java– –("
+%95".java.lang.Thread#<init>(Ljava/lang/Runnable;)V*
+
+%94java.lang.Thread*A
+?
+bench6org.apache.bookkeeper.benchmark.BenchThroughputLatency”
+–
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java– –("
+threadjava.lang.Thread"__id*
+
+%94java.lang.Thread 
+«
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java— —($
+zkorg.apache.zookeeper.ZooKeeper"__id*
+""*
+18
+23*Â
+25ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java√ √(Ω
+∫
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaƒ ƒ(
+%83org.slf4j.Logger"__id*
+""ôñ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaƒ ƒ('
+%84void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%83org.slf4j.Logger*
+Starting warmup2info(Ljava/lang/String;)–
+Õ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java∆ ∆(N
+%85long"worg.apache.bookkeeper.benchmark.BenchThroughputLatency#warmUp([BIII[BLorg/apache/bookkeeper/conf/ClientConfiguration;)J*:"8
+6org.apache.bookkeeper.benchmark.BenchThroughputLatency*
+
+databyte[]*
+""*
+""*
+""*
+
+passwdbyte[]*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfigurationΩ
+∫
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java« «(
+%86org.slf4j.Logger"__id*
+""“
+œ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java« «(/
+%87java.lang.String"__concat*
+Warmup tp: *
+""üú
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java« «(0
+%88void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%86org.slf4j.Logger*
+
+%87java.lang.String2info(Ljava/lang/String;)Ω
+∫
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java» »(
+%89org.slf4j.Logger"__id*
+""üú
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java» »(-
+%90void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%89org.slf4j.Logger*
+Warmup phase finished2info(Ljava/lang/String;)*
+24*ç8
+26ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ Ø(Ω
+∫
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ Ø(
+%59org.slf4j.Logger"__id*
+""Î
+Ë
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ Ø(E
+%60java.lang.String"__concat*(&
+$(Parameters received) running time: *
+""Ë
+Â
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ∞("
+%61java.lang.String"__concat*
+
+%60java.lang.String*
+, entry size: ‹
+Ÿ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ∞(.
+%62java.lang.String"__concat*
+
+%61java.lang.String*
+""Î
+Ë
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ∞(D
+%63java.lang.String"__concat*
+
+%62java.lang.String*
+, ensemble size: ‹
+Ÿ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ∞(O
+%64java.lang.String"__concat*
+
+%63java.lang.String*
+""È
+Ê
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ±(#
+%65java.lang.String"__concat*
+
+%64java.lang.String*
+, quorum size: ‹
+Ÿ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ±(,
+%66java.lang.String"__concat*
+
+%65java.lang.String*
+""Ê
+„
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ≤( 
+%67java.lang.String"__concat*
+
+%66java.lang.String*
+, throttle: ‹
+Ÿ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ≤(+
+%68java.lang.String"__concat*
+
+%67java.lang.String*
+""Ô
+Ï
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ≥()
+%69java.lang.String"__concat*
+
+%68java.lang.String*
+, number of ledgers: ‹
+Ÿ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ≥(3
+%70java.lang.String"__concat*
+
+%69java.lang.String*
+""Ë
+Â
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ¥("
+%71java.lang.String"__concat*
+
+%70java.lang.String*
+, zk servers: Û
+
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ ¥(,
+%72java.lang.String"__concat*
+
+%71java.lang.String*
+
+serversjava.lang.StringÍ
+Á
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ µ($
+%73java.lang.String"__concat*
+
+%72java.lang.String*
+, latency file: ˜
+Ù
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ µ(2
+%74java.lang.String"__concat*
+
+%73java.lang.String*!
+
+latencyFilejava.lang.Stringüú
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaØ µ(3
+%75void"*org.slf4j.Logger#warn(Ljava/lang/String;)V*
+
+%59org.slf4j.Logger*
+
+%74java.lang.String2warn(Ljava/lang/String;)¿
+Ω
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java∫ ∫(
+threadjava.lang.Thread"__id*
+""¥
+±
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaº º(*
+databyte[]"__id*
+""
+Ì
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaΩ Ω(%
+%76void"java.util.Arrays#fill([BB)V*"
+java.util.Arrays*
+
+databyte[]*
+""˝˙
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaø' ø(:5
+%77.org.apache.bookkeeper.conf.ClientConfiguration".org.apache.bookkeeper.conf.ClientConfigurationê
+ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaø# ø(<
+%78"8org.apache.bookkeeper.conf.ClientConfiguration#<init>()V*7
+5
+%77.org.apache.bookkeeper.conf.ClientConfigurationç
+ä
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaø ø(=6
+conf.org.apache.bookkeeper.conf.ClientConfiguration"__id*7
+5
+%77.org.apache.bookkeeper.conf.ClientConfigurationòï
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¿ ¿('5
+%79.org.apache.bookkeeper.conf.ClientConfiguration"rorg.apache.bookkeeper.conf.ClientConfiguration#setThrottleValue(I)Lorg/apache/bookkeeper/conf/ClientConfiguration;*8
+6
+conf.org.apache.bookkeeper.conf.ClientConfiguration*
+""2setThrottleValue(I)ìê
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¿ ¿(C5
+%80.org.apache.bookkeeper.conf.ClientConfiguration"porg.apache.bookkeeper.conf.ClientConfiguration#setReadTimeout(I)Lorg/apache/bookkeeper/conf/ClientConfiguration;*7
+5
+%79.org.apache.bookkeeper.conf.ClientConfiguration*
+""2setReadTimeout(I)Õ 
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¿ ¿(Y5
+%81.org.apache.bookkeeper.conf.ClientConfiguration"Éorg.apache.bookkeeper.conf.AbstractConfiguration#setZkServers(Ljava/lang/String;)Lorg/apache/bookkeeper/conf/AbstractConfiguration;*7
+5
+%80.org.apache.bookkeeper.conf.ClientConfiguration*
+
+serversjava.lang.String2 setZkServers(Ljava/lang/String;)≈¬
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¬ ¬((
+%82boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+
+skipwarmup2hasOption(Ljava/lang/String;)*
+24
+25*≥
+27ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java§! §(%ìê
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java§0 §(T
+%54java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*	
+timeout*
+36024getOptionValue(Ljava/lang/String;Ljava/lang/String;)Å
+˛
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java§! §(U
+%55long"-java.lang.Long#parseLong(Ljava/lang/String;)J*"
+java.lang.Long*
+
+%54java.lang.Stringëé
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¶# ¶(,?
+%568org.apache.bookkeeper.benchmark.BenchThroughputLatency$2"8org.apache.bookkeeper.benchmark.BenchThroughputLatency$2ˇ
+¸
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¶ ¨(
+%57"java.util.TimerTask#<init>()V*A
+?
+%568org.apache.bookkeeper.benchmark.BenchThroughputLatency$2„‡
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¶ ¨(
+%58void"1java.util.Timer#schedule(Ljava/util/TimerTask;J)V*
+
+	timeouterjava.util.Timer*A
+?
+%568org.apache.bookkeeper.benchmark.BenchThroughputLatency$2*
+""2 schedule(Ljava/util/TimerTask;J)*
+26*˜*
+28ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaò ò(ñì
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaò( ò(O
+%40java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+
+throttle*	
+1000024getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaò ò(P
+
+%41int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%40java.lang.Stringöó
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaô) ô(T
+%42java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+	sendlimit*
+
+2000000024getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaô ô(U
+
+%43int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%42java.lang.Stringóî
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaõ1 õ(Y
+%44java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+sockettimeout*
+524getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaõ  õ(Z
+
+%45int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%44java.lang.StringËÂ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaù# ù(B
+%46java.lang.String"Worg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+	coordnode2"getOptionValue(Ljava/lang/String;)ﬁ
+€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaù ù(C%
+coordinationZnodejava.lang.String"__id*
+
+%46java.lang.Stringúô
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaû û(K
+%47java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+
+password*
+benchPasswd24getOptionValue(Ljava/lang/String;Ljava/lang/String;)≈
+¬
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaûU û(Z
+%48java.nio.charset.Charset"__id*
+""¬ø
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaû û([
+%49byte[]"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*
+
+%47java.lang.String*!
+
+%48java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)ø
+º
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaû û(\
+passwdbyte[]"__id*
+
+%49byte[]£†
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java† †(Q
+%50java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+latencyFile*
+latencyDump.dat24getOptionValue(Ljava/lang/String;Ljava/lang/String;)ÿ
+’
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java† †(R
+latencyFilejava.lang.String"__id*
+
+%50java.lang.Stringøº
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¢ ¢(#
+%51java.util.Timer"java.util.Timer“
+œ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¢ ¢(%
+%52"java.util.Timer#<init>()V*
+
+%51java.util.Timer‘
+—
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¢ ¢(&
+	timeouterjava.util.Timer"__id*
+
+%51java.util.Timer¬ø
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java£ £($
+%53boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*+
+)
+cmd"org.apache.commons.cli.CommandLine*	
+timeout2hasOption(Ljava/lang/String;)*
+26
+27*¶
+18ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java (Ê„
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java (
+%121void"java.lang.Thread#start()V*
+
+threadjava.lang.Thread2start()ﬁ
+€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÒ Ò(
+%122void"java.lang.Thread#sleep(J)V*"
+java.lang.Thread*
+""ÓÎ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÚ Ú(
+%123void"java.lang.Thread#interrupt()V*
+
+threadjava.lang.Thread2interrupt()‰·
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÛ Û(
+%124void"java.lang.Thread#join()V*
+
+threadjava.lang.Thread2join()æ
+ª
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaı ı(
+%125org.slf4j.Logger"__id*
+""£†
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaı ı(+
+%126void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%125org.slf4j.Logger*
+Calculating percentiles2info(Ljava/lang/String;)*
+13*ê
+29ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javañ ñ(ËÂ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javañ) ñ(H
+%38java.lang.String"Worg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+	ackQuorum2"getOptionValue(Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javañ ñ(I
+
+%39int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%38java.lang.String*
+28*ï
+19ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÌ Ì(ãà
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÌ Ì(
+%118void",java.util.concurrent.CountDownLatch#await()V*.
+,
+latch#java.util.concurrent.CountDownLatch2await()æ
+ª
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÓ Ó(
+%119org.slf4j.Logger"__id*
+""¶£
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÓ Ó(2
+%120void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%119org.slf4j.Logger*
+Coordination znode created2info(Ljava/lang/String;)*
+18*∞
+0 "®
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¢ ¢(
+implicit return*—
+1ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaô ô(ÎË
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaô ô(
+%160void"java.io.OutputStream#flush()V*
+
+fosjava.io.OutputStream2flush()ÎË
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaö ö(
+%161void"java.io.OutputStream#close()V*
+
+fosjava.io.OutputStream2close()æ
+ª
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaù ù(
+%162org.slf4j.Logger"__id*
+""π
+∂
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaù0 ù(G
+%163double"Gorg.apache.bookkeeper.benchmark.BenchThroughputLatency#percentile([JI)D*:"8
+6org.apache.bookkeeper.benchmark.BenchThroughputLatency*
+""*2c›⁄
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaù ù(H
+%164void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%162org.slf4j.Logger*
+99th percentile latency: {}*
+
+%163double2*info(Ljava/lang/String;Ljava/lang/Object;)æ
+ª
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaû û(
+%165org.slf4j.Logger"__id*
+""π
+∂
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaû0 û(G
+%166double"Gorg.apache.bookkeeper.benchmark.BenchThroughputLatency#percentile([JI)D*:"8
+6org.apache.bookkeeper.benchmark.BenchThroughputLatency*
+""*2_›⁄
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaû û(H
+%167void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%165org.slf4j.Logger*
+95th percentile latency: {}*
+
+%166double2*info(Ljava/lang/String;Ljava/lang/Object;)±Æ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java† †(
+%168void"?org.apache.bookkeeper.benchmark.BenchThroughputLatency#close()V*A
+?
+bench6org.apache.bookkeeper.benchmark.BenchThroughputLatency2close()ÈÊ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java° °(
+%169void"java.util.Timer#cancel()V*
+
+	timeouterjava.util.Timer2cancel()*
+0*§
+2ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javañ ñ(π
+∂
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javañ ñ(
+ljava.lang.Long"__id*
+""«
+ƒ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javañ ñ(
+ljava.lang.Long"
+__arrayGet*
+""*
+""*
+3
+1*·
+3ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaó ó(â
+Ü
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaó ó('
+%153java.lang.String",java.lang.Long#toString(J)Ljava/lang/String;*"
+java.lang.Long*
+
+ljava.lang.Longﬁ
+€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaó ó(.
+%154java.lang.String"__concat*
+
+%153java.lang.String*
+\tﬁ
+€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaó ó(>
+%155java.lang.String"__concat*
+
+%154java.lang.String*
+""‡
+›
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaó ó(G
+%156java.lang.String"__concat*
+
+%155java.lang.String*
+ms\n∆
+√
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaóR ó(W 
+%157java.nio.charset.Charset"__id*
+""≈¬
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaó ó(X
+%158byte[]"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*
+
+%156java.lang.String*"
+ 
+%157java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)Å˛
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaó ó(Y
+%159void"java.io.OutputStream#write([B)V*
+
+fosjava.io.OutputStream*
+
+%158byte[]2	write([B)*
+2*‡
+startingBlockê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java (*Ë
+Â
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÔ Ô($
+%170"
+__annotate*
+java.lang.SuppressWarnings*
+
+argsjava.lang.String[] 
+«
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java% ()
+argsjava.lang.String[]"__annotation*
+
+%170*
+32*˙
+
+5ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaîI î(T“œ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaî8 î(H 
+%149java.io.FileOutputStream"java.io.FileOutputStreamõ
+ò
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaî4 î(U
+%150"4java.io.FileOutputStream#<init>(Ljava/lang/String;)V*"
+ 
+%149java.io.FileOutputStream*!
+
+latencyFilejava.lang.String⁄◊
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaî î(3$
+%151java.io.BufferedOutputStream"java.io.BufferedOutputStream®
+•
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaî î(V
+%152"<java.io.BufferedOutputStream#<init>(Ljava/io/OutputStream;)V*&
+$
+%151java.io.BufferedOutputStream*"
+ 
+%149java.io.FileOutputStream·
+ﬁ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaî î(W
+fosjava.io.OutputStream"__id*&
+$
+%151java.io.BufferedOutputStream*
+2*∑
+6ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaç ç(Ò
+Ó
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaç ç(4
+%138java.lang.String"__concat*'
+%
+coordinationZnodejava.lang.String*
+
+/worker-À
+»
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaé é(!
+%139java.lang.String"__concat*
+tp *
+""Ê
+„
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaé é(0
+%140java.lang.String"__concat*
+
+%139java.lang.String*
+
+ duration Ω∫
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaé3 é(F
+%141long"Eorg.apache.bookkeeper.benchmark.BenchThroughputLatency#getDuration()J*A
+?
+bench6org.apache.bookkeeper.benchmark.BenchThroughputLatency2getDuration()Ê
+„
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaé é(F
+%142java.lang.String"__concat*
+
+%140java.lang.String*
+
+%141long∆
+√
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaéQ é(V 
+%143java.nio.charset.Charset"__id*
+""≈¬
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaé é(W
+%144byte[]"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*
+
+%142java.lang.String*"
+ 
+%143java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)¡
+æ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaè è(1
+%145java.util.ArrayList"__id*
+""Õ
+ 
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaè3 è(S'
+%146org.apache.zookeeper.CreateMode"__id*
+""üú
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaç è(T
+%147java.lang.String"~org.apache.zookeeper.ZooKeeper#create(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;)Ljava/lang/String;*&
+$
+zkorg.apache.zookeeper.ZooKeeper*
+
+%138java.lang.String*
+
+%144byte[]*
+
+%145java.util.ArrayList*)
+'
+%146org.apache.zookeeper.CreateMode2Mcreate(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;)˛˚
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaê ê(
+%148void"'org.apache.zookeeper.ZooKeeper#close()V*&
+$
+zkorg.apache.zookeeper.ZooKeeper2close()*
+5*ﬂ
+7ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÜ Ü(ﬁ
+€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÜ Ü(
+%128void"java.util.Arrays#sort([J)V*"
+java.util.Arrays*
+""Ω∫
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaàH à([
+%129long"Eorg.apache.bookkeeper.benchmark.BenchThroughputLatency#getDuration()J*A
+?
+bench6org.apache.bookkeeper.benchmark.BenchThroughputLatency2getDuration()æ
+ª
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(
+%130org.slf4j.Logger"__id*
+""ÿ
+’
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(4
+%131java.lang.String"__concat*
+""*
+ completions in Ω∫
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä7 ä(J
+%132long"Eorg.apache.bookkeeper.benchmark.BenchThroughputLatency#getDuration()J*A
+?
+bench6org.apache.bookkeeper.benchmark.BenchThroughputLatency2getDuration()Ê
+„
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(J
+%133java.lang.String"__concat*
+
+%131java.lang.String*
+
+%132longÎ
+Ë
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(^
+%134java.lang.String"__concat*
+
+%133java.lang.String*
+ milliseconds: ﬁ
+€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(c
+%135java.lang.String"__concat*
+
+%134java.lang.String*
+""‰
+·
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(p
+%136java.lang.String"__concat*
+
+%135java.lang.String*
+
+ ops/sec¢ü
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(q
+%137void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%130org.slf4j.Logger*
+
+%136java.lang.String2info(Ljava/lang/String;)*
+5
+6*Ì"
+30ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaç ç(èå
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaç* ç(J
+%26java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+time*
+6024getOptionValue(Ljava/lang/String;Ljava/lang/String;)Å
+˛
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaç ç(K
+%27long"-java.lang.Long#parseLong(Ljava/lang/String;)J*"
+java.lang.Long*
+
+%26java.lang.String†ù
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaé é(J
+%28java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+	zookeeper*
+localhost:218124getOptionValue(Ljava/lang/String;Ljava/lang/String;)‘
+—
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaé é(K
+serversjava.lang.String"__id*
+
+%28java.lang.Stringñì
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaè) è(P
+%29java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+	entrysize*
+102424getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaè è(Q
+
+%30int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%29java.lang.Stringëé
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaë' ë(I
+%31java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*	
+ledgers*
+124getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaë ë(J
+
+%32int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%31java.lang.Stringíè
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaí( í(K
+%33java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+
+ensemble*
+324getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaí í(L
+
+%34int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%33java.lang.Stringêç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaì& ì(G
+%35java.lang.String"iorg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+
+quorum*
+224getOptionValue(Ljava/lang/String;Ljava/lang/String;)Ö
+Ç
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaì ì(H
+
+%36int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%35java.lang.Stringƒ¡
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaï ï(&
+%37boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+	ackQuorum2hasOption(Ljava/lang/String;)*
+28
+29*≥
+20ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÎ Î(ìê
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÎ Î(!
+%117void"0java.util.concurrent.CountDownLatch#countDown()V*.
+,
+latch#java.util.concurrent.CountDownLatch2countDown()*
+19*∫
+31ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaà& à(9ÈÊ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaà* à(7+
+%22$org.apache.commons.cli.HelpFormatter"$org.apache.commons.cli.HelpFormatter¸
+˘
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaà& à(9
+%23".org.apache.commons.cli.HelpFormatter#<init>()V*-
++
+%22$org.apache.commons.cli.HelpFormatter˛
+˚
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaà à(:1
+	formatter$org.apache.commons.cli.HelpFormatter"__id*-
++
+%22$org.apache.commons.cli.HelpFormatterœÃ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaâ â(L
+%24void"corg.apache.commons.cli.HelpFormatter#printHelp(Ljava/lang/String;Lorg/apache/commons/cli/Options;)V*3
+1
+	formatter$org.apache.commons.cli.HelpFormatter*$"
+ BenchThroughputLatency <options>*+
+)
+optionsorg.apache.commons.cli.Options2=printHelp(Ljava/lang/String;Lorg/apache/commons/cli/Options;)‹
+Ÿ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaä ä(
+%25void"java.lang.System#exit(I)V*"
+java.lang.System*
+""*
+30*ã
+21ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‚< ‚(=ËÂ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‚- ‚(;+
+%109#java.util.concurrent.CountDownLatch"#java.util.concurrent.CountDownLatchÉ
+Ä
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‚) ‚(>
+%110".java.util.concurrent.CountDownLatch#<init>(I)V*-
++
+%109#java.util.concurrent.CountDownLatch*2˘
+ˆ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‚ ‚(?,
+latch#java.util.concurrent.CountDownLatch"__id*-
++
+%109#java.util.concurrent.CountDownLatchæ
+ª
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java„ „(
+%111org.slf4j.Logger"__id*
+""ı
+Ú
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java„ „(7
+%112java.lang.String"__concat*
+Waiting for *'
+%
+coordinationZnodejava.lang.String¢ü
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java„ „(8
+%113void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%111org.slf4j.Logger*
+
+%112java.lang.String2info(Ljava/lang/String;)íè
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‰1 ‰(8@
+%1148org.apache.bookkeeper.benchmark.BenchThroughputLatency$4"8org.apache.bookkeeper.benchmark.BenchThroughputLatency$4˛
+˚
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‰- Í(
+%115"java.lang.Object#<init>()V*B
+@
+%1148org.apache.bookkeeper.benchmark.BenchThroughputLatency$4ÜÉ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‰ Í(&
+%116org.apache.zookeeper.data.Stat"worg.apache.zookeeper.ZooKeeper#exists(Ljava/lang/String;Lorg/apache/zookeeper/Watcher;)Lorg/apache/zookeeper/data/Stat;*&
+$
+zkorg.apache.zookeeper.ZooKeeper*'
+%
+coordinationZnodejava.lang.String*B
+@
+%1148org.apache.bookkeeper.benchmark.BenchThroughputLatency$428exists(Ljava/lang/String;Lorg/apache/zookeeper/Watcher;)*
+19
+20*´O
+32ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÚ Ú('‹Ÿ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÚ Ú(%$
+%0org.apache.commons.cli.Options"org.apache.commons.cli.OptionsÓ
+Î
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÚ Ú('
+%1"(org.apache.commons.cli.Options#<init>()V*&
+$
+%0org.apache.commons.cli.OptionsÔ
+Ï
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÚ Ú(()
+optionsorg.apache.commons.cli.Options"__id*&
+$
+%0org.apache.commons.cli.Options∆√
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÛ Û(M$
+%2org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+time*
+""*&$
+"Running time (seconds), default 6020addOption(Ljava/lang/String;ZLjava/lang/String;)…∆
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÙ Ù(P$
+%3org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+	entrysize*
+""*$"
+ Entry size (bytes), default 102420addOption(Ljava/lang/String;ZLjava/lang/String;)¿Ω
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaı ı(G$
+%4org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+
+ensemble*
+""*
+Ensemble size, default 320addOption(Ljava/lang/String;ZLjava/lang/String;)ºπ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaˆ ˆ(C$
+%5org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+
+quorum*
+""*
+Quorum size, default 220addOption(Ljava/lang/String;ZLjava/lang/String;)”–
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˜ ˜(Z$
+%6org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+	ackQuorum*
+""*.,
+*Ack quorum size, default is same as quorum20addOption(Ljava/lang/String;ZLjava/lang/String;)œÃ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¯ ¯(V$
+%7org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+
+throttle*
+""*+)
+'Max outstanding requests, default 1000020addOption(Ljava/lang/String;ZLjava/lang/String;)√¿
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˘ ˘(J$
+%8org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*	
+ledgers*
+""* 
+Number of ledgers, default 120addOption(Ljava/lang/String;ZLjava/lang/String;)◊‘
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˙ ˙(^$
+%9org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+	zookeeper*
+""*20
+.Zookeeper ensemble, default \"localhost:2181\"20addOption(Ljava/lang/String;ZLjava/lang/String;)‡›
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˚ ˚(f%
+%10org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+
+password*
+""*;9
+7Password used to create ledgers (default 'benchPasswd')20addOption(Ljava/lang/String;ZLjava/lang/String;)„‡
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java¸ ¸(i%
+%11org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+	coordnode*
+""*=;
+9Coordination znode for multi client benchmarks (optional)20addOption(Ljava/lang/String;ZLjava/lang/String;)–Õ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˝ ˝(V%
+%12org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*	
+timeout*
+""*,*
+(Number of seconds after which to give up20addOption(Ljava/lang/String;ZLjava/lang/String;)ÈÊ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java˛ ˛(o%
+%13org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+sockettimeout*
+""*?=
+;Socket timeout for bookkeeper client. In seconds. Default 520addOption(Ljava/lang/String;ZLjava/lang/String;)∆√
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaˇ ˇ(M%
+%14org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+
+skipwarmup*
+""*
+Skip warm up, default false20addOption(Ljava/lang/String;ZLjava/lang/String;)Ÿ÷
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÄ Ä(_%
+%15org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+	sendlimit*
+""*31
+/Max number of entries to send. Default 2000000020addOption(Ljava/lang/String;ZLjava/lang/String;)ﬁ€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÅ Å(d%
+%16org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+latencyFile*
+""*64
+2File to dump latencies. Default is latencyDump.dat20addOption(Ljava/lang/String;ZLjava/lang/String;)±Æ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÇ Ç(8%
+%17org.apache.commons.cli.Options"oorg.apache.commons.cli.Options#addOption(Ljava/lang/String;ZLjava/lang/String;)Lorg/apache/commons/cli/Options;*+
+)
+optionsorg.apache.commons.cli.Options*
+help*
+""*
+This message20addOption(Ljava/lang/String;ZLjava/lang/String;)Â‚
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÑ' Ñ(2)
+%18"org.apache.commons.cli.PosixParser""org.apache.commons.cli.PosixParser¯
+ı
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÑ# Ñ(4
+%19",org.apache.commons.cli.PosixParser#<init>()V*+
+)
+%18"org.apache.commons.cli.PosixParser˝
+˙
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÑ Ñ(52
+parser(org.apache.commons.cli.CommandLineParser"__id*+
+)
+%18"org.apache.commons.cli.PosixParseràÖ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÖ Ö(5)
+%20"org.apache.commons.cli.CommandLine"áorg.apache.commons.cli.CommandLineParser#parse(Lorg/apache/commons/cli/Options;[Ljava/lang/String;)Lorg/apache/commons/cli/CommandLine;*4
+2
+parser(org.apache.commons.cli.CommandLineParser*+
+)
+optionsorg.apache.commons.cli.Options*
+
+argsjava.lang.String[]2:parse(Lorg/apache/commons/cli/Options;[Ljava/lang/String;)Ù
+Ò
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaÖ Ö(6)
+cmd"org.apache.commons.cli.CommandLine"__id*+
+)
+%20"org.apache.commons.cli.CommandLineøº
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaá á(!
+%21boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*+
+)
+cmd"org.apache.commons.cli.CommandLine*
+help2hasOption(Ljava/lang/String;)*
+30
+31*È
+
+22ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java› ›(æ
+ª
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java› ›(
+%104org.slf4j.Logger"__id*
+""Ä
+˝
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java› ›(G
+%105java.lang.String"__concat*%#
+!Couldn't connect to zookeeper at *
+
+serversjava.lang.String§°
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java› ›(H
+%106void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%104org.slf4j.Logger*
+
+%105java.lang.String2error(Ljava/lang/String;)˛˚
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaﬁ ﬁ(
+%107void"'org.apache.zookeeper.ZooKeeper#close()V*&
+$
+zkorg.apache.zookeeper.ZooKeeper2close()›
+⁄
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.javaﬂ ﬂ(
+%108void"java.lang.System#exit(I)V*"
+java.lang.System*
+""*
+21*ÿ
+23ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‘C ‘(DÁ‰
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‘4 ‘(B*
+%96#java.util.concurrent.CountDownLatch"#java.util.concurrent.CountDownLatchÅ
+˛
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‘0 ‘(E
+%97".java.util.concurrent.CountDownLatch#<init>(I)V*,
+*
+%96#java.util.concurrent.CountDownLatch*2ˇ
+¸
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‘ ‘(F3
+connectLatch#java.util.concurrent.CountDownLatch"__id*,
+*
+%96#java.util.concurrent.CountDownLatchëé
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java’3 ’(:?
+%988org.apache.bookkeeper.benchmark.BenchThroughputLatency$3"8org.apache.bookkeeper.benchmark.BenchThroughputLatency$3¸
+˘
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java’/ €(
+%99"java.lang.Object#<init>()V*A
+?
+%988org.apache.bookkeeper.benchmark.BenchThroughputLatency$3ﬁ€
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java’ ’(&
+%100org.apache.zookeeper.ZooKeeper"org.apache.zookeeper.ZooKeeperå
+â
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java’ €(
+%101"Yorg.apache.zookeeper.ZooKeeper#<init>(Ljava/lang/String;ILorg/apache/zookeeper/Watcher;)V*(
+&
+%100org.apache.zookeeper.ZooKeeper*
+
+serversjava.lang.String*2òu*A
+?
+%988org.apache.bookkeeper.benchmark.BenchThroughputLatency$3Ï
+È
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java’ €($
+zkorg.apache.zookeeper.ZooKeeper"__id*(
+&
+%100org.apache.zookeeper.ZooKeeperÀ
+»
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‹( ‹(8%
+%102java.util.concurrent.TimeUnit"__id*
+""ÑÅ
+ê
+É/home/valentina/Scrivania/Bookkeeper/bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/BenchThroughputLatency.java‹ ‹(9
+%103boolean"Ljava.util.concurrent.CountDownLatch#await(JLjava/util/concurrent/TimeUnit;)Z*5
+3
+connectLatch#java.util.concurrent.CountDownLatch*2
+*'
+%
+%102java.util.concurrent.TimeUnit2'await(JLjava/util/concurrent/TimeUnit;)*
+21
+22:
+argsjava.lang.String[]B:"8
+6org.apache.bookkeeper.benchmark.BenchThroughputLatency

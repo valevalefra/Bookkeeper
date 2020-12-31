@@ -1,0 +1,213 @@
+
+@org.apache.bookkeeper.tools.cli.BKCtl#main([Ljava/lang/String;)Vt
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java& &("startingBlock*©	
+2t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java4' 4(-‰†
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java4' 4(49
+%182org.apache.bookkeeper.tools.framework.CommandGroup"+java.util.Iterator#next()Ljava/lang/Object;*
+
+cgIterjava.util.Iterator2next()ö
+ó
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java4 4(58
+cg2org.apache.bookkeeper.tools.framework.CommandGroup"__id*;
+9
+%182org.apache.bookkeeper.tools.framework.CommandGroup£ 
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java5 5(&<
+%195org.apache.bookkeeper.tools.framework.CliSpec$Builder"¨org.apache.bookkeeper.tools.framework.CliSpec$Builder#addCommand(Lorg/apache/bookkeeper/tools/framework/Command;)Lorg/apache/bookkeeper/tools/framework/CliSpec$Builder;*F
+D
+specBuilder5org.apache.bookkeeper.tools.framework.CliSpec$Builder*:
+8
+cg2org.apache.bookkeeper.tools.framework.CommandGroup2;addCommand(Lorg/apache/bookkeeper/tools/framework/Command;)*
+3*×
+3t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java3 3(ÓÐ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java3 3(
+%17boolean"java.util.Iterator#hasNext()Z*
+
+cgIterjava.util.Iterator2	hasNext()*
+2
+1*†
+startingBlockt
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java& &(*Ê
+Ç
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java% %("
+%24"
+__annotate*
+java.lang.SuppressWarnings*
+
+argsjava.lang.String[]¬
+©
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java&% &()
+argsjava.lang.String[]"__annotation*
+
+%24*
+4*ä-
+4t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java(- ((:éæ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java)  )(<
+%0java.lang.ClassLoader"7java.lang.Class#getClassLoader()Ljava/lang/ClassLoader;*
+""2getClassLoader()½
+º
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java(- )(=
+%1java.util.ServiceLoader"_java.util.ServiceLoader#load(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;*"
+java.util.ServiceLoader*
+""*
+
+%0java.lang.ClassLoaderÃ
+À
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java( )(>!
+loaderjava.util.ServiceLoader"__id*
+
+%1java.util.ServiceLoaderÜ
+Ù
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java+/ +(L;
+%25org.apache.bookkeeper.tools.framework.CliSpec$Builder"qorg.apache.bookkeeper.tools.framework.CliSpec#newBuilder()Lorg/apache/bookkeeper/tools/framework/CliSpec$Builder;*1"/
+-org.apache.bookkeeper.tools.framework.CliSpecŸ
+œ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java, ,(
+%3java.lang.String"__id*
+""¹¶
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java+/ ,(;
+%45org.apache.bookkeeper.tools.framework.CliSpec$Builder"‰org.apache.bookkeeper.tools.framework.CliSpec$Builder#withName(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/framework/CliSpec$Builder;*=
+;
+%25org.apache.bookkeeper.tools.framework.CliSpec$Builder*
+
+%3java.lang.String2withName(Ljava/lang/String;)Ÿ
+œ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java- -(
+%5java.lang.String"__id*
+""Þ
+Û
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java- -(C
+%6java.lang.String"__concat*
+
+%5java.lang.String*'%
+# [flags] [command group] [commands]»¸
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java+/ -(D;
+%75org.apache.bookkeeper.tools.framework.CliSpec$Builder"Šorg.apache.bookkeeper.tools.framework.CliSpec$Builder#withUsage(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/framework/CliSpec$Builder;*=
+;
+%45org.apache.bookkeeper.tools.framework.CliSpec$Builder*
+
+%6java.lang.String2withUsage(Ljava/lang/String;)Ÿ
+œ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java. .(!
+%8java.lang.String"__id*
+""í
+ê
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java. .(X
+%9java.lang.String"__concat*
+
+%8java.lang.String*64
+2 interacts and operates Apache BookKeeper clustersÈÅ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java+/ .(Y<
+%105org.apache.bookkeeper.tools.framework.CliSpec$Builder"org.apache.bookkeeper.tools.framework.CliSpec$Builder#withDescription(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/framework/CliSpec$Builder;*=
+;
+%75org.apache.bookkeeper.tools.framework.CliSpec$Builder*
+
+%9java.lang.String2#withDescription(Ljava/lang/String;)ØÕ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java/ /("1
+%11*org.apache.bookkeeper.tools.common.BKFlags"*org.apache.bookkeeper.tools.common.BKFlagsë
+è
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java/ /($
+%12"4org.apache.bookkeeper.tools.common.BKFlags#<init>()V*3
+1
+%11*org.apache.bookkeeper.tools.common.BKFlags”‘
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java+/ /(%<
+%135org.apache.bookkeeper.tools.framework.CliSpec$Builder"¨org.apache.bookkeeper.tools.framework.CliSpec$Builder#withFlags(Lorg/apache/bookkeeper/tools/framework/CliFlags;)Lorg/apache/bookkeeper/tools/framework/CliSpec$Builder;*>
+<
+%105org.apache.bookkeeper.tools.framework.CliSpec$Builder*3
+1
+%11*org.apache.bookkeeper.tools.common.BKFlags2;withFlags(Lorg/apache/bookkeeper/tools/framework/CliFlags;)£
+ 
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java0 0(#
+%14java.io.PrintStream"__id*
+""ËÈ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java+/ 0($<
+%155org.apache.bookkeeper.tools.framework.CliSpec$Builder"org.apache.bookkeeper.tools.framework.CliSpec$Builder#withConsole(Ljava/io/PrintStream;)Lorg/apache/bookkeeper/tools/framework/CliSpec$Builder;*>
+<
+%135org.apache.bookkeeper.tools.framework.CliSpec$Builder*
+
+%14java.io.PrintStream2"withConsole(Ljava/io/PrintStream;)…
+‚
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java+ 0(%D
+specBuilder5org.apache.bookkeeper.tools.framework.CliSpec$Builder"__id*>
+<
+%155org.apache.bookkeeper.tools.framework.CliSpec$Builderýú
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java2( 2(9
+%16java.util.Iterator"6java.util.ServiceLoader#iterator()Ljava/util/Iterator;*#
+!
+loaderjava.util.ServiceLoader2
+iterator()º
+·
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java2 2(:
+cgIterjava.util.Iterator"__id*
+
+%16java.util.Iterator*
+3*“
+0 "‹
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java< <(
+implicit return*—
+1t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java8  8(+îë
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java8  8(34
+%20-org.apache.bookkeeper.tools.framework.CliSpec"lorg.apache.bookkeeper.tools.framework.CliSpec$Builder#build()Lorg/apache/bookkeeper/tools/framework/CliSpec;*F
+D
+specBuilder5org.apache.bookkeeper.tools.framework.CliSpec$Builder2build()î
+ë
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java8 8(45
+spec-org.apache.bookkeeper.tools.framework.CliSpec"__id*6
+4
+%20-org.apache.bookkeeper.tools.framework.CliSpec‚
+ÿ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java: :(,
+
+%21int"uorg.apache.bookkeeper.tools.framework.Cli#runCli(Lorg/apache/bookkeeper/tools/framework/CliSpec;[Ljava/lang/String;)I*-"+
+)org.apache.bookkeeper.tools.framework.Cli*7
+5
+spec-org.apache.bookkeeper.tools.framework.CliSpec*
+
+argsjava.lang.String[]Ý
+Ú
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java; ;(
+%22java.lang.Runtime"1java.lang.Runtime#getRuntime()Ljava/lang/Runtime;*"
+java.lang.RuntimeÏÌ
+t
+j/home/valentina/Scrivania/Bookkeeper/tools/ledger/src/main/java/org/apache/bookkeeper/tools/cli/BKCtl.java; ;(*
+%23void"java.lang.Runtime#exit(I)V*
+
+%22java.lang.Runtime*
+""2exit(I)*
+0:
+argsjava.lang.String[]B)"'
+%org.apache.bookkeeper.tools.cli.BKCtl

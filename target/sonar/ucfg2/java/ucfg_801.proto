@@ -1,0 +1,152 @@
+
+ˆorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLCheckpointStore#openOutputStream(Ljava/lang/String;)Ljava/io/OutputStream; 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javac c(("startingBlock*ó
+3 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javak l(="Ê
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javak l(=%
+#
+%11java.io.BufferedOutputStream*Š
+startingBlock 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javac( c(9ñ
+î
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javab b(
+%15"
+__annotate*
+java.lang.Override*
+
+filePathjava.lang.StringÛ
+Ø
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javac0 c(8
+filePathjava.lang.String"__annotation*
+
+%15*
+11*‰
+4 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javal1 l(4éæ
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javak k(+#
+%11java.io.BufferedOutputStream"java.io.BufferedOutputStreamï
+ì
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javak l(<
+%12"=java.io.BufferedOutputStream#<init>(Ljava/io/OutputStream;I)V*%
+#
+%11java.io.BufferedOutputStream*R
+P
+%9Jorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLOutputStream*
+""*
+3*Å
+
+5 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javaj j(Uš
+—
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javaj j(U6
+writer,org.apache.distributedlog.api.AsyncLogWriter"__id*4
+2
+%8,org.apache.distributedlog.api.AsyncLogWriterÄÁ
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javal l("P
+%9Jorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLOutputStream"Jorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLOutputStream³
+°
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javal l(/
+%10"·org.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLOutputStream#<init>(Lorg/apache/distributedlog/api/DistributedLogManager;Lorg/apache/distributedlog/api/AsyncLogWriter;)V*R
+P
+%9Jorg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLOutputStream*<
+:
+dlm3org.apache.distributedlog.api.DistributedLogManager*8
+6
+writer,org.apache.distributedlog.api.AsyncLogWriter*
+4*Í
+6 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javaj$ j(TŸ
+œ
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javaj$ j(T2
+%8,org.apache.distributedlog.api.AsyncLogWriter"iorg.apache.distributedlog.util.Utils#ioResult(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*("&
+$org.apache.distributedlog.util.Utils*.
+,
+%7&java.util.concurrent.CompletableFuture*
+5*Þ
+7 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javaj$ j()°­
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javaj3 j(S,
+%7&java.util.concurrent.CompletableFuture"org.apache.distributedlog.api.DistributedLogManager#openAsyncLogWriter(Lorg/apache/distributedlog/bk/LedgerMetadata;)Ljava/util/concurrent/CompletableFuture;*<
+:
+dlm3org.apache.distributedlog.api.DistributedLogManager*9
+7
+metadata+org.apache.distributedlog.bk.LedgerMetadata2AopenAsyncLogWriter(Lorg/apache/distributedlog/bk/LedgerMetadata;)*
+6*¢
+8 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javai i(ôñ
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javai i(5
+
+%6void"Morg.apache.distributedlog.bk.LedgerMetadata#setComponent(Ljava/lang/String;)V*9
+7
+metadata+org.apache.distributedlog.bk.LedgerMetadata*
+checkpoint-store2 setComponent(Ljava/lang/String;)*
+7*–
+9 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javag g(;š
+—
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javag g(;7
+metadata+org.apache.distributedlog.bk.LedgerMetadata"__id*3
+1
+%2+org.apache.distributedlog.bk.LedgerMetadataÌ
+É
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javah$ h(X
+%4java.lang.String"__id*
+""üù
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javah h(Y
+
+%5void"Oorg.apache.distributedlog.bk.LedgerMetadata#setApplication(Ljava/lang/String;)V*9
+7
+metadata+org.apache.distributedlog.bk.LedgerMetadata*
+
+%4java.lang.String2"setApplication(Ljava/lang/String;)*
+8*ø
+10 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javae f(¥
+¢
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javae f(:
+dlm3org.apache.distributedlog.api.DistributedLogManager"__id*;
+9
+%13org.apache.distributedlog.api.DistributedLogManager†ƒ
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javag* g(81
+%2+org.apache.distributedlog.bk.LedgerMetadata"+org.apache.distributedlog.bk.LedgerMetadata˜
+•
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javag& g(:
+%3"5org.apache.distributedlog.bk.LedgerMetadata#<init>()V*3
+1
+%2+org.apache.distributedlog.bk.LedgerMetadata*
+9*Ø
+11 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javae( e(1Ç
+Ä
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javae( e(17
+%01org.apache.distributedlog.api.namespace.Namespace"__id*`*^O
+Morg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLCheckpointStore"
+	namespaceÞÛ
+ 
+•/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/rocksdb/checkpoint/dlog/DLCheckpointStore.javae( f(9
+%13org.apache.distributedlog.api.DistributedLogManager"‚org.apache.distributedlog.api.namespace.Namespace#openLog(Ljava/lang/String;)Lorg/apache/distributedlog/api/DistributedLogManager;*9
+7
+%01org.apache.distributedlog.api.namespace.Namespace*
+
+filePathjava.lang.String2openLog(Ljava/lang/String;)*
+10:
+filePathjava.lang.StringBQO
+Morg.apache.bookkeeper.statelib.impl.rocksdb.checkpoint.dlog.DLCheckpointStore

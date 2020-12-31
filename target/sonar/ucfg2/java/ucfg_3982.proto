@@ -1,0 +1,375 @@
+
+Îorg.apache.distributedlog.tools.DistributedLogTool$InspectStreamCommand#repairLogSegment(Lorg/apache/bookkeeper/client/BookKeeperAdmin;Lorg/apache/distributedlog/metadata/MetadataUpdater;Lorg/apache/distributedlog/LogSegmentMetadata;)Ví
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¶ ¶('"12*∏
+2í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∆ ∆("ù
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∆ ∆(
+""*Ì
+3í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaƒ ƒ(¬
+ø
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaƒ ƒ(
+%36java.io.PrintStream"__id*
+""ï
+í
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaƒ ƒ(D
+%37java.lang.String"__concat*
+Updating last record for *9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata‡
+›
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaƒ ƒ(M
+%38java.lang.String"__concat*
+
+%37java.lang.String*
+ to ì
+ê
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaƒ ƒ(Z
+%39java.lang.String"__concat*
+
+%38java.lang.String*;
+9
+
+lastRecord+org.apache.distributedlog.LogRecordWithDLSN≠™
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaƒ ƒ([
+%40void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%36java.io.PrintStream*
+
+%39java.lang.String2println(Ljava/lang/String;)ƒ
+¡
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≈ ≈(Q
+%41boolean"Eorg.apache.bookkeeper.util.IOUtils#confirmPrompt(Ljava/lang/String;)Z*&"$
+"org.apache.bookkeeper.util.IOUtils*+)
+'Do you want to make this change (Y/N): *
+2
+1*“
+
+4í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¬& ¬(A‚
+ﬂ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¬& ¬(G
+%31java.lang.String"__concat*
+No record found in entry *
+""·
+ﬁ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¬& ¬(Q
+%32java.lang.String"__concat*
+
+%31java.lang.String*	
+ for ë
+é
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¬& ¬([
+%33java.lang.String"__concat*
+
+%32java.lang.String*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata…∆
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¬ ¬(%
+%34java.io.IOException"java.io.IOExceptionâ
+Ü
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¬ ¬(\
+%35"/java.io.IOException#<init>(Ljava/lang/String;)V*
+
+%34java.io.IOException*
+
+%33java.lang.String*
+0*π
+6í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaæ æ(#í
+è
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaæ æ(#9
+
+lastRecord+org.apache.distributedlog.LogRecordWithDLSN"__id*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSNÌ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaø ø(,2
+%30+org.apache.distributedlog.LogRecordWithDLSN"`org.apache.distributedlog.Entry$Reader#nextRecord()Lorg/apache/distributedlog/LogRecordWithDLSN;*2
+0
+reader&org.apache.distributedlog.Entry$Reader2nextRecord()ã
+à
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaø ø(,5
+record+org.apache.distributedlog.LogRecordWithDLSN"__id*4
+2
+%30+org.apache.distributedlog.LogRecordWithDLSN*	
+3
+4
+6*£4
+8í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≥$ ≥(+≥∞
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≥$ ≥(9/
+%14(org.apache.bookkeeper.client.LedgerEntry"5java.util.Enumeration#nextElement()Ljava/lang/Object;*"
+ 
+entriesjava.util.Enumeration2nextElement()à
+Ö
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≥ ≥(:5
+	lastEntry(org.apache.bookkeeper.client.LedgerEntry"__id*1
+/
+%14(org.apache.bookkeeper.client.LedgerEntryƒ
+¡
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¥" ¥(4.
+%15'org.apache.distributedlog.Entry$Builder"Uorg.apache.distributedlog.Entry#newBuilder()Lorg/apache/distributedlog/Entry$Builder;*#"!
+org.apache.distributedlog.EntryÃ…
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaµ' µ(L
+%16long"Korg.apache.distributedlog.LogSegmentMetadata#getLogSegmentSequenceNumber()J*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentSequenceNumber()∫∑
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaµN µ(j
+%17long"Borg.apache.distributedlog.LogSegmentMetadata#getStartSequenceId()J*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2getStartSequenceId()óî
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¥" µ(k.
+%18'org.apache.distributedlog.Entry$Builder"forg.apache.distributedlog.Entry$Builder#setLogSegmentInfo(JJ)Lorg/apache/distributedlog/Entry$Builder;*0
+.
+%15'org.apache.distributedlog.Entry$Builder*
+
+%16long*
+
+%17long2setLogSegmentInfo(JJ)§°
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∂  ∂(6
+%19long"6org.apache.bookkeeper.client.LedgerEntry#getEntryId()J*7
+5
+	lastEntry(org.apache.bookkeeper.client.LedgerEntry2getEntryId()¯ı
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¥" ∂(7.
+%20'org.apache.distributedlog.Entry$Builder"^org.apache.distributedlog.Entry$Builder#setEntryId(J)Lorg/apache/distributedlog/Entry$Builder;*0
+.
+%18'org.apache.distributedlog.Entry$Builder*
+
+%19long2setEntryId(J)©¶
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∑R ∑(f
+
+%21int":org.apache.distributedlog.LogSegmentMetadata#getVersion()I*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2getVersion()≥
+∞
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∑& ∑(g
+%22boolean"Iorg.apache.distributedlog.LogSegmentMetadata#supportsEnvelopedEntries(I)Z*0".
+,org.apache.distributedlog.LogSegmentMetadata*
+
+
+%21intáÑ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¥" ∑(h.
+%23'org.apache.distributedlog.Entry$Builder"dorg.apache.distributedlog.Entry$Builder#setEnvelopeEntry(Z)Lorg/apache/distributedlog/Entry$Builder;*0
+.
+%20'org.apache.distributedlog.Entry$Builder*
+
+%22boolean2setEnvelopeEntry(Z)◊‘
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∏ ∏(8
+%24io.netty.buffer.ByteBuf"Rorg.apache.bookkeeper.client.LedgerEntry#getEntryBuffer()Lio/netty/buffer/ByteBuf;*7
+5
+	lastEntry(org.apache.bookkeeper.client.LedgerEntry2getEntryBuffer()∑¥
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¥" ∏(9.
+%25'org.apache.distributedlog.Entry$Builder"torg.apache.distributedlog.Entry$Builder#setEntry(Lio/netty/buffer/ByteBuf;)Lorg/apache/distributedlog/Entry$Builder;*0
+.
+%23'org.apache.distributedlog.Entry$Builder* 
+
+%24io.netty.buffer.ByteBuf2#setEntry(Lio/netty/buffer/ByteBuf;)Á‰
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¥" π("-
+%26&org.apache.distributedlog.Entry$Reader"]org.apache.distributedlog.Entry$Builder#buildReader()Lorg/apache/distributedlog/Entry$Reader;*0
+.
+%25'org.apache.distributedlog.Entry$Builder2buildReader()Å
+˛
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java¥ π(#0
+reader&org.apache.distributedlog.Entry$Reader"__id*/
+-
+%26&org.apache.distributedlog.Entry$Reader◊‘
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∫ ∫(&
+%27io.netty.buffer.ByteBuf"Rorg.apache.bookkeeper.client.LedgerEntry#getEntryBuffer()Lio/netty/buffer/ByteBuf;*7
+5
+	lastEntry(org.apache.bookkeeper.client.LedgerEntry2getEntryBuffer()Ä˝
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∫ ∫(0
+%28boolean")io.netty.util.ReferenceCounted#release()Z* 
+
+%27io.netty.buffer.ByteBuf2	release()Ì
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaª' ª(:2
+%29+org.apache.distributedlog.LogRecordWithDLSN"`org.apache.distributedlog.Entry$Reader#nextRecord()Lorg/apache/distributedlog/LogRecordWithDLSN;*2
+0
+reader&org.apache.distributedlog.Entry$Reader2nextRecord()ã
+à
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaª ª(;5
+record+org.apache.distributedlog.LogRecordWithDLSN"__id*4
+2
+%29+org.apache.distributedlog.LogRecordWithDLSN·
+ﬁ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaº º(09
+
+lastRecord+org.apache.distributedlog.LogRecordWithDLSN"__id*
+""*	
+3
+4
+6*…
+
+9í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java±& ±(.Œ
+À
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java±& ±(4
+%9java.lang.String"__concat*
+
+Entry *
+""Ï
+È
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java±& ±(J
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+ isn't found for ë
+é
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java±& ±(T
+%11java.lang.String"__concat*
+
+%10java.lang.String*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata…∆
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java± ±(%
+%12java.io.IOException"java.io.IOExceptionâ
+Ü
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java± ±(U
+%13"/java.io.IOException#<init>(Ljava/lang/String;)V*
+
+%12java.io.IOException*
+
+%11java.lang.String*
+0*Â
+10í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≠ ≠(%≥∞
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≠1 ≠(J
+
+%4long"?org.apache.distributedlog.LogSegmentMetadata#getLogSegmentId()J*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentId()àÖ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≠ ≠(K/
+%5)org.apache.bookkeeper.client.LedgerHandle"eorg.apache.bookkeeper.client.BookKeeperAdmin#openLedger(J)Lorg/apache/bookkeeper/client/LedgerHandle;*9
+7
+bkAdmin,org.apache.bookkeeper.client.BookKeeperAdmin*
+
+
+%4long2openLedger(J)Ç
+ˇ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java≠ ≠(L/
+lh)org.apache.bookkeeper.client.LedgerHandle"__id*1
+/
+%5)org.apache.bookkeeper.client.LedgerHandle∞≠
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaÆ Æ(/
+
+%6long"@org.apache.bookkeeper.client.LedgerHandle#getLastAddConfirmed()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getLastAddConfirmed()€ÿ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaØ/ Ø(G
+%7java.util.Enumeration"Porg.apache.bookkeeper.client.LedgerHandle#readEntries(JJ)Ljava/util/Enumeration;*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*
+""*
+""2readEntries(JJ)ﬂ
+‹
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.javaØ Ø(H 
+entriesjava.util.Enumeration"__id*
+
+%7java.util.EnumerationàÖ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java∞ ∞(*
+%8boolean"(java.util.Enumeration#hasMoreElements()Z*"
+ 
+entriesjava.util.Enumeration2hasMoreElements()*
+8
+9*≤
+0 "™
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java… …(	
+implicit return*ƒ
+11í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java™ ™(¡
+æ
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java™ ™(
+%1java.io.PrintStream"__id*
+""ó
+î
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java™# ™(K
+%2java.lang.String"__concat* 
+Skip inprogress log segment *9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata™ß
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java™ ™(L
+
+%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%1java.io.PrintStream*
+
+%2java.lang.String2println(Ljava/lang/String;)"ù
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java´ ´(
+""*÷
+12í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java© ©(∞≠
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java© ©(&
+%0boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+10
+11*‚
+1í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java» »(¬ø
+í
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/tools/DistributedLogTool.java» »(A-
+%42&java.util.concurrent.CompletableFuture"»org.apache.distributedlog.metadata.MetadataUpdater#updateLastRecord(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogRecordWithDLSN;)Ljava/util/concurrent/CompletableFuture;*G
+E
+metadataUpdater2org.apache.distributedlog.metadata.MetadataUpdater*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata*;
+9
+
+lastRecord+org.apache.distributedlog.LogRecordWithDLSN2mupdateLastRecord(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogRecordWithDLSN;)*
+0:7
+bkAdmin,org.apache.bookkeeper.client.BookKeeperAdmin:E
+metadataUpdater2org.apache.distributedlog.metadata.MetadataUpdater:7
+segment,org.apache.distributedlog.LogSegmentMetadataBKI
+Gorg.apache.distributedlog.tools.DistributedLogTool$InspectStreamCommand

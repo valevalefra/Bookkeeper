@@ -1,0 +1,265 @@
+
+‘org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#fromProtoCompare(Lorg/apache/bookkeeper/api/kv/op/OpFactory;Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare;)Lorg/apache/bookkeeper/api/kv/op/CompareOp;•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java÷% ÷(5"1*•
+2•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java•3 •(L°­
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java•O •(bF
+%24?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget"~org.apache.bookkeeper.stream.proto.kv.rpc.Compare#getTarget()Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareTarget;*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2getTarget()¥
+¢
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java•3 •(b
+%25java.lang.String"__concat*
+Invalid compare target *H
+F
+%24?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTargetêç
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java• •(2)
+%26"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionª
+§
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java• •(c
+%27">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*+
+)
+%26"java.lang.IllegalArgumentException*
+
+%25java.lang.String*
+0*ò
+3•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java “(B…‚
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java “(B0
+%23)org.apache.bookkeeper.api.kv.op.CompareOp"¶org.apache.bookkeeper.api.kv.op.OpFactory#compareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*8
+6
+	opFactory)org.apache.bookkeeper.api.kv.op.OpFactory*9
+7
+result-org.apache.bookkeeper.api.kv.op.CompareResult*
+
+storeKeybyte[]*
+
+%19byte[]2acompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)"Ì
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java “(C2
+0
+%23)org.apache.bookkeeper.api.kv.op.CompareOp*è
+4•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java“! “((ìé
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java“! “(3%
+%22com.google.protobuf.ByteString"\org.apache.bookkeeper.stream.proto.kv.rpc.Compare#getValue()Lcom/google/protobuf/ByteString;*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2
+getValue()’
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java“! “(A
+%21byte[]".com.google.protobuf.ByteString#toByteArray()[B*'
+%
+%22com.google.protobuf.ByteString2toByteArray()Á
+¾
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java“! “(A
+%19byte[]"__id*
+
+%21byte[]*
+3*è
+5•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java“ “(Å
+Â
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java“ “(
+%19byte[]"__id*
+
+%20
+<nulltype>*
+3*•
+6•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java’3 ’(:ìé
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java’3 ’(E%
+%17com.google.protobuf.ByteString"\org.apache.bookkeeper.stream.proto.kv.rpc.Compare#getValue()Lcom/google/protobuf/ByteString;*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2
+getValue()€ý
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java’3 ’(L
+
+%18int"&com.google.protobuf.ByteString#size()I*'
+%
+%17com.google.protobuf.ByteString2size()*
+4
+5*†
+7•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaŽ Ž(ñ
+î
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaŽ Ž(F
+%15?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget"__id*
+""ìé
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java’ ’(/%
+%16com.google.protobuf.ByteString"\org.apache.bookkeeper.stream.proto.kv.rpc.Compare#getValue()Lcom/google/protobuf/ByteString;*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2
+getValue()*
+5
+6*€
+8•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java‰ ‰(ñ
+î
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java‰ ‰(F
+%12?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget"__id*
+""·´
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java ((
+%13long"?org.apache.bookkeeper.stream.proto.kv.rpc.Compare#getVersion()J*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2getVersion()åâ
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaŠ ()0
+%14)org.apache.bookkeeper.api.kv.op.CompareOp"§org.apache.bookkeeper.api.kv.op.OpFactory#compareVersion(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;J)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*8
+6
+	opFactory)org.apache.bookkeeper.api.kv.op.OpFactory*9
+7
+result-org.apache.bookkeeper.api.kv.op.CompareResult*
+
+storeKeybyte[]*
+
+%13long2RcompareVersion(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;J)"Ì
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaŠ (*2
+0
+%14)org.apache.bookkeeper.api.kv.op.CompareOp*›
+9•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java„ „(ð
+í
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java„ „(E
+%9?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget"__id*
+""ÅÂ
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaˆ ˆ(/
+%10long"Forg.apache.bookkeeper.stream.proto.kv.rpc.Compare#getCreateRevision()J*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2getCreateRevision()óð
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java… ˆ(00
+%11)org.apache.bookkeeper.api.kv.op.CompareOp"®org.apache.bookkeeper.api.kv.op.OpFactory#compareCreateRevision(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;J)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*8
+6
+	opFactory)org.apache.bookkeeper.api.kv.op.OpFactory*9
+7
+result-org.apache.bookkeeper.api.kv.op.CompareResult*
+
+storeKeybyte[]*
+
+%10long2YcompareCreateRevision(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;J)"Ì
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java… ˆ(12
+0
+%11)org.apache.bookkeeper.api.kv.op.CompareOp*Œ
+10•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaÿ ÿ(ð
+í
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaÿ ÿ(E
+%6?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget"__id*
+""¾»
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaƒ ƒ(,
+
+%7long"Corg.apache.bookkeeper.stream.proto.kv.rpc.Compare#getModRevision()J*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2getModRevision()ëè
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java€ ƒ(-/
+%8)org.apache.bookkeeper.api.kv.op.CompareOp"«org.apache.bookkeeper.api.kv.op.OpFactory#compareModRevision(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;J)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*8
+6
+	opFactory)org.apache.bookkeeper.api.kv.op.OpFactory*9
+7
+result-org.apache.bookkeeper.api.kv.op.CompareResult*
+
+storeKeybyte[]*
+
+
+%7long2VcompareModRevision(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;J)"Ë
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java€ ƒ(.1
+/
+%8)org.apache.bookkeeper.api.kv.op.CompareOp*µ
+0 "­
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java˜ ˜(
+implicit return*­
+1•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaú ú( ôñ
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaú ú(*$
+%0com.google.protobuf.ByteString"aorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getRKey()Lcom/google/protobuf/ByteString;*C
+A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2	getRKey()ñ
+î
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaú ú(+&
+rKeycom.google.protobuf.ByteString"__id*&
+$
+%0com.google.protobuf.ByteStringçä
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaû û(*$
+%1com.google.protobuf.ByteString"Zorg.apache.bookkeeper.stream.proto.kv.rpc.Compare#getKey()Lcom/google/protobuf/ByteString;*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2getKey()ñ
+î
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaû û(+&
+lKeycom.google.protobuf.ByteString"__id*&
+$
+%1com.google.protobuf.ByteStringÎ
+Ë
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaü ü(1
+%2byte[]"Œorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#newStoreKey(Lcom/google/protobuf/ByteString;Lcom/google/protobuf/ByteString;)[B*@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*(
+&
+rKeycom.google.protobuf.ByteString*(
+&
+lKeycom.google.protobuf.ByteStringÅ
+Â
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaü ü(2
+storeKeybyte[]"__id*
+
+%2byte[]¯¬
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaý6 ý(IE
+%3?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareResult"~org.apache.bookkeeper.stream.proto.kv.rpc.Compare#getResult()Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareResult;*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2getResult()£
+ 
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaý ý(J3
+%4-org.apache.bookkeeper.api.kv.op.CompareResult"Åorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#fromProtoCompareResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareResult;)Lorg/apache/bookkeeper/api/kv/op/CompareResult;*@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*G
+E
+%3?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareResult‘
+Ž
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaý ý(K7
+result-org.apache.bookkeeper.api.kv.op.CompareResult"__id*5
+3
+%4-org.apache.bookkeeper.api.kv.op.CompareResult¯¬
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaþ þ(#E
+%5?org.apache.bookkeeper.stream.proto.kv.rpc.Compare$CompareTarget"~org.apache.bookkeeper.stream.proto.kv.rpc.Compare#getTarget()Lorg/apache/bookkeeper/stream/proto/kv/rpc/Compare$CompareTarget;*>
+<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.Compare2getTarget()*
+2
+7
+8
+9
+10:6
+	opFactory)org.apache.bookkeeper.api.kv.op.OpFactory:A
+header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader:<
+compare1org.apache.bookkeeper.stream.proto.kv.rpc.CompareB@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils

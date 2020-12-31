@@ -1,0 +1,110 @@
+
+»org.apache.bookkeeper.proto.BookieServer#newBookie(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lio/netty/buffer/ByteBufAllocator;Ljava/util/function/Supplier;)Lorg/apache/bookkeeper/bookie/Bookie;~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaá á("4*À
+2~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaå å(˜
+Ù
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaå å(*-
+%8'org.apache.bookkeeper.stats.StatsLogger"__id*=*;*
+(org.apache.bookkeeper.proto.BookieServer"
+statsLogger©
+¶
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaå1 å(=
+%9java.lang.String"__id*
+""ÖÇ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaå å(>.
+%10'org.apache.bookkeeper.stats.StatsLogger"jorg.apache.bookkeeper.stats.StatsLogger#scope(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/StatsLogger;*/
+-
+%8'org.apache.bookkeeper.stats.StatsLogger*
+
+%9java.lang.String2scope(Ljava/lang/String;)”–
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaå å()
+%3#org.apache.bookkeeper.bookie.Bookie"#org.apache.bookkeeper.bookie.Bookieÿ
+’
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaå å(e
+%11"≈org.apache.bookkeeper.bookie.Bookie#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/stats/StatsLogger;Lio/netty/buffer/ByteBufAllocator;Ljava/util/function/Supplier;)V*+
+)
+%3#org.apache.bookkeeper.bookie.Bookie*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration*0
+.
+%10'org.apache.bookkeeper.stats.StatsLogger*/
+-
+	allocator io.netty.buffer.ByteBufAllocator*:
+8
+bookieServiceInfoProviderjava.util.function.Supplier·
+ﬁ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaå å(e)
+%1#org.apache.bookkeeper.bookie.Bookie"__id*+
+)
+%3#org.apache.bookkeeper.bookie.Bookie*
+1*
+3~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaã! ã(%˜
+Ù
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaã' ã(2-
+%4'org.apache.bookkeeper.stats.StatsLogger"__id*=*;*
+(org.apache.bookkeeper.proto.BookieServer"
+statsLogger©
+¶
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaã9 ã(E
+%5java.lang.String"__id*
+""ÑÅ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaã' ã(F-
+%6'org.apache.bookkeeper.stats.StatsLogger"jorg.apache.bookkeeper.stats.StatsLogger#scope(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/StatsLogger;*/
+-
+%4'org.apache.bookkeeper.stats.StatsLogger*
+
+%5java.lang.String2scope(Ljava/lang/String;)„‡
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaã ã( 1
+%2+org.apache.bookkeeper.bookie.ReadOnlyBookie"+org.apache.bookkeeper.bookie.ReadOnlyBookieÊ
+„
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaã ã(m
+%7"Õorg.apache.bookkeeper.bookie.ReadOnlyBookie#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/stats/StatsLogger;Lio/netty/buffer/ByteBufAllocator;Ljava/util/function/Supplier;)V*3
+1
+%2+org.apache.bookkeeper.bookie.ReadOnlyBookie*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration*/
+-
+%6'org.apache.bookkeeper.stats.StatsLogger*/
+-
+	allocator io.netty.buffer.ByteBufAllocator*:
+8
+bookieServiceInfoProviderjava.util.function.SupplierÈ
+Ê
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaã ã(m)
+%1#org.apache.bookkeeper.bookie.Bookie"__id*3
+1
+%2+org.apache.bookkeeper.bookie.ReadOnlyBookie*
+1*º
+4~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaä ä(Æ´
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaä ä(+
+%0boolean"Gorg.apache.bookkeeper.conf.ServerConfiguration#isForceReadOnlyBookie()Z*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2isForceReadOnlyBookie()*
+2
+3*≥
+1~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaä å(f"≠
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.javaä å(f+
+)
+%1#org.apache.bookkeeper.bookie.Bookie:6
+conf.org.apache.bookkeeper.conf.ServerConfiguration:-
+	allocator io.netty.buffer.ByteBufAllocator:8
+bookieServiceInfoProviderjava.util.function.SupplierB,*
+(org.apache.bookkeeper.proto.BookieServer

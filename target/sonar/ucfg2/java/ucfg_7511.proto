@@ -1,0 +1,53 @@
+
+Sorg.apache.bookkeeper.client.LedgerEntry#getEntryInputStream()Ljava/io/InputStream;|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.javaZ Z(*"1*À
+1|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java[ [(Þ
+Û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java[ [(
+%0io.netty.buffer.ByteBuf"__id*6*4*
+(org.apache.bookkeeper.client.LedgerEntry"
+data³
+°
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java[ [(K
+
+%1void"Ecom.google.common.base.Preconditions#checkState(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+""*+)
+'entry content can be accessed only onceÞ
+Û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java\8 \(<
+%2io.netty.buffer.ByteBuf"__id*6*4*
+(org.apache.bookkeeper.client.LedgerEntry"
+dataÏÌ
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java\% \(7(
+%3"io.netty.buffer.ByteBufInputStream""io.netty.buffer.ByteBufInputStream›
+˜
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java\! \(=
+%4"Eio.netty.buffer.ByteBufInputStream#<init>(Lio/netty/buffer/ByteBuf;)V**
+(
+%3"io.netty.buffer.ByteBufInputStream*
+
+%2io.netty.buffer.ByteBufÞ
+Û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java\ \(>)
+res"io.netty.buffer.ByteBufInputStream"__id**
+(
+%3"io.netty.buffer.ByteBufInputStreamÅ
+Â
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java] ](4*
+(org.apache.bookkeeper.client.LedgerEntry"
+data"__id*
+"""«
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerEntry.java^ ^(+
+)
+res"io.netty.buffer.ByteBufInputStreamB,*
+(org.apache.bookkeeper.client.LedgerEntry

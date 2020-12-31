@@ -1,0 +1,41 @@
+
+forg.apache.bookkeeper.metadata.etcd.helpers.ValueStream#read()Ljava/util/concurrent/CompletableFuture;ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaI+ I(/"1*÷
+1ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaJ J(Ñ
+Å
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaJ J(
+%0com.coreos.jetcd.Client"__id*G*E9
+7org.apache.bookkeeper.metadata.etcd.helpers.ValueStream"
+clientùö
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaJ J(#
+%1com.coreos.jetcd.KV":com.coreos.jetcd.Client#getKVClient()Lcom/coreos/jetcd/KV;*
+
+%0com.coreos.jetcd.Client2getKVClient()å
+â
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaK K((
+%2"com.coreos.jetcd.data.ByteSequence"__id*D*B9
+7org.apache.bookkeeper.metadata.etcd.helpers.ValueStream"
+keyüú
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaJ L(	,
+%3&java.util.concurrent.CompletableFuture"ecom.coreos.jetcd.KV#get(Lcom/coreos/jetcd/data/ByteSequence;)Ljava/util/concurrent/CompletableFuture;*
+
+%1com.coreos.jetcd.KV**
+(
+%2"com.coreos.jetcd.data.ByteSequence2)get(Lcom/coreos/jetcd/data/ByteSequence;)üú
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaJ V(
+,
+%4&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%3&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)"√
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/ValueStream.javaJ V(.
+,
+%4&java.util.concurrent.CompletableFutureB;9
+7org.apache.bookkeeper.metadata.etcd.helpers.ValueStream

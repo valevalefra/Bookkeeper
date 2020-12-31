@@ -1,0 +1,52 @@
+
+morg.apache.bookkeeper.statelib.impl.kv.KVUtils#serialize(Lio/netty/buffer/ByteBuf;J)Lio/netty/buffer/ByteBuf;€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java0 0("1*²
+1€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java1 1(#ñî
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java1 1(3	
+%0int"(io.netty.buffer.ByteBuf#readableBytes()I*#
+!
+valBufio.netty.buffer.ByteBuf2readableBytes()Ÿ
+œ
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java16 1(@	
+%1int"__id*
+""Â
+¿
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java2 2(7,
+%2&io.netty.buffer.PooledByteBufAllocator"__id*
+""½º
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java2 2(R
+%3io.netty.buffer.ByteBuf"Oio.netty.buffer.AbstractByteBufAllocator#heapBuffer(I)Lio/netty/buffer/ByteBuf;*.
+,
+%2&io.netty.buffer.PooledByteBufAllocator*
+""2heapBuffer(I)Ð
+Í
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java2 2(S!
+bufferio.netty.buffer.ByteBuf"__id*
+
+%3io.netty.buffer.ByteBufŸœ
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java3 3("
+%4io.netty.buffer.ByteBuf"=io.netty.buffer.ByteBuf#writeLong(J)Lio/netty/buffer/ByteBuf;*#
+!
+bufferio.netty.buffer.ByteBuf*
+""2writeLong(J)îë
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java4 4(!
+%5io.netty.buffer.ByteBuf"Vio.netty.buffer.ByteBuf#writeBytes(Lio/netty/buffer/ByteBuf;)Lio/netty/buffer/ByteBuf;*#
+!
+bufferio.netty.buffer.ByteBuf*#
+!
+valBufio.netty.buffer.ByteBuf2%writeBytes(Lio/netty/buffer/ByteBuf;)"¨
+€
+v/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/KVUtils.java5 5(#
+!
+bufferio.netty.buffer.ByteBuf:!
+valBufio.netty.buffer.ByteBuf:
+""B2"0
+.org.apache.bookkeeper.statelib.impl.kv.KVUtils

@@ -1,0 +1,92 @@
+
+Éorg.apache.bookkeeper.proto.ProtocolBenchmark#appendRequestContextNoMdc(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Request$Builder;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Request$Builder;
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java (4"1*å1
+1
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaž8 ž(J×
+Ô
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaž8 ž(V@
+%0:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair"__id*
+""Ÿ
+œ
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaž8 ž(cH
+%1Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder"‹org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair$Builder;*>"<
+:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPairìé
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaž8 Ÿ($H
+%2Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder"¡org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder#setKey(Ljava/lang/String;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair$Builder;*J
+H
+%1Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder*
+	parent_id2setKey(Ljava/lang/String;)‰†
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaž8  (?H
+%3Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder"£org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder#setValue(Ljava/lang/String;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair$Builder;*J
+H
+%2Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder*&$
+"LetsPutSomeLongParentRequestIdHere2setValue(Ljava/lang/String;)§¤
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaž8 ¡(@
+%4:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair"†org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair;*J
+H
+%3Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder2build()™
+–
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaž ¡(F
+context1:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair"__id*B
+@
+%4:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair†ƒ
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¢ ¢(+D
+%5>org.apache.bookkeeper.proto.BookkeeperProtocol$Request$Builder"Îorg.apache.bookkeeper.proto.BookkeeperProtocol$Request$Builder#addRequestContext(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Request$Builder;*K
+I
+builder>org.apache.bookkeeper.proto.BookkeeperProtocol$Request$Builder*H
+F
+context1:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair2OaddRequestContext(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair;)×
+Ô
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¤8 ¤(V@
+%6:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair"__id*
+""Ÿ
+œ
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¤8 ¤(cH
+%7Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder"‹org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair$Builder;*>"<
+:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPairíê
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¤8 ¥(%H
+%8Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder"¡org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder#setKey(Ljava/lang/String;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair$Builder;*J
+H
+%7Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder*
+
+request_id2setKey(Ljava/lang/String;)ƒ€
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¤8 ¦(9H
+%9Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder"£org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder#setValue(Ljava/lang/String;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair$Builder;*J
+H
+%8Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder* 
+LetsPutSomeLongRequestIdHere2setValue(Ljava/lang/String;)¨¥
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¤8 §(A
+%10:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair"†org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair;*J
+H
+%9Borg.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair$Builder2build()š
+—
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¤ §(F
+context2:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair"__id*C
+A
+%10:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair‡„
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.java¨ ¨(+E
+%11>org.apache.bookkeeper.proto.BookkeeperProtocol$Request$Builder"Îorg.apache.bookkeeper.proto.BookkeeperProtocol$Request$Builder#addRequestContext(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Request$Builder;*K
+I
+builder>org.apache.bookkeeper.proto.BookkeeperProtocol$Request$Builder*H
+F
+context2:org.apache.bookkeeper.proto.BookkeeperProtocol$ContextPair2OaddRequestContext(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ContextPair;)"Ñ
+
+u/home/valentina/Scrivania/Bookkeeper/microbenchmarks/src/main/java/org/apache/bookkeeper/proto/ProtocolBenchmark.javaª ª(K
+I
+builder>org.apache.bookkeeper.proto.BookkeeperProtocol$Request$Builder:I
+builder>org.apache.bookkeeper.proto.BookkeeperProtocol$Request$BuilderB1"/
+-org.apache.bookkeeper.proto.ProtocolBenchmark

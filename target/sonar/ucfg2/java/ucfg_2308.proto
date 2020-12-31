@@ -1,0 +1,120 @@
+
+≈org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#getMissingPaths(Lorg/apache/distributedlog/ZooKeeperClient;Ljava/net/URI;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaù+ ù(:"startingBlock*®
+2†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java† †(˙
+˜
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java† †($
+zkorg.apache.zookeeper.ZooKeeper"__id*&
+$
+%0org.apache.zookeeper.ZooKeeper*
+1*í
+startingBlock†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaù: ù(h°
+û
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaú ú(
+%5"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*2
+0
+zkc)org.apache.distributedlog.ZooKeeperClientÓ
+Î
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaùK ù(N0
+zkc)org.apache.distributedlog.ZooKeeperClient"__annotation*
+
+%5Ñ
+Å
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaú ú(
+%6"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*
+
+urijava.net.URI—
+Œ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaùT ù(W
+urijava.net.URI"__annotation*
+
+%6å
+â
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaú ú(
+%7"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*
+
+logNamejava.lang.StringŸ
+÷
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaù` ù(g
+logNamejava.lang.String"__annotation*
+
+%7*
+6*Ü
+5†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java† †(ÿ’
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java† †($
+%0org.apache.zookeeper.ZooKeeper"Oorg.apache.distributedlog.ZooKeeperClient#get()Lorg/apache/zookeeper/ZooKeeper;*2
+0
+zkc)org.apache.distributedlog.ZooKeeperClient2get()*
+2*à
+6†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaû û(⁄
+◊
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaû û($
+zkorg.apache.zookeeper.ZooKeeper"__id*
+""*
+5*«
+1†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§ §(äá
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§ §('
+%2java.lang.String"(java.net.URI#getPath()Ljava/lang/String;*
+
+urijava.net.URI2	getPath()‰
+·
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java§ §((
+basePathjava.lang.String"__id*
+
+%2java.lang.Stringù
+ö
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java• •(I
+%3java.lang.String"sorg.apache.distributedlog.metadata.LogMetadata#getLogStreamPath(Ljava/net/URI;Ljava/lang/String;)Ljava/lang/String;*2"0
+.org.apache.distributedlog.metadata.LogMetadata*
+
+urijava.net.URI*
+
+logNamejava.lang.StringÈ
+Ê
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java• •(J!
+logStreamPathjava.lang.String"__id*
+
+%3java.lang.String»
+≈
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¶ ¶(;,
+%4&java.util.concurrent.CompletableFuture"æorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#getMissingPaths(Lorg/apache/zookeeper/ZooKeeper;Ljava/lang/String;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*&
+$
+zkorg.apache.zookeeper.ZooKeeper*
+
+basePathjava.lang.String*#
+!
+logStreamPathjava.lang.String"”
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¶ ¶(<.
+,
+%4&java.util.concurrent.CompletableFuture:0
+zkc)org.apache.distributedlog.ZooKeeperClient:
+urijava.net.URI:
+logNamejava.lang.StringBD"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore

@@ -1,0 +1,214 @@
+
+µorg.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector#removeOverReplicatedledgers(Ljava/util/Set;Lorg/apache/bookkeeper/bookie/GarbageCollector$GarbageCleaner;)Ljava/util/Set;’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaç ç(1"15*Õ
+2’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaí í( Â
+¿
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaí í( 
+ledgerIdjava.lang.Long"__id*
+""ì
+é
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaí í( 
+ledgerIdjava.lang.Long"
+__arrayGet*"
+ 
+bkActiveledgersjava.util.Set*
+""*
+1
+12*÷
+15’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaé! é((Ÿ
+œ
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaé1 é(54
+%0.org.apache.bookkeeper.conf.ServerConfiguration"__id*I*G=
+;org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector"
+confþ
+û
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaé! é(6
+%1java.util.List"norg.apache.bookkeeper.util.ZkUtils#getACLs(Lorg/apache/bookkeeper/conf/AbstractConfiguration;)Ljava/util/List;*&"$
+"org.apache.bookkeeper.util.ZkUtils*6
+4
+%0.org.apache.bookkeeper.conf.ServerConfigurationÐ
+Í
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaé é(7
+zkAclsjava.util.List"__id*
+
+%1java.util.List•
+’
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaê0 ê(A
+%2java.util.HashSet">com.google.common.collect.Sets#newHashSet()Ljava/util/HashSet;*"" 
+com.google.common.collect.Setsá
+Þ
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaê ê(B&
+overReplicatedLedgersjava.util.Set"__id*
+
+%2java.util.HashSet±
+®
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaë2 ë(L	
+%3int"__id*
+""ÞÛ
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaë( ë(1$
+%4java.util.concurrent.Semaphore"java.util.concurrent.Semaphoreþ
+û
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaë$ ë(M
+%5")java.util.concurrent.Semaphore#<init>(I)V*&
+$
+%4java.util.concurrent.Semaphore*
+	
+%3intó
+ð
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaë ë(N+
+	semaphorejava.util.concurrent.Semaphore"__id*&
+$
+%4java.util.concurrent.Semaphoreæã
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaì8 ì(N	
+%6int"java.util.Set#size()I*"
+ 
+bkActiveledgersjava.util.Set2size()èå
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaì) ì(7)
+%7#java.util.concurrent.CountDownLatch"#java.util.concurrent.CountDownLatchˆ
+…
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaì% ì(O
+%8".java.util.concurrent.CountDownLatch#<init>(I)V*+
+)
+%7#java.util.concurrent.CountDownLatch*
+	
+%6intù
+ö
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaì ì(P,
+latch#java.util.concurrent.CountDownLatch"__id*+
+)
+%7#java.util.concurrent.CountDownLatch*
+2*Í
+5’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaû" ›(­ª
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaú ›(-
+%19&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%18&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)*
+2*Ý
+6’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaú ú(£
+ 
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaú ú(/
+%17(org.apache.bookkeeper.meta.LedgerManager"__id*R*P=
+;org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector"
+ledgerManager—”
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaú ú(:-
+%18&java.util.concurrent.CompletableFuture"forg.apache.bookkeeper.meta.LedgerManager#readLedgerMetadata(J)Ljava/util/concurrent/CompletableFuture;*1
+/
+%17(org.apache.bookkeeper.meta.LedgerManager*
+
+ledgerIdjava.lang.Long2readLedgerMetadata(J)*
+5*ª
+7’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaù ù(Š‡
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaù ù(#
+%16void")java.util.concurrent.Semaphore#acquire()V*-
++
+	semaphorejava.util.concurrent.Semaphore2	acquire()*
+6*Ê	
+8’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java÷ ÷(/Ž
+‹
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java÷Q ÷(S%
+%13org.apache.zookeeper.ZooKeeper"__id*G*E=
+;org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector"
+zk
+Œ
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java÷U ÷(f
+%14java.lang.String"__id*V*T=
+;org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector"
+zkLedgersRootPath‡
+„
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java÷ ø(
+%15void"¡org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager#acquireUnderreplicatedLedgerLock(Lorg/apache/zookeeper/ZooKeeper;Ljava/lang/String;JLjava/util/List;)V*>"<
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager*'
+%
+%13org.apache.zookeeper.ZooKeeper*
+
+%14java.lang.String*
+
+ledgerIdjava.lang.Long*
+
+zkAclsjava.util.List*
+7*µ
+10’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javañ ñ(”‘
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javañ ñ(%
+%12void"0java.util.concurrent.CountDownLatch#countDown()V*.
+,
+latch#java.util.concurrent.CountDownLatch2countDown()*
+2*›	
+12’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javað ð(3
+Š
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaðL ð(N$
+%9org.apache.zookeeper.ZooKeeper"__id*G*E=
+;org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector"
+zk
+Œ
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javaðP ð(a
+%10java.lang.String"__id*V*T=
+;org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector"
+zkLedgersRootPathÔ
+Ñ
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.javað ð(l
+%11boolean"ˆorg.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager#isLedgerBeingReplicated(Lorg/apache/zookeeper/ZooKeeper;Ljava/lang/String;J)Z*>"<
+:org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager*&
+$
+%9org.apache.zookeeper.ZooKeeper*
+
+%10java.lang.String*
+
+ledgerIdjava.lang.Long*
+8
+10*·
+1’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java¡ ¡(Œ‰
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java¡ ¡(
+%23void",java.util.concurrent.CountDownLatch#await()V*.
+,
+latch#java.util.concurrent.CountDownLatch2await()ËÈ
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java¢ ¢(8
+%24boolean"0java.util.Set#removeAll(Ljava/util/Collection;)Z*"
+ 
+bkActiveledgersjava.util.Set*(
+&
+overReplicatedLedgersjava.util.Set2!removeAll(Ljava/util/Collection;)"¿
+’
+…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/ScanAndCompareGarbageCollector.java£ £(%(
+&
+overReplicatedLedgersjava.util.Set: 
+bkActiveledgersjava.util.Set:N
+garbageCleaner<org.apache.bookkeeper.bookie.GarbageCollector$GarbageCleanerB?=
+;org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector

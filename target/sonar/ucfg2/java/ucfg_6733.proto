@@ -1,0 +1,43 @@
+
+”org.apache.bookkeeper.bookie.Bookie#buildLedgerStorage(Lorg/apache/bookkeeper/conf/ServerConfiguration;)Lorg/apache/bookkeeper/bookie/LedgerStorage;y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaë! ë(3"1*Û
+1y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaí$ í((ÃÀ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaí$ í(@
+%0java.lang.String"Xorg.apache.bookkeeper.conf.ServerConfiguration#getLedgerStorageClass()Ljava/lang/String;*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2getLedgerStorageClass()Æ
+Ã
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaí í(A&
+ledgerStorageClassjava.lang.String"__id*
+
+%0java.lang.String¤
+¡
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaî î(
+%1org.slf4j.Logger"__id*
+""ÖÓ
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaî î(@
+
+%2void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%1org.slf4j.Logger*
+Using ledger storage: {}*(
+&
+ledgerStorageClassjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)™
+–
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaï ï(K0
+%3*org.apache.bookkeeper.bookie.LedgerStorage"…org.apache.bookkeeper.bookie.LedgerStorageFactory#createLedgerStorage(Ljava/lang/String;)Lorg/apache/bookkeeper/bookie/LedgerStorage;*5"3
+1org.apache.bookkeeper.bookie.LedgerStorageFactory*(
+&
+ledgerStorageClassjava.lang.String"¯
+y
+m/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.javaï ï(L2
+0
+%3*org.apache.bookkeeper.bookie.LedgerStorage:6
+conf.org.apache.bookkeeper.conf.ServerConfigurationB'"%
+#org.apache.bookkeeper.bookie.Bookie

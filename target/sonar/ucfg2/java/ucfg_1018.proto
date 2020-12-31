@@ -1,0 +1,43 @@
+
+√org.apache.bookkeeper.common.util.ListenableFutures#fromListenableFuture(Lcom/google/common/util/concurrent/ListenableFuture;Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.java7. 7(B"1*ç
+1É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.java:1 :(=‹
+Ÿ
+É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.java:1 :(?,
+%0&java.util.concurrent.CompletableFuture"jorg.apache.bookkeeper.common.concurrent.FutureUtils#createFuture()Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils¸
+˘
+É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.java: :(@;
+completableFuture&java.util.concurrent.CompletableFuture"__id*.
+,
+%0&java.util.concurrent.CompletableFuture˝˙
+É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.java;2 ;(C;
+%15org.apache.bookkeeper.common.util.ListenableFutures$1"5org.apache.bookkeeper.common.util.ListenableFutures$1Í
+Á
+É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.java;. J(	
+%2"java.lang.Object#<init>()V*=
+;
+%15org.apache.bookkeeper.common.util.ListenableFutures$1Ó
+Î
+É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.java; J(
+
+
+%3void"ûcom.google.common.util.concurrent.Futures#addCallback(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/util/concurrent/FutureCallback;)V*-"+
+)com.google.common.util.concurrent.Futures*H
+F
+listenableFuture2com.google.common.util.concurrent.ListenableFuture*=
+;
+%15org.apache.bookkeeper.common.util.ListenableFutures$1"≈
+É
+y/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/util/ListenableFutures.javaK K(!=
+;
+completableFuture&java.util.concurrent.CompletableFuture:F
+listenableFuture2com.google.common.util.concurrent.ListenableFuture:$
+mapFnjava.util.function.FunctionB7"5
+3org.apache.bookkeeper.common.util.ListenableFutures

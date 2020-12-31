@@ -1,0 +1,68 @@
+
+ñorg.apache.bookkeeper.common.util.Retries#run(Ljava/util/stream/Stream;Ljava/util/function/Predicate;Ljava/util/function/Supplier;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaQ7 Q(:"4*Ú
+2}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaa a(ÐÍ
+}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaa i(
+
+%3void"…org.apache.bookkeeper.common.util.OrderedExecutor#executeOrdered(Ljava/lang/Object;Lorg/apache/bookkeeper/common/util/SafeRunnable;)V*A
+?
+	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler*
+
+keyjava.lang.Object*
+""2RexecuteOrdered(Ljava/lang/Object;Lorg/apache/bookkeeper/common/util/SafeRunnable;)*
+1*½
+3}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaY Y(‹ˆ
+}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.java[ [(#
+%1java.util.Iterator":java.util.stream.BaseStream#iterator()Ljava/util/Iterator;*%
+#
+backoffsjava.util.stream.Stream2
+iterator()¥
+¢
+}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaY _(
+
+%2void"ñorg.apache.bookkeeper.common.util.Retries#execute(Ljava/util/concurrent/CompletableFuture;Ljava/util/Iterator;Ljava/util/function/Predicate;Ljava/util/function/Supplier;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Ljava/lang/Object;)V*-"+
+)org.apache.bookkeeper.common.util.Retries*2
+0
+future&java.util.concurrent.CompletableFuture*
+
+%1java.util.Iterator*0
+.
+retryPredicatejava.util.function.Predicate*%
+#
+taskjava.util.function.Supplier*A
+?
+	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler*
+""*
+1*Ï
+4}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaW, W(7Õ
+Ò
+}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaW, W(F,
+%0&java.util.concurrent.CompletableFuture"jorg.apache.bookkeeper.common.concurrent.FutureUtils#createFuture()Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtilsê
+ç
+}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javaW W(G0
+future&java.util.concurrent.CompletableFuture"__id*.
+,
+%0&java.util.concurrent.CompletableFuture*
+2
+3*¸
+1}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javak k("³
+}
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/Retries.javak k(2
+0
+future&java.util.concurrent.CompletableFuture:#
+backoffsjava.util.stream.Stream:.
+retryPredicatejava.util.function.Predicate:#
+taskjava.util.function.Supplier:?
+	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler:
+keyjava.lang.ObjectB-"+
+)org.apache.bookkeeper.common.util.Retries

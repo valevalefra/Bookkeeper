@@ -1,0 +1,381 @@
+
+‰org.apache.bookkeeper.bookie.InterleavedLedgerStorage#initializeWithEntryLogger(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/meta/LedgerManager;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;Lorg/apache/bookkeeper/bookie/StateManager;Lorg/apache/bookkeeper/bookie/CheckpointSource;Lorg/apache/bookkeeper/bookie/Checkpointer;Lorg/apache/bookkeeper/bookie/EntryLogger;Lorg/apache/bookkeeper/stats/StatsLogger;)Vã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∂ ∂()"startingBlock*¨
+2ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∆? ∆(Oì
+ê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∆? ∆(O4
+%5.org.apache.bookkeeper.bookie.LedgerDirsManager"__id*D
+B
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager*
+1*≠
+3ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∆+ ∆(<î
+ë
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∆+ ∆(<4
+%5.org.apache.bookkeeper.bookie.LedgerDirsManager"__id*E
+C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager*
+1*ø%
+startingBlockã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∂) æ((ì
+ê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%22"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration‡
+›
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∂> ∂(B6
+conf.org.apache.bookkeeper.conf.ServerConfiguration"__annotation*
+
+%22ñ
+ì
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%23"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*;
+9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManager„
+‡
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∑ ∑(+9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManager"__annotation*
+
+%23†
+ù
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%24"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*E
+C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManagerÌ
+Í
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∏" ∏(3C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager"__annotation*
+
+%24ü
+ú
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%25"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*D
+B
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManagerÏ
+È
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaπ" π(2B
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager"__annotation*
+
+%25ñ
+ì
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%26"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*;
+9
+stateManager)org.apache.bookkeeper.bookie.StateManager„
+‡
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∫ ∫()9
+stateManager)org.apache.bookkeeper.bookie.StateManager"__annotation*
+
+%26û
+õ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%27"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*C
+A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSourceÎ
+Ë
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaª! ª(1A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSource"__annotation*
+
+%27ñ
+ì
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%28"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*;
+9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointer„
+‡
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaº º()9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointer"__annotation*
+
+%28î
+ë
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%29"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*9
+7
+entryLogger(org.apache.bookkeeper.bookie.EntryLogger·
+ﬁ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaΩ Ω('7
+entryLogger(org.apache.bookkeeper.bookie.EntryLogger"__annotation*
+
+%29ì
+ê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaµ µ(
+%30"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger‡
+›
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaæ æ('6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger"__annotation*
+
+%30*
+4*¸
+4ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaø ø(ƒ
+¡
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaø ø(H3
+%0-org.apache.bookkeeper.bookie.CheckpointSource"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*C
+A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSource*" 
+invalid null checkpoint source≥
+∞
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java¿ ¿(?/
+%1)org.apache.bookkeeper.bookie.Checkpointer"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*;
+9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointer*
+invalid null checkpointerú
+ô
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java¡ ¡(&H7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+entryLogger"__id*9
+7
+entryLogger(org.apache.bookkeeper.bookie.EntryLoggerì
+ê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java¬ ¬(.
+%2(org.apache.bookkeeper.bookie.EntryLogger"__id*J*H7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+entryLogger»≈
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java¬ ¬(*
+
+%3void"rorg.apache.bookkeeper.bookie.EntryLogger#addListener(Lorg/apache/bookkeeper/bookie/EntryLogger$EntryLogListener;)V*0
+.
+%2(org.apache.bookkeeper.bookie.EntryLogger*97
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage2HaddListener(Lorg/apache/bookkeeper/bookie/EntryLogger$EntryLogListener;)´
+®
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java√ √(0M7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+checkpointSource"__id*C
+A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSourceü
+ú
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaƒ ƒ((I7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+checkpointer"__id*;
+9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointerì
+ê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java≈0 ≈(=,
+%4&org.apache.bookkeeper.util.SnapshotMap"__id*L*J7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+activeLedgers*
+2
+3*´
+0 "£
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaœ œ(
+implicit return*≈?
+1ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java∆Q ∆(\Û
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java≈ ≈()2
+%6,org.apache.bookkeeper.bookie.LedgerCacheImpl",org.apache.bookkeeper.bookie.LedgerCacheImplì
+ê
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java≈ ∆(]
+%7"Áorg.apache.bookkeeper.bookie.LedgerCacheImpl#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/util/SnapshotMap;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;Lorg/apache/bookkeeper/stats/StatsLogger;)V*4
+2
+%6,org.apache.bookkeeper.bookie.LedgerCacheImpl*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration*.
+,
+%4&org.apache.bookkeeper.util.SnapshotMap*6
+4
+%5.org.apache.bookkeeper.bookie.LedgerDirsManager*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLoggeró
+î
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java≈ ∆(]H7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+ledgerCache"__id*4
+2
+%6,org.apache.bookkeeper.bookie.LedgerCacheImplâÜ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java«I «(`-
+%8'org.apache.bookkeeper.stats.StatsLogger"jorg.apache.bookkeeper.stats.StatsLogger#scope(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/StatsLogger;*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*
+gc2scope(Ljava/lang/String;)Å˛
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java« «(-9
+%93org.apache.bookkeeper.bookie.GarbageCollectorThread"3org.apache.bookkeeper.bookie.GarbageCollectorThread≤
+Ø
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java« «(a
+%10"˜org.apache.bookkeeper.bookie.GarbageCollectorThread#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/meta/LedgerManager;Lorg/apache/bookkeeper/bookie/CompactableLedgerStorage;Lorg/apache/bookkeeper/stats/StatsLogger;)V*;
+9
+%93org.apache.bookkeeper.bookie.GarbageCollectorThread*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration*;
+9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManager*97
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage*/
+-
+%8'org.apache.bookkeeper.stats.StatsLoggerõ
+ò
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java« «(aE7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+
+gcThread"__id*;
+9
+%93org.apache.bookkeeper.bookie.GarbageCollectorThread•¢
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java» »(%
+
+%11int"=org.apache.bookkeeper.conf.ServerConfiguration#getPageSize()I*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2getPageSize()î
+ë
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java… …(4
+%5.org.apache.bookkeeper.bookie.LedgerDirsManager"__id*E
+C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager©
+¶
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java…0 …(GH
+%12Aorg.apache.bookkeeper.bookie.LedgerDirsManager$LedgerDirsListener"êorg.apache.bookkeeper.bookie.InterleavedLedgerStorage#getLedgerDirsListener()Lorg/apache/bookkeeper/bookie/LedgerDirsManager$LedgerDirsListener;*97
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorageöó
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.java… …(H
+%13void"äorg.apache.bookkeeper.bookie.LedgerDirsManager#addLedgerDirsListener(Lorg/apache/bookkeeper/bookie/LedgerDirsManager$LedgerDirsListener;)V*E
+C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager*J
+H
+%12Aorg.apache.bookkeeper.bookie.LedgerDirsManager$LedgerDirsListener2ZaddLedgerDirsListener(Lorg/apache/bookkeeper/bookie/LedgerDirsManager$LedgerDirsListener;)∏
+µ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÀ6 À(H
+%14java.lang.String"__id*
+""∑¥
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÀ À(I0
+%15)org.apache.bookkeeper.stats.OpStatsLogger"worg.apache.bookkeeper.stats.StatsLogger#getOpStatsLogger(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/OpStatsLogger;*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+%14java.lang.String2$getOpStatsLogger(Ljava/lang/String;)ò
+ï
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÀ À(IK7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+getOffsetStats"__id*2
+0
+%15)org.apache.bookkeeper.stats.OpStatsLogger∏
+µ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÃ5 Ã(F
+%16java.lang.String"__id*
+""∑¥
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÃ Ã(G0
+%17)org.apache.bookkeeper.stats.OpStatsLogger"worg.apache.bookkeeper.stats.StatsLogger#getOpStatsLogger(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/OpStatsLogger;*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+%16java.lang.String2$getOpStatsLogger(Ljava/lang/String;)ó
+î
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÃ Ã(GJ7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+getEntryStats"__id*2
+0
+%17)org.apache.bookkeeper.stats.OpStatsLogger∏
+µ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÕ5 Õ(P
+%18java.lang.String"__id*
+""∑¥
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÕ Õ(Q0
+%19)org.apache.bookkeeper.stats.OpStatsLogger"worg.apache.bookkeeper.stats.StatsLogger#getOpStatsLogger(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/OpStatsLogger;*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+%18java.lang.String2$getOpStatsLogger(Ljava/lang/String;)ó
+î
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaÕ Õ(QJ7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+pageScanStats"__id*2
+0
+%19)org.apache.bookkeeper.stats.OpStatsLogger∏
+µ
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaŒ. Œ(H
+%20java.lang.String"__id*
+""üú
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaŒ Œ(I*
+%21#org.apache.bookkeeper.stats.Counter"korg.apache.bookkeeper.stats.StatsLogger#getCounter(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/Counter;*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+%20java.lang.String2getCounter(Ljava/lang/String;)ê
+ç
+ã
+/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/InterleavedLedgerStorage.javaŒ Œ(II7
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage"
+retryCounter"__id*,
+*
+%21#org.apache.bookkeeper.stats.Counter*
+0:6
+conf.org.apache.bookkeeper.conf.ServerConfiguration:9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManager:C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager:B
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager:9
+stateManager)org.apache.bookkeeper.bookie.StateManager:A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSource:9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointer:7
+entryLogger(org.apache.bookkeeper.bookie.EntryLogger:6
+statsLogger'org.apache.bookkeeper.stats.StatsLoggerB97
+5org.apache.bookkeeper.bookie.InterleavedLedgerStorage

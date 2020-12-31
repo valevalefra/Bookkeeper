@@ -1,0 +1,308 @@
+
+™org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl#processCompareOp(Lorg/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord;Lorg/apache/bookkeeper/api/kv/op/CompareOp;)Zä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaã ã("startingBlock*◊
+13ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java© ©("‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java© ©("4
+%24-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java™ ™(!4
+%25-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+"""ï
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java´ ´()
+""*«
+24ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaè è(”
+–
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaè è(3
+%1-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""íè
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaê+ ê(8
+
+%2long"5org.apache.bookkeeper.api.kv.op.CompareOp#revision()J*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2
+revision()√¿
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaê ê(9	
+%3int"Eorg.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord#compareModRev(J)I*?
+=
+record3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord*
+
+
+%2long2compareModRev(J)*
+2*ó
+14ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java§& §(.ë
+é
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java§& §(./
+%18(org.apache.bookkeeper.common.coder.Coder"__id*H*F8
+6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl"
+
+valCoderõò
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java§6 §(@
+%19V"Corg.apache.bookkeeper.api.kv.op.CompareOp#value()Ljava/lang/Object;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2value()¡æ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java§& §(A
+%20byte[]"Eorg.apache.bookkeeper.common.coder.Coder#encode(Ljava/lang/Object;)[B*1
+/
+%18(org.apache.bookkeeper.common.coder.Coder*
+
+
+%19V2encode(Ljava/lang/Object;)ª
+∏
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java§ §(B
+rawValuebyte[]"__id*
+
+%20byte[]÷”
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java• •(+
+%21io.netty.buffer.ByteBuf"Worg.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord#getValue()Lio/netty/buffer/ByteBuf;*?
+=
+record3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord2
+getValue()©
+¶
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java•6 •(V
+%22io.netty.buffer.ByteBuf"Cio.netty.buffer.Unpooled#wrappedBuffer([B)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+
+rawValuebyte[]≈¬
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java• •(W
+
+%23int"=io.netty.buffer.ByteBuf#compareTo(Lio/netty/buffer/ByteBuf;)I* 
+
+%21io.netty.buffer.ByteBuf* 
+
+%22io.netty.buffer.ByteBuf2$compareTo(Lio/netty/buffer/ByteBuf;)*
+2*π
+15ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java£ £(õò
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java£ £(
+%17V"Corg.apache.bookkeeper.api.kv.op.CompareOp#value()Ljava/lang/Object;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2value()*
+14
+11*©
+16ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaü ü($"ï
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaü ü(%
+""*«
+17ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaù ù(!õò
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaù ù()
+%16V"Corg.apache.bookkeeper.api.kv.op.CompareOp#value()Ljava/lang/Object;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2value()"ï
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaù ù(2
+""*€
+18ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaú ú(,‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaú ú(64
+%14-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""Ê„
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaú: ú(E4
+%15-org.apache.bookkeeper.api.kv.op.CompareResult"aorg.apache.bookkeeper.api.kv.op.CompareOp#result()Lorg/apache/bookkeeper/api/kv/op/CompareResult;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2result()*
+16
+17*«
+19ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaõ õ(!õò
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaõ õ()
+%13V"Corg.apache.bookkeeper.api.kv.op.CompareOp#value()Ljava/lang/Object;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2value()"ï
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaõ õ(2
+""*®
+1ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java∆ ∆("ï
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java∆ ∆(
+""*ä
+2ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java¥ ¥(Ê„
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaµ µ(4
+%31-org.apache.bookkeeper.api.kv.op.CompareResult"aorg.apache.bookkeeper.api.kv.op.CompareOp#result()Lorg/apache/bookkeeper/api/kv/op/CompareResult;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2result()*
+4
+5
+6
+7
+1*ê
+startingBlockä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaã å(0É
+Ä
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaã ã(&
+%32"
+__annotate*
+javax.annotation.Nullable*?
+=
+record3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecordÊ
+„
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaã2 ã(8=
+record3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord"__annotation*
+
+%32*
+8*Ï
+4ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaø ø(‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaø ø(4
+%30-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""*
+1*Ï
+5ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaº º(‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaº º(4
+%29-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""*
+1*Ï
+6ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaπ π(‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaπ π(4
+%28-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""*
+1*Ï
+7ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java∂ ∂(‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java∂ ∂(4
+%27-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""*
+1*ç
+8ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaç ç(Â‚
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaé é(3
+%0-org.apache.bookkeeper.api.kv.op.CompareTarget"aorg.apache.bookkeeper.api.kv.op.CompareOp#target()Lorg/apache/bookkeeper/api/kv/op/CompareTarget;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2target()*
+24
+9
+21
+22
+23*®
+9ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java≤ ≤("ï
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java≤ ≤(
+""*€
+20ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaö ö(%‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaö ö(+4
+%11-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""Ê„
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaö/ ö(:4
+%12-org.apache.bookkeeper.api.kv.op.CompareResult"aorg.apache.bookkeeper.api.kv.op.CompareOp#result()Lorg/apache/bookkeeper/api/kv/op/CompareResult;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2result()*
+18
+19*Ú
+21ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaò ò(‘
+—
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaò ò(4
+%10-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""*
+15
+20*…
+22ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaï ï(”
+–
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaï ï(3
+%7-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""íè
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javañ, ñ(9
+
+%8long"5org.apache.bookkeeper.api.kv.op.CompareOp#revision()J*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2
+revision()≈¬
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javañ ñ(:	
+%9int"Forg.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord#compareVersion(J)I*?
+=
+record3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord*
+
+
+%8long2compareVersion(J)*
+2*Ñ
+11ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java® ®(Ê„
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java® ®('4
+%26-org.apache.bookkeeper.api.kv.op.CompareResult"aorg.apache.bookkeeper.api.kv.op.CompareOp#result()Lorg/apache/bookkeeper/api/kv/op/CompareResult;*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2result()*
+13
+12*©
+12ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java≠# ≠('"ï
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java≠ ≠((
+""*Õ
+23ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaí í(”
+–
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaí í(3
+%4-org.apache.bookkeeper.api.kv.op.CompareTarget"__id*
+""íè
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaì. ì(;
+
+%5long"5org.apache.bookkeeper.api.kv.op.CompareOp#revision()J*1
+/
+op)org.apache.bookkeeper.api.kv.op.CompareOp2
+revision()…∆
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaì ì(<	
+%6int"Horg.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord#compareCreateRev(J)I*?
+=
+record3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord*
+
+
+%5long2compareCreateRev(J)*
+2:=
+record3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord:/
+op)org.apache.bookkeeper.api.kv.op.CompareOpB:8
+6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl

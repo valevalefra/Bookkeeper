@@ -1,0 +1,118 @@
+
+˜org.apache.bookkeeper.api.kv.PTableWriteView#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javad! d(,"1*¦4
+1y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javae e(æã
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javae e(!&
+%0 org.apache.bookkeeper.api.kv.Txn"forg.apache.bookkeeper.api.kv.PTableWriteView#txn(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/Txn;*0.
+,org.apache.bookkeeper.api.kv.PTableWriteView*
+	
+pKeyK2txn(Ljava/lang/Object;)×
+Ô
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javae e("'
+txn org.apache.bookkeeper.api.kv.Txn"__id*(
+&
+%0 org.apache.bookkeeper.api.kv.TxnÎË
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javah h(/
+%1)org.apache.bookkeeper.api.kv.op.OpFactory"^org.apache.bookkeeper.api.kv.PTableBase#opFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*0.
+,org.apache.bookkeeper.api.kv.PTableWriteView2opFactory()Á
+¾
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javah) h(<3
+%2-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""ÊÇ
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javah h(I/
+%3)org.apache.bookkeeper.api.kv.op.CompareOp"¶org.apache.bookkeeper.api.kv.op.OpFactory#compareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*1
+/
+%1)org.apache.bookkeeper.api.kv.op.OpFactory*5
+3
+%2-org.apache.bookkeeper.api.kv.op.CompareResult*
+	
+lKeyK*
+""2acompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)«¨
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javaf h(J&
+%4 org.apache.bookkeeper.api.kv.Txn"sorg.apache.bookkeeper.api.kv.Txn#If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)Lorg/apache/bookkeeper/api/kv/Txn;*)
+'
+txn org.apache.bookkeeper.api.kv.Txn*1
+/
+%3)org.apache.bookkeeper.api.kv.op.CompareOp20If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)ÎË
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javaj j(/
+%5)org.apache.bookkeeper.api.kv.op.OpFactory"^org.apache.bookkeeper.api.kv.PTableBase#opFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*0.
+,org.apache.bookkeeper.api.kv.PTableWriteView2opFactory()ÎË
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javam m(/
+%6)org.apache.bookkeeper.api.kv.op.OpFactory"^org.apache.bookkeeper.api.kv.PTableBase#opFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*0.
+,org.apache.bookkeeper.api.kv.PTableWriteView2opFactory()ëè
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javam m(/8
+%72org.apache.bookkeeper.api.kv.options.OptionFactory"morg.apache.bookkeeper.api.kv.op.OpFactory#optionFactory()Lorg/apache/bookkeeper/api/kv/options/OptionFactory;*1
+/
+%6)org.apache.bookkeeper.api.kv.op.OpFactory2optionFactory()þ
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javam m(>;
+%85org.apache.bookkeeper.api.kv.options.PutOptionBuilder"xorg.apache.bookkeeper.api.kv.options.OptionFactory#newPutOption()Lorg/apache/bookkeeper/api/kv/options/PutOptionBuilder;*:
+8
+%72org.apache.bookkeeper.api.kv.options.OptionFactory2newPutOption()ÄÁ
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javam m(F4
+%9.org.apache.bookkeeper.api.kv.options.PutOption"Forg.apache.bookkeeper.api.kv.options.Builder#build()Ljava/lang/Object;*=
+;
+%85org.apache.bookkeeper.api.kv.options.PutOptionBuilder2build()À½
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javaj m(G,
+%10%org.apache.bookkeeper.api.kv.op.PutOp"­org.apache.bookkeeper.api.kv.op.OpFactory#newPut(Ljava/lang/Object;Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/PutOption;)Lorg/apache/bookkeeper/api/kv/op/PutOp;*1
+/
+%5)org.apache.bookkeeper.api.kv.op.OpFactory*
+	
+lKeyK*
+
+
+valueV*6
+4
+%9.org.apache.bookkeeper.api.kv.options.PutOption2\newPut(Ljava/lang/Object;Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/PutOption;)ž›
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javaf m(H'
+%11 org.apache.bookkeeper.api.kv.Txn"norg.apache.bookkeeper.api.kv.Txn#Then([Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/Txn;*(
+&
+%4 org.apache.bookkeeper.api.kv.Txn*.
+,
+%10%org.apache.bookkeeper.api.kv.op.PutOp2+Then([Lorg/apache/bookkeeper/api/kv/op/Op;)öó
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javao o(.
+%12'org.apache.bookkeeper.api.kv.op.RangeOp"korg.apache.bookkeeper.api.kv.PTableBase#newGet(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/RangeOp;*0.
+,org.apache.bookkeeper.api.kv.PTableWriteView*
+	
+lKeyK2newGet(Ljava/lang/Object;)¡ž
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javaf o('
+%13 org.apache.bookkeeper.api.kv.Txn"norg.apache.bookkeeper.api.kv.Txn#Else([Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/Txn;*)
+'
+%11 org.apache.bookkeeper.api.kv.Txn*0
+.
+%12'org.apache.bookkeeper.api.kv.op.RangeOp2+Else([Lorg/apache/bookkeeper/api/kv/op/Op;)µ²
+y
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javap p(-
+%14&java.util.concurrent.CompletableFuture"Qorg.apache.bookkeeper.api.kv.Txn#commit()Ljava/util/concurrent/CompletableFuture;*)
+'
+txn org.apache.bookkeeper.api.kv.Txn2commit()Ž‹
+z
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javap ƒ(-
+%15&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%14&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"­
+z
+o/home/valentina/Scrivania/Bookkeeper/stream/api/src/main/java/org/apache/bookkeeper/api/kv/PTableWriteView.javap ƒ(/
+-
+%15&java.util.concurrent.CompletableFuture:	
+pKeyK:	
+lKeyK:
+
+valueVB0.
+,org.apache.bookkeeper.api.kv.PTableWriteView

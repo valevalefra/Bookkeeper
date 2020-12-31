@@ -1,0 +1,210 @@
+
+horg.apache.bookkeeper.bookie.BookieShell$LedgerMetadataCmd#runCmd(Lorg/apache/commons/cli/CommandLine;)I~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaâ â("startingBlock*Î
+2~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó ó(ßÜ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó% ó(N
+%14java.lang.String"Worg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;)Ljava/lang/String;*/
+-
+cmdLine"org.apache.commons.cli.CommandLine*
+restorefromfile2"getOptionValue(Ljava/lang/String;)áÞ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó ó(O_
+%15Xorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag"Öorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag#restoreFromFile(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/cli/commands/client/LedgerMetaDataCommand$LedgerMetadataFlag;*b
+`
+flagXorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag*
+
+%14java.lang.String2#restoreFromFile(Ljava/lang/String;)*
+1*É
+3~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaò ò(»¸
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaò ò(4
+%13boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*/
+-
+cmdLine"org.apache.commons.cli.CommandLine*
+restorefromfile2hasOption(Ljava/lang/String;)*
+2
+1*Ã
+startingBlock~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaâ â(.ß
+Ü
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaá á(
+%21"
+__annotate*
+java.lang.Override*/
+-
+cmdLine"org.apache.commons.cli.CommandLineÉ
+Æ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaâ& â(--
+cmdLine"org.apache.commons.cli.CommandLine"__annotation*
+
+%21*
+10*¿
+4~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javað ð(Ú×
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javað  ð(D
+%11java.lang.String"Worg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;)Ljava/lang/String;*/
+-
+cmdLine"org.apache.commons.cli.CommandLine*
+
+dumptofile2"getOptionValue(Ljava/lang/String;)×Ô
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javað ð(E_
+%12Xorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag"Ñorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag#dumpToFile(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/cli/commands/client/LedgerMetaDataCommand$LedgerMetadataFlag;*b
+`
+flagXorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag*
+
+%11java.lang.String2dumpToFile(Ljava/lang/String;)*
+3*Æ
+5~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaí< í(j½º
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaí@ í(h^
+%7Xorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag"Xorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlagÏ
+Ì
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaí< í(j
+%8"borg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag#<init>()V*`
+^
+%7Xorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlagÍ
+Ê
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaí í(k`
+flagXorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag"__id*`
+^
+%7Xorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlagš
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaî î(#^
+%9Xorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag"¾org.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag#ledgerId(J)Lorg/apache/bookkeeper/tools/cli/commands/client/LedgerMetaDataCommand$LedgerMetadataFlag;*b
+`
+flagXorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag*
+""2ledgerId(J)¶³
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaï ï(/
+%10boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*/
+-
+cmdLine"org.apache.commons.cli.CommandLine*
+
+dumptofile2hasOption(Ljava/lang/String;)*
+3
+4*€
+6~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaé é(¬
+©
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaé é(
+%5java.io.PrintStream"__id*
+""À½
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaé é(e
+
+%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%5java.io.PrintStream*CA
+?Only one of --dumptofile and --restorefromfile can be specified2println(Ljava/lang/String;)"ˆ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaê ê(
+""*É
+7~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaè3 è(:»¸
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaè3 è(X
+%4boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*/
+-
+cmdLine"org.apache.commons.cli.CommandLine*
+restorefromefile2hasOption(Ljava/lang/String;)*
+5
+6*Ã
+8~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaè è(µ²
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaè è(/
+%3boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*/
+-
+cmdLine"org.apache.commons.cli.CommandLine*
+
+dumptofile2hasOption(Ljava/lang/String;)*
+5
+7*Ù
+9~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaå å(¬
+©
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaå å(
+%1java.io.PrintStream"__id*
+""™–
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaå å(>
+
+%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%1java.io.PrintStream*
+Must specify a ledger id2println(Ljava/lang/String;)"ˆ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaæ æ(
+""* 
+10~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaã" ã(8‘
+Ž
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaã" ã(Q
+
+%0long"yorg.apache.bookkeeper.bookie.BookieShell#getOptionLedgerIdValue(Lorg/apache/commons/cli/CommandLine;Ljava/lang/String;J)J*><
+:org.apache.bookkeeper.bookie.BookieShell$LedgerMetadataCmd*/
+-
+cmdLine"org.apache.commons.cli.CommandLine*
+
+ledgerid*
+""*
+8
+9*ÿ
+1~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaöB ö(S•
+’
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaöB ö(S3
+%16,org.apache.bookkeeper.util.LedgerIdFormatter"__id*U*S<
+:org.apache.bookkeeper.bookie.BookieShell$LedgerMetadataCmd"
+ledgerIdFormatter˜•
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaö, ö(AL
+%17Eorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand"Eorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand
+
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaö( ö(T
+%18"}org.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand#<init>(Lorg/apache/bookkeeper/util/LedgerIdFormatter;)V*N
+L
+%17Eorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand*5
+3
+%16,org.apache.bookkeeper.util.LedgerIdFormatter§
+¤
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaö ö(UL
+cmdEorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand"__id*N
+L
+%17Eorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommandŒ
+‰
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java÷ ÷(5
+%19.org.apache.bookkeeper.conf.ServerConfiguration"__id*J*H<
+:org.apache.bookkeeper.bookie.BookieShell$LedgerMetadataCmd"
+bkConfïì
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java÷ ÷(#
+%20boolean"Øorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand#apply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/client/LedgerMetaDataCommand$LedgerMetadataFlag;)Z*N
+L
+cmdEorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand*7
+5
+%19.org.apache.bookkeeper.conf.ServerConfiguration*b
+`
+flagXorg.apache.bookkeeper.tools.cli.commands.client.LedgerMetaDataCommand$LedgerMetadataFlag2‘apply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/client/LedgerMetaDataCommand$LedgerMetadataFlag;)"ˆ
+~
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaø ø(
+"":-
+cmdLine"org.apache.commons.cli.CommandLineB><
+:org.apache.bookkeeper.bookie.BookieShell$LedgerMetadataCmd

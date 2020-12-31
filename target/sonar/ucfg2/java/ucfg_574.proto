@@ -1,0 +1,55 @@
+
+¦org.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal#writeCommandBufReturnTxId(Lio/netty/buffer/ByteBuf;)Ljava/util/concurrent/CompletableFuture;
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaû3 û(L"1* 
+1
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaü ü("¹
+¶
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaş ş(2
+%0,org.apache.distributedlog.api.AsyncLogWriter"__id*Y*WK
+Iorg.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal"
+writer«¨
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaş- ş(?
+%1java.nio.ByteBuffer"8io.netty.buffer.ByteBuf#nioBuffer()Ljava/nio/ByteBuffer;*#
+!
+cmdBufio.netty.buffer.ByteBuf2nioBuffer()ôñ
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaş ş(&)
+%2#org.apache.distributedlog.LogRecord"#org.apache.distributedlog.LogRecordÁ
+¾
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaş ş(@
+%3"Corg.apache.distributedlog.LogRecord#<init>(JLjava/nio/ByteBuffer;)V*+
+)
+%2#org.apache.distributedlog.LogRecord*
+""*
+
+%1java.nio.ByteBufferçä
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaş ş(A,
+%4&java.util.concurrent.CompletableFuture"org.apache.distributedlog.api.AsyncLogWriter#write(Lorg/apache/distributedlog/LogRecord;)Ljava/util/concurrent/CompletableFuture;*4
+2
+%0,org.apache.distributedlog.api.AsyncLogWriter*+
+)
+%2#org.apache.distributedlog.LogRecord2,write(Lorg/apache/distributedlog/LogRecord;)­ª
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaş ÿ((,
+%5&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%4&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)æ
+ã
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaı €(#,
+%6&java.util.concurrent.CompletableFuture" org.apache.bookkeeper.common.concurrent.FutureUtils#ensure(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*.
+,
+%5&java.util.concurrent.CompletableFuture*
+"""Ñ
+
+‘/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaı €($.
+,
+%6&java.util.concurrent.CompletableFuture:!
+cmdBufio.netty.buffer.ByteBufBMK
+Iorg.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal

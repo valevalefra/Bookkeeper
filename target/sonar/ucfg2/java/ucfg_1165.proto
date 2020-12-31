@@ -1,0 +1,71 @@
+
+org.apache.bookkeeper.clients.impl.internal.LocationClientImpl#locateStorageContainers(Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javam m("startingBlock*‡
+startingBlockš
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javam m(Gó
+ð
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javak k(
+%5"
+__annotate*
+java.lang.Override*'
+%
+storageContainerIdsjava.util.ListÝ
+Ú
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javam3 m(F%
+storageContainerIdsjava.util.List"__annotation*
+
+%5*
+1*Â
+1š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javan5 n(]›
+˜
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javan5 n(rS
+%0Morg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointRequest"¿org.apache.bookkeeper.stream.protocol.util.ProtoUtils#createGetStorageContainerEndpointRequest(Ljava/util/List;)Lorg/apache/bookkeeper/stream/proto/storage/GetStorageContainerEndpointRequest;*9"7
+5org.apache.bookkeeper.stream.protocol.util.ProtoUtils*'
+%
+storageContainerIdsjava.util.List×
+Ô
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javan n(sX
+requestMorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointRequest"__id*U
+S
+%0Morg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointRequestñ
+î
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javap p( 
+%1java.util.stream.Stream"lorg.apache.bookkeeper.clients.impl.internal.LocationClientImpl#getDefaultBackoffs()Ljava/util/stream/Stream;*B@
+>org.apache.bookkeeper.clients.impl.internal.LocationClientImplÒ
+Ï
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javaq q(5"
+%2java.util.function.Predicate"__id*
+""³
+°
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javau u(8
+%32org.apache.bookkeeper.common.util.OrderedScheduler"__id*Q*O@
+>org.apache.bookkeeper.clients.impl.internal.LocationClientImpl"
+	schedulerØ
+Õ
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javao v(,
+%4&java.util.concurrent.CompletableFuture"ñorg.apache.bookkeeper.common.util.Retries#run(Ljava/util/stream/Stream;Ljava/util/function/Predicate;Ljava/util/function/Supplier;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*-"+
+)org.apache.bookkeeper.common.util.Retries*
+
+%1java.util.stream.Stream*$
+"
+%2java.util.function.Predicate*
+""*:
+8
+%32org.apache.bookkeeper.common.util.OrderedScheduler*Z
+X
+requestMorg.apache.bookkeeper.stream.proto.storage.GetStorageContainerEndpointRequest"Í
+š
+/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/LocationClientImpl.javao v(.
+,
+%4&java.util.concurrent.CompletableFuture:%
+storageContainerIdsjava.util.ListBB@
+>org.apache.bookkeeper.clients.impl.internal.LocationClientImpl

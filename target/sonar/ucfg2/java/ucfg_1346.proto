@@ -1,0 +1,67 @@
+
+šorg.apache.bookkeeper.clients.impl.kv.KvUtils#newRangeResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse;Lorg/apache/bookkeeper/api/kv/impl/result/ResultFactory;Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueFactory;)Lorg/apache/bookkeeper/api/kv/result/RangeResult;†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javag0 g(>"1*»
+1†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javak k(·´
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javak k(0>
+%08org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl"‚org.apache.bookkeeper.api.kv.impl.result.ResultFactory#newRangeResult(J)Lorg/apache/bookkeeper/api/kv/impl/result/RangeResultImpl;*I
+G
+resultFactory6org.apache.bookkeeper.api.kv.impl.result.ResultFactory*
+""2newRangeResult(J)°­
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javal l(&
+
+%1long"Corg.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse#getCount()J*E
+C
+response7org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse2
+getCount()£ 
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javak l('>
+%28org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl"{org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl#count(J)Lorg/apache/bookkeeper/api/kv/impl/result/RangeResultImpl;*@
+>
+%08org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl*
+
+
+%1long2count(J)±®
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javam m($
+%3boolean"Borg.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse#getMore()Z*E
+C
+response7org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse2	getMore()¤¡
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javak m(%>
+%48org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl"zorg.apache.bookkeeper.api.kv.impl.result.RangeResultImpl#more(Z)Lorg/apache/bookkeeper/api/kv/impl/result/RangeResultImpl;*@
+>
+%28org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl*
+
+%3boolean2more(Z)ÍÊ
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javan$ n(9
+%5java.util.List"Torg.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse#getKvsList()Ljava/util/List;*E
+C
+response7org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse2getKvsList()Õ
+Ò
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javan n(E
+%6java.util.List"œorg.apache.bookkeeper.clients.impl.kv.KvUtils#fromProtoKeyValues(Ljava/util/List;Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueFactory;)Ljava/util/List;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils*
+
+%5java.util.List*G
+E
+	kvFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactoryÈÅ
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javak n(F>
+%78org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl"ˆorg.apache.bookkeeper.api.kv.impl.result.RangeResultImpl#kvs(Ljava/util/List;)Lorg/apache/bookkeeper/api/kv/impl/result/RangeResultImpl;*@
+>
+%48org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl*
+
+%6java.util.List2kvs(Ljava/util/List;)"Ë
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javak n(G@
+>
+%78org.apache.bookkeeper.api.kv.impl.result.RangeResultImpl:C
+response7org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse:G
+resultFactory6org.apache.bookkeeper.api.kv.impl.result.ResultFactory:E
+	kvFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactoryB1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils

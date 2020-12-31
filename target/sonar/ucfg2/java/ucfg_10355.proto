@@ -1,0 +1,215 @@
+
+morg.apache.bookkeeper.meta.LedgerMetadataSerDe#serialize(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)[BÑ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaÇ Ç("7*ÿ
+2Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaô ô(±
+Æ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaô ô(
+%18org.slf4j.Logger"__id*
+""íè
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaô ô(T
+%19void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%18org.slf4j.Logger*!
+Serialized with format {}: {}*
+""*#
+!
+serializedStrjava.lang.String2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+1*ˆ
+3Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaó+ ó(5π
+∂
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaó7 ó(<
+%15java.nio.charset.Charset"__id*
+""µ≤
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaó$ ó(*
+%16java.lang.String"java.lang.Stringü
+ú
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaó  ó(=
+%17"6java.lang.String#<init>([BLjava/nio/charset/Charset;)V*
+
+%16java.lang.String*
+
+
+serializedbyte[]*!
+
+%15java.nio.charset.CharsetŒ
+À
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaó ó(=!
+serializedStrjava.lang.String"__id*
+
+%16java.lang.String*
+2*ë
+4Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaï  ï(&˙
+˜
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaï  ï(3
+%13java.util.Base64$Encoder"7java.util.Base64#getEncoder()Ljava/util/Base64$Encoder;*"
+java.util.Base64±Æ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaï  ï(N
+%14java.lang.String"=java.util.Base64$Encoder#encodeToString([B)Ljava/lang/String;*!
+
+%13java.util.Base64$Encoder*
+
+
+serializedbyte[]2encodeToString([B)Œ
+À
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaï ï(N!
+serializedStrjava.lang.String"__id*
+
+%14java.lang.String*
+2*˜
+5Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaì ì(!ª
+∏
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaì ì(!!
+serializedStrjava.lang.String"__id*
+""§
+°
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaî  î(9
+
+%12int"__id*
+""*
+3
+4*¥
+6Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaí í(±
+Æ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaí í(
+%10org.slf4j.Logger"__id*
+""ÎË
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaí í( 
+%11boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%10org.slf4j.Logger2isDebugEnabled()*
+5
+1*ã
+7Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaÉ É($Ω∫
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaÉ É(?	
+%0int"Korg.apache.bookkeeper.client.api.LedgerMetadata#getMetadataFormatVersion()I*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getMetadataFormatVersion()Æ
+´
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaÑ Ñ( 
+
+serializedbyte[]"__id*
+""*
+8
+9
+10
+11*◊
+8Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaê/ ê(H—
+Œ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaê/ ê(X
+%7java.lang.String"__concat*
+Invalid format version *
+""ÿ’
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaê ê(.(
+%8"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionñ
+ì
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaê ê(Y
+%9">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V**
+(
+%8"java.lang.IllegalArgumentException*
+
+%7java.lang.String*
+0*Û
+9Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaå å(&£
+†
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaå å(&	
+%5int"__id*
+""Ç
+ˇ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaç ç(4
+%6byte[]"uorg.apache.bookkeeper.meta.LedgerMetadataSerDe#serializeVersion1(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)[B*2"0
+.org.apache.bookkeeper.meta.LedgerMetadataSerDe*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata∂
+≥
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaç ç(4
+
+serializedbyte[]"__id*
+
+%6byte[]*
+6*Ù
+10Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaâ â(&£
+†
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaâ â(&	
+%3int"__id*
+""Ç
+ˇ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaä ä(4
+%4byte[]"uorg.apache.bookkeeper.meta.LedgerMetadataSerDe#serializeVersion2(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)[B*2"0
+.org.apache.bookkeeper.meta.LedgerMetadataSerDe*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata∂
+≥
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaä ä(4
+
+serializedbyte[]"__id*
+
+%4byte[]*
+6*Ù
+11Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaÜ Ü(&£
+†
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaÜ Ü(&	
+%1int"__id*
+""Ç
+ˇ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaá á(4
+%2byte[]"uorg.apache.bookkeeper.meta.LedgerMetadataSerDe#serializeVersion3(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)[B*2"0
+.org.apache.bookkeeper.meta.LedgerMetadataSerDe*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata∂
+≥
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaá á(4
+
+serializedbyte[]"__id*
+
+%2byte[]*
+6*§
+0 "ú
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaú ú(
+implicit return*¨
+1Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaõ õ("ü
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerMetadataSerDe.javaõ õ(
+
+
+serializedbyte[]:;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadataB20
+.org.apache.bookkeeper.meta.LedgerMetadataSerDe

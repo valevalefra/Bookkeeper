@@ -1,0 +1,66 @@
+
+èorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#addNewSegmentAndDeleteOldSegment(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¥4 ¥(T"1*…
+1¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java§ §(Í
+Ê
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java§ §(
+%0org.slf4j.Logger"__id*
+""ú÷
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java§ §(I
+
+%1void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*!
+old segment {} new segment {}*<
+:
+
+oldSegment,org.apache.distributedlog.LogSegmentMetadata*<
+:
+
+newSegment,org.apache.distributedlog.LogSegmentMetadata2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)¬©
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¨" ¨(/0
+%2*org.apache.distributedlog.util.Transaction"{org.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#transaction()Lorg/apache/distributedlog/util/Transaction;*EC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater2transaction()”
+‘
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java¨ ¨(01
+txn*org.apache.distributedlog.util.Transaction"__id*2
+0
+%2*org.apache.distributedlog.util.TransactionÈÅ
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.java© ©(E
+
+%3void"íorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater#addNewSegmentAndDeleteOldSegment(Lorg/apache/distributedlog/util/Transaction;Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogSegmentMetadata;)V*EC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater*3
+1
+txn*org.apache.distributedlog.util.Transaction*<
+:
+
+newSegment,org.apache.distributedlog.LogSegmentMetadata*<
+:
+
+oldSegment,org.apache.distributedlog.LogSegmentMetadata2ªaddNewSegmentAndDeleteOldSegment(Lorg/apache/distributedlog/util/Transaction;Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogSegmentMetadata;)óð
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaª ª(,
+%4&java.util.concurrent.CompletableFuture"\org.apache.distributedlog.util.Transaction#execute()Ljava/util/concurrent/CompletableFuture;*3
+1
+txn*org.apache.distributedlog.util.Transaction2	execute()°­
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaª ª(=,
+%5&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%4&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)"Ô
+¡
+”/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/LogSegmentMetadataStoreUpdater.javaª ª(>.
+,
+%5&java.util.concurrent.CompletableFuture::
+
+newSegment,org.apache.distributedlog.LogSegmentMetadata::
+
+oldSegment,org.apache.distributedlog.LogSegmentMetadataBEC
+Aorg.apache.distributedlog.metadata.LogSegmentMetadataStoreUpdater

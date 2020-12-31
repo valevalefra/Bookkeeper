@@ -1,0 +1,64 @@
+
+worg.apache.distributedlog.BKLogWriteHandler#deleteLogSegments(Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÑ	8 Ñ	(I"3*°
+2Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÔ	 Ô	(¶
+³
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÔ	 Ô	(
+%2org.slf4j.Logger"__id*
+""ÄÁ
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÔ	2 Ô	(I
+%3java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*/-
++org.apache.distributedlog.BKLogWriteHandler2getFullyQualifiedName()˜•
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÔ	 Ô	(P
+
+%4void"Oorg.slf4j.Logger#trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%2org.slf4j.Logger*
+Purging logs for {} : {}*
+
+%3java.lang.String*
+
+logsjava.util.List2=trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+1*Ã
+3Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÓ	 Ó	(¶
+³
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÓ	 Ó	(
+%0org.slf4j.Logger"__id*
+""ïì
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÓ	 Ó	( 
+%1boolean""org.slf4j.Logger#isTraceEnabled()Z*
+
+%0org.slf4j.Logger2isTraceEnabled()*
+2
+1*ú
+1Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÖ	 Ö	(
+
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java×	2 ×	(;8
+%52org.apache.bookkeeper.common.util.OrderedScheduler"__id*>*<-
++org.apache.distributedlog.BKLogWriteHandler"
+	scheduler”
+‘
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÖ	 ×	(<,
+%6&java.util.concurrent.CompletableFuture"¼org.apache.bookkeeper.common.concurrent.FutureUtils#processList(Ljava/util/List;Ljava/util/function/Function;Ljava/util/concurrent/ExecutorService;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*
+
+logsjava.util.List*
+""*:
+8
+%52org.apache.bookkeeper.common.util.OrderedScheduler"½
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÖ	 ×	(=.
+,
+%6&java.util.concurrent.CompletableFuture:
+logsjava.util.ListB/-
++org.apache.distributedlog.BKLogWriteHandler

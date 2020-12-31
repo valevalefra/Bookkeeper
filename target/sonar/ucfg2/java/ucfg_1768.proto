@@ -1,0 +1,123 @@
+
+ôorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#processRangeResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/api/kv/result/RangeResult;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse;•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaµ µ(+"1*ô@
+1•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java· ·('ûø
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java· ·(1$
+%0com.google.protobuf.ByteString"aorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getRKey()Lcom/google/protobuf/ByteString;*J
+H
+routingHeader7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2	getRKey()ñ
+î
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java· ·(2&
+rKeycom.google.protobuf.ByteString"__id*&
+$
+%0com.google.protobuf.ByteString§
+¤
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¸ ¸()E
+%1?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder"…org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse$Builder;*;"9
+7org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse§¤
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¹ ¹($
+
+%2long"8org.apache.bookkeeper.api.kv.result.RangeResult#count()J*;
+9
+result/org.apache.bookkeeper.api.kv.result.RangeResult2count()ÕÒ
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¸ ¹(%E
+%3?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder"Œorg.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder#setCount(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse$Builder;*G
+E
+%1?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder*
+
+
+%2long2setCount(J)«
+¨
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaº º(2F
+%4@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"‡org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*<":
+8org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeaderíê
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java». »(;.
+%5(org.apache.bookkeeper.api.kv.result.Code"[org.apache.bookkeeper.api.kv.result.Result#code()Lorg/apache/bookkeeper/api/kv/result/Code;*;
+9
+result/org.apache.bookkeeper.api.kv.result.RangeResult2code()ƒ
+€
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java» »(<;
+%65org.apache.bookkeeper.stream.proto.storage.StatusCode"´org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#mvccCodeToStatusCode(Lorg/apache/bookkeeper/api/kv/result/Code;)Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;*@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*0
+.
+%5(org.apache.bookkeeper.api.kv.result.Codeôñ
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaº »(=F
+%7@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"Ãorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
+F
+%4@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*=
+;
+%65org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)—”
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaº ¼(0F
+%8@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"Îorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
+F
+%7@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*J
+H
+routingHeader7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2KsetRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)³°
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaº ½(>
+%98org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader"‚org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;*H
+F
+%8@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder2build()þû
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¸ ½(F
+%10?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder"Æorg.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder#setHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse$Builder;*G
+E
+%3?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder*@
+>
+%98org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader2EsetHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)½º
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¾' ¾(3
+%11java.util.List"Eorg.apache.bookkeeper.api.kv.result.RangeResult#kvs()Ljava/util/List;*;
+9
+result/org.apache.bookkeeper.api.kv.result.RangeResult2kvs()æ
+ã
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¾ ¾(Q
+%12java.util.List"lcom.google.common.collect.Lists#transform(Ljava/util/List;Lcom/google/common/base/Function;)Ljava/util/List;*#"!
+com.google.common.collect.Lists*
+
+%11java.util.List*
+""Š‡
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¸ ¾(RF
+%13?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder" org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder#addAllKvs(Ljava/lang/Iterable;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse$Builder;*H
+F
+%10?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder*
+
+%12java.util.List2addAllKvs(Ljava/lang/Iterable;)©¦
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¿ ¿("
+%14boolean"7org.apache.bookkeeper.api.kv.result.RangeResult#more()Z*;
+9
+result/org.apache.bookkeeper.api.kv.result.RangeResult2more()ÙÖ
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¸ ¿(#F
+%15?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder"‹org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder#setMore(Z)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse$Builder;*H
+F
+%13?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder*
+
+%14boolean2
+setMore(Z)±®
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¸ À(>
+%167org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse"€org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeResponse;*H
+F
+%15?org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse$Builder2build()"Ú
+•
+ˆ/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.java¸ À(@
+>
+%167org.apache.bookkeeper.stream.proto.kv.rpc.RangeResponse:H
+routingHeader7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader:9
+result/org.apache.bookkeeper.api.kv.result.RangeResultB@">
+<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils

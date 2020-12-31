@@ -1,0 +1,109 @@
+
+êorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#deleteRange(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java…4 …(?"startingBlock*£
+startingBlockä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java…? …(P«
+ƒ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java» »(
+%10"
+__annotate*
+java.lang.Override*
+
+
+keyK±
+Æ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java…B …(E
+keyK"__annotation*
+
+%10 
+«
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java» »(
+%11"
+__annotate*
+java.lang.Override*
+
+endKeyK¥
+±
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java…I …(O
+endKeyK"__annotation*
+
+%11*
+1*ú&
+1ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java   ((ˇ¸
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java   (*/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()ˇ¸
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Ã(/
+%1)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()˝˙
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Ã(*8
+%22org.apache.bookkeeper.api.kv.options.OptionFactory"morg.apache.bookkeeper.api.kv.op.OpFactory#optionFactory()Lorg/apache/bookkeeper/api/kv/options/OptionFactory;*1
+/
+%1)org.apache.bookkeeper.api.kv.op.OpFactory2optionFactory()üú
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Ã(<>
+%38org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"~org.apache.bookkeeper.api.kv.options.OptionFactory#newDeleteOption()Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*:
+8
+%22org.apache.bookkeeper.api.kv.options.OptionFactory2newDeleteOption()Õ 
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Õ(>
+%48org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"çorg.apache.bookkeeper.api.kv.options.DeleteOptionBuilder#endKey(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*@
+>
+%38org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder*
+
+endKeyK2endKey(Ljava/lang/Object;)£†
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Œ(>
+%58org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder"|org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder#prevKv(Z)Lorg/apache/bookkeeper/api/kv/options/DeleteOptionBuilder;*@
+>
+%48org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder*
+""2	prevKv(Z)‹Ÿ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ œ(7
+%61org.apache.bookkeeper.api.kv.options.DeleteOption"Forg.apache.bookkeeper.api.kv.options.Builder#build()Ljava/lang/Object;*@
+>
+%58org.apache.bookkeeper.api.kv.options.DeleteOptionBuilder2build()≥∞
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java  œ(.
+%7(org.apache.bookkeeper.api.kv.op.DeleteOp"§org.apache.bookkeeper.api.kv.op.OpFactory#newDelete(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/DeleteOption;)Lorg/apache/bookkeeper/api/kv/op/DeleteOp;*1
+/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory*
+
+
+keyK*9
+7
+%61org.apache.bookkeeper.api.kv.options.DeleteOption2PnewDelete(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/DeleteOption;)¯
+ı
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java  œ(.
+op(org.apache.bookkeeper.api.kv.op.DeleteOp"__id*0
+.
+%7(org.apache.bookkeeper.api.kv.op.DeleteOp˝˙
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java– –(,
+%8&java.util.concurrent.CompletableFuture"öorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStoreWriteView#delete(Lorg/apache/bookkeeper/api/kv/op/DeleteOp;)Ljava/util/concurrent/CompletableFuture;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*0
+.
+op(org.apache.bookkeeper.api.kv.op.DeleteOp22delete(Lorg/apache/bookkeeper/api/kv/op/DeleteOp;)ùö
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java– ‹(
+,
+%9&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%8&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"Ω
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java– ‹(.
+,
+%9&java.util.concurrent.CompletableFuture:
+keyK:
+endKeyKB:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore

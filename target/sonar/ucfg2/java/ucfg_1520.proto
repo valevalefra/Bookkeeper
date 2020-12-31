@@ -1,0 +1,50 @@
+
+­org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#doIncrement(Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;)Ljava/util/concurrent/CompletableFuture;”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÎ? Î(J"1*ª
+1”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÏ) Ï(9°­
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÏ: Ï(M=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest#getHeader()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;*G
+E
+request:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest2getHeader()‹
+ˆ
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÏ) Ï(W1
+%1+org.apache.bookkeeper.api.kv.op.IncrementOp"ðorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#buildIncrementOp(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;)Lorg/apache/bookkeeper/api/kv/op/IncrementOp;*?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl*?
+=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader*G
+E
+request:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequestˆ
+…
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÏ Ï(X1
+op+org.apache.bookkeeper.api.kv.op.IncrementOp"__id*3
+1
+%1+org.apache.bookkeeper.api.kv.op.IncrementOpª
+§
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÐ Ð(<
+%26org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
+storeš—
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÐ Ð(",
+%3&java.util.concurrent.CompletableFuture" org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStoreWriteView#increment(Lorg/apache/bookkeeper/api/kv/op/IncrementOp;)Ljava/util/concurrent/CompletableFuture;*>
+<
+%26org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*3
+1
+op+org.apache.bookkeeper.api.kv.op.IncrementOp28increment(Lorg/apache/bookkeeper/api/kv/op/IncrementOp;)­ª
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÐ Ñ(E,
+%4&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%3&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)"Ç
+”
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaÐ Ñ(F.
+,
+%4&java.util.concurrent.CompletableFuture:E
+request:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequestB?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl

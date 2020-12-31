@@ -1,0 +1,54 @@
+
+áorg.apache.bookkeeper.common.concurrent.FutureUtils#within(Ljava/util/concurrent/CompletableFuture;JLjava/util/concurrent/TimeUnit;Ljava/lang/Throwable;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaè+ è(1"2"3*”
+2â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javañ ñ("¡
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javañ ñ(3
+1
+promise&java.util.concurrent.CompletableFuture*©
+3â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaï ï("èå
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaï ï(+
+%0boolean"0java.util.concurrent.CompletableFuture#isDone()Z*3
+1
+promise&java.util.concurrent.CompletableFuture2isDone()*
+2
+1*ä
+1â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaô= ô(Fñì
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaô= ù(*
+%1$java.util.concurrent.ScheduledFuture"Ãorg.apache.bookkeeper.common.util.OrderedScheduler#scheduleOrdered(Ljava/lang/Object;Lorg/apache/bookkeeper/common/util/SafeRunnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;*A
+?
+	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler*
+
+keyjava.lang.Object*
+""*
+""*'
+%
+unitjava.util.concurrent.TimeUnit2sscheduleOrdered(Ljava/lang/Object;Lorg/apache/bookkeeper/common/util/SafeRunnable;JLjava/util/concurrent/TimeUnit;)Ò
+Ó
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaô ù(,
+task$java.util.concurrent.ScheduledFuture"__id*,
+*
+%1$java.util.concurrent.ScheduledFutureß§
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.javaü §(	,
+%2&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*3
+1
+promise&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)"¡
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/concurrent/FutureUtils.java• •(3
+1
+promise&java.util.concurrent.CompletableFuture:1
+promise&java.util.concurrent.CompletableFuture:
+"":%
+unitjava.util.concurrent.TimeUnit:
+causejava.lang.Throwable:?
+	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler:
+keyjava.lang.ObjectB7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils

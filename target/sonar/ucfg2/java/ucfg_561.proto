@@ -1,0 +1,51 @@
+
+°org.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal#replayJournal(Lorg/apache/distributedlog/DLSN;)Ljava/util/concurrent/CompletableFuture;û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.java≠$ ≠(1"1*§
+1û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaÆ Æ(&°
+û
+û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaÆ Æ(&
+%0LocalStateStoreT"__id*]*[K
+Iorg.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal"
+
+localStoreüú
+û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaÆ Æ(8
+
+%1long"@org.apache.bookkeeper.statelib.api.StateStore#getLastRevision()J*
+
+%0LocalStateStoreT2getLastRevision()ƒ
+¡
+û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaØ Ø(9
+%23org.apache.distributedlog.api.DistributedLogManager"__id*]*[K
+Iorg.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal"
+
+logManager°û
+û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaØ Ø(:,
+%3&java.util.concurrent.CompletableFuture"qorg.apache.distributedlog.api.DistributedLogManager#openAsyncLogReader(J)Ljava/util/concurrent/CompletableFuture;*;
+9
+%23org.apache.distributedlog.api.DistributedLogManager*
+""2openAsyncLogReader(J)ƒ
+¡
+û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaª ª(3
+%4-java.util.concurrent.ScheduledExecutorService"__id*c*aK
+Iorg.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal"
+writeIOScheduler±Æ
+û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaØ ª( ,
+%5&java.util.concurrent.CompletableFuture"ùjava.util.concurrent.CompletableFuture#thenComposeAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%3&java.util.concurrent.CompletableFuture*
+""*5
+3
+%4-java.util.concurrent.ScheduledExecutorService2NthenComposeAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)"—
+û
+ë/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/journal/AbstractStateStoreWithJournal.javaØ ª(!.
+,
+%5&java.util.concurrent.CompletableFuture:)
+endDLSNorg.apache.distributedlog.DLSNBMK
+Iorg.apache.bookkeeper.statelib.impl.journal.AbstractStateStoreWithJournal

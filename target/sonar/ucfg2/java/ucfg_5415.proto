@@ -1,0 +1,187 @@
+
+Xorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage#deleteLedger(J)Vž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¶ ¶("11*â	
+2ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaË" Ë(:Ú
+×
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaË" Ë(:C
+%19<org.apache.bookkeeper.util.collections.ConcurrentLongHashMap"__id*i*gI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+transientLedgerInfoCacheš
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaË" Ë(KC
+%20<org.apache.bookkeeper.bookie.storage.ldb.TransientLedgerInfo"Xorg.apache.bookkeeper.util.collections.ConcurrentLongHashMap#remove(J)Ljava/lang/Object;*E
+C
+%19<org.apache.bookkeeper.util.collections.ConcurrentLongHashMap*
+""2	remove(J)¶
+³
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaË Ë(LC
+tli<org.apache.bookkeeper.bookie.storage.ldb.TransientLedgerInfo"__id*E
+C
+%20<org.apache.bookkeeper.bookie.storage.ldb.TransientLedgerInfo*
+0
+1*ª
+4ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÇ. Ç(EÆ
+Ã
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÇ. Ç(E0
+%16)java.util.concurrent.CopyOnWriteArrayList"__id*h*fI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+ledgerDeletionListenersöó
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÇ. Ç(LH
+%17Aorg.apache.bookkeeper.bookie.LedgerStorage$LedgerDeletionListener"Bjava.util.concurrent.CopyOnWriteArrayList#get(I)Ljava/lang/Object;*2
+0
+%16)java.util.concurrent.CopyOnWriteArrayList*
+""2get(I)Å
+Â
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÇ Ç(MM
+listenerAorg.apache.bookkeeper.bookie.LedgerStorage$LedgerDeletionListener"__id*J
+H
+%17Aorg.apache.bookkeeper.bookie.LedgerStorage$LedgerDeletionListenerñî
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÈ È(,
+%18void"Sorg.apache.bookkeeper.bookie.LedgerStorage$LedgerDeletionListener#ledgerDeleted(J)V*O
+M
+listenerAorg.apache.bookkeeper.bookie.LedgerStorage$LedgerDeletionListener*
+""2ledgerDeleted(J)*
+2
+4*é
+6ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÃ Ã(Ó
+Ð
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÃ Ã(B
+%10;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex"__id*c*aI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+entryLocationIndexÒÏ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÃ Ã(+
+%11void"Forg.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex#delete(J)V*D
+B
+%10;org.apache.bookkeeper.bookie.storage.ldb.EntryLocationIndex*
+""2	delete(J)Í
+Ê
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÄ Ä(C
+%12<org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex"__id*\*ZI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+ledgerIndexÔÑ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÄ Ä($
+%13void"Gorg.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex#delete(J)V*E
+C
+%12<org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex*
+""2	delete(J)Æ
+Ã
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÆ Æ(60
+%14)java.util.concurrent.CopyOnWriteArrayList"__id*h*fI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+ledgerDeletionListenersŸœ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÆ Æ(=
+
+%15int"1java.util.concurrent.CopyOnWriteArrayList#size()I*2
+0
+%14)java.util.concurrent.CopyOnWriteArrayList2size()*
+2
+4*¡
+7ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÀ À("Á
+¾
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÀ À(",
+%8&java.util.concurrent.locks.StampedLock"__id*g*eI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+writeCacheRotationLock®«
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÀ À(4
+
+%9void"5java.util.concurrent.locks.StampedLock#unlockRead(J)V*.
+,
+%8&java.util.concurrent.locks.StampedLock*
+""2unlockRead(J)*
+6
+0*½
+8ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¾ ¾(Â
+¿
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¾ ¾(9
+%63org.apache.bookkeeper.bookie.storage.ldb.WriteCache"__id*[*YI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+
+writeCacheÌÉ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¾ ¾(-
+
+%7void"Dorg.apache.bookkeeper.bookie.storage.ldb.WriteCache#deleteLedger(J)V*;
+9
+%63org.apache.bookkeeper.bookie.storage.ldb.WriteCache*
+""2deleteLedger(J)*
+7*
+9ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¼ ¼(+Á
+¾
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¼ ¼(+,
+%4&java.util.concurrent.locks.StampedLock"__id*g*eI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"
+writeCacheRotationLock 
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¼ ¼(6
+
+%5long"2java.util.concurrent.locks.StampedLock#readLock()J*.
+,
+%4&java.util.concurrent.locks.StampedLock2
+readLock()*
+8*Ð
+10ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¸ ¸(Ê
+Ç
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¸ ¸(
+%2org.slf4j.Logger"__id*
+""ÖÓ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java¸ ¸(5
+
+%3void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%2org.slf4j.Logger*
+Deleting ledger {}*
+""2+debug(Ljava/lang/String;Ljava/lang/Object;)*
+9*
+11ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java· ·(Ê
+Ç
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java· ·(
+%0org.slf4j.Logger"__id*
+""ƒ€
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.java· ·( 
+%1boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%0org.slf4j.Logger2isDebugEnabled()*
+9
+10*¾
+0 "¶
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÏ Ï(
+implicit return*ô
+1ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÍ Í(ÈÅ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage.javaÍ Í(
+%21void"Eorg.apache.bookkeeper.bookie.storage.ldb.TransientLedgerInfo#close()V*E
+C
+tli<org.apache.bookkeeper.bookie.storage.ldb.TransientLedgerInfo2close()*
+0:
+""BKI
+Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage

@@ -1,0 +1,580 @@
+
+∏org.apache.bookkeeper.server.http.service.ReadLedgerEntryService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java> >(%"startingBlock*è
+13ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaX# X(3Á
+‰
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaX X(3
+startEntryIdjava.lang.Long"__id*$
+"
+startIndexInPagejava.lang.Long*
+9
+10*Õ
+24ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaBP B(V•¢
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaBP B(o
+%6boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+	ledger_id2containsKey(Ljava/lang/Object;)*
+1
+23*Õ
+15ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaT) T(2¿
+Ω
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaT: T(I
+%21java.lang.Long"__id*
+""Õ
+ 
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaT T(J"
+startIndexInPagejava.lang.Long"__id*
+""¿
+Ω
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaU9 U(H
+%22java.lang.Long"__id*
+""À
+»
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaU U(M 
+endIndexInPagejava.lang.Long"__id*
+""*
+13
+9
+10*Ö
+26ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java?' ?(@ëé
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java?+ ?(><
+%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponse£
+†
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java?' ?(@
+%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponse•
+¢
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java? ?(AB
+response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponse”–
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java@% @(8
+%2java.util.Map"Porg.apache.bookkeeper.http.service.HttpServiceRequest#getParams()Ljava/util/Map;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getParams()—
+Œ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java@ @(9
+paramsjava.util.Map"__id*
+
+%2java.util.Map›
+⁄
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaB B(2
+%3,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""›
+⁄
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaB B(!2
+%4,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""ëé
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaB% B(82
+%5,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
+24
+1*˙
+16ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQ Q(gœ
+Ã
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQ Q(g
+	pageIndexjava.lang.Integer"__id*
+
+
+%17int*
+
+15
+5
+6*‡
+17ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQe Q(fª
+∏
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQd Q(f
+
+%17int"__id*
+
+
+%19int*
+16*”
+18ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQ= Q(D„
+‡
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQN Q(`
+%20java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+pageä
+á
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQ= Q(a
+
+%18int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%20java.lang.Stringª
+∏
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQ= Q(a
+
+%17int"__id*
+
+
+%18int*
+16*ø
+19ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaN) N(-ô
+ñ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaN) N(:
+%15java.util.HashMap">com.google.common.collect.Maps#newHashMap()Ljava/util/HashMap;*"" 
+com.google.common.collect.Maps÷
+”
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaN N(;
+outputjava.util.Map"__id*
+
+%15java.util.HashMap°û
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaQ  Q(:
+%16boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+page2containsKey(Ljava/lang/Object;)*
+17
+18*†
+1ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javas s(‚
+ﬂ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javas s(27
+%550org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""‚
+ﬂ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javas s(<7
+%560org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""≈¬
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javas s(==
+%576org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%560org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)èå
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javat t(_=
+%586org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*CA
+?Not found method. Should be GET method, with ledger_id provided2setBody(Ljava/lang/String;)"ﬁ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javau u(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*†
+2ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javam" m(*ÿ
+’
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javam" m(9
+%47java.lang.String"Worg.apache.bookkeeper.common.util.JsonUtil#toJson(Ljava/lang/Object;)Ljava/lang/String;*.",
+*org.apache.bookkeeper.common.util.JsonUtil*
+
+outputjava.util.Mapﬁ
+€
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javam m(: 
+jsonResponsejava.lang.String"__id*
+
+%47java.lang.String¬
+ø
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javan n(
+%48org.slf4j.Logger"__id*
+""Ù
+Ò
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javan n(3
+%49java.lang.String"__concat*
+output body:*"
+ 
+jsonResponsejava.lang.String¶£
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javan n(4
+%50void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
+
+%48org.slf4j.Logger*
+
+%49java.lang.String2debug(Ljava/lang/String;)ÓÎ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javao o(*=
+%516org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*"
+ 
+jsonResponsejava.lang.String2setBody(Ljava/lang/String;)‚
+ﬂ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javap p(27
+%520org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""‚
+ﬂ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javap p(57
+%530org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""≈¬
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javap p(6=
+%546org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%530org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)"ﬁ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaq q(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*˙
+3ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javai$ i(+¢ü
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javai$ i(2/
+%38(org.apache.bookkeeper.client.LedgerEntry"+java.util.Iterator#next()Ljava/lang/Object;*
+
+entriesjava.util.Iterator2next()á
+Ñ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javai i(31
+entry(org.apache.bookkeeper.client.LedgerEntry"__id*1
+/
+%38(org.apache.bookkeeper.client.LedgerEntry£†
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaj( j(:
+%39long"6org.apache.bookkeeper.client.LedgerEntry#getEntryId()J*3
+1
+entry(org.apache.bookkeeper.client.LedgerEntry2getEntryId()Ä
+˝
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaj j(;
+%40java.lang.Long")java.lang.Long#valueOf(J)Ljava/lang/Long;*"
+java.lang.Long*
+
+%39longÜÉ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaj j(F
+%41java.lang.String"+java.lang.Long#toString()Ljava/lang/String;*
+
+%40java.lang.Long2
+toString()¢ü
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javajS j(c
+%42byte[]"5org.apache.bookkeeper.client.LedgerEntry#getEntry()[B*3
+1
+entry(org.apache.bookkeeper.client.LedgerEntry2
+getEntry() 
+«
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaje j(m
+%43java.nio.charset.Charset"__id*
+""∆√
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javajL j(R
+%44java.lang.String"java.lang.String©
+¶
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javajH j(n
+%45"6java.lang.String#<init>([BLjava/nio/charset/Charset;)V*
+
+%44java.lang.String*
+
+%42byte[]*!
+
+%43java.nio.charset.Charsetè
+å
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaj j(o
+%46java.lang.String"__mapSet*
+
+outputjava.util.Map*
+
+%41java.lang.String*
+
+%44java.lang.String*
+4*±
+startingBlockï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java>% >(Aä
+á
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java= =(
+%59"
+__annotate*
+java.lang.Override*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestÙ
+Ò
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java>9 >(@@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
+
+%59*
+26*ú
+4ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javah h(ˆÛ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javah h($
+%37boolean"java.util.Iterator#hasNext()Z*
+
+entriesjava.util.Iterator2	hasNext()*
+2
+3*Ú
+
+5ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javag, g(/•
+¢
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javag, g(/3
+%34,org.apache.bookkeeper.client.BookKeeperAdmin"__id*M*KB
+@org.apache.bookkeeper.server.http.service.ReadLedgerEntryService"
+bka≤Ø
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javag, g(_
+%35java.lang.Iterable"Qorg.apache.bookkeeper.client.BookKeeperAdmin#readEntries(JJJ)Ljava/lang/Iterable;*5
+3
+%34,org.apache.bookkeeper.client.BookKeeperAdmin*
+
+ledgerIdjava.lang.Long* 
+
+startEntryIdjava.lang.Long*
+
+
+endEntryIdjava.lang.Long2readEntries(JJJ)íè
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javag, g(j
+%36java.util.Iterator"1java.lang.Iterable#iterator()Ljava/util/Iterator;*
+
+%35java.lang.Iterable2
+iterator()›
+⁄
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javag g(k
+entriesjava.util.Iterator"__id*
+
+%36java.util.Iterator*
+4*‚
+6ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaa a(‚
+ﬂ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaa! a(67
+%250org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""‚
+ﬂ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaa! a(E7
+%260org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""≈¬
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaa a(F=
+%276org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%260org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Ñ
+Å
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javab! b(P
+%28java.lang.String"__concat*" 
+parameter for start_entry_id: * 
+
+startEntryIdjava.lang.LongÚ
+Ô
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javab! c(+
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+ and end_entry_id: ˘
+ˆ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javab! c(8
+%30java.lang.String"__concat*
+
+%29java.lang.String*
+
+
+endEntryIdjava.lang.LongÛ
+
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javab! c(Q
+%31java.lang.String"__concat*
+
+%30java.lang.String*
+ conflict with page=˚
+¯
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javab! c(]
+%32java.lang.String"__concat*
+
+%31java.lang.String* 
+
+	pageIndexjava.lang.IntegerÂ‚
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javab c(^=
+%336org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*
+
+%32java.lang.String2setBody(Ljava/lang/String;)"ﬁ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javad d( D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*«
+9ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java] ](íè
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java]1 ](E
+%23java.lang.String".java.lang.Integer#toString()Ljava/lang/String;* 
+
+	pageIndexjava.lang.Integer2
+toString()å
+â
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java] ](F
+%24java.lang.String"__mapSet*
+
+outputjava.util.Map*
+Entries for page: *
+
+%23java.lang.String*
+5
+6*Í
+20ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaJ J(!Î
+Ë
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaJ, J(F
+%13java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+end_entry_idÜ
+É
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaJ J(G
+%14long"-java.lang.Long#parseLong(Ljava/lang/String;)J*"
+java.lang.Long*
+
+%13java.lang.StringŒ
+À
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaJ J(G
+
+endEntryIdjava.lang.Long"__id*
+
+%14long*
+19*“
+21ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaI I(©¶
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaI I(2
+%12boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+end_entry_id2containsKey(Ljava/lang/Object;)*
+19
+20*á
+10ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java[! [(/„
+‡
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.java[ [(/
+
+endEntryIdjava.lang.Long"__id*"
+ 
+endIndexInPagejava.lang.Long*
+9*Ó
+22ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaG G(#Ì
+Í
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaG. G(J
+%10java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+start_entry_idÜ
+É
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaG G(K
+%11long"-java.lang.Long#parseLong(Ljava/lang/String;)J*"
+java.lang.Long*
+
+%10java.lang.String–
+Õ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaG G(K
+startEntryIdjava.lang.Long"__id*
+
+%11long*
+21*®
+23ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaC C( Á
+‰
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaC+ C(B
+%7java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+	ledger_idÑ
+Å
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaC C(C
+
+%8long"-java.lang.Long#parseLong(Ljava/lang/String;)J*"
+java.lang.Long*
+
+%7java.lang.StringÀ
+»
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaC C(D
+ledgerIdjava.lang.Long"__id*
+
+
+%8long…
+∆
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaD D(#
+startEntryIdjava.lang.Long"__id*
+""«
+ƒ
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaE E("
+
+endEntryIdjava.lang.Long"__id*
+""™ß
+ï
+ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ReadLedgerEntryService.javaF F(4
+%9boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+start_entry_id2containsKey(Ljava/lang/Object;)*
+21
+22:@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestBDB
+@org.apache.bookkeeper.server.http.service.ReadLedgerEntryService

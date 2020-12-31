@@ -1,0 +1,125 @@
+
+êorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaﬂ! ﬂ(,"startingBlock*ï
+startingBlockä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaﬂ, ﬂ(6≈
+¬
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaﬁ ﬁ(
+%12"
+__annotate*
+java.lang.Override*
+
+kKØ
+¨
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaﬂ/ ﬂ(0
+kK"__annotation*
+
+%12≈
+¬
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaﬁ ﬁ(
+%13"
+__annotate*
+java.lang.Override*
+
+vVØ
+¨
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaﬂ4 ﬂ(5
+vV"__annotation*
+
+%13*
+1*ç-
+1ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ ‡(%ˇ¸
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ ‡('/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()„‡
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ ‡(02
+%1,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"`org.apache.bookkeeper.api.kv.op.OpFactory#newTxn()Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*1
+/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory2newTxn()”
+–
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java·  ·(33
+%2-org.apache.bookkeeper.api.kv.op.CompareResult"__id*
+""ıÚ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java· ·(=/
+%3)org.apache.bookkeeper.api.kv.op.CompareOp"∆org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newCompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/CompareOp;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*5
+3
+%2-org.apache.bookkeeper.api.kv.op.CompareResult*
+
+kK*
+""2dnewCompareValue(Lorg/apache/bookkeeper/api/kv/op/CompareResult;Ljava/lang/Object;Ljava/lang/Object;)ÌÍ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ ·(>2
+%4,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"ãorg.apache.bookkeeper.api.kv.op.TxnOpBuilder#If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*4
+2
+%1,org.apache.bookkeeper.api.kv.op.TxnOpBuilder*1
+/
+%3)org.apache.bookkeeper.api.kv.op.CompareOp20If([Lorg/apache/bookkeeper/api/kv/op/CompareOp;)»≈
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‚ ‚(+
+%5%org.apache.bookkeeper.api.kv.op.PutOp"äorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newPut(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/PutOp;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*
+
+kK*
+
+vV2,newPut(Ljava/lang/Object;Ljava/lang/Object;)ﬂ‹
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ ‚(2
+%6,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"Üorg.apache.bookkeeper.api.kv.op.TxnOpBuilder#Then([Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*4
+2
+%4,org.apache.bookkeeper.api.kv.op.TxnOpBuilder*-
++
+%5%org.apache.bookkeeper.api.kv.op.PutOp2+Then([Lorg/apache/bookkeeper/api/kv/op/Op;)ùö
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java„ „(-
+%7'org.apache.bookkeeper.api.kv.op.RangeOp"zorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newGet(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/RangeOp;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*
+
+kK2newGet(Ljava/lang/Object;)·ﬁ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ „(2
+%8,org.apache.bookkeeper.api.kv.op.TxnOpBuilder"Üorg.apache.bookkeeper.api.kv.op.TxnOpBuilder#Else([Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/op/TxnOpBuilder;*4
+2
+%6,org.apache.bookkeeper.api.kv.op.TxnOpBuilder*/
+-
+%7'org.apache.bookkeeper.api.kv.op.RangeOp2+Else([Lorg/apache/bookkeeper/api/kv/op/Op;)Ÿ÷
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ ‰(+
+%9%org.apache.bookkeeper.api.kv.op.TxnOp"[org.apache.bookkeeper.api.kv.op.TxnOpBuilder#build()Lorg/apache/bookkeeper/api/kv/op/TxnOp;*4
+2
+%8,org.apache.bookkeeper.api.kv.op.TxnOpBuilder2build()Ú
+Ô
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java‡ ‰(+
+op%org.apache.bookkeeper.api.kv.op.TxnOp"__id*-
++
+%9%org.apache.bookkeeper.api.kv.op.TxnOpÔÏ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÂ Â(-
+%10&java.util.concurrent.CompletableFuture"îorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStoreWriteView#txn(Lorg/apache/bookkeeper/api/kv/op/TxnOp;)Ljava/util/concurrent/CompletableFuture;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*-
++
+op%org.apache.bookkeeper.api.kv.op.TxnOp2,txn(Lorg/apache/bookkeeper/api/kv/op/TxnOp;)üú
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÂ ˚(
+-
+%11&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%10&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"æ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÂ ˚(/
+-
+%11&java.util.concurrent.CompletableFuture:
+kK:
+vVB:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore

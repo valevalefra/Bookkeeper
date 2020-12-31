@@ -1,0 +1,256 @@
+
+>org.apache.bookkeeper.verifier.BookkeeperVerifier#startRead()Z‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java«! «(*"13"12*à
+13‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java­ ­(¶
+³
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java­ ­(
+%0java.io.PrintStream"__id*
+""þ
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java­ ­(P
+%1java.io.PrintStream"Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;*
+
+%0java.io.PrintStream*31
+/Not starting another read, enough in progress%n2-format(Ljava/lang/String;[Ljava/lang/Object;)"’
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¯ ¯(
+""*ª
+1‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÅ Å(o·
+´
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÆ Æ(
+%25java.io.PrintStream"__id*
+""Š
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÆ Æ([
+%26java.io.PrintStream"Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;*
+
+%25java.io.PrintStream*%#
+!Reading %d -> %d from ledger %d%n*
+""*
+""*
+""2-format(Ljava/lang/String;[Ljava/lang/Object;)ª
+§
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÇ Ç((K
+finalLedger<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo"__id*H
+F
+ledger<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfoº·
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÈ È(
+%27void"Horg.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo#incReads()V*H
+F
+ledger<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo2
+incReads()¡
+ž
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÉ É(I
+%28Borg.apache.bookkeeper.verifier.BookkeeperVerifier$BookkeeperDriver"__id*A*?3
+1org.apache.bookkeeper.verifier.BookkeeperVerifier"
+driver­ª
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÉ ò(
+
+%29void"sorg.apache.bookkeeper.verifier.BookkeeperVerifier$BookkeeperDriver#readEntries(JJJLjava/util/function/BiConsumer;)V*K
+I
+%28Borg.apache.bookkeeper.verifier.BookkeeperVerifier$BookkeeperDriver*
+""*
+""*
+""*
+""2/readEntries(JJJLjava/util/function/BiConsumer;)"’
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaô ô(
+""*Ä
+2‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÅW Å(\¯
+¬
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÅW Å(n
+%22long"__id*
+
+%24long*
+1*Ä
+3‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÅB Å(T¯
+¬
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÅB Å(T
+%22long"__id*
+
+%23long*
+1*º
+4‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÄ Ä(ï
+ì
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÄ Ä($
+%19java.util.Random"__id*A*?3
+1org.apache.bookkeeper.verifier.BookkeeperVerifier"
+opRandßÜ
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÄ Ä(/
+%20long"java.util.Random#nextLong()J*
+
+%19java.util.Random2
+nextLong()Î
+Ë
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÄ Ä(E
+%21long"java.lang.Math#abs(J)J*"
+java.lang.Math*
+""*
+2
+3*é
+5‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÀ À(·
+´
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÀ À(
+%17java.io.PrintStream"__id*
+""Š‡
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÀ À(`
+%18java.io.PrintStream"Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;*
+
+%17java.io.PrintStream*20
+.No readable entries in ledger %d, let's wait%n*
+""2-format(Ljava/lang/String;[Ljava/lang/Object;)"’
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaÂ Â(
+""*à
+6‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¾" ¾((ÈÅ
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¾" ¾(:
+%16long"Oorg.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo#getConfirmedLAC()J*H
+F
+ledger<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo2getConfirmedLAC()*
+4
+5*¢
+7‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¼ ¼("’
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¼ ¼(
+""*Ÿ
+8‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¶ ¶($ñ
+î
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¶% ¶(0
+%12java.util.Set"__id*F*D3
+1org.apache.bookkeeper.verifier.BookkeeperVerifier"
+liveLedgers»
+¸
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¶ ¶(1C
+%13<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo"—org.apache.bookkeeper.verifier.BookkeeperVerifier#getRandomLedger(Ljava/util/Collection;)Lorg/apache/bookkeeper/verifier/BookkeeperVerifier$LedgerInfo;*53
+1org.apache.bookkeeper.verifier.BookkeeperVerifier*
+
+%12java.util.Set¢
+Ÿ
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java¶ ¶(1F
+ledger<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo"__id*E
+C
+%13<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo·
+´
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java· ·(
+%14java.io.PrintStream"__id*
+""ùö
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java· ·(O
+%15java.io.PrintStream"Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;*
+
+%14java.io.PrintStream*!
+Reading from cold ledger %d%n*
+""2-format(Ljava/lang/String;[Ljava/lang/Object;)*
+6*æ
+9‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaµ µ(ñ
+î
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaµ µ(
+%10java.util.Set"__id*F*D3
+1org.apache.bookkeeper.verifier.BookkeeperVerifier"
+liveLedgersÚ×
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.javaµ µ()
+%11boolean"java.util.Set#isEmpty()Z*
+
+%10java.util.Set2	isEmpty()*
+7
+8*™
+10‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java³ ³($ð
+í
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java³% ³(0
+%6java.util.Set"__id*F*D3
+1org.apache.bookkeeper.verifier.BookkeeperVerifier"
+openLedgers¹
+¶
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java³ ³(1B
+%7<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo"—org.apache.bookkeeper.verifier.BookkeeperVerifier#getRandomLedger(Ljava/util/Collection;)Lorg/apache/bookkeeper/verifier/BookkeeperVerifier$LedgerInfo;*53
+1org.apache.bookkeeper.verifier.BookkeeperVerifier*
+
+%6java.util.Set¡
+ž
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java³ ³(1F
+ledger<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo"__id*D
+B
+%7<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo¶
+³
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java´ ´(
+%8java.io.PrintStream"__id*
+""÷ô
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java´ ´(O
+%9java.io.PrintStream"Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;*
+
+%8java.io.PrintStream*!
+Reading from open ledger %d%n*
+""2-format(Ljava/lang/String;[Ljava/lang/Object;)*
+6*î
+11‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java²' ²(-î
+ë
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java²' ²(-
+%4java.util.Random"__id*A*?3
+1org.apache.bookkeeper.verifier.BookkeeperVerifier"
+opRandãà
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java²' ²(:
+%5double"java.util.Random#nextDouble()D*
+
+%4java.util.Random2nextDouble()*
+9
+10*Ë
+12‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java± ±(ã
+à
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java± ±(F
+ledger<org.apache.bookkeeper.verifier.BookkeeperVerifier$LedgerInfo"__id*
+""ð
+í
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java² ²(
+%2java.util.Set"__id*F*D3
+1org.apache.bookkeeper.verifier.BookkeeperVerifier"
+openLedgersØÕ
+‡
+{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/verifier/BookkeeperVerifier.java² ²("
+%3boolean"java.util.Set#isEmpty()Z*
+
+%2java.util.Set2	isEmpty()*
+9
+11B53
+1org.apache.bookkeeper.verifier.BookkeeperVerifier

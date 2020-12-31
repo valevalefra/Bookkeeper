@@ -1,0 +1,101 @@
+
+}org.apache.bookkeeper.statelib.impl.kv.RocksdbKVAsyncStore#delete(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaÜ  Ü(&"startingBlock*¨
+startingBlockè
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaÜ& Ü(-À
+»
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaÖ Ö(
+%9"
+__annotate*
+java.lang.Override*
+
+
+keyKµ
+≤
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaÜ) Ü(,
+keyK"__annotation*
+
+%9*
+1*Û#
+1è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaá á("ô
+ñ
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaá á(".
+%0(org.apache.bookkeeper.common.coder.Coder"__id*L*J<
+:org.apache.bookkeeper.statelib.impl.kv.RocksdbKVAsyncStore"
+
+keyCoderƒ¡
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaá á(.
+%1byte[]"Eorg.apache.bookkeeper.common.coder.Coder#encode(Ljava/lang/Object;)[B*0
+.
+%0(org.apache.bookkeeper.common.coder.Coder*
+
+
+keyK2encode(Ljava/lang/Object;)ø
+º
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaá á(/
+keyBytesbyte[]"__id*
+
+%1byte[]à
+Ö
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaâ â(.?
+%29org.apache.bookkeeper.proto.statestore.kv.Command$Builder"yorg.apache.bookkeeper.proto.statestore.kv.Command#newBuilder()Lorg/apache/bookkeeper/proto/statestore/kv/Command$Builder;*5"3
+1org.apache.bookkeeper.proto.statestore.kv.Commandú
+ô
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaä ä(9=
+%37org.apache.bookkeeper.proto.statestore.kv.DeleteRequest"|org.apache.bookkeeper.statelib.impl.kv.KVUtils#newDeleteRequest([B)Lorg/apache/bookkeeper/proto/statestore/kv/DeleteRequest;*2"0
+.org.apache.bookkeeper.statelib.impl.kv.KVUtils*
+
+keyBytesbyte[]‹Ÿ
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaâ ä(:?
+%49org.apache.bookkeeper.proto.statestore.kv.Command$Builder"πorg.apache.bookkeeper.proto.statestore.kv.Command$Builder#setDelReq(Lorg/apache/bookkeeper/proto/statestore/kv/DeleteRequest;)Lorg/apache/bookkeeper/proto/statestore/kv/Command$Builder;*A
+?
+%29org.apache.bookkeeper.proto.statestore.kv.Command$Builder*?
+=
+%37org.apache.bookkeeper.proto.statestore.kv.DeleteRequest2DsetDelReq(Lorg/apache/bookkeeper/proto/statestore/kv/DeleteRequest;)êç
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaâ ã(7
+%51org.apache.bookkeeper.proto.statestore.kv.Command"torg.apache.bookkeeper.proto.statestore.kv.Command$Builder#build()Lorg/apache/bookkeeper/proto/statestore/kv/Command;*A
+?
+%49org.apache.bookkeeper.proto.statestore.kv.Command$Builder2build()î
+ë
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaâ ã(<
+command1org.apache.bookkeeper.proto.statestore.kv.Command"__id*9
+7
+%51org.apache.bookkeeper.proto.statestore.kv.CommandÙ
+Ò
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaå å(.,
+%6&java.util.concurrent.CompletableFuture"Æorg.apache.bookkeeper.statelib.impl.kv.RocksdbKVAsyncStore#writeCommandReturnTxId(Lorg/apache/bookkeeper/proto/statestore/kv/Command;)Ljava/util/concurrent/CompletableFuture;*><
+:org.apache.bookkeeper.statelib.impl.kv.RocksdbKVAsyncStore*>
+<
+command1org.apache.bookkeeper.proto.statestore.kv.Command¶
+£
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaì ì(3
+%7-java.util.concurrent.ScheduledExecutorService"__id*T*R<
+:org.apache.bookkeeper.statelib.impl.kv.RocksdbKVAsyncStore"
+writeIOSchedulerûõ
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaå ì(,
+%8&java.util.concurrent.CompletableFuture"õjava.util.concurrent.CompletableFuture#thenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%6&java.util.concurrent.CompletableFuture*
+""*5
+3
+%7-java.util.concurrent.ScheduledExecutorService2LthenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)"¬
+è
+Ç/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/kv/RocksdbKVAsyncStore.javaå ì(.
+,
+%8&java.util.concurrent.CompletableFuture:
+keyKB><
+:org.apache.bookkeeper.statelib.impl.kv.RocksdbKVAsyncStore

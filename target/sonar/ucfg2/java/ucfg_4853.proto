@@ -1,0 +1,213 @@
+
+Dorg.apache.bookkeeper.stream.server.service.BookieService#doStart()V‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java7 7("9*»
+3‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaH H(¤
+¡
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaH H(
+%25"__id*
+""*
+0*Â
+4‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF F(Z
+Š
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF F(ZC;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+bs"__id*1
+/
+%21(org.apache.bookkeeper.proto.BookieServer
+Š
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaG G(/
+%23(org.apache.bookkeeper.proto.BookieServer"__id*E*C;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+bs‹ˆ
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaG G(
+%24void"1org.apache.bookkeeper.proto.BookieServer#start()V*1
+/
+%23(org.apache.bookkeeper.proto.BookieServer2start()*
+3*Ù
+5‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF' F(1›
+˜
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF' F(15
+%18.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*K;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+
+serverConf•
+’
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF3 F(>.
+%19'org.apache.bookkeeper.stats.StatsLogger"__id*N*L;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+statsLogger—
+”
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF@ F(Y"
+%20java.util.function.Supplier"__id*\*Z;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+bookieServiceInfoProviderêç
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF F(&/
+%21(org.apache.bookkeeper.proto.BookieServer"(org.apache.bookkeeper.proto.BookieServer…
+‚
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaF F(Z
+%22"¨org.apache.bookkeeper.proto.BookieServer#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/stats/StatsLogger;Ljava/util/function/Supplier;)V*1
+/
+%21(org.apache.bookkeeper.proto.BookieServer*7
+5
+%18.org.apache.bookkeeper.conf.ServerConfiguration*0
+.
+%19'org.apache.bookkeeper.stats.StatsLogger*$
+"
+%20java.util.function.Supplier*
+4*º
+6‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java> >(£
+ 
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java> >(
+%6"__id*
+""®
+«
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java> ?(W
+%7java.lang.String"__concat*20
+.Hello, I'm your bookie, listening on port {} :*GE
+C metadata service uri = {}, journals = {}, ledgers = {}, index = {}š
+—
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java@ @(4
+%8.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*K;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+
+serverConf¤¡
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java@ @(&	
+%9int"?org.apache.bookkeeper.conf.ServerConfiguration#getBookiePort()I*6
+4
+%8.org.apache.bookkeeper.conf.ServerConfiguration2getBookiePort()›
+˜
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaA A(5
+%10.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*K;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+
+serverConfèå
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaA A(7
+%11java.lang.String"corg.apache.bookkeeper.conf.AbstractConfiguration#getMetadataServiceUriUnchecked()Ljava/lang/String;*7
+5
+%10.org.apache.bookkeeper.conf.ServerConfiguration2 getMetadataServiceUriUnchecked()›
+˜
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaB B($5
+%12.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*K;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+
+serverConfÑÎ
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaB B(9
+%13java.lang.String[]"Vorg.apache.bookkeeper.conf.ServerConfiguration#getJournalDirNames()[Ljava/lang/String;*7
+5
+%12.org.apache.bookkeeper.conf.ServerConfiguration2getJournalDirNames()—
+”
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaB B(:
+%14java.util.List"<java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;*"
+java.util.Arrays*
+
+%13java.lang.String[]›
+˜
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaC C($5
+%15.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*K;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+
+serverConf¿¼
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaC C(4
+%16java.io.File[]"Morg.apache.bookkeeper.conf.ServerConfiguration#getLedgerDirs()[Ljava/io/File;*7
+5
+%15.org.apache.bookkeeper.conf.ServerConfiguration2getLedgerDirs()“
+
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaC C(5
+%17java.util.List"<java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;*"
+java.util.Arrays*
+
+%16java.io.File[]*
+5*Ð	
+7‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java< <(š
+—
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java<& <(04
+%3.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*K;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+
+serverConf»¸
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java<& <(?
+%4java.io.File[]"Lorg.apache.bookkeeper.conf.ServerConfiguration#getIndexDirs()[Ljava/io/File;*6
+4
+%3.org.apache.bookkeeper.conf.ServerConfiguration2getIndexDirs()‘
+Ž
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java< <(@
+%5java.util.List"<java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;*"
+java.util.Arrays*
+
+%4java.io.File[]Ê
+Ç
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java< <(@
+	indexDirsjava.util.List"__id*
+
+%5java.util.List*
+6*×
+8‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java: :(#ó
+ð
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java: :(/
+%2java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
+java.util.CollectionsÊ
+Ç
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java: :(/
+	indexDirsjava.util.List"__id*
+
+%2java.util.List*
+6*¯
+9‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java8 8(º
+·
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java8 8(
+	indexDirsjava.util.List"__id*
+""š
+—
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java9 9(4
+%0.org.apache.bookkeeper.conf.ServerConfiguration"__id*M*K;
+9org.apache.bookkeeper.stream.server.service.BookieService"
+
+serverConf»¸
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.java9 9(-
+%1java.io.File[]"Lorg.apache.bookkeeper.conf.ServerConfiguration#getIndexDirs()[Ljava/io/File;*6
+4
+%0.org.apache.bookkeeper.conf.ServerConfiguration2getIndexDirs()*
+7
+8*©
+0 "¡
+‰
+/home/valentina/Scrivania/Bookkeeper/stream/server/src/main/java/org/apache/bookkeeper/stream/server/service/BookieService.javaL L(
+implicit returnB=;
+9org.apache.bookkeeper.stream.server.service.BookieService

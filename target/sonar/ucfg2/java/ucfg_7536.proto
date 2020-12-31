@@ -1,0 +1,45 @@
+
+ˆorg.apache.bookkeeper.client.LedgerMetadataUtils#getLastEnsembleValue(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)Ljava/util/List;„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaB% B(9"1*Œ
+1„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaC C(ÕÒ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaC C(1
+%0java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()ÞÛ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaC C(;
+%1boolean"java.util.Map#isEmpty()Z*
+
+%0java.util.NavigableMap2	isEmpty()Ê
+Ç
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaC C(r
+
+%2void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+""*64
+2Metadata should never be created with no ensemblesÕÒ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaD D()
+%3java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()‹ˆ
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaD D(5
+%4java.util.Map$Entry"7java.util.NavigableMap#lastEntry()Ljava/util/Map$Entry;*
+
+%3java.util.NavigableMap2lastEntry()öó
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaD D(@
+%5	!capture!"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+%4java.util.Map$Entry2
+getValue()"š
+„
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataUtils.javaD D(A
+
+%5	!capture!:;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadataB4"2
+0org.apache.bookkeeper.client.LedgerMetadataUtils

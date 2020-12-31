@@ -1,0 +1,193 @@
+
+æorg.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorage#newSingleDirectoryDbLedgerStorage(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/meta/LedgerManager;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;Lorg/apache/bookkeeper/bookie/StateManager;Lorg/apache/bookkeeper/bookie/CheckpointSource;Lorg/apache/bookkeeper/bookie/Checkpointer;Lorg/apache/bookkeeper/stats/StatsLogger;Ljava/util/concurrent/ScheduledExecutorService;JJ)Lorg/apache/bookkeeper/bookie/storage/ldb/SingleDirectoryDbLedgerStorage;è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaê- ê(N"startingBlock*Ö&
+startingBlockè
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaêN ì(rñ
+ì
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%3"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration„
+‡
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaêc ê(g6
+conf.org.apache.bookkeeper.conf.ServerConfiguration"__annotation*
+
+%3ô
+ñ
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%4"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*;
+9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManagerÊ
+„
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaë ë('9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManager"__annotation*
+
+%4£
+†
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%5"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*E
+C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager
+Ì
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaë; ë(LC
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager"__annotation*
+
+%5¢
+ü
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%6"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*D
+B
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManagerÔ
+Ï
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaë` ë(pB
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager"__annotation*
+
+%6ô
+ñ
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%7"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*;
+9
+stateManager)org.apache.bookkeeper.bookie.StateManagerÊ
+„
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaí í(%9
+stateManager)org.apache.bookkeeper.bookie.StateManager"__annotation*
+
+%7°
+û
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%8"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*C
+A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSourceÓ
+Î
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaí8 í(HA
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSource"__annotation*
+
+%8ô
+ñ
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%9"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*;
+9
+checkpointer)org.apache.bookkeeper.bookie.CheckpointerÊ
+„
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaíW í(c9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointer"__annotation*
+
+%9ó
+î
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%10"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger‰
+·
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaì ì(#6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger"__annotation*
+
+%10ú
+ô
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaè è(
+%11"
+__annotate*31
+/com.google.common.annotations.VisibleForTesting*=
+;
+
+gcExecutor-java.util.concurrent.ScheduledExecutorServiceÈ
+Ê
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaì> ì(H;
+
+gcExecutor-java.util.concurrent.ScheduledExecutorService"__annotation*
+
+%11*
+1*≤
+1è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaï2 ï(6ê
+ç
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javañK ñ(T&
+%0 io.netty.buffer.ByteBufAllocator"__id*K*I:
+8org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorage"
+	allocator≠™
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaï ï(1M
+%1Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage"Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorageÒ
+
+Ó
+
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaï ó(
+%2"åorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/meta/LedgerManager;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;Lorg/apache/bookkeeper/bookie/StateManager;Lorg/apache/bookkeeper/bookie/CheckpointSource;Lorg/apache/bookkeeper/bookie/Checkpointer;Lorg/apache/bookkeeper/stats/StatsLogger;Lio/netty/buffer/ByteBufAllocator;Ljava/util/concurrent/ScheduledExecutorService;JJ)V*O
+M
+%1Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration*;
+9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManager*E
+C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager*D
+B
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager*;
+9
+stateManager)org.apache.bookkeeper.bookie.StateManager*C
+A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSource*;
+9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointer*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*(
+&
+%0 io.netty.buffer.ByteBufAllocator*=
+;
+
+gcExecutor-java.util.concurrent.ScheduledExecutorService*
+""*
+"""„
+è
+Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/storage/ldb/DbLedgerStorage.javaï ó(O
+M
+%1Gorg.apache.bookkeeper.bookie.storage.ldb.SingleDirectoryDbLedgerStorage:6
+conf.org.apache.bookkeeper.conf.ServerConfiguration:9
+ledgerManager(org.apache.bookkeeper.meta.LedgerManager:C
+ledgerDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager:B
+indexDirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager:9
+stateManager)org.apache.bookkeeper.bookie.StateManager:A
+checkpointSource-org.apache.bookkeeper.bookie.CheckpointSource:9
+checkpointer)org.apache.bookkeeper.bookie.Checkpointer:6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger:;
+
+gcExecutor-java.util.concurrent.ScheduledExecutorService:
+"":
+""B<:
+8org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorage

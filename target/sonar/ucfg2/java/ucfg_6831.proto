@@ -1,0 +1,113 @@
+
+‡org.apache.bookkeeper.tools.cli.commands.bookie.LedgerCommand#printPageEntries(Lorg/apache/bookkeeper/bookie/LedgerCache$PageEntries;)Z”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java§ §($"10*
+2”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java½ ½(’
+
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java½ ½("
+%14java.util.function.Consumer"__id*L*J?
+=org.apache.bookkeeper.tools.cli.commands.bookie.LedgerCommand"
+print„
+
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java½ ½(,
+%15java.lang.String"__concat*
+
+entry *9
+7
+curEntry+org.apache.commons.lang.mutable.MutableLongæ
+ã
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java½ ½(9
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+
+\t:\tN/A½º
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java½ ½(:
+%17void"7java.util.function.Consumer#accept(Ljava/lang/Object;)V*$
+"
+%14java.util.function.Consumer*
+
+%16java.lang.String2accept(Ljava/lang/Object;)©¦
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¾ ¾( 
+%18void"8org.apache.commons.lang.mutable.MutableLong#increment()V*9
+7
+curEntry+org.apache.commons.lang.mutable.MutableLong2increment()*
+3*Ž
+3”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¼ ¼(©¦
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¼ ¼(#
+%12long"8org.apache.commons.lang.mutable.MutableLong#longValue()J*9
+7
+curEntry+org.apache.commons.lang.mutable.MutableLong2longValue()½º
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¼& ¼(9
+%13long"Dorg.apache.bookkeeper.bookie.LedgerCache$PageEntries#getLastEntry()J*>
+<
+page4org.apache.bookkeeper.bookie.LedgerCache$PageEntries2getLastEntry()*
+2
+1*Õ
+8”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java© ©(0‹
+ˆ
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java© ©(03
+lep,org.apache.bookkeeper.bookie.LedgerEntryPage"__id*4
+2
+%3,org.apache.bookkeeper.bookie.LedgerEntryPage¥¢
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.javaª ´(
+
+%4void"uorg.apache.bookkeeper.bookie.LedgerEntryPage#getEntries(Lorg/apache/bookkeeper/bookie/LedgerEntryPage$EntryVisitor;)V*5
+3
+lep,org.apache.bookkeeper.bookie.LedgerEntryPage*
+""2GgetEntries(Lorg/apache/bookkeeper/bookie/LedgerEntryPage$EntryVisitor;)*
+3*§
+9”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java©# ©('…‚
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java©# ©(02
+%3,org.apache.bookkeeper.bookie.LedgerEntryPage"korg.apache.bookkeeper.bookie.LedgerCache$PageEntries#getLEP()Lorg/apache/bookkeeper/bookie/LedgerEntryPage;*>
+<
+page4org.apache.bookkeeper.bookie.LedgerCache$PageEntries2getLEP()*
+8*
+
+10”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¨5 ¨(9¾»
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¨5 ¨(I
+
+%0long"Eorg.apache.bookkeeper.bookie.LedgerCache$PageEntries#getFirstEntry()J*>
+<
+page4org.apache.bookkeeper.bookie.LedgerCache$PageEntries2getFirstEntry()ú÷
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¨) ¨(41
+%1+org.apache.commons.lang.mutable.MutableLong"+org.apache.commons.lang.mutable.MutableLong›
+˜
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¨% ¨(J
+%2"6org.apache.commons.lang.mutable.MutableLong#<init>(J)V*3
+1
+%1+org.apache.commons.lang.mutable.MutableLong*
+
+
+%0longŽ
+‹
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.java¨ ¨(K7
+curEntry+org.apache.commons.lang.mutable.MutableLong"__id*3
+1
+%1+org.apache.commons.lang.mutable.MutableLong*
+9*¼
+1”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.javaÁ Á("Ÿ
+”
+‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommand.javaÁ Á(
+"":<
+page4org.apache.bookkeeper.bookie.LedgerCache$PageEntriesBA?
+=org.apache.bookkeeper.tools.cli.commands.bookie.LedgerCommand

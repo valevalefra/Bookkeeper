@@ -1,0 +1,93 @@
+
+_org.apache.bookkeeper.client.LedgerHandle#readAsync(JJ)Ljava/util/concurrent/CompletableFuture;
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaé, é(5"2"4"1*—
+2
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaò ò(ª
+§
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaò ò(
+%5org.slf4j.Logger"__id*
+""íê
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaò ó(4
+
+%6void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%5org.slf4j.Logger*;9
+7ReadException on ledgerId:{} firstEntry:{} lastEntry:{}*
+""*
+""*
+""2,error(Ljava/lang/String;[Ljava/lang/Object;)þû
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô- ô(<>
+%78org.apache.bookkeeper.client.BKException$BKReadException"8org.apache.bookkeeper.client.BKException$BKReadException
+
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô) ô(>
+%8"Borg.apache.bookkeeper.client.BKException$BKReadException#<init>()V*@
+>
+%78org.apache.bookkeeper.client.BKException$BKReadException«
+¨
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô ô(?,
+%9&java.util.concurrent.CompletableFuture"|org.apache.bookkeeper.common.concurrent.FutureUtils#exception(Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*@
+>
+%78org.apache.bookkeeper.client.BKException$BKReadException"±
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaô ô(@.
+,
+%9&java.util.concurrent.CompletableFuture*ë
+4
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaì ì(ª
+§
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaì ì(
+%0org.slf4j.Logger"__id*
+""ûø
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaì í(4
+
+%1void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*IG
+EIncorrectParameterException on ledgerId:{} firstEntry:{} lastEntry:{}*
+""*
+""*
+""2,error(Ljava/lang/String;[Ljava/lang/Object;)š—
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaî- î(JL
+%2Forg.apache.bookkeeper.client.BKException$BKIncorrectParameterException"Forg.apache.bookkeeper.client.BKException$BKIncorrectParameterException¬
+©
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaî) î(L
+%3"Porg.apache.bookkeeper.client.BKException$BKIncorrectParameterException#<init>()V*N
+L
+%2Forg.apache.bookkeeper.client.BKException$BKIncorrectParameterException¹
+¶
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaî î(M,
+%4&java.util.concurrent.CompletableFuture"|org.apache.bookkeeper.common.concurrent.FutureUtils#exception(Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*N
+L
+%2Forg.apache.bookkeeper.client.BKException$BKIncorrectParameterException"±
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.javaî î(N.
+,
+%4&java.util.concurrent.CompletableFuture*Æ
+1
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java÷ ÷('Š‡
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java÷ ÷(E-
+%10&java.util.concurrent.CompletableFuture"oorg.apache.bookkeeper.client.LedgerHandle#readEntriesInternalAsync(JJZ)Ljava/util/concurrent/CompletableFuture;*-+
+)org.apache.bookkeeper.client.LedgerHandle*
+""*
+""*
+""2readEntriesInternalAsync(JJZ)"²
+
+s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerHandle.java÷ ÷(F/
+-
+%10&java.util.concurrent.CompletableFuture:
+"":
+""B-+
+)org.apache.bookkeeper.client.LedgerHandle

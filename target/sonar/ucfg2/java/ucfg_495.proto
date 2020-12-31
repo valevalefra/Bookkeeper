@@ -1,0 +1,88 @@
+
+íorg.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord#asKVRecord(Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueFactory;Ljava/lang/Object;Lorg/apache/bookkeeper/common/coder/Coder;)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javau u(("1*Ú%
+1…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax x(—”
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax x($;
+%05org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"worg.apache.bookkeeper.api.kv.impl.result.KeyValueFactory#newKv()Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*K
+I
+recordFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactory2newKv()³°
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax y(;
+%15org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"„org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#key(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
+;
+%05org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
+
+
+keyK2key(Ljava/lang/Object;)ô
+ñ
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javaz# z((
+%2io.netty.buffer.ByteBuf"__id*B*@5
+3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord"
+valueîë
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javaz z()
+%3V"\org.apache.bookkeeper.common.coder.Coder#decode(Lio/netty/buffer/ByteBuf;)Ljava/lang/Object;*6
+4
+valCoder(org.apache.bookkeeper.common.coder.Coder*
+
+%2io.netty.buffer.ByteBuf2!decode(Lio/netty/buffer/ByteBuf;)¶³
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax z(*;
+%45org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"†org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#value(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
+;
+%15org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*	
+
+%3V2value(Ljava/lang/Object;)¢Ÿ
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax {(&;
+%55org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"~org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#createRevision(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
+;
+%45org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
+""2createRevision(J)§¤
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax |(%;
+%65org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"€org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#modifiedRevision(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
+;
+%55org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
+""2modifiedRevision(J)”‘
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax }(;
+%75org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"worg.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#version(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
+;
+%65org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
+""2
+version(J)Ö
+Ó
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.java~ ~(&;
+%85org.apache.bookkeeper.stream.proto.kv.store.ValueType"__id*
+""–
+“
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.java~* ~(3;
+%95org.apache.bookkeeper.stream.proto.kv.store.ValueType"__id*F*D5
+3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord"
+	valueType—”
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax ~(4<
+%105org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"xorg.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#isNumber(Z)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
+;
+%75org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
+""2isNumber(Z)ž›
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax ( <
+%115org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"{org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#numberValue(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*>
+<
+%105org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
+""2numberValue(J)"È
+…
+{/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCRecord.javax (!>
+<
+%115org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl:I
+recordFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactory:
+keyK:4
+valCoder(org.apache.bookkeeper.common.coder.CoderB75
+3org.apache.bookkeeper.statelib.impl.mvcc.MVCCRecord

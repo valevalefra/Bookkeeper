@@ -1,0 +1,255 @@
+
+Jorg.apache.bookkeeper.client.ListenerBasedPendingReadOp#submitCallback(I)Vå
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java/ /(!"10*¢
+2å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaB B(ºπ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaB B(
+%23void"Forg.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest#close()V*J
+H
+request=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest2close()µ
+≤
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaC C(P
+%24Iorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$ReadEntryListener"__id*I*G9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+
+listenerª∏
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaC% C(4
+
+%25int"Forg.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest#getRc()I*J
+H
+request=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest2getRc()è
+å
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaC6 C(80
+%26)org.apache.bookkeeper.client.LedgerHandle"__id*C*A9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+lh˜
+Ù
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaCA C(D
+%27java.lang.Object"__id*D*B9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+ctx«ƒ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaC C(E
+%28void"ƒorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$ReadEntryListener#onEntryComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/client/LedgerEntry;Ljava/lang/Object;)V*R
+P
+%24Iorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$ReadEntryListener*
+
+
+%25int*2
+0
+%26)org.apache.bookkeeper.client.LedgerHandle*3
+1
+entry(org.apache.bookkeeper.client.LedgerEntry*
+
+%27java.lang.Object2yonEntryComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/client/LedgerEntry;Ljava/lang/Object;)*
+9*ˇ
+3å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java> >(ó
+î
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java> >(1
+%18*org.apache.bookkeeper.client.ClientContext"__id*J*H9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+	clientCtxÖÇ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java> >(*9
+%192org.apache.bookkeeper.client.BookKeeperClientStats"oorg.apache.bookkeeper.client.ClientContext#getClientStats()Lorg/apache/bookkeeper/client/BookKeeperClientStats;*3
+1
+%18*org.apache.bookkeeper.client.ClientContext2getClientStats()ÖÇ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java> >(<0
+%20)org.apache.bookkeeper.stats.OpStatsLogger"oorg.apache.bookkeeper.client.BookKeeperClientStats#getReadOpLogger()Lorg/apache/bookkeeper/stats/OpStatsLogger;*;
+9
+%192org.apache.bookkeeper.client.BookKeeperClientStats2getReadOpLogger()∆
+√
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java?7 ?(K$
+%21java.util.concurrent.TimeUnit"__id*
+""úô
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java> ?(L
+%22void"`org.apache.bookkeeper.stats.OpStatsLogger#registerFailedEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%20)org.apache.bookkeeper.stats.OpStatsLogger*
+""*&
+$
+%21java.util.concurrent.TimeUnit25registerFailedEvent(JLjava/util/concurrent/TimeUnit;)”
+–
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java@ @(1
+entry(org.apache.bookkeeper.client.LedgerEntry"__id*
+""*
+2*ƒ
+4å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java9 9(ó
+î
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java9 9(1
+%10*org.apache.bookkeeper.client.ClientContext"__id*J*H9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+	clientCtxÖÇ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java9 9(*9
+%112org.apache.bookkeeper.client.BookKeeperClientStats"oorg.apache.bookkeeper.client.ClientContext#getClientStats()Lorg/apache/bookkeeper/client/BookKeeperClientStats;*3
+1
+%10*org.apache.bookkeeper.client.ClientContext2getClientStats()ÖÇ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java9 9(<0
+%12)org.apache.bookkeeper.stats.OpStatsLogger"oorg.apache.bookkeeper.client.BookKeeperClientStats#getReadOpLogger()Lorg/apache/bookkeeper/stats/OpStatsLogger;*;
+9
+%112org.apache.bookkeeper.client.BookKeeperClientStats2getReadOpLogger()∆
+√
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java:; :(O$
+%13java.util.concurrent.TimeUnit"__id*
+""§°
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java9 :(P
+%14void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%12)org.apache.bookkeeper.stats.OpStatsLogger*
+""*&
+$
+%13java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)≠
+™
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java<( <(98
+%151org.apache.bookkeeper.client.impl.LedgerEntryImpl"__id*Y*W
+H
+request=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest"
+	entryImplÌÍ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java< <('/
+%16(org.apache.bookkeeper.client.LedgerEntry"(org.apache.bookkeeper.client.LedgerEntryÔ
+Ï
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java< <(:
+%17"eorg.apache.bookkeeper.client.LedgerEntry#<init>(Lorg/apache/bookkeeper/client/impl/LedgerEntryImpl;)V*1
+/
+%16(org.apache.bookkeeper.client.LedgerEntry*:
+8
+%151org.apache.bookkeeper.client.impl.LedgerEntryImpl˛
+˚
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java< <(:1
+entry(org.apache.bookkeeper.client.LedgerEntry"__id*1
+/
+%16(org.apache.bookkeeper.client.LedgerEntry*
+2*Ô
+5å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java5 5(Ù
+Ò
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java5 5(
+%5java.util.List"__id*D*B9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+seqÇ
+ˇ
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java5 5(C
+%6=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest"__arrayRemove*
+
+%5java.util.List*2 ï
+í
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java6  6(H
+
+%7long"<org.apache.bookkeeper.common.util.MathUtils#elapsedNanos(J)J*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+""”
+–
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java7 7(1
+entry(org.apache.bookkeeper.client.LedgerEntry"__id*
+""´
+®
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java8 8(#	
+%8int"__id*
+""∫∑
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java8' 8(6	
+%9int"Forg.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest#getRc()I*J
+H
+request=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest2getRc()*
+3
+4*¨
+6å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java3 3("ó
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java3 3(
+""*Â
+7å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java2 2(»≈
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java2 2(%
+%4boolean"Korg.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest#isComplete()Z*J
+H
+request=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest2isComplete()*
+5
+6*ø
+8å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java1, 1(/Ù
+Ò
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java1, 1(/
+%2java.util.List"__id*D*B9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+seqˇ
+¸
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java1, 1(6C
+%3=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest"
+__arrayGet*
+
+%2java.util.List*2 ©
+¶
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java1" 1(6H
+request=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest"__id*E
+C
+%3=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest*
+7
+1*Û
+9å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java1 1(Ù
+Ò
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java1 1(
+%0java.util.List"__id*D*B9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp"
+seqﬂ‹
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java1 1(
+%1boolean"java.util.List#isEmpty()Z*
+
+%0java.util.List2	isEmpty()*
+8
+1*Ö
+10å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java0 0(#Í
+Á
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.java0 0(#H
+request=org.apache.bookkeeper.client.PendingReadOp$LedgerEntryRequest"__id*
+""*
+9*¨
+0 "§
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaG G(
+implicit return*ﬁ
+1å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaF F(ƒ¡
+å
+Å/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ListenerBasedPendingReadOp.javaF F(#
+%29void"Dorg.apache.bookkeeper.client.PendingReadOp#cancelSpeculativeTask(Z)V*;9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp*
+""2cancelSpeculativeTask(Z)*
+0:
+""B;9
+7org.apache.bookkeeper.client.ListenerBasedPendingReadOp

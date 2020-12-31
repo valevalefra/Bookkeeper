@@ -1,0 +1,156 @@
+
+Œorg.apache.bookkeeper.clients.impl.channel.StorageServerChannelManager#removeChannel(Lorg/apache/bookkeeper/stream/proto/common/Endpoint;Lorg/apache/bookkeeper/clients/impl/channel/StorageServerChannel;)Lorg/apache/bookkeeper/clients/impl/channel/StorageServerChannel;¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javar  r(-"startingBlock*Ñ
+13¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java}! }()²
+¯
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java}! }()(
+%3"java.util.concurrent.ConcurrentMap"__id*X*VH
+Forg.apache.bookkeeper.clients.impl.channel.StorageServerChannelManager"
+
+channelsê
+ç
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java}! }(:E
+%4?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__mapRemove**
+(
+%3"java.util.concurrent.ConcurrentMap*@
+>
+endpoint2org.apache.bookkeeper.stream.proto.common.Endpoint*
+12*©
+2¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javaŽ Ž(!"ü
+¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javaŽ Ž("S
+Q
+channelRemoved?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel*¿
+14¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java{ {(0‰
+†
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java{ {(0Q
+channelRemoved?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__id*
+""*
+13
+11*
+3¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javaŒ Œ(ÞÛ
+¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javaŒ Œ(&
+
+%7void"Horg.apache.bookkeeper.clients.impl.channel.StorageServerChannel#close()V*S
+Q
+channelRemoved?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel2close()*
+2*”
+
+startingBlock¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javar- r(^œ
+™
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javaq q(
+%11"
+__annotate*
+javax.annotation.Nullable*@
+>
+endpoint2org.apache.bookkeeper.stream.proto.common.Endpointÿ
+ü
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javar7 r(?>
+endpoint2org.apache.bookkeeper.stream.proto.common.Endpoint"__annotation*
+
+%11¨
+¥
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javaq q(
+%12"
+__annotate*
+javax.annotation.Nullable*L
+J
+channel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel‹
+ˆ
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javarV r(]J
+channel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__annotation*
+
+%12*
+18*Ù
+15¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javax x("­
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javax x(
+""*è	
+18¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javas s(½
+º
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javas s(7
+%01java.util.concurrent.locks.ReentrantReadWriteLock"__id*T*RH
+Forg.apache.bookkeeper.clients.impl.channel.StorageServerChannelManager"
+lock«¨
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javas s(@
+%1:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*9
+7
+%01java.util.concurrent.locks.ReentrantReadWriteLock2
+readLock()ÄÁ
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.javas s(
+
+%2void"Bjava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#lock()V*B
+@
+%1:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2lock()*
+14
+15*À
+8¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java‚% ‚()‹
+ˆ
+¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java‚ ‚()Q
+channelRemoved?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__id*
+""*
+2
+3*†
+9¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java€% €(,Ñ
+Î
+¤
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java€ €(,Q
+channelRemoved?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__id*L
+J
+channel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel*
+2
+3*Ü
+11¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java (²
+¯
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java ((
+%5"java.util.concurrent.ConcurrentMap"__id*X*VH
+Forg.apache.bookkeeper.clients.impl.channel.StorageServerChannelManager"
+
+channelsóð
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java (6
+%6boolean"Pjava.util.concurrent.ConcurrentMap#remove(Ljava/lang/Object;Ljava/lang/Object;)Z**
+(
+%5"java.util.concurrent.ConcurrentMap*@
+>
+endpoint2org.apache.bookkeeper.stream.proto.common.Endpoint*L
+J
+channel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel2,remove(Ljava/lang/Object;Ljava/lang/Object;)*
+8
+9*þ
+12¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java} }(:Ê
+Ç
+¢
+—/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/channel/StorageServerChannelManager.java} }(:Q
+channelRemoved?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__id*G
+E
+%4?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel*
+2
+3:>
+endpoint2org.apache.bookkeeper.stream.proto.common.Endpoint:J
+channel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannelBJH
+Forg.apache.bookkeeper.clients.impl.channel.StorageServerChannelManager

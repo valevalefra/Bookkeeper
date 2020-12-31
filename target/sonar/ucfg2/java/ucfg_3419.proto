@@ -1,0 +1,105 @@
+
+”org.apache.distributedlog.BKLogWriteHandler#deleteLogSegment(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÚ	2 Ú	(B"1*ê)
+1Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÜ	 Ü	(¶
+³
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÜ	 Ü	(
+%0org.slf4j.Logger"__id*
+""ÄÁ
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÜ	> Ü	(U
+%1java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*/-
++org.apache.distributedlog.BKLogWriteHandler2getFullyQualifiedName()¿¼
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÜ	 Ü	(V
+
+%2void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*
+Deleting ledger {} for {}*@
+>
+ledgerMetadata,org.apache.distributedlog.LogSegmentMetadata*
+
+%1java.lang.String2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)æã
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÝ	B Ý	(g,
+%3&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFutureø
+õ
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÝ	> Ý	(i
+%4"0java.util.concurrent.CompletableFuture#<init>()V*.
+,
+%3&java.util.concurrent.CompletableFutureù
+ö
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÝ	 Ý	(j1
+promise&java.util.concurrent.CompletableFuture"__id*.
+,
+%3&java.util.concurrent.CompletableFuture²
+¯
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÞ	$ Þ	(=&
+%5 com.google.common.base.Stopwatch"Rcom.google.common.base.Stopwatch#createStarted()Lcom/google/common/base/Stopwatch;*$""
+ com.google.common.base.Stopwatchï
+ì
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÞ	 Þ	(>-
+	stopwatch com.google.common.base.Stopwatch"__id*(
+&
+%5 com.google.common.base.Stopwatchöó
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaß	! ß	(H4
+%6.org.apache.distributedlog.BKLogWriteHandler$17".org.apache.distributedlog.BKLogWriteHandler$17ê
+ç
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaß	 í	(	
+%7"java.lang.Object#<init>()V*6
+4
+%6.org.apache.distributedlog.BKLogWriteHandler$17ØÕ
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaß	 í	(
+,
+%8&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*3
+1
+promise&java.util.concurrent.CompletableFuture*6
+4
+%6.org.apache.distributedlog.BKLogWriteHandler$172-whenComplete(Ljava/util/function/BiConsumer;)˜
+•
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî	 î	(?
+%99org.apache.distributedlog.logsegment.LogSegmentEntryStore"__id*?*=-
++org.apache.distributedlog.BKLogWriteHandler"
+
+entryStore«¨
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî	 î	(3-
+%10&java.util.concurrent.CompletableFuture"¢org.apache.distributedlog.logsegment.LogSegmentEntryStore#deleteLogSegment(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;*A
+?
+%99org.apache.distributedlog.logsegment.LogSegmentEntryStore*@
+>
+ledgerMetadata,org.apache.distributedlog.LogSegmentMetadata2@deleteLogSegment(Lorg/apache/distributedlog/LogSegmentMetadata;)÷ô
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaï	" ï	(I5
+%11.org.apache.distributedlog.BKLogWriteHandler$18".org.apache.distributedlog.BKLogWriteHandler$18ì
+é
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaï	 ù	(	
+%12"java.lang.Object#<init>()V*7
+5
+%11.org.apache.distributedlog.BKLogWriteHandler$18ÖÓ
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî	 ù	(
+-
+%13&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%10&java.util.concurrent.CompletableFuture*7
+5
+%11.org.apache.distributedlog.BKLogWriteHandler$182-whenComplete(Ljava/util/function/BiConsumer;)"Â
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaú	 ú	(3
+1
+promise&java.util.concurrent.CompletableFuture:>
+ledgerMetadata,org.apache.distributedlog.LogSegmentMetadataB/-
++org.apache.distributedlog.BKLogWriteHandler

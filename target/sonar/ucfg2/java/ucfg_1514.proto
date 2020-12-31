@@ -1,0 +1,50 @@
+
+¥org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#doRange(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest;)Ljava/util/concurrent/CompletableFuture;’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javae; e(B"1*á
+1’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaf% f(1¦£
+’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaf2 f(E=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"{org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getHeader()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;*C
+A
+request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getHeader()õ
+ò
+’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaf% f(O-
+%1'org.apache.bookkeeper.api.kv.op.RangeOp"äorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#buildRangeOp(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest;)Lorg/apache/bookkeeper/api/kv/op/RangeOp;*?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl*?
+=
+%07org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader*C
+A
+request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequestþ
+û
+’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaf f(P-
+op'org.apache.bookkeeper.api.kv.op.RangeOp"__id*/
+-
+%1'org.apache.bookkeeper.api.kv.op.RangeOp¨
+¥
+’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javag g(<
+%26org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
+storeƒ€
+’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javag g(,
+%3&java.util.concurrent.CompletableFuture"—org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStoreReadView#range(Lorg/apache/bookkeeper/api/kv/op/RangeOp;)Ljava/util/concurrent/CompletableFuture;*>
+<
+%26org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*/
+-
+op'org.apache.bookkeeper.api.kv.op.RangeOp20range(Lorg/apache/bookkeeper/api/kv/op/RangeOp;)«¨
+’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javag h(A,
+%4&java.util.concurrent.CompletableFuture"|java.util.concurrent.CompletableFuture#whenComplete(Ljava/util/function/BiConsumer;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%3&java.util.concurrent.CompletableFuture*
+""2-whenComplete(Ljava/util/function/BiConsumer;)"Å
+’
+‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javag h(B.
+,
+%4&java.util.concurrent.CompletableFuture:A
+request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequestB?=
+;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl

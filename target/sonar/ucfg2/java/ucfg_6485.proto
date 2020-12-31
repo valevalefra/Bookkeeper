@@ -1,0 +1,715 @@
+
+áorg.apache.bookkeeper.bookie.JournalChannel#<init>(Ljava/io/File;JJIIJZILorg/apache/bookkeeper/bookie/Journal$BufferedChannelBuilder;)VÅ
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaè è("30*‹
+24Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java©5 ©(H°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java©5 ©(H
+
+%26int"__id*
+""ß
+§
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java©5 ©(H
+
+%25int"__id*
+
+
+%26int*
+22*È
+14Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java– –(#á
+Ñ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java–+ —(E
+%59java.lang.String"__concat*,*
+(Invalid journal version, unable to read.*-+
+) Expected between (%d) and (%d), got (%d)°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java“ “(9
+
+%60int"__id*
+""°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java“; “(Y
+
+%61int"__id*
+""«
+ƒ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java– ”(&
+%62java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%59java.lang.String*
+
+
+%60int*
+
+
+%61int*
+""¡
+æ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java– ”('
+errjava.lang.String"__id*
+
+%62java.lang.StringÆ
+´
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java‘ ‘(
+%63org.slf4j.Logger"__id*
+""íè
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java‘ ‘(
+%64void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%63org.slf4j.Logger*
+
+errjava.lang.String2error(Ljava/lang/String;)∏µ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java’ ’(%
+%65java.io.IOException"java.io.IOException¯
+ı
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java’ ’(*
+%66"/java.io.IOException#<init>(Ljava/lang/String;)V*
+
+%65java.io.IOException*
+
+errjava.lang.String*
+0*Ï
+25Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java•4 •(6¬ø
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java•# •(3
+%20java.io.RandomAccessFile"java.io.RandomAccessFileì
+ê
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java• •(=
+%21"Bjava.io.RandomAccessFile#<init>(Ljava/io/File;Ljava/lang/String;)V*!
+
+%20java.io.RandomAccessFile*
+
+fnjava.io.File*
+rwı
+Ú
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java• •(=C-
++org.apache.bookkeeper.bookie.JournalChannel"
+randomAccessFile"__id*!
+
+%20java.io.RandomAccessFileı
+Ú
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¶! ¶(1
+%22java.io.RandomAccessFile"__id*E*C-
++org.apache.bookkeeper.bookie.JournalChannel"
+randomAccessFile˘
+ˆ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¶ ¶(2$
+%23java.nio.channels.FileChannel"vorg.apache.bookkeeper.bookie.JournalChannel#openFileChannel(Ljava/io/RandomAccessFile;)Ljava/nio/channels/FileChannel;*/"-
++org.apache.bookkeeper.bookie.JournalChannel*!
+
+%22java.io.RandomAccessFileÏ
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¶ ¶(25-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc"__id*&
+$
+%23java.nio.channels.FileChannel°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java© ©( 
+
+%24int"__id*
+""*
+24
+23*∂
+15Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaœ œ( °
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaœ# œ(A
+
+%58int"__id*
+""*
+14
+12*Æ
+26Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java† †(Æ
+´
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java† †(
+%13org.slf4j.Logger"__id*
+""ñ
+ì
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java† °(G
+%14java.lang.String"__concat*;9
+7Journal file {}, that shouldn't exist, already exists. *-+
+) is there another bookie process running?Ã…
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java† °(L
+%15void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%13org.slf4j.Logger*
+
+%14java.lang.String*
+
+fnjava.io.File2+error(Ljava/lang/String;Ljava/lang/Object;)À
+»
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¢& ¢(2
+%16java.lang.String"__concat*	
+File *
+
+fnjava.io.FileÅ
+˛
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¢& £(R
+%17java.lang.String"__concat*
+
+%16java.lang.String*:8
+6 suddenly appeared, is another bookie process running?∏µ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¢ ¢(%
+%18java.io.IOException"java.io.IOException¯
+ı
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¢ £(S
+%19"/java.io.IOException#<init>(Ljava/lang/String;)V*
+
+%18java.io.IOException*
+
+%17java.lang.String*
+0*∂
+16Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaŒ Œ(°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaŒ  Œ(A
+
+%57int"__id*
+""*
+14
+15*Ú
+27Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaü ü(›⁄
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaü ü(#
+%12boolean"java.io.File#createNewFile()Z*
+
+fnjava.io.File2createNewFile()*
+25
+26*›
+28Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaù ù(≠
+™
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaù ù(
+%9org.slf4j.Logger"__id*
+""∆√
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaù ù(*
+%10void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%9org.slf4j.Logger*
+Opening journal {}*
+
+fnjava.io.File2*info(Ljava/lang/String;Ljava/lang/Object;)œÃ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaû û(
+%11boolean"java.io.File#exists()Z*
+
+fnjava.io.File2exists()*
+27
+21*•
+29Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaö" ö(P„
+‡
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaö" ö(g
+%6java.lang.String"__concat*0.
+,Invalid journal format to write : version = *
+""∑¥
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaö ö(!
+%7java.io.IOException"java.io.IOExceptionı
+Ú
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaö ö(h
+%8"/java.io.IOException#<init>(Ljava/lang/String;)V*
+
+%7java.io.IOException*
+
+%6java.lang.String*
+0*Í
+19Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaƒ$ ƒ(&Ÿ÷
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaƒ$ ƒ(/
+
+%56int"java.nio.ByteBuffer#getInt()I*
+
+bbjava.nio.ByteBuffer2getInt()*
+16*°
+0 "ô
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaÓ Ó(
+implicit return*»
+2Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaÍ Í(ı
+Ú
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaÍ4 Í(D
+%82java.io.RandomAccessFile"__id*E*C-
++org.apache.bookkeeper.bookie.JournalChannel"
+randomAccessFileåâ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaÍ4 Í(L
+%83java.io.FileDescriptor"8java.io.RandomAccessFile#getFD()Ljava/io/FileDescriptor;*!
+
+%82java.io.RandomAccessFile2getFD()≤
+Ø
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaÍ Í(M
+
+%84int"Sorg.apache.bookkeeper.util.NativeIO#getSysFileDescriptor(Ljava/io/FileDescriptor;)I*'"%
+#org.apache.bookkeeper.util.NativeIO*
+
+%83java.io.FileDescriptor*
+0*µ
+6Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java‚ ‚(Ï
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java‚ ‚($
+%78java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc¥±
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java‚ ‚()$
+%79java.nio.channels.FileChannel"Hjava.nio.channels.FileChannel#position(J)Ljava/nio/channels/FileChannel;*&
+$
+%78java.nio.channels.FileChannel*
+""2position(J)*
+2
+0*±
+7Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaﬂ ﬂ(Ï
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaﬂ ﬂ($
+%76java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc∞≠
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaﬂ ﬂ(&$
+%77java.nio.channels.FileChannel"Hjava.nio.channels.FileChannel#position(J)Ljava/nio/channels/FileChannel;*&
+$
+%76java.nio.channels.FileChannel*2 2position(J)*
+2
+0*ﬂ
+8Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java› ›(Ï
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java› ›($
+%73java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java›$ ›(7
+
+%74int"__id*
+""∫∑
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java› ›(8$
+%75java.nio.channels.FileChannel"Hjava.nio.channels.FileChannel#position(J)Ljava/nio/channels/FileChannel;*&
+$
+%73java.nio.channels.FileChannel*
+
+
+%74int2position(J)*
+2
+0*≥
+9Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java‹ ‹(,°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java‹0 ‹(2
+
+%72int"__id*
+""*
+7
+8*Ÿ
+30Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaì  ì(0˘
+ˆ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaî î(:
+%0java.nio.ByteBuffer"4java.nio.ByteBuffer#allocate(I)Ljava/nio/ByteBuffer;*"
+java.nio.ByteBuffer*
+""‰
+·
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaî î(:8-
++org.apache.bookkeeper.bookie.JournalChannel"
+zeros"__id*
+
+%0java.nio.ByteBufferÏ
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaó- ó(D
+%1java.lang.String"/java.lang.Long#toHexString(J)Ljava/lang/String;*"
+java.lang.Long*
+""Õ
+ 
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaó- ó(M
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+.txn©¶
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaó ó(
+%3java.io.File"java.io.Fileô
+ñ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaó ó(N
+%4"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%3java.io.File*"
+ 
+journalDirectoryjava.io.File*
+
+%2java.lang.String∑
+¥
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaó ó(O
+fnjava.io.File"__id*
+
+%3java.io.File†
+ù
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaô# ô(%	
+%5int"__id*
+""*
+28
+29*¢
+20Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¿) ¿(*ß
+§
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¿ ¿(,
+first4byte[]"__id*
+""èå
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¡ ¡(
+%53java.nio.ByteBuffer"0java.nio.ByteBuffer#get([B)Ljava/nio/ByteBuffer;*
+
+bbjava.nio.ByteBuffer*
+
+first4byte[]2get([B)‹
+Ÿ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java√* √(3
+%54byte[]"__id*>*<-
++org.apache.bookkeeper.bookie.JournalChannel"
+	magicWordÚ
+Ô
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java√ √(4
+%55boolean"java.util.Arrays#equals([B[B)Z*"
+java.util.Arrays*
+
+first4byte[]*
+
+%54byte[]*
+16
+19*…
+21Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∑4 ∑(6¬ø
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∑# ∑(3
+%43java.io.RandomAccessFile"java.io.RandomAccessFileí
+è
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∑ ∑(<
+%44"Bjava.io.RandomAccessFile#<init>(Ljava/io/File;Ljava/lang/String;)V*!
+
+%43java.io.RandomAccessFile*
+
+fnjava.io.File*
+rı
+Ú
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∑ ∑(<C-
++org.apache.bookkeeper.bookie.JournalChannel"
+randomAccessFile"__id*!
+
+%43java.io.RandomAccessFileı
+Ú
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∏! ∏(1
+%45java.io.RandomAccessFile"__id*E*C-
++org.apache.bookkeeper.bookie.JournalChannel"
+randomAccessFile˘
+ˆ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∏ ∏(2$
+%46java.nio.channels.FileChannel"vorg.apache.bookkeeper.bookie.JournalChannel#openFileChannel(Ljava/io/RandomAccessFile;)Ljava/nio/channels/FileChannel;*/"-
++org.apache.bookkeeper.bookie.JournalChannel*!
+
+%45java.io.RandomAccessFileÏ
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∏ ∏(25-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc"__id*&
+$
+%46java.nio.channels.FileChannelÃ
+…
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaπ π(5-
++org.apache.bookkeeper.bookie.JournalChannel"
+bc"__id*
+""°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaª0 ª(C
+
+%47int"__id*
+""Ä
+˝
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaª ª(D
+%48java.nio.ByteBuffer"4java.nio.ByteBuffer#allocate(I)Ljava/nio/ByteBuffer;*"
+java.nio.ByteBuffer*
+
+
+%47int∆
+√
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaª ª(E
+bbjava.nio.ByteBuffer"__id*
+
+%48java.nio.ByteBufferÏ
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaº º($
+%49java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc±Æ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaº º(
+
+%50int":java.nio.channels.FileChannel#read(Ljava/nio/ByteBuffer;)I*&
+$
+%49java.nio.channels.FileChannel*
+
+bbjava.nio.ByteBuffer2read(Ljava/nio/ByteBuffer;)˘ˆ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaΩ Ω(
+%51java.nio.ByteBuffer"/java.nio.ByteBuffer#flip()Ljava/nio/ByteBuffer;*
+
+bbjava.nio.ByteBuffer2flip()°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaø ø((
+
+%52int"__id*
+""*
+16
+20*‡
+10Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java€ €(Ï
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java€ €($
+%69java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java€$ €(/
+
+%70int"__id*
+""∫∑
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java€ €(0$
+%71java.nio.channels.FileChannel"Hjava.nio.channels.FileChannel#position(J)Ljava/nio/channels/FileChannel;*&
+$
+%69java.nio.channels.FileChannel*
+
+
+%70int2position(J)*
+2
+0*´%
+22Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java© ©(W˙
+˜
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java™ ™(;
+%28java.nio.ByteBuffer"4java.nio.ByteBuffer#allocate(I)Ljava/nio/ByteBuffer;*"
+java.nio.ByteBuffer*
+""∆
+√
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java™ ™(<
+bbjava.nio.ByteBuffer"__id*
+
+%28java.nio.ByteBufferü
+ú
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java´ ´(
+%29void"Aorg.apache.bookkeeper.util.ZeroBuffer#put(Ljava/nio/ByteBuffer;)V*)"'
+%org.apache.bookkeeper.util.ZeroBuffer*
+
+bbjava.nio.ByteBuffer˚¯
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java¨ ¨(
+%30java.nio.ByteBuffer"0java.nio.ByteBuffer#clear()Ljava/nio/ByteBuffer;*
+
+bbjava.nio.ByteBuffer2clear()‹
+Ÿ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java≠ ≠(
+%31byte[]"__id*>*<-
++org.apache.bookkeeper.bookie.JournalChannel"
+	magicWordåâ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java≠ ≠(
+%32java.nio.ByteBuffer"0java.nio.ByteBuffer#put([B)Ljava/nio/ByteBuffer;*
+
+bbjava.nio.ByteBuffer*
+
+%31byte[]2put([B)áÑ
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaÆ Æ($
+%33java.nio.ByteBuffer"2java.nio.ByteBuffer#putInt(I)Ljava/nio/ByteBuffer;*
+
+bbjava.nio.ByteBuffer*
+""2	putInt(I)˚¯
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaØ Ø(
+%34java.nio.ByteBuffer"0java.nio.ByteBuffer#clear()Ljava/nio/ByteBuffer;*
+
+bbjava.nio.ByteBuffer2clear()Ï
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∞ ∞($
+%35java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc≥∞
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java∞ ∞(
+
+%36int";java.nio.channels.FileChannel#write(Ljava/nio/ByteBuffer;)I*&
+$
+%35java.nio.channels.FileChannel*
+
+bbjava.nio.ByteBuffer2write(Ljava/nio/ByteBuffer;)Ï
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java≤" ≤($$
+%37java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fc˜Ù
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java≤ ≤(63
+%38,org.apache.bookkeeper.bookie.BufferedChannel"íorg.apache.bookkeeper.bookie.Journal$BufferedChannelBuilder#create(Ljava/nio/channels/FileChannel;I)Lorg/apache/bookkeeper/bookie/BufferedChannel;*J
+H
+	bcBuilder;org.apache.bookkeeper.bookie.Journal$BufferedChannelBuilder*&
+$
+%37java.nio.channels.FileChannel*
+""2(create(Ljava/nio/channels/FileChannel;I)˚
+¯
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java≤ ≤(65-
++org.apache.bookkeeper.bookie.JournalChannel"
+bc"__id*5
+3
+%38,org.apache.bookkeeper.bookie.BufferedChannelòï
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java≥ ≥(
+%39void":org.apache.bookkeeper.bookie.JournalChannel#forceWrite(Z)V*/-
++org.apache.bookkeeper.bookie.JournalChannel*
+""2forceWrite(Z)Ï
+È
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaµ µ($
+%40java.nio.channels.FileChannel"__id*7*5-
++org.apache.bookkeeper.bookie.JournalChannel"
+fcÂ
+‚
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaµ µ(
+%41java.nio.ByteBuffer"__id*:*8-
++org.apache.bookkeeper.bookie.JournalChannel"
+zerosæª
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaµ µ(<
+
+%42int"<java.nio.channels.FileChannel#write(Ljava/nio/ByteBuffer;J)I*&
+$
+%40java.nio.channels.FileChannel*
+
+%41java.nio.ByteBuffer*
+""2write(Ljava/nio/ByteBuffer;J)*
+2
+0*µ
+11Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java⁄ ⁄(%°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java⁄) ⁄(+
+
+%68int"__id*
+""*
+9
+10*µ
+12Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaŸ Ÿ(°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.javaŸ  Ÿ(-
+
+%67int"__id*
+""*
+6
+11*‹
+23Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java©K ©(V°
+û
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java©K ©(V
+
+%27int"__id*
+""ß
+§
+Å
+u/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/JournalChannel.java©K ©(V
+
+%25int"__id*
+
+
+%27int*
+22: 
+journalDirectoryjava.io.File:
+"":
+"":
+"":
+"":
+"":
+"":
+"":H
+	bcBuilder;org.apache.bookkeeper.bookie.Journal$BufferedChannelBuilderB/-
++org.apache.bookkeeper.bookie.JournalChannel

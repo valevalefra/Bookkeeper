@@ -1,0 +1,163 @@
+
+Êorg.apache.bookkeeper.clients.impl.kv.KvUtils#newRangeRequest(Lio/netty/buffer/ByteBuf;Lorg/apache/bookkeeper/api/kv/options/RangeOption;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaW' W(6"3*¨
+2†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javab b(Á¾
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javab5 b(D
+%18io.netty.buffer.ByteBuf"Korg.apache.bookkeeper.api.kv.options.RangeOption#endKey()Ljava/lang/Object;*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2endKey()ý
+ú
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javab* b(E%
+%19com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils* 
+
+%18io.netty.buffer.ByteBuf§¤
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javab b(FE
+%20>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"¬org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setRangeEnd(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*K
+I
+builder>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*'
+%
+%19com.google.protobuf.ByteString2-setRangeEnd(Lcom/google/protobuf/ByteString;)¦
+£
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javab b(FI
+builder>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"__id*G
+E
+%20>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+1*“:
+3†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' X(3”
+‘
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' X(@D
+%0>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"ƒorg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*:"8
+6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequestü
+ù
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaY Y(#$
+%1com.google.protobuf.ByteString"sorg.apache.bookkeeper.clients.impl.kv.KvUtils#toProtoKey(Lio/netty/buffer/ByteBuf;)Lcom/google/protobuf/ByteString;*1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils* 
+
+keyio.netty.buffer.ByteBuf–“
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' Y($D
+%2>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"§org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*F
+D
+%0>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*&
+$
+%1com.google.protobuf.ByteString2(setKey(Lcom/google/protobuf/ByteString;)¥¢
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaZ Z(,
+%3boolean"=org.apache.bookkeeper.api.kv.options.RangeOption#countOnly()Z*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2countOnly()ÍÊ
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' Z(-D
+%4>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"Žorg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setCountOnly(Z)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*F
+D
+%2>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+
+%3boolean2setCountOnly(Z)£ 
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java[ [(*
+%5boolean"<org.apache.bookkeeper.api.kv.options.RangeOption#keysOnly()Z*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2
+keysOnly()ËÈ
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' [(+D
+%6>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setKeysOnly(Z)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*F
+D
+%4>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+
+%5boolean2setKeysOnly(Z)š—
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java\ \($
+
+%7long"9org.apache.bookkeeper.api.kv.options.RangeOption#limit()J*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2limit()Â¿
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' \(%D
+%8>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"Šorg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setLimit(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*F
+D
+%6>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+
+
+%7long2setLimit(J)¨¥
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java]" ](7
+
+%9long"@org.apache.bookkeeper.api.kv.options.RangeOption#minCreateRev()J*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2minCreateRev()ÛØ
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' ](8E
+%10>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"–org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setMinCreateRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*F
+D
+%8>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+
+
+%9long2setMinCreateRevision(J)©¦
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java^" ^(7
+%11long"@org.apache.bookkeeper.api.kv.options.RangeOption#maxCreateRev()J*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2maxCreateRev()ÝÚ
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' ^(8E
+%12>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"–org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setMaxCreateRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*G
+E
+%10>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+
+%11long2setMaxCreateRevision(J)£ 
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java_ _(1
+%13long"=org.apache.bookkeeper.api.kv.options.RangeOption#minModRev()J*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2minModRev()×Ô
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' _(2E
+%14>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"“org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setMinModRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*G
+E
+%12>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+
+%13long2setMinModRevision(J)£ 
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java` `(1
+%15long"=org.apache.bookkeeper.api.kv.options.RangeOption#maxModRev()J*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2maxModRev()×Ô
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX' `(2E
+%16>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"“org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder#setMaxModRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest$Builder;*G
+E
+%14>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder*
+
+%15long2setMaxModRevision(J)¦
+£
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaX `(3I
+builder>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder"__id*G
+E
+%16>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$BuilderÁ¾
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaa a(#
+%17io.netty.buffer.ByteBuf"Korg.apache.bookkeeper.api.kv.options.RangeOption#endKey()Ljava/lang/Object;*<
+:
+option0org.apache.bookkeeper.api.kv.options.RangeOption2endKey()*
+2
+1*å
+1†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javad d("Ö
+†
+|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javad d(K
+I
+builder>org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest$Builder:
+keyio.netty.buffer.ByteBuf::
+option0org.apache.bookkeeper.api.kv.options.RangeOptionB1"/
+-org.apache.bookkeeper.clients.impl.kv.KvUtils

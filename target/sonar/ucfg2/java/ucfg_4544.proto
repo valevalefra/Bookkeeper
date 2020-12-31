@@ -1,0 +1,162 @@
+
+norg.apache.distributedlog.io.LZ4CompressionCodec#compress(Lio/netty/buffer/ByteBuf;I)Lio/netty/buffer/ByteBuf;ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java2 2("startingBlock*Ô
+startingBlockê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java2 2(@Ï
+È
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java1 1(
+%16"
+__annotate*
+java.lang.Override*)
+'
+uncompressedio.netty.buffer.ByteBuf÷
+”
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java2$ 2(0'
+uncompressedio.netty.buffer.ByteBuf"__annotation*
+
+%16*
+1*Û+
+1ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java3 3(„
+‡
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java3 3("
+%0io.netty.buffer.ByteBuf"Wcom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*)
+'
+uncompressedio.netty.buffer.ByteBufáÑ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java4 4(2	
+%1int"(io.netty.buffer.ByteBuf#readableBytes()I*)
+'
+uncompressedio.netty.buffer.ByteBuf2readableBytes()å
+â
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java4 4(7
+
+%2void"6com.google.common.base.Preconditions#checkArgument(Z)V*("&
+$com.google.common.base.Preconditions*
+""áÑ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java6 6(:	
+%3int"(io.netty.buffer.ByteBuf#readableBytes()I*)
+'
+uncompressedio.netty.buffer.ByteBuf2readableBytes()…
+∆
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java7 7(#
+%4net.jpountz.lz4.LZ4Compressor"__id*
+""üú
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java7 7(D	
+%5int"5net.jpountz.lz4.LZ4Compressor#maxCompressedLength(I)I*%
+#
+%4net.jpountz.lz4.LZ4Compressor*
+""2maxCompressedLength(I)ÉÄ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java:< :(V	
+%6int"&io.netty.buffer.ByteBuf#readerIndex()I*)
+'
+uncompressedio.netty.buffer.ByteBuf2readerIndex()ºπ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java:% :(h
+%7java.nio.ByteBuffer":io.netty.buffer.ByteBuf#nioBuffer(II)Ljava/nio/ByteBuffer;*)
+'
+uncompressedio.netty.buffer.ByteBuf*
+	
+%6int*
+""2nioBuffer(II)·
+ﬁ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java: :(i&
+uncompressedNiojava.nio.ByteBuffer"__id*
+
+%7java.nio.ByteBuffer“
+œ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java; ;(;,
+%8&io.netty.buffer.PooledByteBufAllocator"__id*
+""œÃ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java; <(7
+%9io.netty.buffer.ByteBuf"Lio.netty.buffer.AbstractByteBufAllocator#buffer(II)Lio/netty/buffer/ByteBuf;*.
+,
+%8&io.netty.buffer.PooledByteBufAllocator*
+""*
+""2
+buffer(II)‰
+·
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java; <(8%
+
+compressedio.netty.buffer.ByteBuf"__id*
+
+%9io.netty.buffer.ByteBuf∂≥
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java=# =(J
+%10java.nio.ByteBuffer":io.netty.buffer.ByteBuf#nioBuffer(II)Ljava/nio/ByteBuffer;*'
+%
+
+compressedio.netty.buffer.ByteBuf*
+""*
+""2nioBuffer(II)‡
+›
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java= =(K$
+compressedNiojava.nio.ByteBuffer"__id*
+
+%10java.nio.ByteBuffer 
+«
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java? ?(&$
+%11net.jpountz.lz4.LZ4Compressor"__id*
+""ıÚ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java@! @(;
+
+%12int"java.nio.Buffer#position()I*(
+&
+uncompressedNiojava.nio.ByteBuffer2
+position()Û
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.javaA A(7
+
+%13int"java.nio.Buffer#position()I*&
+$
+compressedNiojava.nio.ByteBuffer2
+position()€ÿ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.java? A(@
+
+%14int"Wnet.jpountz.lz4.LZ4Compressor#compress(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;II)I*&
+$
+%11net.jpountz.lz4.LZ4Compressor*(
+&
+uncompressedNiojava.nio.ByteBuffer*
+
+
+%12int*
+""*&
+$
+compressedNiojava.nio.ByteBuffer*
+
+
+%13int*
+""28compress(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;II)∏µ
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.javaB B(9
+%15io.netty.buffer.ByteBuf"?io.netty.buffer.ByteBuf#writerIndex(I)Lio/netty/buffer/ByteBuf;*'
+%
+
+compressedio.netty.buffer.ByteBuf*
+""2writerIndex(I)"º
+ê
+Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/common/src/main/java/org/apache/distributedlog/io/LZ4CompressionCodec.javaD D('
+%
+
+compressedio.netty.buffer.ByteBuf:'
+uncompressedio.netty.buffer.ByteBuf:
+""B42
+0org.apache.distributedlog.io.LZ4CompressionCodec

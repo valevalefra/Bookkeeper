@@ -1,0 +1,67 @@
+
+}org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#increment(Ljava/lang/Object;J)Ljava/util/concurrent/CompletableFuture;Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java¾$ ¾(-"startingBlock*™
+startingBlockŠ
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java¾- ¾(?Ä
+Á
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java½ ½(
+%5"
+__annotate*
+java.lang.Override*
+
+kK®
+«
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java¾0 ¾(1
+kK"__annotation*
+
+%5*
+1*Ë
+1Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java¿ ¿(+ÿü
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java¿ ¿(-/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()ó
+ð
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÂ Â($:
+%14org.apache.bookkeeper.api.kv.options.IncrementOption"sorg.apache.bookkeeper.api.kv.options.Options#blindIncrement()Lorg/apache/bookkeeper/api/kv/options/IncrementOption;*0".
+,org.apache.bookkeeper.api.kv.options.OptionsÐÍ
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java¿ Â(%1
+%2+org.apache.bookkeeper.api.kv.op.IncrementOp"®org.apache.bookkeeper.api.kv.op.OpFactory#newIncrement(Ljava/lang/Object;JLorg/apache/bookkeeper/api/kv/options/IncrementOption;)Lorg/apache/bookkeeper/api/kv/op/IncrementOp;*1
+/
+%0)org.apache.bookkeeper.api.kv.op.OpFactory*
+
+kK*
+""*<
+:
+%14org.apache.bookkeeper.api.kv.options.IncrementOption2WnewIncrement(Ljava/lang/Object;JLorg/apache/bookkeeper/api/kv/options/IncrementOption;)þ
+û
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.java¿ Â(&1
+op+org.apache.bookkeeper.api.kv.op.IncrementOp"__id*3
+1
+%2+org.apache.bookkeeper.api.kv.op.IncrementOpŒ‰
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Ã(,
+%3&java.util.concurrent.CompletableFuture" org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStoreWriteView#increment(Lorg/apache/bookkeeper/api/kv/op/IncrementOp;)Ljava/util/concurrent/CompletableFuture;*:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*3
+1
+op+org.apache.bookkeeper.api.kv.op.IncrementOp28increment(Lorg/apache/bookkeeper/api/kv/op/IncrementOp;)š
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Ï(
+,
+%4&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%3&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"½
+Š
+~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaÃ Ï(.
+,
+%4&java.util.concurrent.CompletableFuture:
+kK:
+""B:8
+6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore

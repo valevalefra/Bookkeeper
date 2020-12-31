@@ -1,0 +1,60 @@
+
+Žorg.apache.bookkeeper.client.LedgerMetadataBuilder#replaceEnsembleEntry(JLjava/util/List;)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java! (5"1*ð
+1ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java (×Ô
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java (%	
+%0int"java.util.List#size()I*
+
+ensemblejava.util.List2size()á
+Þ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java ‘(^
+
+%1void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+""*IG
+ESize of passed in ensemble must match the ensembleSize of the builderô
+ñ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java’ ’(
+%2java.util.TreeMap"__id*E*C4
+2org.apache.bookkeeper.client.LedgerMetadataBuilder"
+	ensembles•’
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java’ ’(7
+%3boolean"2java.util.TreeMap#containsKey(Ljava/lang/Object;)Z*
+
+%2java.util.TreeMap*
+""2containsKey(Ljava/lang/Object;)ã
+à
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java’ “(W
+
+%4void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
+$com.google.common.base.Preconditions*
+
+%3boolean*B@
+>Ensemble must replace an existing ensemble in the ensemble mapô
+ñ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java” ”(
+%5java.util.TreeMap"__id*E*C4
+2org.apache.bookkeeper.client.LedgerMetadataBuilder"
+	ensemblesï
+ì
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java” ”(+
+%6java.util.List"__mapSet*
+
+%5java.util.TreeMap*
+""*
+
+ensemblejava.util.List"Ã
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerMetadataBuilder.java• •(64
+2org.apache.bookkeeper.client.LedgerMetadataBuilder:
+"":
+ensemblejava.util.ListB64
+2org.apache.bookkeeper.client.LedgerMetadataBuilder

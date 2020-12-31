@@ -1,0 +1,107 @@
+
+Çorg.apache.bookkeeper.bookie.EntryMemTable#cloneWithAllocator(JJLjava/nio/ByteBuffer;)Lorg/apache/bookkeeper/bookie/EntryKeyValue;Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÎ Î(,"3*’
+2Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÒ Ò(í
+è
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÒ Ò(50
+%3*org.apache.bookkeeper.bookie.EntryKeyValue"xorg.apache.bookkeeper.bookie.EntryMemTable#newEntry(JJLjava/nio/ByteBuffer;)Lorg/apache/bookkeeper/bookie/EntryKeyValue;*.,
+*org.apache.bookkeeper.bookie.EntryMemTable*
+""*
+""*
+
+entryjava.nio.ByteBuffer"∑
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÒ Ò(62
+0
+%3*org.apache.bookkeeper.bookie.EntryKeyValue*á
+
+3Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÏ Ï(‹Ÿ
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÏ Ï(#	
+%0int"java.nio.Buffer#remaining()I*
+
+entryjava.nio.ByteBuffer2remaining()˝
+˙
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÌ* Ì(30
+%1*org.apache.bookkeeper.bookie.SkipListArena"__id*=*;,
+*org.apache.bookkeeper.bookie.EntryMemTable"
+	allocatoráÑ
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÌ* Ì(F<
+%26org.apache.bookkeeper.bookie.SkipListArena$MemorySlice"sorg.apache.bookkeeper.bookie.SkipListArena#allocateBytes(I)Lorg/apache/bookkeeper/bookie/SkipListArena$MemorySlice;*2
+0
+%1*org.apache.bookkeeper.bookie.SkipListArena*
+""2allocateBytes(I)ç
+ä
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÌ Ì(G?
+alloc6org.apache.bookkeeper.bookie.SkipListArena$MemorySlice"__id*>
+<
+%26org.apache.bookkeeper.bookie.SkipListArena$MemorySlice*
+2
+1*‘
+1Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÙ Ù(¶£
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaÙ Ù(
+%4byte[]"Borg.apache.bookkeeper.bookie.SkipListArena$MemorySlice#getData()[B*A
+?
+alloc6org.apache.bookkeeper.bookie.SkipListArena$MemorySlice2	getData()¶£
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaı ı(!
+%5byte[]"Borg.apache.bookkeeper.bookie.SkipListArena$MemorySlice#getData()[B*A
+?
+alloc6org.apache.bookkeeper.bookie.SkipListArena$MemorySlice2	getData()¶£
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaı# ı(4	
+%6int"Corg.apache.bookkeeper.bookie.SkipListArena$MemorySlice#getOffset()I*A
+?
+alloc6org.apache.bookkeeper.bookie.SkipListArena$MemorySlice2getOffset()•¢
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaı ı(:
+%7java.nio.ByteBuffer"2java.nio.ByteBuffer#get([BII)Ljava/nio/ByteBuffer;*
+
+entryjava.nio.ByteBuffer*
+
+%5byte[]*
+	
+%6int*
+""2	get([BII)¶£
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaˆ4 ˆ(C
+%8byte[]"Borg.apache.bookkeeper.bookie.SkipListArena$MemorySlice#getData()[B*A
+?
+alloc6org.apache.bookkeeper.bookie.SkipListArena$MemorySlice2	getData()¶£
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaˆE ˆ(V	
+%9int"Corg.apache.bookkeeper.bookie.SkipListArena$MemorySlice#getOffset()I*A
+?
+alloc6org.apache.bookkeeper.bookie.SkipListArena$MemorySlice2getOffset()Â‚
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaˆ ˆ( 1
+%10*org.apache.bookkeeper.bookie.EntryKeyValue"*org.apache.bookkeeper.bookie.EntryKeyValue≥
+∞
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaˆ ˆ(\
+%11":org.apache.bookkeeper.bookie.EntryKeyValue#<init>(JJ[BII)V*3
+1
+%10*org.apache.bookkeeper.bookie.EntryKeyValue*
+""*
+""*
+
+%8byte[]*
+	
+%9int*
+"""∏
+Ä
+t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryMemTable.javaˆ ˆ(]3
+1
+%10*org.apache.bookkeeper.bookie.EntryKeyValue:
+"":
+"":
+entryjava.nio.ByteBufferB.,
+*org.apache.bookkeeper.bookie.EntryMemTable

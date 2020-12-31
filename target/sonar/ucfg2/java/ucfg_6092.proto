@@ -1,0 +1,94 @@
+
+\org.apache.bookkeeper.net.DNS#getSubinterface(Ljava/lang/String;)Ljava/net/NetworkInterface;q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javao$ o(3"7*ê
+2q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.java{ {("ó
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.java{ {("
+ 
+nifjava.net.NetworkInterface*Õ
+3q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javay' y(.Å˛
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javay' y(<
+%5java.net.NetworkInterface"5java.util.Enumeration#nextElement()Ljava/lang/Object;*"
+ 
+subNifsjava.util.Enumeration2nextElement()¡
+æ
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javay y(= 
+nifjava.net.NetworkInterface"__id*!
+
+%5java.net.NetworkInterfaceÙÒ
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javaz z(!
+%6java.lang.String"5java.net.NetworkInterface#getName()Ljava/lang/String;*"
+ 
+nifjava.net.NetworkInterface2	getName()çä
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javaz z(6
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%6java.lang.String*"
+ 
+strInterfacejava.lang.String2equals(Ljava/lang/Object;)*
+2
+4*Á
+4q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javax x(Ê„
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javax x(,
+%4boolean"(java.util.Enumeration#hasMoreElements()Z*"
+ 
+subNifsjava.util.Enumeration2hasMoreElements()*
+3
+6*Œ
+5q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javav v(˛˚
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javav v(&
+%2java.net.NetworkInterface"5java.util.Enumeration#nextElement()Ljava/lang/Object;*
+
+nifsjava.util.Enumeration2nextElement()èå
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javav v(9
+%3java.util.Enumeration"Cjava.net.NetworkInterface#getSubInterfaces()Ljava/util/Enumeration;*!
+
+%2java.net.NetworkInterface2getSubInterfaces()Ω
+∫
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javau v(: 
+subNifsjava.util.Enumeration"__id*
+
+%3java.util.Enumeration*
+4*‰
+6q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javat t(„‡
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javat t(%
+%1boolean"(java.util.Enumeration#hasMoreElements()Z*
+
+nifsjava.util.Enumeration2hasMoreElements()*
+5
+1*∂
+7q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javar r( ˚
+¯
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javar r(7
+%0java.util.Enumeration"Gjava.net.NetworkInterface#getNetworkInterfaces()Ljava/util/Enumeration;*"
+java.net.NetworkInterface∫
+∑
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.javaq r(8
+nifsjava.util.Enumeration"__id*
+
+%0java.util.Enumeration*
+6*Û
+1q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.java ("{
+q
+g/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/DNS.java (
+"": 
+strInterfacejava.lang.StringB!"
+org.apache.bookkeeper.net.DNS

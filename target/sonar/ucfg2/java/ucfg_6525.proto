@@ -1,0 +1,186 @@
+
+°org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog#getCurrentLogForLedgerForAddEntry(JIZ)Lorg/apache/bookkeeper/bookie/EntryLogger$BufferedLogChannel;í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.java[$ [(E"12*Ô
+2í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javan n('∞
+≠
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javan n('0
+%18)java.util.concurrent.atomic.AtomicBoolean"__id*^*\?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+shouldCreateNewEntryLogúô
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javan n(2
+%19void"1java.util.concurrent.atomic.AtomicBoolean#set(Z)V*2
+0
+%18)java.util.concurrent.atomic.AtomicBoolean*
+""2set(Z)*
+1*ó
+3í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javaj j(≥
+∞
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javaj j(,
+%13long"__id*
+""⁄
+◊
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javak k(2
+%14java.lang.String"__concat*
+: createNewLog = *
+""Û
+
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javak k(N
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+, reachEntryLogLimit = ﬁ
+€
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javak k(c
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+""äá
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javaj k(d
+%17void"Sorg.apache.bookkeeper.bookie.EntryLogManagerBase#createNewLog(JLjava/lang/String;)V*A?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog*
+
+%13long*
+
+%16java.lang.String2!createNewLog(JLjava/lang/String;)*
+2
+1*…
+4í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javah h( ª
+∏
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javah h( B
+%11;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"__id*W*U?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+activeLogChannelÎË
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javah h(H
+%12void"Qorg.apache.bookkeeper.bookie.BufferedChannel#flushAndForceWriteIfRegularFlush(Z)V*D
+B
+%11;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel*
+""2#flushAndForceWriteIfRegularFlush(Z)*
+3*ﬁ
+5í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javag g( ª
+∏
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javag g( B
+%10;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"__id*W*U?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+activeLogChannel*
+3
+4*Ë
+7í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javab c(EØ
+¨
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javae e(6/
+%8)java.util.concurrent.atomic.AtomicBoolean"__id*^*\?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+shouldCreateNewEntryLogìê
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javae e(<
+%9boolean"0java.util.concurrent.atomic.AtomicBoolean#get()Z*1
+/
+%8)java.util.concurrent.atomic.AtomicBoolean2get()*
+5
+1*∂	
+8í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javac c('∫
+∑
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javac( c(8A
+%7;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"__id*W*U?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+activeLogChannelòï
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javac c(D
+%5boolean"áorg.apache.bookkeeper.bookie.EntryLogManagerBase#readEntryLogHardLimit(Lorg/apache/bookkeeper/bookie/EntryLogger$BufferedLogChannel;J)Z*A?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog*C
+A
+%7;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel*
+""2UreadEntryLogHardLimit(Lorg/apache/bookkeeper/bookie/EntryLogger$BufferedLogChannel;J)æ
+ª
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javac c(D
+%3boolean"__id*
+
+%5boolean*
+7*∞	
+9í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javab/ b(A∫
+∑
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javabB b(RA
+%6;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"__id*W*U?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+activeLogChannelíè
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javab/ b(^
+%4boolean"Ñorg.apache.bookkeeper.bookie.EntryLogManagerBase#reachEntryLogLimit(Lorg/apache/bookkeeper/bookie/EntryLogger$BufferedLogChannel;J)Z*A?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog*C
+A
+%6;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel*
+""2RreachEntryLogLimit(Lorg/apache/bookkeeper/bookie/EntryLogger$BufferedLogChannel;J)æ
+ª
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javab/ b(^
+%3boolean"__id*
+
+%4boolean*
+7*Ü
+11í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.java_ _(≤
+Ø
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.java_ _(,
+
+%1long"__id*
+""≠™
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.java_ _(k
+
+%2void"Sorg.apache.bookkeeper.bookie.EntryLogManagerBase#createNewLog(JLjava/lang/String;)V*A?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog*
+
+
+%1long*><
+:because current active log channel has not initialized yet2!createNewLog(JLjava/lang/String;)*
+8
+9*‚
+12í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.java] ](∫
+∑
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.java] ]($A
+%0;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"__id*W*U?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+activeLogChannel*
+
+8
+9
+11*¥
+1í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javaq q(ª
+∏
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javaq q(B
+%20;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"__id*W*U?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog"
+activeLogChannel"€
+í
+á/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForSingleEntryLog.javaq q( D
+B
+%20;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel:
+"":
+"":
+""BA?
+=org.apache.bookkeeper.bookie.EntryLogManagerForSingleEntryLog

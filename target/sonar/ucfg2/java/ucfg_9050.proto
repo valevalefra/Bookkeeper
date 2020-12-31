@@ -1,0 +1,131 @@
+
+Oorg.apache.bookkeeper.bookie.FileInfo#getExplicitLac()Lio/netty/buffer/ByteBuf;{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java© ©(!"6*¢
+2{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java° °(!Ý
+Ú
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java°) °(4
+%6java.nio.ByteBuffer"__id*:*8'
+%org.apache.bookkeeper.bookie.FileInfo"
+explicitLacÑÎ
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java°) °(?	
+%7int"java.nio.Buffer#capacity()I*
+
+%6java.nio.ByteBuffer2
+capacity()‡
+„
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java° °(@
+%8io.netty.buffer.ByteBuf";io.netty.buffer.Unpooled#buffer(I)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+	
+%7intÊ
+Ç
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java° °(@!
+retLacio.netty.buffer.ByteBuf"__id*
+
+%8io.netty.buffer.ByteBufÝ
+Ú
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java± ±(
+%9java.nio.ByteBuffer"__id*:*8'
+%org.apache.bookkeeper.bookie.FileInfo"
+explicitLacöó
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java± ±($
+%10java.nio.ByteBuffer"1java.nio.ByteBuffer#rewind()Ljava/nio/ByteBuffer;*
+
+%9java.nio.ByteBuffer2rewind()Þ
+Û
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java²" ²(-
+%11java.nio.ByteBuffer"__id*:*8'
+%org.apache.bookkeeper.bookie.FileInfo"
+explicitLacÚ×
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java² ²(.
+%12io.netty.buffer.ByteBuf"Rio.netty.buffer.ByteBuf#writeBytes(Ljava/nio/ByteBuffer;)Lio/netty/buffer/ByteBuf;*#
+!
+retLacio.netty.buffer.ByteBuf*
+
+%11java.nio.ByteBuffer2!writeBytes(Ljava/nio/ByteBuffer;)Þ
+Û
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java³ ³(
+%13java.nio.ByteBuffer"__id*:*8'
+%org.apache.bookkeeper.bookie.FileInfo"
+explicitLac÷ô
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java³ ³($
+%14java.nio.ByteBuffer"1java.nio.ByteBuffer#rewind()Ljava/nio/ByteBuffer;*
+
+%13java.nio.ByteBuffer2rewind()"¢
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java´ ´(#
+!
+retLacio.netty.buffer.ByteBuf*è
+3{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java¯ ¯(Ý
+Ú
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java¯ ¯(
+%5java.nio.ByteBuffer"__id*:*8'
+%org.apache.bookkeeper.bookie.FileInfo"
+explicitLac*
+2
+1*Ù
+4{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java­ ­(¦
+£
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java­ ­(
+%2org.slf4j.Logger"__id*
+""Ý
+Ú
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java­1 ­(<
+%3java.nio.ByteBuffer"__id*:*8'
+%org.apache.bookkeeper.bookie.FileInfo"
+explicitLacÈÅ
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java­ ­(=
+
+%4void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%2org.slf4j.Logger*
+fileInfo:GetLac: {}*
+
+%3java.nio.ByteBuffer2+debug(Ljava/lang/String;Ljava/lang/Object;)*
+3*“
+5{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java¬ ¬(¦
+£
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java¬ ¬(
+%0org.slf4j.Logger"__id*
+""ßÜ
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java¬ ¬($
+%1boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%0org.slf4j.Logger2isDebugEnabled()*
+3
+4*¹
+6{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.javaª ª(±
+®
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.javaª ª(!
+retLacio.netty.buffer.ByteBuf"__id*
+""*
+5*¥
+1{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java· ·("¢
+{
+o/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/FileInfo.java· ·(#
+!
+retLacio.netty.buffer.ByteBufB)'
+%org.apache.bookkeeper.bookie.FileInfo

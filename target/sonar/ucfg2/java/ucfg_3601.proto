@@ -1,0 +1,92 @@
+
+_org.apache.distributedlog.BKLogReadHandler#asyncClose()Ljava/util/concurrent/CompletableFuture;‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaå# å(-"5*¸
+2‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaé é(!Š
+‡
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaé é(!,
+%3&java.util.concurrent.CompletableFuture"__id*E*C,
+*org.apache.distributedlog.BKLogReadHandler"
+lockAcquireFuture”‘
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaé é(.
+%4boolean"1java.util.concurrent.CompletableFuture#cancel(Z)Z*.
+,
+%3&java.util.concurrent.CompletableFuture*
+""2	cancel(Z)*
+1*±
+3‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaè. è(?Š
+‡
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaè. è(?,
+%1&java.util.concurrent.CompletableFuture"__id*E*C,
+*org.apache.distributedlog.BKLogReadHandler"
+lockAcquireFutureŠ‡
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaè. è(H
+%2boolean"0java.util.concurrent.CompletableFuture#isDone()Z*.
+,
+%1&java.util.concurrent.CompletableFuture2isDone()*
+2
+1*¤
+4‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaè è(Š
+‡
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaè è(),
+%0&java.util.concurrent.CompletableFuture"__id*E*C,
+*org.apache.distributedlog.BKLogReadHandler"
+lockAcquireFuture*
+3
+1*ó
+5‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaæ æ($Ü
+Ù
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaæ æ($=
+lockToClose.org.apache.distributedlog.lock.DistributedLock"__id*
+""*
+4*¯
+1‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaë ë("‰
+†
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaë ë("4
+%5.org.apache.distributedlog.lock.DistributedLock"__id*<*:,
+*org.apache.distributedlog.BKLogReadHandler"
+
+readLockŒ
+‰
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaë ë("=
+lockToClose.org.apache.distributedlog.lock.DistributedLock"__id*6
+4
+%5.org.apache.distributedlog.lock.DistributedLockŽ
+‹
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaí# í(,8
+%62org.apache.bookkeeper.common.util.OrderedScheduler"__id*=*;,
+*org.apache.distributedlog.BKLogReadHandler"
+	scheduler—
+”
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaí í(:,
+%7&java.util.concurrent.CompletableFuture"°org.apache.distributedlog.util.Utils#closeSequence(Ljava/util/concurrent/ExecutorService;[Lorg/apache/distributedlog/io/AsyncCloseable;)Ljava/util/concurrent/CompletableFuture;*("&
+$org.apache.distributedlog.util.Utils*:
+8
+%62org.apache.bookkeeper.common.util.OrderedScheduler*?
+=
+lockToClose.org.apache.distributedlog.lock.DistributedLock˜•
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaí ò(,
+%8&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%7&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)"¼
+‰
+}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogReadHandler.javaí ò(.
+,
+%8&java.util.concurrent.CompletableFutureB.,
+*org.apache.distributedlog.BKLogReadHandler

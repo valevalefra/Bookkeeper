@@ -1,0 +1,535 @@
+
+Êorg.apache.bookkeeper.tools.cli.commands.bookie.SanityTestCommand#handle(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand$SanityFlags;)Z–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaT T("37*é
+24–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai i(R‡
+„
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai i(R/
+lh)org.apache.bookkeeper.client.LedgerHandle"__id*2
+0
+%24)org.apache.bookkeeper.client.LedgerHandleµ²
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaj j((
+%25long"@org.apache.bookkeeper.client.LedgerHandle#getLastAddConfirmed()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getLastAddConfirmed()*
+19
+22*§	
+25–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai+ i(5å
+â
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai+ i(@9
+%222org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""å
+â
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai+ i(D9
+%232org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""±®
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai i(R0
+%24)org.apache.bookkeeper.client.LedgerHandle"–org.apache.bookkeeper.client.BookKeeper#openLedger(JLorg/apache/bookkeeper/client/BookKeeper$DigestType;[B)Lorg/apache/bookkeeper/client/LedgerHandle;*/
+-
+bk'org.apache.bookkeeper.client.BookKeeper*
+
+%21long*;
+9
+%232org.apache.bookkeeper.client.BookKeeper$DigestType*
+""2CopenLedger(JLorg/apache/bookkeeper/client/BookKeeper$DigestType;[B)*
+24*¿
+26–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai i(™–
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javai i()
+%21long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getId()*
+25*´
+27–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaf f(UŽ‹
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaf f(U
+%20void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%18org.slf4j.Logger*#!
+Written {} entries in ledger {}*
+""*
+
+%19long2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+26*…
+28–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaf f(Ã
+À
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaf f(
+%18org.slf4j.Logger"__id*
+""™–
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javafJ f(T
+%19long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getId()*
+27*Þ
+30–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javac c(4´±
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javac c(4
+%17long"7org.apache.bookkeeper.client.LedgerHandle#addEntry([B)J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*
+
+%16byte[]2addEntry([B)*
+28
+31*ó
+31–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javab! b()Ó
+Ð
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javab! b(-
+%14java.lang.String"__concat*
+
+entry-*
+""Ú
+×
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javab b(.
+contentjava.lang.String"__id*
+
+%14java.lang.StringË
+È
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javac- c(2
+%15java.nio.charset.Charset"__id*
+""ÌÉ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javac c(3
+%16byte[]"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*
+
+contentjava.lang.String*!
+
+%15java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)*
+30*Š
+10–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javav( v(\š
+—
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javav( v(j
+%41java.lang.String"__concat*64
+2Failed validation of received message - Expected: *!
+
+expectedMsgjava.lang.Stringê
+ç
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javav( w(:
+%42java.lang.String"__concat*
+
+%41java.lang.String*
+
+, Actual: û
+ø
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javav( w(F
+%43java.lang.String"__concat*
+
+%42java.lang.String*
+
+	actualMsgjava.lang.StringÍÊ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javav v('
+%44java.lang.Exception"java.lang.Exception
+Š
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javav w(G
+%45"/java.lang.Exception#<init>(Ljava/lang/String;)V*
+
+%44java.lang.Exception*
+
+%43java.lang.String*
+6*ý
+34–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java_ _(4ÓÐ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java_ _(4
+%13void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%11org.slf4j.Logger*
+Create ledger {}*
+
+%12long2*info(Ljava/lang/String;Ljava/lang/Object;)*
+28
+31*ú
+12–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javas s(GÜ
+Ù
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javas s(G
+	actualMsgjava.lang.String"__id*
+
+%37java.lang.StringÓ
+Ð
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javat% t(5
+%39java.lang.String"__concat*
+
+entry-*
+""Þ
+Û
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javat t(6
+expectedMsgjava.lang.String"__id*
+
+%39java.lang.Stringº·
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javau u(2
+%40boolean",java.lang.String#equals(Ljava/lang/Object;)Z*!
+
+expectedMsgjava.lang.String*
+
+	actualMsgjava.lang.String2equals(Ljava/lang/Object;)*
+17
+10*
+35–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java^ ^(N‡
+„
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java^ ^(N/
+lh)org.apache.bookkeeper.client.LedgerHandle"__id*2
+0
+%10)org.apache.bookkeeper.client.LedgerHandleÃ
+À
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java_ _(
+%11org.slf4j.Logger"__id*
+""™–
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java_) _(3
+%12long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getId()*
+34*è
+13–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javas@ s(EË
+È
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javas@ s(E
+%36java.nio.charset.Charset"__id*
+""ÇÄ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javas' s(-
+%37java.lang.String"java.lang.Stringª
+§
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javas# s(F
+%38"6java.lang.String#<init>([BLjava/nio/charset/Charset;)V*
+
+%37java.lang.String*
+
+%35byte[]*!
+
+%36java.nio.charset.Charset*
+12*§	
+36–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java^ ^(ä
+á
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java^' ^(<8
+%82org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""ä
+á
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java^' ^(@8
+%92org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""³°
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java^ ^(N0
+%10)org.apache.bookkeeper.client.LedgerHandle"™org.apache.bookkeeper.client.BookKeeper#createLedger(IILorg/apache/bookkeeper/client/BookKeeper$DigestType;[B)Lorg/apache/bookkeeper/client/LedgerHandle;*/
+-
+bk'org.apache.bookkeeper.client.BookKeeper*2*2*:
+8
+%92org.apache.bookkeeper.client.BookKeeper$DigestType*
+""2FcreateLedger(IILorg/apache/bookkeeper/client/BookKeeper$DigestType;[B)*
+35*Ô
+14–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javar r(:ˆ
+…
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javar r(:1
+entry(org.apache.bookkeeper.client.LedgerEntry"__id*1
+/
+%34(org.apache.bookkeeper.client.LedgerEntry£ 
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javas. s(>
+%35byte[]"5org.apache.bookkeeper.client.LedgerEntry#getEntry()[B*3
+1
+entry(org.apache.bookkeeper.client.LedgerEntry2
+getEntry()*
+13*Ä
+37–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaU) U(B‚ÿ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaU- U(@4
+%0.org.apache.bookkeeper.conf.ClientConfiguration".org.apache.bookkeeper.conf.ClientConfiguration”
+‘
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaU) U(B
+%1"8org.apache.bookkeeper.conf.ClientConfiguration#<init>()V*6
+4
+%0.org.apache.bookkeeper.conf.ClientConfiguration˜
+•
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaU U(C<
+
+clientConf.org.apache.bookkeeper.conf.ClientConfiguration"__id*6
+4
+%0.org.apache.bookkeeper.conf.ClientConfigurationãà
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaV V()
+
+%2void"{org.apache.commons.configuration.CompositeConfiguration#addConfiguration(Lorg/apache/commons/configuration/Configuration;)V*>
+<
+
+clientConf.org.apache.bookkeeper.conf.ClientConfiguration*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2BaddConfiguration(Lorg/apache/commons/configuration/Configuration;)ØÕ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaW W(W4
+%3.org.apache.bookkeeper.conf.ClientConfiguration"Œorg.apache.bookkeeper.conf.ClientConfiguration#setEnsemblePlacementPolicy(Ljava/lang/Class;)Lorg/apache/bookkeeper/conf/ClientConfiguration;*>
+<
+
+clientConf.org.apache.bookkeeper.conf.ClientConfiguration*
+""2-setEnsemblePlacementPolicy(Ljava/lang/Class;)§¤
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaX X(74
+%4.org.apache.bookkeeper.conf.ClientConfiguration"torg.apache.bookkeeper.conf.ClientConfiguration#setAddEntryTimeout(I)Lorg/apache/bookkeeper/conf/ClientConfiguration;*>
+<
+
+clientConf.org.apache.bookkeeper.conf.ClientConfiguration*
+""2setAddEntryTimeout(I)©¦
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaY Y(84
+%5.org.apache.bookkeeper.conf.ClientConfiguration"uorg.apache.bookkeeper.conf.ClientConfiguration#setReadEntryTimeout(I)Lorg/apache/bookkeeper/conf/ClientConfiguration;*>
+<
+
+clientConf.org.apache.bookkeeper.conf.ClientConfiguration*
+""2setReadEntryTimeout(I)ôñ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java[ [(&-
+%6'org.apache.bookkeeper.client.BookKeeper"'org.apache.bookkeeper.client.BookKeeperö
+ó
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java[ [(2
+%7"aorg.apache.bookkeeper.client.BookKeeper#<init>(Lorg/apache/bookkeeper/conf/ClientConfiguration;)V*/
+-
+%6'org.apache.bookkeeper.client.BookKeeper*>
+<
+
+clientConf.org.apache.bookkeeper.conf.ClientConfiguration‚
+ÿ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java[ [(3-
+bk'org.apache.bookkeeper.client.BookKeeper"__id*/
+-
+%6'org.apache.bookkeeper.client.BookKeeperÛ
+Ø
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java\ \(/
+lh)org.apache.bookkeeper.client.LedgerHandle"__id*
+""*
+36*Ý
+15–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javar$ r(+·´
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javar$ r(9/
+%34(org.apache.bookkeeper.client.LedgerEntry"5java.util.Enumeration#nextElement()Ljava/lang/Object;*"
+ 
+entriesjava.util.Enumeration2nextElement()*
+14*¶
+17–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaq q(Š
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaq q(,
+%33boolean"(java.util.Enumeration#hasMoreElements()Z*"
+ 
+entriesjava.util.Enumeration2hasMoreElements()*
+15
+8*Š
+18–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javao o(Wä
+á
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javao o(W 
+entriesjava.util.Enumeration"__id*
+
+%32java.util.Enumeration*
+17*‚
+19–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javao/ o(1ÜÙ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javao/ o(V
+%32java.util.Enumeration"Porg.apache.bookkeeper.client.LedgerHandle#readEntries(JJ)Ljava/util/Enumeration;*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*2 *
+""2readEntries(JJ)*
+18*¸
+0 "°
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaŠ Š(
+implicit return*½
+1˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaˆ ˆ(Å
+Â
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaˆ ˆ(
+%57org.slf4j.Logger"__id*
+""®«
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javaˆ ˆ(0
+%58void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%57org.slf4j.Logger* 
+Bookie sanity test succeeded2info(Ljava/lang/String;)"£
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java‰ ‰(
+""*À
+2˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java… …(—”
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java… …(
+%56void"0org.apache.bookkeeper.client.BookKeeper#close()V*/
+-
+bk'org.apache.bookkeeper.client.BookKeeper2close()*
+0
+1*¹
+3˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java (›˜
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java  (*
+%51long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getId()¶³
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java (+
+%52void"8org.apache.bookkeeper.client.BookKeeper#deleteLedger(J)V*/
+-
+bk'org.apache.bookkeeper.client.BookKeeper*
+
+%51long2deleteLedger(J)Å
+Â
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java‚ ‚(
+%53org.slf4j.Logger"__id*
+""›˜
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java‚. ‚(8
+%54long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getId()ÖÓ
+˜
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java‚ ‚(9
+%55void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%53org.slf4j.Logger*
+Deleted ledger {}*
+
+%54long2*info(Ljava/lang/String;Ljava/lang/Object;)*
+2*À
+5–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java~ ~("¡
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java~ ~(
+""*¢
+6–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java| |(Ä
+Á
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java| |(
+ejava.lang.Exception"__id*
+""Ã
+À
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java} }(
+%49org.slf4j.Logger"__id*
+""ñî
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java} }(6
+%50void"?org.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Throwable;)V*
+
+%49org.slf4j.Logger*
+Error in bookie sanity test*
+
+ejava.lang.Exception2-warn(Ljava/lang/String;Ljava/lang/Throwable;)*
+5*´
+7–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java{ {(EŠ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java{ {(E
+%48void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%46org.slf4j.Logger*" 
+Read {} entries from ledger {}*
+""*
+
+%47long2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+2
+3*ƒ
+8–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java{ {(Ã
+À
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java{ {(
+%46org.slf4j.Logger"__id*
+""™–
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.java{: {(D
+%47long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getId()*
+7*î
+21–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javak$ l(Ré
+æ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javak$ l(R
+%29java.lang.String"__concat*
+
+%27java.lang.String*
+
+%28longÍÊ
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javak k(#
+%30java.lang.Exception"java.lang.Exception
+Š
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javak l(S
+%31"/java.lang.Exception#<init>(Ljava/lang/String;)V*
+
+%30java.lang.Exception*
+
+%29java.lang.String*
+6*È
+22–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javak$ k(Uü
+ù
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javak$ k(n
+%26java.lang.String"__concat*31
+/Invalid last entry found on ledger. expecting: *
+""ë
+è
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javak$ l(7
+%27java.lang.String"__concat*
+
+%26java.lang.String*
+ -- found: µ²
+–
+‹/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommand.javal: l(R
+%28long"@org.apache.bookkeeper.client.LedgerHandle#getLastAddConfirmed()J*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle2getLastAddConfirmed()*
+21:6
+conf.org.apache.bookkeeper.conf.ServerConfiguration:Y
+cmdFlagsMorg.apache.bookkeeper.tools.cli.commands.bookie.SanityTestCommand$SanityFlagsBEC
+Aorg.apache.bookkeeper.tools.cli.commands.bookie.SanityTestCommand

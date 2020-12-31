@@ -1,0 +1,76 @@
+
+dorg.apache.distributedlog.auditor.DLAuditor#calculateStreamSpaceUsage(Ljava/net/URI;)Ljava/util/Map;ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaè è(6"4*∑
+2ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javañ ñ(="§
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javañ ñ(=
+
+%7java.util.Map*·
+3ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javañ ñ(,…
+∆
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javañ ñ(<
+%7java.util.Map"óorg.apache.distributedlog.auditor.DLAuditor#calculateStreamSpaceUsage(Ljava/net/URI;Lorg/apache/distributedlog/api/namespace/Namespace;)Ljava/util/Map;*/-
++org.apache.distributedlog.auditor.DLAuditor*
+
+urijava.net.URI*@
+>
+	namespace1org.apache.distributedlog.api.namespace.Namespace*
+2*Ü
+4ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaê ê(∂
+≥
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaê ê(
+%0org.slf4j.Logger"__id*
+""‚ﬂ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaê ê(A
+
+%1void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*)'
+%Collecting stream space usage for {}.*
+
+urijava.net.URI2*info(Ljava/lang/String;Ljava/lang/Object;)è
+å
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaë ë(;>
+%28org.apache.distributedlog.api.namespace.NamespaceBuilder"org.apache.distributedlog.api.namespace.NamespaceBuilder#newBuilder()Lorg/apache/distributedlog/api/namespace/NamespaceBuilder;*<":
+8org.apache.distributedlog.api.namespace.NamespaceBuilderé
+ã
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaí í(;
+%35org.apache.distributedlog.DistributedLogConfiguration"__id*9*7-
++org.apache.distributedlog.auditor.DLAuditor"
+conf√¿
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaë í(>
+%48org.apache.distributedlog.api.namespace.NamespaceBuilder"∞org.apache.distributedlog.api.namespace.NamespaceBuilder#conf(Lorg/apache/distributedlog/DistributedLogConfiguration;)Lorg/apache/distributedlog/api/namespace/NamespaceBuilder;*@
+>
+%28org.apache.distributedlog.api.namespace.NamespaceBuilder*=
+;
+%35org.apache.distributedlog.DistributedLogConfiguration2=conf(Lorg/apache/distributedlog/DistributedLogConfiguration;)«ƒ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaë ì(>
+%58org.apache.distributedlog.api.namespace.NamespaceBuilder"Üorg.apache.distributedlog.api.namespace.NamespaceBuilder#uri(Ljava/net/URI;)Lorg/apache/distributedlog/api/namespace/NamespaceBuilder;*@
+>
+%48org.apache.distributedlog.api.namespace.NamespaceBuilder*
+
+urijava.net.URI2uri(Ljava/net/URI;)âÜ
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaë î(7
+%61org.apache.distributedlog.api.namespace.Namespace"sorg.apache.distributedlog.api.namespace.NamespaceBuilder#build()Lorg/apache/distributedlog/api/namespace/Namespace;*@
+>
+%58org.apache.distributedlog.api.namespace.NamespaceBuilder2build()ë
+é
+ä
+~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/auditor/DLAuditor.javaë î(>
+	namespace1org.apache.distributedlog.api.namespace.Namespace"__id*9
+7
+%61org.apache.distributedlog.api.namespace.Namespace*
+3:
+urijava.net.URIB/-
++org.apache.distributedlog.auditor.DLAuditor

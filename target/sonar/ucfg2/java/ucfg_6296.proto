@@ -1,0 +1,245 @@
+
+Èorg.apache.bookkeeper.bookie.LedgerDirsManager#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;[Ljava/io/File;Lorg/apache/bookkeeper/util/DiskChecker;Lorg/apache/bookkeeper/stats/StatsLogger;)V‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaA A("5*‹
+2‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaJ J(«
+¨
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaJ J(
+dirjava.io.File"__id*
+""Ê
+Ç
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaJ J(
+dirjava.io.File"
+__arrayGet*
+
+%12java.util.List*
+""*
+3
+1*ü
+3‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaK K(ý
+ú
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaK K()
+%13"java.util.concurrent.ConcurrentMap"__id*B*@0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+
+diskUsagesö
+ó
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaK K(#
+%14java.lang.Float"__mapSet*+
+)
+%13"java.util.concurrent.ConcurrentMap*
+
+dirjava.io.File*
+""ñî
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaL' L(6
+%15java.lang.String"*java.io.File#getParent()Ljava/lang/String;*
+
+dirjava.io.File2getParent()‰†
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaL' L(H
+%16java.lang.String".java.lang.String#replace(CC)Ljava/lang/String;*
+
+%15java.lang.String*
+""*
+""2replace(CC)Ð
+Í
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaL L(H
+%17java.lang.String"__concat*
+dir_*
+
+%16java.lang.StringÒ
+Ï
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaL L(S
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+
+_usageÇ
+Ä
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaL L(T
+statNamejava.lang.String"__id*
+
+%18java.lang.StringÀ
+½
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaM M('
+	targetDirjava.io.File"__id*
+
+dirjava.io.Fileóð
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaN4 N(A7
+%190org.apache.bookkeeper.bookie.LedgerDirsManager$1"0org.apache.bookkeeper.bookie.LedgerDirsManager$1æ
+ã
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaN0 X(
+%20"java.lang.Object#<init>()V*9
+7
+%190org.apache.bookkeeper.bookie.LedgerDirsManager$1ßÜ
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaN X(
+%21void"morg.apache.bookkeeper.stats.StatsLogger#registerGauge(Ljava/lang/String;Lorg/apache/bookkeeper/stats/Gauge;)V*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+statNamejava.lang.String*9
+7
+%190org.apache.bookkeeper.bookie.LedgerDirsManager$12DregisterGauge(Ljava/lang/String;Lorg/apache/bookkeeper/stats/Gauge;)*
+2*€
+4‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaJ J()ð
+í
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaJ J()
+%12java.util.List"__id*I*G0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+ledgerDirectories*
+2*´ 
+5‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaB! B('¼
+¹
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaB/ C(,
+%0java.io.File[]"Yorg.apache.bookkeeper.bookie.Bookie#getCurrentDirectories([Ljava/io/File;)[Ljava/io/File;*'"%
+#org.apache.bookkeeper.bookie.Bookie*
+
+dirsjava.io.File[]Š
+‡
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaB! C(-
+%1java.util.List"<java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;*"
+java.util.Arrays*
+
+%0java.io.File[]ï
+ì
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaB C(-G0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+ledgerDirectories"__id*
+
+%1java.util.Listï
+ì
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaD= D(N
+%2java.util.List"__id*I*G0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+ledgerDirectories¸µ
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaD- D(<
+%3java.util.ArrayList"java.util.ArrayListø
+õ
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaD) D(O
+%4"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*
+
+%3java.util.ArrayList*
+
+%2java.util.Listü
+ù
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaD D(OO0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+writableLedgerDirectories"__id*
+
+%3java.util.ArrayList¸µ
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaE E(-
+%5java.util.ArrayList"java.util.ArrayListÊ
+Ç
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaE E(/
+%6"java.util.ArrayList#<init>()V*
+
+%5java.util.ArrayListí
+ê
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaE E(/@0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+
+filledDirs"__id*
+
+%5java.util.ArrayList¸µ
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaF F(:
+%7java.util.ArrayList"java.util.ArrayListÊ
+Ç
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaF F(<
+%8"java.util.ArrayList#<init>()V*
+
+%7java.util.ArrayListì
+é
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaF F(<?0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+	listeners"__id*
+
+%7java.util.ArrayList®«
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaG G(7
+
+%9long"Forg.apache.bookkeeper.conf.ServerConfiguration#getEntryLogSizeLimit()J*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2getEntryLogSizeLimit()ÏÌ
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaH1 H(\
+%10long"Vorg.apache.bookkeeper.conf.ServerConfiguration#getMinUsableSizeForIndexFileCreation()J*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2&getMinUsableSizeForIndexFileCreation()ÍÊ
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javaI0 I(Z
+%11long"Uorg.apache.bookkeeper.conf.ServerConfiguration#getMinUsableSizeForEntryLogCreation()J*8
+6
+conf.org.apache.bookkeeper.conf.ServerConfiguration2%getMinUsableSizeForEntryLogCreation()*
+4*¢
+0 "š
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.javah h(
+implicit return*ˆ
+1‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.java[ [(&Š
+‡
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.java[ [(&A0
+.org.apache.bookkeeper.bookie.LedgerDirsManager"
+diskChecker"__id*7
+5
+diskChecker&org.apache.bookkeeper.util.DiskChecker¯
+¬
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.java\" \(2
+%22java.lang.String"__id*
+""óð
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.java\8 \(E7
+%230org.apache.bookkeeper.bookie.LedgerDirsManager$2"0org.apache.bookkeeper.bookie.LedgerDirsManager$2æ
+ã
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.java\4 g(	
+%24"java.lang.Object#<init>()V*9
+7
+%230org.apache.bookkeeper.bookie.LedgerDirsManager$2Ú×
+‚
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LedgerDirsManager.java\ g(
+
+%25void"morg.apache.bookkeeper.stats.StatsLogger#registerGauge(Ljava/lang/String;Lorg/apache/bookkeeper/stats/Gauge;)V*8
+6
+statsLogger'org.apache.bookkeeper.stats.StatsLogger*
+
+%22java.lang.String*9
+7
+%230org.apache.bookkeeper.bookie.LedgerDirsManager$22DregisterGauge(Ljava/lang/String;Lorg/apache/bookkeeper/stats/Gauge;)*
+0:6
+conf.org.apache.bookkeeper.conf.ServerConfiguration:
+dirsjava.io.File[]:5
+diskChecker&org.apache.bookkeeper.util.DiskChecker:6
+statsLogger'org.apache.bookkeeper.stats.StatsLoggerB20
+.org.apache.bookkeeper.bookie.LedgerDirsManager

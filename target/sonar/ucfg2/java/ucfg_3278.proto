@@ -1,0 +1,172 @@
+
+¤org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore#openReader(Lorg/apache/distributedlog/LogSegmentMetadata;J)Ljava/util/concurrent/CompletableFuture; 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÈ4 È(>"startingBlock*¤
+2 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÙ Ù(Â¿
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÚ Ú(-
+%11long"?org.apache.distributedlog.LogSegmentMetadata#getLogSegmentId()J*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentId()ï
+ì
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÛ Û()9
+%122org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""ï
+ì
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÛ Û(/9
+%132org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""
+Š
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÜ Ü(
+%14byte[]"__id*P*NB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+passwd½º
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÙ Þ(
+%15void"¼org.apache.bookkeeper.client.BookKeeper#asyncOpenLedger(JLorg/apache/bookkeeper/client/BookKeeper$DigestType;[BLorg/apache/bookkeeper/client/AsyncCallback$OpenCallback;Ljava/lang/Object;)V*/
+-
+bk'org.apache.bookkeeper.client.BookKeeper*
+
+%11long*;
+9
+%132org.apache.bookkeeper.client.BookKeeper$DigestType*
+
+%14byte[]*DB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore*_
+]
+requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest2“asyncOpenLedger(JLorg/apache/bookkeeper/client/BookKeeper$DigestType;[BLorg/apache/bookkeeper/client/AsyncCallback$OpenCallback;Ljava/lang/Object;)*
+1*±
+3 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÒ Ò(Á¾
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÓ Ó(-
+
+%6long"?org.apache.distributedlog.LogSegmentMetadata#getLogSegmentId()J*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentId()î
+ë
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÔ Ô()8
+%72org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""î
+ë
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÔ Ô(/8
+%82org.apache.bookkeeper.client.BookKeeper$DigestType"__id*
+""Œ
+‰
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÕ Õ(
+%9byte[]"__id*P*NB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+passwdÎË
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÒ ×(
+%10void"Æorg.apache.bookkeeper.client.BookKeeper#asyncOpenLedgerNoRecovery(JLorg/apache/bookkeeper/client/BookKeeper$DigestType;[BLorg/apache/bookkeeper/client/AsyncCallback$OpenCallback;Ljava/lang/Object;)V*/
+-
+bk'org.apache.bookkeeper.client.BookKeeper*
+
+
+%6long*:
+8
+%82org.apache.bookkeeper.client.BookKeeper$DigestType*
+
+%9byte[]*DB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore*_
+]
+requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest2asyncOpenLedgerNoRecovery(JLorg/apache/bookkeeper/client/BookKeeper$DigestType;[BLorg/apache/bookkeeper/client/AsyncCallback$OpenCallback;Ljava/lang/Object;)*
+1*¿
+startingBlock 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÈ> É(FŒ
+‰
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÇ Ç(
+%17"
+__annotate*
+java.lang.Override*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadataö
+ó
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÈR È(Y7
+segment,org.apache.distributedlog.LogSegmentMetadata"__annotation*
+
+%17*
+9*Œ
+4 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÐ: Ð(AÔÑ
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÐ( Ð(9X
+%3Rorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"Rorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequestÙ
+Ö
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÐ$ Ð(P
+%4"‹org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest#<init>(Lorg/apache/distributedlog/LogSegmentMetadata;J)V*Z
+X
+%3Rorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata*
+""ç
+ä
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÐ Ð(Q]
+requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"__id*Z
+X
+%3Rorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest¾»
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÑ Ñ("
+%5boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
+2
+3*º
+5 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÌ Ì(Œ
+‰
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÌ Ì(-
+bk'org.apache.bookkeeper.client.BookKeeper"__id*/
+-
+%1'org.apache.bookkeeper.client.BookKeeper*
+4*É
+8 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÌ Ì(­
+ª
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÌ Ì(0
+%0*org.apache.distributedlog.BookKeeperClient"__id*M*KB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+bkcëè
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÌ Ì(-
+%1'org.apache.bookkeeper.client.BookKeeper"Yorg.apache.distributedlog.BookKeeperClient#get()Lorg/apache/bookkeeper/client/BookKeeper;*2
+0
+%0*org.apache.distributedlog.BookKeeperClient2get()*
+5*‘
+9 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÊ Ê(ã
+à
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaÊ Ê(-
+bk'org.apache.bookkeeper.client.BookKeeper"__id*
+""*
+8*Í
+1 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaà à(Í
+Ê
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaà à("-
+%16&java.util.concurrent.CompletableFuture"__id*p*n
+]
+requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"
+openPromise"Ô
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaà à(#/
+-
+%16&java.util.concurrent.CompletableFuture:7
+segment,org.apache.distributedlog.LogSegmentMetadata:
+""BDB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore

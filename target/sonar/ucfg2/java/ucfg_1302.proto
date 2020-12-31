@@ -1,0 +1,62 @@
+
+©org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl#newRoutingHeader(Lio/netty/buffer/ByteBuf;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaR" R(2"1*™
+1–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaS S(¨
+¥
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaS S()E
+%0?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder"…org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;*;"9
+7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeaderÖÓ
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaS T("E
+%1?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder"org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder#setStreamId(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;*G
+E
+%0?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder*
+""2setStreamId(J)®
+«
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaU U("8
+%22org.apache.bookkeeper.stream.proto.RangeProperties"__id*P*N>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl"
+
+rangeProps´±
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaU U(/
+
+%3long"@org.apache.bookkeeper.stream.proto.RangeProperties#getRangeId()J*:
+8
+%22org.apache.bookkeeper.stream.proto.RangeProperties2getRangeId()Ú×
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaS U(0E
+%4?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder"Žorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder#setRangeId(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;*G
+E
+%1?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder*
+
+
+%3long2setRangeId(J)¡ž
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaV5 V(E
+%5java.nio.ByteBuffer"8io.netty.buffer.ByteBuf#nioBuffer()Ljava/nio/ByteBuffer;*!
+
+pKeyio.netty.buffer.ByteBuf2nioBuffer()ù
+ö
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaV V(F$
+%6com.google.protobuf.ByteString"jcom.google.protobuf.UnsafeByteOperations#unsafeWrap(Ljava/nio/ByteBuffer;)Lcom/google/protobuf/ByteString;*,"*
+(com.google.protobuf.UnsafeByteOperations*
+
+%5java.nio.ByteBuffer¬©
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaS V(GE
+%7?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder"ªorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder#setRKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader$Builder;*G
+E
+%4?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder*&
+$
+%6com.google.protobuf.ByteString2)setRKey(Lcom/google/protobuf/ByteString;)"â
+–
+‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableRangeImpl.javaS V(HG
+E
+%7?org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader$Builder:
+pKeyio.netty.buffer.ByteBufB@>
+<org.apache.bookkeeper.clients.impl.kv.PByteBufTableRangeImpl

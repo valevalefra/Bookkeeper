@@ -1,0 +1,228 @@
+
+forg.apache.distributedlog.impl.BKNamespaceDriver#enumerateLogsWithMetadataInNamespace()Ljava/util/Map;ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaì ì(C"27*ó
+24ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaö ö(CÛ
+
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaö ö(C-
+currentStatorg.apache.zookeeper.data.Stat"__id*&
+$
+%6org.apache.zookeeper.data.Stat*
+22
+23*ì
+13ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java¶ ¶(Û
+
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java¶ ¶(2
+%11byte[]"__mapSet*
+
+resultjava.util.HashMap*
+
+childjava.lang.String*
+""*
+10*õ
+25ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaô ô(>Í
+Á
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaô ô(>$
+zkorg.apache.zookeeper.ZooKeeper"__id*&
+$
+%5org.apache.zookeeper.ZooKeeperéã
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaö ö(B$
+%6org.apache.zookeeper.data.Stat"Zorg.apache.zookeeper.ZooKeeper#exists(Ljava/lang/String;Z)Lorg/apache/zookeeper/data/Stat;*&
+$
+zkorg.apache.zookeeper.ZooKeeper*'
+%
+namespaceRootPathjava.lang.String*
+""2exists(Ljava/lang/String;Z)*
+24*ò
+14ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java§ §(6Ù
+Ò
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java§ §(6-
+currentStatorg.apache.zookeeper.data.Stat"__id*'
+%
+%10org.apache.zookeeper.data.Stat*
+13
+12*Ó
+26ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaô ô( Œ
+À
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaô ô(=$
+%5org.apache.zookeeper.ZooKeeper"àorg.apache.distributedlog.util.Utils#sync(Lorg/apache/distributedlog/ZooKeeperClient;Ljava/lang/String;)Lorg/apache/zookeeper/ZooKeeper;*("&
+$org.apache.distributedlog.util.Utils*2
+0
+zkc)org.apache.distributedlog.ZooKeeperClient*'
+%
+namespaceRootPathjava.lang.String*
+25*˘
+15ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java£ £(Q“
+œ
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java£ £(Q
+zkPathjava.lang.String"__id*
+
+%9java.lang.StringÑÅ
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java§ §(6%
+%10org.apache.zookeeper.data.Stat"Zorg.apache.zookeeper.ZooKeeper#exists(Ljava/lang/String;Z)Lorg/apache/zookeeper/data/Stat;*&
+$
+zkorg.apache.zookeeper.ZooKeeper*
+
+zkPathjava.lang.String*
+""2exists(Ljava/lang/String;Z)*
+14*˝
+27ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaï# ï(,ı
+Ú
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaï# ï(,
+%0java.net.URI"__id*C*A2
+0org.apache.distributedlog.impl.BKNamespaceDriver"
+	namespace˘ˆ
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaï# ï(6
+%1java.lang.String"(java.net.URI#getPath()Ljava/lang/String;*
+
+%0java.net.URI2	getPath()›
+⁄
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaï ï(7%
+namespaceRootPathjava.lang.String"__id*
+
+%1java.lang.String¬ø
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javañ- ñ(D
+%2java.util.HashMap"java.util.HashMap‘
+—
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javañ) ñ(F
+%3"java.util.HashMap#<init>()V*
+
+%2java.util.HashMap‘
+—
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javañ ñ(G
+resultjava.util.HashMap"__id*
+
+%2java.util.HashMapí
+è
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaó ó('/
+%4)org.apache.distributedlog.ZooKeeperClient"__id*C*A2
+0org.apache.distributedlog.impl.BKNamespaceDriver"
+	writerZKCÅ
+˛
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaó ó((0
+zkc)org.apache.distributedlog.ZooKeeperClient"__id*1
+/
+%4)org.apache.distributedlog.ZooKeeperClient*
+26*á
+16ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java£  £(&Á
+‰
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java£  £(P
+%9java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*	
+%s/%s*'
+%
+namespaceRootPathjava.lang.String*
+
+childjava.lang.String*
+15*‰
+19ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java† †((¿
+Ω
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java† †(/
+%8boolean"Porg.apache.distributedlog.util.DLUtils#isReservedStreamName(Ljava/lang/String;)Z**"(
+&org.apache.distributedlog.util.DLUtils*
+
+childjava.lang.String*
+16
+10*À
+1ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java≥ ≥("≤
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java≥ ≥(
+
+resultjava.util.HashMap*
+21ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaû û(M–
+Õ
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaû û(M
+childrenjava.util.List"__id*
+
+%7java.util.List*
+10*»
+10ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaü ü(ø
+º
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaü ü(
+childjava.lang.String"__id*
+""„
+‡
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaü ü(
+childjava.lang.String"
+__arrayGet*
+
+childrenjava.util.List*
+""*
+19
+1*ò
+22ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaû$ û(&¯ı
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaû$ û(L
+%7java.util.List"Oorg.apache.zookeeper.ZooKeeper#getChildren(Ljava/lang/String;Z)Ljava/util/List;*&
+$
+zkorg.apache.zookeeper.ZooKeeper*'
+%
+namespaceRootPathjava.lang.String*
+""2 getChildren(Ljava/lang/String;Z)*
+21*ú
+11ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java® ®(M¸
+˘
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java® ®(M
+%13byte[]"__mapSet*
+
+resultjava.util.HashMap*
+
+childjava.lang.String*
+
+%12byte[]*
+10*Ã
+23ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaú ú("≤
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaú ú(
+
+resultjava.util.HashMap*·
+12ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java® ®(¡æ
+ê
+É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java®& ®(L
+%12byte[]"]org.apache.zookeeper.ZooKeeper#getData(Ljava/lang/String;ZLorg/apache/zookeeper/data/Stat;)[B*&
+$
+zkorg.apache.zookeeper.ZooKeeper*
+
+zkPathjava.lang.String*
+""*/
+-
+currentStatorg.apache.zookeeper.data.Stat2<getData(Ljava/lang/String;ZLorg/apache/zookeeper/data/Stat;)*
+11B42
+0org.apache.distributedlog.impl.BKNamespaceDriver

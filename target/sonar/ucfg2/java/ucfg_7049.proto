@@ -1,0 +1,229 @@
+
+£org.apache.bookkeeper.meta.AbstractZkLedgerManager#createLedgerMetadata(JLorg/apache/bookkeeper/client/api/LedgerMetadata;)Ljava/util/concurrent/CompletableFuture;ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaı8 ı(L"startingBlock*Ë
+2ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java» »(,µ
+²
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java» »(,
+databyte[]"__id*
+
+%14byte[]*
+1*Š
+startingBlockˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaıL ş(jı
+ú
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaü ü(
+%23"
+__annotate*
+java.lang.Override*B
+@
+inputMetadata/org.apache.bookkeeper.client.api.LedgerMetadataç
+ä
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaş\ ş(i@
+inputMetadata/org.apache.bookkeeper.client.api.LedgerMetadata"__annotation*
+
+%23*
+10*é
+6ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java» »(
+‹
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java» »(5
+%13.org.apache.bookkeeper.meta.LedgerMetadataSerDe"__id*A*?4
+2org.apache.bookkeeper.meta.AbstractZkLedgerManager"
+serDeÂ¿
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java» »(,
+%14byte[]"morg.apache.bookkeeper.meta.LedgerMetadataSerDe#serialize(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)[B*7
+5
+%13.org.apache.bookkeeper.meta.LedgerMetadataSerDe*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2<serialize(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)*
+2*î
+7ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaŠ Š()ĞÍ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaŠ Š(3
+%10java.lang.String"Uorg.apache.bookkeeper.meta.AbstractZkLedgerManager#getLedgerPath(J)Ljava/lang/String;*64
+2org.apache.bookkeeper.meta.AbstractZkLedgerManager*
+""2getLedgerPath(J)Ï
+Ì
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaŠ Š(4
+
+ledgerPathjava.lang.String"__id*
+
+%10java.lang.Stringş
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java‹! ‹(/;
+%114org.apache.bookkeeper.meta.AbstractZkLedgerManager$1"4org.apache.bookkeeper.meta.AbstractZkLedgerManager$1ğ
+í
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java‹ ¸(	
+%12"java.lang.Object#<init>()V*=
+;
+%114org.apache.bookkeeper.meta.AbstractZkLedgerManager$1
+Š
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java‹ ¸(
+8
+scb1org.apache.zookeeper.AsyncCallback$StringCallback"__id*=
+;
+%114org.apache.bookkeeper.meta.AbstractZkLedgerManager$1¬
+©
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java¹ ¹(
+databyte[]"__id*
+""*
+6*«
+8ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaˆ ˆ($•
+’
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaˆ ˆ($;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata"__id*B
+@
+inputMetadata/org.apache.bookkeeper.client.api.LedgerMetadata*
+7*–
+9ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java† †(,å
+â
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java† †(@8
+%72org.apache.bookkeeper.client.LedgerMetadataBuilder"org.apache.bookkeeper.client.LedgerMetadataBuilder#from(Lorg/apache/bookkeeper/client/api/LedgerMetadata;)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*6"4
+2org.apache.bookkeeper.client.LedgerMetadataBuilder*B
+@
+inputMetadata/org.apache.bookkeeper.client.api.LedgerMetadata‘
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java† †(S8
+%82org.apache.bookkeeper.client.LedgerMetadataBuilder"torg.apache.bookkeeper.client.LedgerMetadataBuilder#withCToken(J)Lorg/apache/bookkeeper/client/LedgerMetadataBuilder;*:
+8
+%72org.apache.bookkeeper.client.LedgerMetadataBuilder*
+""2withCToken(J)÷ô
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java† †([5
+%9/org.apache.bookkeeper.client.api.LedgerMetadata"korg.apache.bookkeeper.client.LedgerMetadataBuilder#build()Lorg/apache/bookkeeper/client/api/LedgerMetadata;*:
+8
+%82org.apache.bookkeeper.client.LedgerMetadataBuilder2build()Š
+‡
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java† †([;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata"__id*7
+5
+%9/org.apache.bookkeeper.client.api.LedgerMetadata*
+7*Í
+10ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÿ? ÿ(Xäá
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÿC ÿ(V,
+%0&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFutureö
+ó
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÿ? ÿ(X
+%1"0java.util.concurrent.CompletableFuture#<init>()V*.
+,
+%0&java.util.concurrent.CompletableFuture÷
+ô
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÿ ÿ(Y1
+promise&java.util.concurrent.CompletableFuture"__id*.
+,
+%0&java.util.concurrent.CompletableFutureÂ
+¿
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaƒ ƒ(7,
+%2&java.util.concurrent.ThreadLocalRandom"Xjava.util.concurrent.ThreadLocalRandom#current()Ljava/util/concurrent/ThreadLocalRandom;**"(
+&java.util.concurrent.ThreadLocalRandom¨
+¥
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaƒA ƒ(O
+
+%3long"__id*
+""š—
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaƒ ƒ(P
+
+%4long"3java.util.concurrent.ThreadLocalRandom#nextLong(J)J*.
+,
+%2&java.util.concurrent.ThreadLocalRandom*
+
+
+%3long2nextLong(J)Ù
+Ö
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java„ „(&;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata"__id*
+""ÆÃ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java… …(4	
+%5int"Korg.apache.bookkeeper.client.api.LedgerMetadata#getMetadataFormatVersion()I*B
+@
+inputMetadata/org.apache.bookkeeper.client.api.LedgerMetadata2getMetadataFormatVersion()§
+¤
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java…7 …(d	
+%6int"__id*
+""*
+8
+9*Š
+1ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÁ Á("
+Œ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÁ+ Á(/7
+%180org.apache.bookkeeper.conf.AbstractConfiguration"__id*@*>4
+2org.apache.bookkeeper.meta.AbstractZkLedgerManager"
+confø
+õ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÁ Á(0
+%19java.util.List"norg.apache.bookkeeper.util.ZkUtils#getACLs(Lorg/apache/bookkeeper/conf/AbstractConfiguration;)Ljava/util/List;*&"$
+"org.apache.bookkeeper.util.ZkUtils*9
+7
+%180org.apache.bookkeeper.conf.AbstractConfigurationÇ
+Ä
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÁ Á(1
+zkAclsjava.util.List"__id*
+
+%19java.util.Listû
+ø
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÂ. Â(0%
+%20org.apache.zookeeper.ZooKeeper"__id*>*<4
+2org.apache.bookkeeper.meta.AbstractZkLedgerManager"
+zkÄ
+Á
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÃ. Ã(C&
+%21org.apache.zookeeper.CreateMode"__id*
+""š
+—
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÂ Ã(O
+%22void"íorg.apache.bookkeeper.util.ZkUtils#asyncCreateFullPathOptimistic(Lorg/apache/zookeeper/ZooKeeper;Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;Lorg/apache/zookeeper/AsyncCallback$StringCallback;Ljava/lang/Object;)V*&"$
+"org.apache.bookkeeper.util.ZkUtils*'
+%
+%20org.apache.zookeeper.ZooKeeper* 
+
+
+ledgerPathjava.lang.String*
+
+databyte[]*
+
+zkAclsjava.util.List*(
+&
+%21org.apache.zookeeper.CreateMode*:
+8
+scb1org.apache.zookeeper.AsyncCallback$StringCallback*
+"""À
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.javaÄ Ä(3
+1
+promise&java.util.concurrent.CompletableFuture:
+"":@
+inputMetadata/org.apache.bookkeeper.client.api.LedgerMetadataB64
+2org.apache.bookkeeper.meta.AbstractZkLedgerManager

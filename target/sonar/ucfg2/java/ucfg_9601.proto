@@ -1,0 +1,238 @@
+
+¢org.apache.bookkeeper.proto.PerChannelBookieClient$GetListOfEntriesOfLedgerCompletion#handleV3Response(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response;)Vˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒ ƒ($"startingBlock*ä
+
+2ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java— —(;³°
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java— —(C
+%18io.netty.buffer.ByteBuf"8io.netty.buffer.ByteBuf#slice()Lio/netty/buffer/ByteBuf;*@
+>
+#availabilityOfEntriesOfLedgerBufferio.netty.buffer.ByteBuf2slice()‰†
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java–4 –(Q?
+%198org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger"8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger×
+Ô
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java–0 —(D
+%20"[org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger#<init>(Lio/netty/buffer/ByteBuf;)V*A
+?
+%198org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger* 
+
+%18io.netty.buffer.ByteBuf²
+¯
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java– —(DY
+availabilityOfEntriesOfLedger8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger"__id*A
+?
+%198org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger*
+1*’
+
+3ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java“ “("¨
+¥
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java“+ “(I
+
+%15int"__id*
+""©¦
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java“ “(J
+
+%16int"org.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue#convertStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;I)I*YW
+Uorg.apache.bookkeeper.proto.PerChannelBookieClient$GetListOfEntriesOfLedgerCompletion*E
+C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+
+
+%15int2KconvertStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;I)÷
+ô
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java” ”(OY
+availabilityOfEntriesOfLedger8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger"__id*
+""¨
+¥
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java• •()
+
+%17int"__id*
+""*
+2
+1*
+startingBlockˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒ$ ƒ(J€
+ý
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‚ ‚(
+%23"
+__annotate*
+java.lang.Override*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Responseê
+ç
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒA ƒ(IC
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response"__annotation*
+
+%23*
+10*è
+4ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java (ÒÏ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java (9
+%14void"Ÿorg.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue#logResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;[Ljava/lang/Object;)V*YW
+Uorg.apache.bookkeeper.proto.PerChannelBookieClient$GetListOfEntriesOfLedgerCompletion*E
+C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+
+ledgerId*
+""2[logResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;[Ljava/lang/Object;)*
+3*À
+5ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java (µ
+²
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java (
+%12org.slf4j.Logger"__id*
+""ïì
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java ($
+%13boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%12org.slf4j.Logger2isDebugEnabled()*
+3
+4*ñ
+6ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‹6 ‹(>äá
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaŒ Œ([$
+%9com.google.protobuf.ByteString"’org.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse#getAvailabilityOfEntriesOfLedger()Lcom/google/protobuf/ByteString;*u
+s
+ getListOfEntriesOfLedgerResponseOorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse2"getAvailabilityOfEntriesOfLedger()¶³
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaŒ Œ(r
+%10java.nio.ByteBuffer"Jcom.google.protobuf.ByteString#asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;*&
+$
+%9com.google.protobuf.ByteString2asReadOnlyByteBuffer()Â
+¿
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‹6 Œ(s
+%11io.netty.buffer.ByteBuf"Vio.netty.buffer.Unpooled#wrappedBuffer(Ljava/nio/ByteBuffer;)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*
+
+%10java.nio.ByteBufferö
+ó
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‹ Œ(s>
+#availabilityOfEntriesOfLedgerBufferio.netty.buffer.ByteBuf"__id* 
+
+%11io.netty.buffer.ByteBuf*
+5*å
+7ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡ ˆ(+œ
+™
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡ ˆ(+C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*A
+?
+%59org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode­ª
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaŠ Š(S
+%8boolean"sorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse#hasAvailabilityOfEntriesOfLedger()Z*u
+s
+ getListOfEntriesOfLedgerResponseOorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse2"hasAvailabilityOfEntriesOfLedger()*
+5
+6*Ô
+8ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaˆ ˆ(£ 
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaˆ ˆ(*?
+%79org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"~org.apache.bookkeeper.proto.BookkeeperProtocol$Response#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getStatus()˜
+•
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaˆ ˆ(*?
+%59org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*A
+?
+%79org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+7*
+9ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡I ‡(iìé
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡I ‡(u?
+%69org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"–org.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*u
+s
+ getListOfEntriesOfLedgerResponseOorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse2getStatus()˜
+•
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡I ‡(u?
+%59org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*A
+?
+%69org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+7*Ÿ
+10ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java„P „(X„
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java„P …(:U
+%0Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse"®org.apache.bookkeeper.proto.BookkeeperProtocol$Response#getGetListOfEntriesOfLedgerResponse()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse;*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2%getGetListOfEntriesOfLedgerResponse()â
+ß
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java„ …(;s
+ getListOfEntriesOfLedgerResponseOorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse"__id*W
+U
+%0Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse»
+¸
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java†: †(O
+%1io.netty.buffer.ByteBuf"__id*
+""õ
+ò
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java† †(P>
+#availabilityOfEntriesOfLedgerBufferio.netty.buffer.ByteBuf"__id*
+
+%1io.netty.buffer.ByteBuf£ 
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡  ‡(4?
+%29org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"~org.apache.bookkeeper.proto.BookkeeperProtocol$Response#getStatus()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;*E
+C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getStatus()Ý
+Ú
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡8 ‡(B?
+%39org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""Ý
+Ú
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java‡8 ‡(F?
+%49org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""*
+8
+9*¨
+0 " 
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaš š(	
+implicit return*÷
+1ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java™ ™(Ø
+Õ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java™ ™(_
+%21Xorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$GetListOfEntriesOfLedgerCallback"__id*a*_W
+Uorg.apache.bookkeeper.proto.PerChannelBookieClient$GetListOfEntriesOfLedgerCompletion"
+cb†ƒ
+ˆ
+|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java™ ™(\
+%22void"¸org.apache.bookkeeper.proto.BookkeeperInternalCallbacks$GetListOfEntriesOfLedgerCallback#getListOfEntriesOfLedgerComplete(IJLorg/apache/bookkeeper/util/AvailabilityOfEntriesOfLedger;)V*a
+_
+%21Xorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$GetListOfEntriesOfLedgerCallback*
+""*
+""*[
+Y
+availabilityOfEntriesOfLedger8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger2^getListOfEntriesOfLedgerComplete(IJLorg/apache/bookkeeper/util/AvailabilityOfEntriesOfLedger;)*
+0:C
+response7org.apache.bookkeeper.proto.BookkeeperProtocol$ResponseBYW
+Uorg.apache.bookkeeper.proto.PerChannelBookieClient$GetListOfEntriesOfLedgerCompletion

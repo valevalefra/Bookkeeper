@@ -1,0 +1,55 @@
+
+Óorg.apache.bookkeeper.clients.impl.kv.PutRequestProcessor#sendRPC(Lorg/apache/bookkeeper/clients/impl/channel/StorageServerChannel;Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest;)Lcom/google/common/util/concurrent/ListenableFuture;ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaQ, Q(3"startingBlock*º	
+startingBlockì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaQ3 R(Gì
+ê
+ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaP P(
+%2"
+__annotate*
+java.lang.Override*N
+L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel˝
+˙
+ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaQI Q(RL
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__annotation*
+
+%2Ü
+É
+ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaP P(
+%3"
+__annotate*
+java.lang.Override*A
+?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest
+Ì
+ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaR? R(F?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest"__annotation*
+
+%3*
+1*‚
+1ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaS S(¸˘
+ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaS S(*W
+%0Qorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub"§org.apache.bookkeeper.clients.impl.channel.StorageServerChannel#getTableService()Lorg/apache/bookkeeper/stream/proto/kv/rpc/TableServiceGrpc$TableServiceFutureStub;*N
+L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel2getTableService()ÚÔ
+ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaS S(78
+%12com.google.common.util.concurrent.ListenableFuture"¡org.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub#put(Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest;)Lcom/google/common/util/concurrent/ListenableFuture;*Y
+W
+%0Qorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub*A
+?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.PutRequest2;put(Lorg/apache/bookkeeper/stream/proto/kv/rpc/PutRequest;)"“
+ì
+à/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessor.javaS S(8:
+8
+%12com.google.common.util.concurrent.ListenableFuture:L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel:?
+request4org.apache.bookkeeper.stream.proto.kv.rpc.PutRequestB=;
+9org.apache.bookkeeper.clients.impl.kv.PutRequestProcessor

@@ -1,0 +1,358 @@
+
+Üorg.apache.bookkeeper.proto.WriteLacProcessorV3#getWriteLacResponse()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse;É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java3 3(0"21*“
+2Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÖ Ö(ó
+î
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÖ Ö(9
+%562org.apache.bookkeeper.proto.BookieRequestProcessor"__id*I*G1
+/org.apache.bookkeeper.proto.WriteLacProcessorV3"
+requestProcessor¸˘
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÖ Ö(./
+%57(org.apache.bookkeeper.proto.RequestStats"norg.apache.bookkeeper.proto.BookieRequestProcessor#getRequestStats()Lorg/apache/bookkeeper/proto/RequestStats;*;
+9
+%562org.apache.bookkeeper.proto.BookieRequestProcessor2getRequestStats()ÏÈ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÖ Ö(A0
+%58)org.apache.bookkeeper.stats.OpStatsLogger"forg.apache.bookkeeper.proto.RequestStats#getWriteLacStats()Lorg/apache/bookkeeper/stats/OpStatsLogger;*1
+/
+%57(org.apache.bookkeeper.proto.RequestStats2getWriteLacStats()è
+å
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÜ% Ü(K
+%59long"<org.apache.bookkeeper.common.util.MathUtils#elapsedNanos(J)J*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+""ø
+º
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÜM Ü(a$
+%60java.util.concurrent.TimeUnit"__id*
+""úô
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÖ Ü(b
+%61void"`org.apache.bookkeeper.stats.OpStatsLogger#registerFailedEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%58)org.apache.bookkeeper.stats.OpStatsLogger*
+
+%59long*&
+$
+%60java.util.concurrent.TimeUnit25registerFailedEvent(JLjava/util/concurrent/TimeUnit;)£†
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaá á(.N
+%62Gorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder"◊org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse$Builder;*]
+[
+writeLacResponseGorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder*E
+C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)ŒÀ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaà à(+F
+%63?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse"êorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse;*]
+[
+writeLacResponseGorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder2build()"“
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaà à(,H
+F
+%63?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse*¿
+3Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÑ Ñ(€
+ÿ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÑ Ñ(%@
+%539org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""€
+ÿ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÑ Ñ()@
+%549org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""ÓÎ
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaÑ Ñ(*
+%55boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*E
+C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*B
+@
+%549org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2equals(Ljava/lang/Object;)*
+2
+1*¥
+15É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javalU l(bÚ
+Ô
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javald l(k
+%31io.netty.channel.Channel"__id*@*>1
+/org.apache.bookkeeper.proto.WriteLacProcessorV3"	
+channel≠™
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javal l(w
+%32void"©org.apache.bookkeeper.bookie.Bookie#setExplicitLac(Lio/netty/buffer/ByteBuf;Lorg/apache/bookkeeper/proto/BookkeeperInternalCallbacks$WriteCallback;Ljava/lang/Object;[B)V*,
+*
+%29#org.apache.bookkeeper.bookie.Bookie* 
+
+%30io.netty.buffer.ByteBuf*X
+V
+writeCallbackEorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$WriteCallback*!
+
+%31io.netty.channel.Channel*
+
+	masterKeybyte[]2ÑsetExplicitLac(Lio/netty/buffer/ByteBuf;Lorg/apache/bookkeeper/proto/BookkeeperInternalCallbacks$WriteCallback;Ljava/lang/Object;[B)*
+4*·
+4É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javam m(Ÿ
+÷
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javam m(@
+%519org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""Ÿ
+÷
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javam m(#@
+%529org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""ò
+ï
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javam m(#C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*B
+@
+%529org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*
+3*Ù
+16É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javal l(ï
+í
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javal l(9
+%282org.apache.bookkeeper.proto.BookieRequestProcessor"__id*I*G1
+/org.apache.bookkeeper.proto.WriteLacProcessorV3"
+requestProcessorÑ
+Å
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javal l(#*
+%29#org.apache.bookkeeper.bookie.Bookie"__id*G*E
+9
+%282org.apache.bookkeeper.proto.BookieRequestProcessor"
+bookie¬
+ø
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javal3 l(S
+%30io.netty.buffer.ByteBuf"Vio.netty.buffer.Unpooled#wrappedBuffer(Ljava/nio/ByteBuffer;)Lio/netty/buffer/ByteBuf;*"
+io.netty.buffer.Unpooled*!
+
+lacToAddjava.nio.ByteBuffer*
+15*æ
+17É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaFB e(	ˆÛ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaFF F(o8
+%221org.apache.bookkeeper.proto.WriteLacProcessorV3$1"1org.apache.bookkeeper.proto.WriteLacProcessorV3$1Ë
+Â
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaFB e(	
+%23"java.lang.Object#<init>()V*:
+8
+%221org.apache.bookkeeper.proto.WriteLacProcessorV3$1£
+†
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaF e(
+V
+writeCallbackEorg.apache.bookkeeper.proto.BookkeeperInternalCallbacks$WriteCallback"__id*:
+8
+%221org.apache.bookkeeper.proto.WriteLacProcessorV3$1‹
+Ÿ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javag g(!C
+status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""˙˜
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javah h(7%
+%24com.google.protobuf.ByteString"horg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest#getBody()Lcom/google/protobuf/ByteString;*S
+Q
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest2	getBody()≤Ø
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javah h(N
+%25java.nio.ByteBuffer"Jcom.google.protobuf.ByteString#asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;*'
+%
+%24com.google.protobuf.ByteString2asReadOnlyByteBuffer()Œ
+À
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javah h(O
+lacToAddjava.nio.ByteBuffer"__id*
+
+%25java.nio.ByteBufferÑÅ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javai i(9%
+%26com.google.protobuf.ByteString"morg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest#getMasterKey()Lcom/google/protobuf/ByteString;*S
+Q
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest2getMasterKey()Ä˝
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javai i(G
+%27byte[]".com.google.protobuf.ByteString#toByteArray()[B*'
+%
+%26com.google.protobuf.ByteString2toByteArray()µ
+≤
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javai i(H
+	masterKeybyte[]"__id*
+
+%27byte[]*
+16*ã
+18É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaA A(∞
+≠
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaA A(
+%16org.slf4j.Logger"__id*
+""–Õ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaA A(n
+%17void"*org.slf4j.Logger#warn(Ljava/lang/String;)V*
+
+%16org.slf4j.Logger*WU
+SBookieServer is running as readonly mode, so rejecting the request from the client!2warn(Ljava/lang/String;)Ÿ
+÷
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaB' B(1@
+%189org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""Ÿ
+÷
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaB' B(;@
+%199org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""ûõ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaB B(<N
+%20Gorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder"◊org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse$Builder;*]
+[
+writeLacResponseGorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder*B
+@
+%199org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Ã…
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaC C(+F
+%21?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse"êorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse;*]
+[
+writeLacResponseGorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder2build()"–
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaC C(,H
+F
+%21?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse*æ
+19É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java@ @(ï
+í
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java@ @(9
+%132org.apache.bookkeeper.proto.BookieRequestProcessor"__id*I*G1
+/org.apache.bookkeeper.proto.WriteLacProcessorV3"
+requestProcessorÑ
+Å
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java@ @(#*
+%14#org.apache.bookkeeper.bookie.Bookie"__id*G*E
+9
+%132org.apache.bookkeeper.proto.BookieRequestProcessor"
+bookieàÖ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java@ @(0
+%15boolean"1org.apache.bookkeeper.bookie.Bookie#isReadOnly()Z*,
+*
+%14#org.apache.bookkeeper.bookie.Bookie2isReadOnly()*
+17
+18*Ñ
+20É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java< <(ÿ
+’
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java<' <(1?
+%99org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""Ÿ
+÷
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java<' <(=@
+%109org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""ûõ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java< <(>N
+%11Gorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder"◊org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse$Builder;*]
+[
+writeLacResponseGorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder*B
+@
+%109org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Ã…
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java= =(+F
+%12?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse"êorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse;*]
+[
+writeLacResponseGorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder2build()"–
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java= =(,H
+F
+%12?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse*à
+21É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java4$ 4(-Ä
+˝
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java4$ 4(9
+
+%0long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
++org.apache.bookkeeper.common.util.MathUtilsè
+å
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java5* 5(1<
+%16org.apache.bookkeeper.proto.BookkeeperProtocol$Request"__id*@*>1
+/org.apache.bookkeeper.proto.WriteLacProcessorV3"	
+request≥∞
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java5* 5(FD
+%2>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest"ãorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getWriteLacRequest()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacRequest;*>
+<
+%16org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getWriteLacRequest()™
+ß
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java5 5(GQ
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest"__id*F
+D
+%2>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequestæª
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java6 6(+
+
+%3long"Horg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest#getLac()J*S
+Q
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest2getLac()»≈
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java7 7(5
+
+%4long"Morg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest#getLedgerId()J*S
+Q
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest2getLedgerId()ﬁ
+€
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java9: 9(JE
+%5?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse"__id*
+""µ
+≤
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java9: 9(WM
+%6Gorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder"ïorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse$Builder;*C"A
+?org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse„‡
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java9: 9(mM
+%7Gorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder"üorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder#setLedgerId(J)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacResponse$Builder;*O
+M
+%6Gorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder*
+""2setLedgerId(J)Ω
+∫
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java9 9(n[
+writeLacResponseGorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$Builder"__id*O
+M
+%7Gorg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacResponse$BuilderÆ´
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.java; ;("
+%8boolean"Horg.apache.bookkeeper.proto.PacketProcessorBaseV3#isVersionCompatible()Z*31
+/org.apache.bookkeeper.proto.WriteLacProcessorV32isVersionCompatible()*
+19
+20*û
+1Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaä ä("ê
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/WriteLacProcessorV3.javaä ä(
+""B31
+/org.apache.bookkeeper.proto.WriteLacProcessorV3

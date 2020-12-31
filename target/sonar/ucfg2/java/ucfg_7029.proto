@@ -1,0 +1,214 @@
+
+Jorg.apache.bookkeeper.bookie.GarbageCollectorThread#doCompactEntryLogs(D)Vâ
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÆ	 Æ("10*Ó
+2â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaπ π("‘
+—
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaπ π("5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata"__id*
+""˝
+˙
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaπ π("5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata"
+__arrayGet*!
+
+logsToCompactjava.util.List*
+""*
+8
+1*¶
+3â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÀ À("î
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÀ À(
+""*É
+4â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java∆& ∆(*¨©
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java∆& ∆(=
+%18long"Aorg.apache.bookkeeper.bookie.EntryLogMetadata#getRemainingSize()J*7
+5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata2getRemainingSize()«ƒ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java« «(!
+%19void"uorg.apache.bookkeeper.bookie.GarbageCollectorThread#compactEntryLog(Lorg/apache/bookkeeper/bookie/EntryLogMetadata;)V*75
+3org.apache.bookkeeper.bookie.GarbageCollectorThread*7
+5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata2@compactEntryLog(Lorg/apache/bookkeeper/bookie/EntryLogMetadata;)ú
+ô
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java» »(?
+%208org.apache.bookkeeper.bookie.stats.GarbageCollectorStats"__id*D*B5
+3org.apache.bookkeeper.bookie.GarbageCollectorThread"	
+gcStats†ù
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java» »(4*
+%21#org.apache.bookkeeper.stats.Counter"~org.apache.bookkeeper.bookie.stats.GarbageCollectorStats#getReclaimedSpaceViaCompaction()Lorg/apache/bookkeeper/stats/Counter;*A
+?
+%208org.apache.bookkeeper.bookie.stats.GarbageCollectorStats2 getReclaimedSpaceViaCompaction()§°
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java»9 »(L
+%22long"=org.apache.bookkeeper.bookie.EntryLogMetadata#getTotalSize()J*7
+5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata2getTotalSize()áÑ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java» »(b
+%23void"+org.apache.bookkeeper.stats.Counter#add(J)V*,
+*
+%21#org.apache.bookkeeper.stats.Counter*
+""2add(J)*
+2
+3*á
+5â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java√ √(∂
+≥
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java√ √(
+%15org.slf4j.Logger"__id*
+""¶£
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java√H √(\
+%16long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*7
+5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()éã
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java√ √(h
+%17void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%15org.slf4j.Logger*.,
+*Compacting entry log {} below threshold {}*
+
+%16long*
+""2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+4*√
+6â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¬ ¬(∂
+≥
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¬ ¬(
+%13org.slf4j.Logger"__id*
+""Ì
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¬ ¬($
+%14boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%13org.slf4j.Logger2isDebugEnabled()*
+4
+5*í	
+8â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java∫ ∫("ùö
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaº$ º(3
+%9double"9org.apache.bookkeeper.bookie.EntryLogMetadata#getUsage()D*7
+5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata2
+getUsage()”
+–
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaº º(A
+%10double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""·
+ﬁ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java∫ º(B
+
+%11int"java.lang.Math#min(II)I*"
+java.lang.Math*
+""*
+
+%10doubleûõ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaø ø(
+%12double"9org.apache.bookkeeper.bookie.EntryLogMetadata#getUsage()D*7
+5
+meta-org.apache.bookkeeper.bookie.EntryLogMetadata2
+getUsage()*
+2
+6*ÿ
+10â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaØ Ø(µ
+≤
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaØ Ø(
+%0org.slf4j.Logger"__id*
+""ﬂ‹
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaØ Ø(Q
+
+%1void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*64
+2Do compaction to compact those files lower than {}*
+""2*info(Ljava/lang/String;Ljava/lang/Object;)øº
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≤3 ≤(N
+%2java.util.ArrayList"java.util.ArrayList—
+Œ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≤/ ≤(P
+%3"java.util.ArrayList#<init>()V*
+
+%2java.util.ArrayList”
+–
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≤ ≤(Q
+logsToCompactjava.util.List"__id*
+
+%2java.util.ArrayList¯
+ı
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≥ ≥(,
+%4java.util.Map"__id*L*J5
+3org.apache.bookkeeper.bookie.GarbageCollectorThread"
+entryLogMetaMap˙˜
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≥ ≥(5
+%5java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
+
+%4java.util.Map2values()Ú
+Ô
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java≥ ≥(6
+%6boolean"__arrayAddAll*!
+
+logsToCompactjava.util.List*: *
+
+%5java.util.Collection¢
+ü
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¥ ¥(K
+%7java.util.Comparator"Sjava.util.Comparator#comparing(Ljava/util/function/Function;)Ljava/util/Comparator;*"
+java.util.Comparator*
+""®•
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¥ ¥(L
+
+%8void",java.util.List#sort(Ljava/util/Comparator;)V*!
+
+logsToCompactjava.util.List*
+
+%7java.util.Comparator2sort(Ljava/util/Comparator;)*
+2*©
+0 "°
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java— —(
+implicit return*—
+1â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaŒ Œ(∂
+≥
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaŒ Œ(
+%24org.slf4j.Logger"__id*
+""Å˛
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaŒ –(%
+%25void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%24org.slf4j.Logger*VT
+RCompaction: entry log usage buckets[10% 20% 30% 40% 50% 60% 70% 80% 90% 100%] = {}*
+""2*info(Ljava/lang/String;Ljava/lang/Object;)*
+0:
+""B75
+3org.apache.bookkeeper.bookie.GarbageCollectorThread

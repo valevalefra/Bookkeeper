@@ -1,0 +1,83 @@
+
+»org.apache.distributedlog.BKDistributedLogManager#getDLSNNotLessThanTxIdInSegment(JILjava/util/List;Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;)Ljava/util/concurrent/CompletableFuture;ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÕ$ Õ(C"1*õ
+1ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java—+ —(3˝
+˙
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java—+ —(C2
+%0,org.apache.distributedlog.LogSegmentMetadata"
+__arrayGet*
+
+segmentsjava.util.List*
+""å
+â
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java— —(D7
+segment,org.apache.distributedlog.LogSegmentMetadata"__id*4
+2
+%0,org.apache.distributedlog.LogSegmentMetadataˆ
+Û
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java” ”(
+%1java.lang.String"__id*?*=3
+1org.apache.distributedlog.BKDistributedLogManager"
+nameù
+ö
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java÷ ÷(8
+%22org.apache.bookkeeper.common.util.OrderedScheduler"__id*D*B3
+1org.apache.distributedlog.BKDistributedLogManager"
+	scheduler¨
+©
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÿ ÿ(#I
+%3Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration"__id*B*@3
+1org.apache.distributedlog.BKDistributedLogManager"	
+dynConfÊ„
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÿ ÿ(;	
+%4int"\org.apache.distributedlog.config.DynamicDistributedLogConfiguration#getReadAheadBatchSize()I*K
+I
+%3Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration2getReadAheadBatchSize()‚
+ﬂ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÿ ÿ(<	
+%5int"java.lang.Math#max(II)I*"
+java.lang.Math*2*
+	
+%4intÓ
+Î
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java“ Ÿ(	,
+%6&java.util.concurrent.CompletableFuture"åorg.apache.distributedlog.ReadUtils#getLogRecordNotLessThanTxId(Ljava/lang/String;Lorg/apache/distributedlog/LogSegmentMetadata;JLjava/util/concurrent/ExecutorService;Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;I)Ljava/util/concurrent/CompletableFuture;*'"%
+#org.apache.distributedlog.ReadUtils*
+
+%1java.lang.String*9
+7
+segment,org.apache.distributedlog.LogSegmentMetadata*
+""*:
+8
+%22org.apache.bookkeeper.common.util.OrderedScheduler*I
+G
+
+entryStore9org.apache.distributedlog.logsegment.LogSegmentEntryStore*
+	
+%5int§°
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java“ Î(
+,
+%7&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%6&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"ƒ
+ë
+Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java“ Î(.
+,
+%7&java.util.concurrent.CompletableFuture:
+"":
+"":
+segmentsjava.util.List:G
+
+entryStore9org.apache.distributedlog.logsegment.LogSegmentEntryStoreB53
+1org.apache.distributedlog.BKDistributedLogManager

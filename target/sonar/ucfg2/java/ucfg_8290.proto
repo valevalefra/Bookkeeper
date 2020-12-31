@@ -1,0 +1,296 @@
+
+üorg.apache.bookkeeper.client.BookieWatcherImpl#replaceBookie(IIILjava/util/Map;Ljava/util/List;ILjava/util/Set;)Lorg/apache/bookkeeper/net/BookieSocketAddress;Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaì ì(,"startingBlock*Œ
+24Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java† †("∂≥
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaüP ü(l
+%4java.util.HashSet"java.util.HashSetÅ
+˛
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaüL †(#
+%5"1java.util.HashSet#<init>(Ljava/util/Collection;)V*
+
+%4java.util.HashSet*!
+
+excludeBookiesjava.util.Set*
+23*
+13Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaØO Ø(Xæ
+ª
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaØZ Ø(n$
+%21java.util.concurrent.TimeUnit"__id*
+""úô
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaØ Ø(o
+%22void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
+0
+%19)org.apache.bookkeeper.stats.OpStatsLogger*
+""*&
+$
+%21java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
+1*¶
+25Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaò ò("Å
+˛
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaò ò(.
+
+%0long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
++org.apache.bookkeeper.common.util.MathUtils¯
+ı
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaô# ô(A3
+%1-org.apache.bookkeeper.net.BookieSocketAddress"
+__arrayGet*#
+!
+existingBookiesjava.util.List*
+""˛
+˚
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaô ô(B5
+addr-org.apache.bookkeeper.net.BookieSocketAddress"__id*5
+3
+%1-org.apache.bookkeeper.net.BookieSocketAddress˜
+Ù
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaö ö([]
+replaceBookieResponseDorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"__id*
+""ÿ
+’
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaõ õ(*>
+socketAddress-org.apache.bookkeeper.net.BookieSocketAddress"__id*
+""Ì
+Í
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaúG ú(_S
+%2Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
+""Ì
+Í
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaúG ú(dS
+%3Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
+""›
+⁄
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaú ú(et
+#isEnsembleAdheringToPlacementPolicyMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*U
+S
+%3Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*
+24*ß
+14Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaØ Ø(é
+ã
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaØ Ø(0
+%19)org.apache.bookkeeper.stats.OpStatsLogger"__id*J*H0
+.org.apache.bookkeeper.client.BookieWatcherImpl"
+replaceBookieTimerÇ
+ˇ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaØ7 Ø(L
+%20long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
++org.apache.bookkeeper.common.util.MathUtils*
+13*ÿ
+15Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java™ ™(ƒ
+¡
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java´ ¨([
+%18java.lang.String"__concat*XV
+TreplaceBookie for bookie: {} in ensemble: {} is not adhering to placement policy and*;9
+7 chose {}. excludedBookies {} and quarantinedBookies {}*
+14*©
+16Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java© ©(4ö
+ó
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java© ©(4*
+%16#org.apache.bookkeeper.stats.Counter"__id*\*Z0
+.org.apache.bookkeeper.client.BookieWatcherImpl"&
+$ensembleNotAdheringToPlacementPolicy¯ı
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java© ©(:
+%17void"*org.apache.bookkeeper.stats.Counter#inc()V*,
+*
+%16#org.apache.bookkeeper.stats.Counter2inc()*
+15*ÿ
+17Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaß ß(\ﬁ
+€
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaß ß(\t
+#isEnsembleAdheringToPlacementPolicyMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
+T
+%13Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherenceÓ
+Î
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java®7 ®(OT
+%14Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
+""Ó
+Î
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java®7 ®(TT
+%15Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
+""*
+14
+16*°
+18Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java¶ ¶(=à
+Ö
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java¶ ¶(=>
+socketAddress-org.apache.bookkeeper.net.BookieSocketAddress"__id*6
+4
+%12-org.apache.bookkeeper.net.BookieSocketAddressÇˇ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaß2 ß(\T
+%13Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"®org.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult#isAdheringToPolicy()Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementPolicyAdherence;*_
+]
+replaceBookieResponseDorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult2isAdheringToPolicy()*
+17*Á
+19Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java£ •(Pæ
+ª
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java£ •(P]
+replaceBookieResponseDorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"__id*M
+K
+%11Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResultíè
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java¶ ¶(=4
+%12-org.apache.bookkeeper.net.BookieSocketAddress"borg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult#getResult()Ljava/lang/Object;*_
+]
+replaceBookieResponseDorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult2getResult()*
+18*÷
+1Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java¡ ¡("…
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java¡ ¡(@
+>
+socketAddress-org.apache.bookkeeper.net.BookieSocketAddress*Ä
+startingBlockÑ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaì, ñ(Uÿ
+’
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaí í(
+%36"
+__annotate*
+java.lang.Override*!
+
+customMetadatajava.util.Map¬
+ø
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaîA î(O
+customMetadatajava.util.Map"__annotation*
+
+%36⁄
+◊
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaí í(
+%37"
+__annotate*
+java.lang.Override*#
+!
+existingBookiesjava.util.Listƒ
+¡
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaïG ï(V!
+existingBookiesjava.util.List"__annotation*
+
+%37ÿ
+’
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaí í(
+%38"
+__annotate*
+java.lang.Override*!
+
+excludeBookiesjava.util.Set¬
+ø
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javañF ñ(T
+excludeBookiesjava.util.Set"__annotation*
+
+%38*
+25*Û	
+20Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java£$ £(3ñ
+ì
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java£$ £(3;
+%104org.apache.bookkeeper.client.EnsemblePlacementPolicy"__id*G*E0
+.org.apache.bookkeeper.client.BookieWatcherImpl"
+placementPolicy∆√
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java£$ •(PK
+%11Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"Íorg.apache.bookkeeper.client.EnsemblePlacementPolicy#replaceBookie(IIILjava/util/Map;Ljava/util/List;Lorg/apache/bookkeeper/net/BookieSocketAddress;Ljava/util/Set;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementResult;*=
+;
+%104org.apache.bookkeeper.client.EnsemblePlacementPolicy*
+""*
+""*
+""*!
+
+customMetadatajava.util.Map*#
+!
+existingBookiesjava.util.List*7
+5
+addr-org.apache.bookkeeper.net.BookieSocketAddress*7
+5
+$excludedBookiesAndQuarantinedBookiesjava.util.Set2oreplaceBookie(IIILjava/util/Map;Ljava/util/List;Lorg/apache/bookkeeper/net/BookieSocketAddress;Ljava/util/Set;)*
+19*ı
+21Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java° °(aœ
+Ã
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java° °(a&
+quarantinedBookiesSetjava.util.Set"__id*
+
+%8java.util.Setè
+å
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java¢ ¢(N
+%9boolean"__arrayAddAll*7
+5
+$excludedBookiesAndQuarantinedBookiesjava.util.Set*: *(
+&
+quarantinedBookiesSetjava.util.Set*
+20*ê
+22Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java°= °(`¸˘
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java°= °(`
+%8java.util.Set"%java.util.Map#keySet()Ljava/util/Set;**
+(
+%7"java.util.concurrent.ConcurrentMap2keySet()*
+21*¨
+23Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaü †($‚
+ﬂ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.javaü †($5
+$excludedBookiesAndQuarantinedBookiesjava.util.Set"__id*
+
+%4java.util.HashSetÅ
+˛
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java°= °(O#
+%6com.google.common.cache.Cache"__id*J*H0
+.org.apache.bookkeeper.client.BookieWatcherImpl"
+quarantinedBookiesØ¨
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcherImpl.java°= °(W(
+%7"java.util.concurrent.ConcurrentMap"Icom.google.common.cache.Cache#asMap()Ljava/util/concurrent/ConcurrentMap;*%
+#
+%6com.google.common.cache.Cache2asMap()*
+22:
+"":
+"":
+"":
+customMetadatajava.util.Map:!
+existingBookiesjava.util.List:
+"":
+excludeBookiesjava.util.SetB20
+.org.apache.bookkeeper.client.BookieWatcherImpl

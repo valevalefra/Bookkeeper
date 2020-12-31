@@ -1,0 +1,103 @@
+
+¼org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#getNamespace(Lorg/apache/bookkeeper/stream/proto/storage/GetNamespaceRequest;)Ljava/util/concurrent/CompletableFuture;ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÐ3 Ð(?"startingBlock*‚
+2ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÓ Ó(Ð
+Í
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÕ Õ(1M
+%2Gorg.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse$Builder"•org.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/storage/GetNamespaceResponse$Builder;*C"A
+?org.apache.bookkeeper.stream.proto.storage.GetNamespaceResponseï
+ì
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÖ Ö(>;
+%35org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
+""™–
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÕ Ö(?M
+%4Gorg.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse$Builder"Ñorg.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/storage/GetNamespaceResponse$Builder;*O
+M
+%2Gorg.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse$Builder*=
+;
+%35org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)ØÕ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÕ ×(E
+%5?org.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse"org.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/storage/GetNamespaceResponse;*O
+M
+%4Gorg.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse$Builder2build()Ë
+È
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÔ ×(,
+%6&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*G
+E
+%5?org.apache.bookkeeper.stream.proto.storage.GetNamespaceResponse"Ñ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÔ ×(.
+,
+%6&java.util.concurrent.CompletableFuture*ó
+3ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÑ Ñ(ðí
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÑ Ñ()
+%0java.lang.String"Zorg.apache.bookkeeper.stream.proto.storage.GetNamespaceRequest#getName()Ljava/lang/String;*K
+I
+request>org.apache.bookkeeper.stream.proto.storage.GetNamespaceRequest2	getName()à
+Ý
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÑ Ñ(*
+nsNamejava.lang.String"__id*
+
+%0java.lang.Stringî
+ë
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÒ Ò(*
+%1boolean"`org.apache.bookkeeper.stream.protocol.util.ProtoUtils#validateNamespaceName(Ljava/lang/String;)Z*9"7
+5org.apache.bookkeeper.stream.protocol.util.ProtoUtils*
+
+nsNamejava.lang.String*
+2
+1*Ý
+startingBlockž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÐ? Ð(\œ
+™
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÏ Ï(
+%10"
+__annotate*
+java.lang.Override*K
+I
+request>org.apache.bookkeeper.stream.proto.storage.GetNamespaceRequest†
+ƒ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÐT Ð([I
+request>org.apache.bookkeeper.stream.proto.storage.GetNamespaceRequest"__annotation*
+
+%10*
+3*æ
+1ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÙ Ù(ðí
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÙ  Ù(1
+%7java.lang.String"Zorg.apache.bookkeeper.stream.proto.storage.GetNamespaceRequest#getName()Ljava/lang/String;*K
+I
+request>org.apache.bookkeeper.stream.proto.storage.GetNamespaceRequest2	getName()È
+Å
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÙ Ù(2,
+%8&java.util.concurrent.CompletableFuture"Žorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#getNamespace(Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;*IG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
+
+%7java.lang.String­ª
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÙ â(,
+%9&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
+,
+%8&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)"Ñ
+ž
+‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaÙ â(.
+,
+%9&java.util.concurrent.CompletableFuture:I
+request>org.apache.bookkeeper.stream.proto.storage.GetNamespaceRequestBIG
+Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl

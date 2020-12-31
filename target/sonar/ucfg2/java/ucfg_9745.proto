@@ -1,0 +1,391 @@
+
+¥org.apache.bookkeeper.server.http.service.ListBookiesService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java: :(%"startingBlock*®
+13ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaH H(Í
+Á
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaH H(0
+%12java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+print_hostnamesñì
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaH H(?
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%12java.lang.String*
+true2equals(Ljava/lang/Object;)*
+10
+11*—
+15ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaG G(®•
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaG G(8
+%11boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+print_hostnames2containsKey(Ljava/lang/Object;)*
+13
+10
+11*°
+17ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaD D(ﬁ
+€
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaD D(%
+%9java.lang.String"__mapGet*
+
+paramsjava.util.Map*
+typeìê
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaD D(2
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%9java.lang.String*
+ro2equals(Ljava/lang/Object;)*
+13
+15
+10
+11*Õ
+19ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaC C(úô
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaC C(-
+%8boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
+
+paramsjava.util.Map*
+type2containsKey(Ljava/lang/Object;)*
+13
+15
+17
+10
+11*Ô
+1ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java\ \(ﬁ
+€
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java\ \(27
+%380org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""ﬁ
+€
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java\ \(<7
+%390org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""¡æ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java\ \(==
+%406org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%390org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)ÚÔ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java] ](F=
+%416org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse**(
+&Not found method. Should be GET method2setBody(Ljava/lang/String;)"⁄
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java^ ^(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*õ
+2ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaV" V(*‘
+—
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaV" V(9
+%33java.lang.String"Worg.apache.bookkeeper.common.util.JsonUtil#toJson(Ljava/lang/Object;)Ljava/lang/String;*.",
+*org.apache.bookkeeper.common.util.JsonUtil*
+
+outputjava.util.Map⁄
+◊
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaV V(: 
+jsonResponsejava.lang.String"__id*
+
+%33java.lang.StringÍÁ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaX X(*=
+%346org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*"
+ 
+jsonResponsejava.lang.String2setBody(Ljava/lang/String;)ﬁ
+€
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaY Y(27
+%350org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""ﬁ
+€
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaY Y(57
+%360org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
+""¡æ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaY Y(6=
+%376org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
+7
+%360org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)"⁄
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaZ Z(D
+B
+response6org.apache.bookkeeper.http.service.HttpServiceResponse*Ä
+3ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaR R(&Ÿ
+÷
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaR R(&2
+b-org.apache.bookkeeper.net.BookieSocketAddress"__id*
+""Ç
+ˇ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaR R(&2
+b-org.apache.bookkeeper.net.BookieSocketAddress"
+__arrayGet*!
+
+bookiesjava.util.Collection*
+""*
+2
+7*•
+startingBlockë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java:% :(AÜ
+É
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java9 9(
+%42"
+__annotate*
+java.lang.Override*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest
+Ì
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java:9 :(@@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
+
+%42*
+21*’
+4ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaS S(XáÑ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaS S(X
+%25java.lang.String"Qjava.util.Map#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*
+
+outputjava.util.Map*
+
+%21java.lang.String*
+
+%22java.lang.String21putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)æ
+ª
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaT T(
+%26org.slf4j.Logger"__id*
+""æª
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaT' T(3
+%27java.lang.String"Jorg.apache.bookkeeper.net.BookieSocketAddress#toString()Ljava/lang/String;*4
+2
+b-org.apache.bookkeeper.net.BookieSocketAddress2
+toString()„
+‡
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaT T(3
+%28java.lang.String"__concat*
+
+bookie: *
+
+%27java.lang.StringÂ
+‚
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaT T(B
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+
+ hostname:ƒ¡
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaTE T(T
+%30java.lang.String"Morg.apache.bookkeeper.net.BookieSocketAddress#getHostName()Ljava/lang/String;*4
+2
+b-org.apache.bookkeeper.net.BookieSocketAddress2getHostName()
+Ì
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaT T(T
+%31java.lang.String"__concat*
+
+%29java.lang.String*
+
+%30java.lang.String¢ü
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaT T(U
+%32void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
+
+%26org.slf4j.Logger*
+
+%31java.lang.String2debug(Ljava/lang/String;)*
+3*Í
+5ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaSS S(WÀ
+»
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaSS S(W
+%22java.lang.String"__id*
+
+%24
+<nulltype>*
+4*∑
+6ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaSA S(Bƒ¡
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaSA S(P
+%23java.lang.String"Morg.apache.bookkeeper.net.BookieSocketAddress#getHostName()Ljava/lang/String;*4
+2
+b-org.apache.bookkeeper.net.BookieSocketAddress2getHostName()—
+Œ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaSA S(P
+%22java.lang.String"__id*
+
+%23java.lang.String*
+4*‡
+7ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaS S(æª
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaS# S(/
+%21java.lang.String"Jorg.apache.bookkeeper.net.BookieSocketAddress#toString()Ljava/lang/String;*4
+2
+b-org.apache.bookkeeper.net.BookieSocketAddress2
+toString()*
+5
+6*â
+9ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaQ) Q(-ï
+í
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaQ) Q(:
+%20java.util.HashMap">com.google.common.collect.Maps#newHashMap()Ljava/util/HashMap;*"" 
+com.google.common.collect.Maps“
+œ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaQ Q(;
+outputjava.util.Map"__id*
+
+%20java.util.HashMap*
+3*ÿ
+
+20ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java>6 >(Z«ƒ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java>: >(X
+%5java.util.ArrayList"java.util.ArrayListŸ
+÷
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java>6 >(Z
+%6"java.util.ArrayList#<init>()V*
+
+%5java.util.ArrayList€
+ÿ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java> >([
+bookiesjava.util.Collection"__id*
+
+%5java.util.ArrayListœÃ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java@) @(<
+%7java.util.Map"Porg.apache.bookkeeper.http.service.HttpServiceRequest#getParams()Ljava/util/Map;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getParams()Õ
+ 
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java@ @(=
+paramsjava.util.Map"__id*
+
+%7java.util.Map*
+13
+15
+17
+19
+10
+11*ø
+21ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java;' ;(@çä
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java;+ ;(><
+%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponseü
+ú
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java;' ;(@
+%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponse°
+û
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java; ;(AB
+response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
+<
+%06org.apache.bookkeeper.http.service.HttpServiceResponseŸ
+÷
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java= =(2
+%2,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""Ÿ
+÷
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java= =(!2
+%3,org.apache.bookkeeper.http.HttpServer$Method"__id*
+""çä
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.java=% =(82
+%4,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
+@
+request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
+20
+1*õ
+10ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaM M(ù
+ö
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaM M("3
+%17,org.apache.bookkeeper.client.BookKeeperAdmin"__id*I*G>
+<org.apache.bookkeeper.server.http.service.ListBookiesService"
+bka‹Ÿ
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaM M(8
+%18java.util.Collection"Xorg.apache.bookkeeper.client.BookKeeperAdmin#getAvailableBookies()Ljava/util/Collection;*5
+3
+%17,org.apache.bookkeeper.client.BookKeeperAdmin2getAvailableBookies()¸
+˘
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaM M(9
+%19boolean"__arrayAddAll*!
+
+bookiesjava.util.Collection*: *
+
+%18java.util.Collection*
+9*ô
+11ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaK K(ù
+ö
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaK K("3
+%14,org.apache.bookkeeper.client.BookKeeperAdmin"__id*I*G>
+<org.apache.bookkeeper.server.http.service.ListBookiesService"
+bka⁄◊
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaK K(7
+%15java.util.Collection"Worg.apache.bookkeeper.client.BookKeeperAdmin#getReadOnlyBookies()Ljava/util/Collection;*5
+3
+%14,org.apache.bookkeeper.client.BookKeeperAdmin2getReadOnlyBookies()¸
+˘
+ë
+Ü/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/ListBookiesService.javaK K(8
+%16boolean"__arrayAddAll*!
+
+bookiesjava.util.Collection*: *
+
+%15java.util.Collection*
+9:@
+request5org.apache.bookkeeper.http.service.HttpServiceRequestB@>
+<org.apache.bookkeeper.server.http.service.ListBookiesService

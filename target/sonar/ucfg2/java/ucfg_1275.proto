@@ -1,0 +1,56 @@
+
+Šorg.apache.bookkeeper.clients.impl.internal.mr.MetaRangeRequestProcessor#sendRPC(Lorg/apache/bookkeeper/clients/impl/channel/StorageServerChannel;Lorg/apache/bookkeeper/stream/proto/storage/GetActiveRangesRequest;)Lcom/google/common/util/concurrent/ListenableFuture;¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaD8 D(?"startingBlock*«
+
+startingBlock¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaD? E(_¤
+¡
+¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaC C(
+%2"
+__annotate*
+java.lang.Override*N
+L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannelŽ
+‹
+¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaDU D(^L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__annotation*
+
+%2¤
+¡
+¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaC C(
+%3"
+__annotate*
+java.lang.Override*N
+L
+requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequestŽ
+‹
+¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaEW E(^L
+requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest"__annotation*
+
+%3*
+1*‘
+1¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaF F(§¤
+¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaF F(.`
+%0Zorg.apache.bookkeeper.stream.proto.storage.MetaRangeServiceGrpc$MetaRangeServiceFutureStub"±org.apache.bookkeeper.clients.impl.channel.StorageServerChannel#getMetaRangeService()Lorg/apache/bookkeeper/stream/proto/storage/MetaRangeServiceGrpc$MetaRangeServiceFutureStub;*N
+L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel2getMetaRangeService()ÔÑ
+¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaF F(G8
+%12com.google.common.util.concurrent.ListenableFuture"ãorg.apache.bookkeeper.stream.proto.storage.MetaRangeServiceGrpc$MetaRangeServiceFutureStub#getActiveRanges(Lorg/apache/bookkeeper/stream/proto/storage/GetActiveRangesRequest;)Lcom/google/common/util/concurrent/ListenableFuture;*b
+`
+%0Zorg.apache.bookkeeper.stream.proto.storage.MetaRangeServiceGrpc$MetaRangeServiceFutureStub*N
+L
+requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest2TgetActiveRanges(Lorg/apache/bookkeeper/stream/proto/storage/GetActiveRangesRequest;)"ã
+¤
+™/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor.javaF F(H:
+8
+%12com.google.common.util.concurrent.ListenableFuture:L
+	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel:L
+requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequestBLJ
+Horg.apache.bookkeeper.clients.impl.internal.mr.MetaRangeRequestProcessor

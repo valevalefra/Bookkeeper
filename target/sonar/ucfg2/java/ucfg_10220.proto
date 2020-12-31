@@ -1,0 +1,104 @@
+
+norg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor#getCompactedLogFile(Ljava/io/File;J)Ljava/io/File;í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java˝	 ˝("2"1*∏
+2í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaˇ ˇ("ù
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaˇ ˇ(
+""*„
+1í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÅ Å($éã
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÅ Å(4
+%0java.io.File"*java.io.File#getParentFile()Ljava/io/File;*#
+!
+compactionLogFilejava.io.File2getParentFile()…
+∆
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÅ Å(5
+dirjava.io.File"__id*
+
+%0java.io.Fileäá
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÇ Ç(5
+%1java.lang.String"(java.io.File#getName()Ljava/lang/String;*#
+!
+compactionLogFilejava.io.File2	getName()÷
+”
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÇ Ç(6
+filenamejava.lang.String"__id*
+
+%1java.lang.Stringµ
+≤
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÉ% É(Q
+%2java.lang.String"Morg.apache.bookkeeper.bookie.EntryLogger#logId2HexString(J)Ljava/lang/String;*,"*
+(org.apache.bookkeeper.bookie.EntryLogger*
+""ﬂ
+‹
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÉ É(Q
+%3java.lang.String"__concat*	
+.log.*
+
+%2java.lang.Stringæ
+ª
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÉT É(d
+%4java.lang.String"__id*
+""Ó
+Î
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÉ É(d
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4java.lang.String◊
+‘
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÉ É(e
+	newSuffixjava.lang.String"__id*
+
+%5java.lang.Stringæ
+ª
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÑ3 Ñ(D
+%6java.lang.String"__id*
+""§°
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÑ" Ñ(P
+%7java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*
+
+filenamejava.lang.String*
+
+%6java.lang.String*
+
+	newSuffixjava.lang.String29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)ﬁ
+€
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÑ Ñ(Q$
+hardLinkFilenamejava.lang.String"__id*
+
+%7java.lang.String∫∑
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÖ Ö(
+%8java.io.File"java.io.File´
+®
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÖ Ö(.
+%9"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%8java.io.File*
+
+dirjava.io.File*&
+$
+hardLinkFilenamejava.lang.String"´
+í
+Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÖ Ö(/
+
+%8java.io.File:!
+compactionLogFilejava.io.File:
+""B?=
+;org.apache.bookkeeper.bookie.TransactionalEntryLogCompactor

@@ -1,0 +1,621 @@
+
+’org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#renameLogMetadata(Ljava/net/URI;Lorg/apache/distributedlog/metadata/LogMetadataForWriter;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java∏$ ∏(5"4*Ù
+2†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaˇ ˇ((ã
+à
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaˇ/ ˇ(F
+%67java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
+java.util.Collectionsû
+õ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaˇ ˇ(G-
+%68&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
+3org.apache.bookkeeper.common.concurrent.FutureUtils*
+
+%67java.util.Listó
+î
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaˇ ˇ(G8
+segmentsFuture&java.util.concurrent.CompletableFuture"__id*/
+-
+%68&java.util.concurrent.CompletableFuture*
+1*Å
+3†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˝ ˝(+π
+∂
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˝, ˝(;0
+%63)org.apache.distributedlog.ZooKeeperClient"__id*Y*WB
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore"
+zooKeeperClientÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˝K ˝([
+%64java.lang.String"__id*
+""á
+Ñ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˝= ˝([
+%65java.lang.String"__concat*!
+
+oldRootPathjava.lang.String*
+
+%64java.lang.String£
+†
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˝ ˝(\-
+%66&java.util.concurrent.CompletableFuture"∂org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#getLogSegments(Lorg/apache/distributedlog/ZooKeeperClient;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*2
+0
+%63)org.apache.distributedlog.ZooKeeperClient*
+
+%65java.lang.Stringó
+î
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˝ ˝(\8
+segmentsFuture&java.util.concurrent.CompletableFuture"__id*/
+-
+%66&java.util.concurrent.CompletableFuture*
+1*’≥
+4†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaΩ) Ω(.Æ
+´
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaΩ) Ω(>
+%0java.util.LinkedList"Ecom.google.common.collect.Lists#newLinkedList()Ljava/util/LinkedList;*#"!
+com.google.common.collect.ListsÌ
+Í
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaΩ Ω(?!
+	createOpsjava.util.LinkedList"__id*
+
+%0java.util.LinkedListÆ
+´
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaæ) æ(>
+%1java.util.LinkedList"Ecom.google.common.collect.Lists#newLinkedList()Ljava/util/LinkedList;*#"!
+com.google.common.collect.ListsÌ
+Í
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaæ æ(?!
+	deleteOpsjava.util.LinkedList"__id*
+
+%1java.util.LinkedList∏
+µ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¿ ¿((/
+%2)org.apache.distributedlog.ZooKeeperClient"__id*Y*WB
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore"
+zooKeeperClientÀ»
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¿ ¿(8
+%3java.util.List"Iorg.apache.distributedlog.ZooKeeperClient#getDefaultACL()Ljava/util/List;*1
+/
+%2)org.apache.distributedlog.ZooKeeperClient2getDefaultACL()‹
+Ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¿ ¿(9
+aclsjava.util.List"__id*
+
+%3java.util.ListÌÍ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java√ √(9
+%4java.lang.String"Qorg.apache.distributedlog.metadata.LogMetadata#getLogRootPath()Ljava/lang/String;*H
+F
+oldMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2getLogRootPath()Á
+‰
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java√ √(:
+oldRootPathjava.lang.String"__id*
+
+%4java.lang.Stringπ
+∂
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≈  ≈($;
+%55org.apache.distributedlog.DistributedLogConfiguration"__id*N*LB
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore"
+confÅ˛
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java≈  ≈(A
+%6java.lang.String"dorg.apache.distributedlog.DistributedLogConfiguration#getUnpartitionedStreamName()Ljava/lang/String;*=
+;
+%55org.apache.distributedlog.DistributedLogConfiguration2getUnpartitionedStreamName()Œ
+À
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaƒ ≈(B
+%7java.lang.String"Éorg.apache.distributedlog.metadata.LogMetadata#getLogRootPath(Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*2"0
+.org.apache.distributedlog.metadata.LogMetadata*
+
+urijava.net.URI*#
+!
+newStreamNamejava.lang.String*
+
+%6java.lang.StringÁ
+‰
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaƒ ≈(C
+newRootPathjava.lang.String"__id*
+
+%7java.lang.StringÂ‚
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java…. …(F
+%8java.lang.String"Morg.apache.distributedlog.metadata.LogMetadata#getLogName()Ljava/lang/String;*H
+F
+oldMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2getLogName()ò
+ï
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java… …(G
+%9java.lang.String"sorg.apache.distributedlog.metadata.LogMetadata#getLogStreamPath(Ljava/net/URI;Ljava/lang/String;)Ljava/lang/String;*2"0
+.org.apache.distributedlog.metadata.LogMetadata*
+
+urijava.net.URI*
+
+%8java.lang.String”
+–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java» …(L
+%10org.apache.zookeeper.Op"Lorg.apache.zookeeper.Op#delete(Ljava/lang/String;I)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*
+
+%9java.lang.String*
+""Ã…
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java» …(M
+%11void"2java.util.LinkedList#addFirst(Ljava/lang/Object;)V*#
+!
+	deleteOpsjava.util.LinkedList* 
+
+%10org.apache.zookeeper.Op2addFirst(Ljava/lang/Object;)√
+¿
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÕ Õ($
+%12byte[]"__id*
+""‹
+Ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÕ, Õ(A&
+%13org.apache.zookeeper.CreateMode"__id*
+""€
+ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÃ Õ(B
+%14org.apache.zookeeper.Op"~org.apache.zookeeper.Op#create(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*!
+
+newRootPathjava.lang.String*
+
+%12byte[]*
+
+aclsjava.util.List*(
+&
+%13org.apache.zookeeper.CreateModeä
+á
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÃ Õ(C
+%15void"
+__arrayAdd*#
+!
+	createOpsjava.util.LinkedList*: * 
+
+%14org.apache.zookeeper.Op‹
+Ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaŒ œ(
+%16org.apache.zookeeper.Op"Lorg.apache.zookeeper.Op#delete(Ljava/lang/String;I)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*!
+
+oldRootPathjava.lang.String*
+""Ã…
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaŒ œ(
+%17void"2java.util.LinkedList#addFirst(Ljava/lang/Object;)V*#
+!
+	deleteOpsjava.util.LinkedList* 
+
+%16org.apache.zookeeper.Op2addFirst(Ljava/lang/Object;)´®
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java“( “(D1
+%18*org.apache.bookkeeper.versioning.Versioned"torg.apache.distributedlog.metadata.LogMetadataForWriter#getMaxTxIdData()Lorg/apache/bookkeeper/versioning/Versioned;*H
+F
+oldMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2getMaxTxIdData()ú
+ô
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java“ “(E9
+maxTxIdData*org.apache.bookkeeper.versioning.Versioned"__id*3
+1
+%18*org.apache.bookkeeper.versioning.VersionedÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‘ ‘(&
+%19java.lang.String"__id*
+""≠
+™
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java’ ’(;
+%20byte[]"Borg.apache.distributedlog.util.DLUtils#serializeTransactionId(J)[B**"(
+&org.apache.distributedlog.util.DLUtils*
+""ê
+ç
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java” ◊(	
+%21void"Åorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#deleteOldPathAndCreateNewPath(Ljava/lang/String;Ljava/lang/String;Lorg/apache/bookkeeper/versioning/Versioned;Ljava/lang/String;[BLjava/util/List;Ljava/util/LinkedList;Ljava/util/LinkedList;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*!
+
+oldRootPathjava.lang.String*
+
+%19java.lang.String*;
+9
+maxTxIdData*org.apache.bookkeeper.versioning.Versioned*!
+
+newRootPathjava.lang.String*
+
+%20byte[]*
+
+aclsjava.util.List*#
+!
+	createOpsjava.util.LinkedList*#
+!
+	deleteOpsjava.util.LinkedListÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java€ €(&
+%22java.lang.String"__id*
+""á
+Ñ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java€ €(&
+%23java.lang.String"__concat*!
+
+newRootPathjava.lang.String*
+
+%22java.lang.String¿
+Ω
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java€3 €(A
+
+%24int"__id*
+""€
+ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java€( €(B
+%25byte[]"Porg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#intToBytes(I)[B*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*
+
+
+%24int‹
+Ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java€J €(_&
+%26org.apache.zookeeper.CreateMode"__id*
+""”
+–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java⁄ €(`
+%27org.apache.zookeeper.Op"~org.apache.zookeeper.Op#create(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*
+
+%23java.lang.String*
+
+%25byte[]*
+
+aclsjava.util.List*(
+&
+%26org.apache.zookeeper.CreateModeä
+á
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java⁄ €(a
+%28void"
+__arrayAdd*#
+!
+	createOpsjava.util.LinkedList*: * 
+
+%27org.apache.zookeeper.OpÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java› ›(&
+%29java.lang.String"__id*
+""á
+Ñ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java› ›(&
+%30java.lang.String"__concat*!
+
+oldRootPathjava.lang.String*
+
+%29java.lang.String‘
+—
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‹ ›(+
+%31org.apache.zookeeper.Op"Lorg.apache.zookeeper.Op#delete(Ljava/lang/String;I)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*
+
+%30java.lang.String*
+""Ã…
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‹ ›(,
+%32void"2java.util.LinkedList#addFirst(Ljava/lang/Object;)V*#
+!
+	deleteOpsjava.util.LinkedList* 
+
+%31org.apache.zookeeper.Op2addFirst(Ljava/lang/Object;)Õ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‚ ‚(#
+%33java.lang.String"__id*
+""á
+Ñ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‚ ‚(#
+%34java.lang.String"__concat*!
+
+newRootPathjava.lang.String*
+
+%33java.lang.String√
+¿
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‚% ‚(0
+%35byte[]"__id*
+""‹
+Ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‚8 ‚(M&
+%36org.apache.zookeeper.CreateMode"__id*
+""”
+–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java· ‚(N
+%37org.apache.zookeeper.Op"~org.apache.zookeeper.Op#create(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*
+
+%34java.lang.String*
+
+%35byte[]*
+
+aclsjava.util.List*(
+&
+%36org.apache.zookeeper.CreateModeä
+á
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java· ‚(O
+%38void"
+__arrayAdd*#
+!
+	createOpsjava.util.LinkedList*: * 
+
+%37org.apache.zookeeper.OpÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‰ ‰(#
+%39java.lang.String"__id*
+""á
+Ñ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java‰ ‰(#
+%40java.lang.String"__concat*!
+
+oldRootPathjava.lang.String*
+
+%39java.lang.String‘
+—
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java„ ‰((
+%41org.apache.zookeeper.Op"Lorg.apache.zookeeper.Op#delete(Ljava/lang/String;I)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*
+
+%40java.lang.String*
+""Ã…
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java„ ‰()
+%42void"2java.util.LinkedList#addFirst(Ljava/lang/Object;)V*#
+!
+	deleteOpsjava.util.LinkedList* 
+
+%41org.apache.zookeeper.Op2addFirst(Ljava/lang/Object;)Õ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaË Ë((
+%43java.lang.String"__id*
+""á
+Ñ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaË Ë((
+%44java.lang.String"__concat*!
+
+newRootPathjava.lang.String*
+
+%43java.lang.String√
+¿
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaË* Ë(5
+%45byte[]"__id*
+""‹
+Ÿ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaË= Ë(R&
+%46org.apache.zookeeper.CreateMode"__id*
+""”
+–
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÁ Ë(S
+%47org.apache.zookeeper.Op"~org.apache.zookeeper.Op#create(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*
+
+%44java.lang.String*
+
+%45byte[]*
+
+aclsjava.util.List*(
+&
+%46org.apache.zookeeper.CreateModeä
+á
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÁ Ë(T
+%48void"
+__arrayAdd*#
+!
+	createOpsjava.util.LinkedList*: * 
+
+%47org.apache.zookeeper.OpÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÍ Í((
+%49java.lang.String"__id*
+""á
+Ñ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÍ Í((
+%50java.lang.String"__concat*!
+
+oldRootPathjava.lang.String*
+
+%49java.lang.String‘
+—
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÈ Í(-
+%51org.apache.zookeeper.Op"Lorg.apache.zookeeper.Op#delete(Ljava/lang/String;I)Lorg/apache/zookeeper/Op;*"
+org.apache.zookeeper.Op*
+
+%50java.lang.String*
+""Ã…
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÈ Í(.
+%52void"2java.util.LinkedList#addFirst(Ljava/lang/Object;)V*#
+!
+	deleteOpsjava.util.LinkedList* 
+
+%51org.apache.zookeeper.Op2addFirst(Ljava/lang/Object;)±Æ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÌ+ Ì(J1
+%53*org.apache.bookkeeper.versioning.Versioned"worg.apache.distributedlog.metadata.LogMetadataForWriter#getAllocationData()Lorg/apache/bookkeeper/versioning/Versioned;*H
+F
+oldMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2getAllocationData()ü
+ú
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÌ Ì(K<
+allocationData*org.apache.bookkeeper.versioning.Versioned"__id*3
+1
+%53*org.apache.bookkeeper.versioning.VersionedÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÔ Ô((
+%54java.lang.String"__id*
+""√
+¿
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java ($
+%55byte[]"__id*
+""ì
+ê
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÓ Ò(!
+%56void"Åorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#deleteOldPathAndCreateNewPath(Ljava/lang/String;Ljava/lang/String;Lorg/apache/bookkeeper/versioning/Versioned;Ljava/lang/String;[BLjava/util/List;Ljava/util/LinkedList;Ljava/util/LinkedList;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*!
+
+oldRootPathjava.lang.String*
+
+%54java.lang.String*>
+<
+allocationData*org.apache.bookkeeper.versioning.Versioned*!
+
+newRootPathjava.lang.String*
+
+%55byte[]*
+
+aclsjava.util.List*#
+!
+	createOpsjava.util.LinkedList*#
+!
+	deleteOpsjava.util.LinkedList´®
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÙ( Ù(D1
+%57*org.apache.bookkeeper.versioning.Versioned"torg.apache.distributedlog.metadata.LogMetadataForWriter#getMaxLSSNData()Lorg/apache/bookkeeper/versioning/Versioned;*H
+F
+oldMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2getMaxLSSNData()ú
+ô
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÙ Ù(E9
+maxLSSNData*org.apache.bookkeeper.versioning.Versioned"__id*3
+1
+%57*org.apache.bookkeeper.versioning.VersionedÕ
+ 
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaˆ ˆ()
+%58java.lang.String"__id*
+""¡
+æ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˜C ˜(^
+%59long"__id*
+""ø
+º
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˜ ˜(_
+%60byte[]"Morg.apache.distributedlog.util.DLUtils#serializeLogSegmentSequenceNumber(J)[B**"(
+&org.apache.distributedlog.util.DLUtils*
+
+%59longê
+ç
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaı ¯(!
+%61void"Åorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#deleteOldPathAndCreateNewPath(Ljava/lang/String;Ljava/lang/String;Lorg/apache/bookkeeper/versioning/Versioned;Ljava/lang/String;[BLjava/util/List;Ljava/util/LinkedList;Ljava/util/LinkedList;)V*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*!
+
+oldRootPathjava.lang.String*
+
+%58java.lang.String*;
+9
+maxLSSNData*org.apache.bookkeeper.versioning.Versioned*!
+
+newRootPathjava.lang.String*
+
+%60byte[]*
+
+aclsjava.util.List*#
+!
+	createOpsjava.util.LinkedList*#
+!
+	deleteOpsjava.util.LinkedListÓ
+Î
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java˚ ˚(C8
+segmentsFuture&java.util.concurrent.CompletableFuture"__id*
+""µ
+≤
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.java¸ ¸(#
+%62boolean"zorg.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore#pathExists(Lorg/apache/bookkeeper/versioning/Versioned;)Z*D"B
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore*;
+9
+maxLSSNData*org.apache.bookkeeper.versioning.Versioned*
+2
+3*¨
+1†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÅ Å(ºπ
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÅ ç(-
+%69&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*:
+8
+segmentsFuture&java.util.concurrent.CompletableFuture*
+""2(thenApply(Ljava/util/function/Function;)µ≤
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÅ ë(-
+%70&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%69&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)µ≤
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÅ ô(-
+%71&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*/
+-
+%70&java.util.concurrent.CompletableFuture*
+""2*thenCompose(Ljava/util/function/Function;)"‘
+†
+ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/metadata/ZKLogStreamMetadataStore.javaÅ ô(/
+-
+%71&java.util.concurrent.CompletableFuture:
+urijava.net.URI:F
+oldMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter:!
+newStreamNamejava.lang.StringBDB
+@org.apache.distributedlog.impl.metadata.ZKLogStreamMetadataStore

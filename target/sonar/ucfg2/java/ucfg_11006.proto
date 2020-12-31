@@ -1,0 +1,232 @@
+
+úorg.apache.bookkeeper.common.util.StreamUtil#zip(Ljava/util/stream/Stream;Ljava/util/stream/Stream;Ljava/util/function/BiFunction;)Ljava/util/stream/Stream;Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java"( "(+"8*≠
+2Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.javaB B(Œ
+À
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.javaB B(0
+%24java.util.stream.Stream"Xjava.util.stream.StreamSupport#stream(Ljava/util/Spliterator;Z)Ljava/util/stream/Stream;*"" 
+java.util.stream.StreamSupport* 
+
+splitjava.util.Spliterator*
+""Œ
+À
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.javaB B(0
+%22java.util.stream.Stream"__id* 
+
+%24java.util.stream.Stream*
+1*≠
+3Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.javaA A(Œ
+À
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.javaA A(/
+%23java.util.stream.Stream"Xjava.util.stream.StreamSupport#stream(Ljava/util/Spliterator;Z)Ljava/util/stream/Stream;*"" 
+java.util.stream.StreamSupport* 
+
+splitjava.util.Spliterator*
+""Œ
+À
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.javaA A(/
+%22java.util.stream.Stream"__id* 
+
+%23java.util.stream.Stream*
+1*Ä
+4Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java@" @(#ÔÏ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java@" @(0
+%21boolean")java.util.stream.BaseStream#isParallel()Z*
+
+bjava.util.stream.Stream2isParallel()*
+2
+3*ﬁ
+5Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java- /(¥
+±
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java1! 1(D
+%15java.util.Iterator"Ljava.util.Spliterators#iterator(Ljava/util/Spliterator;)Ljava/util/Iterator;*"
+java.util.Spliterators*'
+%
+aSpliteratorjava.util.Spliterator 
+«
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java1 1(E
+	aIteratorjava.util.Iterator"__id*
+
+%15java.util.Iterator¥
+±
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java2! 2(D
+%16java.util.Iterator"Ljava.util.Spliterators#iterator(Ljava/util/Spliterator;)Ljava/util/Iterator;*"
+java.util.Spliterators*'
+%
+bSpliteratorjava.util.Spliterator 
+«
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java2 2(E
+	bIteratorjava.util.Iterator"__id*
+
+%16java.util.IteratorÌÍ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java3$ 3(/5
+%17.org.apache.bookkeeper.common.util.StreamUtil$1".org.apache.bookkeeper.common.util.StreamUtil$1‚
+ﬂ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java3  =(	
+%18"java.lang.Object#<init>()V*7
+5
+%17.org.apache.bookkeeper.common.util.StreamUtil$1Ê
+„
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java3 =(
+
+	cIteratorjava.util.Iterator"__id*7
+5
+%17.org.apache.bookkeeper.common.util.StreamUtil$1∆
+√
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java? ?(\
+%19java.util.Spliterator"Qjava.util.Spliterators#spliterator(Ljava/util/Iterator;JI)Ljava/util/Spliterator;*"
+java.util.Spliterators*!
+
+	cIteratorjava.util.Iterator*
+""*
+""Ã
+…
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java? ?(]
+splitjava.util.Spliterator"__id*
+
+%19java.util.SpliteratorÔÏ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java@ @(
+%20boolean")java.util.stream.BaseStream#isParallel()Z*
+
+ajava.util.stream.Stream2isParallel()*
+3
+4*µ
+6Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java/ /(ß
+§
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java/ /(
+%10long"__id*
+
+
+%12int*
+5*ü
+7Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java. .(Å˛
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java. .(9
+%13long",java.util.Spliterator#getExactSizeIfKnown()J*'
+%
+aSpliteratorjava.util.Spliterator2getExactSizeIfKnown()Å˛
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java.; .(]
+%14long",java.util.Spliterator#getExactSizeIfKnown()J*'
+%
+bSpliteratorjava.util.Spliterator2getExactSizeIfKnown()ﬁ
+€
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java. .(^
+%11long"java.lang.Math#min(JJ)J*"
+java.lang.Math*
+
+%13long*
+
+%14long®
+•
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java. .(^
+%10long"__id*
+
+%11long*
+5*»
+8Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java% %(µ
+≤
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java% %(&#
+%0java.util.function.BiFunction"Fjava.util.Objects#requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;*"
+java.util.Objects*)
+'
+zipperjava.util.function.BiFunction§
+°
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java&1 &(J
+%1java.util.stream.Stream"Fjava.util.Objects#requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;*"
+java.util.Objects*
+
+ajava.util.stream.Streamïí
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java&1 &(X
+%2java.util.Spliterator"@java.util.stream.BaseStream#spliterator()Ljava/util/Spliterator;*
+
+%1java.util.stream.Stream2spliterator()“
+œ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java& &(Y%
+aSpliteratorjava.util.Spliterator"__id*
+
+%2java.util.Spliterator§
+°
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java'1 '(J
+%3java.util.stream.Stream"Fjava.util.Objects#requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;*"
+java.util.Objects*
+
+bjava.util.stream.Streamïí
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java'1 '(X
+%4java.util.Spliterator"@java.util.stream.BaseStream#spliterator()Ljava/util/Spliterator;*
+
+%3java.util.stream.Stream2spliterator()“
+œ
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java' '(Y%
+bSpliteratorjava.util.Spliterator"__id*
+
+%4java.util.Spliterator˜Ù
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java* *(<	
+%5int"(java.util.Spliterator#characteristics()I*'
+%
+aSpliteratorjava.util.Spliterator2characteristics()˜Ù
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java*? *(]	
+%6int"(java.util.Spliterator#characteristics()I*'
+%
+bSpliteratorjava.util.Spliterator2characteristics()ü
+ú
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java+ +($	
+%7int"__id*
+""ü
+ú
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java+' +(9	
+%8int"__id*
+""ü
+ú
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java-+ -(<	
+%9int"__id*
+""*
+6
+7*Æ
+1Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java@ B(1"•
+Ä
+v/home/valentina/Scrivania/Bookkeeper/bookkeeper-common/src/main/java/org/apache/bookkeeper/common/util/StreamUtil.java@ B(1 
+
+%22java.util.stream.Stream:
+ajava.util.stream.Stream:
+bjava.util.stream.Stream:'
+zipperjava.util.function.BiFunctionB0".
+,org.apache.bookkeeper.common.util.StreamUtil

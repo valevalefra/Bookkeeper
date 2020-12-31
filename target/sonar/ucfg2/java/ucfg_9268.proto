@@ -1,0 +1,322 @@
+
+morg.apache.bookkeeper.metastore.MetastoreUtils#cleanTable(Lorg/apache/bookkeeper/metastore/MetastoreTable;I)VÇ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javag g(!"13*£
+13Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaj8 j(döó
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaj< j(bJ
+%0Dorg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback"Dorg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback¨
+©
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaj8 j(d
+%1"Norg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback#<init>()V*L
+J
+%0Dorg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback¨
+©
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaj j(eN
+openCbDorg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback"__id*L
+J
+%0Dorg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback´
+®
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javak k(2
+%2java.util.Set"__id*
+""µ≤
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javak k(A
+
+%3void"êorg.apache.bookkeeper.metastore.MetastoreTable#openCursor(Ljava/util/Set;Lorg/apache/bookkeeper/metastore/MetastoreCallback;Ljava/lang/Object;)V*9
+7
+table.org.apache.bookkeeper.metastore.MetastoreTable*
+
+%2java.util.Set*P
+N
+openCbDorg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback*
+""2`openCursor(Ljava/util/Set;Lorg/apache/bookkeeper/metastore/MetastoreCallback;Ljava/lang/Object;)Çˇ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javal! l(35
+%4/org.apache.bookkeeper.metastore.MetastoreCursor"borg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback#getResult()Ljava/lang/Object;*P
+N
+openCbDorg.apache.bookkeeper.metastore.MetastoreUtils$SyncMetastoreCallback2getResult()Ç
+ˇ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javal l(49
+cursor/org.apache.bookkeeper.metastore.MetastoreCursor"__id*7
+5
+%4/org.apache.bookkeeper.metastore.MetastoreCursorÆ
+´
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javam m(
+%5org.slf4j.Logger"__id*
+""≤Ø
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javamB m(Q
+%6java.lang.String"Jorg.apache.bookkeeper.metastore.MetastoreTable#getName()Ljava/lang/String;*9
+7
+table.org.apache.bookkeeper.metastore.MetastoreTable2	getName()‚ﬂ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javam m(R
+
+%7void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%5org.slf4j.Logger*.,
+*Open cursor for table {} to clean entries.*
+
+%6java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)∏µ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javao' o(8
+%8java.util.ArrayList"java.util.ArrayList”
+–
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javao# o(K
+%9"java.util.ArrayList#<init>(I)V*
+
+%8java.util.ArrayList*
+"" 
+«
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javao o(L
+keysToCleanjava.util.List"__id*
+
+%8java.util.ArrayList*
+12*ƒ
+2Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÖ Ö(ﬁ€
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÖ Ö(&
+%28void"]org.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback#waitUntilAllFinished()V*N
+L
+mcbEorg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback2waitUntilAllFinished()◊‘
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÜ! Ü(3
+
+%29int"java.util.List#size()I*
+
+keysToCleanjava.util.List2size()±
+Æ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaá á(
+%30org.slf4j.Logger"__id*
+""µ≤
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaáP á(_
+%31java.lang.String"Jorg.apache.bookkeeper.metastore.MetastoreTable#getName()Ljava/lang/String;*9
+7
+table.org.apache.bookkeeper.metastore.MetastoreTable2	getName()äá
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaá á(`
+%32void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%30org.slf4j.Logger*%#
+!Removed {} entries from table {}.*
+""*
+
+%31java.lang.String2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+12*°
+3Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÇ Ç(±
+Æ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÇ Ç(
+keyjava.lang.String"__id*
+""ÿ
+’
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÇ Ç(
+keyjava.lang.String"
+__arrayGet*
+
+keysToCleanjava.util.List*
+""*
+2
+4*û
+4Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÉ É(…
+∆
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÉ" É(-/
+%26(org.apache.bookkeeper.versioning.Version"__id*
+""¿Ω
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÉ É(9
+%27void"πorg.apache.bookkeeper.metastore.MetastoreTable#remove(Ljava/lang/String;Lorg/apache/bookkeeper/versioning/Version;Lorg/apache/bookkeeper/metastore/MetastoreCallback;Ljava/lang/Object;)V*9
+7
+table.org.apache.bookkeeper.metastore.MetastoreTable*
+
+keyjava.lang.String*1
+/
+%26(org.apache.bookkeeper.versioning.Version*N
+L
+mcbEorg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback*
+""2âremove(Ljava/lang/String;Lorg/apache/bookkeeper/versioning/Version;Lorg/apache/bookkeeper/metastore/MetastoreCallback;Ljava/lang/Object;)*
+3*ï
+6Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.java (Ø
+¨
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.java (
+%21org.slf4j.Logger"__id*
+""‚ﬂ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.java (I
+%22void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%21org.slf4j.Logger*%#
+!Issuing deletes to delete keys {}*
+
+keysToCleanjava.util.List2*info(Ljava/lang/String;Ljava/lang/Object;)◊‘
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÅP Å(b
+
+%23int"java.util.List#size()I*
+
+keysToCleanjava.util.List2size()üú
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÅ3 Å(OL
+%24Eorg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback"Eorg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback¡
+æ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÅ/ Å(c
+%25"Porg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback#<init>(I)V*N
+L
+%24Eorg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback*
+
+
+%23intÆ
+´
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaÅ Å(dL
+mcbEorg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback"__id*N
+L
+%24Eorg.apache.bookkeeper.metastore.MetastoreUtils$MultiMetastoreCallback*
+3*Û
+8Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.java{ {(ﬂ‹
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.java{ {(%
+%20boolean"java.util.List#isEmpty()Z*
+
+keysToCleanjava.util.List2	isEmpty()*
+6
+12*ò
+9Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaw* w(.ñì
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaw* w(59
+%172org.apache.bookkeeper.metastore.MetastoreTableItem"+java.util.Iterator#next()Ljava/lang/Object;*
+
+iterjava.util.Iterator2next()á
+Ñ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaw w(6:
+item2org.apache.bookkeeper.metastore.MetastoreTableItem"__id*;
+9
+%172org.apache.bookkeeper.metastore.MetastoreTableItem∏µ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javax x(*
+%18java.lang.String"Morg.apache.bookkeeper.metastore.MetastoreTableItem#getKey()Ljava/lang/String;*<
+:
+item2org.apache.bookkeeper.metastore.MetastoreTableItem2getKey()¬
+ø
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javax x(+
+keyjava.lang.String"__id*
+
+%18java.lang.String‰
+·
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javay y($
+%19boolean"
+__arrayAdd*
+
+keysToCleanjava.util.List*: *
+
+keyjava.lang.String*
+10*Ù
+10Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javav v(‡›
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javav v(!
+%16boolean"java.util.Iterator#hasNext()Z*
+
+iterjava.util.Iterator2	hasNext()*
+8
+9*§
+0 "ú
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaã ã(
+implicit return*Ò
+11Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javar r(Ø
+¨
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javar r(
+%11org.slf4j.Logger"__id*
+""≥∞
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javas, s(;
+%12java.lang.String"Jorg.apache.bookkeeper.metastore.MetastoreTable#getName()Ljava/lang/String;*9
+7
+table.org.apache.bookkeeper.metastore.MetastoreTable2	getName()óî
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javar s(<
+%13void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%11org.slf4j.Logger*42
+0Fetching next {} entries from table {} to clean.*
+""*
+
+%12java.lang.String2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Ã…
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javat0 t(U
+%14java.util.Iterator"Rorg.apache.bookkeeper.metastore.MetastoreCursor#readEntries(I)Ljava/util/Iterator;*;
+9
+cursor/org.apache.bookkeeper.metastore.MetastoreCursor*
+""2readEntries(I)«
+ƒ
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javat t(V
+iterjava.util.Iterator"__id*
+
+%14java.util.Iteratorƒ
+¡
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javau u(
+%15void"__arrayClear*
+
+keysToCleanjava.util.List*
+10*ø
+12Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaq q(™ß
+Ç
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaq q(&
+%10boolean"Aorg.apache.bookkeeper.metastore.MetastoreCursor#hasMoreEntries()Z*;
+9
+cursor/org.apache.bookkeeper.metastore.MetastoreCursor2hasMoreEntries()*
+11
+1*Ÿ
+1Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaä ä(±
+Æ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaä ä(
+%33org.slf4j.Logger"__id*
+""µ≤
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaä6 ä(E
+%34java.lang.String"Jorg.apache.bookkeeper.metastore.MetastoreTable#getName()Ljava/lang/String;*9
+7
+table.org.apache.bookkeeper.metastore.MetastoreTable2	getName()€ÿ
+Ñ
+x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/metastore/MetastoreUtils.javaä ä(F
+%35void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%33org.slf4j.Logger*" 
+Finished cleaning up table {}.*
+
+%34java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+0:7
+table.org.apache.bookkeeper.metastore.MetastoreTable:
+""B2"0
+.org.apache.bookkeeper.metastore.MetastoreUtils

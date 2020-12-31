@@ -1,0 +1,340 @@
+
+Corg.apache.bookkeeper.replication.ReplicationWorker#rereplicate(J)Zâ
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‰ ‰("53*Ñ
+24â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaè è(3è
+å
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaè8 è(<5
+%28.org.apache.bookkeeper.conf.ServerConfiguration"__id*A*?5
+3org.apache.bookkeeper.replication.ReplicationWorker"
+confŸ÷
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaè8 è(e
+%29long"Xorg.apache.bookkeeper.conf.ServerConfiguration#getAuditorLedgerVerificationPercentage()J*7
+5
+%28.org.apache.bookkeeper.conf.ServerConfiguration2(getAuditorLedgerVerificationPercentage()*
+23*è
+47â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÌ Ó(_»
+≈
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÌ Ó(_
+	fragmentsjava.util.Set"__id*
+
+%8java.util.Setµ
+≤
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java (
+%9org.slf4j.Logger"__id*
+""ÔÏ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java ($
+%10boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%9org.slf4j.Logger2isDebugEnabled()*
+30
+45*ß
+25â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaå å("î
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaå å(
+""*Ö
+37â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java˚ ˚(∂
+≥
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java˚ ˚(
+%15org.slf4j.Logger"__id*
+""≥∞
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java˚ ¸(+
+%16void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%15org.slf4j.Logger*MK
+IFailed to read faulty entries, so giving up replicating ledgerFragment {}*?
+=
+ledgerFragment+org.apache.bookkeeper.client.LedgerFragment2+error(Ljava/lang/String;Ljava/lang/Object;)*
+30*ß
+15â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaö ö("î
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaö ö(
+""*’
+48â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÓ Ó(^º
+π
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÓ Ó(^
+%8java.util.Set"õorg.apache.bookkeeper.replication.ReplicationWorker#getUnderreplicatedFragments(Lorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Long;)Ljava/util/Set;*75
+3org.apache.bookkeeper.replication.ReplicationWorker*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*
+
+
+%7long*
+47*∆
+26â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaä) ä(-≠
+™
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaã ã(;
+%27void"Norg.apache.bookkeeper.replication.ReplicationWorker#deferLedgerLockRelease(J)V*75
+3org.apache.bookkeeper.replication.ReplicationWorker*
+""*
+25*¿
+16â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaó ó(7ß
+§
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaó ó(7*
+%38#org.apache.bookkeeper.stats.Counter"__id*d*b5
+3org.apache.bookkeeper.replication.ReplicationWorker")
+'numDeferLedgerLockReleaseOfFailedLedger˝˙
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaó ó(=
+%39void"*org.apache.bookkeeper.stats.Counter#inc()V*,
+*
+%38#org.apache.bookkeeper.stats.Counter2inc()*
+15*˝
+49â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÏ Ï(N˘
+ˆ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÏ Ï(N/
+lh)org.apache.bookkeeper.client.LedgerHandle"__id*1
+/
+%5)org.apache.bookkeeper.client.LedgerHandleé
+ã
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÓ0 Ó(44
+%6.org.apache.bookkeeper.conf.ServerConfiguration"__id*A*?5
+3org.apache.bookkeeper.replication.ReplicationWorker"
+conf◊‘
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÓ0 Ó(]
+
+%7long"Xorg.apache.bookkeeper.conf.ServerConfiguration#getAuditorLedgerVerificationPercentage()J*6
+4
+%6.org.apache.bookkeeper.conf.ServerConfiguration2(getAuditorLedgerVerificationPercentage()*
+48*í
+39â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java˙ ˙(,ı
+Ú
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java˙ ˙(@
+%14boolean"¶org.apache.bookkeeper.replication.ReplicationWorker#tryReadingFaultyEntries(Lorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/client/LedgerFragment;)Z*75
+3org.apache.bookkeeper.replication.ReplicationWorker*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*?
+=
+ledgerFragment+org.apache.bookkeeper.client.LedgerFragment*
+37
+34*‘
+17â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaï) ï(-ª
+∏
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javañ ñ(I
+%37void"\org.apache.bookkeeper.replication.ReplicationWorker#deferLedgerLockReleaseOfFailedLedger(J)V*75
+3org.apache.bookkeeper.replication.ReplicationWorker*
+""*
+16*Ø
+28â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaâ& â(Hí
+è
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaâ& â(L
+%26boolean"Ñorg.apache.bookkeeper.replication.ReplicationWorker#isLastSegmentOpenAndMissingBookies(Lorg/apache/bookkeeper/client/LedgerHandle;)Z*75
+3org.apache.bookkeeper.replication.ReplicationWorker*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*
+24
+26*ß
+18â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaì ì("î
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaì ì(
+""*õ
+19â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaí í('¨
+©
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaí í('?
+%358org.apache.bookkeeper.meta.LedgerUnderreplicationManager"__id*T*R5
+3org.apache.bookkeeper.replication.ReplicationWorker"
+underreplicationManager”–
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaí í(Q
+%36void"Qorg.apache.bookkeeper.meta.LedgerUnderreplicationManager#markLedgerReplicated(J)V*A
+?
+%358org.apache.bookkeeper.meta.LedgerUnderreplicationManager*
+""2markLedgerReplicated(J)*
+18*±
+50â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÏ Ï($ç
+ä
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÏ Ï($2
+%4,org.apache.bookkeeper.client.BookKeeperAdmin"__id*B*@5
+3org.apache.bookkeeper.replication.ReplicationWorker"
+adminàÖ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÏ Ï(N/
+%5)org.apache.bookkeeper.client.LedgerHandle"oorg.apache.bookkeeper.client.BookKeeperAdmin#openLedgerNoRecovery(J)Lorg/apache/bookkeeper/client/LedgerHandle;*4
+2
+%4,org.apache.bookkeeper.client.BookKeeperAdmin*
+""2openLedgerNoRecovery(J)*
+49*≤
+52â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÁ Á(µ
+≤
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÁ Á(
+%2org.slf4j.Logger"__id*
+""·ﬁ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÁ Á(`
+
+%3void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%2org.slf4j.Logger*64
+2Going to replicate the fragments of the ledger: {}*
+""2+debug(Ljava/lang/String;Ljava/lang/Object;)*
+50*Ä
+30â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaı ı(.‹
+Ÿ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaı ı(.=
+ledgerFragment+org.apache.bookkeeper.client.LedgerFragment"__id*
+""Ä
+˝
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaı ı(.=
+ledgerFragment+org.apache.bookkeeper.client.LedgerFragment"
+__arrayGet*
+
+	fragmentsjava.util.Set*
+""*
+26
+28
+42*¬
+42â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaˆ ˆ(#•¢
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaˆ ˆ(.
+%13boolean"7org.apache.bookkeeper.client.LedgerFragment#isClosed()Z*?
+=
+ledgerFragment+org.apache.bookkeeper.client.LedgerFragment2
+isClosed()*
+39
+30*€
+20â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaë ë(∂
+≥
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaë ë(
+%32org.slf4j.Logger"__id*
+""Ó
+Î
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaë ë(_
+%33java.lang.String"__concat*20
+.Ledger replicated successfully. ledger id is: *
+""òï
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaë ë(`
+%34void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%32org.slf4j.Logger*
+
+%33java.lang.String2info(Ljava/lang/String;)*
+19*√
+53â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÊ Ê(µ
+≤
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÊ Ê(
+%0org.slf4j.Logger"__id*
+""ÓÎ
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÊ Ê( 
+%1boolean""org.slf4j.Logger#isDebugEnabled()Z*
+
+%0org.slf4j.Logger2isDebugEnabled()*
+50
+52*¡
+22â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaè è(f…
+∆
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaè è(f
+	fragmentsjava.util.Set"__id*
+
+%30java.util.Setÿ’
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaê ê( 
+
+%31int"java.util.Set#size()I*
+
+	fragmentsjava.util.Set2size()*
+17
+20*Ñ
+34â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÄ Ä(é
+ã
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÄ Ä(3
+%17,org.apache.bookkeeper.client.BookKeeperAdmin"__id*B*@5
+3org.apache.bookkeeper.replication.ReplicationWorker"
+adminî
+ë
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÄF Ä(`$
+%18java.util.function.BiConsumer"__id*W*U5
+3org.apache.bookkeeper.replication.ReplicationWorker"
+onReadEntryFailureCallback√¿
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÄ Ä(a
+%19void"æorg.apache.bookkeeper.client.BookKeeperAdmin#replicateLedgerFragment(Lorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/client/LedgerFragment;Ljava/util/function/BiConsumer;)V*5
+3
+%17,org.apache.bookkeeper.client.BookKeeperAdmin*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*?
+=
+ledgerFragment+org.apache.bookkeeper.client.LedgerFragment*&
+$
+%18java.util.function.BiConsumer2êreplicateLedgerFragment(Lorg/apache/bookkeeper/client/LedgerHandle;Lorg/apache/bookkeeper/client/LedgerFragment;Ljava/util/function/BiConsumer;)*
+30*¯
+45â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÒ Ò(∂
+≥
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÒ Ò(
+%11org.slf4j.Logger"__id*
+""¶£
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÒ Ò(p
+%12void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%11org.slf4j.Logger*75
+3Founds fragments {} for replication from ledger: {}*
+
+	fragmentsjava.util.Set*
+""2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+30*◊
+23â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaè è(fæ
+ª
+â
+}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaè è(f
+%30java.util.Set"õorg.apache.bookkeeper.replication.ReplicationWorker#getUnderreplicatedFragments(Lorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Long;)Ljava/util/Set;*75
+3org.apache.bookkeeper.replication.ReplicationWorker*1
+/
+lh)org.apache.bookkeeper.client.LedgerHandle*
+
+%29long*
+22:
+""B75
+3org.apache.bookkeeper.replication.ReplicationWorker

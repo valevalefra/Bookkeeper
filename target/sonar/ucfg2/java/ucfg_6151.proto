@@ -1,0 +1,440 @@
+
+Åorg.apache.bookkeeper.proto.RequestUtils#toSafeString(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Request;)Ljava/lang/String;|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java8 8(%"19*¿
+13|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaG G(≤Ø
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaG G(+
+%16boolean"Horg.apache.bookkeeper.proto.BookkeeperProtocol$Request#hasReadRequest()Z*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2hasReadRequest()*
+5
+12*‹
+14|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaF F(ª∏
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaF F(*
+%15java.lang.String"Ncom.google.common.base.MoreObjects$ToStringHelper#toString()Ljava/lang/String;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper2
+toString()"ô
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaF F(+
+
+%15java.lang.String*˙
+15|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaD D(µ≤
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaD/ D(I
+
+%13int"Jorg.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest#getWriteFlags()I*I
+G
+
+addRequest9org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest2getWriteFlags()∑¥
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaD D(J8
+%141com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;I)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+
+writeFlags*
+
+
+%13int2add(Ljava/lang/String;I)*
+14*»
+16|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaC C(π∂
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaC C(*
+%12boolean"Jorg.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest#hasWriteFlags()Z*I
+G
+
+addRequest9org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest2hasWriteFlags()*
+14
+15*¡
+17|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaA A(§°
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaA) A(=E
+%10>org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest$Flag"Éorg.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest#getFlag()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$AddRequest$Flag;*I
+G
+
+addRequest9org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest2	getFlag()èå
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaA A(>8
+%111com.google.common.base.MoreObjects$ToStringHelper"écom.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+flag*G
+E
+%10>org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest$Flag2)add(Ljava/lang/String;Ljava/lang/Object;)*
+16*≈
+18|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java<7 <(>úô
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java<7 <(N?
+%39org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest"Åorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getAddRequest()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$AddRequest;*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getAddRequest()ì
+ê
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java< <(OG
+
+addRequest9org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest"__id*A
+?
+%39org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequestˇ
+¸
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java= =(5
+
+%4void"±org.apache.bookkeeper.proto.RequestUtils#includeHeaderFields(Lcom/google/common/base/MoreObjects$ToStringHelper;Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)V*,"*
+(org.apache.bookkeeper.proto.RequestUtils*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*I
+G
+header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader±Æ
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java>) >(A
+
+%5long"Horg.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest#getLedgerId()J*I
+G
+
+addRequest9org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest2getLedgerId()¥±
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java> >(B7
+%61com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+
+ledgerId*
+
+
+%5long2add(Ljava/lang/String;J)Ø¨
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java?( ?(?
+
+%7long"Gorg.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest#getEntryId()J*I
+G
+
+addRequest9org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest2getEntryId()≥∞
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java? ?(@7
+%81com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*	
+entryId*
+
+
+%7long2add(Ljava/lang/String;J)¨©
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java@ @($
+%9boolean"Dorg.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest#hasFlag()Z*I
+G
+
+addRequest9org.apache.bookkeeper.proto.BookkeeperProtocol$AddRequest2	hasFlag()*
+16
+17*£
+19|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java92 9(=°
+û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java92 9(U7
+%01com.google.common.base.MoreObjects$ToStringHelper"xcom.google.common.base.MoreObjects#toStringHelper(Ljava/lang/Object;)Lcom/google/common/base/MoreObjects$ToStringHelper;*&"$
+"com.google.common.base.MoreObjects*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$RequestÖ
+Ç
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java9 9(VA
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper"__id*9
+7
+%01com.google.common.base.MoreObjects$ToStringHelperúô
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java:3 :(FC
+%1=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Åorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getHeader()ó
+î
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java: :(GG
+header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"__id*E
+C
+%1=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeaderØ¨
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java; ;(#
+%2boolean"Gorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#hasAddRequest()Z*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2hasAddRequest()*
+13
+18*Õ
+1|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javab b(≠™
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javab b(%
+%47java.lang.String"@com.google.protobuf.AbstractMessage#toString()Ljava/lang/String;*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2
+toString()"ô
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javab b(&
+
+%47java.lang.String*”
+2|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java]G ](NΩ∫
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java]G ](fH
+%42Aorg.apache.bookkeeper.proto.BookkeeperProtocol$ForceLedgerRequest"ëorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getForceLedgerRequest()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ForceLedgerRequest;*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getForceLedgerRequest()¨
+©
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java] ](gW
+forceLedgerRequestAorg.apache.bookkeeper.proto.BookkeeperProtocol$ForceLedgerRequest"__id*J
+H
+%42Aorg.apache.bookkeeper.proto.BookkeeperProtocol$ForceLedgerRequestÄ
+˝
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java^ ^(5
+%43void"±org.apache.bookkeeper.proto.RequestUtils#includeHeaderFields(Lcom/google/common/base/MoreObjects$ToStringHelper;Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)V*,"*
+(org.apache.bookkeeper.proto.RequestUtils*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*I
+G
+header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader «
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java_) _(I
+%44long"Porg.apache.bookkeeper.proto.BookkeeperProtocol$ForceLedgerRequest#getLedgerId()J*Y
+W
+forceLedgerRequestAorg.apache.bookkeeper.proto.BookkeeperProtocol$ForceLedgerRequest2getLedgerId()∂≥
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java_ _(J8
+%451com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+
+ledgerId*
+
+%44long2add(Ljava/lang/String;J)ª∏
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java` `(*
+%46java.lang.String"Ncom.google.common.base.MoreObjects$ToStringHelper#toString()Ljava/lang/String;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper2
+toString()"ô
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java` `(+
+
+%46java.lang.String*Ã
+3|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java\ \(¿Ω
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java\ \(2
+%41boolean"Oorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#hasForceLedgerRequest()Z*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2hasForceLedgerRequest()*
+2
+1*£
+4|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaWA W(H±Æ
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaWA W(]E
+%34>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest"ãorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getWriteLacRequest()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$WriteLacRequest;*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getWriteLacRequest()£
+†
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaW W(^Q
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest"__id*G
+E
+%34>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequestÄ
+˝
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaX X(5
+%35void"±org.apache.bookkeeper.proto.RequestUtils#includeHeaderFields(Lcom/google/common/base/MoreObjects$ToStringHelper;Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)V*,"*
+(org.apache.bookkeeper.proto.RequestUtils*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*I
+G
+header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader¡æ
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaY) Y(F
+%36long"Morg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest#getLedgerId()J*S
+Q
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest2getLedgerId()∂≥
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaY Y(G8
+%371com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+
+ledgerId*
+
+%36long2add(Ljava/lang/String;J)∑¥
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaZ$ Z(<
+%38long"Horg.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest#getLac()J*S
+Q
+writeLacRequest>org.apache.bookkeeper.proto.BookkeeperProtocol$WriteLacRequest2getLac()±Æ
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaZ Z(=8
+%391com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+lac*
+
+%38long2add(Ljava/lang/String;J)ª∏
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java[ [(*
+%40java.lang.String"Ncom.google.common.base.MoreObjects$ToStringHelper#toString()Ljava/lang/String;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper2
+toString()"ô
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.java[ [(+
+
+%40java.lang.String*∆
+5|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaV V(∫∑
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaV V(/
+%33boolean"Lorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#hasWriteLacRequest()Z*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2hasWriteLacRequest()*
+3
+4*€
+6|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaU U(ª∏
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaU U(*
+%32java.lang.String"Ncom.google.common.base.MoreObjects$ToStringHelper#toString()Ljava/lang/String;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper2
+toString()"ô
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaU U(+
+
+%32java.lang.String*Ù
+7|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaS S(≥∞
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaS, S(D
+%30long"Horg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#getTimeOut()J*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2getTimeOut()µ≤
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaS S(E8
+%311com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*	
+timeOut*
+
+%30long2add(Ljava/lang/String;J)*
+6*¬
+8|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaR R(∂≥
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaR R((
+%29boolean"Horg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#hasTimeOut()Z*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2hasTimeOut()*
+6
+7*Ä
+9|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaP P(ª∏
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaP0 P(L
+%27long"Lorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#getPreviousLAC()J*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2getPreviousLAC()π∂
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaP P(M8
+%281com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+previousLAC*
+
+%27long2add(Ljava/lang/String;J)*
+8*À
+10|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaO O(æª
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaO O(,
+%26boolean"Lorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#hasPreviousLAC()Z*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2hasPreviousLAC()*
+8
+9*«
+11|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaM M(©¶
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaM) M(>F
+%24?org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest$Flag"Öorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#getFlag()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadRequest$Flag;*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2	getFlag()êç
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaM M(?8
+%251com.google.common.base.MoreObjects$ToStringHelper"écom.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+flag*H
+F
+%24?org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest$Flag2)add(Ljava/lang/String;Ljava/lang/Object;)*
+10*ﬂ
+12|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaH9 H(@°û
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaH9 H(QA
+%17:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest"Éorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getReadRequest()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadRequest;*C
+A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$Request2getReadRequest()ó
+î
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaH H(RI
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest"__id*C
+A
+%17:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequestÄ
+˝
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaI I(5
+%18void"±org.apache.bookkeeper.proto.RequestUtils#includeHeaderFields(Lcom/google/common/base/MoreObjects$ToStringHelper;Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)V*,"*
+(org.apache.bookkeeper.proto.RequestUtils*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*I
+G
+header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeaderµ≤
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaJ) J(B
+%19long"Iorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#getLedgerId()J*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2getLedgerId()∂≥
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaJ J(C8
+%201com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*
+
+ledgerId*
+
+%19long2add(Ljava/lang/String;J)≥∞
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaK( K(@
+%21long"Horg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#getEntryId()J*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2getEntryId()µ≤
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaK K(A8
+%221com.google.common.base.MoreObjects$ToStringHelper"}com.google.common.base.MoreObjects$ToStringHelper#add(Ljava/lang/String;J)Lcom/google/common/base/MoreObjects$ToStringHelper;*C
+A
+stringHelper1com.google.common.base.MoreObjects$ToStringHelper*	
+entryId*
+
+%21long2add(Ljava/lang/String;J)∞≠
+|
+r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/RequestUtils.javaL L(%
+%23boolean"Eorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#hasFlag()Z*K
+I
+readRequest:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2	hasFlag()*
+10
+11:A
+request6org.apache.bookkeeper.proto.BookkeeperProtocol$RequestB,"*
+(org.apache.bookkeeper.proto.RequestUtils

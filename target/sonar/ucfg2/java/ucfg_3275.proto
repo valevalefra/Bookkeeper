@@ -1,0 +1,139 @@
+
+±org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore#createLedgerAllocator(Lorg/apache/distributedlog/metadata/LogMetadataForWriter;Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;Lorg/apache/distributedlog/bk/LedgerMetadata;)Lorg/apache/distributedlog/bk/LedgerAllocator; 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaœ œ()"5*”
+2 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java­' ­(0¶
+³
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java­' ­(03
+%12,org.apache.distributedlog.bk.LedgerAllocator"__id*S*QB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+	allocator­
+ª
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java­ ­(0H
+ledgerAllocatorDelegator,org.apache.distributedlog.bk.LedgerAllocator"__id*5
+3
+%12,org.apache.distributedlog.bk.LedgerAllocator*
+1*ú'
+3 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java£4 £(; 
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java£ £(3>
+%28org.apache.distributedlog.bk.DynamicQuorumConfigProvider"8org.apache.distributedlog.bk.DynamicQuorumConfigProviderÊ
+Ç
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java£ £(<
+%3"‡org.apache.distributedlog.bk.DynamicQuorumConfigProvider#<init>(Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;)V*@
+>
+%28org.apache.distributedlog.bk.DynamicQuorumConfigProvider*P
+N
+dynConfCorg.apache.distributedlog.config.DynamicDistributedLogConfiguration¹
+¶
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¢ £(=I
+quorumConfigProvider1org.apache.distributedlog.bk.QuorumConfigProvider"__id*@
+>
+%28org.apache.distributedlog.bk.DynamicQuorumConfigProvideróð
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¥ ¥(3
+%4java.lang.String"Torg.apache.distributedlog.metadata.LogMetadata#getAllocationPath()Ljava/lang/String;*H
+F
+logMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2getAllocationPath()°­
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¦ ¦(30
+%5*org.apache.bookkeeper.versioning.Versioned"worg.apache.distributedlog.metadata.LogMetadataForWriter#getAllocationData()Lorg/apache/bookkeeper/versioning/Versioned;*H
+F
+logMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter2getAllocationData()¬
+©
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¨ ¨(/
+%6)org.apache.distributedlog.ZooKeeperClient"__id*M*KB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+zkc­
+ª
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java© ©(0
+%7*org.apache.distributedlog.BookKeeperClient"__id*M*KB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+bkc”‘
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¤, ¤(A8
+%82org.apache.distributedlog.bk.SimpleLedgerAllocator"2org.apache.distributedlog.bk.SimpleLedgerAllocatorß
+Ü
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¤( ª(#
+%9"±org.apache.distributedlog.bk.SimpleLedgerAllocator#<init>(Ljava/lang/String;Lorg/apache/bookkeeper/versioning/Versioned;Lorg/apache/distributedlog/bk/QuorumConfigProvider;Lorg/apache/distributedlog/ZooKeeperClient;Lorg/apache/distributedlog/BookKeeperClient;Lorg/apache/distributedlog/bk/LedgerMetadata;)V*:
+8
+%82org.apache.distributedlog.bk.SimpleLedgerAllocator*
+
+%4java.lang.String*2
+0
+%5*org.apache.bookkeeper.versioning.Versioned*K
+I
+quorumConfigProvider1org.apache.distributedlog.bk.QuorumConfigProvider*1
+/
+%6)org.apache.distributedlog.ZooKeeperClient*2
+0
+%7*org.apache.distributedlog.BookKeeperClient*?
+=
+ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadata£
+ 
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¤ ª($9
+	allocator,org.apache.distributedlog.bk.LedgerAllocator"__id*:
+8
+%82org.apache.distributedlog.bk.SimpleLedgerAllocator›˜
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java«+ «(C<
+%105org.apache.distributedlog.bk.LedgerAllocatorDelegator"5org.apache.distributedlog.bk.LedgerAllocatorDelegator¢
+Ÿ
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java«' «(T
+%11"norg.apache.distributedlog.bk.LedgerAllocatorDelegator#<init>(Lorg/apache/distributedlog/bk/LedgerAllocator;Z)V*>
+<
+%105org.apache.distributedlog.bk.LedgerAllocatorDelegator*;
+9
+	allocator,org.apache.distributedlog.bk.LedgerAllocator*
+""¶
+³
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java« «(TH
+ledgerAllocatorDelegator,org.apache.distributedlog.bk.LedgerAllocator"__id*>
+<
+%105org.apache.distributedlog.bk.LedgerAllocatorDelegator*
+1*½
+4 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¡" ¡()Œ‰
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¡" ¡(H
+%1boolean"corg.apache.distributedlog.config.DynamicDistributedLogConfiguration#getEnableLedgerAllocatorPool()Z*P
+N
+dynConfCorg.apache.distributedlog.config.DynamicDistributedLogConfiguration2getEnableLedgerAllocatorPool()*
+2
+3*ç
+5 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java   (1þ
+û
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java   (1H
+ledgerAllocatorDelegator,org.apache.distributedlog.bk.LedgerAllocator"__id*
+""µ
+²
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¡ ¡(2
+%0,org.apache.distributedlog.bk.LedgerAllocator"__id*S*QB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
+	allocator*
+3
+4*˜
+1 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¯ ¯('"ï
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java¯ ¯((J
+H
+ledgerAllocatorDelegator,org.apache.distributedlog.bk.LedgerAllocator:F
+logMetadata7org.apache.distributedlog.metadata.LogMetadataForWriter:N
+dynConfCorg.apache.distributedlog.config.DynamicDistributedLogConfiguration:=
+ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadataBDB
+@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore

@@ -1,0 +1,127 @@
+
+Worg.apache.bookkeeper.bookie.EntryLogManagerBase#addEntry(JLio/netty/buffer/ByteBuf;Z)JÑ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaF F("startingBlock*Ω
+startingBlockÑ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaF F(EŸ
+÷
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaE E(
+%12"
+__annotate*
+java.lang.Override*"
+ 
+entryio.netty.buffer.ByteBuf√
+¿
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaF. F(3 
+entryio.netty.buffer.ByteBuf"__annotation*
+
+%12*
+1*≠$
+1Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaG G(ÙÒ
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaG G(-	
+%0int"(io.netty.buffer.ByteBuf#readableBytes()I*"
+ 
+entryio.netty.buffer.ByteBuf2readableBytes()⁄◊
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaH( H(eA
+%1;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"îorg.apache.bookkeeper.bookie.EntryLogManagerBase#getCurrentLogForLedgerForAddEntry(JIZ)Lorg/apache/bookkeeper/bookie/EntryLogger$BufferedLogChannel;*42
+0org.apache.bookkeeper.bookie.EntryLogManagerBase*
+""*
+""*
+""2&getCurrentLogForLedgerForAddEntry(JIZ)†
+ù
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaH H(fI
+
+logChannel;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"__id*C
+A
+%1;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannelå
+â
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaI I(-.
+%2(io.netty.util.concurrent.FastThreadLocal"__id*J*H2
+0org.apache.bookkeeper.bookie.EntryLogManagerBase"
+sizeBufferForAdd§°
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaI I(3
+%3io.netty.buffer.ByteBuf"@io.netty.util.concurrent.FastThreadLocal#get()Ljava/lang/Object;*0
+.
+%2(io.netty.util.concurrent.FastThreadLocal2get()ÿ
+’
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaI I(4%
+
+sizeBufferio.netty.buffer.ByteBuf"__id*
+
+%3io.netty.buffer.ByteBufïí
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaJ J(
+%4io.netty.buffer.ByteBuf"8io.netty.buffer.ByteBuf#clear()Lio/netty/buffer/ByteBuf;*'
+%
+
+sizeBufferio.netty.buffer.ByteBuf2clear()ÙÒ
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaK K(1	
+%5int"(io.netty.buffer.ByteBuf#readableBytes()I*"
+ 
+entryio.netty.buffer.ByteBuf2readableBytes()™ß
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaK K(2
+%6io.netty.buffer.ByteBuf"<io.netty.buffer.ByteBuf#writeInt(I)Lio/netty/buffer/ByteBuf;*'
+%
+
+sizeBufferio.netty.buffer.ByteBuf*
+	
+%5int2writeInt(I)˛˚
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaL L($
+
+%7void"Norg.apache.bookkeeper.bookie.BufferedChannel#write(Lio/netty/buffer/ByteBuf;)V*K
+I
+
+logChannel;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel*'
+%
+
+sizeBufferio.netty.buffer.ByteBuf2 write(Lio/netty/buffer/ByteBuf;)©¶
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaN N((
+
+%8long"8org.apache.bookkeeper.bookie.BufferedChannel#position()J*K
+I
+
+logChannel;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel2
+position()˘ˆ
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaO O(
+
+%9void"Norg.apache.bookkeeper.bookie.BufferedChannel#write(Lio/netty/buffer/ByteBuf;)V*K
+I
+
+logChannel;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel*"
+ 
+entryio.netty.buffer.ByteBuf2 write(Lio/netty/buffer/ByteBuf;)Â‚
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaP P(:
+%10void"Uorg.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel#registerWrittenEntry(JJ)V*K
+I
+
+logChannel;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel*
+""*
+""2registerWrittenEntry(JJ)π∂
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaR R(%
+%11long"Gorg.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel#getLogId()J*K
+I
+
+logChannel;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel2
+getLogId()"è
+Ñ
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerBase.javaR R(4
+"":
+"": 
+entryio.netty.buffer.ByteBuf:
+""B42
+0org.apache.bookkeeper.bookie.EntryLogManagerBase

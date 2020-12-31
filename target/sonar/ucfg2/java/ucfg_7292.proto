@@ -1,0 +1,100 @@
+
+†org.apache.bookkeeper.meta.CleanupLedgerManager#createLedgerMetadata(JLorg/apache/bookkeeper/client/api/LedgerMetadata;)Ljava/util/concurrent/CompletableFuture;É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javax8 x(L"startingBlock*À
+2Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javaÄ Ä("Ω
+Ö
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javaÄ Ä(3
+1
+promise&java.util.concurrent.CompletableFuture*Ô
+3É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java~ ~(vÚ
+Ô
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java~ ~(v1
+promise&java.util.concurrent.CompletableFuture"__id*.
+,
+%5&java.util.concurrent.CompletableFutureÈ
+Ê
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java (&
+
+%6void"horg.apache.bookkeeper.meta.CleanupLedgerManager#recordPromise(Ljava/util/concurrent/CompletableFuture;)V*31
+/org.apache.bookkeeper.meta.CleanupLedgerManager*3
+1
+promise&java.util.concurrent.CompletableFuture*
+2*
+startingBlockÉ
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javaxL x(oÛ
+
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javaw w(
+%10"
+__annotate*
+java.lang.Override*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata›
+⁄
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javaxf x(n;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata"__annotation*
+
+%10*
+8*Æ
+4É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java~G ~(QÑ
+Å
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java~G ~(Q.
+%4(org.apache.bookkeeper.meta.LedgerManager"__id*C*A1
+/org.apache.bookkeeper.meta.CleanupLedgerManager"
+
+underlyingñì
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java~G ~(u,
+%5&java.util.concurrent.CompletableFuture"ôorg.apache.bookkeeper.meta.LedgerManager#createLedgerMetadata(JLorg/apache/bookkeeper/client/api/LedgerMetadata;)Ljava/util/concurrent/CompletableFuture;*0
+.
+%4(org.apache.bookkeeper.meta.LedgerManager*
+""*=
+;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadata2HcreateLedgerMetadata(JLorg/apache/bookkeeper/client/api/LedgerMetadata;)*
+3*¬
+5É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java| |('"∂
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java| |('.
+,
+%3&java.util.concurrent.CompletableFuture*Ê
+6É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java| |($’
+“
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.java| |(&,
+%3&java.util.concurrent.CompletableFuture"gorg.apache.bookkeeper.meta.CleanupLedgerManager#closedPromise()Ljava/util/concurrent/CompletableFuture;*3"1
+/org.apache.bookkeeper.meta.CleanupLedgerManager*
+5*◊
+8É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javay y(å
+â
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javay y(7
+%01java.util.concurrent.locks.ReentrantReadWriteLock"__id*B*@1
+/org.apache.bookkeeper.meta.CleanupLedgerManager"
+	closeLockåâ
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javay y(@
+%1:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*9
+7
+%01java.util.concurrent.locks.ReentrantReadWriteLock2
+readLock()•¢
+É
+y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/CleanupLedgerManager.javay y(#
+
+%2void"Bjava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#lock()V*B
+@
+%1:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2lock()*
+4
+6:
+"":;
+metadata/org.apache.bookkeeper.client.api.LedgerMetadataB31
+/org.apache.bookkeeper.meta.CleanupLedgerManager

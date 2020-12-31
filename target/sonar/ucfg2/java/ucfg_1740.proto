@@ -1,0 +1,92 @@
+
+Îorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#toStreamMetadata(Lorg/apache/bookkeeper/stream/proto/StreamMetadata$ServingState;J)Lorg/apache/bookkeeper/stream/proto/StreamMetadata; 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java×( ×(8"1*Ê1
+1 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) Ø(7™
+–
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) Ù(?
+%09org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"yorg.apache.bookkeeper.stream.proto.StreamMetadata#newBuilder()Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*5"3
+1org.apache.bookkeeper.stream.proto.StreamMetadataÅ
+Â
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaÚ Ú(!9
+%13org.apache.bookkeeper.stream.proto.StreamProperties"__id*\*ZI
+Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"
+streamPropsßÜ
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) Ú("?
+%29org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"´org.apache.bookkeeper.stream.proto.StreamMetadata$Builder#setProps(Lorg/apache/bookkeeper/stream/proto/StreamProperties;)Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*A
+?
+%09org.apache.bookkeeper.stream.proto.StreamMetadata$Builder*;
+9
+%13org.apache.bookkeeper.stream.proto.StreamProperties2?setProps(Lorg/apache/bookkeeper/stream/proto/StreamProperties;)Õ
+Ò
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaÛ Û(-F
+%3@org.apache.bookkeeper.stream.proto.StreamMetadata$LifecycleState"__id*_*]I
+Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"
+lifecycleState˜•
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) Û(.?
+%49org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"Êorg.apache.bookkeeper.stream.proto.StreamMetadata$Builder#setLifecycleState(Lorg/apache/bookkeeper/stream/proto/StreamMetadata$LifecycleState;)Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*A
+?
+%29org.apache.bookkeeper.stream.proto.StreamMetadata$Builder*H
+F
+%3@org.apache.bookkeeper.stream.proto.StreamMetadata$LifecycleState2UsetLifecycleState(Lorg/apache/bookkeeper/stream/proto/StreamMetadata$LifecycleState;)‘Ž
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) Ü(#?
+%59org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"Æorg.apache.bookkeeper.stream.proto.StreamMetadata$Builder#setServingState(Lorg/apache/bookkeeper/stream/proto/StreamMetadata$ServingState;)Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*A
+?
+%49org.apache.bookkeeper.stream.proto.StreamMetadata$Builder*I
+G
+state>org.apache.bookkeeper.stream.proto.StreamMetadata$ServingState2QsetServingState(Lorg/apache/bookkeeper/stream/proto/StreamMetadata$ServingState;)ÎË
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) Ý((?
+%69org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"†org.apache.bookkeeper.stream.proto.StreamMetadata$Builder#setNextRangeId(J)Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*A
+?
+%59org.apache.bookkeeper.stream.proto.StreamMetadata$Builder*
+""2setNextRangeId(J)Â¿
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) Þ(?
+%79org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"€org.apache.bookkeeper.stream.proto.StreamMetadata$Builder#setCTime(J)Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*A
+?
+%69org.apache.bookkeeper.stream.proto.StreamMetadata$Builder*
+""2setCTime(J)Â¿
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) ß(?
+%89org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"€org.apache.bookkeeper.stream.proto.StreamMetadata$Builder#setMTime(J)Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*A
+?
+%79org.apache.bookkeeper.stream.proto.StreamMetadata$Builder*
+""2setMTime(J)¢
+Ÿ
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaà! à(.
+%9java.util.List"__id*^*\I
+Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"
+currentRangesŒ
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ) à(/@
+%109org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"žorg.apache.bookkeeper.stream.proto.StreamMetadata$Builder#addAllCurrentRanges(Ljava/lang/Iterable;)Lorg/apache/bookkeeper/stream/proto/StreamMetadata$Builder;*A
+?
+%89org.apache.bookkeeper.stream.proto.StreamMetadata$Builder*
+
+%9java.util.List2)addAllCurrentRanges(Ljava/lang/Iterable;)¶
+³
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaØ à(0D
+builder9org.apache.bookkeeper.stream.proto.StreamMetadata$Builder"__id*B
+@
+%109org.apache.bookkeeper.stream.proto.StreamMetadata$Builder§¤
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaá á(8
+%111org.apache.bookkeeper.stream.proto.StreamMetadata"torg.apache.bookkeeper.stream.proto.StreamMetadata$Builder#build()Lorg/apache/bookkeeper/stream/proto/StreamMetadata;*F
+D
+builder9org.apache.bookkeeper.stream.proto.StreamMetadata$Builder2build()"ß
+ 
+“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaá á(:
+8
+%111org.apache.bookkeeper.stream.proto.StreamMetadata:G
+state>org.apache.bookkeeper.stream.proto.StreamMetadata$ServingState:
+""BKI
+Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl

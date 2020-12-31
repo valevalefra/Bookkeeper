@@ -1,0 +1,154 @@
+
+lorg.apache.distributedlog.EnvelopedRecordSetReader#nextRecord()Lorg/apache/distributedlog/LogRecordWithDLSN;î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.java[ [('"3"4*´
+2î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaq q(Ñ
+Å
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaq q(
+%17io.netty.buffer.ByteBuf"__id*B*@4
+2org.apache.distributedlog.EnvelopedRecordSetReader"
+readerÇˇ
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaq q(!
+%18boolean")io.netty.util.ReferenceCounted#release()Z* 
+
+%17io.netty.buffer.ByteBuf2	release()*
+1*Ö-
+3î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.java` `(É
+Ä
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.java` `(
+%0io.netty.buffer.ByteBuf"__id*B*@4
+2org.apache.distributedlog.EnvelopedRecordSetReader"
+readerıÚ
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.java` `((	
+%1int""io.netty.buffer.ByteBuf#readInt()I*
+
+%0io.netty.buffer.ByteBuf2	readInt()É
+Ä
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaa a("
+%2io.netty.buffer.ByteBuf"__id*B*@4
+2org.apache.distributedlog.EnvelopedRecordSetReader"
+readerÉ
+Ä
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaa) a(/
+%3io.netty.buffer.ByteBuf"__id*B*@4
+2org.apache.distributedlog.EnvelopedRecordSetReader"
+reader˝˙
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaa) a(=	
+%4int"&io.netty.buffer.ByteBuf#readerIndex()I*
+
+%3io.netty.buffer.ByteBuf2readerIndex()∂≥
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaa a(I
+%5io.netty.buffer.ByteBuf":io.netty.buffer.ByteBuf#slice(II)Lio/netty/buffer/ByteBuf;*
+
+%2io.netty.buffer.ByteBuf*
+	
+%4int*
+""2	slice(II)Á
+‰
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaa a(J$
+	recordBufio.netty.buffer.ByteBuf"__id*
+
+%5io.netty.buffer.ByteBufÉ
+Ä
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javab b(
+%6io.netty.buffer.ByteBuf"__id*B*@4
+2org.apache.distributedlog.EnvelopedRecordSetReader"
+readerÉ
+Ä
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javab b(!
+%7io.netty.buffer.ByteBuf"__id*B*@4
+2org.apache.distributedlog.EnvelopedRecordSetReader"
+reader˝˙
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javab b(/	
+%8int"&io.netty.buffer.ByteBuf#readerIndex()I*
+
+%7io.netty.buffer.ByteBuf2readerIndex()≥∞
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javab b(<
+%9io.netty.buffer.ByteBuf"?io.netty.buffer.ByteBuf#readerIndex(I)Lio/netty/buffer/ByteBuf;*
+
+%6io.netty.buffer.ByteBuf*
+""2readerIndex(I)·ﬁ
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javad d(%
+%10org.apache.distributedlog.DLSN"org.apache.distributedlog.DLSNè
+å
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javad d(>
+%11"+org.apache.distributedlog.DLSN#<init>(JJJ)V*'
+%
+%10org.apache.distributedlog.DLSN*
+""*
+""*
+""Ò
+Ó
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javad d(?&
+dlsnorg.apache.distributedlog.DLSN"__id*'
+%
+%10org.apache.distributedlog.DLSN˚¯
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaf f(%2
+%12+org.apache.distributedlog.LogRecordWithDLSN"+org.apache.distributedlog.LogRecordWithDLSN·
+ﬁ
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javaf f(<
+%13"Vorg.apache.distributedlog.LogRecordWithDLSN#<init>(Lorg/apache/distributedlog/DLSN;J)V*4
+2
+%12+org.apache.distributedlog.LogRecordWithDLSN*(
+&
+dlsnorg.apache.distributedlog.DLSN*
+""ç
+ä
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javae f(=5
+record+org.apache.distributedlog.LogRecordWithDLSN"__id*4
+2
+%12+org.apache.distributedlog.LogRecordWithDLSNÕ 
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javag g(4
+%14void"Corg.apache.distributedlog.LogRecord#setPositionWithinLogSegment(I)V*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN*
+""2setPositionWithinLogSegment(I)∑¥
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javah h(.
+%15void"8org.apache.distributedlog.LogRecord#setTransactionId(J)V*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN*
+""2setTransactionId(J)ãà
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javai i(-
+%16void"Norg.apache.distributedlog.LogRecord#setPayloadBuf(Lio/netty/buffer/ByteBuf;Z)V*7
+5
+record+org.apache.distributedlog.LogRecordWithDLSN*&
+$
+	recordBufio.netty.buffer.ByteBuf*
+""2)setPayloadBuf(Lio/netty/buffer/ByteBuf;Z)*
+2
+1*º
+4î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.java] ]("ü
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.java] ](
+""*Ì
+1î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javat t("–
+î
+â/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/EnvelopedRecordSetReader.javat t(7
+5
+record+org.apache.distributedlog.LogRecordWithDLSNB64
+2org.apache.distributedlog.EnvelopedRecordSetReader

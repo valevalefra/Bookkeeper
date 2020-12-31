@@ -1,0 +1,365 @@
+
+½org.apache.bookkeeper.tools.cli.commands.bookie.FormatUtil#formatEntry(JLio/netty/buffer/ByteBuf;ZLorg/apache/bookkeeper/util/LedgerIdFormatter;Lorg/apache/bookkeeper/util/EntryFormatter;)V
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java+ +(""12*Ü
+3
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaR R(¿¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaR R(+
+%47void":org.apache.bookkeeper.util.EntryFormatter#formatEntry([B)V*=
+;
+entryFormatter)org.apache.bookkeeper.util.EntryFormatter*
+
+retbyte[]2formatEntry([B)*
+1*
+4
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaP P(:²
+¯
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaP P(;
+retbyte[]"__id*
+""»¸
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaQ Q("
+%46io.netty.buffer.ByteBuf">io.netty.buffer.ByteBuf#readBytes([B)Lio/netty/buffer/ByteBuf;*$
+"
+recBuffio.netty.buffer.ByteBuf*
+
+retbyte[]2readBytes([B)*
+3*Ÿ
+5
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaP" P()‚ÿ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaP" P(9
+
+%45int"(io.netty.buffer.ByteBuf#readableBytes()I*$
+"
+recBuffio.netty.buffer.ByteBuf2readableBytes()*
+4*Ú
+
+6
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaL L(®«
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaL L(
+%40io.netty.buffer.ByteBuf"=io.netty.buffer.ByteBuf#skipBytes(I)Lio/netty/buffer/ByteBuf;*$
+"
+recBuffio.netty.buffer.ByteBuf*22skipBytes(I)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaM M(
+%41java.io.PrintStream"__id*
+""š—
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaM M(#
+%42void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%41java.io.PrintStream*	
+Data:2println(Ljava/lang/String;)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaN N(
+%43java.io.PrintStream"__id*
+""ëè
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaN N(
+%44void"java.io.PrintStream#println()V*
+
+%43java.io.PrintStream2	println()*
+5*â
+7
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaH H(¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaH H(
+%38java.io.PrintStream"__id*
+""ëè
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaH H( 
+%39void"java.io.PrintStream#println()V*
+
+%38java.io.PrintStream2	println()"š
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaI I(
+""*Ï
+8
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaD  D('ùö
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaD  D(2
+%32long"#io.netty.buffer.ByteBuf#readLong()J*$
+"
+recBuffio.netty.buffer.ByteBuf2
+readLong()¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaE E(
+%33java.io.PrintStream"__id*
+""©¦
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaE E(2
+%34void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%33java.io.PrintStream*
+Type:           DATA2println(Ljava/lang/String;)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaF F(
+%35java.io.PrintStream"__id*
+""Ö
+Ó
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaF F(@
+%36java.lang.String"__concat*
+LastConfirmed:  *
+""ª§
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaF F(A
+%37void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%35java.io.PrintStream*
+
+%36java.lang.String2println(Ljava/lang/String;)*
+6
+7*°
+9
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java> >(¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java> >(
+%26java.io.PrintStream"__id*
+""©¦
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java> >(6
+%27void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%26java.io.PrintStream*
+Type:           META2println(Ljava/lang/String;)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java? ?(
+%28java.io.PrintStream"__id*
+""›˜
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java? ?((
+%29void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%28java.io.PrintStream*
+
+Fenced2println(Ljava/lang/String;)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java@ @(
+%30java.io.PrintStream"__id*
+""ëè
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java@ @( 
+%31void"java.io.PrintStream#println()V*
+
+%30java.io.PrintStream2	println()"š
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaA A(
+""*Ñ
+10
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java= =(°
+­
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java= =(4
+%25long"__id*
+""*
+8
+9*ˆ
+11
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java5 5(&öó
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java5 5(0
+
+%15int""io.netty.buffer.ByteBuf#readInt()I*$
+"
+recBuffio.netty.buffer.ByteBuf2	readInt()¸
+µ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java6 6(6
+	masterKeybyte[]"__id*
+""Á¾
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java7 7((
+%16io.netty.buffer.ByteBuf">io.netty.buffer.ByteBuf#readBytes([B)Lio/netty/buffer/ByteBuf;*$
+"
+recBuffio.netty.buffer.ByteBuf*
+
+	masterKeybyte[]2readBytes([B)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java8 8(
+%17java.io.PrintStream"__id*
+""©¦
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java8 8(6
+%18void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%17java.io.PrintStream*
+Type:           META2println(Ljava/lang/String;)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java9 9(
+%19java.io.PrintStream"__id*
+""á
+Þ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java94 9(H
+%20java.lang.String"Zorg.apache.bookkeeper.tools.cli.commands.bookie.FormatUtil#bytes2Hex([B)Ljava/lang/String;*>"<
+:org.apache.bookkeeper.tools.cli.commands.bookie.FormatUtil*
+
+	masterKeybyte[]é
+æ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java9 9(H
+%21java.lang.String"__concat*
+MasterKey:      *
+
+%20java.lang.Stringª§
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java9 9(I
+%22void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%19java.io.PrintStream*
+
+%21java.lang.String2println(Ljava/lang/String;)¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java: :(
+%23java.io.PrintStream"__id*
+""ëè
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java: :( 
+%24void"java.io.PrintStream#println()V*
+
+%23java.io.PrintStream2	println()"š
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java; ;(
+""*¯
+0 "§
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaW W(
+implicit return*®
+12
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java- -(þ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java- -(/	
+%0int"(io.netty.buffer.ByteBuf#readableBytes()I*$
+"
+recBuffio.netty.buffer.ByteBuf2readableBytes()øõ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java. .(*
+
+%1long"#io.netty.buffer.ByteBuf#readLong()J*$
+"
+recBuffio.netty.buffer.ByteBuf2
+readLong()øõ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java/ /()
+
+%2long"#io.netty.buffer.ByteBuf#readLong()J*$
+"
+recBuffio.netty.buffer.ByteBuf2
+readLong()¾
+»
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java1 1(
+%3java.io.PrintStream"__id*
+""ßÜ
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 2(I
+%4java.lang.String"Porg.apache.bookkeeper.util.LedgerIdFormatter#formatLedgerId(J)Ljava/lang/String;*C
+A
+ledgerIdFormatter,org.apache.bookkeeper.util.LedgerIdFormatter*
+""2formatLedgerId(J)å
+â
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 2(I
+%5java.lang.String"__concat*
+--------- Lid=*
+
+%4java.lang.StringÝ
+Ú
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 2(T
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+
+, Eid=Ù
+Ö
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 2(^
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+""ä
+á
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 2(p
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+, ByteOffset=Ù
+Ö
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 2(v
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+""ä
+á
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 3( 
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+, EntrySize=Û
+Ø
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 3(,
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+""ã
+à
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java2 3(;
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+
+ ---------©¦
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java1 3(<
+%13void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%3java.io.PrintStream*
+
+%12java.lang.String2println(Ljava/lang/String;)°
+­
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.java4 4(5
+%14long"__id*
+""*
+10
+11*Ê
+1
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaV V(¿
+¼
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaV V(
+%50java.io.PrintStream"__id*
+""ëè
+
+„/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatUtil.javaV V(
+%51void"java.io.PrintStream#println()V*
+
+%50java.io.PrintStream2	println()*
+0:
+"":"
+recBuffio.netty.buffer.ByteBuf:
+"":A
+ledgerIdFormatter,org.apache.bookkeeper.util.LedgerIdFormatter:;
+entryFormatter)org.apache.bookkeeper.util.EntryFormatterB>"<
+:org.apache.bookkeeper.tools.cli.commands.bookie.FormatUtil

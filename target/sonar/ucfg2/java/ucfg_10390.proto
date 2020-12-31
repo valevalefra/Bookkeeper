@@ -1,0 +1,299 @@
+
+org.apache.bookkeeper.proto.ReadEntryProcessorV3#getReadResponse()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse;†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÇ Ç(*"39*‡
+24†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÜ Ü(ñî
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÜ Ü(@B
+%25;org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse"áorg.apache.bookkeeper.proto.ReadEntryProcessorV3#readEntry(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse$Builder;JLcom/google/common/base/Stopwatch;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse;*42
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3*U
+S
+readResponseCorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder*
+""*1
+/
+startTimeSw com.google.common.base.Stopwatch2sreadEntry(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse$Builder;JLcom/google/common/base/Stopwatch;)*
+23*Â
+35†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÐ Ñ(,¬©
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÐ Ñ(,
+%10void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%7org.slf4j.Logger*A?
+=Ledger fence request received for ledger: {} from address: {}*
+""*
+
+%9java.net.SocketAddress2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+34*â
+36†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÐ Ð(²
+¯
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÐ Ð(
+%7org.slf4j.Logger"__id*
+""õ
+ò
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÑ Ñ(
+%8io.netty.channel.Channel"__id*A*?2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"	
+channelŸœ
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÑ Ñ(+
+%9java.net.SocketAddress"@io.netty.channel.Channel#remoteAddress()Ljava/net/SocketAddress;* 
+
+%8io.netty.channel.Channel2remoteAddress()*
+35*¨
+25†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÙ Ù(Z’
+
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÙ Ù(ZC2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"
+fenceResult"__id*9
+7
+%240com.google.common.util.concurrent.SettableFuture*
+24*ƒ
+
+26†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaØ Ø(P¸
+µ
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaØ Ø(P
+	masterKeybyte[]"__id*
+
+%21byte[]™
+–
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÙ" Ù(29
+%222org.apache.bookkeeper.proto.BookieRequestProcessor"__id*J*H2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"
+requestProcessor‡
+„
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÙ" Ù(9*
+%23#org.apache.bookkeeper.bookie.Bookie"__id*G*E
+9
+%222org.apache.bookkeeper.proto.BookieRequestProcessor"
+bookieŒ‰
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÙ" Ù(Z7
+%240com.google.common.util.concurrent.SettableFuture"forg.apache.bookkeeper.bookie.Bookie#fenceLedger(J[B)Lcom/google/common/util/concurrent/SettableFuture;*,
+*
+%23#org.apache.bookkeeper.bookie.Bookie*
+""*
+
+	masterKeybyte[]2fenceLedger(J[B)*
+25*½
+38†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÏ Ï(›
+˜
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÏ, Ï(7@
+%5:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest"__id*E*C2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"
+readRequest…
+‚
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÏ Ï(8
+%6boolean"vorg.apache.bookkeeper.proto.RequestUtils#isFenceRequest(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadRequest;)Z*,"*
+(org.apache.bookkeeper.proto.RequestUtils*B
+@
+%5:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest*
+24
+36*™
+27†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaØ' Ø(Oƒ€
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaØ' Ø(O
+%21byte[]".com.google.protobuf.ByteString#toByteArray()[B*'
+%
+%20com.google.protobuf.ByteString2toByteArray()*
+26*¦
+39†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÈ& È(/®
+«
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÈ& È(?&
+%0 com.google.common.base.Stopwatch"Rcom.google.common.base.Stopwatch#createStarted()Lcom/google/common/base/Stopwatch;*$""
+ com.google.common.base.Stopwatchí
+ê
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÈ È(@/
+startTimeSw com.google.common.base.Stopwatch"__id*(
+&
+%0 com.google.common.base.StopwatchÝ
+Ú
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÊ2 Ê(>A
+%1;org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse"__id*
+""¨
+¥
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÊ2 Ê(KI
+%2Corg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder"org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse$Builder;*?"=
+;org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponseÖÓ
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÊ2 Ë("I
+%3Corg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder"—org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder#setLedgerId(J)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse$Builder;*K
+I
+%2Corg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder*
+""2setLedgerId(J)ÔÑ
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÊ2 Ì( I
+%4Corg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder"–org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder#setEntryId(J)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse$Builder;*K
+I
+%3Corg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder*
+""2setEntryId(J)´
+±
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÊ Ì(!S
+readResponseCorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder"__id*K
+I
+%4Corg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder*
+38*¨
+28†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaØ' Ø(2œ
+™
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaØ' Ø(2A
+%19:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest"__id*E*C2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"
+readRequestóð
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaØ' Ø(A%
+%20com.google.protobuf.ByteString"iorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#getMasterKey()Lcom/google/protobuf/ByteString;*C
+A
+%19:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2getMasterKey()*
+27*Þ
+1†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaó ó(L"Ï
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaó ó(LD
+B
+%58;org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse*ü
+2†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaó ó( Ü
+Ù
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaó/ ó(9@
+%569org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""Ü
+Ù
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaó/ ó(=@
+%579org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
+""ª§
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaó ó(KB
+%58;org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse"Ÿorg.apache.bookkeeper.proto.ReadEntryProcessorV3#buildResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse$Builder;Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;Lcom/google/common/base/Stopwatch;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse;*42
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3*U
+S
+readResponseCorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse$Builder*B
+@
+%579org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode*1
+/
+startTimeSw com.google.common.base.Stopwatch2±buildResponse(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ReadResponse$Builder;Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;Lcom/google/common/base/Stopwatch;)*
+1*À
+3†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javað ò(?¬©
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javað ò(?
+%55void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
+
+%52org.slf4j.Logger*WU
+SUnauthorized access to ledger:{} while reading entry:{} in request from address: {}*
+""*
+""*
+
+%54java.net.SocketAddress2,error(Ljava/lang/String;[Ljava/lang/Object;)*
+2*ä
+4†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaï ï("³
+°
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javað ð(
+%52org.slf4j.Logger"__id*
+""ö
+ó
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaò' ò(.
+%53io.netty.channel.Channel"__id*A*?2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"	
+channel¡ž
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaò' ò(>
+%54java.net.SocketAddress"@io.netty.channel.Channel#remoteAddress()Ljava/net/SocketAddress;*!
+
+%53io.netty.channel.Channel2remoteAddress()*
+3*¥
+30†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÖ Ö()¦
+£
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÖ1 Ö(a
+
+%17int"__id*
+""ç
+ä
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÖ Ö(b3
+%18,org.apache.bookkeeper.bookie.BookieException"dorg.apache.bookkeeper.bookie.BookieException#create(I)Lorg/apache/bookkeeper/bookie/BookieException;*0".
+,org.apache.bookkeeper.bookie.BookieException*
+
+
+%17int*
+4*Ø
+31†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÓ Õ(:Â¿
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÓ Õ(:
+%16void"Oorg.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%13org.slf4j.Logger*SQ
+OFence ledger request received without master key for ledger:{} from address: {}*
+""*
+
+%15java.net.SocketAddress2=error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+30*æ
+32†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÓ Ó(³
+°
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÓ Ó(
+%13org.slf4j.Logger"__id*
+""ö
+ó
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÕ" Õ()
+%14io.netty.channel.Channel"__id*A*?2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"	
+channel¡ž
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÕ" Õ(9
+%15java.net.SocketAddress"@io.netty.channel.Channel#remoteAddress()Ljava/net/SocketAddress;*!
+
+%14io.netty.channel.Channel2remoteAddress()*
+31*ß
+23†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÜ Ü(A"Ï
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÜ Ü(AD
+B
+%25;org.apache.bookkeeper.proto.BookkeeperProtocol$ReadResponse*ö
+34†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÒ Ò( œ
+™
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÒ Ò( A
+%11:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest"__id*E*C2
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3"
+readRequest½º
+†
+z/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ReadEntryProcessorV3.javaÒ Ò(/
+%12boolean"Jorg.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest#hasMasterKey()Z*C
+A
+%11:org.apache.bookkeeper.proto.BookkeeperProtocol$ReadRequest2hasMasterKey()*
+28
+32B42
+0org.apache.bookkeeper.proto.ReadEntryProcessorV3
