@@ -118,7 +118,7 @@ public class TestBookieCheckDirectoryStructure {
 
     }
 
-  /*  @Test
+    @Test
     public void Test5(){
 
 
@@ -138,7 +138,7 @@ public class TestBookieCheckDirectoryStructure {
         }
 
         dir.delete();
-    }*/
+    }
 
 }
 
