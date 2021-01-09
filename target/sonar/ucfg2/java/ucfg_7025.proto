@@ -1,331 +1,0 @@
-
-Forg.apache.bookkeeper.bookie.GarbageCollectorThread#runWithFlags(ZZZ)V‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¾ ¾("20*Ú	
-2‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javað ð(¶
-³
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javað ð(
-%38org.slf4j.Logger"__id*
-""ò
-ï
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaðq ñ($
-%39java.lang.Thread"2java.lang.Thread#currentThread()Ljava/lang/Thread;*"
-java.lang.Threadüù
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaðq ñ(.
-%40java.lang.String",java.lang.Thread#getName()Ljava/lang/String;*
-
-%39java.lang.Thread2	getName()–“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javað ñ(/
-%41void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%38org.slf4j.Logger*XV
-T{} Set forceGarbageCollection to false after force GC to make it forceGC-able again.*
-
-%40java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
-1*û
-14‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java× ×(Ù
-Ö
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java× ×(1
-%13long"%java.lang.System#currentTimeMillis()J*"
-java.lang.System*
-3
-5
-10
-1*í
-3‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaï ï(&œ
-™
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaï ï(&0
-%36)java.util.concurrent.atomic.AtomicBoolean"__id*S*Q5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-forceGarbageCollection´±
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaï ï(A
-%37boolean"<java.util.concurrent.atomic.AtomicBoolean#compareAndSet(ZZ)Z*2
-0
-%36)java.util.concurrent.atomic.AtomicBoolean*
-""*
-""2compareAndSet(ZZ)*
-2
-1*“
-15‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÔ Ô(¶
-³
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÔ Ô(
-%11org.slf4j.Logger"__id*
-""Á¾
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÔ Ô(V
-%12void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
-
-%11org.slf4j.Logger*B@
->Disk full, suspend minor compaction to slow down filling disk.2info(Ljava/lang/String;)*
-14*Ü
-5‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaæ æ(¶
-³
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaæ æ(
-%25org.slf4j.Logger"__id*
-""ÖÓ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaæ æ(M
-%26void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%25org.slf4j.Logger*+)
-'Enter minor compaction, suspendMinor {}*
-""2*info(Ljava/lang/String;Ljava/lang/Object;)•
-’
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaç ç(0
-%27)java.util.concurrent.atomic.AtomicBoolean"__id*L*J5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-minorCompacting“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaç ç(%
-%28void"1java.util.concurrent.atomic.AtomicBoolean#set(Z)V*2
-0
-%27)java.util.concurrent.atomic.AtomicBoolean*
-""2set(Z)À½
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaè è(8
-%29void"Jorg.apache.bookkeeper.bookie.GarbageCollectorThread#doCompactEntryLogs(D)V*75
-3org.apache.bookkeeper.bookie.GarbageCollectorThread*
-""2doCompactEntryLogs(D)Ù
-Ö
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaé& é(@
-%30long"%java.lang.System#currentTimeMillis()J*"
-java.lang.Systemœ
-™
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaê ê(?
-%318org.apache.bookkeeper.bookie.stats.GarbageCollectorStats"__id*D*B5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"	
-gcStats–“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaê ê(/*
-%32#org.apache.bookkeeper.stats.Counter"yorg.apache.bookkeeper.bookie.stats.GarbageCollectorStats#getMinorCompactionCounter()Lorg/apache/bookkeeper/stats/Counter;*A
-?
-%318org.apache.bookkeeper.bookie.stats.GarbageCollectorStats2getMinorCompactionCounter()ýú
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaê ê(5
-%33void"*org.apache.bookkeeper.stats.Counter#inc()V*,
-*
-%32#org.apache.bookkeeper.stats.Counter2inc()•
-’
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaë ë(0
-%34)java.util.concurrent.atomic.AtomicBoolean"__id*L*J5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-minorCompacting“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaë ë(&
-%35void"1java.util.concurrent.atomic.AtomicBoolean#set(Z)V*2
-0
-%34)java.util.concurrent.atomic.AtomicBoolean*
-""2set(Z)*
-3
-1*œ
-17‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÑ Ñ(µ
-²
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÑ Ñ(
-%9org.slf4j.Logger"__id*
-""ÇÄ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÑ Ñ(]
-%10void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
-
-%9org.slf4j.Logger*IG
-EDisk almost full, suspend major compaction to slow down filling disk.2info(Ljava/lang/String;)*
-14
-15*«
-18‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÄ Ä(–
-“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÄ Ä(7
-%31org.apache.bookkeeper.bookie.AbstractLogCompactor"__id*F*D5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-	compactor³°
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÄ Ä(%
-
-%4void"Forg.apache.bookkeeper.bookie.AbstractLogCompactor#cleanUpAndRecover()V*9
-7
-%31org.apache.bookkeeper.bookie.AbstractLogCompactor2cleanUpAndRecover()ø
-õ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÈ3 È(B
-%5java.util.Map"__id*L*J5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-entryLogMetaMapŠ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÈ È(C
-%6java.util.Map"lorg.apache.bookkeeper.bookie.GarbageCollectorThread#extractMetaFromEntryLogs(Ljava/util/Map;)Ljava/util/Map;*75
-3org.apache.bookkeeper.bookie.GarbageCollectorThread*
-
-%5java.util.Map2)extractMetaFromEntryLogs(Ljava/util/Map;)ø
-õ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÈ È(CJ5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-entryLogMetaMap"__id*
-
-%6java.util.Map˜
-•
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaË Ë(
-
-%7void"Borg.apache.bookkeeper.bookie.GarbageCollectorThread#doGcLedgers()V*75
-3org.apache.bookkeeper.bookie.GarbageCollectorThreadš
-—
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÎ Î(
-
-%8void"Dorg.apache.bookkeeper.bookie.GarbageCollectorThread#doGcEntryLogs()V*75
-3org.apache.bookkeeper.bookie.GarbageCollectorThread*
-14
-15
-17*›
-19‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÁ Á(µ
-²
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÁ Á(
-%1org.slf4j.Logger"__id*
-""ÊÇ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÁ Á(a
-
-%2void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
-
-%1org.slf4j.Logger*MK
-IGarbage collector thread forced to perform GC before expiry of wait time.2info(Ljava/lang/String;)*
-18*£
-20‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¿ ¿($†
-ƒ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.java¿ ¿(0
-
-%0long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
-+org.apache.bookkeeper.common.util.MathUtils*
-18
-19*Ý
-10‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÛ Û(¶
-³
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÛ Û(
-%14org.slf4j.Logger"__id*
-""ÖÓ
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÛ Û(M
-%15void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%14org.slf4j.Logger*+)
-'Enter major compaction, suspendMajor {}*
-""2*info(Ljava/lang/String;Ljava/lang/Object;)•
-’
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÜ Ü(0
-%16)java.util.concurrent.atomic.AtomicBoolean"__id*L*J5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-majorCompacting“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÜ Ü(%
-%17void"1java.util.concurrent.atomic.AtomicBoolean#set(Z)V*2
-0
-%16)java.util.concurrent.atomic.AtomicBoolean*
-""2set(Z)À½
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÝ Ý(8
-%18void"Jorg.apache.bookkeeper.bookie.GarbageCollectorThread#doCompactEntryLogs(D)V*75
-3org.apache.bookkeeper.bookie.GarbageCollectorThread*
-""2doCompactEntryLogs(D)Ù
-Ö
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaÞ& Þ(@
-%19long"%java.lang.System#currentTimeMillis()J*"
-java.lang.Systemœ
-™
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaá á(?
-%208org.apache.bookkeeper.bookie.stats.GarbageCollectorStats"__id*D*B5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"	
-gcStats–“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaá á(/*
-%21#org.apache.bookkeeper.stats.Counter"yorg.apache.bookkeeper.bookie.stats.GarbageCollectorStats#getMajorCompactionCounter()Lorg/apache/bookkeeper/stats/Counter;*A
-?
-%208org.apache.bookkeeper.bookie.stats.GarbageCollectorStats2getMajorCompactionCounter()ýú
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaá á(5
-%22void"*org.apache.bookkeeper.stats.Counter#inc()V*,
-*
-%21#org.apache.bookkeeper.stats.Counter2inc()•
-’
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaâ â(0
-%23)java.util.concurrent.atomic.AtomicBoolean"__id*L*J5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"
-majorCompacting“
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaâ â(&
-%24void"1java.util.concurrent.atomic.AtomicBoolean#set(Z)V*2
-0
-%23)java.util.concurrent.atomic.AtomicBoolean*
-""2set(Z)*
-3
-1*©
-0 "¡
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaö ö(
-implicit return*¾
-1‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaô ô(œ
-™
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaô ô(?
-%428org.apache.bookkeeper.bookie.stats.GarbageCollectorStats"__id*D*B5
-3org.apache.bookkeeper.bookie.GarbageCollectorThread"	
-gcStats”‘
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaô ô($0
-%43)org.apache.bookkeeper.stats.OpStatsLogger"xorg.apache.bookkeeper.bookie.stats.GarbageCollectorStats#getGcThreadRuntime()Lorg/apache/bookkeeper/stats/OpStatsLogger;*A
-?
-%428org.apache.bookkeeper.bookie.stats.GarbageCollectorStats2getGcThreadRuntime()‡
-„
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaõ õ(%
-%44long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
-+org.apache.bookkeeper.common.util.MathUtilsÃ
-À
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaõ5 õ(I$
-%45java.util.concurrent.TimeUnit"__id*
-""¡ž
-‰
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/GarbageCollectorThread.javaô õ(J
-%46void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
-0
-%43)org.apache.bookkeeper.stats.OpStatsLogger*
-""*&
-$
-%45java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
-0:
-"":
-"":
-""B75
-3org.apache.bookkeeper.bookie.GarbageCollectorThread

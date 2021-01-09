@@ -1,58 +1,0 @@
-
-–org.apache.bookkeeper.clients.impl.kv.KvUtils#newKvTxnResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/TxnResponse;Lorg/apache/bookkeeper/api/kv/impl/result/ResultFactory;Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueFactory;)Lorg/apache/bookkeeper/api/kv/result/TxnResult;ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java“. “(<"1*¢
-1ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java—1 —(>°­
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java—1 —(P<
-%06org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"~org.apache.bookkeeper.api.kv.impl.result.ResultFactory#newTxnResult(J)Lorg/apache/bookkeeper/api/kv/impl/result/TxnResultImpl;*I
-G
-resultFactory6org.apache.bookkeeper.api.kv.impl.result.ResultFactory*
-""2newTxnResult(J)–
-“
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java— —(Q@
-result6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"__id*>
-<
-%06org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl¼¹
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java˜ ˜(3
-%1boolean"Eorg.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse#getSucceeded()Z*F
-D
-txnResponse5org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse2getSucceeded()¬©
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java˜ ˜(4<
-%26org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"{org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl#isSuccess(Z)Lorg/apache/bookkeeper/api/kv/impl/result/TxnResultImpl;*B
-@
-result6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl*
-
-%1boolean2isSuccess(Z)Ú×
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java™' ™(E
-%3java.util.List"Xorg.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse#getResponsesList()Ljava/util/List;*F
-D
-txnResponse5org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse2getResponsesList()×
-Ô
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java™ ­(
-
-%4java.util.List"lcom.google.common.collect.Lists#transform(Ljava/util/List;Lcom/google/common/base/Function;)Ljava/util/List;*#"!
-com.google.common.collect.Lists*
-
-%3java.util.List*
-""ÎË
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java™ ­(<
-%56org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"ˆorg.apache.bookkeeper.api.kv.impl.result.TxnResultImpl#results(Ljava/util/List;)Lorg/apache/bookkeeper/api/kv/impl/result/TxnResultImpl;*B
-@
-result6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl*
-
-%4java.util.List2results(Ljava/util/List;)"Ï
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java® ®(B
-@
-result6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl:D
-txnResponse5org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse:G
-resultFactory6org.apache.bookkeeper.api.kv.impl.result.ResultFactory:E
-	kvFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactoryB1"/
--org.apache.bookkeeper.clients.impl.kv.KvUtils

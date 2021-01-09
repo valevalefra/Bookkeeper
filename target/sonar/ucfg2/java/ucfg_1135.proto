@@ -1,99 +1,0 @@
-
-–org.apache.bookkeeper.clients.impl.internal.api.StreamRanges#ofHash(Lorg/apache/bookkeeper/stream/proto/RangeKeyType;Ljava/util/NavigableMap;)Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java)# )()"5*¢
-2ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java/ /("È
-Ê
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java/ /(";
-props2org.apache.bookkeeper.stream.proto.RangeProperties"__id*
-""ç
-ä
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java/ /(";
-props2org.apache.bookkeeper.stream.proto.RangeProperties"
-__arrayGet*
-
-%3java.util.Collection*
-""*
-3
-1*œ
-3ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java0 0(π∂
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java0. 0(@
-
-%4long"@org.apache.bookkeeper.stream.proto.RangeProperties#getRangeId()J*=
-;
-props2org.apache.bookkeeper.stream.proto.RangeProperties2getRangeId()Ì
-Í
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java0 0(A
-
-%5long"java.lang.Math#max(JJ)J*"
-java.lang.Math*
-""*
-
-
-%4long*
-2*¬
-4ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java/% /(+úô
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java/% /(4
-%3java.util.Collection"2java.util.SortedMap#values()Ljava/util/Collection;*"
- 
-rangesjava.util.NavigableMap2values()*
-2*ë
-5ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java+ +(„
-‡
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java+ +('5
-%0/org.apache.bookkeeper.stream.proto.RangeKeyType"__id*
-""¥
-±
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java+ ,(P
-
-%1void"Zcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/String;Ljava/lang/Object;)V*("&
-$com.google.common.base.Preconditions*
-""*<:
-8Only hash routing is supported now. %s is not supported.*<
-:
-keyType/org.apache.bookkeeper.stream.proto.RangeKeyType›
-⁄
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java-= -(i
-%2java.util.NavigableMap"`java.util.Collections#unmodifiableNavigableMap(Ljava/util/NavigableMap;)Ljava/util/NavigableMap;*"
-java.util.Collections*"
- 
-rangesjava.util.NavigableMapÓ
-Î
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java- -(j(
-readOnlyRangesjava.util.NavigableMap"__id*
-
-%2java.util.NavigableMap*
-4*ª
-1ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java2$ 2(2®•
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java2 2(#F
-%6@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges"@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRangesá
-Ñ
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java2 2(?
-%7"corg.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges#<init>(Ljava/util/NavigableMap;J)V*H
-F
-%6@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges**
-(
-readOnlyRangesjava.util.NavigableMap*
-"""Â
-ò
-ç/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/api/StreamRanges.java2 2(@H
-F
-%6@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges::
-keyType/org.apache.bookkeeper.stream.proto.RangeKeyType: 
-rangesjava.util.NavigableMapB@">
-<org.apache.bookkeeper.clients.impl.internal.api.StreamRanges

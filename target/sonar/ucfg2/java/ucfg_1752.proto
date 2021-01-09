@@ -1,75 +1,0 @@
-
-yorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#delete(J)Ljava/util/concurrent/CompletableFuture; 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java¥& ¥(,"1*Ô
-1 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java¦# ¦(7Â
-¿
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java¦# ¦(7
-%0byte[]"__id*
-""ì
-é
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java¦# ¦(A
-%1byte[]"aorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#getStreamMetadataKey(J)[B*K"I
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl*
-""Ù
-Ö
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java¦ ¦(B
-streamMetadataKeybyte[]"__id*
-
-%1byte[]Â
-¿
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java§ §(5
-%2byte[]"__id*
-""ï
-ì
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java§ §(?
-%3byte[]"dorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#getStreamMetadataEndKey(J)[B*K"I
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl*
-""Ô
-Ñ
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java§ §(@
-streamEndKeybyte[]"__id*
-
-%3byte[]Â
-¿
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java© ©(<
-%46org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*V*TI
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"
-store“
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java© ©(A,
-%5&java.util.concurrent.CompletableFuture"org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#deleteRange(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*>
-<
-%46org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*
-
-streamMetadataKeybyte[]*
-
-streamEndKeybyte[]21deleteRange(Ljava/lang/Object;Ljava/lang/Object;)³
-°
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaª3 ª(;*
-%6$java.util.concurrent.ExecutorService"__id*Y*WI
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"
-
-executor¦£
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java© ª(<,
-%7&java.util.concurrent.CompletableFuture"›java.util.concurrent.CompletableFuture#thenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;*.
-,
-%5&java.util.concurrent.CompletableFuture*
-""*,
-*
-%6$java.util.concurrent.ExecutorService2LthenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)"Ó
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.java© ª(=.
-,
-%7&java.util.concurrent.CompletableFuture:
-""BKI
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl

@@ -1,103 +1,0 @@
-
-Óorg.apache.bookkeeper.clients.impl.kv.PByteBufSimpleTableImpl#delete(Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;Lorg/apache/bookkeeper/api/kv/options/DeleteOption;)Ljava/util/concurrent/CompletableFuture;™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¹= ¹(C"startingBlock*£
-2™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¿ ¿(ÕÒ
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¿ ¿(
-%3io.netty.buffer.ByteBuf"Lorg.apache.bookkeeper.api.kv.options.DeleteOption#endKey()Ljava/lang/Object;*=
-;
-option1org.apache.bookkeeper.api.kv.options.DeleteOption2endKey()¤¡
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¿ ¿($
-%4io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*
-
-%3io.netty.buffer.ByteBuf2retain()*
-1*Ñ
-3™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¼ ¼(¦£
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¼ ¼(
-%0io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*!
-
-pKeyio.netty.buffer.ByteBuf2retain()¦£
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java½ ½(
-%1io.netty.buffer.ByteBuf"9io.netty.buffer.ByteBuf#retain()Lio/netty/buffer/ByteBuf;*!
-
-lKeyio.netty.buffer.ByteBuf2retain()ÕÒ
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¾ ¾(#
-%2io.netty.buffer.ByteBuf"Lorg.apache.bookkeeper.api.kv.options.DeleteOption#endKey()Ljava/lang/Object;*=
-;
-option1org.apache.bookkeeper.api.kv.options.DeleteOption2endKey()*
-2
-1*À
-startingBlock™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¹C »(ì
-é
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¸ ¸(
-%7"
-__annotate*
-java.lang.Override*!
-
-pKeyio.netty.buffer.ByteBufÖ
-Ó
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.javaº º(
-pKeyio.netty.buffer.ByteBuf"__annotation*
-
-%7ì
-é
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¸ ¸(
-%8"
-__annotate*
-java.lang.Override*!
-
-lKeyio.netty.buffer.ByteBufÖ
-Ó
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.javaº º("
-lKeyio.netty.buffer.ByteBuf"__annotation*
-
-%8ˆ
-…
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.java¸ ¸(
-%9"
-__annotate*
-java.lang.Override*=
-;
-option1org.apache.bookkeeper.api.kv.options.DeleteOptionò
-ï
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.javaº: º(@;
-option1org.apache.bookkeeper.api.kv.options.DeleteOption"__annotation*
-
-%9*
-3*†
-1™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.javaÁ Á(®
-«
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.javaÁ Á(4
-%5.org.apache.bookkeeper.clients.utils.RetryUtils"__id*Q*O?
-=org.apache.bookkeeper.clients.impl.kv.PByteBufSimpleTableImpl"
-
-retryUtilsŒ‰
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.javaÁ Ç(
-
-%6"}org.apache.bookkeeper.clients.utils.RetryUtils#execute(Ljava/util/function/Supplier;)Ljava/util/concurrent/CompletableFuture;*6
-4
-%5.org.apache.bookkeeper.clients.utils.RetryUtils*
-""2&execute(Ljava/util/function/Supplier;)"¤
-™
-Œ/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufSimpleTableImpl.javaÁ Ï(
-"":
-pKeyio.netty.buffer.ByteBuf:
-lKeyio.netty.buffer.ByteBuf:;
-option1org.apache.bookkeeper.api.kv.options.DeleteOptionBA?
-=org.apache.bookkeeper.clients.impl.kv.PByteBufSimpleTableImpl

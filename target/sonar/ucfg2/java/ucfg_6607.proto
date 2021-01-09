@@ -1,180 +1,0 @@
-
-´org.apache.bookkeeper.server.http.service.BookieStateService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaG G(%"startingBlock*õ
-2‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaK K(Ý
-Ú
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaK K(26
-%50org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""Ý
-Ú
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaK K(<6
-%60org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""¿¼
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaK K(=<
-%76org.apache.bookkeeper.http.service.HttpServiceResponse"ªorg.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*8
-6
-%60org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)üù
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaL L(Q<
-%86org.apache.bookkeeper.http.service.HttpServiceResponse"Šorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*53
-1Only support GET method to retrieve bookie state.2setBody(Ljava/lang/String;)"Ú
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaM M(D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*½
-3‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaH' H(@Š
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaH+ H(><
-%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponseŸ
-œ
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaH' H(@
-%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
-<
-%06org.apache.bookkeeper.http.service.HttpServiceResponse¡
-ž
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaH H(AB
-response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
-<
-%06org.apache.bookkeeper.http.service.HttpServiceResponseÙ
-Ö
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaJ J(2
-%2,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""Ù
-Ö
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaJ J(!2
-%3,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""Š
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaJ% J(82
-%4,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
-2
-1*¤
-startingBlock‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaG% G(A†
-ƒ
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaF F(
-%22"
-__annotate*
-java.lang.Override*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequestð
-í
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaG9 G(@@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
-
-%22*
-3*ò+
-1‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaP P( –
-“
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaP P( )
-%9#org.apache.bookkeeper.bookie.Bookie"__id*L*J>
-<org.apache.bookkeeper.server.http.service.BookieStateService"
-bookie÷ô
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaP P(26
-%10/org.apache.bookkeeper.bookie.BookieStateManager"forg.apache.bookkeeper.bookie.Bookie#getStateManager()Lorg/apache/bookkeeper/bookie/BookieStateManager;*+
-)
-%9#org.apache.bookkeeper.bookie.Bookie2getStateManager()ˆ
-…
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaP P(3/
-sm)org.apache.bookkeeper.bookie.StateManager"__id*8
-6
-%10/org.apache.bookkeeper.bookie.BookieStateManager²¯
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaQ Q((O
-%11Horg.apache.bookkeeper.server.http.service.BookieStateService$BookieState"Horg.apache.bookkeeper.server.http.service.BookieStateService$BookieStateÅ
-Â
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaQ Q(*
-%12"Rorg.apache.bookkeeper.server.http.service.BookieStateService$BookieState#<init>()V*Q
-O
-%11Horg.apache.bookkeeper.server.http.service.BookieStateService$BookieStateÀ
-½
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaQ Q(+N
-bsHorg.apache.bookkeeper.server.http.service.BookieStateService$BookieState"__id*Q
-O
-%11Horg.apache.bookkeeper.server.http.service.BookieStateService$BookieStateŸœ
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaR R(#
-%13boolean"6org.apache.bookkeeper.bookie.StateManager#isRunning()Z*1
-/
-sm)org.apache.bookkeeper.bookie.StateManager2isRunning()¡ž
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaS S(%
-%14boolean"7org.apache.bookkeeper.bookie.StateManager#isReadOnly()Z*1
-/
-sm)org.apache.bookkeeper.bookie.StateManager2isReadOnly()©¦
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaT T(-
-%15boolean";org.apache.bookkeeper.bookie.StateManager#isShuttingDown()Z*1
-/
-sm)org.apache.bookkeeper.bookie.StateManager2isShuttingDown()ÍÊ
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaU, U(Q
-%16boolean"Morg.apache.bookkeeper.bookie.StateManager#isAvailableForHighPriorityWrites()Z*1
-/
-sm)org.apache.bookkeeper.bookie.StateManager2"isAvailableForHighPriorityWrites()‹
-ˆ
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaW W(1
-%17java.lang.String"Worg.apache.bookkeeper.common.util.JsonUtil#toJson(Ljava/lang/Object;)Ljava/lang/String;*.",
-*org.apache.bookkeeper.common.util.JsonUtil*P
-N
-bsHorg.apache.bookkeeper.server.http.service.BookieStateService$BookieStateÚ
-×
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaW W(2 
-jsonResponsejava.lang.String"__id*
-
-%17java.lang.Stringêç
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaX X(&=
-%186org.apache.bookkeeper.http.service.HttpServiceResponse"Šorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*"
- 
-jsonResponsejava.lang.String2setBody(Ljava/lang/String;)Þ
-Û
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaY Y(.7
-%190org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""Þ
-Û
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaY Y(17
-%200org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""Á¾
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaY Y(2=
-%216org.apache.bookkeeper.http.service.HttpServiceResponse"ªorg.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
-7
-%200org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)"Ú
-‘
-†/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/BookieStateService.javaZ Z(D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse:@
-request5org.apache.bookkeeper.http.service.HttpServiceRequestB@>
-<org.apache.bookkeeper.server.http.service.BookieStateService

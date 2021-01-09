@@ -1,62 +1,0 @@
-
-ßorg.apache.distributedlog.BKDistributedLogManager#getInputStreamInternal(Lorg/apache/distributedlog/DLSN;Ljava/util/Optional;)Lorg/apache/distributedlog/api/LogReader;ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaµ µ($"1*ç
-1ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java∑ ∑(Ω
-∫
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java∑ ∑(
-%0org.slf4j.Logger"__id*
-""˛˚
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java∑ ∑(A
-
-%1void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%0org.slf4j.Logger*'%
-#Create sync reader starting from {}*,
-*
-fromDLSNorg.apache.distributedlog.DLSN2*info(Ljava/lang/String;Ljava/lang/Object;)ıÚ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java∏ ∏(.
-
-%2void"[org.apache.distributedlog.BKDistributedLogManager#checkClosedOrInError(Ljava/lang/String;)V*53
-1org.apache.distributedlog.BKDistributedLogManager*
-getInputStream2(checkClosedOrInError(Ljava/lang/String;)õ
-ò
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java∫ ∫(;
-%35org.apache.distributedlog.DistributedLogConfiguration"__id*?*=3
-1org.apache.distributedlog.BKDistributedLogManager"
-confî
-ë
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaæ æ(-
-%4'org.apache.bookkeeper.stats.StatsLogger"__id*F*D3
-1org.apache.distributedlog.BKDistributedLogManager"
-statsLoggerÛ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaπ π("/
-%5)org.apache.distributedlog.BKSyncLogReader")org.apache.distributedlog.BKSyncLogReader≈
-¬
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaπ æ(
-%6"˙org.apache.distributedlog.BKSyncLogReader#<init>(Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/BKDistributedLogManager;Lorg/apache/distributedlog/DLSN;Ljava/util/Optional;Lorg/apache/bookkeeper/stats/StatsLogger;)V*1
-/
-%5)org.apache.distributedlog.BKSyncLogReader*=
-;
-%35org.apache.distributedlog.DistributedLogConfiguration*53
-1org.apache.distributedlog.BKDistributedLogManager*,
-*
-fromDLSNorg.apache.distributedlog.DLSN*!
-
-	fromTxnIdjava.util.Optional*/
--
-%4'org.apache.bookkeeper.stats.StatsLogger"«
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaπ æ(1
-/
-%5)org.apache.distributedlog.BKSyncLogReader:*
-fromDLSNorg.apache.distributedlog.DLSN:
-	fromTxnIdjava.util.OptionalB53
-1org.apache.distributedlog.BKDistributedLogManager

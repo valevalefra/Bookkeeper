@@ -1,98 +1,0 @@
-
-•org.apache.bookkeeper.replication.Auditor#publishSuspectedLedgersAsync(Ljava/util/Collection;Ljava/util/Set;)Ljava/util/concurrent/CompletableFuture;
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaå! å(="2"3*«	
-2
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaé é(ª
-§
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaé é(
-%1org.slf4j.Logger"__id*
-""ñî
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaé é(U
-
-%2void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%1org.slf4j.Logger*1/
--There is no ledgers for the failed bookie: {}*(
-&
-missingBookiesjava.util.Collection2*info(Ljava/lang/String;Ljava/lang/Object;)Ï
-Ì
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaê ê(%,
-%3&java.util.concurrent.CompletableFuture"borg.apache.bookkeeper.common.concurrent.FutureUtils#Void()Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils"±
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaê ê(&.
-,
-%3&java.util.concurrent.CompletableFuture*Ù
-3
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaæ æ(&ÊÇ
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaæ æ(-	
-%0int"java.util.Set#size()I*
-
-ledgersjava.util.Set2size()*
-2
-1*×
-1
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaì ì(ª
-§
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaì ì(
-%4org.slf4j.Logger"__id*
-""ÉÆ
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaì ì(r
-
-%5void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%4org.slf4j.Logger*IG
-EFollowing ledgers: {} of bookie: {} are identified as underreplicated*
-
-ledgersjava.util.Set*(
-&
-missingBookiesjava.util.Collection2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)ˆ
-…
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaí í( /
-%6)org.apache.bookkeeper.stats.OpStatsLogger"__id*K*I+
-)org.apache.bookkeeper.replication.Auditor"
-numUnderReplicatedLedgerÊÇ
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaí9 í(G	
-%7int"java.util.Set#size()I*
-
-ledgersjava.util.Set2size()³°
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaí í(H
-
-%8void"Eorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulValue(J)V*1
-/
-%6)org.apache.bookkeeper.stats.OpStatsLogger*
-	
-%7int2registerSuccessfulValue(J)¹
-¶
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaï ï('
-%9java.util.ArrayList"Wcom.google.common.collect.Lists#newArrayList(Ljava/lang/Iterable;)Ljava/util/ArrayList;*#"!
-com.google.common.collect.Lists*
-
-ledgersjava.util.SetØ
-Õ
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaî ò(	-
-%10&java.util.concurrent.CompletableFuture"¼org.apache.bookkeeper.common.concurrent.FutureUtils#processList(Ljava/util/List;Ljava/util/function/Function;Ljava/util/concurrent/ExecutorService;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*
-
-%9java.util.ArrayList*
-""*
-"""²
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaî ò(
-/
--
-%10&java.util.concurrent.CompletableFuture:&
-missingBookiesjava.util.Collection:
-ledgersjava.util.SetB-+
-)org.apache.bookkeeper.replication.Auditor

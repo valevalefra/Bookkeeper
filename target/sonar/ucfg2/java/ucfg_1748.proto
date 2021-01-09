@@ -1,75 +1,0 @@
-
-worg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#load(J)Ljava/util/concurrent/CompletableFuture; 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaæ( æ(,"1*Ø
-1 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaç# ç(7Â
-¿
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaç# ç(7
-%0byte[]"__id*
-""ì
-é
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaç# ç(A
-%1byte[]"aorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#getStreamMetadataKey(J)[B*K"I
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl*
-""Ù
-Ö
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaç ç(B
-streamMetadataKeybyte[]"__id*
-
-%1byte[]Â
-¿
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaè& è(=
-%2byte[]"__id*
-""ï
-ì
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaè& è(G
-%3byte[]"dorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#getStreamMetadataEndKey(J)[B*K"I
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl*
-""Ü
-Ù
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaè è(H
-streamMetadataEndKeybyte[]"__id*
-
-%3byte[]Â
-¿
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaê ê(<
-%46org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*V*TI
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"
-storeŒ
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaê ê(C,
-%5&java.util.concurrent.CompletableFuture"Šorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#range(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*>
-<
-%46org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*
-
-streamMetadataKeybyte[]* 
-
-streamMetadataEndKeybyte[]2+range(Ljava/lang/Object;Ljava/lang/Object;)³
-°
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaò ò(*
-%6$java.util.concurrent.ExecutorService"__id*Y*WI
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"
-
-executor¦£
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaê ò(,
-%7&java.util.concurrent.CompletableFuture"›java.util.concurrent.CompletableFuture#thenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;*.
-,
-%5&java.util.concurrent.CompletableFuture*
-""*,
-*
-%6$java.util.concurrent.ExecutorService2LthenApplyAsync(Ljava/util/function/Function;Ljava/util/concurrent/Executor;)"Ó
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/stream/MetaRangeImpl.javaê ò(.
-,
-%7&java.util.concurrent.CompletableFuture:
-""BKI
-Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl

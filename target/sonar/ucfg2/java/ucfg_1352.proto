@@ -1,54 +1,0 @@
-
-¢org.apache.bookkeeper.clients.impl.kv.KvUtils#newDeleteResult(Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeResponse;Lorg/apache/bookkeeper/api/kv/impl/result/ResultFactory;Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueFactory;)Lorg/apache/bookkeeper/api/kv/result/DeleteResult;ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java¡1 ¡(@"1*´
-1ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java¥ ¥(½º
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java¥ ¥(1?
-%09org.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl"„org.apache.bookkeeper.api.kv.impl.result.ResultFactory#newDeleteResult(J)Lorg/apache/bookkeeper/api/kv/impl/result/DeleteResultImpl;*I
-G
-resultFactory6org.apache.bookkeeper.api.kv.impl.result.ResultFactory*
-""2newDeleteResult(J)Â¿
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java¦ ¦(-
-
-%1long"Korg.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse#getDeleted()J*K
-I
-response=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse2getDeleted()´±
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java¥ ¦(.?
-%29org.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl"‚org.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl#numDeleted(J)Lorg/apache/bookkeeper/api/kv/impl/result/DeleteResultImpl;*A
-?
-%09org.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl*
-
-
-%1long2numDeleted(J)ãà
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java§( §(A
-%3java.util.List"^org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse#getPrevKvsList()Ljava/util/List;*K
-I
-response=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse2getPrevKvsList()×
-Ô
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java§ §(M
-%4java.util.List"œorg.apache.bookkeeper.clients.impl.kv.KvUtils#fromProtoKeyValues(Ljava/util/List;Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueFactory;)Ljava/util/List;*1"/
--org.apache.bookkeeper.clients.impl.kv.KvUtils*
-
-%3java.util.List*G
-E
-	kvFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactoryÖÓ
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java¥ §(N?
-%59org.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl"Žorg.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl#prevKvs(Ljava/util/List;)Lorg/apache/bookkeeper/api/kv/impl/result/DeleteResultImpl;*A
-?
-%29org.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl*
-
-%4java.util.List2prevKvs(Ljava/util/List;)"Î
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java¥ §(OA
-?
-%59org.apache.bookkeeper.api.kv.impl.result.DeleteResultImpl:I
-response=org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeResponse:G
-resultFactory6org.apache.bookkeeper.api.kv.impl.result.ResultFactory:E
-	kvFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactoryB1"/
--org.apache.bookkeeper.clients.impl.kv.KvUtils

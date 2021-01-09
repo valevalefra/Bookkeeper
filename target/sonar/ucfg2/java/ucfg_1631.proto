@@ -1,122 +1,0 @@
-
-Âorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl#getActiveRanges(Lorg/apache/bookkeeper/stream/proto/storage/GetActiveRangesRequest;)Ljava/util/concurrent/CompletableFuture;œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javaa6 a(E"startingBlock*‘
-2œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javagB g(G¼
-¹
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javagB g(G<
-%36org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*T*RG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl"
-store¶
-³
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javagI g(Q3
-%4-java.util.concurrent.ScheduledExecutorService"__id*W*UG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl"
-
-executorß
-Ü
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javagS g(gP
-%5Jorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicy"__id*c*aG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl"
-rangePlacementPolicyº·
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javag4 g(AM
-%6Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImplÂ
-¿
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javag0 g(h
-%7"ûorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#<init>(Lorg/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore;Ljava/util/concurrent/ExecutorService;Lorg/apache/bookkeeper/stream/protocol/util/StorageContainerPlacementPolicy;)V*O
-M
-%6Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl*>
-<
-%36org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore*5
-3
-%4-java.util.concurrent.ScheduledExecutorService*R
-P
-%5Jorg.apache.bookkeeper.stream.protocol.util.StorageContainerPlacementPolicyÓ
-Ð
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javag g(iX
-metaRangeImplGorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"__id*O
-M
-%6Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl¶³
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javah h(/,
-%8&java.util.concurrent.CompletableFuture"worg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl#load(J)Ljava/util/concurrent/CompletableFuture;*Z
-X
-metaRangeImplGorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl*
-""2load(J)¯¬
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javah u(,
-%9&java.util.concurrent.CompletableFuture"yjava.util.concurrent.CompletableFuture#thenCompose(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
-,
-%8&java.util.concurrent.CompletableFuture*
-""2*thenCompose(Ljava/util/function/Function;)"Ï
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javah u(.
-,
-%9&java.util.concurrent.CompletableFuture*“
-3œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javab b(%ßÜ
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javab b(3
-
-%0long"Porg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest#getStreamId()J*N
-L
-requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest2getStreamId()•
-’
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javad" d()
-%1java.util.Map"__id*V*TG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl"	
-streamsš
-—
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javad" d(7M
-%2Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"__mapGet*
-
-%1java.util.Map*
-""Ï
-Ì
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javad d(8T
-	metaRangeGorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"__id*O
-M
-%2Gorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl*
-2
-1*Ý
-startingBlockœ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javaaE a(e
-š
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.java` `(
-%11"
-__annotate*
-java.lang.Override*N
-L
-requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest‡
-„
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javaa] a(dL
-requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest"__annotation*
-
-%11*
-3*²
-1œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javaw w("º
-·
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javaw w(--
-%10&java.util.concurrent.CompletableFuture"Ãorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl#getActiveRanges(Lorg/apache/bookkeeper/stream/storage/api/metadata/stream/MetaRange;)Ljava/util/concurrent/CompletableFuture;*IG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl*V
-T
-	metaRangeGorg.apache.bookkeeper.stream.storage.impl.metadata.stream.MetaRangeImpl"Ð
-œ
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImpl.javaw w(./
--
-%10&java.util.concurrent.CompletableFuture:L
-requestAorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequestBIG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.MetaRangeStoreImpl

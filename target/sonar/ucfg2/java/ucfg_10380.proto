@@ -1,153 +1,0 @@
-
-µorg.apache.bookkeeper.server.http.service.TriggerAuditService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java5 5(%"startingBlock*“
-2’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaB B(ß
-Ü
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaB B(27
-%150org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""ß
-Ü
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaB B(57
-%160org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""Â¿
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaB B(6=
-%176org.apache.bookkeeper.http.service.HttpServiceResponse"ªorg.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
-7
-%160org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)ãà
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaC C(6=
-%186org.apache.bookkeeper.http.service.HttpServiceResponse"Šorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*
-Success trigger audit.2setBody(Ljava/lang/String;)¿
-¼
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaD D(
-%19org.slf4j.Logger"__id*
-""ÖÓ
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaD) D(;
-%20java.lang.String"Rorg.apache.bookkeeper.http.service.HttpServiceResponse#getBody()Ljava/lang/String;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse2	getBody()ê
-ç
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaD D(;
-%21java.lang.String"__concat*
-response body:*
-
-%20java.lang.String£ 
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaD D(<
-%22void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%19org.slf4j.Logger*
-
-%21java.lang.String2debug(Ljava/lang/String;)"Û
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaE E(D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*¨
-startingBlock’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java5% 5(A‡
-„
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java4 4(
-%27"
-__annotate*
-java.lang.Override*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequestñ
-î
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java59 5(@@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
-
-%27*
-10*é
-8’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java: :(ž
-›
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java: :(2
-%5,org.apache.bookkeeper.client.BookKeeperAdmin"__id*J*H?
-=org.apache.bookkeeper.server.http.service.TriggerAuditService"
-bka¨¥
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java: :("
-
-%6void"<org.apache.bookkeeper.client.BookKeeperAdmin#triggerAudit()V*4
-2
-%5,org.apache.bookkeeper.client.BookKeeperAdmin2triggerAudit()*
-2*Å
-10’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java6' 6(@Ž‹
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java6+ 6(><
-%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponse 
-
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java6' 6(@
-%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
-<
-%06org.apache.bookkeeper.http.service.HttpServiceResponse¢
-Ÿ
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java6 6(AB
-response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
-<
-%06org.apache.bookkeeper.http.service.HttpServiceResponseÚ
-×
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java8 8(2
-%2,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""Ú
-×
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java8 8(!2
-%3,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""Ž‹
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.java8% 8(82
-%4,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
-8
-1*õ
-1’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaG G(ß
-Ü
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaG G(27
-%230org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""ß
-Ü
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaG G(<7
-%240org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""Â¿
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaG G(==
-%256org.apache.bookkeeper.http.service.HttpServiceResponse"ªorg.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
-7
-%240org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)óð
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaH H(F=
-%266org.apache.bookkeeper.http.service.HttpServiceResponse"Šorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse**(
-&Not found method. Should be PUT method2setBody(Ljava/lang/String;)"Û
-’
-‡/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerAuditService.javaI I(D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse:@
-request5org.apache.bookkeeper.http.service.HttpServiceRequestBA?
-=org.apache.bookkeeper.server.http.service.TriggerAuditService

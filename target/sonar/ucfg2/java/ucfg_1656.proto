@@ -1,78 +1,0 @@
-
-Ÿorg.apache.bookkeeper.stream.storage.impl.grpc.GrpcTableService$4#createErrorResp(Ljava/lang/Throwable;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/TxnResponse;–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javal& l(5"startingBlock*é
-startingBlock–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javal5 l(Fæ
-ã
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javak k(
-%9"
-__annotate*
-java.lang.Override*
-
-causejava.lang.ThrowableÐ
-Í
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javal@ l(E
-causejava.lang.Throwable"__annotation*
-
-%9*
-1*ƒ$
-1–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javam m(& 
-
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javam m(3C
-%0=org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse$Builder"org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/TxnResponse$Builder;*9"7
-5org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse¬
-©
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javan# n(>F
-%1@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"‡org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*<":
-8org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeaderç
-ä
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javao% o(E;
-%25org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
-""õò
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javan# o(FF
-%3@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"Ãorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
-F
-%1@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*=
-;
-%25org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)ëè
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javap. p(A=
-%47org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader"yorg.apache.bookkeeper.stream.proto.kv.rpc.TxnRequest#getHeader()Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;*
-""2getHeader()Š
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javan# p(BF
-%5@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder"Îorg.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#setRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader$Builder;*H
-F
-%3@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder*?
-=
-%47org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2KsetRoutingHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;)´±
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javan# q($>
-%68org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader"‚org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;*H
-F
-%5@org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader$Builder2build()öó
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javam q(%C
-%7=org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse$Builder"Âorg.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse$Builder#setHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/TxnResponse$Builder;*E
-C
-%0=org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse$Builder*@
->
-%68org.apache.bookkeeper.stream.proto.kv.rpc.ResponseHeader2EsetHeader(Lorg/apache/bookkeeper/stream/proto/kv/rpc/ResponseHeader;)§¤
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javam r( ;
-%85org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse"|org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/TxnResponse;*E
-C
-%7=org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse$Builder2build()"Ø
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/grpc/GrpcTableService.javam r(!=
-;
-%85org.apache.bookkeeper.stream.proto.kv.rpc.TxnResponse:
-causejava.lang.ThrowableBEC
-Aorg.apache.bookkeeper.stream.storage.impl.grpc.GrpcTableService$4

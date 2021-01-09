@@ -1,112 +1,0 @@
-
-eorg.apache.bookkeeper.bookie.BookieShell$ListLedgersCmd#runCmd(Lorg/apache/commons/cli/CommandLine;)I~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java± ±("startingBlock*¬
-startingBlock~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java± ±(.ﬂ
-‹
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∞ ∞(
-%11"
-__annotate*
-java.lang.Override*/
--
-cmdLine"org.apache.commons.cli.CommandLine…
-∆
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java±& ±(--
-cmdLine"org.apache.commons.cli.CommandLine"__annotation*
-
-%11*
-1*«*
-1~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java≤& ≤(-¨©
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java≤& ≤(<
-%0boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*/
--
-cmdLine"org.apache.commons.cli.CommandLine*
-m2hasOption(Ljava/lang/String;)◊‘
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java≥6 ≥(X
-%1java.lang.String"Worg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;)Ljava/lang/String;*/
--
-cmdLine"org.apache.commons.cli.CommandLine*
-
-bookieid2"getOptionValue(Ljava/lang/String;)”
-–
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java≥ ≥(Y.
-bookieidToBePartOfEnsemblejava.lang.String"__id*
-
-%1java.lang.String≥∞
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaµ< µ(_Y
-%2Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags"Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags≈
-¬
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaµ8 µ(a
-%3"]org.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags#<init>()V*[
-Y
-%2Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags”–
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaµ8 ∂(aY
-%4Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags"≈org.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags#bookieId(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/cli/commands/bookie/ListLedgersCommand$ListLedgersFlags;*[
-Y
-%2Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags*0
-.
-bookieidToBePartOfEnsemblejava.lang.String2bookieId(Ljava/lang/String;)ˇ¸
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaµ8 ∂(qY
-%5Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags"∞org.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags#meta(Z)Lorg/apache/bookkeeper/tools/cli/commands/bookie/ListLedgersCommand$ListLedgersFlags;*[
-Y
-%4Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags*
-""2meta(Z)ƒ
-¡
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaµ ∂(r\
-flagsSorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags"__id*[
-Y
-%5Sorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlagsë
-é
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∑< ∑(M2
-%6,org.apache.bookkeeper.util.LedgerIdFormatter"__id*R*P9
-7org.apache.bookkeeper.bookie.BookieShell$ListLedgersCmd"
-ledgerIdFormatterëé
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∑) ∑(;H
-%7Borg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand"Borg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommandá
-Ñ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∑% ∑(N
-%8"zorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand#<init>(Lorg/apache/bookkeeper/util/LedgerIdFormatter;)V*J
-H
-%7Borg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand*4
-2
-%6,org.apache.bookkeeper.util.LedgerIdFormatter†
-ù
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∑ ∑(OI
-cmdBorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand"__id*J
-H
-%7Borg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommandà
-Ö
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∏ ∏(4
-%9.org.apache.bookkeeper.conf.ServerConfiguration"__id*G*E9
-7org.apache.bookkeeper.bookie.BookieShell$ListLedgersCmd"
-bkConf⁄◊
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∏ ∏($
-%10boolean"–org.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand#apply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/bookie/ListLedgersCommand$ListLedgersFlags;)Z*K
-I
-cmdBorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand*6
-4
-%9.org.apache.bookkeeper.conf.ServerConfiguration*^
-\
-flagsSorg.apache.bookkeeper.tools.cli.commands.bookie.ListLedgersCommand$ListLedgersFlags2åapply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/bookie/ListLedgersCommand$ListLedgersFlags;)"à
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.java∫ ∫(
-"":-
-cmdLine"org.apache.commons.cli.CommandLineB;9
-7org.apache.bookkeeper.bookie.BookieShell$ListLedgersCmd

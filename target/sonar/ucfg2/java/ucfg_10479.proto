@@ -1,851 +1,0 @@
-
-»org.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl#isEnsembleAdheringToPlacementPolicy(Ljava/util/List;II)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementPolicyAdherence;ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‹$ ‹(G"startingBlock*Û
-68ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‚ ‚(ZÈ
-Ê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‚ ‚(Z(
-numOfBookiesInZonesjava.util.HashMap"__id*
-
-%7java.util.HashMapÈ
-Ê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java„ „(+;
-
-bookieNode-org.apache.bookkeeper.net.BookieSocketAddress"__id*
-""ÎË
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‰ ‰(#	
-%9int"java.util.List#size()I* 
-
-ensembleListjava.util.List2size()*
-60
-66
-56*Á
-24ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javañ/ ñ(GÇ
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javañ/ ñ(GT
-%52Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javañ/ ñ(LT
-%53Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Á
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javañ ñ(Li
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
-T
-%53Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaó ó(
-%54org.slf4j.Logger"__id*
-""ˇ¸
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaó ó(,
-%55boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%54org.slf4j.Logger2isDebugEnabled()*
-21
-22*√
-69ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java· ·(hÔ
-Ï
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java· ·(h.
-bookiesLocationInWriteSetjava.util.HashMap"__id*
-
-%5java.util.HashMap «
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‚? ‚(W
-%7java.util.HashMap"java.util.HashMap‹
-Ÿ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‚; ‚(Y
-%8"java.util.HashMap#<init>()V*
-
-%7java.util.HashMap*
-68*ç
-26ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaï ï(9·ﬁ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaï ï(9
-
-%51int"java.util.Set#size()I*
-
-%50java.util.Set2size()*
-24
-20*¡
-27ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaï ï('ôñ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaï ï(2
-%50java.util.Set"+java.util.HashMap#entrySet()Ljava/util/Set;**
-(
-numOfBookiesInZonesjava.util.HashMap2
-entrySet()*
-26*©
-29ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaë ë(RË
-Â
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaë ë(R&
-numOfNodesInAZonejava.lang.Integer"__id*
-
-%48java.lang.Integerí
-è
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaí í(N
-%49java.lang.Integer"__mapSet**
-(
-numOfBookiesInZonesjava.util.HashMap*
-
-zonejava.lang.String*
-""*
-48
-27*—
-70ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java·E ·(g «
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java·I ·(e
-%5java.util.HashMap"java.util.HashMap‹
-Ÿ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java·E ·(g
-%6"java.util.HashMap#<init>()V*
-
-%5java.util.HashMap*
-69*™
-71ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaﬁ< ﬁ(TÅ
-˛
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaﬁ< ﬁ(TS
-%0Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Å
-˛
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaﬁ< ﬁ(aS
-%1Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ê
-„
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaﬁ ﬁ(bi
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*U
-S
-%1Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence∞
-≠
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaﬂ ﬂ(7
-%21java.util.concurrent.locks.ReentrantReadWriteLock"__id*Q*OC
-Aorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl"
-rwLock°û
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaﬂ ﬂ(@
-%3:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*9
-7
-%21java.util.concurrent.locks.ReentrantReadWriteLock2
-readLock()∫∑
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaﬂ ﬂ( 
-
-%4void"Bjava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#lock()V*B
-@
-%3:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2lock()*
-70*≤
-30ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaë4 ë(Gä
-á
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaë4 ë(Q
-%48java.lang.Integer"__mapGet**
-(
-numOfBookiesInZonesjava.util.HashMap*
-
-zonejava.lang.String*
-29*ª
-31ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaê ê(3ì
-ê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaê ê(F
-%47boolean"
-__arrayAdd*.
-,
-udsOfThisZoneInThisWriteSetjava.util.Set*: *#
-!
-upgradeDomainjava.lang.String*
-30*º
-32ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaé é(+ê
-ç
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaé é(8
-%46java.lang.Integer"__mapSet**
-(
-numOfBookiesInZonesjava.util.HashMap*
-
-zonejava.lang.String*2*
-48
-27*‰
-33ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaç ç(1º
-π
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaç ç(X
-%45java.util.Set"__mapSet*0
-.
-bookiesLocationInWriteSetjava.util.HashMap*
-
-zonejava.lang.String*.
-,
-udsOfThisZoneInThisWriteSetjava.util.Set*
-32*¨
-34ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaã ã(KÓ
-Î
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaã ã(K,
-udsOfThisZoneInThisWriteSetjava.util.Set"__id*
-
-%42java.util.HashSetì
-ê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaå å(F
-%44boolean"
-__arrayAdd*.
-,
-udsOfThisZoneInThisWriteSetjava.util.Set*: *#
-!
-upgradeDomainjava.lang.String*
-33*‘
-35ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaã6 ã(KÀ»
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaã: ã(I
-%42java.util.HashSet"java.util.HashSetﬁ
-€
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaã6 ã(K
-%43"java.util.HashSet#<init>()V*
-
-%42java.util.HashSet*
-34*ñ
-36ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaâ â(bÍ
-Á
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaâ â(b,
-udsOfThisZoneInThisWriteSetjava.util.Set"__id*
-
-%41java.util.Set*
-35
-31*ô
-37ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaà à(K‚
-ﬂ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaà à(K!
-upgradeDomainjava.lang.String"__id*
-
-%40java.lang.Stringå
-â
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaâ> â(a
-%41java.util.Set"__mapGet*0
-.
-bookiesLocationInWriteSetjava.util.HashMap*
-
-zonejava.lang.String*
-36*∏
-38ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaá á(9Ÿ
-÷
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaá á(9
-zonejava.lang.String"__id*
-
-%39java.lang.String¥±
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaà+ à(J
-%40java.lang.String"|org.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation#getUpgradeDomain()Ljava/lang/String;*i
-g
-nodeLocationWorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation2getUpgradeDomain()*
-37* 
-39ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaá" á(.¢ü
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaá" á(8
-%39java.lang.String"sorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation#getZone()Ljava/lang/String;*i
-g
-nodeLocationWorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation2	getZone()*
-38*™
-40ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÖ Ö(7"à
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÖ Ö(8k
-i
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*˘
-41ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÇ Ç(≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÇ Ç(
-%37org.slf4j.Logger"__id*
-""âÜ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÇ É(=
-%38void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%37org.slf4j.Logger*PN
-Lensemble: {}, contains bookie: {} for which network location is unresolvable* 
-
-ensembleListjava.util.List*=
-;
-
-bookieNode-org.apache.bookkeeper.net.BookieSocketAddress2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-40*Á
-43ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÄ3 Ä(KÇ
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÄ3 Ä(KT
-%33Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÄ3 Ä(PT
-%34Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Á
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÄ Ä(Pi
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
-T
-%34Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÅ Å(
-%35org.slf4j.Logger"__id*
-""ˇ¸
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÅ Å(0
-%36boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%35org.slf4j.Logger2isDebugEnabled()*
-40
-41*î
-45ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˛ ˛(^Ô
-Ï
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˛ ˛(^g
-nodeLocationWorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation"__id*`
-^
-%30Worg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocationÁ
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaˇ, ˇ(B^
-%31Worg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation"__id*a*_C
-Aorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl"
-unresolvedNodeLocationåâ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaˇ ˇ(C
-%32boolean"sorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation#equals(Ljava/lang/Object;)Z*i
-g
-nodeLocationWorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation*`
-^
-%31Worg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation2equals(Ljava/lang/Object;)*
-39
-43*˙
-46ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˝ ˝(>ô
-ñ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˝ ˝(>;
-
-bookieNode-org.apache.bookkeeper.net.BookieSocketAddress"__id*6
-4
-%29-org.apache.bookkeeper.net.BookieSocketAddress∂≥
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˛9 ˛(]^
-%30Worg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation"‰org.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl#getZoneAwareNodeLocation(Lorg/apache/bookkeeper/net/BookieSocketAddress;)Lorg/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl$ZoneAwareNodeLocation;*EC
-Aorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl*=
-;
-
-bookieNode-org.apache.bookkeeper.net.BookieSocketAddress2IgetZoneAwareNodeLocation(Lorg/apache/bookkeeper/net/BookieSocketAddress;)*
-45*≤
-47ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¸& ¸(Cä
-á
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˝! ˝(>4
-%29-org.apache.bookkeeper.net.BookieSocketAddress"
-__arrayGet* 
-
-ensembleListjava.util.List*
-""*
-46*î
-48ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¸' ¸((ÏÈ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¸0 ¸(C
-
-%28int"java.util.List#size()I* 
-
-ensembleListjava.util.List2size()*
-47*è
-51ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˙ ˙(#„
-‡
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˙ ˙(+
-%27void"
-__mapClear**
-(
-numOfBookiesInZonesjava.util.HashMap*
-48
-27*ë
-52ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˘ ˘()È
-Ê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˘ ˘(1
-%26void"
-__mapClear*0
-.
-bookiesLocationInWriteSetjava.util.HashMap*
-51*ó
-54ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¯ ¯(ÏÈ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¯  ¯(3
-
-%25int"java.util.List#size()I* 
-
-ensembleListjava.util.List2size()*
-2
-52*Ü
-11ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¶ ¶(4‹
-Ÿ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¶ ¶(d
-%69boolean"Üorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl#validateMinUDsAreMaintained(Ljava/util/HashMap;Ljava/util/HashMap;)Z*EC
-Aorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl**
-(
-numOfBookiesInZonesjava.util.HashMap*0
-.
-bookiesLocationInWriteSetjava.util.HashMap*
-5
-9*è
-56ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˜? ˜(CÁ
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java˜? ˜(w
-
-%24int"java.lang.Math#min(II)I*"
-java.lang.Math*
-""*
-""*
-54*™
-12ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java£ £(7"à
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java£ £(8k
-i
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*™
-57ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaı ı(/"à
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaı ı(0k
-i
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*÷
-13ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java† †(≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java† †(
-%66org.slf4j.Logger"__id*
-""»
-≈
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java†& °(\
-%67java.lang.String"__concat*KI
-Gin ensemble: {}, writeset starting at: {} doesn't maintain min of 2 UDs*86
-4 when there are multiple bookies from the same zone.õò
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java† °(n
-%68void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%66org.slf4j.Logger*
-
-%67java.lang.String* 
-
-ensembleListjava.util.List*
-""2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-12*ù
-58ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java (≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java (
-%21org.slf4j.Logger"__id*
-""©
-¶
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÒ Ú(>
-%22java.lang.String"__concat*B@
->For ensemble: {}, writeQuorumSize: {} is less than or equal to*" 
- minNumZonesPerWriteQuorum: {}Å˛
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java Û(U
-%23void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%21org.slf4j.Logger*
-
-%22java.lang.String* 
-
-ensembleListjava.util.List*
-""*
-""2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
-57*Á
-15ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaû3 û(KÇ
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaû3 û(KT
-%62Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaû3 û(PT
-%63Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Á
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaû û(Pi
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
-T
-%63Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaü ü(
-%64org.slf4j.Logger"__id*
-""ˇ¸
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaü ü(0
-%65boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%64org.slf4j.Logger2isDebugEnabled()*
-13
-12*à
-17ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaù ù(4‹
-Ÿ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaù ù(d
-%61boolean"Üorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl#validateMinUDsAreMaintained(Ljava/util/HashMap;Ljava/util/HashMap;)Z*EC
-Aorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl**
-(
-numOfBookiesInZonesjava.util.HashMap*0
-.
-bookiesLocationInWriteSetjava.util.HashMap*
-15
-54*ç
-19ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaú ú(@·ﬁ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaú ú(@
-
-%60int"java.util.Set#size()I*
-
-%59java.util.Set2size()*
-17
-11*∏
-0 "∞
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java∑ ∑(
-implicit return*©
-1ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java∂ ∂('"à
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java∂ ∂((k
-i
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*√	
-2ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¥ ¥(±
-Æ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¥ ¥(8
-%811java.util.concurrent.locks.ReentrantReadWriteLock"__id*Q*OC
-Aorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl"
-rwLock£†
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¥ ¥(A
-%82:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*:
-8
-%811java.util.concurrent.locks.ReentrantReadWriteLock2
-readLock()¿Ω
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¥ ¥(&
-%83void"Djava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#unlock()V*C
-A
-%82:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2unlock()*
-0
-1*ˆ
-startingBlockò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‹G ›(3Î
-Ë
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java€ €(
-%84"
-__annotate*
-java.lang.Override* 
-
-ensembleListjava.util.List’
-“
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java‹b ‹(n
-ensembleListjava.util.List"__annotation*
-
-%84*
-71*ò
-4ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaØ3 Ø(KÇ
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaØ3 Ø(KT
-%79Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaØ3 Ø(VT
-%80Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Á
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaØ Ø(Vi
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
-T
-%80Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*
-54*±
-5ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÆ Æ(0Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÆ4 Æ(LT
-%77Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÆ4 Æ(YT
-%78Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""*
-4
-54*©
-6ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¨ ¨(7"à
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java¨ ¨(8k
-i
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*‘
-7ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java© ©(≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java© ©(
-%74org.slf4j.Logger"__id*
-""»
-≈
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java©& ™(\
-%75java.lang.String"__concat*KI
-Gin ensemble: {}, writeset starting at: {} doesn't maintain min of 2 UDs*86
-4 when there are multiple bookies from the same zone.õò
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java© ™(n
-%76void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%74org.slf4j.Logger*
-
-%75java.lang.String* 
-
-ensembleListjava.util.List*
-""2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-6*‰
-9ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaß3 ß(KÇ
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaß3 ß(KT
-%70Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaß3 ß(PT
-%71Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Á
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaß ß(Pi
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
-T
-%71Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java® ®(
-%72org.slf4j.Logger"__id*
-""ˇ¸
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.java® ®(0
-%73boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%72org.slf4j.Logger2isDebugEnabled()*
-6
-7*Á
-60ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÓ+ Ó(CÇ
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÓ+ Ó(CT
-%17Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÓ+ Ó(HT
-%18Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Á
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÓ Ó(Hi
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
-T
-%18Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÔ Ô(
-%19org.slf4j.Logger"__id*
-""ˇ¸
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÔ Ô((
-%20boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%19org.slf4j.Logger2isDebugEnabled()*
-57
-58*™
-62ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÎ Î(/"à
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÎ Î(0k
-i
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*Â
-63ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÈ? È(NΩ∫
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÁ È(O
-%16void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%14org.slf4j.Logger*OM
-KFor ensemble: {}, ensembleSize: {} is not a multiple of writeQuorumSize: {}* 
-
-ensembleListjava.util.List*
-
-
-%15int*
-""2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
-62*‹
-64ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÁ Á(≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÁ Á(
-%14org.slf4j.Logger"__id*
-""ÏÈ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÈ* È(=
-
-%15int"java.util.List#size()I* 
-
-ensembleListjava.util.List2size()*
-63*¡
-20ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaú ú(.ôñ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaú ú(9
-%59java.util.Set"+java.util.HashMap#entrySet()Ljava/util/Set;**
-(
-numOfBookiesInZonesjava.util.HashMap2
-entrySet()*
-19*™
-21ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaõ õ(3"à
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaõ õ(4k
-i
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*Á
-66ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÂ+ Â(CÇ
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÂ+ Â(CT
-%10Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Ç
-ˇ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÂ+ Â(HT
-%11Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*
-""Á
-‰
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÂ Â(Hi
-placementPolicyAdherenceMorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"__id*V
-T
-%11Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÊ Ê(
-%12org.slf4j.Logger"__id*
-""ˇ¸
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaÊ Ê((
-%13boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%12org.slf4j.Logger2isDebugEnabled()*
-62
-64*•
-22ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaò ò(≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaò ò(
-%56org.slf4j.Logger"__id*
-""±
-Æ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaò" ô(B
-%57java.lang.String"__concat*JH
-Fin ensemble: {}, writeset starting at: {} doesn't contain bookies from*" 
- minNumZonesPerWriteQuorum: {}Å˛
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ZoneawareEnsemblePlacementPolicyImpl.javaò ô(o
-%58void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%56org.slf4j.Logger*
-
-%57java.lang.String* 
-
-ensembleListjava.util.List*
-""*
-""2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
-21:
-ensembleListjava.util.List:
-"":
-""BEC
-Aorg.apache.bookkeeper.client.ZoneawareEnsemblePlacementPolicyImpl

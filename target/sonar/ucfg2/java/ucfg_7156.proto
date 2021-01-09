@@ -1,233 +1,0 @@
-
-uorg.apache.bookkeeper.bookie.Journal#checkpointComplete(Lorg/apache/bookkeeper/bookie/CheckpointSource$Checkpoint;Z)Vz
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaã ã(""startingBlock*Š
-2z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaù ù(¦
-£
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaù ù(
-%19org.slf4j.Logger"__id*
-""ìé
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaù@ ù(U
-%20java.lang.String"(java.io.File#getName()Ljava/lang/String;*
-
-journalFilejava.io.File2	getName()Ý
-Ú
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaù! ù(U
-%21java.lang.String"__concat*
-garbage collected journal *
-
-%20java.lang.Stringˆ…
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaù ù(V
-%22void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
-
-%19org.slf4j.Logger*
-
-%21java.lang.String2info(Ljava/lang/String;)*
-5
-0*Š
-3z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java÷ ÷(¦
-£
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java÷ ÷(
-%17org.slf4j.Logger"__id*
-""Ú×
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java÷ ÷(Y
-%18void"<org.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%17org.slf4j.Logger*(&
-$Could not delete old journal file {}*
-
-journalFilejava.io.File2*warn(Ljava/lang/String;Ljava/lang/Object;)*
-2*ì
-startingBlockz
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaã" ã(Jô
-ñ
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaâ â(
-%23"
-__annotate*
-java.lang.Override*H
-F
-
-checkpoint8org.apache.bookkeeper.bookie.CheckpointSource$CheckpointÞ
-Û
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaã. ã(8F
-
-checkpoint8org.apache.bookkeeper.bookie.CheckpointSource$Checkpoint"__annotation*
-
-%23*
-9
-10*Ô
-4z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaõ4 õ(DÚ
-×
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaõ4 õ(D
-%11java.io.File"__id*>*<&
-$org.apache.bookkeeper.bookie.Journal"
-journalDirectoryå
-â
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaõF õ(Z
-%12java.lang.String"/java.lang.Long#toHexString(J)Ljava/lang/String;*"
-java.lang.Long*
-""Ç
-Ä
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaõF õ(c
-%13java.lang.String"__concat*
-
-%12java.lang.String*
-.txn¢Ÿ
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaõ/ õ(3
-%14java.io.File"java.io.File‡
-„
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaõ+ õ(d
-%15"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
-
-%14java.io.File*
-
-%11java.io.File*
-
-%13java.lang.String¹
-¶
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaõ õ(e
-journalFilejava.io.File"__id*
-
-%14java.io.FileÐÍ
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaö ö(1
-%16boolean"java.io.File#delete()Z*
-
-journalFilejava.io.File2delete()*
-2
-3*°
-5z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaò ò("Ã
-À
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaò ò()
-%8java.lang.Long"
-__arrayGet*
-
-logsjava.util.List*
-""Ú×
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaô ô(.*
-%9$org.apache.bookkeeper.bookie.LogMark"corg.apache.bookkeeper.bookie.Journal$LastLogMark#getCurMark()Lorg/apache/bookkeeper/bookie/LogMark;*:
-8
-mark0org.apache.bookkeeper.bookie.Journal$LastLogMark2getCurMark()€ý
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaô ô(=
-%10long"4org.apache.bookkeeper.bookie.LogMark#getLogFileId()J*,
-*
-%9$org.apache.bookkeeper.bookie.LogMark2getLogFileId()*	
-4
-5
-0*Î
-7z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javað ð(!ÄÁ
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javað ð((	
-%7int"java.util.List#size()I*
-
-logsjava.util.List2size()*
-5
-0*…
-8z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaí í(,Ù
-Ö
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaí- í(=
-%2java.io.File"__id*>*<&
-$org.apache.bookkeeper.bookie.Journal"
-journalDirectoryûø
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaíC í(W?
-%39org.apache.bookkeeper.bookie.Journal$JournalRollingFilter"9org.apache.bookkeeper.bookie.Journal$JournalRollingFilterû
-ø
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaí? í(]
-%4"uorg.apache.bookkeeper.bookie.Journal$JournalRollingFilter#<init>(Lorg/apache/bookkeeper/bookie/Journal$LastLogMark;)V*A
-?
-%39org.apache.bookkeeper.bookie.Journal$JournalRollingFilter*:
-8
-mark0org.apache.bookkeeper.bookie.Journal$LastLogMark¤
-¡
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaí í(^
-%5java.util.List"‰org.apache.bookkeeper.bookie.Journal#listJournalIds(Ljava/io/File;Lorg/apache/bookkeeper/bookie/Journal$JournalIdFilter;)Ljava/util/List;*("&
-$org.apache.bookkeeper.bookie.Journal*
-
-%2java.io.File*A
-?
-%39org.apache.bookkeeper.bookie.Journal$JournalRollingFilterµ
-²
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaí í(_
-logsjava.util.List"__id*
-
-%5java.util.ListÄÁ
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaï ï(	
-%6int"java.util.List#size()I*
-
-logsjava.util.List2size()*
-7
-0*ã
-
-9z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaç= ç(G—
-”
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaç ç(HF
-lmcheckpoint6org.apache.bookkeeper.bookie.Journal$LogMarkCheckpoint"__id*H
-F
-
-checkpoint8org.apache.bookkeeper.bookie.CheckpointSource$Checkpoint‘
-Ž
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaè è(,6
-%00org.apache.bookkeeper.bookie.Journal$LastLogMark"__id*R*P
-F
-lmcheckpoint6org.apache.bookkeeper.bookie.Journal$LogMarkCheckpoint"
-markù
-ö
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaè è(-8
-mark0org.apache.bookkeeper.bookie.Journal$LastLogMark"__id*8
-6
-%00org.apache.bookkeeper.bookie.Journal$LastLogMark¯¬
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaê ê(
-
-%1void"morg.apache.bookkeeper.bookie.Journal$LastLogMark#rollLog(Lorg/apache/bookkeeper/bookie/Journal$LastLogMark;)V*:
-8
-mark0org.apache.bookkeeper.bookie.Journal$LastLogMark*:
-8
-mark0org.apache.bookkeeper.bookie.Journal$LastLogMark2;rollLog(Lorg/apache/bookkeeper/bookie/Journal$LastLogMark;)*
-8
-0*‡
-10z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaå å("„
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaå å(
-""*™
-0 "‘
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaþ þ(
-implicit return:F
-
-checkpoint8org.apache.bookkeeper.bookie.CheckpointSource$Checkpoint:
-""B(&
-$org.apache.bookkeeper.bookie.Journal

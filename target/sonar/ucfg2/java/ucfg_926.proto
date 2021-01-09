@@ -1,94 +1,0 @@
-
-§org.apache.bookkeeper.common.grpc.stats.MonitoringClientInterceptor#interceptCall(Lio/grpc/MethodDescriptor;Lio/grpc/CallOptions;Lio/grpc/Channel;)Lio/grpc/ClientCall;”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaL1 L(>"startingBlock*á
-startingBlock”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaL> M(Tê
-ç
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaK K(
-%4"
-__annotate*
-java.lang.Override*$
-"
-methodio.grpc.MethodDescriptorÔ
-Ñ
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaM& M(,"
-methodio.grpc.MethodDescriptor"__annotation*
-
-%4ê
-ç
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaK K(
-%5"
-__annotate*
-java.lang.Override*$
-"
-callOptionsio.grpc.CallOptionsÔ
-Ñ
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaM: M(E"
-callOptionsio.grpc.CallOptions"__annotation*
-
-%5ß
-Ü
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaK K(
-%6"
-__annotate*
-java.lang.Override*
-
-nextio.grpc.ChannelÉ
-Æ
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaMO M(S
-nextio.grpc.Channel"__annotation*
-
-%6*
-1*±
-1”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaN N(*ê
-ç
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaN N(29
-%03org.apache.bookkeeper.common.grpc.stats.ClientStats"£org.apache.bookkeeper.common.grpc.stats.MonitoringClientInterceptor#getMethodStats(Lio/grpc/MethodDescriptor;)Lorg/apache/bookkeeper/common/grpc/stats/ClientStats;*GE
-Corg.apache.bookkeeper.common.grpc.stats.MonitoringClientInterceptor*$
-"
-methodio.grpc.MethodDescriptor›
-˜
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaN N(3<
-stats3org.apache.bookkeeper.common.grpc.stats.ClientStats"__id*;
-9
-%03org.apache.bookkeeper.common.grpc.stats.ClientStats³°
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaP P(-
-%1io.grpc.ClientCall"\io.grpc.Channel#newCall(Lio/grpc/MethodDescriptor;Lio/grpc/CallOptions;)Lio/grpc/ClientCall;*
-
-nextio.grpc.Channel*$
-"
-methodio.grpc.MethodDescriptor*$
-"
-callOptionsio.grpc.CallOptions28newCall(Lio/grpc/MethodDescriptor;Lio/grpc/CallOptions;)œ™
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaO O()B
-%2<org.apache.bookkeeper.common.grpc.stats.MonitoringClientCall"<org.apache.bookkeeper.common.grpc.stats.MonitoringClientCallÔ
-Ñ
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaO R(	
-%3"org.apache.bookkeeper.common.grpc.stats.MonitoringClientCall#<init>(Lio/grpc/ClientCall;Lorg/apache/bookkeeper/common/grpc/stats/ClientStats;)V*D
-B
-%2<org.apache.bookkeeper.common.grpc.stats.MonitoringClientCall*
-
-%1io.grpc.ClientCall*>
-<
-stats3org.apache.bookkeeper.common.grpc.stats.ClientStats"Ý
-”
-‰/home/valentina/Scrivania/Bookkeeper/stream/common/src/main/java/org/apache/bookkeeper/common/grpc/stats/MonitoringClientInterceptor.javaO R(
-D
-B
-%2<org.apache.bookkeeper.common.grpc.stats.MonitoringClientCall:"
-methodio.grpc.MethodDescriptor:"
-callOptionsio.grpc.CallOptions:
-nextio.grpc.ChannelBGE
-Corg.apache.bookkeeper.common.grpc.stats.MonitoringClientInterceptor

@@ -1,196 +1,0 @@
-
-}org.apache.bookkeeper.proto.PerChannelBookieClient#readV3Response(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response;)Và
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaî î("5*í
-2à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java° °(.î
-ë
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¢ ¢(8
-%181org.apache.bookkeeper.common.util.OrderedExecutor"__id*D*B4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-
-executorÅ˛
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¢5 ¢(A;
-%194org.apache.bookkeeper.proto.PerChannelBookieClient$5"4org.apache.bookkeeper.proto.PerChannelBookieClient$5á
-Ñ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¢1 Ø(
-%20"1org.apache.bookkeeper.util.SafeRunnable#<init>()V*=
-;
-%194org.apache.bookkeeper.proto.PerChannelBookieClient$5◊‘
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¢ Ø(
-%21void"torg.apache.bookkeeper.common.util.OrderedExecutor#executeOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)V*:
-8
-%181org.apache.bookkeeper.common.util.OrderedExecutor*
-""*=
-;
-%194org.apache.bookkeeper.proto.PerChannelBookieClient$52AexecuteOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)*
-1*ƒ
-3à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù ù(¥
-±
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù ù(
-%8org.slf4j.Logger"__id*
-""ã
-à
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaùJ ù(N3
-%9-org.apache.bookkeeper.net.BookieSocketAddress"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-addrô
-ñ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù ù(N
-%10java.lang.String"__concat*/-
-+Unexpected response received from bookie : *5
-3
-%9-org.apache.bookkeeper.net.BookieSocketAddressﬁ
-€
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù ù(_
-%11java.lang.String"__concat*
-
-%10java.lang.String*
- for type : ª∏
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaû û(/C
-%12<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"äorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getOperation()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;*I
-G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2getOperation()ì
-ê
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù û(/
-%13java.lang.String"__concat*
-
-%11java.lang.String*E
-C
-%12<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationTypeﬂ
-‹
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù û(A
-%14java.lang.String"__concat*
-
-%13java.lang.String*
- and txnId : Ω∫
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaûD û(U
-%15long"Iorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getTxnId()J*I
-G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2
-getTxnId()€
-ÿ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù û(U
-%16java.lang.String"__concat*
-
-%14java.lang.String*
-
-%15longòï
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaù û(V
-%17void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%8org.slf4j.Logger*
-
-%16java.lang.String2debug(Ljava/lang/String;)*
-1*Ω
-4à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaú ú(¥
-±
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaú ú(
-%6org.slf4j.Logger"__id*
-""ÌÍ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaú ú($
-%7boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%6org.slf4j.Logger2isDebugEnabled()*
-3
-1*‰
-5à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaï& ï(.¨©
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaï& ï(:C
-%0=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Çorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*E
-C
-response7org.apache.bookkeeper.proto.BookkeeperProtocol$Response2getHeader()§
-°
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaï ï(;G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"__id*E
-C
-%0=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeaderºπ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaó3 ó(D
-
-%1long"Iorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getTxnId()J*I
-G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2
-getTxnId()∫∑
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaóF ó([B
-%2<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"äorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getOperation()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;*I
-G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2getOperation()˛˚
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaó" ó(\F
-%3@org.apache.bookkeeper.proto.PerChannelBookieClient$CompletionKey"∆org.apache.bookkeeper.proto.PerChannelBookieClient#newCompletionKey(JLorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;)Lorg/apache/bookkeeper/proto/PerChannelBookieClient$CompletionKey;*64
-2org.apache.bookkeeper.proto.PerChannelBookieClient*
-
-
-%1long*D
-B
-%2<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType2QnewCompletionKey(JLorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;)ß
-§
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaó ó(]G
-key@org.apache.bookkeeper.proto.PerChannelBookieClient$CompletionKey"__id*H
-F
-%3@org.apache.bookkeeper.proto.PerChannelBookieClient$CompletionKeyß
-§
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaò0 ò(AB
-%4<org.apache.bookkeeper.util.collections.ConcurrentOpenHashMap"__id*M*K4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-completionObjectsÍÁ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaò0 ò(JH
-%5Borg.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue"forg.apache.bookkeeper.util.collections.ConcurrentOpenHashMap#get(Ljava/lang/Object;)Ljava/lang/Object;*D
-B
-%4<org.apache.bookkeeper.util.collections.ConcurrentOpenHashMap*I
-G
-key@org.apache.bookkeeper.proto.PerChannelBookieClient$CompletionKey2get(Ljava/lang/Object;)∑
-¥
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaò ò(KU
-completionValueBorg.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue"__id*J
-H
-%5Borg.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue*
-2
-4*®
-0 "†
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≥ ≥(
-implicit return*≥
-1à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≤ ≤(®
-•
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≤ ≤(C
-%22<org.apache.bookkeeper.util.collections.ConcurrentOpenHashMap"__id*M*K4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-completionObjectsÚÔ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≤ ≤(%I
-%23Borg.apache.bookkeeper.proto.PerChannelBookieClient$CompletionValue"iorg.apache.bookkeeper.util.collections.ConcurrentOpenHashMap#remove(Ljava/lang/Object;)Ljava/lang/Object;*E
-C
-%22<org.apache.bookkeeper.util.collections.ConcurrentOpenHashMap*I
-G
-key@org.apache.bookkeeper.proto.PerChannelBookieClient$CompletionKey2remove(Ljava/lang/Object;)*
-0:C
-response7org.apache.bookkeeper.proto.BookkeeperProtocol$ResponseB64
-2org.apache.bookkeeper.proto.PerChannelBookieClient

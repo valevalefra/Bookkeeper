@@ -1,176 +1,0 @@
-
-vorg.apache.bookkeeper.bookie.EntryLogManagerForEntryLogPerLedger#getDirForNextEntryLog(Ljava/util/List;)Ljava/io/File;ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java∏ ∏(%"startingBlock*ë
-2ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaº º(@§
-°
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaº º(@w
-logChannelWithDirInfo^org.apache.bookkeeper.bookie.EntryLogManagerForEntryLogPerLedger$BufferedLogChannelWithDirInfo"__id*
-""¬
-ø
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaº º(@w
-logChannelWithDirInfo^org.apache.bookkeeper.bookie.EntryLogManagerForEntryLogPerLedger$BufferedLogChannelWithDirInfo"
-__arrayGet*
-
-%5java.util.List*
-""*
-4
-1*â
-3ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaø ø(*∫
-∑
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaø ø(L2
-%10+org.apache.commons.lang3.mutable.MutableInt"__mapGet*-
-+
-writableLedgerDirFrequencyjava.util.Map*.
-,
-parentDirOfCurrentLogChanneljava.io.Fileß§
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaø ø(X
-%11void"8org.apache.commons.lang3.mutable.MutableInt#increment()V*4
-2
-%10+org.apache.commons.lang3.mutable.MutableInt2increment()*
-2*˛
-startingBlockó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java∏% ∏(D
-Ì
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java∑ ∑(
-%18"
-__annotate*
-java.lang.Override*&
-$
-writableLedgerDirsjava.util.List⁄
-◊
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java∏1 ∏(C$
-writableLedgerDirsjava.util.List"__annotation*
-
-%18*
-6*Ò
-4ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaΩ0 Ω(Eöó
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaΩ0 Ω(UA
-%6;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel"´org.apache.bookkeeper.bookie.EntryLogManagerForEntryLogPerLedger$BufferedLogChannelWithDirInfo#getLogChannel()Lorg/apache/bookkeeper/bookie/EntryLogger$BufferedLogChannel;*y
-w
-logChannelWithDirInfo^org.apache.bookkeeper.bookie.EntryLogManagerForEntryLogPerLedger$BufferedLogChannelWithDirInfo2getLogChannel()‹Ÿ
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaΩ0 Ω(b
-%7java.io.File"Vorg.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel#getLogFile()Ljava/io/File;*C
-A
-%6;org.apache.bookkeeper.bookie.EntryLogger$BufferedLogChannel2getLogFile()ÑÅ
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaΩ0 Ω(r
-%8java.io.File"*java.io.File#getParentFile()Ljava/io/File;*
-
-%7java.io.File2getParentFile()Á
-‰
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaΩ Ω(s,
-parentDirOfCurrentLogChanneljava.io.File"__id*
-
-%8java.io.File‹Ÿ
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaæ æ(T
-%9boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*-
-+
-writableLedgerDirFrequencyjava.util.Map*.
-,
-parentDirOfCurrentLogChanneljava.io.File2containsKey(Ljava/lang/Object;)*
-2
-3*–
-5ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaºC º(^Œ
-À
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaºC º(^B
-%4<org.apache.bookkeeper.util.collections.ConcurrentLongHashMap"__id*e*cB
-@org.apache.bookkeeper.bookie.EntryLogManagerForEntryLogPerLedger"
-replicaOfCurrentLogChannels⁄◊
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaºC º(g
-%5java.util.List"Uorg.apache.bookkeeper.util.collections.ConcurrentLongHashMap#values()Ljava/util/List;*D
-B
-%4<org.apache.bookkeeper.util.collections.ConcurrentLongHashMap2values()*
-2*°
-6ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaπ; π(Z…∆
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaπ? π(X
-%0java.util.HashMap"java.util.HashMap€
-ÿ
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaπ; π(Z
-%1"java.util.HashMap#<init>()V*
-
-%0java.util.HashMapÎ
-Ë
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaπ π([+
-writableLedgerDirFrequencyjava.util.Map"__id*
-
-%0java.util.HashMap¶£
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java∫ ∫(#
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*&
-$
-writableLedgerDirsjava.util.List2stream()ª∏
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java∫ ª(d
-
-%3void"?java.util.stream.Stream#forEach(Ljava/util/function/Consumer;)V*
-
-%2java.util.stream.Stream*
-""2&forEach(Ljava/util/function/Consumer;)*
-5*∞
-1ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java√O √(ióî
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java√O √(t
-%12java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*-
-+
-writableLedgerDirFrequencyjava.util.Map2
-entrySet()óî
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java√O ƒ(
-%13java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
-
-%12java.util.Set2stream()ë
-é
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.javaƒ ƒ(:
-%14java.util.Comparator"<java.util.Map$Entry#comparingByValue()Ljava/util/Comparator;*"
-java.util.Map$Entryﬂ‹
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java√O ƒ(;
-%15java.util.Optional"Gjava.util.stream.Stream#min(Ljava/util/Comparator;)Ljava/util/Optional;* 
-
-%13java.util.stream.Stream*
-
-%14java.util.Comparator2min(Ljava/util/Comparator;)˙
-˜
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java¬ ƒ(<8
-"ledgerDirWithLeastNumofCurrentLogsjava.util.Optional"__id*
-
-%15java.util.Optional®•
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java≈ ≈(7
-%16java.util.Map$Entry"*java.util.Optional#get()Ljava/lang/Object;*:
-8
-"ledgerDirWithLeastNumofCurrentLogsjava.util.Optional2get()äá
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java≈ ≈(@
-%17java.io.File".java.util.Map$Entry#getKey()Ljava/lang/Object;*
-
-%16java.util.Map$Entry2getKey()"±
-ó
-ä/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogManagerForEntryLogPerLedger.java≈ ≈(A
-
-%17java.io.File:$
-writableLedgerDirsjava.util.ListBDB
-@org.apache.bookkeeper.bookie.EntryLogManagerForEntryLogPerLedger

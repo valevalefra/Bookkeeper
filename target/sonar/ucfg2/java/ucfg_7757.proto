@@ -1,139 +1,0 @@
-
-=org.apache.bookkeeper.streaming.LedgerInputStream#read([BII)I‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java ( "startingBlock*«
-2‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¨ ¨("ó
-ğ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¨ ¨("
-%3java.nio.ByteBuffer"__id*C*A3
-1org.apache.bookkeeper.streaming.LedgerInputStream"
-
-bytebuffàİ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¨ ¨(.	
-%4int"java.nio.Buffer#remaining()I*
-
-%3java.nio.ByteBuffer2remaining()Õ
-Ò
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java© ©(/	
-%5int"java.lang.Math#min(II)I*"
-java.lang.Math*
-""*
-""ä
-á
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.javaª ª(#
-%6byte[]"__id*A*?3
-1org.apache.bookkeeper.streaming.LedgerInputStream"
-bbytesó
-ğ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.javaª% ª(-
-%7java.nio.ByteBuffer"__id*C*A3
-1org.apache.bookkeeper.streaming.LedgerInputStream"
-
-bytebuffŞÛ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.javaª% ª(8	
-%8int"java.nio.Buffer#position()I*
-
-%7java.nio.ByteBuffer2
-position()±
-®
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.javaª ª(I
-
-%9void"Djava.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V*"
-java.lang.System*
-
-%6byte[]*
-	
-%8int*
-
-bbyte[]*
-""*
-""ô
-ñ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java« «(
-%10java.nio.ByteBuffer"__id*C*A3
-1org.apache.bookkeeper.streaming.LedgerInputStream"
-
-bytebuffô
-ñ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java« «(&
-%11java.nio.ByteBuffer"__id*C*A3
-1org.apache.bookkeeper.streaming.LedgerInputStream"
-
-bytebuffàİ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java« «(1
-
-%12int"java.nio.Buffer#position()I*
-
-%11java.nio.ByteBuffer2
-position()’
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java« «(;
-%13java.nio.ByteBuffer"4java.nio.ByteBuffer#position(I)Ljava/nio/ByteBuffer;*
-
-%10java.nio.ByteBuffer*
-""2position(I)"’
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¬ ¬(
-""*œ
-startingBlock‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java  (<Ç
-Ä
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java (
-%14"
-__annotate*
-java.lang.Override*
-
-bbyte[]±
-®
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java( ()
-bbyte[]"__annotation*
-
-%14*
-5*¨
-4‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¥ ¥(
-
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¥ ¥(
-%2boolean";org.apache.bookkeeper.streaming.LedgerInputStream#refill()Z*53
-1org.apache.bookkeeper.streaming.LedgerInputStream*
-2
-1*ñ
-5‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java£ £(ó
-ğ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¤ ¤(
-%0java.nio.ByteBuffer"__id*C*A3
-1org.apache.bookkeeper.streaming.LedgerInputStream"
-
-bytebuffàİ
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java¤ ¤( 	
-%1int"java.nio.Buffer#remaining()I*
-
-%0java.nio.ByteBuffer2remaining()*	
-2
-4
-1*¢
-1‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java® ®("’
-‡
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java® ®(
-"":
-bbyte[]:
-"":
-""B53
-1org.apache.bookkeeper.streaming.LedgerInputStream

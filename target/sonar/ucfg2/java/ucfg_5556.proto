@@ -1,345 +1,0 @@
-
-Torg.apache.bookkeeper.net.NetworkTopologyImpl#add(Lorg/apache/bookkeeper/net/Node;)VÉ
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaì ì("startingBlock*ö
-13É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java™ ™(∞
-≠
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java™ ™(
-%25org.slf4j.Logger"__id*
-""‘
-—
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java™1 ™(G
-%26java.lang.String"^org.apache.bookkeeper.net.NodeBase#getPath(Lorg/apache/bookkeeper/net/Node;)Ljava/lang/String;*&"$
-"org.apache.bookkeeper.net.NodeBase*(
-&
-nodeorg.apache.bookkeeper.net.Node*
-12*ø
-24É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java†3 †(Oß
-§
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java†3 °(q
-%12java.lang.String"__concat*
-Invalid network topology. *YW
-UYou cannot have a rack and a non-rack node at the same level of the network topology.†ù
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java† †(2M
-%13Forg.apache.bookkeeper.net.NetworkTopologyImpl$InvalidTopologyException"Forg.apache.bookkeeper.net.NetworkTopologyImpl$InvalidTopologyException‡
-›
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java† °(r
-%14"borg.apache.bookkeeper.net.NetworkTopologyImpl$InvalidTopologyException#<init>(Ljava/lang/String;)V*O
-M
-%13Forg.apache.bookkeeper.net.NetworkTopologyImpl$InvalidTopologyException*
-
-%12java.lang.String*
-1*˘
-25É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaü ü(∞
-≠
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaü ü(
-%10org.slf4j.Logger"__id*
-""≥∞
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaü ü(s
-%11void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%10org.slf4j.Logger*><
-:Error: can't add leaf node {} at depth {} to topology:\n{}*(
-&
-nodeorg.apache.bookkeeper.net.Node*
-""* 
-
-
-oldTopoStrjava.lang.String2,error(Ljava/lang/String;[Ljava/lang/Object;)*
-24*∑
-15É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java© ©(í
-è
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java© ©(>
-%237org.apache.bookkeeper.net.NetworkTopologyImpl$InnerNode"__id*A*?/
--org.apache.bookkeeper.net.NetworkTopologyImpl"
-
-clusterMapåâ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java© ©($
-%24boolean"^org.apache.bookkeeper.net.NetworkTopologyImpl$InnerNode#add(Lorg/apache/bookkeeper/net/Node;)Z*@
->
-%237org.apache.bookkeeper.net.NetworkTopologyImpl$InnerNode*(
-&
-nodeorg.apache.bookkeeper.net.Node2%add(Lorg/apache/bookkeeper/net/Node;)*
-13
-5*Ÿ
-17É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¶3 ¶(\‚
-ﬂ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¶3 ¶(\
-%19java.lang.String"__concat*
-Unexpected data node *
-
-%18java.lang.StringÏ
-È
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¶3 ß(;
-%20java.lang.String"__concat*
-
-%19java.lang.String*#!
- at an illegal network locationÿ’
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¶ ¶(2)
-%21"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionò
-ï
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¶ ß(<
-%22">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*+
-)
-%21"java.lang.IllegalArgumentException*
-
-%20java.lang.String*
-1*û
-28É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaõ õ(®•
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaõ0 õ(I
-%5java.lang.String"Eorg.apache.bookkeeper.net.Node#getNetworkLocation()Ljava/lang/String;*(
-&
-nodeorg.apache.bookkeeper.net.Node2getNetworkLocation()ü
-ú
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaõ õ(J	
-%6int"Gorg.apache.bookkeeper.net.NodeBase#locationToDepth(Ljava/lang/String;)I*&"$
-"org.apache.bookkeeper.net.NodeBase*
-
-%5java.lang.Stringˇ
-¸
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaú ú(.
-%7(java.util.concurrent.locks.ReadWriteLock"__id*>*</
--org.apache.bookkeeper.net.NetworkTopologyImpl"	
-netlock∆√
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaú ú(%
-%8java.util.concurrent.locks.Lock"Ujava.util.concurrent.locks.ReadWriteLock#writeLock()Ljava/util/concurrent/locks/Lock;*0
-.
-%7(java.util.concurrent.locks.ReadWriteLock2writeLock()ÔÏ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaú ú("
-
-%9void"'java.util.concurrent.locks.Lock#lock()V*'
-%
-%8java.util.concurrent.locks.Lock2lock()*
-25
-22*ö
-18É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¶3 ¶(JáÑ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¶M ¶(\
-%18java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*(
-&
-nodeorg.apache.bookkeeper.net.Node2
-toString()*
-17*≈	
-29É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaô/ ô(Q”
-–
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaôT ô(j
-%1java.lang.String"^org.apache.bookkeeper.net.NodeBase#getPath(Lorg/apache/bookkeeper/net/Node;)Ljava/lang/String;*&"$
-"org.apache.bookkeeper.net.NodeBase*(
-&
-nodeorg.apache.bookkeeper.net.NodeÎ
-Ë
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaô/ ô(j
-%2java.lang.String"__concat*$"
- Not allow to add an inner node: *
-
-%1java.lang.String◊‘
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaô ô(.(
-%3"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionï
-í
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaô ô(k
-%4">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V**
-(
-%3"java.lang.IllegalArgumentException*
-
-%2java.lang.String*
-0*…
-19É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java• •(∞
-≠
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java• •(
-%16org.slf4j.Logger"__id*
-""ÉÄ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java• •(Y
-%17void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%16org.slf4j.Logger*:8
-6Unexpected data node {} at an illegal network location*(
-&
-nodeorg.apache.bookkeeper.net.Node2+error(Ljava/lang/String;Ljava/lang/Object;)*
-18*£
-0 "õ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java∫ ∫(
-implicit return*‘
-1É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java∏ ∏(Ä
-˝
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java∏ ∏(/
-%36(java.util.concurrent.locks.ReadWriteLock"__id*>*</
--org.apache.bookkeeper.net.NetworkTopologyImpl"	
-netlock»≈
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java∏ ∏(&
-%37java.util.concurrent.locks.Lock"Ujava.util.concurrent.locks.ReadWriteLock#writeLock()Ljava/util/concurrent/locks/Lock;*1
-/
-%36(java.util.concurrent.locks.ReadWriteLock2writeLock()ıÚ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java∏ ∏((
-%38void")java.util.concurrent.locks.Lock#unlock()V*(
-&
-%37java.util.concurrent.locks.Lock2unlock()*
-0*é
-2É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaµ µ(GÊ
-„
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaµ µ(G
-%34java.lang.String"__concat*
-NetworkTopology became:\n*
-
-%33java.lang.Stringîë
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaµ µ(H
-%35void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%32org.slf4j.Logger*
-
-%34java.lang.String2debug(Ljava/lang/String;)*
-1*Ò
-3É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaµ µ(∞
-≠
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaµ µ(
-%32org.slf4j.Logger"__id*
-""≠™
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaµ8 µ(G
-%33java.lang.String"Jorg.apache.bookkeeper.net.NetworkTopologyImpl#toString()Ljava/lang/String;*1/
--org.apache.bookkeeper.net.NetworkTopologyImpl2
-toString()*
-2*À
-startingBlockÉ
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaì ì(ﬁ
-€
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaí í(
-%39"
-__annotate*
-java.lang.Override*(
-&
-nodeorg.apache.bookkeeper.net.Node»
-≈
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaì ì(&
-nodeorg.apache.bookkeeper.net.Node"__annotation*
-
-%39*
-30
-31*±
-5É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¥ ¥(∞
-≠
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¥ ¥(
-%30org.slf4j.Logger"__id*
-""ÍÁ
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java¥ ¥($
-%31boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%30org.slf4j.Logger2isDebugEnabled()*
-3
-1*à
-7É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java∞+ ∞(/˜Ù
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java∞+ ∞(:
-
-%29int"*org.apache.bookkeeper.net.Node#getLevel()I*(
-&
-nodeorg.apache.bookkeeper.net.Node2
-getLevel()*
-5*è
-30É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaó ó( ¨©
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaó ó(+
-%0java.lang.String"Jorg.apache.bookkeeper.net.NetworkTopologyImpl#toString()Ljava/lang/String;*1/
--org.apache.bookkeeper.net.NetworkTopologyImpl2
-toString()…
-∆
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaó ó(,
-
-oldTopoStrjava.lang.String"__id*
-
-%0java.lang.String*
-28
-29*õ
-31É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaï ï("é
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.javaï ï(
-""*˜
-21É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java£ £(8‡
-›
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java£ £(8&
-rackorg.apache.bookkeeper.net.Node"__id*'
-%
-%15org.apache.bookkeeper.net.Node*
-15
-19*È
-22É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java£ £(1÷”
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java£ £(7%
-%15org.apache.bookkeeper.net.Node"âorg.apache.bookkeeper.net.NetworkTopologyImpl#getNodeForNetworkLocation(Lorg/apache/bookkeeper/net/Node;)Lorg/apache/bookkeeper/net/Node;*1/
--org.apache.bookkeeper.net.NetworkTopologyImpl*(
-&
-nodeorg.apache.bookkeeper.net.Node2;getNodeForNetworkLocation(Lorg/apache/bookkeeper/net/Node;)*
-21*ä
-12É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java™ ™(G‡
-›
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java™ ™(G
-%27java.lang.String"__concat*
-Adding a new node: *
-
-%26java.lang.Stringíè
-É
-w/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/net/NetworkTopologyImpl.java™ ™(H
-%28void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
-
-%25org.slf4j.Logger*
-
-%27java.lang.String2info(Ljava/lang/String;)*
-5
-7:&
-nodeorg.apache.bookkeeper.net.NodeB1/
--org.apache.bookkeeper.net.NetworkTopologyImpl

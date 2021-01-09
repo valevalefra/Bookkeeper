@@ -1,41 +1,0 @@
-
-`org.apache.bookkeeper.metadata.etcd.EtcdUtils#parseLedgerKey(Ljava/lang/String;)Ljava/util/UUID;…
-{/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdUtils.javaQ Q("1*º
-
-1…
-{/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdUtils.javaR R('Ì
-É
-…
-{/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdUtils.javaR R(=
-%0java.lang.String[]"Rorg.apache.commons.lang3.StringUtils#split(Ljava/lang/String;C)[Ljava/lang/String;*("&
-$org.apache.commons.lang3.StringUtils*
-
-	ledgerKeyjava.lang.String*
-""Í
-Ê
-…
-{/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdUtils.javaR R(>
-keyPartsjava.lang.String[]"__id*
-
-%0java.lang.String[]Ù
-Ö
-…
-{/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdUtils.javaS S(<
-%1java.lang.String"
-__arrayGet* 
-
-keyPartsjava.lang.String[]*
-""Ž
-‹
-…
-{/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdUtils.javaS S(=
-%2java.util.UUID"=java.util.UUID#fromString(Ljava/lang/String;)Ljava/util/UUID;*"
-java.util.UUID*
-
-%1java.lang.String" 
-…
-{/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdUtils.javaS S(>
-
-%2java.util.UUID:
-	ledgerKeyjava.lang.StringB1"/
--org.apache.bookkeeper.metadata.etcd.EtcdUtils

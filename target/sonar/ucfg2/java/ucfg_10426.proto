@@ -1,108 +1,0 @@
-
-œorg.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl#selectFromNetworkLocation(Ljava/lang/String;Ljava/util/Set;Ljava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;Z)Lorg/apache/bookkeeper/net/BookieNode;ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaã ã(/"startingBlock*Í
-3ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaî î(Y"…
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaî î(Y,
-*
-%0$org.apache.bookkeeper.net.BookieNode*Î
-startingBlockò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaã/ ê(LÍ
-Á
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaä ä(
-%2"
-__annotate*
-java.lang.Override* 
-
-
-networkLocjava.lang.String‘
-—
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaã7 ã(A
-
-networkLocjava.lang.String"__annotation*
-
-%2È
-Ê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaä ä(
-%3"
-__annotate*
-java.lang.Override*
-
-excludeRacksjava.util.Set”
-–
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaå? å(K
-excludeRacksjava.util.Set"__annotation*
-
-%3Î
-Ë
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaä ä(
-%4"
-__annotate*
-java.lang.Override*!
-
-excludeBookiesjava.util.Set’
-“
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaç= ç(K
-excludeBookiesjava.util.Set"__annotation*
-
-%4•
-¢
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaä ä(
-%5"
-__annotate*
-java.lang.Override*[
-Y
-	predicateLorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Predicateè
-å
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaéI é(RY
-	predicateLorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Predicate"__annotation*
-
-%5£
-†
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaä ä(
-%6"
-__annotate*
-java.lang.Override*Y
-W
-ensembleKorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Ensembleç
-ä
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaèH è(PW
-ensembleKorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Ensemble"__annotation*
-
-%6*
-4*∆	
-4ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaî î('†ù
-ò
-ã/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicyImpl.javaî î(X*
-%0$org.apache.bookkeeper.net.BookieNode"∫org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl#selectRandomFromRack(Ljava/lang/String;Ljava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;)Lorg/apache/bookkeeper/net/BookieNode;*EC
-Aorg.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl* 
-
-
-networkLocjava.lang.String*!
-
-excludeBookiesjava.util.Set*[
-Y
-	predicateLorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Predicate*Y
-W
-ensembleKorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Ensemble2“selectRandomFromRack(Ljava/lang/String;Ljava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;)*
-3:
-
-networkLocjava.lang.String:
-excludeRacksjava.util.Set:
-excludeBookiesjava.util.Set:Y
-	predicateLorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Predicate:W
-ensembleKorg.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy$Ensemble:
-""BEC
-Aorg.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl

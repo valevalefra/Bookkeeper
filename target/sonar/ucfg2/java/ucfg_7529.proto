@@ -1,116 +1,0 @@
-
-norg.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory#loginServer()Ljavax/security/auth/login/LoginContext;è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java† †($"3*â
-2è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java• •(ª
-∏
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java• •(
-%3org.slf4j.Logger"__id*
-""á
-Ñ
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java¶ ¶("
-%4java.lang.String"__id*R*P:
-8org.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory"
-loginContextNameÒ
-Ó
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java• ¶("
-%5java.lang.String"__concat*
-JAAS not configured or no *
-
-%4java.lang.String˙
-˜
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java• ¶(J
-%6java.lang.String"__concat*
-
-%5java.lang.String*'%
-# present in JAAS Configuration fileõò
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java• ¶(K
-
-%7void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
-
-%3org.slf4j.Logger*
-
-%6java.lang.String2info(Ljava/lang/String;)"ö
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.javaß ß(
-""*Í
-3è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java¢* ¢(7÷
-”
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java¢* ¢(J-
-%0'javax.security.auth.login.Configuration"cjavax.security.auth.login.Configuration#getConfiguration()Ljavax/security/auth/login/Configuration;*+")
-'javax.security.auth.login.Configurationá
-Ñ
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java£& £(6
-%1java.lang.String"__id*R*P:
-8org.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory"
-loginContextName–Õ
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java¢* £(77
-%21javax.security.auth.login.AppConfigurationEntry[]"Üjavax.security.auth.login.Configuration#getAppConfigurationEntry(Ljava/lang/String;)[Ljavax/security/auth/login/AppConfigurationEntry;*/
--
-%0'javax.security.auth.login.Configuration*
-
-%1java.lang.String2,getAppConfigurationEntry(Ljava/lang/String;)î
-ë
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java¢ £(8<
-entries1javax.security.auth.login.AppConfigurationEntry[]"__id*9
-7
-%21javax.security.auth.login.AppConfigurationEntry[]*
-2
-1*⁄
-1è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java©5 ©(Eá
-Ñ
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java©5 ©(E
-%8java.lang.String"__id*R*P:
-8org.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory"
-loginContextNameª∏
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java©K ©(`T
-%9Norg.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory$ClientCallbackHandler"Norg.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory$ClientCallbackHandlerË
-Â
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java©G ©(f
-%10"jorg.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory$ClientCallbackHandler#<init>(Ljava/lang/String;)V*V
-T
-%9Norg.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory$ClientCallbackHandler*
-""ÏÈ
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java©( ©(4-
-%11&javax.security.auth.login.LoginContext"&javax.security.auth.login.LoginContext±
-Æ
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java©$ ©(g
-%12"pjavax.security.auth.login.LoginContext#<init>(Ljava/lang/String;Ljavax/security/auth/callback/CallbackHandler;)V*/
--
-%11&javax.security.auth.login.LoginContext*
-
-%8java.lang.String*V
-T
-%9Norg.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory$ClientCallbackHandlerÑ
-Å
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java© ©(h6
-loginContext&javax.security.auth.login.LoginContext"__id*/
--
-%11&javax.security.auth.login.LoginContextñì
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java™ ™(
-%13void"/javax.security.auth.login.LoginContext#login()V*8
-6
-loginContext&javax.security.auth.login.LoginContext2login()"Ã
-è
-Ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/sasl/SASLBookieAuthProviderFactory.java´ ´(8
-6
-loginContext&javax.security.auth.login.LoginContextB<:
-8org.apache.bookkeeper.sasl.SASLBookieAuthProviderFactory

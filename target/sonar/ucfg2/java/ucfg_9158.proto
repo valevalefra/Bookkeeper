@@ -1,184 +1,0 @@
-
-˛org.apache.bookkeeper.server.http.service.AutoRecoveryStatusService#handlePutStatus(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;Lorg/apache/bookkeeper/meta/LedgerUnderreplicationManager;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaS  S(/"8*†
-2ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javab b(-˙˜
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javab b(H
-%13void"Torg.apache.bookkeeper.meta.LedgerUnderreplicationManager#disableLedgerReplication()V*[
-Y
-ledgerUnderreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManager2disableLedgerReplication()*
-1*™
-3ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaa a(-Å˛
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaa a(J
-%12boolean"Vorg.apache.bookkeeper.meta.LedgerUnderreplicationManager#isLedgerReplicationEnabled()Z*[
-Y
-ledgerUnderreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManager2isLedgerReplicationEnabled()*
-2
-1*û
-4ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.java^ ^(-¯ı
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.java^ ^(G
-%11void"Sorg.apache.bookkeeper.meta.LedgerUnderreplicationManager#enableLedgerReplication()V*[
-Y
-ledgerUnderreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManager2enableLedgerReplication()*
-1*™
-5ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.java] ](.Å˛
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.java] ](K
-%10boolean"Vorg.apache.bookkeeper.meta.LedgerUnderreplicationManager#isLedgerReplicationEnabled()Z*[
-Y
-ledgerUnderreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManager2isLedgerReplicationEnabled()*
-4
-1*¡
-6ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.java\ \(ò
-ï
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.java\ \()
-%9boolean"3java.lang.Boolean#parseBoolean(Ljava/lang/String;)Z*"
-java.lang.Boolean*
-
-enabledjava.lang.String*
-3
-5*§
-7ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaY+ Y(J˛
-˚
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaY+ Y(S
-%4java.lang.String"__concat*!
-Param 'enabled' not found in *
-
-paramsjava.util.Map‰
-·
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaZ Z()6
-%50org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""‰
-·
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaZ Z(56
-%60org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""îë
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaY Y(*<
-%76org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponseø
-º
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaY Z(6
-%8"Ñorg.apache.bookkeeper.http.service.HttpServiceResponse#<init>(Ljava/lang/String;Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)V*>
-<
-%76org.apache.bookkeeper.http.service.HttpServiceResponse*
-
-%4java.lang.String*8
-6
-%60org.apache.bookkeeper.http.HttpServer$StatusCode"€
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaY Z(7>
-<
-%76org.apache.bookkeeper.http.service.HttpServiceResponse*õ
-8ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaV% V(0÷”
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaV? V(R
-%0java.util.Map"Porg.apache.bookkeeper.http.service.HttpServiceRequest#getParams()Ljava/util/Map;*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest2getParams()ˇ
-¸
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaVT V(j
-%1java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
-java.util.Collections˜
-Ù
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaV% V(k
-%2java.util.Map"jorg.apache.commons.lang3.ObjectUtils#defaultIfNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
-$org.apache.commons.lang3.ObjectUtils*
-
-%0java.util.Map*
-
-%1java.util.Map‘
-—
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaV V(l
-paramsjava.util.Map"__id*
-
-%2java.util.MapË
-Â
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaW W(.
-%3java.lang.String"__mapGet*
-
-paramsjava.util.Map*	
-enabled€
-ÿ
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javaW W(/
-enabledjava.lang.String"__id*
-
-%3java.lang.String*
-6
-7*î
-1ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javag g(Å˛
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javah h(J
-%14boolean"Vorg.apache.bookkeeper.meta.LedgerUnderreplicationManager#isLedgerReplicationEnabled()Z*[
-Y
-ledgerUnderreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManager2isLedgerReplicationEnabled()ë
-é
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javag& h(K-
-%15&com.google.common.collect.ImmutableMap"wcom.google.common.collect.ImmutableMap#of(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;**"(
-&com.google.common.collect.ImmutableMap*	
-enabled*
-
-%14booleanÒ
-Ó
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javag h(L
-%16java.lang.String"Worg.apache.bookkeeper.common.util.JsonUtil#toJson(Ljava/lang/Object;)Ljava/lang/String;*.",
-*org.apache.bookkeeper.common.util.JsonUtil*/
--
-%15&com.google.common.collect.ImmutableMapŸ
-÷
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javag h(M
-bodyjava.lang.String"__id*
-
-%16java.lang.StringÂ
-‚
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javai- i(B7
-%170org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""Â
-‚
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javai- i(E7
-%180org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""ïí
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javai i(&=
-%196org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponseƒ
-¡
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javai i(F
-%20"Ñorg.apache.bookkeeper.http.service.HttpServiceResponse#<init>(Ljava/lang/String;Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)V*?
-=
-%196org.apache.bookkeeper.http.service.HttpServiceResponse*
-
-bodyjava.lang.String*9
-7
-%180org.apache.bookkeeper.http.HttpServer$StatusCode"‹
-ò
-ç/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/AutoRecoveryStatusService.javai i(G?
-=
-%196org.apache.bookkeeper.http.service.HttpServiceResponse:@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest:Y
-ledgerUnderreplicationManager8org.apache.bookkeeper.meta.LedgerUnderreplicationManagerBGE
-Corg.apache.bookkeeper.server.http.service.AutoRecoveryStatusService

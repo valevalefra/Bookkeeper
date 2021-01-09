@@ -1,621 +1,0 @@
-
-sorg.apache.distributedlog.api.namespace.NamespaceBuilder#build()Lorg/apache/distributedlog/api/namespace/Namespace;ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java¬ ¬("9*Ï%
-2ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÄ/ Ä(>Ê
-„
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÅ Å(38
-%561org.apache.distributedlog.feature.CoreFeatureKeys"__id*
-""§°
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÅ Å(:
-%57java.lang.String"'java.lang.Enum#name()Ljava/lang/String;*:
-8
-%561org.apache.distributedlog.feature.CoreFeatureKeys2name()ìê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÅ Å(H
-%58java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
-
-%57java.lang.String2toLowerCase()¿Ω
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÄ/ Å(I,
-%59%org.apache.bookkeeper.feature.Feature"sorg.apache.bookkeeper.feature.FeatureProvider#getFeature(Ljava/lang/String;)Lorg/apache/bookkeeper/feature/Feature;*B
-@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider*
-
-%58java.lang.String2getFeature(Ljava/lang/String;)ó
-î
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÄ Å(JA
-disableWriteLimitFeature%org.apache.bookkeeper.feature.Feature"__id*.
-,
-%59%org.apache.bookkeeper.feature.Feature´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÉ É(<
-%605org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confÌÍ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÉ É(8
-%61boolean"Yorg.apache.distributedlog.DistributedLogConfiguration#getOutstandingWriteLimitDarkmode()Z*>
-<
-%605org.apache.distributedlog.DistributedLogConfiguration2"getOutstandingWriteLimitDarkmode()´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÑ Ñ(<
-%625org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confÂ‚
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÑ Ñ(6
-
-%63int"Worg.apache.distributedlog.DistributedLogConfiguration#getGlobalOutstandingWriteLimit()I*>
-<
-%625org.apache.distributedlog.DistributedLogConfiguration2 getGlobalOutstandingWriteLimit()§
-°
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÖ Ö(.
-%64'org.apache.bookkeeper.stats.StatsLogger"__id*N*L:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_statsLoggerôñ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÖ Ö(2.
-%65'org.apache.bookkeeper.stats.StatsLogger"jorg.apache.bookkeeper.stats.StatsLogger#scope(Ljava/lang/String;)Lorg/apache/bookkeeper/stats/StatsLogger;*0
-.
-%64'org.apache.bookkeeper.stats.StatsLogger*
-writeLimiter2scope(Ljava/lang/String;)çä
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÇ Ç(29
-%662org.apache.distributedlog.util.SimplePermitLimiter"2org.apache.distributedlog.util.SimplePermitLimiterì
-ê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÇ á()
-%67"èorg.apache.distributedlog.util.SimplePermitLimiter#<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V*;
-9
-%662org.apache.distributedlog.util.SimplePermitLimiter*
-
-%61boolean*
-
-
-%63int*0
-.
-%65'org.apache.bookkeeper.stats.StatsLogger*
-""*C
-A
-disableWriteLimitFeature%org.apache.bookkeeper.feature.Feature¶
-£
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÇ á()C
-writeLimiter3org.apache.distributedlog.common.util.PermitLimiter"__id*;
-9
-%662org.apache.distributedlog.util.SimplePermitLimiter*
-1*∏
-3ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java˛ ˛((Ë
-Â
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java˛ ˛(<:
-%553org.apache.distributedlog.common.util.PermitLimiter"__id*
-""ß
-§
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java˛ ˛(<C
-writeLimiter3org.apache.distributedlog.common.util.PermitLimiter"__id*<
-:
-%553org.apache.distributedlog.common.util.PermitLimiter*
-1*≥~
-4ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹/ ‹(I√
-¿
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹/ ‹(VL
-%19Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder"ëorg.apache.distributedlog.injector.AsyncRandomFailureInjector#newBuilder()Lorg/apache/distributedlog/injector/AsyncRandomFailureInjector$Builder;*A"?
-=org.apache.distributedlog.injector.AsyncRandomFailureInjector´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java› ›(#<
-%205org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confﬂ‹
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java› ›(?
-%21boolean"Rorg.apache.distributedlog.DistributedLogConfiguration#getEIInjectReadAheadDelay()Z*>
-<
-%205org.apache.distributedlog.DistributedLogConfiguration2getEIInjectReadAheadDelay()´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaﬁ ﬁ(#<
-%225org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confÈÊ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaﬁ ﬁ(F
-
-%23int"Yorg.apache.distributedlog.DistributedLogConfiguration#getEIInjectReadAheadDelayPercent()I*>
-<
-%225org.apache.distributedlog.DistributedLogConfiguration2"getEIInjectReadAheadDelayPercent()´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaﬂ ﬂ(#<
-%245org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confÂ‚
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaﬂ ﬂ(D
-
-%25int"Worg.apache.distributedlog.DistributedLogConfiguration#getEIInjectMaxReadAheadDelayMs()I*>
-<
-%245org.apache.distributedlog.DistributedLogConfiguration2 getEIInjectMaxReadAheadDelayMs()ûõ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹/ ﬂ(EL
-%26Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder"ûorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder#injectDelays(ZII)Lorg/apache/distributedlog/injector/AsyncRandomFailureInjector$Builder;*N
-L
-%19Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder*
-
-%21boolean*
-
-
-%23int*
-
-
-%25int2injectDelays(ZII)¸˘
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹/ ‡((L
-%27Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder"ùorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder#injectErrors(ZI)Lorg/apache/distributedlog/injector/AsyncRandomFailureInjector$Builder;*N
-L
-%26Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder*
-""*2
-2injectErrors(ZI)´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java· ·("<
-%285org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confﬂ‹
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java· ·(>
-%29boolean"Rorg.apache.distributedlog.DistributedLogConfiguration#getEIInjectReadAheadStall()Z*>
-<
-%285org.apache.distributedlog.DistributedLogConfiguration2getEIInjectReadAheadStall()ÑÅ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹/ ·(CL
-%30Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder"úorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder#injectStops(ZI)Lorg/apache/distributedlog/injector/AsyncRandomFailureInjector$Builder;*N
-L
-%27Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder*
-
-%29boolean*2
-2injectStops(ZI)´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‚" ‚('<
-%315org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confÔÏ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‚" ‚(K
-%32boolean"Zorg.apache.distributedlog.DistributedLogConfiguration#getEIInjectReadAheadBrokenEntries()Z*>
-<
-%315org.apache.distributedlog.DistributedLogConfiguration2#getEIInjectReadAheadBrokenEntries()ÜÉ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹/ ‚(LL
-%33Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder"†org.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder#injectCorruption(Z)Lorg/apache/distributedlog/injector/AsyncRandomFailureInjector$Builder;*N
-L
-%30Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder*
-
-%32boolean2injectCorruption(Z)¿Ω
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹/ „(>
-%347org.apache.distributedlog.injector.AsyncFailureInjector"Üorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder#build()Lorg/apache/distributedlog/injector/AsyncFailureInjector;*N
-L
-%33Eorg.apache.distributedlog.injector.AsyncRandomFailureInjector$Builder2build()≤
-Ø
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‹ „(J
-failureInjector7org.apache.distributedlog.injector.AsyncFailureInjector"__id*@
->
-%347org.apache.distributedlog.injector.AsyncFailureInjector§
-°
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÊC Ê(O.
-%35'org.apache.bookkeeper.stats.StatsLogger"__id*N*L:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_statsLogger™
-ß
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÊQ Ê(c.
-%36'org.apache.bookkeeper.stats.StatsLogger"__id*T*R:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_perLogStatsLogger´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÊe Ê(j<
-%375org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_conf∫
-∑
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÊ( Ê(k.
-%38'org.apache.bookkeeper.stats.StatsLogger"áorg.apache.distributedlog.api.namespace.NamespaceBuilder#normalizePerLogStatsLogger(Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/distributedlog/DistributedLogConfiguration;)Lorg/apache/bookkeeper/stats/StatsLogger;*<":
-8org.apache.distributedlog.api.namespace.NamespaceBuilder*0
-.
-%35'org.apache.bookkeeper.stats.StatsLogger*0
-.
-%36'org.apache.bookkeeper.stats.StatsLogger*>
-<
-%375org.apache.distributedlog.DistributedLogConfigurationî
-ë
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÊ Ê(l<
-perLogStatsLogger'org.apache.bookkeeper.stats.StatsLogger"__id*0
-.
-%38'org.apache.bookkeeper.stats.StatsLogger≤
-Ø
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÈ% È(KJ
-%39Corg.apache.bookkeeper.common.util.OrderedScheduler$SchedulerBuilder"çorg.apache.bookkeeper.common.util.OrderedScheduler#newSchedulerBuilder()Lorg/apache/bookkeeper/common/util/OrderedScheduler$SchedulerBuilder;*6"4
-2org.apache.bookkeeper.common.util.OrderedSchedulerçä
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÍ Í(6
-%40java.lang.String"(java.net.URI#getPath()Ljava/lang/String;*
-
-normalizedUrijava.net.URI2	getPath()Ê
-„
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÍ Í(6
-%41java.lang.String"__concat*
-DLM-*
-
-%40java.lang.Stringãà
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÈ% Í(7H
-%42Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"ùorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#name(Ljava/lang/String;)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*L
-J
-%39Corg.apache.bookkeeper.common.util.OrderedScheduler$SchedulerBuilder*
-
-%41java.lang.String2name(Ljava/lang/String;)´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÎ Î(!<
-%435org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confœÃ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÎ Î(7
-
-%44int"Lorg.apache.distributedlog.DistributedLogConfiguration#getNumWorkerThreads()I*>
-<
-%435org.apache.distributedlog.DistributedLogConfiguration2getNumWorkerThreads()Ê„
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÈ% Î(8H
-%45Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder"íorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#numThreads(I)Lorg/apache/bookkeeper/common/util/OrderedExecutor$AbstractBuilder;*J
-H
-%42Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder*
-
-
-%44int2numThreads(I)¨©
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÈ% Ï(9
-%462org.apache.bookkeeper.common.util.OrderedScheduler"|org.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder#build()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*J
-H
-%45Aorg.apache.bookkeeper.common.util.OrderedExecutor$AbstractBuilder2build()¢
-ü
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÈ Ï(?
-	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler"__id*;
-9
-%462org.apache.bookkeeper.common.util.OrderedScheduler´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java (<
-%475org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confº
-π
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÒ Ò(J
-%48Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration"__id*J*H:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-
-_dynConf§
-°
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaˆ ˆ(.
-%49'org.apache.bookkeeper.stats.StatsLogger"__id*N*L:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_statsLoggerä
-á
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java¯* ¯(3
-%50java.lang.String"__id*K*I:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-	_clientIdﬁ
-€
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java¯ ¯(4
-%51java.lang.String"^org.apache.distributedlog.util.DLUtils#normalizeClientId(Ljava/lang/String;)Ljava/lang/String;**"(
-&org.apache.distributedlog.util.DLUtils*
-
-%50java.lang.String—Œ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÔ ˘(:
-%523org.apache.distributedlog.namespace.NamespaceDriver"Äorg.apache.distributedlog.namespace.NamespaceDriver#initialize(Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;Ljava/net/URI;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/distributedlog/injector/AsyncFailureInjector;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/bookkeeper/stats/StatsLogger;Ljava/lang/String;I)Lorg/apache/distributedlog/namespace/NamespaceDriver;*?
-=
-driver3org.apache.distributedlog.namespace.NamespaceDriver*>
-<
-%475org.apache.distributedlog.DistributedLogConfiguration*L
-J
-%48Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration*
-
-normalizedUrijava.net.URI*A
-?
-	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler*B
-@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider*L
-J
-failureInjector7org.apache.distributedlog.injector.AsyncFailureInjector*0
-.
-%49'org.apache.bookkeeper.stats.StatsLogger*>
-<
-perLogStatsLogger'org.apache.bookkeeper.stats.StatsLogger*
-
-%51java.lang.String*
-""2óinitialize(Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;Ljava/net/URI;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/distributedlog/injector/AsyncFailureInjector;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/bookkeeper/stats/StatsLogger;Ljava/lang/String;I)Ò
-Ó
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java¸ ¸(#C
-writeLimiter3org.apache.distributedlog.common.util.PermitLimiter"__id*
-""´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java˝ ˝(<
-%535org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confÂ‚
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java˝ ˝(2
-
-%54int"Worg.apache.distributedlog.DistributedLogConfiguration#getGlobalOutstandingWriteLimit()I*>
-<
-%535org.apache.distributedlog.DistributedLogConfiguration2 getGlobalOutstandingWriteLimit()*
-2
-3*ı
-5ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÿ ÿ(.Æ
-´
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÿ ÿ(.4
-%18-org.apache.bookkeeper.feature.FeatureProvider"__id*R*P:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_featureProviderû
-õ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÿ ÿ(.@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider"__id*6
-4
-%18-org.apache.bookkeeper.feature.FeatureProvider*
-4*Ω
-6ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java’: ’(<ìê
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java’" ’(9<
-%145org.apache.bookkeeper.feature.SettableFeatureProvider"5org.apache.bookkeeper.feature.SettableFeatureProvider¡
-æ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java’ ’(@
-%15"Rorg.apache.bookkeeper.feature.SettableFeatureProvider#<init>(Ljava/lang/String;I)V*>
-<
-%145org.apache.bookkeeper.feature.SettableFeatureProvider* *2 ¶
-£
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java’ ’(@@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider"__id*>
-<
-%145org.apache.bookkeeper.feature.SettableFeatureProvider≈
-¬
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java÷ ÷(
-%16org.slf4j.Logger"__id*
-""Ã…
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java÷ ÷(U
-%17void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
-
-%16org.slf4j.Logger*><
-:No feature provider is set. All features are disabled now.2info(Ljava/lang/String;)*
-4*€
-7ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaœ! œ(7Ä
-˝
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaœB œ(F
-%9java.net.URI"__id*F*D:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_uriº
-π
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaœ! œ(G:
-%103org.apache.distributedlog.namespace.NamespaceDriver"âorg.apache.distributedlog.namespace.NamespaceDriverManager#getDriver(Ljava/net/URI;)Lorg/apache/distributedlog/namespace/NamespaceDriver;*>"<
-:org.apache.distributedlog.namespace.NamespaceDriverManager*
-
-%9java.net.URI°
-û
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaœ œ(H=
-driver3org.apache.distributedlog.namespace.NamespaceDriver"__id*<
-:
-%103org.apache.distributedlog.namespace.NamespaceDriverÅ
-˛
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java–1 –(5
-%11java.net.URI"__id*F*D:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_uri…
-∆
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java– –(6
-%12java.net.URI"Qorg.apache.distributedlog.util.DLUtils#normalizeURI(Ljava/net/URI;)Ljava/net/URI;**"(
-&org.apache.distributedlog.util.DLUtils*
-
-%11java.net.URI⁄
-◊
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java– –(7
-normalizedUrijava.net.URI"__id*
-
-%12java.net.URIÓ
-Î
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java” ”((@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider"__id*
-""Æ
-´
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java‘ ‘($4
-%13-org.apache.bookkeeper.feature.FeatureProvider"__id*R*P:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_featureProvider*
-5
-6*†
-
-8ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÀ À( ™
-ß
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÀ1 À(6;
-%75org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_confè
-å
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÀ À(7I
-%8Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration"∂org.apache.distributedlog.util.ConfUtils#getConstDynConf(Lorg/apache/distributedlog/DistributedLogConfiguration;)Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;*,"*
-(org.apache.distributedlog.util.ConfUtils*=
-;
-%75org.apache.distributedlog.DistributedLogConfigurationª
-∏
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaÀ À(7H:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-
-_dynConf"__id*K
-I
-%8Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration*
-7*œ
-9ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java≈ ≈(™
-ß
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java≈ ≈(;
-%05org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_conf’
-“
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java≈ ≈(?;
-%15org.apache.distributedlog.DistributedLogConfiguration"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
-$com.google.common.base.Preconditions*=
-;
-%05org.apache.distributedlog.DistributedLogConfiguration*$"
- No DistributedLog Configuration.Ä
-˝
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java∆ ∆(
-%2java.net.URI"__id*F*D:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_uri¯
-ı
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java∆ ∆(3
-%3java.net.URI"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
-$com.google.common.base.Preconditions*
-
-%2java.net.URI*
-No DistributedLog URI™
-ß
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java… …(;
-%45org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_conf∏µ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java… …(
-
-%5void"Aorg.apache.distributedlog.DistributedLogConfiguration#validate()V*=
-;
-%45org.apache.distributedlog.DistributedLogConfiguration2
-validate()ª
-∏
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.java   (I
-%6Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration"__id*J*H:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-
-_dynConf*
-7
-8*¯
-1ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaã ã(´
-®
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaã ã(<
-%685org.apache.distributedlog.DistributedLogConfiguration"__id*G*E:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_conf§
-°
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaí í(.
-%69'org.apache.bookkeeper.stats.StatsLogger"__id*N*L:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-_statsLoggerä
-á
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaî* î(3
-%70java.lang.String"__id*K*I:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder"
-	_clientIdﬁ
-€
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaî î(4
-%71java.lang.String"^org.apache.distributedlog.util.DLUtils#normalizeClientId(Ljava/lang/String;)Ljava/lang/String;**"(
-&org.apache.distributedlog.util.DLUtils*
-
-%70java.lang.Stringèå
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaä ä(,:
-%723org.apache.distributedlog.BKDistributedLogNamespace"3org.apache.distributedlog.BKDistributedLogNamespace¶
-
-£
-
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaä ï(
-%73"Ìorg.apache.distributedlog.BKDistributedLogNamespace#<init>(Lorg/apache/distributedlog/DistributedLogConfiguration;Ljava/net/URI;Lorg/apache/distributedlog/namespace/NamespaceDriver;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/distributedlog/common/util/PermitLimiter;Lorg/apache/distributedlog/injector/AsyncFailureInjector;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/bookkeeper/stats/StatsLogger;Ljava/lang/String;I)V*<
-:
-%723org.apache.distributedlog.BKDistributedLogNamespace*>
-<
-%685org.apache.distributedlog.DistributedLogConfiguration*
-
-normalizedUrijava.net.URI*?
-=
-driver3org.apache.distributedlog.namespace.NamespaceDriver*A
-?
-	scheduler2org.apache.bookkeeper.common.util.OrderedScheduler*B
-@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider*E
-C
-writeLimiter3org.apache.distributedlog.common.util.PermitLimiter*L
-J
-failureInjector7org.apache.distributedlog.injector.AsyncFailureInjector*0
-.
-%69'org.apache.bookkeeper.stats.StatsLogger*>
-<
-perLogStatsLogger'org.apache.bookkeeper.stats.StatsLogger*
-
-%71java.lang.String*
-"""Ÿ
-ò
-ã/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/api/namespace/NamespaceBuilder.javaä ï(<
-:
-%723org.apache.distributedlog.BKDistributedLogNamespaceB<:
-8org.apache.distributedlog.api.namespace.NamespaceBuilder

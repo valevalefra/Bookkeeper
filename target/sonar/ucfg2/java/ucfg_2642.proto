@@ -1,110 +1,0 @@
-
-korg.apache.distributedlog.bk.SimpleLedgerAllocator#closeInternal(Z)Ljava/util/concurrent/CompletableFuture;’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÚ$ Ú(1"6*Ç
-2’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaä ä(¾
-»
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaä ä(
-%4org.slf4j.Logger"__id*
-""€
-ý
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaäJ ä(V
-%5java.lang.String"__id*H*F4
-2org.apache.distributedlog.bk.SimpleLedgerAllocator"
-allocatePathùö
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaä ä(W
-
-%6void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%4org.slf4j.Logger*53
-1Abort ledger allocator without cleaning up on {}.*
-
-%5java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)š
-—
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaå å(4
-
-%7void"yorg.apache.bookkeeper.common.concurrent.FutureUtils#complete(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Object;)V*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*8
-6
-closePromise&java.util.concurrent.CompletableFuture*
-"""Ï
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaæ æ( 8
-6
-closePromise&java.util.concurrent.CompletableFuture*¿	
-3’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaà à(8îë
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaà à(6,
-%2&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFuture€
-ý
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaà à(8
-%3"0java.util.concurrent.CompletableFuture#<init>()V*.
-,
-%2&java.util.concurrent.CompletableFuture†
-ƒ
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaà à(86
-closePromise&java.util.concurrent.CompletableFuture"__id*.
-,
-%2&java.util.concurrent.CompletableFutureŸ
-œ
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaá á(&E4
-2org.apache.distributedlog.bk.SimpleLedgerAllocator"
-closeFuture"__id*8
-6
-closePromise&java.util.concurrent.CompletableFuture*
-2
-1*ø
-4’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÞ Þ("•
-’
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÞ Þ(",
-%1&java.util.concurrent.CompletableFuture"__id*G*E4
-2org.apache.distributedlog.bk.SimpleLedgerAllocator"
-closeFuture"Å
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÞ Þ(#.
-,
-%1&java.util.concurrent.CompletableFuture*¸
-5’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÝ Ý(•
-’
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÝ Ý(#,
-%0&java.util.concurrent.CompletableFuture"__id*G*E4
-2org.apache.distributedlog.bk.SimpleLedgerAllocator"
-closeFuture*
-3
-4*þ
-6’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÛ Û(-Þ
-Û
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÛ Û(-6
-closePromise&java.util.concurrent.CompletableFuture"__id*
-""*
-5*ò
-1’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaè è(…
-‚
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaè è(%
-
-%8void"morg.apache.distributedlog.bk.SimpleLedgerAllocator#cleanupAndClose(Ljava/util/concurrent/CompletableFuture;)V*64
-2org.apache.distributedlog.bk.SimpleLedgerAllocator*8
-6
-closePromise&java.util.concurrent.CompletableFuture"Ï
-’
-…/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaé é(8
-6
-closePromise&java.util.concurrent.CompletableFuture:
-""B64
-2org.apache.distributedlog.bk.SimpleLedgerAllocator

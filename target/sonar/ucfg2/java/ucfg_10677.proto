@@ -1,180 +1,0 @@
-
-corg.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager#isBookieRegistered(Ljava/lang/String;)Zñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java¶ ¶(%"startingBlock*›
-2ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≥ ≥(™
-ß
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≥ ≥(*&
-%18com.coreos.jetcd.kv.GetResponse"rorg.apache.bookkeeper.metadata.etcd.EtcdUtils#msResult(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*1"/
--org.apache.bookkeeper.metadata.etcd.EtcdUtils*=
-;
-getReadonlyFuture&java.util.concurrent.CompletableFutureåâ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≥ ≥(5
-%19long"+com.coreos.jetcd.kv.GetResponse#getCount()J*(
-&
-%18com.coreos.jetcd.kv.GetResponse2
-getCount()*
-1*ò9
-3ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.javaß; ß(Cå
-â
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.javaß; ß(C
-%0com.coreos.jetcd.KV"__id*M*K=
-;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager"
-
-kvClientÜ
-É
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java®: ®(?
-%1java.lang.String"__id*J*H=
-;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager"
-scopeû
-õ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java®$ ®(J
-%2java.lang.String"{org.apache.bookkeeper.metadata.etcd.EtcdUtils#getWritableBookiePath(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*1"/
--org.apache.bookkeeper.metadata.etcd.EtcdUtils*
-
-%1java.lang.String*
-
-bookieIdjava.lang.StringÔ
-Ï
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java® ®(K(
-%3"com.coreos.jetcd.data.ByteSequence"ecom.coreos.jetcd.data.ByteSequence#fromString(Ljava/lang/String;)Lcom/coreos/jetcd/data/ByteSequence;*&"$
-"com.coreos.jetcd.data.ByteSequence*
-
-%2java.lang.String”
-–
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java© ©("0
-%4*com.coreos.jetcd.options.GetOption$Builder"[com.coreos.jetcd.options.GetOption#newBuilder()Lcom/coreos/jetcd/options/GetOption$Builder;*&"$
-"com.coreos.jetcd.options.GetOptionÖÇ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java© ™($0
-%5*com.coreos.jetcd.options.GetOption$Builder"gcom.coreos.jetcd.options.GetOption$Builder#withCountOnly(Z)Lcom/coreos/jetcd/options/GetOption$Builder;*2
-0
-%4*com.coreos.jetcd.options.GetOption$Builder*
-""2withCountOnly(Z)€ÿ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java© ´((
-%6"com.coreos.jetcd.options.GetOption"Vcom.coreos.jetcd.options.GetOption$Builder#build()Lcom/coreos/jetcd/options/GetOption;*2
-0
-%5*com.coreos.jetcd.options.GetOption$Builder2build()öó
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.javaß; ´(,
-%7&java.util.concurrent.CompletableFuture"âcom.coreos.jetcd.KV#get(Lcom/coreos/jetcd/data/ByteSequence;Lcom/coreos/jetcd/options/GetOption;)Ljava/util/concurrent/CompletableFuture;*
-
-%0com.coreos.jetcd.KV**
-(
-%3"com.coreos.jetcd.data.ByteSequence**
-(
-%6"com.coreos.jetcd.options.GetOption2Mget(Lcom/coreos/jetcd/data/ByteSequence;Lcom/coreos/jetcd/options/GetOption;)è
-å
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.javaß ´(;
-getWritableFuture&java.util.concurrent.CompletableFuture"__id*.
-,
-%7&java.util.concurrent.CompletableFutureå
-â
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java¨; ¨(C
-%8com.coreos.jetcd.KV"__id*M*K=
-;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager"
-
-kvClientÜ
-É
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≠: ≠(?
-%9java.lang.String"__id*J*H=
-;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager"
-scopeü
-ú
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≠$ ≠(J
-%10java.lang.String"{org.apache.bookkeeper.metadata.etcd.EtcdUtils#getReadonlyBookiePath(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*1"/
--org.apache.bookkeeper.metadata.etcd.EtcdUtils*
-
-%9java.lang.String*
-
-bookieIdjava.lang.StringÒ
-Ó
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≠ ≠(K)
-%11"com.coreos.jetcd.data.ByteSequence"ecom.coreos.jetcd.data.ByteSequence#fromString(Ljava/lang/String;)Lcom/coreos/jetcd/data/ByteSequence;*&"$
-"com.coreos.jetcd.data.ByteSequence*
-
-%10java.lang.String‘
-—
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.javaÆ Æ("1
-%12*com.coreos.jetcd.options.GetOption$Builder"[com.coreos.jetcd.options.GetOption#newBuilder()Lcom/coreos/jetcd/options/GetOption$Builder;*&"$
-"com.coreos.jetcd.options.GetOptionáÑ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.javaÆ Ø($1
-%13*com.coreos.jetcd.options.GetOption$Builder"gcom.coreos.jetcd.options.GetOption$Builder#withCountOnly(Z)Lcom/coreos/jetcd/options/GetOption$Builder;*3
-1
-%12*com.coreos.jetcd.options.GetOption$Builder*
-""2withCountOnly(Z)›⁄
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.javaÆ ∞()
-%14"com.coreos.jetcd.options.GetOption"Vcom.coreos.jetcd.options.GetOption$Builder#build()Lcom/coreos/jetcd/options/GetOption;*3
-1
-%13*com.coreos.jetcd.options.GetOption$Builder2build()ùö
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java¨; ∞(-
-%15&java.util.concurrent.CompletableFuture"âcom.coreos.jetcd.KV#get(Lcom/coreos/jetcd/data/ByteSequence;Lcom/coreos/jetcd/options/GetOption;)Ljava/util/concurrent/CompletableFuture;*
-
-%8com.coreos.jetcd.KV*+
-)
-%11"com.coreos.jetcd.data.ByteSequence*+
-)
-%14"com.coreos.jetcd.options.GetOption2Mget(Lcom/coreos/jetcd/data/ByteSequence;Lcom/coreos/jetcd/options/GetOption;)ê
-ç
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java¨ ∞(;
-getReadonlyFuture&java.util.concurrent.CompletableFuture"__id*/
--
-%15&java.util.concurrent.CompletableFuture™
-ß
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≤ ≤(*&
-%16com.coreos.jetcd.kv.GetResponse"rorg.apache.bookkeeper.metadata.etcd.EtcdUtils#msResult(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*1"/
--org.apache.bookkeeper.metadata.etcd.EtcdUtils*=
-;
-getWritableFuture&java.util.concurrent.CompletableFutureåâ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≤ ≤(5
-%17long"+com.coreos.jetcd.kv.GetResponse#getCount()J*(
-&
-%16com.coreos.jetcd.kv.GetResponse2
-getCount()*
-2
-1*Î
-startingBlockñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java¶% ¶(6Á
-‰
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java• •(
-%20"
-__annotate*
-java.lang.Override*
-
-bookieIdjava.lang.String—
-Œ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java¶- ¶(5
-bookieIdjava.lang.String"__annotation*
-
-%20*
-3*¿
-1ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≤ ≥(:"°
-ñ
-â/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/EtcdRegistrationManager.java≤ ≥(:
-"":
-bookieIdjava.lang.StringB?=
-;org.apache.bookkeeper.metadata.etcd.EtcdRegistrationManager

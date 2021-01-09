@@ -1,14 +1,10 @@
 package org.apache.bookkeeper.bookie;
 
 import org.apache.bookkeeper.conf.ServerConfiguration;
-import org.apache.commons.io.FileUtils;
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.mockito.Mockito;
-import org.mockito.internal.matchers.Null;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,7 +16,7 @@ import java.util.Collection;
 public class TestFormatBookie {
 
 
-   private final ServerConfiguration serverConf;
+    private final ServerConfiguration serverConf;
     private final Boolean isInteractive;
     private final Boolean force;
     private final Object expected;
@@ -29,7 +25,7 @@ public class TestFormatBookie {
     private File file1;
 
 
-   public TestFormatBookie(ServerConfiguration serverConf, Boolean isInteractive, Boolean force, Boolean setJournal, Object expected) {
+    public TestFormatBookie(ServerConfiguration serverConf, Boolean isInteractive, Boolean force, Boolean setJournal, Object expected) {
 
         this.serverConf=serverConf;
         this.isInteractive=isInteractive;
@@ -48,13 +44,11 @@ public class TestFormatBookie {
 
 
                 // Suite minimale
-                {null, true,true,false,NullPointerException.class }, //ritornano eccezione
-                {null, true,false,false,NullPointerException.class},
-                {null, false,false,false,NullPointerException.class},
-                {new ServerConfiguration(), false,true,true,true}, //va a buon fine con isInteractive = false, se metto true va in loop
+                {null, true,true,false,NullPointerException.class },
+                {new ServerConfiguration(), false,true,true,true},
                 {new ServerConfiguration(), false,false,true,false}, //bookie format aborted
                 {new ServerConfiguration(), false,true,false,true}, //server Configuration without setJournal
-                {new ServerConfiguration(), false,false,false,true} //ritorna lo stesso di quello sopra
+                {new ServerConfiguration(), false,false,false,true}
 
 
         });
@@ -64,10 +58,9 @@ public class TestFormatBookie {
 
 
 
-   @Test
+    @Test
     public void test1() {
 
-        System.out.println("pppp1");
         Object result;
         if (setJournal == true && serverConf != null) {
 
@@ -94,11 +87,9 @@ public class TestFormatBookie {
         }
 
         try {
-            System.out.println("pppp");
             result = Bookie.format(serverConf, isInteractive, force);
 
         } catch (Exception e) {
-            System.out.println("heyyy");
             result = e.getClass();
 
         }
@@ -116,5 +107,6 @@ public class TestFormatBookie {
 
 
 }
+
 
 

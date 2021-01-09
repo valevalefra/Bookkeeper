@@ -1,217 +1,0 @@
-
-eorg.apache.bookkeeper.bookie.BookieShell$ReadJournalCmd#runCmd(Lorg/apache/commons/cli/CommandLine;)I~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÇ Ç("startingBlock*Æ
-2~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaú! ú("£
-†
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaú  ú("
-
-%21int"__id*
-
-
-%23int*
-1*Æ
-3~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaú ú(£
-†
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaú ú(
-
-%21int"__id*
-
-
-%22int*
-1*√
-startingBlock~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÇ Ç(.ﬂ
-‹
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÅ Å(
-%24"
-__annotate*
-java.lang.Override*/
--
-cmdLine"org.apache.commons.cli.CommandLine…
-∆
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÇ& Ç(--
-cmdLine"org.apache.commons.cli.CommandLine"__annotation*
-
-%24*
-12*Á0
-4~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó8 ó(a≥∞
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó< ó(_Y
-%8Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags"Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags≈
-¬
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó8 ó(a
-%9"]org.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags#<init>()V*[
-Y
-%8Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags˛˚
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó8 ó(oZ
-%10Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags"Øorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags#msg(Z)Lorg/apache/bookkeeper/tools/cli/commands/bookie/ReadJournalCommand$ReadJournalFlags;*[
-Y
-%8Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags*
-""2msg(Z)√¿
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó8 ò(OZ
-%11Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags"≈org.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags#fileName(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/cli/commands/bookie/ReadJournalCommand$ReadJournalFlags;*\
-Z
-%10Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags*
-
-filenamejava.lang.String2fileName(Ljava/lang/String;)ãà
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó8 ò(dZ
-%12Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags"µorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags#journalId(J)Lorg/apache/bookkeeper/tools/cli/commands/bookie/ReadJournalCommand$ReadJournalFlags;*\
-Z
-%11Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags*
-""2journalId(J)”–
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaôA ô(^
-%13java.lang.String"Worg.apache.commons.cli.CommandLine#getOptionValue(Ljava/lang/String;)Ljava/lang/String;*/
--
-cmdLine"org.apache.commons.cli.CommandLine*
-dir2"getOptionValue(Ljava/lang/String;)¥±
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó8 ô(_Z
-%14Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags"¿org.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags#dir(Ljava/lang/String;)Lorg/apache/bookkeeper/tools/cli/commands/bookie/ReadJournalCommand$ReadJournalFlags;*\
-Z
-%12Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags*
-
-%13java.lang.String2dir(Ljava/lang/String;)≈
-¬
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaó ô(`\
-flagsSorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags"__id*\
-Z
-%14Sorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlagsí
-è
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaö< ö(M3
-%15,org.apache.bookkeeper.util.LedgerIdFormatter"__id*R*P9
-7org.apache.bookkeeper.bookie.BookieShell$ReadJournalCmd"
-ledgerIdFormatterå
-â
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaöO ö(]0
-%16)org.apache.bookkeeper.util.EntryFormatter"__id*O*M9
-7org.apache.bookkeeper.bookie.BookieShell$ReadJournalCmd"
-entryFormatteríè
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaö) ö(;I
-%17Borg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand"Borg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommandÍ
-Á
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaö% ö(^
-%18"•org.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand#<init>(Lorg/apache/bookkeeper/util/LedgerIdFormatter;Lorg/apache/bookkeeper/util/EntryFormatter;)V*K
-I
-%17Borg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand*5
-3
-%15,org.apache.bookkeeper.util.LedgerIdFormatter*2
-0
-%16)org.apache.bookkeeper.util.EntryFormatter°
-û
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaö ö(_I
-cmdBorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand"__id*K
-I
-%17Borg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommandâ
-Ü
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaõ' õ(-5
-%19.org.apache.bookkeeper.conf.ServerConfiguration"__id*G*E9
-7org.apache.bookkeeper.bookie.BookieShell$ReadJournalCmd"
-bkConf€ÿ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaõ õ(5
-%20boolean"–org.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand#apply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/bookie/ReadJournalCommand$ReadJournalFlags;)Z*K
-I
-cmdBorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand*7
-5
-%19.org.apache.bookkeeper.conf.ServerConfiguration*^
-\
-flagsSorg.apache.bookkeeper.tools.cli.commands.bookie.ReadJournalCommand$ReadJournalFlags2åapply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/bookie/ReadJournalCommand$ReadJournalFlags;)*
-2
-3*∑
-6~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaí í($¨©
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaì ì(&
-%7boolean"Aorg.apache.commons.cli.CommandLine#hasOption(Ljava/lang/String;)Z*/
--
-cmdLine"org.apache.commons.cli.CommandLine*
-m2hasOption(Ljava/lang/String;)*
-4*«
-9~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaç ç( Õ
- 
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaç+ ç(6
-%4java.lang.String"
-__arrayGet* 
-
-leftArgsjava.lang.String[]*2 Ï
-È
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaç ç(7
-
-%5long"-java.lang.Long#parseLong(Ljava/lang/String;)J*"
-java.lang.Long*
-
-%4java.lang.String*
-6*∑
-10~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaä ä( ´
-®
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaã ã(!
-filenamejava.lang.String"__id* *
-9*è
-11~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÖ Ö(¨
-©
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÖ Ö(
-%1java.io.PrintStream"__id*
-""Ø¨
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÖ Ö(T
-
-%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%1java.io.PrintStream*20
-.ERROR: missing journal id or journal file name2println(Ljava/lang/String;)úô
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÜ Ü(
-
-%3void"@org.apache.bookkeeper.bookie.BookieShell$MyCommand#printUsage()V*;9
-7org.apache.bookkeeper.bookie.BookieShell$ReadJournalCmd2printUsage()"à
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaá á(
-""*Û
-12~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÉ  É('öó
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÉ  É(1
-%0java.lang.String[]"?org.apache.commons.cli.CommandLine#getArgs()[Ljava/lang/String;*/
--
-cmdLine"org.apache.commons.cli.CommandLine2	getArgs()≈
-¬
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaÉ É(2
-leftArgsjava.lang.String[]"__id*
-
-%0java.lang.String[]*
-10
-11*é
-1~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaú ú(#"à
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieShell.javaú ú(#
-"":-
-cmdLine"org.apache.commons.cli.CommandLineB;9
-7org.apache.bookkeeper.bookie.BookieShell$ReadJournalCmd

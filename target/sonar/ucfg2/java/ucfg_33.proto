@@ -1,179 +1,0 @@
-
-„org.apache.bookkeeper.stream.cli.commands.ClientCommand#doApply(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/commons/configuration/CompositeConfiguration;Lorg/apache/bookkeeper/tools/common/BKFlags;Lorg/apache/bookkeeper/tools/framework/CliFlags;)Z†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java) )("startingBlock*«
-13†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java-) -(>¤
-¡
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java-) -(KH
-%0Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder"‹org.apache.bookkeeper.clients.config.StorageClientSettings#newBuilder()Lorg/apache/bookkeeper/clients/config/StorageClientSettings$Builder;*>"<
-:org.apache.bookkeeper.clients.config.StorageClientSettingsõò
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java-) .( H
-%1Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder"¥org.apache.bookkeeper.clients.config.StorageClientSettings_Builder#clientName(Ljava/lang/String;)Lorg/apache/bookkeeper/clients/config/StorageClientSettings$Builder;*J
-H
-%0Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder*	
-bkctl2clientName(Ljava/lang/String;)«¨
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java/ /(+
-%2java.net.URI"Borg.apache.bookkeeper.common.net.ServiceURI#getUri()Ljava/net/URI;*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI2getUri()ñî
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java/ /(6
-%3java.lang.String")java.net.URI#toString()Ljava/lang/String;*
-
-%2java.net.URI2
-toString()„
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java-) /(7H
-%4Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder"¥org.apache.bookkeeper.clients.config.StorageClientSettings_Builder#serviceUri(Ljava/lang/String;)Lorg/apache/bookkeeper/clients/config/StorageClientSettings$Builder;*J
-H
-%1Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder*
-
-%3java.lang.String2serviceUri(Ljava/lang/String;)¬©
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java-) 0(@
-%5:org.apache.bookkeeper.clients.config.StorageClientSettings"†org.apache.bookkeeper.clients.config.StorageClientSettings$Builder#build()Lorg/apache/bookkeeper/clients/config/StorageClientSettings;*J
-H
-%4Borg.apache.bookkeeper.clients.config.StorageClientSettings$Builder2build()ž
-›
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java- 0(F
-settings:org.apache.bookkeeper.clients.config.StorageClientSettings"__id*B
-@
-%5:org.apache.bookkeeper.clients.config.StorageClientSettings*
-12*È
-startingBlock†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java) ,(4ô
-ñ
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java( ((
-%20"
-__annotate*
-java.lang.Override*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURIÞ
-Û
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java)) )(39
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__annotation*
-
-%20ú
-÷
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java( ((
-%21"
-__annotate*
-java.lang.Override*A
-?
-conf7org.apache.commons.configuration.CompositeConfigurationä
-á
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java*5 *(9?
-conf7org.apache.commons.configuration.CompositeConfiguration"__annotation*
-
-%21ô
-ñ
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java( ((
-%22"
-__annotate*
-java.lang.Override*;
-9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlagsÞ
-Û
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java+& +(19
-globalFlags*org.apache.bookkeeper.tools.common.BKFlags"__annotation*
-
-%22Ó
-Ð
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java( ((
-%23"
-__annotate*
-java.lang.Override*
-
-cmdFlagsClientFlagsT½
-º
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java,+ ,(3
-cmdFlagsClientFlagsT"__annotation*
-
-%23*
-13* 
-7†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java7 7("‘
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java7 7(
-""*¯
-8†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2 5(÷
-ô
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2 5(1
-client'org.apache.bookkeeper.api.StorageClient"__id*0
-.
-%10'org.apache.bookkeeper.api.StorageClient¡ž
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java6 6(!
-%11void"—org.apache.bookkeeper.stream.cli.commands.ClientCommand#run(Lorg/apache/bookkeeper/api/StorageClient;Lorg/apache/bookkeeper/tools/framework/CliFlags;)V*;9
-7org.apache.bookkeeper.stream.cli.commands.ClientCommand*3
-1
-client'org.apache.bookkeeper.api.StorageClient*
-
-cmdFlagsClientFlagsT2^run(Lorg/apache/bookkeeper/api/StorageClient;Lorg/apache/bookkeeper/tools/framework/CliFlags;)*
-7*ú
-9†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2$ 5(æã
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2$ 5(.
-%10'org.apache.bookkeeper.api.StorageClient"corg.apache.bookkeeper.clients.StorageClientBuilder#build()Lorg/apache/bookkeeper/api/StorageClient;*:
-8
-%92org.apache.bookkeeper.clients.StorageClientBuilder2build()*
-8*Ø
-10†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java4 4(&ö
-ó
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java4 4(0
-%8java.lang.String"__id*J*H
-9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlags"
-	namespaceÊÇ
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2$ 4(18
-%92org.apache.bookkeeper.clients.StorageClientBuilder"ˆorg.apache.bookkeeper.clients.StorageClientBuilder#withNamespace(Ljava/lang/String;)Lorg/apache/bookkeeper/clients/StorageClientBuilder;*:
-8
-%72org.apache.bookkeeper.clients.StorageClientBuilder*
-
-%8java.lang.String2!withNamespace(Ljava/lang/String;)*
-9*â
-11†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java3 3("ÌÉ
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2$ 3(#8
-%72org.apache.bookkeeper.clients.StorageClientBuilder"±org.apache.bookkeeper.clients.StorageClientBuilder#withSettings(Lorg/apache/bookkeeper/clients/config/StorageClientSettings;)Lorg/apache/bookkeeper/clients/StorageClientBuilder;*:
-8
-%62org.apache.bookkeeper.clients.StorageClientBuilder*H
-F
-settings:org.apache.bookkeeper.clients.config.StorageClientSettings2JwithSettings(Lorg/apache/bookkeeper/clients/config/StorageClientSettings;)*
-10*‰
-12†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2$ 2(8ó
-ð
-†
-|/home/valentina/Scrivania/Bookkeeper/tools/stream/src/main/java/org/apache/bookkeeper/stream/cli/commands/ClientCommand.java2$ 2(E8
-%62org.apache.bookkeeper.clients.StorageClientBuilder"sorg.apache.bookkeeper.clients.StorageClientBuilder#newBuilder()Lorg/apache/bookkeeper/clients/StorageClientBuilder;*6"4
-2org.apache.bookkeeper.clients.StorageClientBuilder*
-11:9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI:?
-conf7org.apache.commons.configuration.CompositeConfiguration:9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlags:
-cmdFlagsClientFlagsTB;9
-7org.apache.bookkeeper.stream.cli.commands.ClientCommand

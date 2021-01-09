@@ -1,55 +1,0 @@
-
-ùorg.apache.bookkeeper.clients.impl.kv.DeleteRequestProcessor#sendRPC(Lorg/apache/bookkeeper/clients/impl/channel/StorageServerChannel;Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest;)Lcom/google/common/util/concurrent/ListenableFuture;–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaQ4 Q(;"startingBlock*Û	
-startingBlock–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaQ; R(W–
-“
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaP P(
-%2"
-__annotate*
-java.lang.Override*N
-L
-	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel€
-ý
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaQQ Q(ZL
-	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel"__annotation*
-
-%2‘
-Ž
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaP P(
-%3"
-__annotate*
-java.lang.Override*I
-G
-request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequestû
-ø
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaRO R(VG
-request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest"__annotation*
-
-%3*
-1*Œ
-1–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaS S(ÿü
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaS S(*W
-%0Qorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub"¤org.apache.bookkeeper.clients.impl.channel.StorageServerChannel#getTableService()Lorg/apache/bookkeeper/stream/proto/kv/rpc/TableServiceGrpc$TableServiceFutureStub;*N
-L
-	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel2getTableService()“
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaS S(:8
-%12com.google.common.util.concurrent.ListenableFuture"Ìorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub#delete(Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest;)Lcom/google/common/util/concurrent/ListenableFuture;*Y
-W
-%0Qorg.apache.bookkeeper.stream.proto.kv.rpc.TableServiceGrpc$TableServiceFutureStub*I
-G
-request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequest2Fdelete(Lorg/apache/bookkeeper/stream/proto/kv/rpc/DeleteRangeRequest;)"Õ
-–
-‹/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessor.javaS S(;:
-8
-%12com.google.common.util.concurrent.ListenableFuture:L
-	rsChannel?org.apache.bookkeeper.clients.impl.channel.StorageServerChannel:G
-request<org.apache.bookkeeper.stream.proto.kv.rpc.DeleteRangeRequestB@>
-<org.apache.bookkeeper.clients.impl.kv.DeleteRequestProcessor

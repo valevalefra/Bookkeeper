@@ -1,92 +1,0 @@
-
-3org.apache.distributedlog.BKSyncLogWriter#commit()J†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javaY Y("4*ó
-2†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javac c(²
-¯
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javac c(
-%9org.slf4j.Logger"__id*
-""ª§
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javac c(B
-%10void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%9org.slf4j.Logger*-+
-)FlushAndSync Completed - Nothing to Flush2debug(Ljava/lang/String;)*
-1*‘
-3†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java`# `('ÝÚ
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java`Q `(`,
-%4&java.util.concurrent.CompletableFuture"]org.apache.distributedlog.BKLogSegmentWriter#commit()Ljava/util/concurrent/CompletableFuture;*8
-6
-writer,org.apache.distributedlog.BKLogSegmentWriter2commit()ç
-ä
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java`B `(a
-%5java.lang.Long"iorg.apache.distributedlog.util.Utils#ioResult(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*("&
-$org.apache.distributedlog.util.Utils*.
-,
-%4&java.util.concurrent.CompletableFutureå
-â
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java`# `(b
-
-%6long"java.lang.Math#max(JJ)J*"
-java.lang.Math*
-""*
-
-%5java.lang.Long²
-¯
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javaa a(
-%7org.slf4j.Logger"__id*
-""–“
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javaa a(/
-
-%8void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%7org.slf4j.Logger*
-FlushAndSync Completed2debug(Ljava/lang/String;)*
-1*¶
-4†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javaZ Z(ÖÓ
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javaZ Z(&
-
-%0void"Worg.apache.distributedlog.BKAbstractLogWriter#checkClosedOrInError(Ljava/lang/String;)V*-+
-)org.apache.distributedlog.BKSyncLogWriter*
-
-commit2(checkClosedOrInError(Ljava/lang/String;)²
-¯
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java\ \(
-%1org.slf4j.Logger"__id*
-""”‘
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java\ \()
-
-%2void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%1org.slf4j.Logger*
-FlushAndSync Started2debug(Ljava/lang/String;)÷ô
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java^$ ^(82
-%3,org.apache.distributedlog.BKLogSegmentWriter"porg.apache.distributedlog.BKAbstractLogWriter#getCachedLogWriter()Lorg/apache/distributedlog/BKLogSegmentWriter;*-+
-)org.apache.distributedlog.BKSyncLogWriter2getCachedLogWriter()€
-ý
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.java^ ^(96
-writer,org.apache.distributedlog.BKLogSegmentWriter"__id*4
-2
-%3,org.apache.distributedlog.BKLogSegmentWriter*
-2
-3* 
-1†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javae e(#"‘
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKSyncLogWriter.javae e($
-""B-+
-)org.apache.distributedlog.BKSyncLogWriter

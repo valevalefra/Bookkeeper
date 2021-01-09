@@ -1,123 +1,0 @@
-
-ˆorg.apache.bookkeeper.tools.perf.dlog.ReadCommand#apply(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/commons/configuration/CompositeConfiguration;Lorg/apache/bookkeeper/tools/common/BKFlags;Lorg/apache/bookkeeper/tools/perf/dlog/PerfReaderBase$Flags;)Z~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java+ +("startingBlock*¬
-2~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java1 1(—
-”
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java1 1(
-%0"__id*
-""‹
-ˆ
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java2 2(W1
-%1+org.apache.bookkeeper.common.net.ServiceURI"sorg.apache.bookkeeper.common.net.ServiceURI#create(Ljava/lang/String;)Lorg/apache/bookkeeper/common/net/ServiceURI;*/"-
-+org.apache.bookkeeper.common.net.ServiceURI*-+
-)distributedlog://localhost/distributedlogù
-ö
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java2 2(W9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__id*3
-1
-%1+org.apache.bookkeeper.common.net.ServiceURI*
-1*Í
-startingBlock~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java+ -(@ê
-ç
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java* *(
-%5"
-__annotate*
-java.lang.Override*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURIÔ
-Ñ
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java+' +(19
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__annotation*
-
-%5ð
-í
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java* *(
-%6"
-__annotate*
-java.lang.Override*A
-?
-conf7org.apache.commons.configuration.CompositeConfigurationÚ
-×
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java,3 ,(7?
-conf7org.apache.commons.configuration.CompositeConfiguration"__annotation*
-
-%6ê
-ç
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java* *(
-%7"
-__annotate*
-java.lang.Override*;
-9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlagsÔ
-Ñ
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java-$ -(/9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlags"__annotation*
-
-%7÷
-ô
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java* *(
-%8"
-__annotate*
-java.lang.Override*H
-F
-cmdFlags:org.apache.bookkeeper.tools.perf.dlog.PerfReaderBase$Flagsá
-Þ
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java-7 -(?F
-cmdFlags:org.apache.bookkeeper.tools.perf.dlog.PerfReaderBase$Flags"__annotation*
-
-%8*
-2
-1*‡
-1~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java5+ 5(5íê
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java5  5(*6
-%20org.apache.bookkeeper.tools.perf.dlog.PerfReader"0org.apache.bookkeeper.tools.perf.dlog.PerfReaderð
-í
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java5 5(@
-%3"£org.apache.bookkeeper.tools.perf.dlog.PerfReader#<init>(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/bookkeeper/tools/perf/dlog/PerfReaderBase$Flags;)V*8
-6
-%20org.apache.bookkeeper.tools.perf.dlog.PerfReader*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI*H
-F
-cmdFlags:org.apache.bookkeeper.tools.perf.dlog.PerfReaderBase$Flagsÿ
-ü
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java5 5(A:
-reader0org.apache.bookkeeper.tools.perf.dlog.PerfReader"__id*8
-6
-%20org.apache.bookkeeper.tools.perf.dlog.PerfReader‘Ž
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java6 6(
-
-%4void";org.apache.bookkeeper.tools.perf.dlog.PerfReaderBase#run()V*<
-:
-reader0org.apache.bookkeeper.tools.perf.dlog.PerfReader2run()"ˆ
-~
-t/home/valentina/Scrivania/Bookkeeper/tools/perf/src/main/java/org/apache/bookkeeper/tools/perf/dlog/ReadCommand.java7 7(
-"":9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI:?
-conf7org.apache.commons.configuration.CompositeConfiguration:9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlags:F
-cmdFlags:org.apache.bookkeeper.tools.perf.dlog.PerfReaderBase$FlagsB53
-1org.apache.bookkeeper.tools.perf.dlog.ReadCommand

@@ -1,209 +1,0 @@
-
-eorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore#deleteComplete(ILjava/lang/Object;)V†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaâ â("startingBlock*°#
-2†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaè è(Ã
-…
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaè è(
-%7org.slf4j.Logger"__id*
-""⁄
-◊
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaê ê(%2
-%8,org.apache.distributedlog.LogSegmentMetadata"__id*x*v
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"	
-segmentºπ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaê ê(7
-
-%9long"?org.apache.distributedlog.LogSegmentMetadata#getLogSegmentId()J*4
-2
-%8,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentId()€
-ÿ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaê9 ê(N3
-%10,org.apache.distributedlog.LogSegmentMetadata"__id*x*v
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"	
-segment«
-ƒ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaêP ê(j
-%11java.lang.String"Lorg.apache.bookkeeper.client.api.BKException#getMessage(I)Ljava/lang/String;*0".
-,org.apache.bookkeeper.client.api.BKException*
-""÷”
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaè ê(k
-%12void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%7org.slf4j.Logger*97
-5Couldn't delete ledger {} from bookkeeper for {} : {}*
-
-
-%9long*5
-3
-%10,org.apache.distributedlog.LogSegmentMetadata*
-
-%11java.lang.String2,error(Ljava/lang/String;[Ljava/lang/Object;)€
-ÿ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaë. ë(I-
-%13&java.util.concurrent.CompletableFuture"__id*~*|
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"
-deletePromise€
-ÿ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaíM í(b3
-%14,org.apache.distributedlog.LogSegmentMetadata"__id*x*v
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"	
-segment¢
-ü
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaí, í(b
-%15java.lang.String"__concat* 
-Couldn't delete log segment *5
-3
-%14,org.apache.distributedlog.LogSegmentMetadata°û
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaí í(+?
-%168org.apache.distributedlog.exceptions.BKTransmitException"8org.apache.distributedlog.exceptions.BKTransmitExceptionÍ
-Á
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaí í(g
-%17"Uorg.apache.distributedlog.exceptions.BKTransmitException#<init>(Ljava/lang/String;I)V*A
-?
-%168org.apache.distributedlog.exceptions.BKTransmitException*
-
-%15java.lang.String*
-""Ï
-È
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaë í(h
-%18void"âorg.apache.bookkeeper.common.concurrent.FutureUtils#completeExceptionally(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Throwable;)V*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*/
--
-%13&java.util.concurrent.CompletableFuture*A
-?
-%168org.apache.distributedlog.exceptions.BKTransmitException"´
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaì ì(
-""*
-3†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaé é(ø
-º
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaé é(&	
-%6int"__id*
-""*
-2
-1*ˇ
-startingBlock†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaâ â(2Ï
-È
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaà à(
-%22"
-__annotate*
-java.lang.Override*
-
-ctxjava.lang.Object÷
-”
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaâ. â(1
-ctxjava.lang.Object"__annotation*
-
-%22*
-5*æ
-4†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaå å(Ã
-…
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaå å(
-%1org.slf4j.Logger"__id*
-""⁄
-◊
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaç ç()2
-%2,org.apache.distributedlog.LogSegmentMetadata"__id*x*v
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"	
-segmentºπ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaç ç(;
-
-%3long"?org.apache.distributedlog.LogSegmentMetadata#getLogSegmentId()J*4
-2
-%2,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentId()⁄
-◊
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaç= ç(R2
-%4,org.apache.distributedlog.LogSegmentMetadata"__id*x*v
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"	
-segment»≈
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaå ç(S
-
-%5void"Norg.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%1org.slf4j.Logger*(&
-$No ledger {} found to delete for {}.*
-
-
-%3long*4
-2
-%4,org.apache.distributedlog.LogSegmentMetadata2<warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-1*•
-5†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaäJ ä(M≤
-Ø
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaä ä(Ni
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"__id*
-
-ctxjava.lang.Objectø
-º
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaã ã(<	
-%0int"__id*
-""*
-3
-4*¿
-0 "∏
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javañ ñ(
-implicit return*π
-
-1†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaï ï(€
-ÿ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaï ï(8-
-%19&java.util.concurrent.CompletableFuture"__id*~*|
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"
-deletePromise€
-ÿ
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaï: ï(O3
-%20,org.apache.distributedlog.LogSegmentMetadata"__id*x*v
-i
-deleteRequestXorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$DeleteLogSegmentRequest"	
-segmentœ
-Ã
-†
-ì/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaï ï(P
-%21void"yorg.apache.bookkeeper.common.concurrent.FutureUtils#complete(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Object;)V*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*/
--
-%19&java.util.concurrent.CompletableFuture*5
-3
-%20,org.apache.distributedlog.LogSegmentMetadata*
-0:
-"":
-ctxjava.lang.ObjectBDB
-@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore

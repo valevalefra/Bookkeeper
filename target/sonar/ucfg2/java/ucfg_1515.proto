@@ -1,282 +1,0 @@
-
-äorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl#buildRangeOp(Lorg/apache/bookkeeper/stream/proto/kv/rpc/RoutingHeader;Lorg/apache/bookkeeper/stream/proto/kv/rpc/RangeRequest;)Lorg/apache/bookkeeper/api/kv/op/RangeOp;’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javak$ k(0"16*ó
-13’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javau3 u(8¨
-¥
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javau3 u(8<
-%66org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
-;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
-store‹ˆ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javau3 u(G/
-%7)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*>
-<
-%66org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()…‚
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javau3 u(W8
-%82org.apache.bookkeeper.api.kv.options.OptionFactory"morg.apache.bookkeeper.api.kv.op.OpFactory#optionFactory()Lorg/apache/bookkeeper/api/kv/options/OptionFactory;*1
-/
-%7)org.apache.bookkeeper.api.kv.op.OpFactory2optionFactory()£ 
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javau3 u(h=
-%97org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"|org.apache.bookkeeper.api.kv.options.OptionFactory#newRangeOption()Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*:
-8
-%82org.apache.bookkeeper.api.kv.options.OptionFactory2newRangeOption()©
-¦
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javau u(iH
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"__id*?
-=
-%97org.apache.bookkeeper.api.kv.options.RangeOptionBuilderº·
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javav v(
-%10long"Borg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getLimit()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2
-getLimit()*
-11
-12*¸
-14’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javar r(%Î
-Ë
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javar r(4
-%5byte[]"Œorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#newStoreKey(Lcom/google/protobuf/ByteString;Lcom/google/protobuf/ByteString;)[B*@">
-<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*(
-&
-rKeycom.google.protobuf.ByteString*+
-)
-lEndKeycom.google.protobuf.ByteStringÅ
-Â
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javar r(4
-storeEndKeybyte[]"__id*
-
-%5byte[]*
-13*¦
-15’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaq q(&€ý
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaq q(-	
-%4int"&com.google.protobuf.ByteString#size()I*+
-)
-lEndKeycom.google.protobuf.ByteString2size()*
-13
-14*¬
-16’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javal l( ñî
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javal l(*$
-%0com.google.protobuf.ByteString"aorg.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader#getRKey()Lcom/google/protobuf/ByteString;*C
-A
-header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader2	getRKey()î
-ë
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javal l(+&
-rKeycom.google.protobuf.ByteString"__id*&
-$
-%0com.google.protobuf.ByteStringîë
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javam m(*$
-%1com.google.protobuf.ByteString"_org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getKey()Lcom/google/protobuf/ByteString;*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getKey()î
-ë
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javam m(+&
-lKeycom.google.protobuf.ByteString"__id*&
-$
-%1com.google.protobuf.ByteStringøõ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javan n(2$
-%2com.google.protobuf.ByteString"dorg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getRangeEnd()Lcom/google/protobuf/ByteString;*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getRangeEnd()ñ
-î
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javan n(3)
-lEndKeycom.google.protobuf.ByteString"__id*&
-$
-%2com.google.protobuf.ByteStringË
-È
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javao o(1
-%3byte[]"Œorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#newStoreKey(Lcom/google/protobuf/ByteString;Lcom/google/protobuf/ByteString;)[B*@">
-<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*(
-&
-rKeycom.google.protobuf.ByteString*(
-&
-lKeycom.google.protobuf.ByteStringÂ
-¿
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javao o(2
-storeKeybyte[]"__id*
-
-%3byte[]½
-º
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javap p("
-storeEndKeybyte[]"__id*
-""*
-13
-15*ß
-1”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‰ ‰(«
-¨
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‰ ‰(=
-%266org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore"__id*J*H=
-;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl"
-storeŒ
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‰ ‰(#0
-%27)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*?
-=
-%266org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()ðí
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‹ ‹(!7
-%280org.apache.bookkeeper.api.kv.options.RangeOption"Forg.apache.bookkeeper.api.kv.options.Builder#build()Ljava/lang/Object;*J
-H
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder2build()ÃÀ
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‰ ‹(".
-%29'org.apache.bookkeeper.api.kv.op.RangeOp"¡org.apache.bookkeeper.api.kv.op.OpFactory#newRange(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/RangeOption;)Lorg/apache/bookkeeper/api/kv/op/RangeOp;*2
-0
-%27)org.apache.bookkeeper.api.kv.op.OpFactory*
-
-storeKeybyte[]*9
-7
-%280org.apache.bookkeeper.api.kv.options.RangeOption2NnewRange(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/RangeOption;)"É
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‰ ‹(#0
-.
-%29'org.apache.bookkeeper.api.kv.op.RangeOp*‹
-2”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java† †(éæ
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java† †(->
-%257org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"‹org.apache.bookkeeper.api.kv.options.RangeOptionBuilder#endKey(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*J
-H
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-
-storeEndKeybyte[]2endKey(Ljava/lang/Object;)*
-1*¸
-4”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ ƒ(ÎË
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ$ ƒ(?
-%23long"Korg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMinModRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMinModRevision()Â¿
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaƒ ƒ(@>
-%247org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"}org.apache.bookkeeper.api.kv.options.RangeOptionBuilder#minModRev(J)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*J
-H
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-
-%23long2minModRev(J)*
-2
-1*ö
-5”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‚ ‚(ÎË
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java‚ ‚('
-%22long"Korg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMinModRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMinModRevision()*	
-2
-4
-1*Â
-6”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java€ €(ÔÑ
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java€' €(E
-%20long"Norg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMinCreateRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMinCreateRevision()ÉÆ
-”
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java€ €(F>
-%217org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"€org.apache.bookkeeper.api.kv.options.RangeOptionBuilder#minCreateRev(J)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*J
-H
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-
-%20long2minCreateRev(J)*
-5*õ
-7’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java (ÒÏ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java (*
-%19long"Norg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMinCreateRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMinCreateRevision()*
-5
-6*¯
-8’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java} }(ÌÉ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java}$ }(?
-%17long"Korg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMaxModRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMaxModRevision()À½
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java} }(@>
-%187org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"}org.apache.bookkeeper.api.kv.options.RangeOptionBuilder#maxModRev(J)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*J
-H
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-
-%17long2maxModRev(J)*
-7*ï
-9’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java| |(ÌÉ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.java| |('
-%16long"Korg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMaxModRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMaxModRevision()*
-7
-8*½
-10’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaz z(ÒÏ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaz' z(E
-%14long"Norg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMaxCreateRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMaxCreateRevision()ÇÄ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaz z(F>
-%157org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"€org.apache.bookkeeper.api.kv.options.RangeOptionBuilder#maxCreateRev(J)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*J
-H
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-
-%14long2maxCreateRev(J)*
-9*÷
-11’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javay y(ÒÏ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javay y(*
-%13long"Norg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getMaxCreateRevision()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2getMaxCreateRevision()*
-9
-10*—
-12’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaw w(º·
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaw  w(2
-%11long"Borg.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest#getLimit()J*C
-A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequest2
-getLimit()¸µ
-’
-‡/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreImpl.javaw w(3>
-%127org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"yorg.apache.bookkeeper.api.kv.options.RangeOptionBuilder#limit(J)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*J
-H
-optionBuilder7org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-
-%11long2limit(J)*
-11:A
-header7org.apache.bookkeeper.stream.proto.kv.rpc.RoutingHeader:A
-request6org.apache.bookkeeper.stream.proto.kv.rpc.RangeRequestB?=
-;org.apache.bookkeeper.stream.storage.impl.kv.TableStoreImpl

@@ -1,201 +1,0 @@
-
-jorg.apache.bookkeeper.proto.BookieRequestProcessor$1#operationComplete(Lio/netty/util/concurrent/Future;)Và
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java≤ ≤(-"startingBlock*Ò%
-2à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∫ ∫(µ
-≤
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∫ ∫(
-%10org.slf4j.Logger"__id*
-""ûõ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∫< ∫(J
-%11java.lang.Throwable"<io.netty.util.concurrent.Future#cause()Ljava/lang/Throwable;*+
-)
-futureio.netty.util.concurrent.Future2cause()‚ﬂ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∫ ∫(K
-%12void"@org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V*
-
-%10org.slf4j.Logger*
-TLS Handshake failure.*
-
-%11java.lang.Throwable2.error(Ljava/lang/String;Ljava/lang/Throwable;)‹
-Ÿ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaªJ ª(e>
-%137org.apache.bookkeeper.proto.BookkeeperProtocol$Response"__id*
-""õ
-ò
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaªJ ª(rF
-%14?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"Öorg.apache.bookkeeper.proto.BookkeeperProtocol$Response#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*;"9
-7org.apache.bookkeeper.proto.BookkeeperProtocol$ResponseÌÍ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaº+ º(8D
-%15=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Åorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*
-""2getHeader()Çˇ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaªJ º(9F
-%16?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"Àorg.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#setHeader(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*H
-F
-%14?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder*F
-D
-%15=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2JsetHeader(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;)ﬁ
-€
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaºD º(a@
-%179org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""ﬁ
-€
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaºD º(e@
-%189org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""ˆÛ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaªJ º(fF
-%19?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"«org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response$Builder;*H
-F
-%16?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder*B
-@
-%189org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Æ
-´
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaª º(gN
-errResponse?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder"__id*H
-F
-%19?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder¨©
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaΩ( Ω(;>
-%207org.apache.bookkeeper.proto.BookkeeperProtocol$Response"Äorg.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$Response;*P
-N
-errResponse?org.apache.bookkeeper.proto.BookkeeperProtocol$Response$Builder2build()çä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaΩ Ω(<%
-%21io.netty.channel.ChannelFuture"iio.netty.channel.ChannelOutboundInvoker#writeAndFlush(Ljava/lang/Object;)Lio/netty/channel/ChannelFuture;*
-""*@
->
-%207org.apache.bookkeeper.proto.BookkeeperProtocol$Response2!writeAndFlush(Ljava/lang/Object;)*
-0
-1*Â
-3à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∏ ∏(¥
-±
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∏ ∏(
-%5org.slf4j.Logger"__id*
-""Çˇ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∏@ ∏(S
-%6javax.net.ssl.SSLEngine"Aio.netty.handler.ssl.SslHandler#engine()Ljavax/net/ssl/SSLEngine;*
-""2engine()ùö
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∏@ ∏(`
-%7javax.net.ssl.SSLSession">javax.net.ssl.SSLEngine#getSession()Ljavax/net/ssl/SSLSession;*
-
-%6javax.net.ssl.SSLEngine2getSession()óî
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∏@ ∏(q
-%8java.lang.String";javax.net.ssl.SSLSession#getCipherSuite()Ljava/lang/String;* 
-
-%7javax.net.ssl.SSLSession2getCipherSuite()Ÿ÷
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∏ ∏(r
-
-%9void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%5org.slf4j.Logger*
-Session is protected by: {}*
-
-%8java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
-0*€
-startingBlockà
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java≤- ≤(EÊ
-„
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java± ±(
-%26"
-__annotate*
-java.lang.Override*+
-)
-futureio.netty.util.concurrent.Future–
-Õ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java≤> ≤(D)
-futureio.netty.util.concurrent.Future"__annotation*
-
-%26*
-4*£
-4à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¥@ ¥(Aëé
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¥@ ¥(L&
-%0 io.netty.channel.ChannelPipeline"Eio.netty.channel.Channel#pipeline()Lio/netty/channel/ChannelPipeline;*
-""2
-pipeline()Û
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¥@ µ(E?
-%19org.apache.bookkeeper.proto.AuthHandler$ServerSideHandler"Xio.netty.channel.ChannelPipeline#get(Ljava/lang/Class;)Lio/netty/channel/ChannelHandler;*(
-&
-%0 io.netty.channel.ChannelPipeline*
-""2get(Ljava/lang/Class;)°
-û
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¥ µ(FH
-authHandler9org.apache.bookkeeper.proto.AuthHandler$ServerSideHandler"__id*A
-?
-%19org.apache.bookkeeper.proto.AuthHandler$ServerSideHandlerß
-§
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∂ ∂(,3
-%2-org.apache.bookkeeper.auth.BookieAuthProvider"__id*\*Z
-H
-authHandler9org.apache.bookkeeper.proto.AuthHandler$ServerSideHandler"
-authProvider™ß
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∂ ∂(@
-
-%3void"Borg.apache.bookkeeper.auth.BookieAuthProvider#onProtocolUpgrade()V*5
-3
-%2-org.apache.bookkeeper.auth.BookieAuthProvider2onProtocolUpgrade()ÖÇ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java∑ ∑(*
-%4boolean",io.netty.util.concurrent.Future#isSuccess()Z*+
-)
-futureio.netty.util.concurrent.Future2isSuccess()*
-2
-3*®
-0 "†
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java¬ ¬(
-implicit return*Â	
-1à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaø ø(#á
-Ñ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaø ø(#*
-%22#org.apache.bookkeeper.proto.BKStats"__id*E*C6
-4org.apache.bookkeeper.proto.BookieRequestProcessor$1"	
-bkStats®
-•
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaø/ ø(D
-
-%23int"__id*
-""ÌÍ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaø ø(E2
-%24+org.apache.bookkeeper.proto.BKStats$OpStats"^org.apache.bookkeeper.proto.BKStats#getOpStats(I)Lorg/apache/bookkeeper/proto/BKStats$OpStats;*,
-*
-%22#org.apache.bookkeeper.proto.BKStats*
-
-
-%23int2getOpStats(I)™ß
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.javaø ø(Z
-%25void"Aorg.apache.bookkeeper.proto.BKStats$OpStats#incrementFailedOps()V*4
-2
-%24+org.apache.bookkeeper.proto.BKStats$OpStats2incrementFailedOps()*
-0:)
-futureio.netty.util.concurrent.FutureB86
-4org.apache.bookkeeper.proto.BookieRequestProcessor$1

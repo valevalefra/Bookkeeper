@@ -1,65 +1,0 @@
-
-Worg.apache.bookkeeper.proto.checksum.MacDigestManager#genDigest(Ljava/lang/String;[B)[Bâ
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaQ Q(""1*ß
-1â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaR R(,µ
-≤
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaR9 R(I
-%0java.lang.String"__id*
-""«
-ƒ
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaR R(J!
-%1java.security.MessageDigest"Xjava.security.MessageDigest#getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;*"
-java.security.MessageDigest*
-
-%0java.lang.String·
-ﬁ
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaR R(K%
-digestjava.security.MessageDigest"__id*#
-!
-%1java.security.MessageDigestΩ
-∫
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaS# S((
-%2java.nio.charset.Charset"__id*
-""π∂
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaS S()
-%3byte[]"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*
-
-padjava.lang.String* 
-
-%2java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)âÜ
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaS S(*
-
-%4void"'java.security.MessageDigest#update([B)V*'
-%
-digestjava.security.MessageDigest*
-
-%3byte[]2
-update([B)çä
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaT T(
-
-%5void"'java.security.MessageDigest#update([B)V*'
-%
-digestjava.security.MessageDigest*
-
-passwdbyte[]2
-update([B)¯ı
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaU U(
-%6byte[]"&java.security.MessageDigest#digest()[B*'
-%
-digestjava.security.MessageDigest2digest()"ú
-â
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/checksum/MacDigestManager.javaU U(
-
-%6byte[]:
-padjava.lang.String:
-passwdbyte[]B9"7
-5org.apache.bookkeeper.proto.checksum.MacDigestManager

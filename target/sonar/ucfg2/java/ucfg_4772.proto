@@ -1,101 +1,0 @@
-
-‡org.apache.distributedlog.LogRecordSet#of(Lorg/apache/distributedlog/LogRecordWithDLSN;)Lorg/apache/distributedlog/LogRecordSet$Reader;‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.java^ ^("1*Ž!
-1‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.java_ _(˜•
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.java_ _(*
-%0boolean"2org.apache.distributedlog.LogRecord#isRecordSet()Z*7
-5
-record+org.apache.distributedlog.LogRecordWithDLSN2isRecordSet()½
-º
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.java_ `(,
-
-%1void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
-$com.google.common.base.Preconditions*
-
-%0boolean*
-record is not a recordsetÎË
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javaa a($$
-%2org.apache.distributedlog.DLSN"Uorg.apache.distributedlog.LogRecordWithDLSN#getDlsn()Lorg/apache/distributedlog/DLSN;*7
-5
-record+org.apache.distributedlog.LogRecordWithDLSN2	getDlsn()ã
-à
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javaa a(%&
-dlsnorg.apache.distributedlog.DLSN"__id*&
-$
-%2org.apache.distributedlog.DLSN´±
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javab b(@	
-%3int"Borg.apache.distributedlog.LogRecord#getPositionWithinLogSegment()I*7
-5
-record+org.apache.distributedlog.LogRecordWithDLSN2getPositionWithinLogSegment()ËÈ
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javac c(J
-
-%4long"Qorg.apache.distributedlog.LogRecordWithDLSN#getStartSequenceIdOfCurrentSegment()J*7
-5
-record+org.apache.distributedlog.LogRecordWithDLSN2$getStartSequenceIdOfCurrentSegment()™–
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javaf f(.
-
-%5long"9org.apache.distributedlog.DLSN#getLogSegmentSequenceNo()J*(
-&
-dlsnorg.apache.distributedlog.DLSN2getLogSegmentSequenceNo()ÿü
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javag g(!
-
-%6long",org.apache.distributedlog.DLSN#getEntryId()J*(
-&
-dlsnorg.apache.distributedlog.DLSN2getEntryId()Ÿœ
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javah h()
-
-%7long"7org.apache.distributedlog.LogRecord#getTransactionId()J*7
-5
-record+org.apache.distributedlog.LogRecordWithDLSN2getTransactionId()ýú
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javai i( 
-
-%8long"+org.apache.distributedlog.DLSN#getSlotId()J*(
-&
-dlsnorg.apache.distributedlog.DLSN2getSlotId()ÄÁ
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javal l(&
-%9io.netty.buffer.ByteBuf"Lorg.apache.distributedlog.LogRecord#getPayloadBuf()Lio/netty/buffer/ByteBuf;*7
-5
-record+org.apache.distributedlog.LogRecordWithDLSN2getPayloadBuf()üù
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javae e(+9
-%102org.apache.distributedlog.EnvelopedRecordSetReader"2org.apache.distributedlog.EnvelopedRecordSetReader—
-”
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javae l('
-%11"[org.apache.distributedlog.EnvelopedRecordSetReader#<init>(JJJJIJLio/netty/buffer/ByteBuf;)V*;
-9
-%102org.apache.distributedlog.EnvelopedRecordSetReader*
-
-
-%5long*
-
-
-%6long*
-
-
-%7long*
-
-
-%8long*
-""*
-""*
-
-%9io.netty.buffer.ByteBuf"Ç
-‡
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecordSet.javae l((;
-9
-%102org.apache.distributedlog.EnvelopedRecordSetReader:5
-record+org.apache.distributedlog.LogRecordWithDLSNB*"(
-&org.apache.distributedlog.LogRecordSet

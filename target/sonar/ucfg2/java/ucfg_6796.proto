@@ -1,64 +1,0 @@
-
-\org.apache.bookkeeper.util.StringUtils#requestToString(Ljava/lang/Object;)Ljava/lang/String;|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.java¨ ¨(("2"1*Ö
-2|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.javaÆU Æ(\ˆÛ
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.javaÆ7 Æ(iC
-%0=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"Åorg.apache.bookkeeper.proto.BookkeeperProtocol$Request#getHeader()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$BKPacketHeader;*
-
-requestjava.lang.Object2getHeader()ó
-î
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.javaÆ Æ(jG
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader"__id*E
-C
-%0=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeaderØ¨
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.java∞ ∞(%
-
-%1long"Iorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getTxnId()J*I
-G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2
-getTxnId()≠™
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.java∞' ∞(<B
-%2<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType"äorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getOperation()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$OperationType;*I
-G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2getOperation()≠™
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.java± ±('D
-%3>org.apache.bookkeeper.proto.BookkeeperProtocol$ProtocolVersion"äorg.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader#getVersion()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$ProtocolVersion;*I
-G
-header=org.apache.bookkeeper.proto.BookkeeperProtocol$BKPacketHeader2getVersion()¡
-æ
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.javaØ ±((
-%4java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*" 
-Req(txnId=%d,op=%s,version=%s)*
-
-
-%1long*D
-B
-%2<org.apache.bookkeeper.proto.BookkeeperProtocol$OperationType*F
-D
-%3>org.apache.bookkeeper.proto.BookkeeperProtocol$ProtocolVersion"ò
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.javaØ ±()
-
-%4java.lang.String*í
-1|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.java≥ ≥(Û
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.java≥ ≥(%
-%5java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*
-
-requestjava.lang.Object2
-toString()"ò
-|
-p/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/StringUtils.java≥ ≥(&
-
-%5java.lang.String:
-requestjava.lang.ObjectB*"(
-&org.apache.bookkeeper.util.StringUtils

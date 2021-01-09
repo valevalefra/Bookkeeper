@@ -1,72 +1,0 @@
-
-åorg.apache.bookkeeper.bookie.Journal#createForceWriteRequest(Lorg/apache/bookkeeper/bookie/JournalChannel;JJLorg/apache/bookkeeper/common/collections/RecyclableArrayList;ZZ)Lorg/apache/bookkeeper/bookie/Journal$ForceWriteRequest;z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java± ±(5"1*ß
-1z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java·  ·(:í
-ê
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java·  ·(:
-%0io.netty.util.Recycler"__id*H*F&
-$org.apache.bookkeeper.bookie.Journal"
-forceWriteRequestsRecycler”‘
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java·  ·(@<
-%16org.apache.bookkeeper.bookie.Journal$ForceWriteRequest".io.netty.util.Recycler#get()Ljava/lang/Object;*
-
-%0io.netty.util.Recycler2get()„
-
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java· ·(A=
-req6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"__id*>
-<
-%16org.apache.bookkeeper.bookie.Journal$ForceWriteRequest°
-­
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¸ ¸(1T
-=
-req6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"
-forceWriteWaiters"__id*S
-Q
-forceWriteWaiters<org.apache.bookkeeper.common.collections.RecyclableArrayList‹
-ˆ
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¹ ¹(J
-=
-req6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest"	
-logFile"__id*8
-6
-logFile+org.apache.bookkeeper.bookie.JournalChannelö
-ó
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¾ ¾(/
-
-%2long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
-+org.apache.bookkeeper.common.util.MathUtilsø
-õ
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¿ ¿(5
-%3/org.apache.bookkeeper.bookie.stats.JournalStats"__id*:*8&
-$org.apache.bookkeeper.bookie.Journal"
-journalStatsìé
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¿ ¿(-)
-%4#org.apache.bookkeeper.stats.Counter"morg.apache.bookkeeper.bookie.stats.JournalStats#getForceWriteQueueSize()Lorg/apache/bookkeeper/stats/Counter;*7
-5
-%3/org.apache.bookkeeper.bookie.stats.JournalStats2getForceWriteQueueSize()ëè
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.java¿ ¿(3
-
-%5void"*org.apache.bookkeeper.stats.Counter#inc()V*+
-)
-%4#org.apache.bookkeeper.stats.Counter2inc()"½
-z
-n/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Journal.javaÀ À(?
-=
-req6org.apache.bookkeeper.bookie.Journal$ForceWriteRequest:6
-logFile+org.apache.bookkeeper.bookie.JournalChannel:
-"":
-"":Q
-forceWriteWaiters<org.apache.bookkeeper.common.collections.RecyclableArrayList:
-"":
-""B(&
-$org.apache.bookkeeper.bookie.Journal

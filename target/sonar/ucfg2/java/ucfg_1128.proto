@@ -1,62 +1,0 @@
-
-}org.apache.bookkeeper.clients.impl.internal.MetaRangeClientImpl#getActiveDataRanges()Ljava/util/concurrent/CompletableFuture;õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaO/ O(B"1*Æ
-1õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaP P((∏
-µ
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaQ) Q(49
-%03org.apache.bookkeeper.stream.proto.StreamProperties"__id*T*RA
-?org.apache.bookkeeper.clients.impl.internal.MetaRangeClientImpl"
-streamProps±
-Æ
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaQ Q(5G
-%1Aorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest"Ãorg.apache.bookkeeper.stream.protocol.util.ProtoUtils#createGetActiveRangesRequest(Lorg/apache/bookkeeper/stream/proto/StreamProperties;)Lorg/apache/bookkeeper/stream/proto/storage/GetActiveRangesRequest;*9"7
-5org.apache.bookkeeper.stream.protocol.util.ProtoUtils*;
-9
-%03org.apache.bookkeeper.stream.proto.StreamProperties∆
-√
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaS S(J
-%2Dorg.apache.bookkeeper.clients.impl.container.StorageContainerChannel"__id*Q*OA
-?org.apache.bookkeeper.clients.impl.internal.MetaRangeClientImpl"
-
-scClientØ
-¨
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaT T(3
-%3-java.util.concurrent.ScheduledExecutorService"__id*Q*OA
-?org.apache.bookkeeper.clients.impl.internal.MetaRangeClientImpl"
-
-executor∑
-¥
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaU U(6
-%40org.apache.bookkeeper.common.util.Backoff$Policy"__id*V*TA
-?org.apache.bookkeeper.clients.impl.internal.MetaRangeClientImpl"
-backoffPolicyÚ
-Ô
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaP V(	N
-%5Horg.apache.bookkeeper.clients.impl.internal.mr.MetaRangeRequestProcessor"ûorg.apache.bookkeeper.clients.impl.internal.mr.MetaRangeRequestProcessor#of(Lorg/apache/bookkeeper/stream/proto/storage/GetActiveRangesRequest;Ljava/util/function/Function;Lorg/apache/bookkeeper/clients/impl/container/StorageContainerChannel;Ljava/util/concurrent/ScheduledExecutorService;Lorg/apache/bookkeeper/common/util/Backoff$Policy;)Lorg/apache/bookkeeper/clients/impl/internal/mr/MetaRangeRequestProcessor;*L"J
-Horg.apache.bookkeeper.clients.impl.internal.mr.MetaRangeRequestProcessor*I
-G
-%1Aorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesRequest*
-""*L
-J
-%2Dorg.apache.bookkeeper.clients.impl.container.StorageContainerChannel*5
-3
-%3-java.util.concurrent.ScheduledExecutorService*8
-6
-%40org.apache.bookkeeper.common.util.Backoff$Policy†ù
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaP V(,
-%6&java.util.concurrent.CompletableFuture"rorg.apache.bookkeeper.clients.utils.ListenableFutureRpcProcessor#process()Ljava/util/concurrent/CompletableFuture;*P
-N
-%5Horg.apache.bookkeeper.clients.impl.internal.mr.MetaRangeRequestProcessor2	process()"Œ
-õ
-ê/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/MetaRangeClientImpl.javaP V(.
-,
-%6&java.util.concurrent.CompletableFutureBCA
-?org.apache.bookkeeper.clients.impl.internal.MetaRangeClientImpl

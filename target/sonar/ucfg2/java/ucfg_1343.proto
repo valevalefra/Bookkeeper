@@ -1,127 +1,0 @@
-
-Ùorg.apache.bookkeeper.clients.impl.kv.KvUtils#fromProtoKeyValue(Lorg/apache/bookkeeper/stream/proto/kv/KeyValue;Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueFactory;)Lorg/apache/bookkeeper/api/kv/result/KeyValue;†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaEQ E(b"1*°8
-1†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH H(”‘
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH H( ;
-%05org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"worg.apache.bookkeeper.api.kv.impl.result.KeyValueFactory#newKv()Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*G
-E
-	kvFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactory2newKv()ÍÊ
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaI( I(3$
-%1com.google.protobuf.ByteString"Worg.apache.bookkeeper.stream.proto.kv.KeyValue#getKey()Lcom/google/protobuf/ByteString;*6
-4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue2getKey()³°
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaI( I(J
-%2java.nio.ByteBuffer"Jcom.google.protobuf.ByteString#asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;*&
-$
-%1com.google.protobuf.ByteString2asReadOnlyByteBuffer()¾
-»
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaI I(K
-%3io.netty.buffer.ByteBuf"Vio.netty.buffer.Unpooled#wrappedBuffer(Ljava/nio/ByteBuffer;)Lio/netty/buffer/ByteBuf;*"
-io.netty.buffer.Unpooled*
-
-%2java.nio.ByteBufferÉÆ
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH I(L;
-%45org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"„org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#key(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
-;
-%05org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
-
-%3io.netty.buffer.ByteBuf2key(Ljava/lang/Object;)ÑÎ
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaJ* J(7$
-%5com.google.protobuf.ByteString"Yorg.apache.bookkeeper.stream.proto.kv.KeyValue#getValue()Lcom/google/protobuf/ByteString;*6
-4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue2
-getValue()³°
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaJ* J(N
-%6java.nio.ByteBuffer"Jcom.google.protobuf.ByteString#asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;*&
-$
-%5com.google.protobuf.ByteString2asReadOnlyByteBuffer()¾
-»
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaJ J(O
-%7io.netty.buffer.ByteBuf"Vio.netty.buffer.Unpooled#wrappedBuffer(Ljava/nio/ByteBuffer;)Lio/netty/buffer/ByteBuf;*"
-io.netty.buffer.Unpooled*
-
-%6java.nio.ByteBufferÍÊ
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH J(P;
-%85org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"†org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#value(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
-;
-%45org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
-
-%7io.netty.buffer.ByteBuf2value(Ljava/lang/Object;)¡ž
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaK K(&
-%9boolean"=org.apache.bookkeeper.stream.proto.kv.KeyValue#getIsNumber()Z*6
-4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue2getIsNumber()¡ž
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH K('<
-%105org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"xorg.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#isNumber(Z)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*=
-;
-%85org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
-
-%9boolean2isNumber(Z)¥¢
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaL L(,
-%11long"@org.apache.bookkeeper.stream.proto.kv.KeyValue#getNumberValue()J*6
-4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue2getNumberValue()¦£
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH L(-<
-%125org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"{org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#numberValue(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*>
-<
-%105org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
-
-%11long2numberValue(J)«¨
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaM M(2
-%13long"Corg.apache.bookkeeper.stream.proto.kv.KeyValue#getCreateRevision()J*6
-4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue2getCreateRevision()¬©
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH M(3<
-%145org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"~org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#createRevision(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*>
-<
-%125org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
-
-%13long2createRevision(J)¥¢
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaN N(1
-%15long"@org.apache.bookkeeper.stream.proto.kv.KeyValue#getModRevision()J*6
-4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue2getModRevision()±®
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH N(2<
-%165org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"€org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#modifiedRevision(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*>
-<
-%145org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
-
-%15long2modifiedRevision(J)š
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaO O($
-%17long"<org.apache.bookkeeper.stream.proto.kv.KeyValue#getVersion()J*6
-4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue2getVersion()ž›
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH O(%<
-%185org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl"worg.apache.bookkeeper.api.kv.impl.result.KeyValueImpl#version(J)Lorg/apache/bookkeeper/api/kv/impl/result/KeyValueImpl;*>
-<
-%165org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl*
-
-%17long2
-version(J)"É
-†
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaH O(&>
-<
-%185org.apache.bookkeeper.api.kv.impl.result.KeyValueImpl:4
-kv.org.apache.bookkeeper.stream.proto.kv.KeyValue:E
-	kvFactory8org.apache.bookkeeper.api.kv.impl.result.KeyValueFactoryB1"/
--org.apache.bookkeeper.clients.impl.kv.KvUtils

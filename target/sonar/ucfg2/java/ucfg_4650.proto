@@ -1,179 +1,0 @@
-
-ãorg.apache.distributedlog.fs.DLFileSystem#append(Lorg/apache/hadoop/fs/Path;ILjava/util/Optional;)Lorg/apache/hadoop/fs/FSDataOutputStream;ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java⁄ ⁄(%"17*≥
-13ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaﬂ „("ê
-ç
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaﬂ „(":
-dlm3org.apache.distributedlog.api.DistributedLogManager"__id*;
-9
-%43org.apache.distributedlog.api.DistributedLogManagerÖÇ
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java‰3 ‰(K,
-%5&java.util.concurrent.CompletableFuture"porg.apache.distributedlog.api.DistributedLogManager#openAsyncLogWriter()Ljava/util/concurrent/CompletableFuture;*<
-:
-dlm3org.apache.distributedlog.api.DistributedLogManager2openAsyncLogWriter()*
-12*±
-14ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaﬂ( „(!ñì
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaﬂ( „(!9
-%43org.apache.distributedlog.api.DistributedLogManager"æorg.apache.distributedlog.api.namespace.Namespace#openLog(Ljava/lang/String;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lorg/apache/distributedlog/api/DistributedLogManager;*9
-7
-%01org.apache.distributedlog.api.namespace.Namespace*
-
-%1java.lang.String*!
-
-	confLocaljava.util.Optional*
-
-%2java.util.Optional*
-
-%3java.util.Optional2WopenLog(Ljava/lang/String;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)*
-13*é
-15ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java„ „(Û
-
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java„ „( 
-%3java.util.Optional".java.util.Optional#empty()Ljava/util/Optional;*"
-java.util.Optional*
-14*é
-16ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java· ·(Û
-
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java‚ ‚( 
-%2java.util.Optional".java.util.Optional#empty()Ljava/util/Optional;*"
-java.util.Optional*
-15*ë
-17ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaﬂ( ﬂ(1é
-ã
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaﬂ( ﬂ(17
-%01org.apache.distributedlog.api.namespace.Namespace"__id*<*:+
-)org.apache.distributedlog.fs.DLFileSystem"
-	namespaceÂ
-‚
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java‡ ‡(#
-%1java.lang.String"forg.apache.distributedlog.fs.DLFileSystem#getStreamName(Lorg/apache/hadoop/fs/Path;)Ljava/lang/String;*-+
-)org.apache.distributedlog.fs.DLFileSystem*#
-!
-pathorg.apache.hadoop.fs.Path*
-16*‘
-4ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÂ Í(G"¿
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÂ Í(G0
-.
-%16'org.apache.hadoop.fs.FSDataOutputStream*∞
-5ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÂ Í(FÍÁ
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÂ Â().
-%16'org.apache.hadoop.fs.FSDataOutputStream"'org.apache.hadoop.fs.FSDataOutputStream™
-ß
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÂ Í(F
-%17"torg.apache.hadoop.fs.FSDataOutputStream#<init>(Ljava/io/OutputStream;Lorg/apache/hadoop/fs/FileSystem$Statistics;J)V*0
-.
-%16'org.apache.hadoop.fs.FSDataOutputStream*$
-"
-%9java.io.BufferedOutputStream*3
-1
-%11*org.apache.hadoop.fs.FileSystem$Statistics*
-
-%13long*
-4*Û
-6ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÍ1 Í(7§°
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÍ1 Í(E
-%15long";org.apache.distributedlog.api.AsyncLogWriter#getLastTxId()J*8
-6
-writer,org.apache.distributedlog.api.AsyncLogWriter2getLastTxId()≥
-∞
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÍ1 Í(E
-%13long"__id*
-
-%15long*
-5*Ã
-7ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÍ, Í(.≥
-∞
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÍ, Í(.
-%13long"__id*
-
-%14long*
-5*Ã
-9ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÈ È(â
-Ü
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÈ È(1
-%11*org.apache.hadoop.fs.FileSystem$Statistics"__id*=*;+
-)org.apache.distributedlog.fs.DLFileSystem"
-
-statistics§°
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÍ Í($
-%12long";org.apache.distributedlog.api.AsyncLogWriter#getLastTxId()J*8
-6
-writer,org.apache.distributedlog.api.AsyncLogWriter2getLastTxId()*
-6
-7*™
-10ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÁ5 Á(?”–
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÊ Ê(("
-%9java.io.BufferedOutputStream"java.io.BufferedOutputStream∫
-∑
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÊ Ë(
-%10"=java.io.BufferedOutputStream#<init>(Ljava/io/OutputStream;I)V*$
-"
-%9java.io.BufferedOutputStream*3
-1
-%7+org.apache.distributedlog.fs.DLOutputStream*
-""*
-9*ˆ
-11ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java‰ ‰(MÖ
-Ç
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java‰ ‰(M6
-writer,org.apache.distributedlog.api.AsyncLogWriter"__id*4
-2
-%6,org.apache.distributedlog.api.AsyncLogWriterÒÓ
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÁ Á(&1
-%7+org.apache.distributedlog.fs.DLOutputStream"+org.apache.distributedlog.fs.DLOutputStreamﬂ
-‹
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.javaÁ Á(3
-%8"òorg.apache.distributedlog.fs.DLOutputStream#<init>(Lorg/apache/distributedlog/api/DistributedLogManager;Lorg/apache/distributedlog/api/AsyncLogWriter;)V*3
-1
-%7+org.apache.distributedlog.fs.DLOutputStream*<
-:
-dlm3org.apache.distributedlog.api.DistributedLogManager*8
-6
-writer,org.apache.distributedlog.api.AsyncLogWriter*
-10*•
-12ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java‰$ ‰(Lä
-á
-ã
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/io/dlfs/src/main/java/org/apache/distributedlog/fs/DLFileSystem.java‰$ ‰(L2
-%6,org.apache.distributedlog.api.AsyncLogWriter"iorg.apache.distributedlog.util.Utils#ioResult(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*("&
-$org.apache.distributedlog.util.Utils*.
-,
-%5&java.util.concurrent.CompletableFuture*
-11:!
-pathorg.apache.hadoop.fs.Path:
-"":
-	confLocaljava.util.OptionalB-+
-)org.apache.distributedlog.fs.DLFileSystem

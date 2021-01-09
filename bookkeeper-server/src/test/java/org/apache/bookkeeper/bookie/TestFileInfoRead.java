@@ -37,14 +37,13 @@ public class TestFileInfoRead {
 
                 // Suite minimale
                 {ByteBuffer.allocate(6000), 0, true, generateWriteBuffer(4), 5120},
-                {ByteBuffer.allocate(6000), 0, false, generateWriteBuffer(7), 6000},
-                {ByteBuffer.allocate(1), 8000, false, generateWriteBuffer(7), 1},
+                {ByteBuffer.allocate(6000), 1, false, generateWriteBuffer(7), 6000},
+                {null, 1, true, generateWriteBuffer(7), null},
                 {ByteBuffer.allocate(0), 8000, true, generateWriteBuffer(7), 0},
-                {ByteBuffer.allocate(5), -2, true, generateWriteBuffer(7), 5},
+                {ByteBuffer.allocate(5), -1, true, generateWriteBuffer(7), 5},
 
                 //Jacoco
                 {ByteBuffer.allocate(6000), 8000, false, generateWriteBuffer(7), null}, //capture exepction
-                {ByteBuffer.allocate(6000), 0, false, generateWriteBuffer(4), null}, //capture exepction
         });
     }
 
@@ -114,7 +113,16 @@ public class TestFileInfoRead {
         int actual;
         long updateStart=start+(writeBuffer.length*1024-start)+1024+1024;
 
-        if((writeBuffer.length*1024+1024)-start<bb.remaining() && bestEffort==true) {
+        if(bb==null){
+            try{
+                fileInfo.read(bb, start, bestEffort);
+            }catch(Exception e){
+                Assert.assertEquals(expected, e.getMessage());
+            }
+            return;
+        }
+
+        if(((writeBuffer.length*1024+1024)-start<bb.remaining() && bestEffort==true)||(writeBuffer.length*1024+1024)-start>bb.remaining()) {
             actual = fileInfo.read(bb, start, bestEffort);
             Assert.assertEquals(expected, actual);
             return;
@@ -129,11 +137,7 @@ public class TestFileInfoRead {
             return;
         }
 
-        if((writeBuffer.length*1024+1024)-start>bb.remaining()) {
-            actual = fileInfo.read(bb, start, bestEffort);
-            Assert.assertEquals(expected, actual);
-            return;
-        }
+
 
 
     }
@@ -151,9 +155,6 @@ public class TestFileInfoRead {
         Assert.assertEquals(0, actual);
 
     }
-
-
-
 
 
 

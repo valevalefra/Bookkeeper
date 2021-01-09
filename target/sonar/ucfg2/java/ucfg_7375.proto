@@ -1,1526 +1,0 @@
-
-¥org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy#newEnsemble(IIILjava/util/Map;Ljava/util/Set;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementResult;ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÁ6 Á(A"startingBlock*Æ
-68ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÃ Ã(9Ÿ
-÷
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÃ Ã(9
-regionjava.lang.String"__id*
-
-%87java.lang.String¨©
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÕE Õ([*
-%88#org.apache.commons.lang3.tuple.Pair"0java.util.Map$Entry#getValue()Ljava/lang/Object;*$
-"
-regionEntryjava.util.Map$Entry2
-getValue()*
-67*ª
-69ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÃ$ Ã(/ïí
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÃ$ Ã(8
-%87java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*$
-"
-regionEntryjava.util.Map$Entry2getKey()*
-68*∑
-70ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÀL À(aëé
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÀL À(l
-%86java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*(
-&
-regionsWiseAllocationjava.util.Map2
-entrySet()*
-25*£
-71ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¬ »(T˝
-˙
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¬ »(Tm
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"__id*j
-h
-%84aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*
-70*Ú
-72ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java» »(8ÈÊ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¬ ¬(>h
-%84aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble‡
-›
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¬ »(T
-%85"Äorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble#<init>(IIIILjava/util/Set;II)V*j
-h
-%84aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*
-""*
-""*
-""*
-
-
-%77int*
-
-%78java.util.Set*
-""*
-""*
-71*Û
-73ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«l «(pÕ
- 
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«l «(p
-%78java.util.Set"__id*
-
-%80
-<nulltype>*
-72*”
-74ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«? «(i…∆
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«C «(L
-%79java.util.HashSet"java.util.HashSetä
-á
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«? «(i
-%83"1java.util.HashSet#<init>(Ljava/util/Collection;)V*
-
-%79java.util.HashSet*
-
-%82java.util.Set‘
-—
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«? «(i
-%78java.util.Set"__id*
-
-%79java.util.HashSet*
-72*π
-75ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«M «(_ï
-í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«M «(_
-%81java.util.Map"__id*[*YA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-perRegionPlacement˚¯
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java«M «(h
-%82java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
-
-%81java.util.Map2keySet()*
-74*‡
-76ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¡& ¡(^∂
-≥
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java√ √(5
-
-%77int"__id*
-""*
-73
-75*ù
-77ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¡& ¡(9˜Ù
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¡< ¡(^
-
-%76int"java.util.Set#size()I*.
-,
-regionsReachedMaxAllocationjava.util.Set2size()*
-76*Æ
-78ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaæ æ(LÏ
-È
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaæ æ(L,
-regionsReachedMaxAllocationjava.util.Set"__id*
-
-%74java.util.HashSetô
-ñ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaø ø(5m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"__id*
-""*
-77*Œ
-79ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaº º(1…∆
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaæ: æ(I
-%74java.util.HashSet"java.util.HashSet‹
-Ÿ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaæ6 æ(K
-%75"java.util.HashSet#<init>()V*
-
-%74java.util.HashSet*
-78*˙
-100ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaú ú("÷
-”
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaú ú("*
-bn$org.apache.bookkeeper.net.BookieNode"__id*
-""ı
-Ú
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaú ú("*
-bn$org.apache.bookkeeper.net.BookieNode"
-__arrayGet*
-
-bnsjava.util.List*
-""*	
-102
-99*º
-101ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaù ù(+î
-ë
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaù ù(+
-%52boolean"
-__arrayAdd*
-
-addrsjava.util.ArrayList*: *6
-4
-%51-org.apache.bookkeeper.net.BookieSocketAddress*
-100*í
-102ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaù ù(ÍÁ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaù ù(*4
-%51-org.apache.bookkeeper.net.BookieSocketAddress"]org.apache.bookkeeper.net.BookieNode#getAddr()Lorg/apache/bookkeeper/net/BookieSocketAddress;*,
-*
-bn$org.apache.bookkeeper.net.BookieNode2	getAddr()*
-101*Ü
-104ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaõ õ(hﬁ
-€
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaõ õ(h
-addrsjava.util.ArrayList"__id*
-
-%49java.util.ArrayList*
-100*∂
-105ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaô ö(F“
-œ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaô ö(F
-bnsjava.util.List"__id*
-
-%48java.util.ListÕ 
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaõ; õ(Y
-%49java.util.ArrayList"java.util.ArrayListÈ
-Ê
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaõ7 õ(g
-%50"java.util.ArrayList#<init>(I)V*
-
-%49java.util.ArrayList*
-""*
-104*Ö
-106ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaô' ô(3Ç
-ˇ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaôP ô(fV
-%46Oorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$TruePredicate"__id*
-""ú
-ô
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaö ö(Dp
-%47iorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$EnsembleForReplacementWithNoConstraints"__id*
-""π∂
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaô' ö(E
-%48java.util.List"ãorg.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl#selectRandom(ILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;)Ljava/util/List;*CA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy*
-""*
-
-excludeNodesjava.util.Set*X
-V
-%46Oorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$TruePredicate*r
-p
-%47iorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$EnsembleForReplacementWithNoConstraints2πselectRandom(ILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;)*
-105*´
-107ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaó ó(√
-¿
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaó ó(
-%44org.slf4j.Logger"__id*
-""Ω∫
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaó ó(L
-%45void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
-
-%44org.slf4j.Logger*/-
-+No regions available, invalid configuration2error(Ljava/lang/String;)*
-106*‰
-80ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaπ π(∆
-√
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaπ π(
-regionjava.lang.String"__id*
-""Ò
-Ó
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaπ π(
-regionjava.lang.String"
-__arrayGet*#
-!
-availableRegionsjava.util.Set*
-""*
-79
-82*Ó
-81ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∫ ∫(@»
-≈
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∫ ∫(@*
-%73#org.apache.commons.lang3.tuple.Pair"__mapSet*(
-&
-regionsWiseAllocationjava.util.Map*
-
-regionjava.lang.String*,
-*
-%72#org.apache.commons.lang3.tuple.Pair*
-80*å
-109ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javañ ñ(6ﬂ‹
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javañ ñ(6
-
-%43int"java.util.Set#size()I*
-
-%42java.util.Set2size()*
-
-106
-107*í
-82ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∫ ∫(%Ï
-È
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∫2 ∫(?*
-%72#org.apache.commons.lang3.tuple.Pair"qorg.apache.commons.lang3.tuple.Pair#of(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang3/tuple/Pair;*'"%
-#org.apache.commons.lang3.tuple.Pair*2 *2 *
-81*å
-84ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∏ ∏(XÊ
-„
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∏ ∏(X&
-regionsWiseAllocationjava.util.Map"__id*
-
-%70java.util.HashMap*
-80*Œ
-85ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∞$ ∞(0…∆
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∏L ∏(U
-%70java.util.HashMap"java.util.HashMap‹
-Ÿ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java∏H ∏(W
-%71"java.util.HashMap#<init>()V*
-
-%70java.util.HashMap*
-84*à
-86ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¨ ≠(N"Ë
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¨ ≠(NM
-K
-%69Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult*÷
-87ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java™ ´(<ø
-º
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java™ ´(<O
-
-nextPolicyAorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"__id*J
-H
-%68Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicyÓÎ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¨ ≠(MK
-%69Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"√org.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy#newEnsemble(IIILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementResult;*Q
-O
-
-nextPolicyAorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy*
-""*
-""*
-""*3
-1
- comprehensiveExclusionBookiesSetjava.util.Set*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2∫newEnsemble(IIILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;)*
-86*…
-88ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java™B ´(;£
-†
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java™B ´(;H
-%68Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"__mapGet*
-
-%65java.util.Map*
-
-%67java.lang.String*
-87*≠
-89ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java´ ´(:áÑ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java´ ´(:
-%67java.lang.String"+java.util.Iterator#next()Ljava/lang/Object;*
-
-%66java.util.Iterator2next()*
-88*ª
-110ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javañ ñ(&ï
-í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javañ ñ(&
-%41java.util.Map"__id*[*YA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-perRegionPlacement˚¯
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javañ ñ(/
-%42java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
-
-%41java.util.Map2keySet()*
-109*ú
-112ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaê& ê(6ÏÈ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaê& ê(=
-
-%40int"java.util.Set#size()I*#
-!
-availableRegionsjava.util.Set2size()*
-95
-85
-110*⁄
-113ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaâ â(∆
-√
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaâ â(
-regionjava.lang.String"__id*
-""‰
-·
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaâ â(
-regionjava.lang.String"
-__arrayGet*
-
-%32java.util.Set*
-""*
-
-112
-119*ß
-114ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaç ç($ˇ
-¸
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaç ç(0
-%39boolean"
-__arrayAdd*#
-!
-availableRegionsjava.util.Set*: *
-
-regionjava.lang.String*
-113*Œ
-116ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaã å(*°û
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaã å(*
-%38boolean"4org.apache.bookkeeper.feature.Feature#isAvailable()Z*.
-,
-%37%org.apache.bookkeeper.feature.Feature2isAvailable()*
-
-113
-114*ç
-117ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaãE ã(o∞
-≠
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaãE ã(o
-%36java.lang.String"__id*s*qA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy",
-*disallowBookiePlacementInRegionFeatureName≤Ø
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaã ã(p,
-%37%org.apache.bookkeeper.feature.Feature"sorg.apache.bookkeeper.feature.FeatureProvider#getFeature(Ljava/lang/String;)Lorg/apache/bookkeeper/feature/Feature;*6
-4
-%35-org.apache.bookkeeper.feature.FeatureProvider*
-
-%36java.lang.String2getFeature(Ljava/lang/String;)*
-116*‘
-90ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶ ©(U˝
-˙
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶ ©(Um
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"__id*j
-h
-%63aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsembleï
-í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java™B ™(T
-%65java.util.Map"__id*[*YA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-perRegionPlacementñì
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java´ ´(3
-%66java.util.Iterator",java.util.Set#iterator()Ljava/util/Iterator;*#
-!
-availableRegionsjava.util.Set2
-iterator()*
-89*ò
-118ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaã ã(+≤
-Ø
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaã ã(+4
-%34-org.apache.bookkeeper.feature.FeatureProvider"__id*X*VA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-featureProviderª∏
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaã ã(94
-%35-org.apache.bookkeeper.feature.FeatureProvider"vorg.apache.bookkeeper.feature.FeatureProvider#scope(Ljava/lang/String;)Lorg/apache/bookkeeper/feature/FeatureProvider;*6
-4
-%34-org.apache.bookkeeper.feature.FeatureProvider*
-
-regionjava.lang.String2scope(Ljava/lang/String;)*
-117*Ú
-91ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java© ©(8ÈÊ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶? ¶(^h
-%63aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble‡
-›
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶; ©(T
-%64"Äorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble#<init>(IIIILjava/util/Set;II)V*j
-h
-%63aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*
-""*
-""*
-""*
-
-
-%56int*
-
-%57java.util.Set*
-""*
-""*
-90*›
-119ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaä ä(∞
-≠
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaä ä(G
-%33java.lang.String"__id*s*qA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy",
-*disallowBookiePlacementInRegionFeatureName*
-
-114
-118*Û
-92ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®l ®(pÕ
- 
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®l ®(p
-%57java.util.Set"__id*
-
-%59
-<nulltype>*
-91*”
-93ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®? ®(i…∆
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®C ®(L
-%58java.util.HashSet"java.util.HashSetä
-á
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®? ®(i
-%62"1java.util.HashSet#<init>(Ljava/util/Collection;)V*
-
-%58java.util.HashSet*
-
-%61java.util.Set‘
-—
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®? ®(i
-%57java.util.Set"__id*
-
-%58java.util.HashSet*
-91*π
-94ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®M ®(_ï
-í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®M ®(_
-%60java.util.Map"__id*[*YA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-perRegionPlacement˚¯
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java®M ®(h
-%61java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
-
-%60java.util.Map2keySet()*
-93*‡
-95ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶_ ¶(k∂
-≥
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaß8 ß(U
-
-%56int"__id*
-""*
-92
-94*à
-97ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü °(Z"Ë
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü °(ZM
-K
-%55Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult*ƒ
-98ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü °(Yû
-õ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü °(YK
-%55Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"org.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult#of(Ljava/lang/Object;Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementPolicyAdherence;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementResult;*H"F
-Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult*
-
-addrsjava.util.ArrayList*V
-T
-%54Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*
-97*â
-99ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü ü(&˜
-Ù
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü ü(&K
-%53Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"__id*
-""ÈÊ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java†* °(XT
-%54Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"∆org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy#isEnsembleAdheringToPlacementPolicy(Ljava/util/List;II)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementPolicyAdherence;*CA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy*
-
-addrsjava.util.ArrayList*
-""*
-""27isEnsembleAdheringToPlacementPolicy(Ljava/util/List;II)*
-98*¡
-11ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaú% ú(-ôñ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaú% ú(8
-%137boolean"morg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble#validate()Z*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2
-validate()*
-6
-9*ú
-14ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaô ô(C∞≠
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaô ô(AL
-%135Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException"Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesExceptionƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaô ô(C
-%136"Norg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException#<init>()V*N
-L
-%135Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException*
-1*Æ
-15ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaó ó(ƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaó ó(
-%133org.slf4j.Logger"__id*
-""¡æ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaó ò(3
-%134void"Oorg.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%133org.slf4j.Logger*A?
-=Not enough {} bookies are available to form an ensemble : {}.*
-""*
-
-
-bookieListjava.util.List2=error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-14*Û
-17ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaï ï(E⁄
-◊
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaï ï(E
-
-bookieListjava.util.List"__id*
-
-%131java.util.ListÈÊ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javañ  ñ(1
-%132int"java.util.List#size()I*
-
-
-bookieListjava.util.List2size()*
-15
-6
-11*—
-18ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaï3 ï(;´®
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaï3 ï(D
-%131java.util.List"zorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble#toList()Ljava/util/List;*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2toList()*
-17*ª
-120ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaâ  â(2ï
-í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaâ  â(2
-%31java.util.Map"__id*[*YA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-perRegionPlacement˚¯
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaâ  â(;
-%32java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*
-
-%31java.util.Map2keySet()*
-113*∂
-0 "Æ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java® ®(
-implicit return*â
-121ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaà à(A·
-ﬁ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaà à(A!
-availableRegionsjava.util.Set"__id*
-
-%29java.util.HashSet*
-120*¨
-122ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaá á(]Ÿ
-÷
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaá á(]
-excludeNodesjava.util.Set"__id*
-
-%28java.util.Set…∆
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaà/ à(>
-%29java.util.HashSet"java.util.HashSet‹
-Ÿ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaà+ à(@
-%30"java.util.HashSet#<init>()V*
-
-%29java.util.HashSet*
-121*ª	
-1ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶ ¶(Æ
-´
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶ ¶(9
-%1481java.util.concurrent.locks.ReentrantReadWriteLock"__id*O*MA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-rwLock£†
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶ ¶(B
-%149:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*;
-9
-%1481java.util.concurrent.locks.ReentrantReadWriteLock2
-readLock()¿Ω
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¶ ¶(&
-%150void"Djava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#unlock()V*D
-B
-%149:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2unlock()*
-0*Û
-123ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÖ Ü(%Ì
-Í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÖ Ü(%1
- comprehensiveExclusionBookiesSetjava.util.Set"__id*
-
-%27java.util.Set€ÿ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaá% á(\
-%28java.util.Set"~org.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy#convertBookiesToNodes(Ljava/util/Collection;)Ljava/util/Set;*CA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy*3
-1
- comprehensiveExclusionBookiesSetjava.util.Set2-convertBookiesToNodes(Ljava/util/Collection;)*
-122*à
-2ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java£ §(g"È
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java£ §(gN
-L
-%147Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult*ì
-124ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÖH Ö(tÎË
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÖH Ü($
-%27java.util.Set"éorg.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl#addDefaultRackBookiesIfMinNumRacksIsEnforced(Ljava/util/Set;)Ljava/util/Set;*CA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy*"
- 
-excludedBookiesjava.util.Set2=addDefaultRackBookiesIfMinNumRacksIsEnforced(Ljava/util/Set;)*
-123*∆
-3ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java£ §(f¢
-ü
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java£ §(fL
-%147Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"org.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult#of(Ljava/lang/Object;Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementPolicyAdherence;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementResult;*H"F
-Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult* 
-
-ensembleListjava.util.List*W
-U
-%146Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence*
-2*∂	
-125ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÉ É(≠
-™
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÉ É(8
-%241java.util.concurrent.locks.ReentrantReadWriteLock"__id*O*MA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-rwLock°û
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÉ É(A
-%25:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock"xjava.util.concurrent.locks.ReentrantReadWriteLock#readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;*:
-8
-%241java.util.concurrent.locks.ReentrantReadWriteLock2
-readLock()∫∑
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÉ É( 
-%26void"Bjava.util.concurrent.locks.ReentrantReadWriteLock$ReadLock#lock()V*C
-A
-%25:java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock2lock()*
-124*Í	
-4ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¢ ¢(G‹
-Ÿ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¢ ¢(G
-ensembleListjava.util.List"__id*
-
-%144java.util.List¯
-ı
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java£ £("L
-%145Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"__id*
-""ÏÈ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java§ §(eU
-%146Morg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementPolicyAdherence"∆org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy#isEnsembleAdheringToPlacementPolicy(Ljava/util/List;II)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementPolicyAdherence;*CA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy* 
-
-ensembleListjava.util.List*
-""*
-""27isEnsembleAdheringToPlacementPolicy(Ljava/util/List;II)*
-3*ª
-126ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˛3 ˛(AŸ
-÷
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˛3 ˛(Q
-%19java.lang.String"__concat*
-ack quorum (*
-""‚
-ﬂ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˛3 ˛(X
-%20java.lang.String"__concat*
-
-%19java.lang.String*
-) ∏
-µ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˛3 ˇ(p
-%21java.lang.String"__concat*
-
-%20java.lang.String*\Z
-Xviolates the requirement to satisfy durability constraints when running in degraded modeÎË
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˛ ˛(2)
-%22"java.lang.IllegalArgumentException""java.lang.IllegalArgumentException´
-®
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˛ ˇ(q
-%23">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*+
-)
-%22"java.lang.IllegalArgumentException*
-
-%21java.lang.String*
-0*œ
-5ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¢5 ¢(=´®
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java¢5 ¢(F
-%144java.util.List"zorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble#toList()Ljava/util/List;*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2toList()*
-4*≥
-6ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java° °(ƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java° °(
-%142org.slf4j.Logger"__id*
-""»≈
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java° °(C
-%143void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%142org.slf4j.Logger*%#
-!Bookies allocated successfully {}*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2*info(Ljava/lang/String;Ljava/lang/Object;)*
-5*Í
-129ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaˆ ˆ("Ÿ
-÷
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaˆ ˆ(2
-%13java.lang.String"__concat*
-ack quorum (*
-""É
-Ä
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaˆ ˆ(Z
-%14java.lang.String"__concat*
-
-%13java.lang.String*'%
-#) cannot exceed write quorum size (‚
-ﬂ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaˆ ˆ(l
-%15java.lang.String"__concat*
-
-%14java.lang.String*
-""·
-ﬁ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaˆ ˆ(r
-%16java.lang.String"__concat*
-
-%15java.lang.String*
-)ÎË
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaı ı(.)
-%17"java.lang.IllegalArgumentException""java.lang.IllegalArgumentException´
-®
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaı ˆ(s
-%18">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*+
-)
-%17"java.lang.IllegalArgumentException*
-
-%16java.lang.String*
-0*õ
-8ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü ü(C∞≠
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü ü(AL
-%140Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException"Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesExceptionƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaü ü(C
-%141"Norg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException#<init>()V*N
-L
-%140Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException*
-1*±
-9ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaù ù(ƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaù ù(
-%138org.slf4j.Logger"__id*
-""∆√
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaù û(-
-%139void"Oorg.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%138org.slf4j.Logger*FD
-BNot enough {} bookies are available to form a valid ensemble : {}.*
-""*
-
-
-bookieListjava.util.List2=error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-8*˘
-23ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaê ê([œÃ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaê ê([
-%130boolean"2java.util.Set#containsAll(Ljava/util/Collection;)Z*.
-,
-regionsReachedMaxAllocationjava.util.Set*
-
-%129java.util.Set2#containsAll(Ljava/util/Collection;)*
-18
-77*¥
-24ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaê ê(/éã
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaê< ê(Z
-%129java.util.Set"%java.util.Map#keySet()Ljava/util/Set;*(
-&
-regionsWiseAllocationjava.util.Map2keySet()*
-23*Á
-25ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÀ À(JŒ
-À
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÀ À(J"
-regionEntryjava.util.Map$Entry"__id*
-""Ï
-È
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÀ À(J"
-regionEntryjava.util.Map$Entry"
-__arrayGet*
-
-%86java.util.Set*
-""*
-24
-69*∞
-26ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaãA ã(Gäá
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaä ã(R
-%128void"=org.slf4j.Logger#info(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%126org.slf4j.Logger**(
-&Allocated {} bookies in region {} : {}*
-
-%127java.lang.Integer*
-
-regionjava.lang.String*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2+info(Ljava/lang/String;[Ljava/lang/Object;)*
-25*¨
-27ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaä ä(ƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaä ä(
-%126org.slf4j.Logger"__id*
-""øº
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaã$ ã(?
-%127java.lang.Integer"?org.apache.commons.lang3.tuple.Pair#getLeft()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2	getLeft()*
-26*‹
-
-28ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaá$ á(D∂	≥	
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÉ â(-L
-%125Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"√org.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy#newEnsemble(IIILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementResult;*Y
-W
-policyWithinRegionAorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy*
-
-%122java.lang.Integer*
-
-%123java.lang.Integer*
-
-%124java.lang.Integer*3
-1
- comprehensiveExclusionBookiesSetjava.util.Set*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2∫newEnsemble(IIILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;)*
-27*Á
-29ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÜ$ Ü(5¡æ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÜ$ Ü(@
-%124java.lang.Integer"@org.apache.commons.lang3.tuple.Pair#getRight()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2
-getRight()*
-28*‚
-131ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÛ Û($⁄
-◊
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÛ Û(6
-%7java.lang.String"__concat*
-write quorum (*
-""˝
-˙
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÛ Û(Z
-%8java.lang.String"__concat*
-
-%7java.lang.String*#!
-) cannot exceed ensemble size (‡
-›
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÛ Û(i
-%9java.lang.String"__concat*
-
-%8java.lang.String*
-""‡
-›
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÛ Û(o
-%10java.lang.String"__concat*
-
-%9java.lang.String*
-)ÎË
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÚ Ú(.)
-%11"java.lang.IllegalArgumentException""java.lang.IllegalArgumentException´
-®
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÚ Û(p
-%12">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*+
-)
-%11"java.lang.IllegalArgumentException*
-
-%10java.lang.String*
-0*Û
-133ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java (bÍÁ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÔ Ô(.(
-%5"java.lang.IllegalArgumentException""java.lang.IllegalArgumentException‡
-›
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÔ (c
-%6">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V**
-(
-%5"java.lang.IllegalArgumentException*PN
-LAck Quorum size provided are insufficient to meet the durability constraints*
-0*ˆ
-135ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎ\ Î(s∫
-∑
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎ\ Î(s	
-%2int"__id*
-	
-%4int*
-125
-126
-129
-131
-133*ˆ
-136ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎX Î(Y∫
-∑
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎX Î(Y	
-%2int"__id*
-	
-%3int*
-125
-126
-129
-131
-133*Å
-137ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎ/ Î(G≤
-Ø
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎ/ Î(G+
-%0%org.apache.bookkeeper.feature.Feature"__id*a*_A
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-disableDurabilityFeatureüú
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎ/ Î(U
-%1boolean"4org.apache.bookkeeper.feature.Feature#isAvailable()Z*-
-+
-%0%org.apache.bookkeeper.feature.Feature2isAvailable()*
-
-135
-136*Á
-30ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÖ$ Ö(5¡æ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÖ$ Ö(@
-%123java.lang.Integer"@org.apache.commons.lang3.tuple.Pair#getRight()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2
-getRight()*
-29*Â
-31ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÉ É(.øº
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÑ$ Ñ(?
-%122java.lang.Integer"?org.apache.commons.lang3.tuple.Pair#getLeft()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2	getLeft()*
-30*˙
-32ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÇA Ç(G‘—
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÅ Ç(t
-%121void"=org.slf4j.Logger#info(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%119org.slf4j.Logger*?=
-;Allocating {} bookies in region {} : ensemble {} exclude {}*
-
-%120java.lang.Integer*
-
-regionjava.lang.String*3
-1
- comprehensiveExclusionBookiesSetjava.util.Set*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2+info(Ljava/lang/String;[Ljava/lang/Object;)*
-31*¨
-33ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÅ Å(ƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÅ Å(
-%119org.slf4j.Logger"__id*
-""øº
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÇ$ Ç(?
-%120java.lang.Integer"?org.apache.commons.lang3.tuple.Pair#getLeft()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2	getLeft()*
-32*È
-35ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÄ Ä(-øº
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÄ Ä(7
-%118java.lang.Integer"?org.apache.commons.lang3.tuple.Pair#getLeft()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2	getLeft()*
-25
-33*
-37ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaˇ ˇ(3∆√
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaˇ ˇ(D
-%117boolean"+java.util.Set#contains(Ljava/lang/Object;)Z*.
-,
-regionsReachedMaxAllocationjava.util.Set*
-
-regionjava.lang.String2contains(Ljava/lang/Object;)*
-35
-25*±
-38ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˚ ˚(7ã
-à
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java˚ ˚(C
-%116boolean"
-__arrayAdd*.
-,
-regionsReachedMaxAllocationjava.util.Set*: *
-
-regionjava.lang.String*
-37*´
-43ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÎ* Î(.ƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÌ  Ì(#
-%111org.slf4j.Logger"__id*
-""ú
-ô
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÌ) Ó(I
-%112java.lang.String"__concat*75
-3Region {} allocating bookies with ensemble size {} *!
-and write quorum size {} : {}õò
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÌ  Ô(_
-%113void"=org.slf4j.Logger#info(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%111org.slf4j.Logger*
-
-%112java.lang.String*
-
-regionjava.lang.String*
-""*
-""*
-
-	allocatedjava.util.List2+info(Ljava/lang/String;[Ljava/lang/Object;)*
-37
-38*
-44ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÍ  Í(o 
-«
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÍ  Í(o+
-%110#org.apache.commons.lang3.tuple.Pair"__mapSet*(
-&
-regionsWiseAllocationjava.util.Map*
-
-regionjava.lang.String*-
-+
-%109#org.apache.commons.lang3.tuple.Pair*
-43*Ä	
-45ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java„  Ê(5Ÿ
-÷
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java„  Ê(5
-	allocatedjava.util.List"__id*
-
-%108java.util.ListÜ
-É
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÁ  Á(7m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"__id*s
-q
-tempEnsembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsembleı
-Ú
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÍB Í(n+
-%109#org.apache.commons.lang3.tuple.Pair"qorg.apache.commons.lang3.tuple.Pair#of(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang3/tuple/Pair;*'"%
-#org.apache.commons.lang3.tuple.Pair*
-""*
-""*
-44*õ
-46ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java„F Ê(4ıÚ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java„F Ê(4
-%108java.util.List"borg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult#getResult()Ljava/lang/Object;*N
-L
-%107Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult2getResult()*
-45*•
-
-47ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java„F „(Xˇ¸
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java„F Â(mL
-%107Dorg.apache.bookkeeper.client.EnsemblePlacementPolicy$PlacementResult"√org.apache.bookkeeper.client.ITopologyAwareEnsemblePlacementPolicy#newEnsemble(IIILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy$PlacementResult;*Y
-W
-policyWithinRegionAorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy*
-""*
-""*
-""*3
-1
- comprehensiveExclusionBookiesSetjava.util.Set*s
-q
-tempEnsembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*s
-q
-tempEnsembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble2∫newEnsemble(IIILjava/util/Set;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Ensemble;Lorg/apache/bookkeeper/client/ITopologyAwareEnsemblePlacementPolicy$Predicate;)*
-46*Á
-49ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java‡P ‡(a¡æ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java·5 ·(Q
-%106java.lang.Integer"@org.apache.commons.lang3.tuple.Pair#getRight()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2
-getRight()*
-47*Í
-50ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaﬁ ﬂ(NÇ
-ˇ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaﬁ ﬂ(Nq
-tempEnsembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"__id*k
-i
-%103aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsembleøº
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java‡2 ‡(M
-%105java.lang.Integer"?org.apache.commons.lang3.tuple.Pair#getLeft()Ljava/lang/Object;*:
-8
-currentAllocation#org.apache.commons.lang3.tuple.Pair2	getLeft()*
-49*Ê
-51ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŸ ⁄(pÍÁ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaﬂ$ ﬂ(Ci
-%103aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble"aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble”
-–
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaﬂ  ﬂ(M
-%104"Œorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble#<init>(Lorg/apache/bookkeeper/client/TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble;)V*k
-i
-%103aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*o
-m
-ensembleaorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy$RRTopologyAwareCoverageEnsemble*
-50*ë
-52ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŸ3 ⁄(oÎ
-Ë
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŸ3 ⁄(o
-%102int"java.lang.Math#max(II)I*"
-java.lang.Math*2*
-
-%101int*
-51*ì
-53ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŸ? ⁄(nÌ
-Í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŸ? ⁄(n
-%101int"java.lang.Math#min(II)I*"
-java.lang.Math*
-""*
-
-%100int*
-52*Ö
-54ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŸ3 Ÿ(7ﬂ
-‹
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java⁄( ⁄(m
-%100int"java.lang.Math#round(F)I*"
-java.lang.Math*
-""*
-53*ì
-57ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java’L ÷(VÂ
-‚
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java’0 ÷(W
-
-%99int"java.lang.Math#min(II)I*"
-java.lang.Math*
-""*
-""*
-37
-38
-54*‚
-58ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java÷T ÷(Uº
-π
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java÷T ÷(U
-
-%96int"__id*
-
-
-%98int*
-57*‚
-59ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java÷P ÷(Qº
-π
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java÷P ÷(Q
-
-%96int"__id*
-
-
-%97int*
-57*Ω
-startingBlockñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÁA Ë(lÎ
-Ë
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÊ Ê(
-%151"
-__annotate*
-java.lang.Override*!
-
-customMetadatajava.util.Map’
-“
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaË3 Ë(A
-customMetadatajava.util.Map"__annotation*
-
-%151Ï
-È
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÊ Ê(
-%152"
-__annotate*
-java.lang.Override*"
- 
-excludedBookiesjava.util.Set÷
-”
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaË\ Ë(k 
-excludedBookiesjava.util.Set"__annotation*
-
-%152*
-137*ô
-62ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java“" “(OØ¨
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java“& “(MK
-%94Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException"Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException¬
-ø
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java“" “(O
-%95"Norg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException#<init>()V*M
-K
-%94Dorg.apache.bookkeeper.client.BKException$BKNotEnoughBookiesException*
-1*™
-63ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java— —(√
-¿
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java— —(
-%92org.slf4j.Logger"__id*
-""æª
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.java— —(U
-%93void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
-
-%92org.slf4j.Logger*0.
-,Inconsistent State: This should never happen2error(Ljava/lang/String;)*
-62*¡
-66ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŒ Œ(m«
-ƒ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŒ Œ(mW
-policyWithinRegionAorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"__id*J
-H
-%90Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy≈¬
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaœ œ(E
-%91boolean"+java.util.Set#contains(Ljava/lang/Object;)Z*.
-,
-regionsReachedMaxAllocationjava.util.Set*
-
-regionjava.lang.String2contains(Ljava/lang/Object;)*
-58
-37
-59
-63*Ò
-67ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÕ Õ(\ä
-á
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaÕ Õ(\8
-currentAllocation#org.apache.commons.lang3.tuple.Pair"__id*,
-*
-%88#org.apache.commons.lang3.tuple.Pairï
-í
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŒN Œ(`
-%89java.util.Map"__id*[*YA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy"
-perRegionPlacement¶
-£
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RegionAwareEnsemblePlacementPolicy.javaŒN Œ(lH
-%90Aorg.apache.bookkeeper.client.TopologyAwareEnsemblePlacementPolicy"__mapGet*
-
-%89java.util.Map*
-
-regionjava.lang.String*
-66:
-"":
-"":
-"":
-customMetadatajava.util.Map: 
-excludedBookiesjava.util.SetBCA
-?org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy

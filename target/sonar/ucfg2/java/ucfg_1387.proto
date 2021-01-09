@@ -1,215 +1,0 @@
-
-¶org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl#refreshRangeSpaces(Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;)Ljava/util/concurrent/CompletableFuture;“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaã0 ã(B"11*×	
-2“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java„ „(îë
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java„ „(
-%20void"java.util.Iterator#remove()V*
-
-rsIterjava.util.Iterator2remove()£ 
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java…# …(3*
-%21#org.apache.bookkeeper.api.kv.PTable"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
-
-entryjava.util.Map$Entry2
-getValue()ƒ
-€
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java… …(44
-oldRangeSpace#org.apache.bookkeeper.api.kv.PTable"__id*,
-*
-%21#org.apache.bookkeeper.api.kv.PTable™–
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java† †(!
-%22void"0org.apache.bookkeeper.api.kv.PTableBase#close()V*6
-4
-oldRangeSpace#org.apache.bookkeeper.api.kv.PTable2close()*
-5*œ
-4“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaÿ> ÿ(DŠ‡
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaÿ> ÿ(K
-%17java.util.Map$Entry"+java.util.Iterator#next()Ljava/lang/Object;*
-
-rsIterjava.util.Iterator2next()Û
-Ø
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaÿ ÿ(L
-entryjava.util.Map$Entry"__id*
-
-%17java.util.Map$EntryŠ‡
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java€ €(%
-%18java.lang.Long".java.util.Map$Entry#getKey()Ljava/lang/Object;*
-
-entryjava.util.Map$Entry2getKey()Ï
-Ì
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java€ €(&
-ridjava.lang.Long"__id*
-
-%18java.lang.Long®«
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.java (*
-%19boolean"+java.util.Set#contains(Ljava/lang/Object;)Z*
-
-activeRangesjava.util.Set*
-
-ridjava.lang.Long2contains(Ljava/lang/Object;)*
-2
-5*—
-5“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaş ş(óğ
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaş ş(
-%16boolean"java.util.Iterator#hasNext()Z*
-
-rsIterjava.util.Iterator2	hasNext()*
-4
-1*“
-6“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaí í(«
-¨
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaí í(<
-%66org.apache.bookkeeper.clients.impl.routing.RangeRouter"__id*L*J9
-7org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl"
-rangeRouterŠ‡
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaí í((F
-%7@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges"Æorg.apache.bookkeeper.clients.impl.routing.RangeRouter#setRanges(Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;)Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;*>
-<
-%66org.apache.bookkeeper.clients.impl.routing.RangeRouter*O
-M
-	newRanges@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges2MsetRanges(Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;)÷ô
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaïA ï(V
-%8java.util.NavigableMap"`org.apache.bookkeeper.clients.impl.internal.api.StreamRanges#getRanges()Ljava/util/NavigableMap;*O
-M
-	newRanges@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges2getRanges()ãà
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaïA ï(]	
-%9int"java.util.Map#size()I*
-
-%8java.util.NavigableMap2size()µ
-²
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaï! ï(^
-%10java.util.HashSet"Ocom.google.common.collect.Sets#newHashSetWithExpectedSize(I)Ljava/util/HashSet;*"" 
-com.google.common.collect.Sets*
-	
-%9intÚ
-×
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaï ï(_
-activeRangesjava.util.Set"__id*
-
-%10java.util.HashSetøõ
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javağ ğ(
-%11java.util.NavigableMap"`org.apache.bookkeeper.clients.impl.internal.api.StreamRanges#getRanges()Ljava/util/NavigableMap;*O
-M
-	newRanges@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges2getRanges()²¯
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javağ û(
-
-%12void"7java.util.Map#forEach(Ljava/util/function/BiConsumer;)V*
-
-%11java.util.NavigableMap*
-""2(forEach(Ljava/util/function/BiConsumer;)˜
-•
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaıA ı(L)
-%13"java.util.concurrent.ConcurrentMap"__id*L*J9
-7org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl"
-tableRanges‘
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaıA ı(W
-%14java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*+
-)
-%13"java.util.concurrent.ConcurrentMap2
-entrySet()†ƒ
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaıA ı(b
-%15java.util.Iterator",java.util.Set#iterator()Ljava/util/Iterator;*
-
-%14java.util.Set2
-iterator()Ú
-×
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaı ı(c
-rsIterjava.util.Iterator"__id*
-
-%15java.util.Iterator*
-5* 
-9“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaç ç(„
-
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaçB ç(L
-%4java.lang.String"__id*K*I9
-7org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl"
-
-streamName´
-±
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaè è(*,
-%5&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*;9
-7org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl"Æ
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaè è(+.
-,
-%5&java.util.concurrent.CompletableFuture*Ô
-10“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaæ! æ(*ÖÓ
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaæ! æ(:
-
-%2long"Morg.apache.bookkeeper.clients.impl.internal.api.StreamRanges#getMaxRangeId()J*O
-M
-	oldRanges@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges2getMaxRangeId()ÖÓ
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaæ> æ(W
-
-%3long"Morg.apache.bookkeeper.clients.impl.internal.api.StreamRanges#getMaxRangeId()J*O
-M
-	newRanges@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges2getMaxRangeId()*
-6
-9*Ä	
-11“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaå% å(0«
-¨
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaå% å(0<
-%06org.apache.bookkeeper.clients.impl.routing.RangeRouter"__id*L*J9
-7org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl"
-rangeRouterµ²
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaå% å(<F
-%1@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges"„org.apache.bookkeeper.clients.impl.routing.RangeRouter#getRanges()Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;*>
-<
-%06org.apache.bookkeeper.clients.impl.routing.RangeRouter2getRanges()¸
-µ
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaå å(=M
-	oldRanges@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges"__id*H
-F
-%1@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges*
-6
-10*›
-1“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaˆ ˆ(µ
-²
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaˆ ˆ(&-
-%23&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*;9
-7org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl"Ç
-“
-†/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/PByteBufTableImpl.javaˆ ˆ('/
--
-%23&java.util.concurrent.CompletableFuture:M
-	newRanges@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRangesB;9
-7org.apache.bookkeeper.clients.impl.kv.PByteBufTableImpl

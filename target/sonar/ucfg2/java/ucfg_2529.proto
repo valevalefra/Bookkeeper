@@ -1,66 +1,0 @@
-
-≤org.apache.distributedlog.impl.logsegment.BKLogSegmentRandomAccessEntryReader#processReadEntry(Lorg/apache/bookkeeper/client/LedgerEntry;)Lorg/apache/distributedlog/Entry$Reader;´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaK K(!"1*’
-1´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL L(‹
-Ÿ
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL L(!-
-%0'org.apache.distributedlog.Entry$Builder"Uorg.apache.distributedlog.Entry#newBuilder()Lorg/apache/distributedlog/Entry$Builder;*#"!
-org.apache.distributedlog.Entry†ù
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL M(9-
-%1'org.apache.distributedlog.Entry$Builder"forg.apache.distributedlog.Entry$Builder#setLogSegmentInfo(JJ)Lorg/apache/distributedlog/Entry$Builder;*/
--
-%0'org.apache.distributedlog.Entry$Builder*
-""*
-""2setLogSegmentInfo(JJ)∏µ
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaN N(.
-
-%2long"6org.apache.bookkeeper.client.LedgerEntry#getEntryId()J*3
-1
-entry(org.apache.bookkeeper.client.LedgerEntry2getEntryId()éã
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL N(/-
-%3'org.apache.distributedlog.Entry$Builder"^org.apache.distributedlog.Entry$Builder#setEntryId(J)Lorg/apache/distributedlog/Entry$Builder;*/
--
-%1'org.apache.distributedlog.Entry$Builder*
-
-
-%2long2setEntryId(J)îë
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL O(2-
-%4'org.apache.distributedlog.Entry$Builder"dorg.apache.distributedlog.Entry$Builder#setEnvelopeEntry(Z)Lorg/apache/distributedlog/Entry$Builder;*/
--
-%3'org.apache.distributedlog.Entry$Builder*
-""2setEnvelopeEntry(Z)úô
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL P(;-
-%5'org.apache.distributedlog.Entry$Builder"horg.apache.distributedlog.Entry$Builder#deserializeRecordSet(Z)Lorg/apache/distributedlog/Entry$Builder;*/
--
-%4'org.apache.distributedlog.Entry$Builder*
-""2deserializeRecordSet(Z)ÎË
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaQ Q(0
-%6io.netty.buffer.ByteBuf"Rorg.apache.bookkeeper.client.LedgerEntry#getEntryBuffer()Lio/netty/buffer/ByteBuf;*3
-1
-entry(org.apache.bookkeeper.client.LedgerEntry2getEntryBuffer()Õ 
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL Q(1-
-%7'org.apache.distributedlog.Entry$Builder"torg.apache.distributedlog.Entry$Builder#setEntry(Lio/netty/buffer/ByteBuf;)Lorg/apache/distributedlog/Entry$Builder;*/
--
-%5'org.apache.distributedlog.Entry$Builder*
-
-%6io.netty.buffer.ByteBuf2#setEntry(Lio/netty/buffer/ByteBuf;)˛˚
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL R(,
-%8&org.apache.distributedlog.Entry$Reader"]org.apache.distributedlog.Entry$Builder#buildReader()Lorg/apache/distributedlog/Entry$Reader;*/
--
-%7'org.apache.distributedlog.Entry$Builder2buildReader()"ﬁ
-´
-†/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentRandomAccessEntryReader.javaL R(.
-,
-%8&org.apache.distributedlog.Entry$Reader:1
-entry(org.apache.bookkeeper.client.LedgerEntryBQO
-Morg.apache.distributedlog.impl.logsegment.BKLogSegmentRandomAccessEntryReader

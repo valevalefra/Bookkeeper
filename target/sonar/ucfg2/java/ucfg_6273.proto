@@ -1,121 +1,0 @@
-
-ºorg.apache.bookkeeper.client.DefaultEnsemblePlacementPolicy#initialize(Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/Optional;Lio/netty/util/HashedWheelTimer;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy;’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java¾# ¾(-"startingBlock*•
-2’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÅ% Å()÷ô
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÅ% Å(]	
-%1int"corg.apache.bookkeeper.conf.ClientConfiguration#getBookieMaxWeightMultipleForWeightBasedPlacement()I*8
-6
-conf.org.apache.bookkeeper.conf.ClientConfiguration23getBookieMaxWeightMultipleForWeightBasedPlacement()’
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÆ) Æ(Y>
-%28org.apache.bookkeeper.client.WeightedRandomSelectionImpl"8org.apache.bookkeeper.client.WeightedRandomSelectionImpl­
-ª
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÆ% Æ(q
-%3"Corg.apache.bookkeeper.client.WeightedRandomSelectionImpl#<init>(I)V*@
->
-%28org.apache.bookkeeper.client.WeightedRandomSelectionImpl*
-""¶
-³
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÆ Æ(qT=
-;org.apache.bookkeeper.client.DefaultEnsemblePlacementPolicy"
-weightedSelection"__id*@
->
-%28org.apache.bookkeeper.client.WeightedRandomSelectionImpl*
-1*€
-3’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÃ Ã(ÝÚ
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÃ Ã(C
-%0boolean"Torg.apache.bookkeeper.conf.ClientConfiguration#getDiskWeightBasedPlacementEnabled()Z*8
-6
-conf.org.apache.bookkeeper.conf.ClientConfiguration2$getDiskWeightBasedPlacementEnabled()*
-2
-1*
-startingBlock’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java¾- Â(Fü
-ù
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java½ ½(
-%4"
-__annotate*
-java.lang.Override*8
-6
-conf.org.apache.bookkeeper.conf.ClientConfigurationæ
-ã
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java¾B ¾(F6
-conf.org.apache.bookkeeper.conf.ClientConfiguration"__annotation*
-
-%4ï
-ì
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java½ ½(
-%5"
-__annotate*
-java.lang.Override*+
-)
-optionalDnsResolverjava.util.OptionalÙ
-Ö
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java¿K ¿(^)
-optionalDnsResolverjava.util.Optional"__annotation*
-
-%5í
-ê
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java½ ½(
-%6"
-__annotate*
-java.lang.Override*)
-'
-timerio.netty.util.HashedWheelTimer×
-Ô
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÀ? À(D'
-timerio.netty.util.HashedWheelTimer"__annotation*
-
-%6†
-ƒ
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java½ ½(
-%7"
-__annotate*
-java.lang.Override*B
-@
-featureProvider-org.apache.bookkeeper.feature.FeatureProviderð
-í
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÁ> Á(M@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider"__annotation*
-
-%7ü
-ù
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.java½ ½(
-%8"
-__annotate*
-java.lang.Override*8
-6
-statsLogger'org.apache.bookkeeper.stats.StatsLoggeræ
-ã
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÂ: Â(E6
-statsLogger'org.apache.bookkeeper.stats.StatsLogger"__annotation*
-
-%8*
-3*ñ
-1’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÈ È("Ö
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DefaultEnsemblePlacementPolicy.javaÈ È(?=
-;org.apache.bookkeeper.client.DefaultEnsemblePlacementPolicy:6
-conf.org.apache.bookkeeper.conf.ClientConfiguration:)
-optionalDnsResolverjava.util.Optional:'
-timerio.netty.util.HashedWheelTimer:@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider:6
-statsLogger'org.apache.bookkeeper.stats.StatsLoggerB?=
-;org.apache.bookkeeper.client.DefaultEnsemblePlacementPolicy

@@ -1,72 +1,0 @@
-
-∞org.apache.bookkeeper.statelib.impl.mvcc.MVCCUtils#toIncrementRequest(Lorg/apache/bookkeeper/api/kv/op/IncrementOp;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaä ä(."1*´!
-1Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaã ã(§
-°
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaã ã(,H
-%0Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"ãorg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*>"<
-:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequestõò
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaå4 å(<
-%1byte[]"Corg.apache.bookkeeper.api.kv.op.IncrementOp#key()Ljava/lang/Object;*3
-1
-op+org.apache.bookkeeper.api.kv.op.IncrementOp2key()…
-∆
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaå å(=$
-%2com.google.protobuf.ByteString"Wcom.google.protobuf.UnsafeByteOperations#unsafeWrap([B)Lcom/google/protobuf/ByteString;*,"*
-(com.google.protobuf.UnsafeByteOperations*
-
-%1byte[]¶£
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaã å(>H
-%3Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"Øorg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#setKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*J
-H
-%0Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder*&
-$
-%2com.google.protobuf.ByteString2(setKey(Lcom/google/protobuf/ByteString;)éã
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaç ç("
-
-%4long"5org.apache.bookkeeper.api.kv.op.IncrementOp#amount()J*3
-1
-op+org.apache.bookkeeper.api.kv.op.IncrementOp2amount()‘—
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaã ç(#H
-%5Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"ìorg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#setAmount(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*J
-H
-%3Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder*
-
-
-%4long2setAmount(J)Û
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaé é($:
-%64org.apache.bookkeeper.api.kv.options.IncrementOption"jorg.apache.bookkeeper.api.kv.op.IncrementOp#option()Lorg/apache/bookkeeper/api/kv/options/IncrementOption;*3
-1
-op+org.apache.bookkeeper.api.kv.op.IncrementOp2option()ß§
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaé é(/
-%7boolean"@org.apache.bookkeeper.api.kv.options.IncrementOption#getTotal()Z*<
-:
-%64org.apache.bookkeeper.api.kv.options.IncrementOption2
-getTotal()€ÿ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaã é(0H
-%8Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"ïorg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#setGetTotal(Z)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*J
-H
-%5Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder*
-
-%7boolean2setGetTotal(Z)¨©
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaã è(@
-%9:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest"Üorg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest;*J
-H
-%8Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder2build()"Õ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCUtils.javaã è(B
-@
-%9:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest:1
-op+org.apache.bookkeeper.api.kv.op.IncrementOpB6"4
-2org.apache.bookkeeper.statelib.impl.mvcc.MVCCUtils

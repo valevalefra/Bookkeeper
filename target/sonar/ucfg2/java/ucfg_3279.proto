@@ -1,203 +1,0 @@
-
-Žorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore#openComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Ljava/lang/Object;)V 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaä ä("startingBlock*Ÿ
-
-2 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaî ö(%¾
-»
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaî ö(%D
-reader:org.apache.distributedlog.logsegment.LogSegmentEntryReader"__id*J
-H
-%14Aorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryReaderÍ
-Ê
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java÷! ÷(4-
-%16&java.util.concurrent.CompletableFuture"__id*p*n
-]
-requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"
-openPromiseà
-Ý
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.java÷ ÷(=
-%17void"yorg.apache.bookkeeper.common.concurrent.FutureUtils#complete(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Object;)V*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*/
--
-%16&java.util.concurrent.CompletableFuture*F
-D
-reader:org.apache.distributedlog.logsegment.LogSegmentEntryReader*
-0*Š
-3 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaó ó(¼
-¹
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaó ó(9
-%102org.apache.bookkeeper.common.util.OrderedScheduler"__id*S*QB
-@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
-	schedulerº
-·
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaô ô(<
-%115org.apache.distributedlog.DistributedLogConfiguration"__id*N*LB
-@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
-conf³
-°
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaõ õ(.
-%12'org.apache.bookkeeper.stats.StatsLogger"__id*U*SB
-@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
-statsLoggerÇ
-Ä
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaö ö(#>
-%137org.apache.distributedlog.injector.AsyncFailureInjector"__id*Y*WB
-@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
-failureInjector³°
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaî/ î(FH
-%14Aorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryReader"Aorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryReaderª
-§
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaî+ ö($
-%15"›org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryReader#<init>(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/bookkeeper/client/LedgerHandle;JLorg/apache/bookkeeper/client/BookKeeper;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/bookkeeper/stats/StatsLogger;Lorg/apache/distributedlog/injector/AsyncFailureInjector;)V*J
-H
-%14Aorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryReader*4
-2
-%7,org.apache.distributedlog.LogSegmentMetadata*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle*
-""*/
--
-%9'org.apache.bookkeeper.client.BookKeeper*;
-9
-%102org.apache.bookkeeper.common.util.OrderedScheduler*>
-<
-%115org.apache.distributedlog.DistributedLogConfiguration*0
-.
-%12'org.apache.bookkeeper.stats.StatsLogger*@
->
-%137org.apache.distributedlog.injector.AsyncFailureInjector*
-2*÷
-startingBlock 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaä ä(A„
-
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaã ã(
-%20"
-__annotate*
-java.lang.Override*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandleî
-ë
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaä2 ä(4/
-lh)org.apache.bookkeeper.client.LedgerHandle"__annotation*
-
-%20ì
-é
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaã ã(
-%21"
-__annotate*
-java.lang.Override*
-
-ctxjava.lang.ObjectÖ
-Ó
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaä= ä(@
-ctxjava.lang.Object"__annotation*
-
-%21*
-7*š	
-4 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaï ï(Î
-Ë
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaï ï(#2
-%7,org.apache.distributedlog.LogSegmentMetadata"__id*l*j
-]
-requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"	
-segment­
-ª
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaò ò(0
-%8*org.apache.distributedlog.BookKeeperClient"__id*M*KB
-@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore"
-bkcëè
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaò ò(-
-%9'org.apache.bookkeeper.client.BookKeeper"Yorg.apache.distributedlog.BookKeeperClient#get()Lorg/apache/bookkeeper/client/BookKeeper;*2
-0
-%8*org.apache.distributedlog.BookKeeperClient2get()*
-3*¡
-6 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaç ç(Ì
-É
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaè è(',
-%1&java.util.concurrent.CompletableFuture"__id*p*n
-]
-requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"
-openPromiseÎ
-Ë
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaé^ é(m2
-%2,org.apache.distributedlog.LogSegmentMetadata"__id*l*j
-]
-requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"	
-segment±
-®
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaé, é(m
-%3java.lang.String"__concat*1/
--Failed to open ledger handle for log segment *4
-2
-%2,org.apache.distributedlog.LogSegmentMetadata 
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaé é(+>
-%48org.apache.distributedlog.exceptions.BKTransmitException"8org.apache.distributedlog.exceptions.BKTransmitExceptionç
-ä
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaé é(r
-%5"Uorg.apache.distributedlog.exceptions.BKTransmitException#<init>(Ljava/lang/String;I)V*@
->
-%48org.apache.distributedlog.exceptions.BKTransmitException*
-
-%3java.lang.String*
-""é
-æ
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaç é(s
-
-%6void"‰org.apache.bookkeeper.common.concurrent.FutureUtils#completeExceptionally(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Throwable;)V*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*.
-,
-%1&java.util.concurrent.CompletableFuture*@
->
-%48org.apache.distributedlog.exceptions.BKTransmitException"«
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaê ê(
-""*™
-7 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaå8 å(;¦
-£
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaå å(<]
-requestRorg.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore$OpenReaderRequest"__id*
-
-ctxjava.lang.Object¿
-¼
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaæ æ(	
-%0int"__id*
-""*
-4
-6*À
-0 "¸
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/logsegment/BKLogSegmentEntryStore.javaü ü(
-implicit return:
-"":/
-lh)org.apache.bookkeeper.client.LedgerHandle:
-ctxjava.lang.ObjectBDB
-@org.apache.distributedlog.impl.logsegment.BKLogSegmentEntryStore

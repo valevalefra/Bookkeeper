@@ -1,179 +1,0 @@
-
-Ñorg.apache.bookkeeper.replication.ReplicationWorker#isLastSegmentOpenAndMissingBookies(Lorg/apache/bookkeeper/client/LedgerHandle;)Zâ
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java— —(6"10*Ë
-2â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java⁄ ⁄("—
-Œ
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java⁄ ⁄("2
-b-org.apache.bookkeeper.net.BookieSocketAddress"__id*
-""˙
-˜
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java⁄ ⁄("2
-b-org.apache.bookkeeper.net.BookieSocketAddress"
-__arrayGet*!
-
-finalEnsemblejava.util.List*
-""*
-6
-1*¶
-3â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‡ ‡("î
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‡ ‡(
-""*¡
-4â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java› ›(∂
-≥
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java› ›(
-%13org.slf4j.Logger"__id*
-""åâ
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaﬁ ﬁ()
-%14long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle2getId()‚ﬂ
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java› ﬁ(9
-%15void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%13org.slf4j.Logger*SQ
-OBookie {} is missing from the list of Available Bookies. ledger {}:ensemble {}.*4
-2
-b-org.apache.bookkeeper.net.BookieSocketAddress*
-
-%14long*!
-
-finalEnsemblejava.util.List2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
-3*√
-5â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‹ ‹(∂
-≥
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‹ ‹(
-%11org.slf4j.Logger"__id*
-""Ì
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‹ ‹((
-%12boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%11org.slf4j.Logger2isDebugEnabled()*
-3
-4*Ê
-6â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java€ €(Ã…
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java€ €(&
-%10boolean"2java.util.Collection#contains(Ljava/lang/Object;)Z*#
-!
-	availablejava.util.Collection*4
-2
-b-org.apache.bookkeeper.net.BookieSocketAddress2contains(Ljava/lang/Object;)*
-2
-5*·
-8â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java◊I ◊(Nç
-ä
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java◊I ◊(N2
-%3,org.apache.bookkeeper.client.BookKeeperAdmin"__id*B*@5
-3org.apache.bookkeeper.replication.ReplicationWorker"
-adminéã
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java◊I ◊(d5
-%4/org.apache.bookkeeper.client.api.LedgerMetadata"úorg.apache.bookkeeper.client.BookKeeperAdmin#getLedgerMetadata(Lorg/apache/bookkeeper/client/LedgerHandle;)Lorg/apache/bookkeeper/client/api/LedgerMetadata;*4
-2
-%3,org.apache.bookkeeper.client.BookKeeperAdmin*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle2>getLedgerMetadata(Lorg/apache/bookkeeper/client/LedgerHandle;)‘—
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java◊I ◊(v
-%5java.util.NavigableMap"Yorg.apache.bookkeeper.client.api.LedgerMetadata#getAllEnsembles()Ljava/util/NavigableMap;*7
-5
-%4/org.apache.bookkeeper.client.api.LedgerMetadata2getAllEnsembles()◊
-‘
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java◊ ◊(w 
-	ensemblesjava.util.SortedMap"__id*
-
-%5java.util.NavigableMapÖÇ
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÿ@ ÿ(S
-%6java.lang.Long"/java.util.SortedMap#lastKey()Ljava/lang/Object;*"
- 
-	ensemblesjava.util.SortedMap2	lastKey()Ê
-„
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÿ2 ÿ(T
-%7	!capture!"__mapGet*"
- 
-	ensemblesjava.util.SortedMap*
-
-%6java.lang.Long…
-∆
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaÿ ÿ(U
-finalEnsemblejava.util.List"__id*
-
-%7	!capture!ç
-ä
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaŸ4 Ÿ(92
-%8,org.apache.bookkeeper.client.BookKeeperAdmin"__id*B*@5
-3org.apache.bookkeeper.replication.ReplicationWorker"
-admin“œ
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaŸ4 Ÿ(O
-%9java.util.Collection"Xorg.apache.bookkeeper.client.BookKeeperAdmin#getAvailableBookies()Ljava/util/Collection;*4
-2
-%8,org.apache.bookkeeper.client.BookKeeperAdmin2getAvailableBookies()÷
-”
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.javaŸ Ÿ(P!
-	availablejava.util.Collection"__id*
-
-%9java.util.Collection*
-2*¶
-9â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‘ ‘("î
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java‘ ‘(
-""*‰
-10â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java“ “(!ç
-ä
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java“ “(!2
-%0,org.apache.bookkeeper.client.BookKeeperAdmin"__id*B*@5
-3org.apache.bookkeeper.replication.ReplicationWorker"
-adminéã
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java“ “(75
-%1/org.apache.bookkeeper.client.api.LedgerMetadata"úorg.apache.bookkeeper.client.BookKeeperAdmin#getLedgerMetadata(Lorg/apache/bookkeeper/client/LedgerHandle;)Lorg/apache/bookkeeper/client/api/LedgerMetadata;*4
-2
-%0,org.apache.bookkeeper.client.BookKeeperAdmin*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle2>getLedgerMetadata(Lorg/apache/bookkeeper/client/LedgerHandle;)Ö
-Ç
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java“ “(85
-md/org.apache.bookkeeper.client.api.LedgerMetadata"__id*7
-5
-%1/org.apache.bookkeeper.client.api.LedgerMetadata†ù
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java” ”(
-%2boolean";org.apache.bookkeeper.client.api.LedgerMetadata#isClosed()Z*7
-5
-md/org.apache.bookkeeper.client.api.LedgerMetadata2
-isClosed()*
-8
-9*¶
-1â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java„ „("î
-â
-}/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java„ „(
-"":/
-lh)org.apache.bookkeeper.client.LedgerHandleB75
-3org.apache.bookkeeper.replication.ReplicationWorker

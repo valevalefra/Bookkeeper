@@ -1,82 +1,0 @@
-
-org.apache.distributedlog.impl.subscription.ZKSubscriptionsStore#deleteSubscriber(Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture; 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.java‰& ‰(6"startingBlock*
-startingBlock 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.java‰6 ‰(Kô
-ñ
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaˆ ˆ(
-%7"
-__annotate*
-java.lang.Override*"
- 
-subscriberIdjava.lang.StringÞ
-Û
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.java‰> ‰(J 
-subscriberIdjava.lang.String"__annotation*
-
-%7*
-1*½
-1 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŠ Š(­
-ª
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŠ Š((
-%0"java.util.concurrent.ConcurrentMap"__id*U*SB
-@org.apache.distributedlog.impl.subscription.ZKSubscriptionsStore"
-subscribersÏ
-Ì
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŠ Š((J
-%1Dorg.apache.distributedlog.impl.subscription.ZKSubscriptionStateStore"__mapRemove**
-(
-%0"java.util.concurrent.ConcurrentMap*"
- 
-subscriberIdjava.lang.String¤
-¡
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.java‹ ‹(7
-%2java.lang.String"zorg.apache.distributedlog.impl.subscription.ZKSubscriptionsStore#getSubscriberZKPath(Ljava/lang/String;)Ljava/lang/String;*DB
-@org.apache.distributedlog.impl.subscription.ZKSubscriptionsStore*"
- 
-subscriberIdjava.lang.Stringà
-Ý
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.java‹ ‹(8
-pathjava.lang.String"__id*
-
-%2java.lang.String¬
-©
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŒ( Œ(+/
-%3)org.apache.distributedlog.ZooKeeperClient"__id*M*KB
-@org.apache.distributedlog.impl.subscription.ZKSubscriptionsStore"
-zkcˆ…
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŒ7 Œ(B2
-%4,org.apache.bookkeeper.versioning.LongVersion",org.apache.bookkeeper.versioning.LongVersion£
- 
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŒ3 Œ(G
-%5"7org.apache.bookkeeper.versioning.LongVersion#<init>(J)V*4
-2
-%4,org.apache.bookkeeper.versioning.LongVersion*
-""Ò
-Ï
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŒ Œ(H,
-%6&java.util.concurrent.CompletableFuture"Ìorg.apache.distributedlog.util.Utils#zkDeleteIfNotExist(Lorg/apache/distributedlog/ZooKeeperClient;Ljava/lang/String;Lorg/apache/bookkeeper/versioning/LongVersion;)Ljava/util/concurrent/CompletableFuture;*("&
-$org.apache.distributedlog.util.Utils*1
-/
-%3)org.apache.distributedlog.ZooKeeperClient*
-
-pathjava.lang.String*4
-2
-%4,org.apache.bookkeeper.versioning.LongVersion"Ó
- 
-“/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/subscription/ZKSubscriptionsStore.javaŒ Œ(I.
-,
-%6&java.util.concurrent.CompletableFuture: 
-subscriberIdjava.lang.StringBDB
-@org.apache.distributedlog.impl.subscription.ZKSubscriptionsStore

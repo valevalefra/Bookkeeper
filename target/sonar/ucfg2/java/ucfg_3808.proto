@@ -1,111 +1,0 @@
-
-ôorg.apache.distributedlog.BKDistributedLogManager#openLogWriter(Lorg/apache/distributedlog/bk/LedgerMetadata;)Lorg/apache/distributedlog/BKSyncLogWriter;ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÓ Ó(("startingBlock*Â
-3ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaˆ ˆ("À
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java˜ ˜(5
-3
-writer)org.apache.distributedlog.BKSyncLogWriter*û
-startingBlockë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÓ( Ó(GÉ
-Ä
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÌ Ì(
-%10"
-__annotate*
-java.lang.Override*?
-=
-ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadataÌ
-Í
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÓ8 Ó(F=
-ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadata"__annotation*
-
-%10*
-8*å
-4ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaı ı(6Ì
-Í
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaı ı(6
-%8	!capture!"iorg.apache.distributedlog.util.Utils#ioResult(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*("&
-$org.apache.distributedlog.util.Utils*.
-,
-%7&java.util.concurrent.CompletableFuture*
-3*ß
-5ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÙ Ù(Fè
-å
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÙ Ù(F;
-writeHandler+org.apache.distributedlog.BKLogWriteHandler"__id*3
-1
-%6+org.apache.distributedlog.BKLogWriteHandlerˆÛ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaı ı(5,
-%7&java.util.concurrent.CompletableFuture"aorg.apache.distributedlog.BKLogWriteHandler#lockHandler()Ljava/util/concurrent/CompletableFuture;*=
-;
-writeHandler+org.apache.distributedlog.BKLogWriteHandler2lockHandler()*
-4*°
-6ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÙ- Ù(3Çˇ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÙ- Ù(E1
-%6+org.apache.distributedlog.BKLogWriteHandler"lorg.apache.distributedlog.BKAbstractLogWriter#getWriteHandler()Lorg/apache/distributedlog/BKLogWriteHandler;*5
-3
-writer)org.apache.distributedlog.BKSyncLogWriter2getWriteHandler()*
-5*”
-7ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÛ Û(¥±
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÛ Û(=1
-%5+org.apache.distributedlog.BKLogWriteHandler"§org.apache.distributedlog.BKAbstractLogWriter#createAndCacheWriteHandler(Lorg/apache/distributedlog/bk/LedgerMetadata;)Lorg/apache/distributedlog/BKLogWriteHandler;*5
-3
-writer)org.apache.distributedlog.BKSyncLogWriter*?
-=
-ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadata2IcreateAndCacheWriteHandler(Lorg/apache/distributedlog/bk/LedgerMetadata;)*
-6*È
-8ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÔ Ô(ÑÅ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÔ Ô(=
-
-%0void"[org.apache.distributedlog.BKDistributedLogManager#checkClosedOrInError(Ljava/lang/String;)V*53
-1org.apache.distributedlog.BKDistributedLogManager*!
-startLogSegmentNonPartitioned2(checkClosedOrInError(Ljava/lang/String;)õ
-ò
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java5 (9;
-%15org.apache.distributedlog.DistributedLogConfiguration"__id*?*=3
-1org.apache.distributedlog.BKDistributedLogManager"
-conf¨
-©
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java; (BI
-%2Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration"__id*B*@3
-1org.apache.distributedlog.BKDistributedLogManager"	
-dynConfÛ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java% (4/
-%3)org.apache.distributedlog.BKSyncLogWriter")org.apache.distributedlog.BKSyncLogWriter¯
-ı
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java! (I
-%4"‚org.apache.distributedlog.BKSyncLogWriter#<init>(Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/config/DynamicDistributedLogConfiguration;Lorg/apache/distributedlog/BKDistributedLogManager;)V*1
-/
-%3)org.apache.distributedlog.BKSyncLogWriter*=
-;
-%15org.apache.distributedlog.DistributedLogConfiguration*K
-I
-%2Corg.apache.distributedlog.config.DynamicDistributedLogConfiguration*53
-1org.apache.distributedlog.BKDistributedLogManagerÖ
-Ç
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java (J3
-writer)org.apache.distributedlog.BKSyncLogWriter"__id*1
-/
-%3)org.apache.distributedlog.BKSyncLogWriter*
-7:=
-ledgerMetadata+org.apache.distributedlog.bk.LedgerMetadataB53
-1org.apache.distributedlog.BKDistributedLogManager

@@ -1,237 +1,0 @@
-
-öorg.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl#processTxn(JLorg/apache/bookkeeper/api/kv/op/TxnOp;)Lorg/apache/bookkeeper/api/kv/result/TxnResult;ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaœ! œ(+"20*
-13ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java„ „(0◊
-‘
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java„ „(0
-batchorg.rocksdb.WriteBatch"__id*
-
-%7org.rocksdb.WriteBatch*
-9*ª
-14ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java„  „(0∆√
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java„$ „(.
-%7org.rocksdb.WriteBatch"org.rocksdb.WriteBatchÿ
-’
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java„  „(0
-%8" org.rocksdb.WriteBatch#<init>()V*
-
-%7org.rocksdb.WriteBatch*
-13*¸
-15ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java‡ ‡(€ÿ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java‡5 ‡(F	
-%5int"java.util.List#size()I*
-
-
-operationsjava.util.List2size()≥
-∞
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java‡ ‡(G
-%6java.util.ArrayList"Tcom.google.common.collect.Lists#newArrayListWithExpectedSize(I)Ljava/util/ArrayList;*#"!
-com.google.common.collect.Lists*
-	
-%5intŒ
-À
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java‡ ‡(G
-resultsjava.util.List"__id*
-
-%6java.util.ArrayList*
-14*›
-16ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaﬁ ﬁ($Ù
-Ò
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaﬁ ﬁ(0
-%4java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
-java.util.CollectionsÃ
-…
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaﬁ ﬁ(0
-
-operationsjava.util.List"__id*
-
-%4java.util.List*
-15*î
-18ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java€ €(ß§
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java€ €((
-%3java.util.List"Borg.apache.bookkeeper.api.kv.op.TxnOp#failureOps()Ljava/util/List;*-
-+
-op%org.apache.bookkeeper.api.kv.op.TxnOp2failureOps()Ã
-…
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java€ €((
-
-operationsjava.util.List"__id*
-
-%3java.util.List*
-15
-16*î
-19ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaŸ Ÿ(ß§
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaŸ Ÿ((
-%2java.util.List"Borg.apache.bookkeeper.api.kv.op.TxnOp#successOps()Ljava/util/List;*-
-+
-op%org.apache.bookkeeper.api.kv.op.TxnOp2successOps()Ã
-…
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaŸ Ÿ((
-
-operationsjava.util.List"__id*
-
-%2java.util.List*
-15
-16*Á
-3ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÔ Ô("‘
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÔ Ô(E
-C
-	txnResult6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl*˛
-4ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÌ Ì(œ
-Ã
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÌ Ì("/
-%16(org.apache.bookkeeper.api.kv.result.Code"__id*
-""îë
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÌ Ì(#:
-%173org.apache.bookkeeper.api.kv.impl.result.ResultImpl"ôorg.apache.bookkeeper.api.kv.impl.result.ResultImpl#code(Lorg/apache/bookkeeper/api/kv/result/Code;)Lorg/apache/bookkeeper/api/kv/impl/result/ResultImpl;*E
-C
-	txnResult6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl*1
-/
-%16(org.apache.bookkeeper.api.kv.result.Code20code(Lorg/apache/bookkeeper/api/kv/result/Code;)*
-3*Ò
-5ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÏ Ï(Ÿ÷
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÏ Ï(&=
-%156org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"àorg.apache.bookkeeper.api.kv.impl.result.TxnResultImpl#results(Ljava/util/List;)Lorg/apache/bookkeeper/api/kv/impl/result/TxnResultImpl;*E
-C
-	txnResult6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl*
-
-resultsjava.util.List2results(Ljava/util/List;)*
-4*‡
-6ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÍ Í(Qú
-ô
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÍ Í(QC
-	txnResult6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"__id*?
-=
-%136org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl©¶
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÎ Î((=
-%146org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"{org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl#isSuccess(Z)Lorg/apache/bookkeeper/api/kv/impl/result/TxnResultImpl;*E
-C
-	txnResult6org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl*
-""2isSuccess(Z)*
-5*Ë
-7ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÍ, Í(9§
-°
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÍ, Í(9=
-%126org.apache.bookkeeper.api.kv.impl.result.ResultFactory"__id*M*K8
-6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl"
-resultFactory©¶
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÍ, Í(P=
-%136org.apache.bookkeeper.api.kv.impl.result.TxnResultImpl"~org.apache.bookkeeper.api.kv.impl.result.ResultFactory#newTxnResult(J)Lorg/apache/bookkeeper/api/kv/impl/result/TxnResultImpl;*?
-=
-%126org.apache.bookkeeper.api.kv.impl.result.ResultFactory*
-""2newTxnResult(J)*
-6*Ù
-8ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÁ Á(‹
-Ÿ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÁ Á(
-%11void"^org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl#executeBatch(Lorg/rocksdb/WriteBatch;)V*:8
-6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl*!
-
-batchorg.rocksdb.WriteBatch*
-7*”
-9ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java‰ ‰(«
-ƒ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java‰ ‰('
-o"org.apache.bookkeeper.api.kv.op.Op"__id*
-""Ì
-Í
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java‰ ‰('
-o"org.apache.bookkeeper.api.kv.op.Op"
-__arrayGet*
-
-
-operationsjava.util.List*
-""*
-8
-11*Ö
-
-20ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java– –(≥∞
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java– –(
-
-%0void"Gorg.apache.bookkeeper.statelib.impl.kv.RocksdbKVStore#checkStoreOpen()V*:8
-6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl2checkStoreOpen()∂≥
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java” ”(-
-%1boolean"porg.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl#processCompares(Lorg/apache/bookkeeper/api/kv/op/TxnOp;)Z*:8
-6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl*-
-+
-op%org.apache.bookkeeper.api.kv.op.TxnOp28processCompares(Lorg/apache/bookkeeper/api/kv/op/TxnOp;)º
-π
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java÷ ÷("
-
-operationsjava.util.List"__id*
-""π
-∂
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.java◊ ◊(#
-resultsjava.util.List"__id*
-""*
-18
-19*ö
-10ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÂ Â(:Å
-˛
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÂ Â(:
-%10boolean"
-__arrayAdd*
-
-resultsjava.util.List*: *2
-0
-%9*org.apache.bookkeeper.api.kv.result.Result*
-9*ú
-11ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÂ Â(Ç
-ˇ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/impl/mvcc/MVCCStoreImpl.javaÂ Â(90
-%9*org.apache.bookkeeper.api.kv.result.Result"´org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl#executeOp(JLorg/rocksdb/WriteBatch;Lorg/apache/bookkeeper/api/kv/op/Op;)Lorg/apache/bookkeeper/api/kv/result/Result;*:8
-6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl*
-""*!
-
-batchorg.rocksdb.WriteBatch*)
-'
-o"org.apache.bookkeeper.api.kv.op.Op*
-10:
-"":+
-op%org.apache.bookkeeper.api.kv.op.TxnOpB:8
-6org.apache.bookkeeper.statelib.impl.mvcc.MVCCStoreImpl

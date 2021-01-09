@@ -1,118 +1,0 @@
-
-;org.apache.distributedlog.metadata.DLMetadata#serialize()[Bã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaW W("1*ú(
-1ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaX X(.…∆
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaX X(,
-%0java.lang.StringBuilder"java.lang.StringBuilder€
-ÿ
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaX X(.
-%1"!java.lang.StringBuilder#<init>()V*
-
-%0java.lang.StringBuilder◊
-‘
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaX X(/
-sbjava.lang.StringBuilder"__id*
-
-%0java.lang.StringBuilder†ù
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaY Y((
-%2java.lang.StringBuilder":java.lang.StringBuilder#append(I)Ljava/lang/StringBuilder;*
-
-sbjava.lang.StringBuilder*
-""2	append(I)∑
-¥
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaY0 Y(=
-%3java.lang.String"__id*
-""‘—
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaY Y(>
-%4java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
-
-%2java.lang.StringBuilder*
-
-%3java.lang.String2append(Ljava/lang/String;)Ó
-Î
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaZ Z(
-%5java.lang.String"__id*=*;/
--org.apache.distributedlog.metadata.DLMetadata"
-dlType‘—
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaZ Z(
-%6java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
-
-sbjava.lang.StringBuilder*
-
-%5java.lang.String2append(Ljava/lang/String;)∑
-¥
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaZ! Z(.
-%7java.lang.String"__id*
-""‘—
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.javaZ Z(/
-%8java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
-
-%6java.lang.StringBuilder*
-
-%7java.lang.String2append(Ljava/lang/String;)ã
-à
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java[ [(1
-%9+org.apache.distributedlog.metadata.DLConfig"__id*?*=/
--org.apache.distributedlog.metadata.DLMetadata"
-
-dlConfig∑¥
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java[ [(&
-%10java.lang.String"Iorg.apache.distributedlog.metadata.DLConfig#serialize()Ljava/lang/String;*3
-1
-%9+org.apache.distributedlog.metadata.DLConfig2serialize()÷”
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java[ [('
-%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
-
-sbjava.lang.StringBuilder*
-
-%10java.lang.String2append(Ljava/lang/String;)∏
-µ
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java\ \(
-%12org.slf4j.Logger"__id*
-""Ê„
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java\ \(3
-%13void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%12org.slf4j.Logger*
-Serialized dl metadata {}.*
-
-sbjava.lang.StringBuilder2+debug(Ljava/lang/String;Ljava/lang/Object;)çä
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java] ](
-%14java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
-
-sbjava.lang.StringBuilder2
-toString()¿
-Ω
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java]& ](+
-%15java.nio.charset.Charset"__id*
-""Ω∫
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java] ](,
-%16byte[]"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*
-
-%14java.lang.String*!
-
-%15java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)"ü
-ã
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/metadata/DLMetadata.java] ](-
-
-%16byte[]B1/
--org.apache.distributedlog.metadata.DLMetadata

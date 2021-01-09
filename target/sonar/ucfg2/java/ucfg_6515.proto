@@ -1,304 +1,0 @@
-
-worg.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl#getNextRandom(Ljava/util/Collection;)Ljava/lang/Object;î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaR R("startingBlock*∂
-24î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaz z(:ì
-ê
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaz z(:8
-median.com.google.common.math.Quantiles$ScaleAndIndex"__id*7
-5
-%13.com.google.common.math.Quantiles$ScaleAndIndex¸˘
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java{& {(@
-%14double"Ocom.google.common.math.Quantiles$ScaleAndIndex#compute(Ljava/util/Collection;)D*:
-8
-median.com.google.common.math.Quantiles$ScaleAndIndex*#
-!
-
-weightListjava.util.ArrayList2compute(Ljava/util/Collection;)*
-22*⁄
-25î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javax y(J·
-ﬁ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javax y(J!
-
-weightListjava.util.ArrayList"__id*
-
-%12java.util.ArrayList“
-œ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaz' z(95
-%13.com.google.common.math.Quantiles$ScaleAndIndex"Ycom.google.common.math.Quantiles#median()Lcom/google/common/math/Quantiles$ScaleAndIndex;*$""
- com.google.common.math.Quantiles*
-24*ˆ
-37î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java] ](<“œ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java] ](<
-
-%8long"Porg.apache.bookkeeper.client.WeightedRandomSelection$WeightedObject#getWeight()J*K
-I
-%7Corg.apache.bookkeeper.client.WeightedRandomSelection$WeightedObject2getWeight()*
-32*ô
-26î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javax- y(IıÚ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javax- y(I
-%12java.util.ArrayList"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
-
-%10java.util.stream.Stream*#
-!
-%11java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)*
-25*√
-38î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java] ](&â
-Ü
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java] ](&
-%6java.util.Map"__id*R*PA
-?org.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl"
-	weightMapì
-ê
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java] ](0I
-%7Corg.apache.bookkeeper.client.WeightedRandomSelection$WeightedObject"__mapGet*
-
-%6java.util.Map*
-	
-nodeT*
-37*Ô
-27î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javay! y(+À
-»
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javay! y(H!
-%11java.util.stream.Collector"cjava.util.stream.Collectors#toCollection(Ljava/util/function/Supplier;)Ljava/util/stream/Collector;*"
-java.util.stream.Collectors*
-""*
-26*¸
-17ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaå å(<÷”
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaå å(<
-%19long"Porg.apache.bookkeeper.client.WeightedRandomSelection$WeightedObject#getWeight()J*L
-J
-%18Corg.apache.bookkeeper.client.WeightedRandomSelection$WeightedObject2getWeight()*
-10*•
-28î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaxH x(RÅ˛
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javax- x(S
-%10java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
-
-%9java.util.stream.Stream*+
-)
-
-weightFuncjava.util.function.Function2"map(Ljava/util/function/Function;)*
-27*Ã
-18ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaå å(&å
-â
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaå å(&
-%17java.util.Map"__id*R*PA
-?org.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl"
-	weightMapó
-î
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaå å(0J
-%18Corg.apache.bookkeeper.client.WeightedRandomSelection$WeightedObject"__mapGet*
-
-%17java.util.Map*
-	
-nodeT*
-17*û
-29î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaqA w(”
-–
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaq w()
-
-weightFuncjava.util.function.Function"__id*
-""§°
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javax- x(C
-%9java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*'
-%
-selectedNodesjava.util.Collection2stream()*
-28*œ
-2ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaù ù(!"∞
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaù ù("
-
-nextRandomNodeT*ƒ
-3ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaâ â(µ
-≤
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaâ â(	
-nodeT"__id*
-""‰
-·
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaâ â(	
-nodeT"
-__arrayGet*'
-%
-selectedNodesjava.util.Collection*
-""*
-2
-20*¯
-startingBlockî
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaR R(7Ó
-Î
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaQ Q(
-%27"
-__annotate*
-java.lang.Override*'
-%
-selectedNodesjava.util.Collectionÿ
-’
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaR) R(6%
-selectedNodesjava.util.Collection"__annotation*
-
-%27*
-43*Ë
-5ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaô% ô()ƒ
-¡
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaô ô()
-nextRandomNodeT"__id*
-	
-nodeT*
-3*Ñ
-7ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaó! ó(%›
-⁄
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaó! ó(6
-%23long"java.lang.Math#abs(J)J*"
-java.lang.Math*
-""*
-3
-5*€
-9ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaì ì(3∑
-¥
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaî# î(1
-%22long"__id*
-""*
-7*“
-40î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java[ [(â
-Ü
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java\ \(
-%4java.util.Map"__id*R*PA
-?org.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl"
-	weightMapûõ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.java\ \(0
-%5boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
-
-%4java.util.Map*
-	
-nodeT2containsKey(Ljava/lang/Object;)*
-38
-32*ÿ
-42î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaX X(!¥
-±
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaX X(+
-
-%3long"__id*
-""*
-32*€
-20ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaä ä(å
-â
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaã ã(
-%15java.util.Map"__id*R*PA
-?org.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl"
-	weightMap¢ü
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaã ã(0
-%16boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
-
-%15java.util.Map*
-	
-nodeT2containsKey(Ljava/lang/Object;)*
-18
-10*†
-43î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaS S(°
-û
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaS S(.
-%0(java.util.concurrent.locks.ReadWriteLock"__id*O*MA
-?org.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl"
-rwLock’“
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaS S(%
-%1java.util.concurrent.locks.Lock"Tjava.util.concurrent.locks.ReadWriteLock#readLock()Ljava/util/concurrent/locks/Lock;*0
-.
-%0(java.util.concurrent.locks.ReadWriteLock2
-readLock()Ä˝
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaS S( 
-
-%2void"'java.util.concurrent.locks.Lock#lock()V*'
-%
-%1java.util.concurrent.locks.Lock2lock()*
-42*ƒ
-32î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaZ Z(≥
-∞
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaZ Z(	
-nodeT"__id*
-""‚
-ﬂ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaZ Z(	
-nodeT"
-__arrayGet*'
-%
-selectedNodesjava.util.Collection*
-""*
-29
-40
-22*†
-10ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaì# ì('ä
-á
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaì# ì('
-%20java.util.Random"__id*M*KA
-?org.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl"
-randÓÎ
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaì# ì(2
-%21long"java.util.Random#nextLong()J*
-
-%20java.util.Random2
-nextLong()*
-9*‰
-22ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaÅ Å(5ø
-º
-ñ
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/DynamicWeightedRandomSelectionImpl.javaà à($
-nextRandomNodeT"__id*
-""*
-3:%
-selectedNodesjava.util.CollectionBCA
-?org.apache.bookkeeper.client.DynamicWeightedRandomSelectionImpl

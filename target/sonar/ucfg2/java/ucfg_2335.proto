@@ -1,243 +1,0 @@
-
-~org.apache.distributedlog.impl.BKNamespaceDriver#getAccessControlManager()Lorg/apache/distributedlog/acl/AccessControlManager;ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaﬂ  ﬂ(7"7*‡)
-2ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÍ$ Í(-ˆ
-Û
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÍ$ Í(-
-%11java.net.URI"__id*C*A2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-	namespace˚¯
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÍ$ Í(7
-%12java.lang.String"(java.net.URI#getPath()Ljava/lang/String;*
-
-%11java.net.URI2	getPath()€
-ÿ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÍ$ Í(=
-%13java.lang.String"__concat*
-
-%12java.lang.String*
-/˜
-Ù
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÍ$ Í(K
-%14java.lang.String"__concat*
-
-%13java.lang.String*!
-
-aclRootPathjava.lang.String◊
-‘
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÍ Í(L
-
-zkRootPathjava.lang.String"__id*
-
-%14java.lang.StringÙ
-Ò
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÎ Î(
-%15org.slf4j.Logger"__id*=*;2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-LOGˆ
-Û
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÏ$ Ï(-
-%16java.net.URI"__id*C*A2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-	namespaceøº
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÎ Ï(.
-%17void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%15org.slf4j.Logger*86
-4Creating zk based access control manager @ {} for {}* 
-
-
-zkRootPathjava.lang.String*
-
-%16java.net.URI2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)ö
-ó
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÌB Ì(F<
-%185org.apache.distributedlog.DistributedLogConfiguration"__id*>*<2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-confì
-ê
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÌH Ì(Q0
-%19)org.apache.distributedlog.ZooKeeperClient"__id*C*A2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-	readerZKCú
-ô
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÓ$ Ó(-9
-%202org.apache.bookkeeper.common.util.OrderedScheduler"__id*C*A2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-	schedulerìê
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÌ+ Ì(A@
-%219org.apache.distributedlog.impl.acl.ZKAccessControlManager"9org.apache.distributedlog.impl.acl.ZKAccessControlManagerù
-ö
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÌ' Ó(.
-%22"Êorg.apache.distributedlog.impl.acl.ZKAccessControlManager#<init>(Lorg/apache/distributedlog/DistributedLogConfiguration;Lorg/apache/distributedlog/ZooKeeperClient;Ljava/lang/String;Ljava/util/concurrent/ScheduledExecutorService;)V*B
-@
-%219org.apache.distributedlog.impl.acl.ZKAccessControlManager*>
-<
-%185org.apache.distributedlog.DistributedLogConfiguration*2
-0
-%19)org.apache.distributedlog.ZooKeeperClient* 
-
-
-zkRootPathjava.lang.String*;
-9
-%202org.apache.bookkeeper.common.util.OrderedSchedulerÆ
-´
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÌ Ó(.L2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-accessControlManager"__id*B
-@
-%219org.apache.distributedlog.impl.acl.ZKAccessControlManagerÙ
-Ò
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÔ Ô(
-%23org.slf4j.Logger"__id*=*;2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-LOGˆ
-Û
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java$ (-
-%24java.net.URI"__id*C*A2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-	namespaceæª
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÔ (.
-%25void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%23org.slf4j.Logger*75
-3Created zk based access control manager @ {} for {}* 
-
-
-zkRootPathjava.lang.String*
-
-%24java.net.URI2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-1*¯
-3ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaË* Ë(Tâ
-Ü
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaË* Ë(b
-%8java.lang.String"__concat*,*
-(Invalid Access Control List Root Path : *!
-
-aclRootPathjava.lang.String∆√
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaË Ë()
-%9java.io.IOException"java.io.IOExceptionÖ
-Ç
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaË Ë(c
-%10"/java.io.IOException#<init>(Ljava/lang/String;)V*
-
-%9java.io.IOException*
-
-%8java.lang.String*
-0*Á
-4ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÁ Á()∆
-√
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÁ Á(6
-%7boolean"Porg.apache.distributedlog.util.DLUtils#isReservedStreamName(Ljava/lang/String;)Z**"(
-&org.apache.distributedlog.util.DLUtils*!
-
-aclRootPathjava.lang.String*
-2
-3*ì
-5ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java‰' ‰(BÂ
-‚
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java‰' ‰(K?
-%39org.apache.distributedlog.acl.DefaultAccessControlManager"__id*
-""≠
-™
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java‰ ‰(KL2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-accessControlManager"__id*A
-?
-%39org.apache.distributedlog.acl.DefaultAccessControlManagerÛ
-
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÂ Â(
-%4org.slf4j.Logger"__id*=*;2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-LOGı
-Ú
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÂJ Â(S
-%5java.net.URI"__id*C*A2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-	namespaceÔÏ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÂ Â(T
-
-%6void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%4org.slf4j.Logger*1/
--Created default access control manager for {}*
-
-%5java.net.URI2*info(Ljava/lang/String;Ljava/lang/Object;)*
-1*Õ
-6ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java·! ·(.¸
-˘
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java·! ·(08
-%12org.apache.distributedlog.impl.metadata.BKDLConfig"torg.apache.distributedlog.impl.BKNamespaceDriver#getBkdlConfig()Lorg/apache/distributedlog/impl/metadata/BKDLConfig;*42
-0org.apache.distributedlog.impl.BKNamespaceDriver”–
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java·! ·(A
-%2java.lang.String"Uorg.apache.distributedlog.impl.metadata.BKDLConfig#getACLRootPath()Ljava/lang/String;*:
-8
-%12org.apache.distributedlog.impl.metadata.BKDLConfig2getACLRootPath()◊
-‘
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java· ·(B
-aclRootPathjava.lang.String"__id*
-
-%2java.lang.String*
-4
-5*«
-7ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java‡ ‡(¶
-£
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java‡ ‡((8
-%02org.apache.distributedlog.acl.AccessControlManager"__id*N*L2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-accessControlManager*
-6
-1*∞
-0 "®
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÙ Ù(
-implicit return*ì
-1ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÛ Û(#ß
-§
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÛ Û(#9
-%262org.apache.distributedlog.acl.AccessControlManager"__id*N*L2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-accessControlManager"–
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÛ Û($;
-9
-%262org.apache.distributedlog.acl.AccessControlManagerB42
-0org.apache.distributedlog.impl.BKNamespaceDriver

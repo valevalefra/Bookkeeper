@@ -1,133 +1,0 @@
-
-¢org.apache.distributedlog.BKAbstractLogWriter#rollLogSegmentIfNecessary(Lorg/apache/distributedlog/BKLogSegmentWriter;JZZ)Ljava/util/concurrent/CompletableFuture;ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaıA ı(Z"13*˚
-13ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.java˙ ˙(-ﬁ
-€
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.java˙ ˙(-;
-writeHandler+org.apache.distributedlog.BKLogWriteHandler"__id*
-""*
-12*–
-2ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaá á(%≤
-Ø
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaá á(:,
-%5&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*?
-=
-segmentWriter,org.apache.distributedlog.BKLogSegmentWriterÄ
-˝
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaá á(:5
-rollPromise&java.util.concurrent.CompletableFuture"__id*.
-,
-%5&java.util.concurrent.CompletableFuture*
-1*Ç
-3ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÖ Ö(1‰
-·
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÖ Ö(X,
-%4&java.util.concurrent.CompletableFuture"ûorg.apache.distributedlog.BKAbstractLogWriter#asyncStartNewLogSegment(Lorg/apache/distributedlog/BKLogWriteHandler;JZ)Ljava/util/concurrent/CompletableFuture;*1/
--org.apache.distributedlog.BKAbstractLogWriter*=
-;
-writeHandler+org.apache.distributedlog.BKLogWriteHandler*
-""*
-""Ä
-˝
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÖ Ö(X5
-rollPromise&java.util.concurrent.CompletableFuture"__id*.
-,
-%4&java.util.concurrent.CompletableFuture*
-1*ç
-5ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÇ Ç(DÔ
-Ï
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÇ É(U,
-%3&java.util.concurrent.CompletableFuture"‡org.apache.distributedlog.BKAbstractLogWriter#closeOldLogSegmentAndStartNewOneWithPermit(Lorg/apache/distributedlog/BKLogSegmentWriter;Lorg/apache/distributedlog/BKLogWriteHandler;JZZ)Ljava/util/concurrent/CompletableFuture;*1/
--org.apache.distributedlog.BKAbstractLogWriter*?
-=
-segmentWriter,org.apache.distributedlog.BKLogSegmentWriter*=
-;
-writeHandler+org.apache.distributedlog.BKLogWriteHandler*
-""*
-""*
-""Ä
-˝
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÇ É(U5
-rollPromise&java.util.concurrent.CompletableFuture"__id*.
-,
-%3&java.util.concurrent.CompletableFuture*
-1*˛
-7ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÅ& Å(2›⁄
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÅ& Å(W
-%2boolean"rorg.apache.distributedlog.BKLogWriteHandler#shouldStartNewSegment(Lorg/apache/distributedlog/BKLogSegmentWriter;)Z*=
-;
-writeHandler+org.apache.distributedlog.BKLogWriteHandler*?
-=
-segmentWriter,org.apache.distributedlog.BKLogSegmentWriter2EshouldStartNewSegment(Lorg/apache/distributedlog/BKLogSegmentWriter;)*	
-2
-3
-5*˘
-8ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÄ Ä(:ÿ
-’
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaÄ Ä(:5
-rollPromise&java.util.concurrent.CompletableFuture"__id*
-""*	
-2
-3
-7*¶
-9ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.java¸ ¸(,ã
-à
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.java¸ ¸(,;
-writeHandler+org.apache.distributedlog.BKLogWriteHandler"__id*3
-1
-%0+org.apache.distributedlog.BKLogWriteHandler*
-8*ñ
-12ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.java¸ ¸(*˙˜
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.java¸ ¸(,1
-%0+org.apache.distributedlog.BKLogWriteHandler"lorg.apache.distributedlog.BKAbstractLogWriter#getWriteHandler()Lorg/apache/distributedlog/BKLogWriteHandler;*1/
--org.apache.distributedlog.BKAbstractLogWriter2getWriteHandler()*
-9*û
-
-1ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaâ â(˚¯
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaâ) â(Y5
-%6/org.apache.distributedlog.BKAbstractLogWriter$5"/org.apache.distributedlog.BKAbstractLogWriter$5Ó
-Î
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaâ% í(	
-%7"java.lang.Object#<init>()V*7
-5
-%6/org.apache.distributedlog.BKAbstractLogWriter$5÷”
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaâ í(
-,
-%8&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*7
-5
-rollPromise&java.util.concurrent.CompletableFuture*7
-5
-%6/org.apache.distributedlog.BKAbstractLogWriter$52(thenApply(Ljava/util/function/Function;)"¿
-ç
-Ä/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAbstractLogWriter.javaâ í(.
-,
-%8&java.util.concurrent.CompletableFuture:=
-segmentWriter,org.apache.distributedlog.BKLogSegmentWriter:
-"":
-"":
-""B1/
--org.apache.distributedlog.BKAbstractLogWriter

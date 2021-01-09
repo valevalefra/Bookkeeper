@@ -15,16 +15,15 @@ public class TestBookieCheckDirectoryStructure {
 
 
 
-    //La Directory viene creata
+    //Directory is created
     @Test
     public void test1() throws IOException {
 
-         File dir;
+        File dir;
 
         boolean result = true;
 
         dir = new File("src/test/prova/");
-        System.out.println(dir.exists());
         try {
             Bookie.checkDirectoryStructure(dir);
         } catch (IOException e) {
@@ -37,7 +36,7 @@ public class TestBookieCheckDirectoryStructure {
 
     }
 
-    //La directory è null
+    //Directory is null
     @Test
     public void test2() {
 
@@ -55,7 +54,7 @@ public class TestBookieCheckDirectoryStructure {
 
     }
 
-  //  La directory è già stata creata la prima condizione del metodo non viene verificata
+    //Directory has already been created
     @Test
     public void test3() throws IOException {
 
@@ -64,7 +63,6 @@ public class TestBookieCheckDirectoryStructure {
 
         File dir = new File("src/test/prova");
         dir.mkdirs();
-        System.out.println(dir.exists());
 
         try {
             Bookie.checkDirectoryStructure(dir);
@@ -99,12 +97,7 @@ public class TestBookieCheckDirectoryStructure {
 
         File file3 = new File("src/test/prova/file3.log");
         file3.createNewFile();
-       /* String[] listfile;
-        listfile = dir.getParentFile().list();
-        System.out.println(listfile[0]);
-        System.out.println(listfile[1]);
-        System.out.println(listfile[2]);
-        System.out.println(listfile[3]);*/
+
         dir.delete();
         try {
             Bookie.checkDirectoryStructure(dir);

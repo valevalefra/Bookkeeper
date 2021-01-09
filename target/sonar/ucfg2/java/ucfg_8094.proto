@@ -1,68 +1,0 @@
-
-´org.apache.bookkeeper.util.LocalBookKeeper#buildBookieServiceInfo(Lorg/apache/bookkeeper/common/component/ComponentInfoPublisher;)Lorg/apache/bookkeeper/discover/BookieServiceInfo;€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java§% §(;"1*Õ
-1€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java¨# ¨(9ãà
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java¨# ¨(H
-%0java.util.Map"[org.apache.bookkeeper.common.component.ComponentInfoPublisher#getEndpoints()Ljava/util/Map;*Y
-W
-componentInfoPublisher=org.apache.bookkeeper.common.component.ComponentInfoPublisher2getEndpoints()ñî
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java¨# ¨(Q
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
-
-%0java.util.Map2values()…‚
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java¨# ©(
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
-
-%1java.util.Collection2stream()ÇÄ
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java¨# ²(
-%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
-
-%2java.util.stream.Stream*
-""2"map(Ljava/util/function/Function;)‹
-ˆ
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java² ²(. 
-%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
-java.util.stream.CollectorsÙÖ
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java¨# ²(/
-%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
-
-%3java.util.stream.Stream*"
- 
-%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)Á
-¾
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java¨ ²(0
-	endpointsjava.util.List"__id*
-
-%5java.util.Liståâ
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java³% ³(K
-%6java.util.Map"\org.apache.bookkeeper.common.component.ComponentInfoPublisher#getProperties()Ljava/util/Map;*Y
-W
-componentInfoPublisher=org.apache.bookkeeper.common.component.ComponentInfoPublisher2getProperties()ðí
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java³ ³($6
-%70org.apache.bookkeeper.discover.BookieServiceInfo"0org.apache.bookkeeper.discover.BookieServiceInfo×
-Ô
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java³ ³(W
-%8"Yorg.apache.bookkeeper.discover.BookieServiceInfo#<init>(Ljava/util/Map;Ljava/util/List;)V*8
-6
-%70org.apache.bookkeeper.discover.BookieServiceInfo*
-
-%6java.util.Map*
-
-	endpointsjava.util.List"½
-€
-t/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/LocalBookKeeper.java³ ³(X8
-6
-%70org.apache.bookkeeper.discover.BookieServiceInfo:W
-componentInfoPublisher=org.apache.bookkeeper.common.component.ComponentInfoPublisherB.",
-*org.apache.bookkeeper.util.LocalBookKeeper

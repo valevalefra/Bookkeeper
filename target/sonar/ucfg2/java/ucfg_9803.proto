@@ -1,61 +1,0 @@
-
-ïorg.apache.bookkeeper.client.EnsemblePlacementPolicy#getStickyReadBookieIndex(Lorg/apache/bookkeeper/client/api/LedgerMetadata;Ljava/util/Optional;)Iä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÄ Ä(("3*æ	
-2ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÑ Ñ($ƒ
-¡
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÑ Ñ(.,
-%1&java.util.concurrent.ThreadLocalRandom"Xjava.util.concurrent.ThreadLocalRandom#current()Ljava/util/concurrent/ThreadLocalRandom;**"(
-&java.util.concurrent.ThreadLocalRandom±Æ
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÑ7 Ñ(Q	
-%2int"Borg.apache.bookkeeper.client.api.LedgerMetadata#getEnsembleSize()I*=
-;
-metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getEnsembleSize()òï
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÑ Ñ(R	
-%3int"2java.util.concurrent.ThreadLocalRandom#nextInt(I)I*.
-,
-%1&java.util.concurrent.ThreadLocalRandom*
-	
-%2int2
-nextInt(I)"ï
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÑ Ñ(S
-""*ö
-3ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÅ Å(%ˇ¸
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaÅ Å(1
-%0boolean"java.util.Optional#isPresent()Z*0
-.
-currentStickyBookieIndexjava.util.Optional2isPresent()*
-2
-1*è	
-1ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaâ â(éã
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaâ) â(G
-%4java.lang.Integer"*java.util.Optional#get()Ljava/lang/Object;*0
-.
-currentStickyBookieIndexjava.util.Optional2get()±Æ
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaâM â(g	
-%5int"Borg.apache.bookkeeper.client.api.LedgerMetadata#getEnsembleSize()I*=
-;
-metadata/org.apache.bookkeeper.client.api.LedgerMetadata2getEnsembleSize()ü
-ú
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaâ â(h	
-%6int"<org.apache.bookkeeper.common.util.MathUtils#signSafeMod(JI)I*/"-
-+org.apache.bookkeeper.common.util.MathUtils*
-""*
-	
-%5int"ï
-ä
-~/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/EnsemblePlacementPolicy.javaâ â(i
-"":;
-metadata/org.apache.bookkeeper.client.api.LedgerMetadata:.
-currentStickyBookieIndexjava.util.OptionalB86
-4org.apache.bookkeeper.client.EnsemblePlacementPolicy

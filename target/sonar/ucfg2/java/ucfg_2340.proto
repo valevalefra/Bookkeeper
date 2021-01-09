@@ -1,112 +1,0 @@
-
-·org.apache.distributedlog.impl.BKNamespaceDriver#createBKCBuilder(Ljava/lang/String;Lorg/apache/distributedlog/DistributedLogConfiguration;Ljava/lang/String;Ljava/lang/String;Lio/netty/channel/EventLoopGroup;Lio/netty/util/HashedWheelTimer;Ljava/util/Optional;Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/distributedlog/BookKeeperClientBuilder;ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’$ ’(4"1*ì0
-1ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ›(A˘
-ˆ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ›(N7
-%01org.apache.distributedlog.BookKeeperClientBuilder"qorg.apache.distributedlog.BookKeeperClientBuilder#newBuilder()Lorg/apache/distributedlog/BookKeeperClientBuilder;*5"3
-1org.apache.distributedlog.BookKeeperClientBuilder¬ø
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ﬁ(7
-%11org.apache.distributedlog.BookKeeperClientBuilder"}org.apache.distributedlog.BookKeeperClientBuilder#name(Ljava/lang/String;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%01org.apache.distributedlog.BookKeeperClientBuilder*
-
-bkcNamejava.lang.String2name(Ljava/lang/String;)∑¥
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ﬂ(7
-%21org.apache.distributedlog.BookKeeperClientBuilder"¶org.apache.distributedlog.BookKeeperClientBuilder#dlConfig(Lorg/apache/distributedlog/DistributedLogConfiguration;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%11org.apache.distributedlog.BookKeeperClientBuilder*?
-=
-conf5org.apache.distributedlog.DistributedLogConfiguration2AdlConfig(Lorg/apache/distributedlog/DistributedLogConfiguration;)œÃ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ‡(%7
-%31org.apache.distributedlog.BookKeeperClientBuilder"Çorg.apache.distributedlog.BookKeeperClientBuilder#zkServers(Ljava/lang/String;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%21org.apache.distributedlog.BookKeeperClientBuilder*
-
-	zkServersjava.lang.String2zkServers(Ljava/lang/String;)’“
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ·()7
-%41org.apache.distributedlog.BookKeeperClientBuilder"Ñorg.apache.distributedlog.BookKeeperClientBuilder#ledgersPath(Ljava/lang/String;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%31org.apache.distributedlog.BookKeeperClientBuilder*!
-
-ledgersPathjava.lang.String2ledgersPath(Ljava/lang/String;)ãà
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ‚(/7
-%51org.apache.distributedlog.BookKeeperClientBuilder"ñorg.apache.distributedlog.BookKeeperClientBuilder#eventLoopGroup(Lio/netty/channel/EventLoopGroup;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%41org.apache.distributedlog.BookKeeperClientBuilder*3
-1
-eventLoopGroupio.netty.channel.EventLoopGroup21eventLoopGroup(Lio/netty/channel/EventLoopGroup;)Çˇ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* „(+7
-%61org.apache.distributedlog.BookKeeperClientBuilder"ìorg.apache.distributedlog.BookKeeperClientBuilder#requestTimer(Lio/netty/util/HashedWheelTimer;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%51org.apache.distributedlog.BookKeeperClientBuilder*0
-.
-requestTimerio.netty.util.HashedWheelTimer2.requestTimer(Lio/netty/util/HashedWheelTimer;)ÔÏ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* ‰(97
-%71org.apache.distributedlog.BookKeeperClientBuilder"äorg.apache.distributedlog.BookKeeperClientBuilder#featureProvider(Ljava/util/Optional;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%61org.apache.distributedlog.BookKeeperClientBuilder*/
--
-featureProviderOptionaljava.util.Optional2%featureProvider(Ljava/util/Optional;)öó
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java›* Â()7
-%81org.apache.distributedlog.BookKeeperClientBuilder"õorg.apache.distributedlog.BookKeeperClientBuilder#statsLogger(Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/distributedlog/BookKeeperClientBuilder;*9
-7
-%71org.apache.distributedlog.BookKeeperClientBuilder*8
-6
-statsLogger'org.apache.bookkeeper.stats.StatsLogger26statsLogger(Lorg/apache/bookkeeper/stats/StatsLogger;)ï
-í
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java› Â(*<
-builder1org.apache.distributedlog.BookKeeperClientBuilder"__id*9
-7
-%81org.apache.distributedlog.BookKeeperClientBuilderÛ
-
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÊ Ê(
-%9org.slf4j.Logger"__id*=*;2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-LOG÷”
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÁ- Á(N
-
-%10int"Sorg.apache.distributedlog.DistributedLogConfiguration#getBKClientNumberIOThreads()I*?
-=
-conf5org.apache.distributedlog.DistributedLogConfiguration2getBKClientNumberIOThreads()ˆÛ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÊ Á(O
-%11void"=org.slf4j.Logger#info(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%9org.slf4j.Logger*ZX
-VCreated shared client builder {} : zkServers = {}, ledgersPath = {}, numIOThreads = {}*
-
-bkcNamejava.lang.String*
-
-	zkServersjava.lang.String*!
-
-ledgersPathjava.lang.String*
-
-
-%10int2+info(Ljava/lang/String;[Ljava/lang/Object;)"”
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaË Ë(>
-<
-builder1org.apache.distributedlog.BookKeeperClientBuilder:
-bkcNamejava.lang.String:=
-conf5org.apache.distributedlog.DistributedLogConfiguration:
-	zkServersjava.lang.String:
-ledgersPathjava.lang.String:1
-eventLoopGroupio.netty.channel.EventLoopGroup:.
-requestTimerio.netty.util.HashedWheelTimer:-
-featureProviderOptionaljava.util.Optional:6
-statsLogger'org.apache.bookkeeper.stats.StatsLoggerB42
-0org.apache.distributedlog.impl.BKNamespaceDriver

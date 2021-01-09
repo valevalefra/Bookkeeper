@@ -1,75 +1,0 @@
-
-òorg.apache.bookkeeper.client.BookKeeperAdmin#nukeExistingCluster(Lorg/apache/bookkeeper/conf/ServerConfiguration;Ljava/lang/String;Ljava/lang/String;Z)ZÇ
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java⁄	 ⁄	(-"3*ó	
-2Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaﬁ	 ﬁ	(Æ
-´
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaﬁ	 ﬁ	(
-%2org.slf4j.Logger"__id*
-""û
-õ
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaﬁ	 ﬂ	(1
-%3java.lang.String"__concat*SQ
-OProvided ledgerRootPath : {} is not matching with config's ledgerRootPath: {}, *
-so exiting nuke operation™ß
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.javaﬁ	 ﬂ	(X
-
-%4void"Oorg.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%2org.slf4j.Logger*
-
-%3java.lang.String*%
-#
-ledgersRootPathjava.lang.String*)
-'
-confLedgersRootPathjava.lang.String2=error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)"ç
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java‡	 ‡	(
-""*√
-3Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java‹	% ‹	(9¶
-£
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java‹	% ‹	(X
-%0java.lang.String"ëorg.apache.bookkeeper.meta.zk.ZKMetadataDriverBase#resolveZkLedgersRootPath(Lorg/apache/bookkeeper/conf/AbstractConfiguration;)Ljava/lang/String;*6"4
-2org.apache.bookkeeper.meta.zk.ZKMetadataDriverBase*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration—
-Œ
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java‹	 ‹	(Y'
-confLedgersRootPathjava.lang.String"__id*
-
-%0java.lang.String≥∞
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java›	 ›	(8
-%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*)
-'
-confLedgersRootPathjava.lang.String*%
-#
-ledgersRootPathjava.lang.String2equals(Ljava/lang/Object;)*
-2
-1*ﬂ
-1Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java„	 „	(1ƒ
-¡
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java„	 Ò	(
-
-%5java.lang.Boolean"Æorg.apache.bookkeeper.meta.MetadataDrivers#runFunctionWithRegistrationManager(Lorg/apache/bookkeeper/conf/ServerConfiguration;Ljava/util/function/Function;)Ljava/lang/Object;*.",
-*org.apache.bookkeeper.meta.MetadataDrivers*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration*
-"""ç
-Ç
-v/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java„	 Ò	(
-"":6
-conf.org.apache.bookkeeper.conf.ServerConfiguration:#
-ledgersRootPathjava.lang.String:
-
-instanceIdjava.lang.String:
-""B0".
-,org.apache.bookkeeper.client.BookKeeperAdmin

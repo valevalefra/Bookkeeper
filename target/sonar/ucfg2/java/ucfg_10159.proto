@@ -1,143 +1,0 @@
-
-porg.apache.bookkeeper.bookie.EntryLogger#getChannelForLogId(J)Lorg/apache/bookkeeper/bookie/BufferedReadChannel;~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaú  ú(2"5*è
-2~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java… …(ÿü
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java… …(
-
-%7void";java.nio.channels.spi.AbstractInterruptibleChannel#close()V*(
-&
-newFcjava.nio.channels.FileChannel2close()Û
-Ø
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java† †(&
-newFcjava.nio.channels.FileChannel"__id*(
-&
-oldFcjava.nio.channels.FileChannel*
-1*ž
-3~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaÿ ÿ(‘
-Ž
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaÿ ÿ((
-%1java.io.File"Borg.apache.bookkeeper.bookie.EntryLogger#findFile(J)Ljava/io/File;*,*
-(org.apache.bookkeeper.bookie.EntryLogger*
-""µ
-²
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaÿ ÿ()
-filejava.io.File"__id*
-
-%1java.io.File½º
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java‚  ‚(0
-%2java.io.RandomAccessFile"java.io.RandomAccessFileŽ
-‹
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java‚ ‚(;
-%3"Bjava.io.RandomAccessFile#<init>(Ljava/io/File;Ljava/lang/String;)V* 
-
-%2java.io.RandomAccessFile*
-
-filejava.io.File*
-rž›
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java‚ ‚(H#
-%4java.nio.channels.FileChannel"Djava.io.RandomAccessFile#getChannel()Ljava/nio/channels/FileChannel;* 
-
-%2java.io.RandomAccessFile2getChannel()Ø
-Õ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java‚ ‚(I&
-newFcjava.nio.channels.FileChannel"__id*%
-#
-%4java.nio.channels.FileChannelø
-õ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaƒ ƒ(-(
-%5"java.util.concurrent.ConcurrentMap"__id*C*A*
-(org.apache.bookkeeper.bookie.EntryLogger"
-logid2FileChannel¡ž
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaƒ ƒ(L#
-%6java.nio.channels.FileChannel"fjava.util.concurrent.ConcurrentMap#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;**
-(
-%5"java.util.concurrent.ConcurrentMap*
-""*(
-&
-newFcjava.nio.channels.FileChannel21putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ø
-Õ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaƒ ƒ(M&
-oldFcjava.nio.channels.FileChannel"__id*%
-#
-%6java.nio.channels.FileChannel*
-2
-1*À
-4~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaý ý("º
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaý ý(8
-6
-fc0org.apache.bookkeeper.bookie.BufferedReadChannel*€
-5~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaû! û(0ôñ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaû! û(<6
-%00org.apache.bookkeeper.bookie.BufferedReadChannel"morg.apache.bookkeeper.bookie.EntryLogger#getFromChannels(J)Lorg/apache/bookkeeper/bookie/BufferedReadChannel;*,*
-(org.apache.bookkeeper.bookie.EntryLogger*
-""2getFromChannels(J)û
-ø
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaû û(=6
-fc0org.apache.bookkeeper.bookie.BufferedReadChannel"__id*8
-6
-%00org.apache.bookkeeper.bookie.BufferedReadChannel*
-3
-4*Å
-1~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaŠ% Š(*÷
-ô
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaŠ, Š(04
-%8.org.apache.bookkeeper.conf.ServerConfiguration"__id*6*4*
-(org.apache.bookkeeper.bookie.EntryLogger"
-conf¢Ÿ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaŠ, Š(E	
-%9int"Dorg.apache.bookkeeper.conf.ServerConfiguration#getReadBufferBytes()I*6
-4
-%8.org.apache.bookkeeper.conf.ServerConfiguration2getReadBufferBytes()îë
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaŠ Š($7
-%100org.apache.bookkeeper.bookie.BufferedReadChannel"0org.apache.bookkeeper.bookie.BufferedReadChannelØ
-Õ
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaŠ Š(F
-%11"Zorg.apache.bookkeeper.bookie.BufferedReadChannel#<init>(Ljava/nio/channels/FileChannel;I)V*9
-7
-%100org.apache.bookkeeper.bookie.BufferedReadChannel*(
-&
-newFcjava.nio.channels.FileChannel*
-	
-%9intü
-ù
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaŠ Š(F6
-fc0org.apache.bookkeeper.bookie.BufferedReadChannel"__id*9
-7
-%100org.apache.bookkeeper.bookie.BufferedReadChannel˜•
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.java‹ ‹()7
-%120org.apache.bookkeeper.bookie.BufferedReadChannel"¡org.apache.bookkeeper.bookie.EntryLogger#putInReadChannels(JLorg/apache/bookkeeper/bookie/BufferedReadChannel;)Lorg/apache/bookkeeper/bookie/BufferedReadChannel;*,*
-(org.apache.bookkeeper.bookie.EntryLogger*
-""*8
-6
-fc0org.apache.bookkeeper.bookie.BufferedReadChannel2FputInReadChannels(JLorg/apache/bookkeeper/bookie/BufferedReadChannel;)"º
-~
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/EntryLogger.javaŒ Œ(8
-6
-fc0org.apache.bookkeeper.bookie.BufferedReadChannel:
-""B,*
-(org.apache.bookkeeper.bookie.EntryLogger

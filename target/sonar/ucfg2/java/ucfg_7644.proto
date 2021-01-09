@@ -1,136 +1,0 @@
-
-¾org.apache.bookkeeper.bookie.LocalBookieEnsemblePlacementPolicy#initialize(Lorg/apache/bookkeeper/conf/ClientConfiguration;Ljava/util/Optional;Lio/netty/util/HashedWheelTimer;Lorg/apache/bookkeeper/feature/FeatureProvider;Lorg/apache/bookkeeper/stats/StatsLogger;)Lorg/apache/bookkeeper/client/EnsemblePlacementPolicy;”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java6# 6(-"startingBlock*Ï
-2”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java? ?(?­
-ª
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java? ?(?TA
-?org.apache.bookkeeper.bookie.LocalBookieEnsemblePlacementPolicy"
-bookieAddress"__id*5
-3
-%3-org.apache.bookkeeper.net.BookieSocketAddress*
-1*¿
-startingBlock”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java6- 9(gþ
-û
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java5 5(
-%8"
-__annotate*
-java.lang.Override*8
-6
-conf.org.apache.bookkeeper.conf.ClientConfigurationè
-å
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java6B 6(F6
-conf.org.apache.bookkeeper.conf.ClientConfiguration"__annotation*
-
-%8ñ
-î
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java5 5(
-%9"
-__annotate*
-java.lang.Override*+
-)
-optionalDnsResolverjava.util.OptionalÛ
-Ø
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java7K 7(^)
-optionalDnsResolverjava.util.Optional"__annotation*
-
-%9û
-ø
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java5 5(
-%10"
-__annotate*
-java.lang.Override*4
-2
-hashedWheelTimerio.netty.util.HashedWheelTimerå
-â
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java8? 8(O2
-hashedWheelTimerio.netty.util.HashedWheelTimer"__annotation*
-
-%10‰
-†
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java5 5(
-%11"
-__annotate*
-java.lang.Override*B
-@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvideró
-ð
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java9> 9(M@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider"__annotation*
-
-%11ÿ
-ü
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java5 5(
-%12"
-__annotate*
-java.lang.Override*8
-6
-statsLogger'org.apache.bookkeeper.stats.StatsLoggeré
-æ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java9[ 9(f6
-statsLogger'org.apache.bookkeeper.stats.StatsLogger"__annotation*
-
-%12*
-7*ò
-6”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java? ?("Ð
-Í
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java? ?(?3
-%3-org.apache.bookkeeper.net.BookieSocketAddress"•org.apache.bookkeeper.bookie.Bookie#getBookieAddress(Lorg/apache/bookkeeper/conf/ServerConfiguration;)Lorg/apache/bookkeeper/net/BookieSocketAddress;*'"%
-#org.apache.bookkeeper.bookie.Bookie*>
-<
-
-serverConf.org.apache.bookkeeper.conf.ServerConfiguration*
-2*´
-7”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java;) ;(B€ý
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java;- ;(@4
-%0.org.apache.bookkeeper.conf.ServerConfiguration".org.apache.bookkeeper.conf.ServerConfiguration’
-
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java;) ;(B
-%1"8org.apache.bookkeeper.conf.ServerConfiguration#<init>()V*6
-4
-%0.org.apache.bookkeeper.conf.ServerConfiguration–
-“
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java; ;(C<
-
-serverConf.org.apache.bookkeeper.conf.ServerConfiguration"__id*6
-4
-%0.org.apache.bookkeeper.conf.ServerConfigurationáÞ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.java< <()
-
-%2void"{org.apache.commons.configuration.CompositeConfiguration#addConfiguration(Lorg/apache/commons/configuration/Configuration;)V*>
-<
-
-serverConf.org.apache.bookkeeper.conf.ServerConfiguration*8
-6
-conf.org.apache.bookkeeper.conf.ClientConfiguration2BaddConfiguration(Lorg/apache/commons/configuration/Configuration;)*
-6*ù
-1”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.javaD D("Ü
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/LocalBookieEnsemblePlacementPolicy.javaD D(CA
-?org.apache.bookkeeper.bookie.LocalBookieEnsemblePlacementPolicy:6
-conf.org.apache.bookkeeper.conf.ClientConfiguration:)
-optionalDnsResolverjava.util.Optional:2
-hashedWheelTimerio.netty.util.HashedWheelTimer:@
-featureProvider-org.apache.bookkeeper.feature.FeatureProvider:6
-statsLogger'org.apache.bookkeeper.stats.StatsLoggerBCA
-?org.apache.bookkeeper.bookie.LocalBookieEnsemblePlacementPolicy

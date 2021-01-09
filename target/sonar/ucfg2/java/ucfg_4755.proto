@@ -1,441 +1,0 @@
-
-`org.apache.distributedlog.LogRecord$Reader#readOp()Lorg/apache/distributedlog/LogRecordWithDLSN;Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÂ! Â('"45*√
-24Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaé é(≥
-∞
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaé é(
-%24org.slf4j.Logger"__id*
-""ÌÍ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaé é(,
-%25boolean""org.slf4j.Logger#isTraceEnabled()Z*
-
-%24org.slf4j.Logger2isTraceEnabled()*
-13
-4
-8
-22*Ç
-25Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaå å(WÍ
-Á
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaç3 ç(5
-%22io.netty.buffer.ByteBuf"__id*6*4,
-*org.apache.distributedlog.LogRecord$Reader"
-inˇ¸
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaç ç(@
-%23void"Lorg.apache.distributedlog.LogRecord#readPayload(Lio/netty/buffer/ByteBuf;Z)V*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN* 
-
-%22io.netty.buffer.ByteBuf*
-""2'readPayload(Lio/netty/buffer/ByteBuf;Z)*
-24*ò
-28Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaå( å(3Ç
-ˇ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaå( å(=
-%21boolean"3org.apache.distributedlog.LogRecord#isRecordSet(J)Z*'"%
-#org.apache.distributedlog.LogRecord*
-""*
-25*“
-29Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÖ Ö(Fºπ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÖ Ö(F
-%20void"8org.apache.distributedlog.LogRecord#setTransactionId(J)V*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN*
-
-%19long2setTransactionId(J)*
-28*Ô
-30Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÖ Ö(&Í
-Á
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÖ8 Ö(:
-%18io.netty.buffer.ByteBuf"__id*6*4,
-*org.apache.distributedlog.LogRecord$Reader"
-inÏÈ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÖ8 Ö(E
-%19long"#io.netty.buffer.ByteBuf#readLong()J* 
-
-%18io.netty.buffer.ByteBuf2
-readLong()*
-29*œ
-31Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÉ É(rã
-à
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÉ É(rA
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN"__id*4
-2
-%15+org.apache.distributedlog.LogRecordWithDLSN´®
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÑ Ñ(<
-%17void"3org.apache.distributedlog.LogRecord#setMetadata(J)V*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN*
-""2setMetadata(J)*
-30*ÿ
-32Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÉb É(qÌÍ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÉ- É(>2
-%15+org.apache.distributedlog.LogRecordWithDLSN"+org.apache.distributedlog.LogRecordWithDLSN“
-œ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÉ) É(r
-%16"Vorg.apache.distributedlog.LogRecordWithDLSN#<init>(Lorg/apache/distributedlog/DLSN;J)V*4
-2
-%15+org.apache.distributedlog.LogRecordWithDLSN*'
-%
-%14org.apache.distributedlog.DLSN*
-""*
-31*Û
-33Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java˝ ˝(2É
-Ä
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÉ? É(K-
-%13&org.apache.distributedlog.RecordStream"__id*@*>,
-*org.apache.distributedlog.LogRecord$Reader"
-recordStream◊‘
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÉ? É(`%
-%14org.apache.distributedlog.DLSN"[org.apache.distributedlog.RecordStream#getCurrentPosition()Lorg/apache/distributedlog/DLSN;*/
--
-%13&org.apache.distributedlog.RecordStream2getCurrentPosition()*
-32*¸
-11Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaö% ö(1‰
-·
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaö% ö(P
-
-%38int"Yorg.apache.distributedlog.LogRecordSet#numRecords(Lorg/apache/distributedlog/LogRecord;)I**"(
-&org.apache.distributedlog.LogRecordSet*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN*
-4
-8*Ô
-34Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java˝$ ˝(&Í
-Á
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java˝$ ˝(&
-%11io.netty.buffer.ByteBuf"__id*6*4,
-*org.apache.distributedlog.LogRecord$Reader"
-inÏÈ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java˝$ ˝(1
-%12long"#io.netty.buffer.ByteBuf#readLong()J* 
-
-%11io.netty.buffer.ByteBuf2
-readLong()*
-33*¿
-13Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaô1 ô(C§°
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaô1 ô(Q
-%37boolean"2org.apache.distributedlog.LogRecord#isRecordSet()Z*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN2isRecordSet()*
-
-4
-8
-11*°
-36Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java˘ ˘("ë
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java˘ ˘( 
-""*˙
-37Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java¯ ¯(È
-Ê
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java¯ ¯(
-%9io.netty.buffer.ByteBuf"__id*6*4,
-*org.apache.distributedlog.LogRecord$Reader"
-inÙÒ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java¯ ¯(&
-
-%10int"(io.netty.buffer.ByteBuf#readableBytes()I*
-
-%9io.netty.buffer.ByteBuf2readableBytes()*
-36
-34*¬
-15Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaì î(U¶£
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaì î(U
-%36void"Oorg.slf4j.Logger#trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%32org.slf4j.Logger*
-Reading {} Valid DLSN {}*
-
-%34java.lang.String*'
-%
-%35org.apache.distributedlog.DLSN2=trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-
-13
-4
-8*Û
-38Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÙ* Ù(.›
-⁄
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÙ Ù(.A,
-*org.apache.distributedlog.LogRecord$Reader"
-recordSetReader"__id*
-""*
-37*
-16Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaî8 î(J⁄◊
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaî8 î(T%
-%35org.apache.distributedlog.DLSN"Uorg.apache.distributedlog.LogRecordWithDLSN#getDlsn()Lorg/apache/distributedlog/DLSN;*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN2	getDlsn()*
-15*Ù
-39Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÒ Ò($Ç
-ˇ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÒ Ò($,
-%7&org.apache.distributedlog.RecordStream"__id*@*>,
-*org.apache.distributedlog.LogRecord$Reader"
-recordStreaméã
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÒ Ò(/
-
-%8void"2org.apache.distributedlog.RecordStream#advance(I)V*.
-,
-%7&org.apache.distributedlog.RecordStream*22
-advance(I)"Œ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÚ Ú(2C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN*˜
-17Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaì ì(≥
-∞
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaì ì(
-%32org.slf4j.Logger"__id*
-""É
-Ä
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaî  î(,-
-%33&org.apache.distributedlog.RecordStream"__id*@*>,
-*org.apache.distributedlog.LogRecord$Reader"
-recordStream•¢
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaî  î(6
-%34java.lang.String"Borg.apache.distributedlog.RecordStream#getName()Ljava/lang/String;*/
--
-%33&org.apache.distributedlog.RecordStream2	getName()*
-16*ƒ
-18Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaê ë(U®•
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaê ë(U
-%31void"Oorg.slf4j.Logger#trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%27org.slf4j.Logger*
-Reading {} Control DLSN {}*
-
-%29java.lang.String*'
-%
-%30org.apache.distributedlog.DLSN2=trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-
-13
-4
-8*
-19Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaë8 ë(J⁄◊
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaë8 ë(T%
-%30org.apache.distributedlog.DLSN"Uorg.apache.distributedlog.LogRecordWithDLSN#getDlsn()Lorg/apache/distributedlog/DLSN;*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN2	getDlsn()*
-18*†
-1Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java® ®("ë
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java® ®(
-""*›
-3Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java° °(1"Œ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java° °(2C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN*¨
-4Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java† †($É
-Ä
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java† †($-
-%41&org.apache.distributedlog.RecordStream"__id*@*>,
-*org.apache.distributedlog.LogRecord$Reader"
-recordStreamíè
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.java† †(8
-%42void"2org.apache.distributedlog.RecordStream#advance(I)V*/
--
-%41&org.apache.distributedlog.RecordStream*
-""2
-advance(I)*
-3*•
-5Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaû û(Mç
-ä
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaû û(MA,
-*org.apache.distributedlog.LogRecord$Reader"
-recordSetReader"__id*6
-4
-%40-org.apache.distributedlog.LogRecordSet$Reader*
-43
-1*—
-6Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaû* û(6Ω
-∫
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaû* û(M4
-%40-org.apache.distributedlog.LogRecordSet$Reader"áorg.apache.distributedlog.LogRecordSet#of(Lorg/apache/distributedlog/LogRecordWithDLSN;)Lorg/apache/distributedlog/LogRecordSet$Reader;**"(
-&org.apache.distributedlog.LogRecordSet*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN*
-5*ª
-8Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaù0 ù(B§°
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaù0 ù(P
-%39boolean"2org.apache.distributedlog.LogRecord#isRecordSet()Z*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN2isRecordSet()*
-4
-6*£
-40Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÔ) Ô(8å
-â
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÔ) Ô(83
-%5-org.apache.distributedlog.LogRecordSet$Reader"__id*C*A,
-*org.apache.distributedlog.LogRecord$Reader"
-recordSetReaderÌÍ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÔ) Ô(E1
-%6+org.apache.distributedlog.LogRecordWithDLSN"gorg.apache.distributedlog.LogRecordSet$Reader#nextRecord()Lorg/apache/distributedlog/LogRecordWithDLSN;*5
-3
-%5-org.apache.distributedlog.LogRecordSet$Reader2nextRecord()ä
-á
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÔ Ô(EA
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN"__id*3
-1
-%6+org.apache.distributedlog.LogRecordWithDLSN*
-38
-39*¶
-41Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÓ Ó(#å
-â
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÓ Ó(#3
-%4-org.apache.distributedlog.LogRecordSet$Reader"__id*C*A,
-*org.apache.distributedlog.LogRecord$Reader"
-recordSetReader*
-37
-40*
-42Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÈ) È(9ã
-à
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÈ) È(91
-%1+org.apache.distributedlog.LogRecordWithDLSN"__id*D*B,
-*org.apache.distributedlog.LogRecord$Reader"
-lastRecordSkipToä
-á
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÈ È(9A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN"__id*3
-1
-%1+org.apache.distributedlog.LogRecordWithDLSNÇ
-ˇ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÍ Í( ,
-%2&org.apache.distributedlog.RecordStream"__id*@*>,
-*org.apache.distributedlog.LogRecord$Reader"
-recordStreaméã
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÍ Í(+
-
-%3void"2org.apache.distributedlog.RecordStream#advance(I)V*.
-,
-%2&org.apache.distributedlog.RecordStream*22
-advance(I)ﬁ
-€
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÎ Î(+B,
-*org.apache.distributedlog.LogRecord$Reader"
-lastRecordSkipTo"__id*
-"""Œ
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÏ Ï(.C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN*˜
-20Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaê ê(≥
-∞
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaê ê(
-%27org.slf4j.Logger"__id*
-""É
-Ä
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaë  ë(,-
-%28&org.apache.distributedlog.RecordStream"__id*@*>,
-*org.apache.distributedlog.LogRecord$Reader"
-recordStream•¢
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaë  ë(6
-%29java.lang.String"Borg.apache.distributedlog.RecordStream#getName()Ljava/lang/String;*/
--
-%28&org.apache.distributedlog.RecordStream2	getName()*
-19*•
-43Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaË Ë($ã
-à
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaË Ë($1
-%0+org.apache.distributedlog.LogRecordWithDLSN"__id*D*B,
-*org.apache.distributedlog.LogRecord$Reader"
-lastRecordSkipTo*
-41
-42*∫
-22Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaè è(.†ù
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaè è(:
-%26boolean"0org.apache.distributedlog.LogRecord#isControl()Z*C
-A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN2isControl()*
-17
-20*ˆ
-45Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÊ Ê(1›
-⁄
-Ü
-z/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/protocol/src/main/java/org/apache/distributedlog/LogRecord.javaÊ Ê(1A
-nextRecordInStream+org.apache.distributedlog.LogRecordWithDLSN"__id*
-""*
-43
-1B.,
-*org.apache.distributedlog.LogRecord$Reader

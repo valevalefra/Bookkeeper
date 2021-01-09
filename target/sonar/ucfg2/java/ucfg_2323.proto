@@ -1,228 +1,0 @@
-
-≥org.apache.distributedlog.impl.BKNamespaceDriver#validateAndGetFullLedgerAllocatorPoolPath(Lorg/apache/distributedlog/DistributedLogConfiguration;Ljava/net/URI;)Ljava/lang/String;ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java… …(-"startingBlock*ˆ
-startingBlockê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java…- …(Xü
-ú
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java« «(
-%26"
-__annotate*31
-/com.google.common.annotations.VisibleForTesting*?
-=
-conf5org.apache.distributedlog.DistributedLogConfigurationÏ
-È
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java…J …(N=
-conf5org.apache.distributedlog.DistributedLogConfiguration"__annotation*
-
-%26ı
-Ú
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java« «(
-%27"
-__annotate*31
-/com.google.common.annotations.VisibleForTesting*
-
-urijava.net.URI¬
-ø
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java…T …(W
-urijava.net.URI"__annotation*
-
-%27*
-12*’
-5ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java◊ ◊(∑
-¥
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java◊ ◊(,
-%20void"Gorg.apache.zookeeper.common.PathUtils#validatePath(Ljava/lang/String;)V*)"'
-%org.apache.zookeeper.common.PathUtils*
-
-rootPathjava.lang.String*
-1*õ
-6ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’ ’(˚¯
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’ ’('
-%15java.lang.String"(java.net.URI#getPath()Ljava/lang/String;*
-
-urijava.net.URI2	getPath()€
-ÿ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’ ’(-
-%16java.lang.String"__concat*
-
-%15java.lang.String*
-/Ù
-Ò
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’ ’(8
-%17java.lang.String"__concat*
-
-%16java.lang.String*
-
-poolPathjava.lang.String€
-ÿ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’ ’(>
-%18java.lang.String"__concat*
-
-%17java.lang.String*
-/Ù
-Ò
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’ ’(I
-%19java.lang.String"__concat*
-
-%18java.lang.String*
-
-poolNamejava.lang.String’
-“
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java’ ’(J
-rootPathjava.lang.String"__id*
-
-%19java.lang.String*
-5*Û	
-7ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java“ “(Ù
-Ò
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java“ “(
-%11org.slf4j.Logger"__id*=*;2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-LOGÿ’
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java“ “(e
-%12void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
-
-%11org.slf4j.Logger*PN
-LNo ledger allocator pool name specified when enabling ledger allocator pool.2error(Ljava/lang/String;)«ƒ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java” ”(!
-%13java.io.IOException"java.io.IOExceptionπ
-∂
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java” ”(l
-%14"/java.io.IOException#<init>(Ljava/lang/String;)V*
-
-%13java.io.IOException*KI
-GNo ledger allocator name specified when enabling ledger allocator pool.*
-0*Ì
-8ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java– –(ÙÒ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java– –(;
-%10java.lang.String"dorg.apache.distributedlog.DistributedLogConfiguration#getLedgerAllocatorPoolName()Ljava/lang/String;*?
-=
-conf5org.apache.distributedlog.DistributedLogConfiguration2getLedgerAllocatorPoolName()’
-“
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java– –(<
-poolNamejava.lang.String"__id*
-
-%10java.lang.String*
-6
-7*ñ
-9ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÕ Õ(Û
-
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÕ Õ(
-%5org.slf4j.Logger"__id*=*;2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-LOG¢ü
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÕ Õ(w
-
-%6void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%5org.slf4j.Logger*XV
-TInvalid ledger allocator pool path specified when enabling ledger allocator pool: {}*
-
-poolPathjava.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)ç
-ä
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaŒ" Œ(^
-%7java.lang.String"__concat*31
-/Invalid ledger allocator pool path specified : *
-
-poolPathjava.lang.String∆√
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaŒ Œ(!
-%8java.io.IOException"java.io.IOExceptionÑ
-Å
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaŒ Œ(_
-%9"/java.io.IOException#<init>(Ljava/lang/String;)V*
-
-%8java.io.IOException*
-
-%7java.lang.String*
-0*º
-10ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÃ= Ã(Eöó
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÃ= Ã(S
-%4boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
-
-poolPathjava.lang.String*
-/2endsWith(Ljava/lang/String;)*
-8
-9*¡
-11ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÃ! Ã()ûõ
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÃ! Ã(9
-%3boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
-
-poolPathjava.lang.String*
-.2startsWith(Ljava/lang/String;)*
-9
-10*∞
-0 "®
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java› ›(
-implicit return*¿
-
-12ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java   (Û
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java   (;
-%0java.lang.String"dorg.apache.distributedlog.DistributedLogConfiguration#getLedgerAllocatorPoolPath()Ljava/lang/String;*?
-=
-conf5org.apache.distributedlog.DistributedLogConfiguration2getLedgerAllocatorPoolPath()‘
-—
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java   (<
-poolPathjava.lang.String"__id*
-
-%0java.lang.StringÛ
-
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÀ À(
-%1org.slf4j.Logger"__id*=*;2
-0org.apache.distributedlog.impl.BKNamespaceDriver"
-LOG⁄◊
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.javaÀ À(,
-
-%2void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%1org.slf4j.Logger*
-PoolPath is {}*
-
-poolPathjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
-9
-11*Ã
-1ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java‹ ‹("≥
-ê
-É/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/impl/BKNamespaceDriver.java‹ ‹(
-
-rootPathjava.lang.String:=
-conf5org.apache.distributedlog.DistributedLogConfiguration:
-urijava.net.URIB4"2
-0org.apache.distributedlog.impl.BKNamespaceDriver

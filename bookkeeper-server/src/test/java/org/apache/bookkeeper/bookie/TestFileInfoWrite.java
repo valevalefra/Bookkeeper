@@ -22,9 +22,10 @@ import java.util.Collection;
 public class TestFileInfoWrite {
 
 
-    private final long position;
-    private final int expected;
+
     private ByteBuffer[] writeBuffer;
+    private final long position;
+    private final Object expected;
     private static File lf;
     private FileInfo fileInfo;
 
@@ -33,14 +34,11 @@ public class TestFileInfoWrite {
         return Arrays.asList(new Object[][] {
 
                 // Suite minimale
-                {generateWriteBuffer(1), 1024,3072},
-                {generateWriteBuffer(2), 1024,4096},
-                {generateWriteBuffer(3), 1024,5120},
-                {generateWriteBuffer(3), 3072,7168},
-                {generateWriteBuffer(3), 0,4096},
-                {generateWriteBuffer(3), -5,4091}
+                {generateWriteBuffer(3), 1,4097L},
+                {null, 0,null},
+                {generateWriteBuffer(0), 0,"Index -1 out of bounds for length 0"},
+                {generateWriteBuffer(3), -1,4095L},
 
-                //pit caso in cui non scrivo niente
 
 
         });
@@ -54,7 +52,7 @@ public class TestFileInfoWrite {
         return buffs;
     }
 
-    public TestFileInfoWrite( ByteBuffer[] writeBuffer, long position, int expected) {
+    public TestFileInfoWrite( ByteBuffer[] writeBuffer, long position, Object expected) {
 
         this.writeBuffer=writeBuffer;
         this.position=position;
@@ -87,7 +85,6 @@ public class TestFileInfoWrite {
     @After
     public void delete() throws IOException {
 
-        //l'ho dovuta chimare altrimenti non mi faceva chiudere il file perchè mi diceva che era in utilizzo
         fileInfo.close(true);
         Path path = Paths.get(lf.getAbsolutePath());
         Files.delete(path);
@@ -98,8 +95,13 @@ public class TestFileInfoWrite {
     @Test
     public void test() throws IOException {
 
-        fileInfo.write(writeBuffer,position);
-        Assert.assertEquals(fileInfo.getLf().length(), expected);
+        try{
+            fileInfo.write(writeBuffer,position);
+            Assert.assertEquals(fileInfo.getLf().length(), expected);
+
+        }catch(Exception e){
+            Assert.assertEquals(e.getMessage(), expected);
+        }
 
 
 
@@ -116,7 +118,7 @@ public class TestFileInfoWrite {
         result = fileInfo.write(buffs,position);
 
         Assert.assertEquals(0,result);
-        
+
 
     }
 
@@ -135,7 +137,7 @@ public class TestFileInfoWrite {
 
     }
 
-    }
+}
 
 
 

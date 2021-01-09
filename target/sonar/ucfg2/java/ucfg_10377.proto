@@ -1,235 +1,0 @@
-
-Èorg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand#run(Lorg/apache/bookkeeper/discover/RegistrationClient;Lorg/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand$Flags;)V˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaI I("startingBlock*
-3˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javak k(È
-Å
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javak k(
-%18java.io.PrintStream"__id*
-""«¨
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javak k(3
-%19void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%18java.io.PrintStream*
-All Bookies :2println(Ljava/lang/String;)û
-ø
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javal l(%
-%20void"iorg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand#printBookies(Ljava/util/Collection;)V*G"E
-Corg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand*
-
-bookiesjava.util.Set*
-0
-1*ð	
-startingBlock˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaI I(A‹
-ˆ
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaH H(
-%23"
-__annotate*
-java.lang.Override*@
->
-	regClient1org.apache.bookkeeper.discover.RegistrationClientõ
-ò
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaI* I(3>
-	regClient1org.apache.bookkeeper.discover.RegistrationClient"__annotation*
-
-%23Ÿ
-œ
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaH H(
-%24"
-__annotate*
-java.lang.Override*T
-R
-flagsIorg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand$Flags‰
-†
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaI; I(@R
-flagsIorg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand$Flags"__annotation*
-
-%24*
-4
-7
-10
-0
-1*ù
-4˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javag/ g(5‹ˆ
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javah h()-
-%14&java.util.concurrent.CompletableFuture"iorg.apache.bookkeeper.discover.RegistrationClient#getAllBookies()Ljava/util/concurrent/CompletableFuture;*@
->
-	regClient1org.apache.bookkeeper.discover.RegistrationClient2getAllBookies()³
-°
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javag/ i(1
-%15*org.apache.bookkeeper.versioning.Versioned"vorg.apache.bookkeeper.common.concurrent.FutureUtils#result(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*/
--
-%14&java.util.concurrent.CompletableFuture¾»
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javag/ i(
-%16java.util.Set"Gorg.apache.bookkeeper.versioning.Versioned#getValue()Ljava/lang/Object;*3
-1
-%15*org.apache.bookkeeper.versioning.Versioned2
-getValue()Ö
-Ó
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javag i(
-bookiesjava.util.Set"__id*
-
-%16java.util.Setïì
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaj j("
-%17boolean"java.util.Set#isEmpty()Z*
-
-bookiesjava.util.Set2	isEmpty()*	
-3
-0
-1*¥
-6˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaa a(È
-Å
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaa a(
-%11java.io.PrintStream"__id*
-""°­
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaa a(8
-%12void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%11java.io.PrintStream*
-Readonly Bookies :2println(Ljava/lang/String;)û
-ø
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javab b(%
-%13void"iorg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand#printBookies(Ljava/util/Collection;)V*G"E
-Corg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand*
-
-bookiesjava.util.Set*	
-4
-0
-1*€
-7˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.java]/ ](5”‘
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.java^ ^(.,
-%7&java.util.concurrent.CompletableFuture"norg.apache.bookkeeper.discover.RegistrationClient#getReadOnlyBookies()Ljava/util/concurrent/CompletableFuture;*@
->
-	regClient1org.apache.bookkeeper.discover.RegistrationClient2getReadOnlyBookies()±
-®
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.java]/ _(0
-%8*org.apache.bookkeeper.versioning.Versioned"vorg.apache.bookkeeper.common.concurrent.FutureUtils#result(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*.
-,
-%7&java.util.concurrent.CompletableFuture¼¹
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.java]/ _(
-%9java.util.Set"Gorg.apache.bookkeeper.versioning.Versioned#getValue()Ljava/lang/Object;*2
-0
-%8*org.apache.bookkeeper.versioning.Versioned2
-getValue()Õ
-Ò
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.java] _(
-bookiesjava.util.Set"__id*
-
-%9java.util.Setïì
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.java` `("
-%10boolean"java.util.Set#isEmpty()Z*
-
-bookiesjava.util.Set2	isEmpty()*
-4
-6
-0
-1*¥
-9˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaW W(Ç
-Ä
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaW W(
-%4java.io.PrintStream"__id*
-""¯¬
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaW W(9
-
-%5void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%4java.io.PrintStream*
-ReadWrite Bookies :2println(Ljava/lang/String;)ú
-÷
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaX X(%
-
-%6void"iorg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand#printBookies(Ljava/util/Collection;)V*G"E
-Corg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand*
-
-bookiesjava.util.Set*
-4
-7
-0
-1*ƒ
-10˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaS/ S(5”‘
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaT T(.,
-%0&java.util.concurrent.CompletableFuture"norg.apache.bookkeeper.discover.RegistrationClient#getWritableBookies()Ljava/util/concurrent/CompletableFuture;*@
->
-	regClient1org.apache.bookkeeper.discover.RegistrationClient2getWritableBookies()±
-®
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaS/ U(0
-%1*org.apache.bookkeeper.versioning.Versioned"vorg.apache.bookkeeper.common.concurrent.FutureUtils#result(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*.
-,
-%0&java.util.concurrent.CompletableFuture¼¹
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaS/ U(
-%2java.util.Set"Gorg.apache.bookkeeper.versioning.Versioned#getValue()Ljava/lang/Object;*2
-0
-%1*org.apache.bookkeeper.versioning.Versioned2
-getValue()Õ
-Ò
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaS U(
-bookiesjava.util.Set"__id*
-
-%2java.util.Setîë
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaV V("
-%3boolean"java.util.Set#isEmpty()Z*
-
-bookiesjava.util.Set2	isEmpty()*
-4
-7
-9
-0
-1*¸
-0 "°
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javas s(
-implicit return* 
-1˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaq q(È
-Å
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaq q(
-%21java.io.PrintStream"__id*
-""¯¬
-˜
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommand.javaq q(3
-%22void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%21java.io.PrintStream*
-No bookie exists!2println(Ljava/lang/String;)*
-0:>
-	regClient1org.apache.bookkeeper.discover.RegistrationClient:R
-flagsIorg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand$FlagsBGE
-Corg.apache.bookkeeper.tools.cli.commands.bookies.ListBookiesCommand

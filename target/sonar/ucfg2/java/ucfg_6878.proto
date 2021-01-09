@@ -1,93 +1,0 @@
-
-Ÿorg.apache.bookkeeper.proto.BookieProtoEncoding#serializeProtobuf(Lcom/google/protobuf/MessageLite;Lio/netty/buffer/ByteBufAllocator;)Lio/netty/buffer/ByteBuf;…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaå å(,"9*ˆ
-4…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaê ê(põò
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaê ê(p
-
-%6void"Qcom.google.protobuf.MessageLite#writeTo(Lcom/google/protobuf/CodedOutputStream;)V*(
-&
-msgcom.google.protobuf.MessageLite*-
-+
-%5%com.google.protobuf.CodedOutputStream20writeTo(Lcom/google/protobuf/CodedOutputStream;)*
-1*ö
-5…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaêC ê(hã
-à
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaê ê(o+
-%5%com.google.protobuf.CodedOutputStream"^com.google.protobuf.CodedOutputStream#newInstance([BII)Lcom/google/protobuf/CodedOutputStream;*)"'
-%com.google.protobuf.CodedOutputStream*
-
-%2byte[]*
-""*
-""*
-4*‚
-6…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaêW ê(Zïì
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaêW ê(h	
-%4int"&io.netty.buffer.ByteBuf#writerIndex()I* 
-
-bufio.netty.buffer.ByteBuf2writerIndex()*
-5*‚
-7…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaêC ê(Fïì
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaêC ê(T	
-%3int"&io.netty.buffer.ByteBuf#arrayOffset()I* 
-
-bufio.netty.buffer.ByteBuf2arrayOffset()*
-6*ú
-8…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaê ê(çä
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaê6 ê(A
-%2byte[]"!io.netty.buffer.ByteBuf#array()[B* 
-
-bufio.netty.buffer.ByteBuf2array()*
-7*»
-9…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaæ æ(‹ˆ
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaæ æ(*	
-%0int"4com.google.protobuf.MessageLite#getSerializedSize()I*(
-&
-msgcom.google.protobuf.MessageLite2getSerializedSize()ÅÂ
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaç ç(6
-%1io.netty.buffer.ByteBuf"Hio.netty.buffer.ByteBufAllocator#heapBuffer(II)Lio/netty/buffer/ByteBuf;*/
--
-	allocator io.netty.buffer.ByteBufAllocator*
-""*
-""2heapBuffer(II)Ò
-Ï
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaç ç(7
-bufio.netty.buffer.ByteBuf"__id*
-
-%1io.netty.buffer.ByteBuf*
-8*Ò
-1…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javañ ñ(éæ
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javañ ñ(&	
-%9int"#io.netty.buffer.ByteBuf#capacity()I* 
-
-bufio.netty.buffer.ByteBuf2
-capacity()«¨
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javañ ñ('
-%10io.netty.buffer.ByteBuf"?io.netty.buffer.ByteBuf#writerIndex(I)Lio/netty/buffer/ByteBuf;* 
-
-bufio.netty.buffer.ByteBuf*
-	
-%9int2writerIndex(I)"ª
-…
-y/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.javaò ò( 
-
-bufio.netty.buffer.ByteBuf:&
-msgcom.google.protobuf.MessageLite:-
-	allocator io.netty.buffer.ByteBufAllocatorB3"1
-/org.apache.bookkeeper.proto.BookieProtoEncoding

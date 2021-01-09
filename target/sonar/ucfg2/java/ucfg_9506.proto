@@ -1,489 +1,0 @@
-
-\org.apache.bookkeeper.proto.PerChannelBookieClient#connect()Lio/netty/channel/ChannelFuture;à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaÑ Ñ(#"15*¯
-13à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaã ã(-–Õ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaã" ã(+"
-%6io.netty.bootstrap.Bootstrap"io.netty.bootstrap.Bootstrap‚
-ﬂ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaã ã(-
-%7"&io.netty.bootstrap.Bootstrap#<init>()V*$
-"
-%6io.netty.bootstrap.BootstrapÂ
-‚
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaã ã(.)
-	bootstrapio.netty.bootstrap.Bootstrap"__id*$
-"
-%6io.netty.bootstrap.Bootstrapá
-Ñ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaå å(&%
-%8io.netty.channel.EventLoopGroup"__id*J*H4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-eventLoopGroupß§
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaå å('"
-%9io.netty.bootstrap.Bootstrap"sio.netty.bootstrap.AbstractBootstrap#group(Lio/netty/channel/EventLoopGroup;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%8io.netty.channel.EventLoopGroup2(group(Lio/netty/channel/EventLoopGroup;)à
-Ö
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaç ç(&
-%10io.netty.channel.EventLoopGroup"__id*J*H4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-eventLoopGroup*
-11
-12*“
-14à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaá á(¥
-±
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaá á(
-%3org.slf4j.Logger"__id*
-""ã
-à
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaá2 á(63
-%4-org.apache.bookkeeper.net.BookieSocketAddress"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-addrıÚ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaá á(7
-
-%5void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%3org.slf4j.Logger*
-Connecting to bookie: {}*5
-3
-%4-org.apache.bookkeeper.net.BookieSocketAddress2+debug(Ljava/lang/String;Ljava/lang/Object;)*
-13*»
-15à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaÖ Ö((Ö
-Ç
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaÖ Ö(4
-
-%0long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
-+org.apache.bookkeeper.common.util.MathUtils¥
-±
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaÜ Ü(
-%1org.slf4j.Logger"__id*
-""ÌÍ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaÜ Ü( 
-%2boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%1org.slf4j.Logger2isDebugEnabled()*
-13
-14*¶
-1à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒ ƒ((çä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒ ƒ(<%
-%59io.netty.channel.ChannelFuture"^io.netty.bootstrap.Bootstrap#connect(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*&
-$
-
-bookieAddrjava.net.SocketAddress2!connect(Ljava/net/SocketAddress;)Á
-‰
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaƒ ƒ(=(
-futureio.netty.channel.ChannelFuture"__id*'
-%
-%59io.netty.channel.ChannelFutureØ¨
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≈9 ≈(QR
-%60Korg.apache.bookkeeper.proto.PerChannelBookieClient$ConnectionFutureListener"Korg.apache.bookkeeper.proto.PerChannelBookieClient$ConnectionFutureListenerÄ
-˝
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≈5 ≈(\
-%61"äorg.apache.bookkeeper.proto.PerChannelBookieClient$ConnectionFutureListener#<init>(Lorg/apache/bookkeeper/proto/PerChannelBookieClient;J)V*T
-R
-%60Korg.apache.bookkeeper.proto.PerChannelBookieClient$ConnectionFutureListener*
-""±Æ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≈ ≈(]-
-%62&io.netty.channel.ChannelFutureListener"ûorg.apache.bookkeeper.proto.PerChannelBookieClient#contextPreservingListener(Lio/netty/channel/ChannelFutureListener;)Lio/netty/channel/ChannelFutureListener;*64
-2org.apache.bookkeeper.proto.PerChannelBookieClient*T
-R
-%60Korg.apache.bookkeeper.proto.PerChannelBookieClient$ConnectionFutureListener2CcontextPreservingListener(Lio/netty/channel/ChannelFutureListener;)œÃ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java≈ ≈(^%
-%63io.netty.channel.ChannelFuture"|io.netty.channel.ChannelFuture#addListener(Lio/netty/util/concurrent/GenericFutureListener;)Lio/netty/channel/ChannelFuture;**
-(
-futureio.netty.channel.ChannelFuture*/
--
-%62&io.netty.channel.ChannelFutureListener2=addListener(Lio/netty/util/concurrent/GenericFutureListener;)¶£
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java∆ ∆(/%
-%64io.netty.channel.ChannelFuture"|io.netty.channel.ChannelFuture#addListener(Lio/netty/util/concurrent/GenericFutureListener;)Lio/netty/channel/ChannelFuture;**
-(
-futureio.netty.channel.ChannelFuture*
-""2=addListener(Lio/netty/util/concurrent/GenericFutureListener;)"∑
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java« «(*
-(
-futureio.netty.channel.ChannelFuture*˚
-2à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¡ ¡(å
-â
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¡ ¡(4
-%57-org.apache.bookkeeper.net.BookieSocketAddress"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-addrÎË
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¡ ¡(/*
-%58#io.netty.channel.local.LocalAddress"dorg.apache.bookkeeper.net.BookieSocketAddress#getLocalAddress()Lio/netty/channel/local/LocalAddress;*6
-4
-%57-org.apache.bookkeeper.net.BookieSocketAddress2getLocalAddress()Ë
-Â
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¡ ¡(/$
-
-bookieAddrjava.net.SocketAddress"__id*,
-*
-%58#io.netty.channel.local.LocalAddress*
-1*ø
-3à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¨ ¨(Å˛
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¨ ¨(9;
-%514org.apache.bookkeeper.proto.PerChannelBookieClient$4"4org.apache.bookkeeper.proto.PerChannelBookieClient$4É
-Ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¨ Ω(	
-%52"-io.netty.channel.ChannelInitializer#<init>()V*=
-;
-%514org.apache.bookkeeper.proto.PerChannelBookieClient$4¬ø
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¨ Ω(
-#
-%53io.netty.bootstrap.Bootstrap"uio.netty.bootstrap.AbstractBootstrap#handler(Lio/netty/channel/ChannelHandler;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*=
-;
-%514org.apache.bookkeeper.proto.PerChannelBookieClient$42*handler(Lio/netty/channel/ChannelHandler;)å
-â
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaø# ø('4
-%54-org.apache.bookkeeper.net.BookieSocketAddress"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-addr€ÿ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaø# ø(:!
-%55java.net.InetSocketAddress"\org.apache.bookkeeper.net.BookieSocketAddress#getSocketAddress()Ljava/net/InetSocketAddress;*6
-4
-%54-org.apache.bookkeeper.net.BookieSocketAddress2getSocketAddress()ﬂ
-‹
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaø ø(;$
-
-bookieAddrjava.net.SocketAddress"__id*#
-!
-%55java.net.InetSocketAddressà
-Ö
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java¿ ¿(&
-%56io.netty.channel.EventLoopGroup"__id*J*H4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-eventLoopGroup*
-2
-1*â
-4à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java§ §(√
-¿
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java§! §(8%
-%47io.netty.channel.ChannelOption"__id*
-""ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java§: §(>5
-%48.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-conføº
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java§: §([
-
-%49int"Lorg.apache.bookkeeper.conf.ClientConfiguration#getClientReceiveBufferSize()I*7
-5
-%48.org.apache.bookkeeper.conf.ClientConfiguration2getClientReceiveBufferSize()€ÿ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java§ §(\#
-%50io.netty.bootstrap.Bootstrap"Öio.netty.bootstrap.AbstractBootstrap#option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%47io.netty.channel.ChannelOption*
-
-
-%49int2:option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)*
-3*Ë
-5à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java£ £(ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java£ £(5
-%45.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-conføº
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java£ £(1
-
-%46int"Lorg.apache.bookkeeper.conf.ClientConfiguration#getClientReceiveBufferSize()I*7
-5
-%45.org.apache.bookkeeper.conf.ClientConfiguration2getClientReceiveBufferSize()*
-3
-4*É
-6à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java† †(√
-¿
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java†! †(8%
-%41io.netty.channel.ChannelOption"__id*
-""ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java†: †(>5
-%42.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-confπ∂
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java†: †(X
-
-%43int"Iorg.apache.bookkeeper.conf.ClientConfiguration#getClientSendBufferSize()I*7
-5
-%42.org.apache.bookkeeper.conf.ClientConfiguration2getClientSendBufferSize()€ÿ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java† †(Y#
-%44io.netty.bootstrap.Bootstrap"Öio.netty.bootstrap.AbstractBootstrap#option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%41io.netty.channel.ChannelOption*
-
-
-%43int2:option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)*
-5*»
-7à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaõ õ(√
-¿
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaõ õ(6%
-%31io.netty.channel.ChannelOption"__id*
-""ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaõ8 õ(<5
-%32.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-confµ≤
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaõ8 õ(R
-%33boolean"Eorg.apache.bookkeeper.conf.ClientConfiguration#getClientTcpNoDelay()Z*7
-5
-%32.org.apache.bookkeeper.conf.ClientConfiguration2getClientTcpNoDelay()ﬂ‹
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaõ õ(S#
-%34io.netty.bootstrap.Bootstrap"Öio.netty.bootstrap.AbstractBootstrap#option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%31io.netty.channel.ChannelOption*
-
-%33boolean2:option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)√
-¿
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaú ú(7%
-%35io.netty.channel.ChannelOption"__id*
-""ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaú9 ú(=5
-%36.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-confª∏
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaú9 ú(V
-%37boolean"Horg.apache.bookkeeper.conf.ClientConfiguration#getClientSockKeepalive()Z*7
-5
-%36.org.apache.bookkeeper.conf.ClientConfiguration2getClientSockKeepalive()ﬂ‹
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaú ú(W#
-%38io.netty.bootstrap.Bootstrap"Öio.netty.bootstrap.AbstractBootstrap#option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%35io.netty.channel.ChannelOption*
-
-%37boolean2:option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaü ü(5
-%39.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-confπ∂
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaü ü(.
-
-%40int"Iorg.apache.bookkeeper.conf.ClientConfiguration#getClientSendBufferSize()I*7
-5
-%39.org.apache.bookkeeper.conf.ClientConfiguration2getClientSendBufferSize()*
-5
-6*Ê'
-8à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaï ï(√
-¿
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaï ï(0%
-%15io.netty.channel.ChannelOption"__id*
-""Ñ
-Å
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaï2 ï(@'
-%16 io.netty.buffer.ByteBufAllocator"__id*E*C4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-	allocator¯ı
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaï ï(A#
-%17io.netty.bootstrap.Bootstrap"Öio.netty.bootstrap.AbstractBootstrap#option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%15io.netty.channel.ChannelOption*)
-'
-%16 io.netty.buffer.ByteBufAllocator2:option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)√
-¿
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javañ ñ(=%
-%18io.netty.channel.ChannelOption"__id*
-""ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javañ? ñ(C5
-%19.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-conf≈¬
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javañ? ñ(c
-
-%20int"Oorg.apache.bookkeeper.conf.ClientConfiguration#getClientConnectTimeoutMillis()I*7
-5
-%19.org.apache.bookkeeper.conf.ClientConfiguration2getClientConnectTimeoutMillis()€ÿ
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javañ ñ(d#
-%21io.netty.bootstrap.Bootstrap"Öio.netty.bootstrap.AbstractBootstrap#option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%18io.netty.channel.ChannelOption*
-
-
-%20int2:option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)√
-¿
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaó ó(>%
-%22io.netty.channel.ChannelOption"__id*
-""ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaò ò(5
-%23.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-confÀ»
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaò ò(7
-
-%24int"Rorg.apache.bookkeeper.conf.ClientConfiguration#getClientWriteBufferLowWaterMark()I*7
-5
-%23.org.apache.bookkeeper.conf.ClientConfiguration2"getClientWriteBufferLowWaterMark()ç
-ä
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaò9 ò(=5
-%25.org.apache.bookkeeper.conf.ClientConfiguration"__id*@*>4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-confÕ 
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaò9 ò(a
-
-%26int"Sorg.apache.bookkeeper.conf.ClientConfiguration#getClientWriteBufferHighWaterMark()I*7
-5
-%25.org.apache.bookkeeper.conf.ClientConfiguration2#getClientWriteBufferHighWaterMark()„‡
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaóD ó(X,
-%27%io.netty.channel.WriteBufferWaterMark"%io.netty.channel.WriteBufferWaterMarkî
-ë
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaó@ ò(b
-%28"1io.netty.channel.WriteBufferWaterMark#<init>(II)V*.
-,
-%27%io.netty.channel.WriteBufferWaterMark*
-
-
-%24int*
-
-
-%26int˝˙
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaó ò(c#
-%29io.netty.bootstrap.Bootstrap"Öio.netty.bootstrap.AbstractBootstrap#option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*'
-%
-%22io.netty.channel.ChannelOption*.
-,
-%27%io.netty.channel.WriteBufferWaterMark2:option(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)à
-Ö
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaö ö(&
-%30io.netty.channel.EventLoopGroup"__id*J*H4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-eventLoopGroup*
-3
-7*Å
-9à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaí í(ÎË
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaí í(5#
-%14io.netty.bootstrap.Bootstrap"eio.netty.bootstrap.AbstractBootstrap#channel(Ljava/lang/Class;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*
-""2channel(Ljava/lang/Class;)*
-8*Ç
-10à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaê ê(ÎË
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaê ê(1#
-%13io.netty.bootstrap.Bootstrap"eio.netty.bootstrap.AbstractBootstrap#channel(Ljava/lang/Class;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*
-""2channel(Ljava/lang/Class;)*
-8*£
-11à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaè è(!à
-Ö
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaè è(!&
-%12io.netty.channel.EventLoopGroup"__id*J*H4
-2org.apache.bookkeeper.proto.PerChannelBookieClient"
-eventLoopGroup*
-9
-10*Ç
-12à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaé é(ÎË
-à
-|/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.javaé é(7#
-%11io.netty.bootstrap.Bootstrap"eio.netty.bootstrap.AbstractBootstrap#channel(Ljava/lang/Class;)Lio/netty/bootstrap/AbstractBootstrap;*+
-)
-	bootstrapio.netty.bootstrap.Bootstrap*
-""2channel(Ljava/lang/Class;)*
-8B64
-2org.apache.bookkeeper.proto.PerChannelBookieClient

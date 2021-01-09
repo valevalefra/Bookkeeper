@@ -1,54 +1,0 @@
-
-korg.apache.bookkeeper.util.collections.SynchronizedHashMultiMap#removeIf(Ljava/util/function/BiPredicate;)I”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaA A($"1*¶
-1”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaB B(‡
-„
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaB B(
-%0java.util.HashMap"__id*L*JA
-?org.apache.bookkeeper.util.collections.SynchronizedHashMultiMap"
-mapŠ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaB B(%
-%1java.util.Collection"0java.util.HashMap#values()Ljava/util/Collection;*
-
-%0java.util.HashMap2values()™–
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaB B(.
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
-
-%1java.util.Collection2stream()õò
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaB O( 
-%3java.util.stream.IntStream"`java.util.stream.Stream#mapToInt(Ljava/util/function/ToIntFunction;)Ljava/util/stream/IntStream;*
-
-%2java.util.stream.Stream*
-""2,mapToInt(Ljava/util/function/ToIntFunction;)óð
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaB O(	
-%4int"!java.util.stream.IntStream#sum()I*"
- 
-%3java.util.stream.IntStream2sum()‡
-„
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaP P(
-%5java.util.HashMap"__id*L*JA
-?org.apache.bookkeeper.util.collections.SynchronizedHashMultiMap"
-mapŠ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaP P(
-%6java.util.Collection"0java.util.HashMap#values()Ljava/util/Collection;*
-
-%5java.util.HashMap2values()¹¶
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaP P(1
-%7boolean">java.util.Collection#removeIf(Ljava/util/function/Predicate;)Z*
-
-%6java.util.Collection*
-""2(removeIf(Ljava/util/function/Predicate;)"Ÿ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/collections/SynchronizedHashMultiMap.javaQ Q(
-"":+
-	predicatejava.util.function.BiPredicateBCA
-?org.apache.bookkeeper.util.collections.SynchronizedHashMultiMap

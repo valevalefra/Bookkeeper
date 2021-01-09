@@ -1,162 +1,0 @@
-
-torg.apache.bookkeeper.bookie.IndexInMemPageMgr#grabLedgerEntryPage(JJ)Lorg/apache/bookkeeper/bookie/LedgerEntryPage;„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¸ ¸(/"12*ï
-2„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÒ Ò(®«
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÒ Ò('
-%14void"Eorg.apache.bookkeeper.bookie.LedgerEntryPage#releasePageNoCallback()V*5
-3
-lep,org.apache.bookkeeper.bookie.LedgerEntryPage2releasePageNoCallback()£
- 
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÓ Ó(I
-%15Borg.apache.bookkeeper.bookie.IndexInMemPageMgr$InMemPageCollection"__id*F*D0
-.org.apache.bookkeeper.bookie.IndexInMemPageMgr"
-pageMapAndListìé
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÓ Ó(4
-%16void"ˆorg.apache.bookkeeper.bookie.IndexInMemPageMgr$InMemPageCollection#addToListOfFreePages(Lorg/apache/bookkeeper/bookie/LedgerEntryPage;)V*K
-I
-%15Borg.apache.bookkeeper.bookie.IndexInMemPageMgr$InMemPageCollection*5
-3
-lep,org.apache.bookkeeper.bookie.LedgerEntryPage2DaddToListOfFreePages(Lorg/apache/bookkeeper/bookie/LedgerEntryPage;)•’
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÕ Õ(
-%17void"7org.apache.bookkeeper.bookie.LedgerEntryPage#usePage()V*8
-6
-oldLep,org.apache.bookkeeper.bookie.LedgerEntryPage2	usePage()ÿ
-ü
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÖ Ö(3
-lep,org.apache.bookkeeper.bookie.LedgerEntryPage"__id*8
-6
-oldLep,org.apache.bookkeeper.bookie.LedgerEntryPage*
-1*þ
-
-3„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÍ Í(Ð
-Í
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÍ Í(6
-oldLep,org.apache.bookkeeper.bookie.LedgerEntryPage"__id*
-""£
- 
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÎ Î(+I
-%12Borg.apache.bookkeeper.bookie.IndexInMemPageMgr$InMemPageCollection"__id*F*D0
-.org.apache.bookkeeper.bookie.IndexInMemPageMgr"
-pageMapAndListî
-ë
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÎ Î(83
-%13,org.apache.bookkeeper.bookie.LedgerEntryPage"¨org.apache.bookkeeper.bookie.IndexInMemPageMgr$InMemPageCollection#putPage(Lorg/apache/bookkeeper/bookie/LedgerEntryPage;)Lorg/apache/bookkeeper/bookie/LedgerEntryPage;*K
-I
-%12Borg.apache.bookkeeper.bookie.IndexInMemPageMgr$InMemPageCollection*5
-3
-lep,org.apache.bookkeeper.bookie.LedgerEntryPageÿ
-ü
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÎ Î(86
-oldLep,org.apache.bookkeeper.bookie.LedgerEntryPage"__id*5
-3
-%13,org.apache.bookkeeper.bookie.LedgerEntryPage*
-2
-1*ñ
-7„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÃ Ã( ½
-º
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÃ Ã(-#
-%7java.util.concurrent.TimeUnit"__id*
-""Ÿœ
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÁ Ã(.
-
-%8void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*1
-/
-%4)org.apache.bookkeeper.stats.OpStatsLogger*
-
-
-%6long*%
-#
-%7java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
-3*Ô
-8„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÁ Á((“
-
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÁ Á((/
-%4)org.apache.bookkeeper.stats.OpStatsLogger"__id*P*N0
-.org.apache.bookkeeper.bookie.IndexInMemPageMgr"
-ledgerCacheReadPageStats½
-º
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÂ2 Â(G#
-%5java.util.concurrent.TimeUnit"__id*
-""ìé
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaÂ Â(H
-
-%6long"Jcom.google.common.base.Stopwatch#elapsed(Ljava/util/concurrent/TimeUnit;)J*7
-5
-readPageStopwatch com.google.common.base.Stopwatch*%
-#
-%5java.util.concurrent.TimeUnit2(elapsed(Ljava/util/concurrent/TimeUnit;)*
-7*Ú
-10„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¾ ¾(Dñ
-î
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¾ ¾(D5
-readPageStopwatch com.google.common.base.Stopwatch"__id*(
-&
-%1 com.google.common.base.Stopwatch™
-–
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¿  ¿(76
-%20org.apache.bookkeeper.bookie.IndexPersistenceMgr"__id*O*M0
-.org.apache.bookkeeper.bookie.IndexInMemPageMgr"
-indexPersistenceManager´±
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¿  ¿(G
-%3boolean"lorg.apache.bookkeeper.bookie.IndexPersistenceMgr#updatePage(Lorg/apache/bookkeeper/bookie/LedgerEntryPage;)Z*8
-6
-%20org.apache.bookkeeper.bookie.IndexPersistenceMgr*5
-3
-lep,org.apache.bookkeeper.bookie.LedgerEntryPage2:updatePage(Lorg/apache/bookkeeper/bookie/LedgerEntryPage;)*
-3
-8*À
-11„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¾* ¾(3¬
-©
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¾* ¾(C&
-%1 com.google.common.base.Stopwatch"Rcom.google.common.base.Stopwatch#createStarted()Lcom/google/common/base/Stopwatch;*$""
- com.google.common.base.Stopwatch*
-10*„
-12„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¹ ¹(+ò
-ï
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¹ ¹(>2
-%0,org.apache.bookkeeper.bookie.LedgerEntryPage"norg.apache.bookkeeper.bookie.IndexInMemPageMgr#grabCleanPage(JJ)Lorg/apache/bookkeeper/bookie/LedgerEntryPage;*20
-.org.apache.bookkeeper.bookie.IndexInMemPageMgr*
-""*
-""û
-ø
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.java¹ ¹(?3
-lep,org.apache.bookkeeper.bookie.LedgerEntryPage"__id*4
-2
-%0,org.apache.bookkeeper.bookie.LedgerEntryPage*
-11*Ë
-1„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaØ Ø("¾
-„
-x/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/IndexInMemPageMgr.javaØ Ø(5
-3
-lep,org.apache.bookkeeper.bookie.LedgerEntryPage:
-"":
-""B20
-.org.apache.bookkeeper.bookie.IndexInMemPageMgr

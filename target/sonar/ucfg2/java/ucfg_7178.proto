@@ -1,194 +1,0 @@
-
-korg.apache.bookkeeper.client.ReadOnlyLedgerHandle#onChanged(JLorg/apache/bookkeeper/versioning/Versioned;)Vá
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaï ï("startingBlock*ã
-13á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaó ó(≥
-∞
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaó ó(
-%2org.slf4j.Logger"__id*
-""∏µ
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaó ó(U
-
-%3void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%2org.slf4j.Logger*.,
-*Received ledger metadata update on {} : {}*
-""*;
-9
-newMetadata*org.apache.bookkeeper.versioning.Versioned2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-
-8
-9
-11*¯
-2á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaß ß(h„‡
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaß ß(h
-%18void"torg.apache.bookkeeper.common.util.OrderedExecutor#executeOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)V*:
-8
-%151org.apache.bookkeeper.common.util.OrderedExecutor*
-""*J
-H
-%16Aorg.apache.bookkeeper.client.ReadOnlyLedgerHandle$MetadataUpdater2AexecuteOrdered(JLorg/apache/bookkeeper/common/util/SafeRunnable;)*
-0*√
-14á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javañ ñ(≥
-∞
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javañ ñ(
-%0org.slf4j.Logger"__id*
-""ÏÈ
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javañ ñ( 
-%1boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%0org.slf4j.Logger2isDebugEnabled()*
-13
-8
-9
-11*¸
-3á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaß= ß(Eöó
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaßK ß(ZH
-%16Aorg.apache.bookkeeper.client.ReadOnlyLedgerHandle$MetadataUpdater"Aorg.apache.bookkeeper.client.ReadOnlyLedgerHandle$MetadataUpdater 
-«
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaßG ß(g
-%17"™org.apache.bookkeeper.client.ReadOnlyLedgerHandle$MetadataUpdater#<init>(Lorg/apache/bookkeeper/client/ReadOnlyLedgerHandle;Lorg/apache/bookkeeper/versioning/Versioned;)V*J
-H
-%16Aorg.apache.bookkeeper.client.ReadOnlyLedgerHandle$MetadataUpdater*;
-9
-newMetadata*org.apache.bookkeeper.versioning.Versioned*
-2*˘
-startingBlocká
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaï ï(Jı
-Ú
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaî î(
-%21"
-__annotate*
-java.lang.Override*;
-9
-newMetadata*org.apache.bookkeeper.versioning.Versionedﬂ
-‹
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaï> ï(I9
-newMetadata*org.apache.bookkeeper.versioning.Versioned"__annotation*
-
-%21*
-14*®
-4á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaß ß(å
-â
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaß ß(1
-%14*org.apache.bookkeeper.client.ClientContext"__id*D*B3
-1org.apache.bookkeeper.client.ReadOnlyLedgerHandle"
-	clientCtxÑÅ
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaß ß(-8
-%151org.apache.bookkeeper.common.util.OrderedExecutor"qorg.apache.bookkeeper.client.ClientContext#getMainWorkerPool()Lorg/apache/bookkeeper/common/util/OrderedExecutor;*3
-1
-%14*org.apache.bookkeeper.client.ClientContext2getMainWorkerPool()*
-3*≈
-6á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java• •(’
-“
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java• •(8
-%121org.apache.bookkeeper.versioning.Version$Occurred"__id*
-""’
-“
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java• •(#8
-%131org.apache.bookkeeper.versioning.Version$Occurred"__id*
-""*
-4
-0*›
-7á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java¢ ¢(¥
-±
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java¢ ¢(
-%10org.slf4j.Logger"__id*
-""ëé
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java¢ £(=
-%11void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%10org.slf4j.Logger*-+
-)Try to update metadata from {} to {} : {}*?
-=
-currentMetadata*org.apache.bookkeeper.versioning.Versioned*;
-9
-newMetadata*org.apache.bookkeeper.versioning.Versioned*?
-=
-occurred1org.apache.bookkeeper.versioning.Version$Occurred2,debug(Ljava/lang/String;[Ljava/lang/Object;)*
-6*≤
-8á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaü4 ü(NàÖ
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaü4 ü(P0
-%4*org.apache.bookkeeper.versioning.Versioned"rorg.apache.bookkeeper.client.LedgerHandle#getVersionedLedgerMetadata()Lorg/apache/bookkeeper/versioning/Versioned;*53
-1org.apache.bookkeeper.client.ReadOnlyLedgerHandle2getVersionedLedgerMetadata()Ü
-É
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaü ü(Q=
-currentMetadata*org.apache.bookkeeper.versioning.Versioned"__id*2
-0
-%4*org.apache.bookkeeper.versioning.VersionedÔÏ
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java†$ †(@.
-%5(org.apache.bookkeeper.versioning.Version"aorg.apache.bookkeeper.versioning.Versioned#getVersion()Lorg/apache/bookkeeper/versioning/Version;*?
-=
-currentMetadata*org.apache.bookkeeper.versioning.Versioned2getVersion()ÎË
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java†I †(a.
-%6(org.apache.bookkeeper.versioning.Version"aorg.apache.bookkeeper.versioning.Versioned#getVersion()Lorg/apache/bookkeeper/versioning/Version;*;
-9
-newMetadata*org.apache.bookkeeper.versioning.Versioned2getVersion()ÒÓ
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java†$ †(b7
-%71org.apache.bookkeeper.versioning.Version$Occurred"èorg.apache.bookkeeper.versioning.Version#compare(Lorg/apache/bookkeeper/versioning/Version;)Lorg/apache/bookkeeper/versioning/Version$Occurred;*0
-.
-%5(org.apache.bookkeeper.versioning.Version*0
-.
-%6(org.apache.bookkeeper.versioning.Version23compare(Lorg/apache/bookkeeper/versioning/Version;)ç
-ä
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java† †(c=
-occurred1org.apache.bookkeeper.versioning.Version$Occurred"__id*9
-7
-%71org.apache.bookkeeper.versioning.Version$Occurred≥
-∞
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java° °(
-%8org.slf4j.Logger"__id*
-""ÏÈ
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java° °( 
-%9boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%8org.slf4j.Logger2isDebugEnabled()*
-6
-7*¢
-9á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaù ù("í
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaù ù(
-""*ß
-0 "ü
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.java≠ ≠(
-implicit return*£
-11á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaö ö("í
-á
-{/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadOnlyLedgerHandle.javaö ö(
-"":
-"":9
-newMetadata*org.apache.bookkeeper.versioning.VersionedB53
-1org.apache.bookkeeper.client.ReadOnlyLedgerHandle

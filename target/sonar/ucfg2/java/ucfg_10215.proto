@@ -1,128 +1,0 @@
-
-Xorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase#complete()Z’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaË Ë("5*Û
-2’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÔ+ Ô(;š
-—
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÔ+ Ô(;
-%8java.io.File"__id*f*dN
-Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase"
-compactedLogFileûø
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÔ+ Ô(E
-%9java.lang.String"(java.io.File#getName()Ljava/lang/String;*
-
-%8java.io.File2	getName()ß
-Ü
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÔ Ô(F%
-compactedFilenamejava.lang.String"__id*
-
-%9java.lang.String£ 
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÕI Õ(j
-
-%10int"-java.lang.String#indexOf(Ljava/lang/String;)I*'
-%
-compactedFilenamejava.lang.String*
-.log2indexOf(Ljava/lang/String;)¡ž
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÕ- Õ(o
-%11java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*'
-%
-compactedFilenamejava.lang.String*
-""2substring(I)â
-ß
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÕ Õ(p'
-oldEntryLogFilenamejava.lang.String"__id*
-
-%11java.lang.StringÌ
-É
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÖ" Ö(Q
-%12long"Lorg.apache.bookkeeper.bookie.EntryLogger#fileName2LogId(Ljava/lang/String;)J*,"*
-(org.apache.bookkeeper.bookie.EntryLogger*)
-'
-oldEntryLogFilenamejava.lang.StringÕ
-Ò
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java× ×("K
-%13Dorg.apache.bookkeeper.bookie.AbstractLogCompactor$LogRemovalListener"__id*h*fN
-Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase"
-logRemovalListenerèå
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java× ×(=
-%14void"Worg.apache.bookkeeper.bookie.AbstractLogCompactor$LogRemovalListener#removeEntryLog(J)V*M
-K
-%13Dorg.apache.bookkeeper.bookie.AbstractLogCompactor$LogRemovalListener*
-""2removeEntryLog(J)*
-1*è
-3’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÑ Ñ(¾
-»
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÑ Ñ(
-%5org.slf4j.Logger"__id*
-""š
-—
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÑG Ñ(W
-%6java.io.File"__id*f*dN
-Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase"
-compactedLogFileêç
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÑ Ñ(X
-
-%7void"<org.slf4j.Logger#warn(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%5org.slf4j.Logger**(
-&Could not delete compacted log file {}*
-
-%6java.io.File2*warn(Ljava/lang/String;Ljava/lang/Object;)*
-2*Ÿ
-4’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÐ Ð(%š
-—
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÐ Ð(%
-%3java.io.File"__id*f*dN
-Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase"
-compactedLogFileßÜ
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÐ Ð(.
-%4boolean"java.io.File#delete()Z*
-
-%3java.io.File2delete()*
-2
-3* 
-5’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÎ Î(“
-
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÎ Î(
-%0java.util.List"__id*]*[N
-Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase"	
-offsetsÊ
-Ç
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÎ Î(
-
-%1void"__arrayClear*
-
-%0java.util.Listš
-—
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÏ Ï( 
-%2java.io.File"__id*f*dN
-Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase"
-compactedLogFile*
-4
-1*¸
-1’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÙ Ù("
-’
-…/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaÙ Ù(
-""BPN
-Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase

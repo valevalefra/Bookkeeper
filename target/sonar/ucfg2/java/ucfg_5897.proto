@@ -1,356 +1,0 @@
-
-≤org.apache.bookkeeper.server.http.service.TriggerGCService#handle(Lorg/apache/bookkeeper/http/service/HttpServiceRequest;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java< <(%"startingBlock*€
-2è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaQ Q(ËÂ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaQ Q(*=
-%376org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*"
- 
-jsonResponsejava.lang.String2setBody(Ljava/lang/String;)‹
-Ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaR R(27
-%380org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""‹
-Ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaR R(57
-%390org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""øº
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaR R(6=
-%406org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
-7
-%390org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)"ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaS S(D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*Ì
-3è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaO O(º
-π
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaO O(
-%34org.slf4j.Logger"__id*
-""Ó
-Î
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaO O(7
-%35java.lang.String"__concat*
-output body:*"
- 
-jsonResponsejava.lang.String†ù
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaO O(8
-%36void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%34org.slf4j.Logger*
-
-%35java.lang.String2debug(Ljava/lang/String;)*
-2*û
-startingBlockè
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java<% <(AÑ
-Å
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java; ;(
-%45"
-__annotate*
-java.lang.Override*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequestÓ
-Î
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java<9 <(@@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest"__annotation*
-
-%45*
-9*†
-4è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaK" K(.û
-õ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaK" K(./
-%25(org.apache.bookkeeper.proto.BookieServer"__id*P*N<
-:org.apache.bookkeeper.server.http.service.TriggerGCService"
-bookieServer‹Ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaK" K(:*
-%26#org.apache.bookkeeper.bookie.Bookie"Yorg.apache.bookkeeper.proto.BookieServer#getBookie()Lorg/apache/bookkeeper/bookie/Bookie;*1
-/
-%25(org.apache.bookkeeper.proto.BookieServer2getBookie()ÓÎ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaK" K(M1
-%27*org.apache.bookkeeper.bookie.LedgerStorage"borg.apache.bookkeeper.bookie.Bookie#getLedgerStorage()Lorg/apache/bookkeeper/bookie/LedgerStorage;*,
-*
-%26#org.apache.bookkeeper.bookie.Bookie2getLedgerStorage()§°
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaK" K([
-%28boolean"9org.apache.bookkeeper.bookie.LedgerStorage#isInForceGC()Z*3
-1
-%27*org.apache.bookkeeper.bookie.LedgerStorage2isInForceGC()œ
-Ã
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaK K(\ 
-isInForceGCjava.lang.Boolean"__id*
-
-%28booleanéã
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaLD L(Z
-%29java.lang.String".java.lang.Boolean#toString()Ljava/lang/String;*"
- 
-isInForceGCjava.lang.Boolean2
-toString()å
-â
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaL* L([*
-%30#org.apache.commons.lang3.tuple.Pair"qorg.apache.commons.lang3.tuple.Pair#of(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang3/tuple/Pair;*'"%
-#org.apache.commons.lang3.tuple.Pair*
-is_in_force_gc*
-
-%29java.lang.String¯
-ı
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaL L(\-
-output#org.apache.commons.lang3.tuple.Pair"__id*,
-*
-%30#org.apache.commons.lang3.tuple.PairË
-Â
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaM" M(9
-%31java.lang.String"Worg.apache.bookkeeper.common.util.JsonUtil#toJson(Ljava/lang/Object;)Ljava/lang/String;*.",
-*org.apache.bookkeeper.common.util.JsonUtil*/
--
-output#org.apache.commons.lang3.tuple.Pairÿ
-’
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaM M(: 
-jsonResponsejava.lang.String"__id*
-
-%31java.lang.Stringº
-π
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaN N(
-%32org.slf4j.Logger"__id*
-""ˆÛ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaN N($
-%33boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%32org.slf4j.Logger2isDebugEnabled()*
-2
-3*‚
-5è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaJ J(ÿ
-’
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaJ J($3
-%22,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""ÿ
-’
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaJ J((3
-%23,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""åâ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaJ, J(?3
-%24,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
-4
-1*€
-6è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaG G(ËÂ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaG G(*=
-%186org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*"
- 
-jsonResponsejava.lang.String2setBody(Ljava/lang/String;)‹
-Ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaH H(27
-%190org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""‹
-Ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaH H(57
-%200org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""øº
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaH H(6=
-%216org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
-7
-%200org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)"ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaI I(D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*Ì
-7è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaE E(º
-π
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaE E(
-%15org.slf4j.Logger"__id*
-""Ó
-Î
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaE E(7
-%16java.lang.String"__concat*
-output body:*"
- 
-jsonResponsejava.lang.String†ù
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaE E(8
-%17void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*
-
-%15org.slf4j.Logger*
-
-%16java.lang.String2debug(Ljava/lang/String;)*
-6*≥
-8è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java@ @(ù
-ö
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java@ @(.
-%5(org.apache.bookkeeper.proto.BookieServer"__id*P*N<
-:org.apache.bookkeeper.server.http.service.TriggerGCService"
-bookieServer⁄◊
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java@ @($)
-%6#org.apache.bookkeeper.bookie.Bookie"Yorg.apache.bookkeeper.proto.BookieServer#getBookie()Lorg/apache/bookkeeper/bookie/Bookie;*0
-.
-%5(org.apache.bookkeeper.proto.BookieServer2getBookie()ÏÈ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java@ @(70
-%7*org.apache.bookkeeper.bookie.LedgerStorage"borg.apache.bookkeeper.bookie.Bookie#getLedgerStorage()Lorg/apache/bookkeeper/bookie/LedgerStorage;*+
-)
-%6#org.apache.bookkeeper.bookie.Bookie2getLedgerStorage()óî
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java@ @(A
-
-%8void"5org.apache.bookkeeper.bookie.LedgerStorage#forceGC()V*2
-0
-%7*org.apache.bookkeeper.bookie.LedgerStorage2	forceGC()ù
-ö
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaB? B(K.
-%9(org.apache.bookkeeper.proto.BookieServer"__id*P*N<
-:org.apache.bookkeeper.server.http.service.TriggerGCService"
-bookieServer≥∞
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaB? B(V
-%10java.lang.String"Eorg.apache.bookkeeper.proto.BookieServer#toString()Ljava/lang/String;*0
-.
-%9(org.apache.bookkeeper.proto.BookieServer2
-toString()˜
-Ù
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaB B(V
-%11java.lang.String"__concat*" 
-Triggered GC on BookieServer: *
-
-%10java.lang.String“
-œ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaB B(W
-outputjava.lang.String"__id*
-
-%11java.lang.String’
-“
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaC" C(9
-%12java.lang.String"Worg.apache.bookkeeper.common.util.JsonUtil#toJson(Ljava/lang/Object;)Ljava/lang/String;*.",
-*org.apache.bookkeeper.common.util.JsonUtil*
-
-outputjava.lang.Stringÿ
-’
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaC C(: 
-jsonResponsejava.lang.String"__id*
-
-%12java.lang.Stringº
-π
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaD D(
-%13org.slf4j.Logger"__id*
-""ˆÛ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaD D($
-%14boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%13org.slf4j.Logger2isDebugEnabled()*
-6
-7*Ø
-9è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java=' =(@ãà
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java=+ =(><
-%06org.apache.bookkeeper.http.service.HttpServiceResponse"6org.apache.bookkeeper.http.service.HttpServiceResponseù
-ö
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java=' =(@
-%1"@org.apache.bookkeeper.http.service.HttpServiceResponse#<init>()V*>
-<
-%06org.apache.bookkeeper.http.service.HttpServiceResponseü
-ú
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java= =(AB
-response6org.apache.bookkeeper.http.service.HttpServiceResponse"__id*>
-<
-%06org.apache.bookkeeper.http.service.HttpServiceResponse◊
-‘
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java? ?(2
-%2,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""◊
-‘
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java? ?(!2
-%3,org.apache.bookkeeper.http.HttpServer$Method"__id*
-""ãà
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.java?% ?(82
-%4,org.apache.bookkeeper.http.HttpServer$Method"oorg.apache.bookkeeper.http.service.HttpServiceRequest#getMethod()Lorg/apache/bookkeeper/http/HttpServer$Method;*B
-@
-request5org.apache.bookkeeper.http.service.HttpServiceRequest2getMethod()*
-5
-8*â
-1è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaU U(‹
-Ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaU U(27
-%410org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""‹
-Ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaU U(<7
-%420org.apache.bookkeeper.http.HttpServer$StatusCode"__id*
-""øº
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaU U(==
-%436org.apache.bookkeeper.http.service.HttpServiceResponse"™org.apache.bookkeeper.http.service.HttpServiceResponse#setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*9
-7
-%420org.apache.bookkeeper.http.HttpServer$StatusCode2;setCode(Lorg/apache/bookkeeper/http/HttpServer$StatusCode;)ñì
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaV V(l=
-%446org.apache.bookkeeper.http.service.HttpServiceResponse"äorg.apache.bookkeeper.http.service.HttpServiceResponse#setBody(Ljava/lang/String;)Lorg/apache/bookkeeper/http/service/HttpServiceResponse;*D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse*PN
-LNot found method. Should be PUT to trigger GC, Or GET to get Force GC state.2setBody(Ljava/lang/String;)"ÿ
-è
-Ñ/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/TriggerGCService.javaW W(D
-B
-response6org.apache.bookkeeper.http.service.HttpServiceResponse:@
-request5org.apache.bookkeeper.http.service.HttpServiceRequestB><
-:org.apache.bookkeeper.server.http.service.TriggerGCService

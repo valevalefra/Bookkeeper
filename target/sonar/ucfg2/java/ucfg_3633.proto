@@ -1,165 +1,0 @@
-
-Qorg.apache.distributedlog.util.DLUtils#normalizeURI(Ljava/net/URI;)Ljava/net/URI;…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaâ â(""11*Ú
-2…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaé î(&Ç
-Ä
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaé î(&
-normalizedUrijava.net.URI"__id*
-
-%14java.net.URI*
-1*å
-5…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaé î(&®«
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaé  é(#
-%14java.net.URI"java.net.URI¡
-ž
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaé î(&
-%15"pjava.net.URI#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
-
-%14java.net.URI*
-
-%9java.lang.String*
-
-%10java.lang.String*
-
-%11java.lang.String*
-
-%12java.lang.String*
-
-%13java.lang.String*
-2*‹
-6…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaî î(øõ
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaî î(%
-%13java.lang.String",java.net.URI#getFragment()Ljava/lang/String;*
-
-urijava.net.URI2getFragment()*
-5*…
-7…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaí í(òï
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaí í("
-%12java.lang.String")java.net.URI#getQuery()Ljava/lang/String;*
-
-urijava.net.URI2
-getQuery()*
-6*ƒ
-8…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaì ì(ðí
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaì ì(!
-%11java.lang.String"(java.net.URI#getPath()Ljava/lang/String;*
-
-urijava.net.URI2	getPath()*
-7*
-9…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaë ë(ú÷
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaë ë(&
-%10java.lang.String"-java.net.URI#getAuthority()Ljava/lang/String;*
-
-urijava.net.URI2getAuthority()*
-8*Ö
-10…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaê ê(Â¿
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaê ê(/
-%9java.lang.String"Norg.apache.bookkeeper.common.net.ServiceURI#getServiceName()Ljava/lang/String;*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI2getServiceName()*
-9*Ð
-11…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaã  ã(*÷
-ô
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaã  ã(61
-%0+org.apache.bookkeeper.common.net.ServiceURI"oorg.apache.bookkeeper.common.net.ServiceURI#create(Ljava/net/URI;)Lorg/apache/bookkeeper/common/net/ServiceURI;*/"-
-+org.apache.bookkeeper.common.net.ServiceURI*
-
-urijava.net.URI
-þ
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaã ã(79
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__id*3
-1
-%0+org.apache.bookkeeper.common.net.ServiceURIÂ¿
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaä ä(0
-%1java.lang.String"Norg.apache.bookkeeper.common.net.ServiceURI#getServiceName()Ljava/lang/String;*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI2getServiceName()ç
-ä
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaä2 ä(W
-%2java.lang.String"__concat*!
-Invalid distributedlog uri : *
-
-urijava.net.URIì
-é
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaä ä(X
-%3java.lang.String"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
-$com.google.common.base.Preconditions*
-
-%1java.lang.String*
-
-%2java.lang.String±
-®
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaå$ å(I
-%4java.lang.String"__id*
-""Â¿
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaåK å(f
-%5java.lang.String"Norg.apache.bookkeeper.common.net.ServiceURI#getServiceName()Ljava/lang/String;*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI2getServiceName()¿
-¼
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaå å(g
-%6boolean"Kcom.google.common.base.Objects#equal(Ljava/lang/Object;Ljava/lang/Object;)Z*"" 
-com.google.common.base.Objects*
-
-%4java.lang.String*
-
-%5java.lang.Stringð
-í
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaæ æ(>
-%7java.lang.String"__concat**(
-&Unknown distributedlog scheme found : *
-
-urijava.net.URI¶
-³
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaå æ(?
-
-%8void"Hcom.google.common.base.Preconditions#checkArgument(ZLjava/lang/Object;)V*("&
-$com.google.common.base.Preconditions*
-
-%6boolean*
-
-%7java.lang.String¸
-µ
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaç ç(
-normalizedUrijava.net.URI"__id*
-""*
-10*·
-1…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaò ò("©
-…
-y/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/util/DLUtils.javaò ò(
-
-normalizedUrijava.net.URI:
-urijava.net.URIB*"(
-&org.apache.distributedlog.util.DLUtils

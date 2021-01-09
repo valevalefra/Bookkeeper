@@ -1,88 +1,0 @@
-
-‘org.apache.distributedlog.ReadUtils#asyncReadFirstUserRecord(Ljava/lang/String;Lorg/apache/distributedlog/LogSegmentMetadata;IILjava/util/concurrent/atomic/AtomicInteger;Ljava/util/concurrent/ExecutorService;Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;Lorg/apache/distributedlog/DLSN;)Ljava/util/concurrent/CompletableFuture;Ä
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javas7 s(O"3*Ü
-2Ä
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.java~ ~(¯ı
-Ä
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.java~ ~(,
-
-%2long",org.apache.distributedlog.DLSN#getEntryId()J*(
-&
-dlsnorg.apache.distributedlog.DLSN2getEntryId()*
-1*Ÿ
-3Ä
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.java| |(≥∞
-Ä
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.java} }(+
-
-%0long"Korg.apache.distributedlog.LogSegmentMetadata#getLogSegmentSequenceNumber()J*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentSequenceNumber()íè
-Ä
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.java}/ }(M
-
-%1long"9org.apache.distributedlog.DLSN#getLogSegmentSequenceNo()J*(
-&
-dlsnorg.apache.distributedlog.DLSN2getLogSegmentSequenceNo()*
-2
-1*ƒ
-1Ç
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaÄL Ä(Pêç
-Ç
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaÄ/ Ä(KE
-%3?org.apache.distributedlog.selector.FirstDLSNNotLessThanSelector"?org.apache.distributedlog.selector.FirstDLSNNotLessThanSelectorÏ
-È
-Ç
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaÄ+ Ä(Q
-%4"iorg.apache.distributedlog.selector.FirstDLSNNotLessThanSelector#<init>(Lorg/apache/distributedlog/DLSN;)V*G
-E
-%3?org.apache.distributedlog.selector.FirstDLSNNotLessThanSelector*(
-&
-dlsnorg.apache.distributedlog.DLSNô
-ñ
-Ç
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaÄ Ä(R@
-selector4org.apache.distributedlog.selector.LogRecordSelector"__id*G
-E
-%3?org.apache.distributedlog.selector.FirstDLSNNotLessThanSelector„
-‡
-Ç
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaÅ É(L,
-%5&java.util.concurrent.CompletableFuture"Êorg.apache.distributedlog.ReadUtils#asyncReadRecord(Ljava/lang/String;Lorg/apache/distributedlog/LogSegmentMetadata;ZZZIILjava/util/concurrent/atomic/AtomicInteger;Ljava/util/concurrent/ExecutorService;Lorg/apache/distributedlog/logsegment/LogSegmentEntryStore;Lorg/apache/distributedlog/selector/LogRecordSelector;ZJ)Ljava/util/concurrent/CompletableFuture;*'"%
-#org.apache.distributedlog.ReadUtils* 
-
-
-streamNamejava.lang.String*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata*
-""*
-""*
-""*
-""*
-""*@
->
-numRecordsScanned)java.util.concurrent.atomic.AtomicInteger*9
-7
-executorService$java.util.concurrent.ExecutorService*I
-G
-
-entryStore9org.apache.distributedlog.logsegment.LogSegmentEntryStore*B
-@
-selector4org.apache.distributedlog.selector.LogRecordSelector*
-""*
-"""µ
-Ç
-v/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadUtils.javaÅ É(M.
-,
-%5&java.util.concurrent.CompletableFuture:
-
-streamNamejava.lang.String:1
-l,org.apache.distributedlog.LogSegmentMetadata:
-"":
-"":>
-numRecordsScanned)java.util.concurrent.atomic.AtomicInteger:7
-executorService$java.util.concurrent.ExecutorService:G
-
-entryStore9org.apache.distributedlog.logsegment.LogSegmentEntryStore:&
-dlsnorg.apache.distributedlog.DLSNB'"%
-#org.apache.distributedlog.ReadUtils

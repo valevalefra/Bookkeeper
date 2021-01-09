@@ -1,83 +1,0 @@
-
-éorg.apache.distributedlog.BKDistributedLogManager#openAsyncLogReader(Lorg/apache/distributedlog/DLSN;)Ljava/util/concurrent/CompletableFuture;ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¬- ¬(?"startingBlock*ˆ
-startingBlockë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¬? ¬(NÔ
-Ï
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¡ ¡(
-%6"
-__annotate*
-java.lang.Override*,
-*
-fromDLSNorg.apache.distributedlog.DLSNŸ
-÷
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java¬E ¬(M*
-fromDLSNorg.apache.distributedlog.DLSN"__annotation*
-
-%6*
-1*˜
-1ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java√( √(0˘
-ˆ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java√( √(8
-%0java.util.Optional".java.util.Optional#empty()Ljava/util/Optional;*"
-java.util.Optional›
-⁄
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java√ √(9"
-subscriberIdjava.util.Optional"__id*
-
-%0java.util.Optionalù
-ö
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java∆ ∆(8
-%12org.apache.bookkeeper.common.util.OrderedScheduler"__id*D*B3
-1org.apache.distributedlog.BKDistributedLogManager"
-	schedulerî
-ë
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.java   (-
-%2'org.apache.bookkeeper.stats.StatsLogger"__id*F*D3
-1org.apache.distributedlog.BKDistributedLogManager"
-statsLoggerıÚ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaƒ$ ƒ(40
-%3*org.apache.distributedlog.BKAsyncLogReader"*org.apache.distributedlog.BKAsyncLogReaderÕ
- 
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaƒ   (
-%4"˘org.apache.distributedlog.BKAsyncLogReader#<init>(Lorg/apache/distributedlog/BKDistributedLogManager;Lorg/apache/bookkeeper/common/util/OrderedScheduler;Lorg/apache/distributedlog/DLSN;Ljava/util/Optional;ZLorg/apache/bookkeeper/stats/StatsLogger;)V*2
-0
-%3*org.apache.distributedlog.BKAsyncLogReader*53
-1org.apache.distributedlog.BKDistributedLogManager*:
-8
-%12org.apache.bookkeeper.common.util.OrderedScheduler*,
-*
-fromDLSNorg.apache.distributedlog.DLSN*$
-"
-subscriberIdjava.util.Optional*
-""*/
--
-%2'org.apache.bookkeeper.stats.StatsLoggerâ
-Ü
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaƒ  (6
-reader,org.apache.distributedlog.api.AsyncLogReader"__id*2
-0
-%3*org.apache.distributedlog.BKAsyncLogReaderØ
-¨
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÀ À((,
-%5&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*8
-6
-reader,org.apache.distributedlog.api.AsyncLogReader"ƒ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaÀ À().
-,
-%5&java.util.concurrent.CompletableFuture:*
-fromDLSNorg.apache.distributedlog.DLSNB53
-1org.apache.distributedlog.BKDistributedLogManager

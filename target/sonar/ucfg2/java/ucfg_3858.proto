@@ -1,59 +1,0 @@
-
-uorg.apache.distributedlog.BKDistributedLogManager$PendingReaders#asyncClose()Ljava/util/concurrent/CompletableFuture;ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaî' î(1"1*£
-1ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaï ï(§
-°
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaï' ï(6*
-%0$java.util.concurrent.ExecutorService"__id*Y*WB
-@org.apache.distributedlog.BKDistributedLogManager$PendingReaders"
-executorServiceÖ
-Ç
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaï> ï(E
-%1java.util.Set"__id*Q*OB
-@org.apache.distributedlog.BKDistributedLogManager$PendingReaders"	
-readersÖ
-Ç
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaïa ï(h
-%2java.util.Set"__id*Q*OB
-@org.apache.distributedlog.BKDistributedLogManager$PendingReaders"	
-readersÿ’
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaïa ï(o	
-%3int"java.util.Set#size()I*
-
-%2java.util.Set2size()˝˙
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaïN ï(p4
-%4.org.apache.distributedlog.api.AsyncLogReader[]".org.apache.distributedlog.api.AsyncLogReader[]˘ˆ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaï> ï(q4
-%5.org.apache.distributedlog.api.AsyncLogReader[]"=java.util.Set#toArray([Ljava/lang/Object;)[Ljava/lang/Object;*
-
-%1java.util.Set*6
-4
-%4.org.apache.distributedlog.api.AsyncLogReader[]2toArray([Ljava/lang/Object;)ë
-é
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaï ï(r,
-%6&java.util.concurrent.CompletableFuture"±org.apache.distributedlog.util.Utils#closeSequence(Ljava/util/concurrent/ExecutorService;Z[Lorg/apache/distributedlog/io/AsyncCloseable;)Ljava/util/concurrent/CompletableFuture;*("&
-$org.apache.distributedlog.util.Utils*,
-*
-%0$java.util.concurrent.ExecutorService*
-""*6
-4
-%5.org.apache.distributedlog.api.AsyncLogReader[]†ù
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaï ô(,
-%7&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*.
-,
-%6&java.util.concurrent.CompletableFuture*
-""2(thenApply(Ljava/util/function/Function;)"ƒ
-ë
-Ñ/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKDistributedLogManager.javaï ô(.
-,
-%7&java.util.concurrent.CompletableFutureBDB
-@org.apache.distributedlog.BKDistributedLogManager$PendingReaders

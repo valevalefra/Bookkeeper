@@ -1,132 +1,0 @@
-
-»org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#newKeyValue(Lcom/google/protobuf/ByteString;Lorg/apache/bookkeeper/api/kv/result/KeyValue;)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue;ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaå å("2"1*æ
-2ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaè è("†
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaè è(
-""*∆9
-1ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ë(Ç
-ˇ
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ë($<
-%06org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"sorg.apache.bookkeeper.stream.proto.kv.KeyValue#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*2"0
-.org.apache.bookkeeper.stream.proto.kv.KeyValue¨©
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaí í($
-%1byte[]"Dorg.apache.bookkeeper.api.kv.result.KeyValue#key()Ljava/lang/Object;*4
-2
-kv,org.apache.bookkeeper.api.kv.result.KeyValue2key()»
-≈
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaí í(+$
-%2com.google.protobuf.ByteString"àorg.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils#getLKey([BLcom/google/protobuf/ByteString;)Lcom/google/protobuf/ByteString;*@">
-<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils*
-
-%1byte[]*(
-&
-rKeycom.google.protobuf.ByteStringÖÇ
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë í(,<
-%36org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"óorg.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#setKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*>
-<
-%06org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder*&
-$
-%2com.google.protobuf.ByteString2(setKey(Lcom/google/protobuf/ByteString;)∞≠
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaì6 ì(@
-%4byte[]"Forg.apache.bookkeeper.api.kv.result.KeyValue#value()Ljava/lang/Object;*4
-2
-kv,org.apache.bookkeeper.api.kv.result.KeyValue2value()ÿ
-’
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaì ì(A$
-%5com.google.protobuf.ByteString"Wcom.google.protobuf.UnsafeByteOperations#unsafeWrap([B)Lcom/google/protobuf/ByteString;*,"*
-(com.google.protobuf.UnsafeByteOperations*
-
-%4byte[]âÜ
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ì(B<
-%66org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"ôorg.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#setValue(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*>
-<
-%36org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder*&
-$
-%5com.google.protobuf.ByteString2*setValue(Lcom/google/protobuf/ByteString;)Ø¨
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaî î(2
-
-%7long">org.apache.bookkeeper.api.kv.result.KeyValue#createRevision()J*4
-2
-kv,org.apache.bookkeeper.api.kv.result.KeyValue2createRevision()√¿
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë î(3<
-%86org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"Éorg.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#setCreateRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*>
-<
-%66org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder*
-
-
-%7long2setCreateRevision(J)≥∞
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaï ï(1
-
-%9long"@org.apache.bookkeeper.api.kv.result.KeyValue#modifiedRevision()J*4
-2
-kv,org.apache.bookkeeper.api.kv.result.KeyValue2modifiedRevision()æª
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ï(2=
-%106org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"Äorg.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#setModRevision(J)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*>
-<
-%86org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder*
-
-
-%9long2setModRevision(J)¢ü
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javañ ñ($
-%11long"7org.apache.bookkeeper.api.kv.result.KeyValue#version()J*4
-2
-kv,org.apache.bookkeeper.api.kv.result.KeyValue2	version()∑¥
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ñ(%=
-%126org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"|org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#setVersion(J)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*?
-=
-%106org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder*
-
-%11long2setVersion(J)ß§
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaó ó(&
-%13boolean"8org.apache.bookkeeper.api.kv.result.KeyValue#isNumber()Z*4
-2
-kv,org.apache.bookkeeper.api.kv.result.KeyValue2
-isNumber()ºπ
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ó('=
-%146org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"}org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#setIsNumber(Z)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*?
-=
-%126org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder*
-
-%13boolean2setIsNumber(Z)™ß
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaò ò(,
-%15long";org.apache.bookkeeper.api.kv.result.KeyValue#numberValue()J*4
-2
-kv,org.apache.bookkeeper.api.kv.result.KeyValue2numberValue()¿Ω
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ò(-=
-%166org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder"Äorg.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#setNumberValue(J)Lorg/apache/bookkeeper/stream/proto/kv/KeyValue$Builder;*?
-=
-%146org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder*
-
-%15long2setNumberValue(J)åâ
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ô(5
-%17.org.apache.bookkeeper.stream.proto.kv.KeyValue"norg.apache.bookkeeper.stream.proto.kv.KeyValue$Builder#build()Lorg/apache/bookkeeper/stream/proto/kv/KeyValue;*?
-=
-%166org.apache.bookkeeper.stream.proto.kv.KeyValue$Builder2build()"—
-ï
-à/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtils.javaë ô(7
-5
-%17.org.apache.bookkeeper.stream.proto.kv.KeyValue:&
-rKeycom.google.protobuf.ByteString:2
-kv,org.apache.bookkeeper.api.kv.result.KeyValueB@">
-<org.apache.bookkeeper.stream.storage.impl.kv.TableStoreUtils

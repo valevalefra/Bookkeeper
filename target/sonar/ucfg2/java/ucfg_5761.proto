@@ -1,101 +1,0 @@
-
-Íorg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand#apply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand$NukeExistingClusterFlags;)Z†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaL L("startingBlock*µ
-
-startingBlock†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaL L(Uä
-á
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaK K(
-%9"
-__annotate*
-java.lang.Override*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfigurationÙ
-Ò
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaL- L(16
-conf.org.apache.bookkeeper.conf.ServerConfiguration"__annotation*
-
-%9≈
-¬
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaK K(
-%10"
-__annotate*
-java.lang.Override*r
-p
-cmdFlagsdorg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand$NukeExistingClusterFlagsØ
-¨
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaLL L(Tp
-cmdFlagsdorg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand$NukeExistingClusterFlags"__annotation*
-
-%10*
-8*‘
-4†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaV W(]"´
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaV W(]
-""*≈
-
-5†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaV V("—
-Œ
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaV= V(W
-%3java.lang.String"__id*ä*á
-p
-cmdFlagsdorg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand$NukeExistingClusterFlags"
-zkLedgersRootPath»
-≈
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaW9 W(K
-%4java.lang.String"__id*Å*
-p
-cmdFlagsdorg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand$NukeExistingClusterFlags"
-	instandId¯
-ı
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaV W(\
-%5boolean"òorg.apache.bookkeeper.client.BookKeeperAdmin#nukeExistingCluster(Lorg/apache/bookkeeper/conf/ServerConfiguration;Ljava/lang/String;Ljava/lang/String;Z)Z*0".
-,org.apache.bookkeeper.client.BookKeeperAdmin*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration*
-
-%3java.lang.String*
-
-%4java.lang.String*
-""*
-4*É
-7†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaR R(Ã
-…
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaR R(
-%1org.slf4j.Logger"__id*
-""›⁄
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaR R(\
-
-%2void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
-
-%1org.slf4j.Logger*GE
-CEither force option or instanceid should be specified (but no both)2error(Ljava/lang/String;)"´
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaS S(
-""*˘
-8†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaQ Q(»
-≈
-†
-ï/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommand.javaQ Q(1
-%0java.lang.String"__id*Å*
-p
-cmdFlagsdorg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand$NukeExistingClusterFlags"
-	instandId*
-5
-7:6
-conf.org.apache.bookkeeper.conf.ServerConfiguration:p
-cmdFlagsdorg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand$NukeExistingClusterFlagsBOM
-Korg.apache.bookkeeper.tools.cli.commands.bookies.NukeExistingClusterCommand

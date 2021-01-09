@@ -1,241 +1,0 @@
-
-Qorg.apache.bookkeeper.stats.utils.StatsDocGenerator#writeDoc(Ljava/lang/String;)VÉ
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaª ª("11*Â
-2É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java” ”(‘—
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java” ”(
-%26void"java.io.Writer#flush()V*
-
-writerjava.io.Writer2flush()*
-1*≠
-3É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java« —(æ
-ª
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java« —(
-docsjava.util.Map"__id*
-
-%24java.util.Map€ÿ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java“ “(#
-%25void"Aorg.yaml.snakeyaml.Yaml#dump(Ljava/lang/Object;Ljava/io/Writer;)V*!
-
-yamlorg.yaml.snakeyaml.Yaml*
-
-docsjava.util.Map*
-
-writerjava.io.Writer2(dump(Ljava/lang/Object;Ljava/io/Writer;)*
-2*Ô
-4É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java«A —(ﬁ€
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java«A —(
-%24java.util.Map"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
-
-%22java.util.stream.Stream*#
-!
-%23java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)*
-3*È
-5É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java… …(#ÿ
-’
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java… —(!
-%23java.util.stream.Collector"yjava.util.stream.Collectors#toMap(Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/stream/Collector;*"
-java.util.stream.Collectors*
-""*
-""*
-4*î
-6É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java«A »(ÉÄ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java«A »(
-%22java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
-
-%21java.util.Set2stream()*
-5*Ü
-7É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java«A «(K˜
-Ù
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java«A «(K
-%20java.util.NavigableMap"__id*G*E5
-3org.apache.bookkeeper.stats.utils.StatsDocGenerator"
-
-docEntries˚¯
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java«A «(V
-%21java.util.Set"-java.util.SortedMap#entrySet()Ljava/util/Set;*
-
-%20java.util.NavigableMap2
-entrySet()*
-6*à
-9É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaƒA ƒ(Eƒ¡
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaƒ0 ƒ(@
-%15java.io.FileOutputStream"java.io.FileOutputStreamÖ
-Ç
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaƒ, ƒ(F
-%16"4java.io.FileOutputStream#<init>(Ljava/lang/String;)V*!
-
-%15java.io.FileOutputStream*
-
-filejava.lang.String∏
-µ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaƒH ƒ(M
-%17java.nio.charset.Charset"__id*
-""»≈
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaƒ ƒ(+!
-%18java.io.OutputStreamWriter"java.io.OutputStreamWriter—
-Œ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaƒ ƒ(N
-%19"Tjava.io.OutputStreamWriter#<init>(Ljava/io/OutputStream;Ljava/nio/charset/Charset;)V*#
-!
-%18java.io.OutputStreamWriter*!
-
-%15java.io.FileOutputStream*!
-
-%17java.nio.charset.CharsetŒ
-À
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaƒ ƒ(N
-writerjava.io.Writer"__id*#
-!
-%18java.io.OutputStreamWriter*
-7*Î	
-10É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¬, ¬(2≥
-∞
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¬, ¬(6
-%11java.io.PrintStream"__id*
-""∏
-µ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¬8 ¬(=
-%12java.nio.charset.Charset"__id*
-""»≈
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¬ ¬(+!
-%13java.io.OutputStreamWriter"java.io.OutputStreamWriterÃ
-…
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¬ ¬(>
-%14"Tjava.io.OutputStreamWriter#<init>(Ljava/io/OutputStream;Ljava/nio/charset/Charset;)V*#
-!
-%13java.io.OutputStreamWriter*
-
-%11java.io.PrintStream*!
-
-%12java.nio.charset.CharsetŒ
-À
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¬ ¬(>
-writerjava.io.Writer"__id*#
-!
-%13java.io.OutputStreamWriter*
-7*–
-11É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaº  º(3”–
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaº$ º(1&
-%0 org.yaml.snakeyaml.DumperOptions" org.yaml.snakeyaml.DumperOptionsÂ
-‚
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaº  º(3
-%1"*org.yaml.snakeyaml.DumperOptions#<init>()V*(
-&
-%0 org.yaml.snakeyaml.DumperOptionsÊ
-„
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaº º(4+
-options org.yaml.snakeyaml.DumperOptions"__id*(
-&
-%0 org.yaml.snakeyaml.DumperOptions…
-∆
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaΩ$ Ω(-0
-%2*org.yaml.snakeyaml.DumperOptions$FlowStyle"__id*
-""…
-∆
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaΩ$ Ω(30
-%3*org.yaml.snakeyaml.DumperOptions$FlowStyle"__id*
-""†ù
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaΩ Ω(4
-
-%4void"corg.yaml.snakeyaml.DumperOptions#setDefaultFlowStyle(Lorg/yaml/snakeyaml/DumperOptions$FlowStyle;)V*-
-+
-options org.yaml.snakeyaml.DumperOptions*2
-0
-%3*org.yaml.snakeyaml.DumperOptions$FlowStyle2AsetDefaultFlowStyle(Lorg/yaml/snakeyaml/DumperOptions$FlowStyle;)À
-»
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaæ& æ(12
-%5,org.yaml.snakeyaml.DumperOptions$ScalarStyle"__id*
-""À
-»
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaæ& æ(92
-%6,org.yaml.snakeyaml.DumperOptions$ScalarStyle"__id*
-""™ß
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaæ æ(:
-
-%7void"gorg.yaml.snakeyaml.DumperOptions#setDefaultScalarStyle(Lorg/yaml/snakeyaml/DumperOptions$ScalarStyle;)V*-
-+
-options org.yaml.snakeyaml.DumperOptions*4
-2
-%6,org.yaml.snakeyaml.DumperOptions$ScalarStyle2EsetDefaultScalarStyle(Lorg/yaml/snakeyaml/DumperOptions$ScalarStyle;)¡æ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaø ø(
-%8org.yaml.snakeyaml.Yaml"org.yaml.snakeyaml.Yaml§
-°
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaø ø(%
-%9"Corg.yaml.snakeyaml.Yaml#<init>(Lorg/yaml/snakeyaml/DumperOptions;)V*
-
-%8org.yaml.snakeyaml.Yaml*-
-+
-options org.yaml.snakeyaml.DumperOptions—
-Œ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.javaø ø(&
-yamlorg.yaml.snakeyaml.Yaml"__id*
-
-%8org.yaml.snakeyaml.Yaml±
-Æ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¿ ¿(
-writerjava.io.Writer"__id*
-""ú
-ô
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java¡ ¡('
-%10boolean"Acom.google.common.base.Strings#isNullOrEmpty(Ljava/lang/String;)Z*"" 
-com.google.common.base.Strings*
-
-filejava.lang.String*
-9
-10*£
-0 "õ
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java◊ ◊(
-implicit return*Â
-1É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java’ ’(‘—
-É
-w/home/valentina/Scrivania/Bookkeeper/stats/utils/src/main/java/org/apache/bookkeeper/stats/utils/StatsDocGenerator.java’ ’(
-%27void"java.io.Writer#close()V*
-
-writerjava.io.Writer2close()*
-0:
-filejava.lang.StringB75
-3org.apache.bookkeeper.stats.utils.StatsDocGenerator

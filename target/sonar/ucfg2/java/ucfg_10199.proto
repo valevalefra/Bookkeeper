@@ -1,271 +1,0 @@
-
-uorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor#compact(Lorg/apache/bookkeeper/bookie/EntryLogMetadata;)Zê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java` `("startingBlock*Å	
-2ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javau u(Ω
-∫
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javau u(
-%27org.slf4j.Logger"__id*
-""±Æ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javau2 u(J
-%28long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()÷”
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javau u(K
-%29void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%27org.slf4j.Logger*
-Compacted entry log : {}.*
-
-%28long2*info(Ljava/lang/String;Ljava/lang/Object;)"õ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javav v(
-""*ú	
-3ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javar r(Ω
-∫
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javar r(
-%24org.slf4j.Logger"__id*
-""±Æ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javarQ r(i
-%25long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()ÒÓ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javar r(j
-%26void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%24org.slf4j.Logger*86
-4Compaction for entry log {} end in UpdateIndexPhase.*
-
-%25long2*info(Ljava/lang/String;Ljava/lang/Object;)"õ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javas s(
-""*ñ
-startingBlockê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java` `(5˛
-˚
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java_ _(
-%30"
-__annotate*
-java.lang.Override*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadataË
-Â
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.java`, `(49
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata"__annotation*
-
-%30*
-8
-1*í
-4ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javao$ o(7±Æ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaoK o(c
-%19long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()∂≥
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javao$ o(d
-%20java.io.File"norg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor#getCompactedLogFile(Ljava/io/File;J)Ljava/io/File;*?=
-;org.apache.bookkeeper.bookie.TransactionalEntryLogCompactor*#
-!
-compactionLogFilejava.io.File*
-
-%19long2$getCompactedLogFile(Ljava/io/File;J)’
-“
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javao o(e 
-compactedLogFilejava.io.File"__id*
-
-%20java.io.Fileπ∂
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javap. p(>S
-%21Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase"Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhaseº
-π
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javap* p(P
-%22"°org.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase#<init>(Lorg/apache/bookkeeper/bookie/TransactionalEntryLogCompactor;Ljava/io/File;)V*U
-S
-%21Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhase*"
- 
-compactedLogFilejava.io.Fileœ
-Ã
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javap p(QZ
-updateIndexKorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase"__id*U
-S
-%21Lorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$UpdateIndexPhaseﬂ‹
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaq q("
-%23boolean"Rorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase#run()Z*\
-Z
-updateIndexKorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase2run()*
-2
-3*£	
-5ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javal l(Ω
-∫
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javal l(
-%16org.slf4j.Logger"__id*
-""±Æ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javalX l(p
-%17long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()¯ı
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javal l(q
-%18void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%16org.slf4j.Logger*?=
-;Compaction for entry log {} end in FlushCompactionLogPhase.*
-
-%17long2*info(Ljava/lang/String;Ljava/lang/Object;)"õ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javam m(
-""*Ÿ
-6ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javai% i(0ü
-ú
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javai% i(0/
-%10(org.apache.bookkeeper.bookie.EntryLogger"__id*P*N=
-;org.apache.bookkeeper.bookie.TransactionalEntryLogCompactor"
-entryLoggerÀ»
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javai% i(J
-%11java.io.File"Porg.apache.bookkeeper.bookie.EntryLogger#getCurCompactionLogFile()Ljava/io/File;*1
-/
-%10(org.apache.bookkeeper.bookie.EntryLogger2getCurCompactionLogFile()÷
-”
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javai i(K!
-compactionLogFilejava.io.File"__id*
-
-%11java.io.File±Æ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javajM j(e
-%12long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()«ƒ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaj5 j(LZ
-%13Sorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$FlushCompactionLogPhase"Sorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$FlushCompactionLogPhase®
-•
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaj1 j(f
-%14"õorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$FlushCompactionLogPhase#<init>(Lorg/apache/bookkeeper/bookie/TransactionalEntryLogCompactor;J)V*\
-Z
-%13Sorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$FlushCompactionLogPhase*
-
-%12long›
-⁄
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaj j(ga
-flushCompactionLogKorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase"__id*\
-Z
-%13Sorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$FlushCompactionLogPhaseÊ„
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javak k()
-%15boolean"Rorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase#run()Z*c
-a
-flushCompactionLogKorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase2run()*
-4
-5*ò	
-7ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaf f(º
-π
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaf f(
-%7org.slf4j.Logger"__id*
-""∞≠
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javafR f(j
-
-%8long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()ÔÏ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javaf f(k
-
-%9void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%7org.slf4j.Logger*97
-5Compaction for entry log {} end in ScanEntryLogPhase.*
-
-
-%8long2*info(Ljava/lang/String;Ljava/lang/Object;)"õ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javag g(
-""*Ω
-8ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javab b(º
-π
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javab b(
-%0org.slf4j.Logger"__id*
-""∞≠
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javac c((
-
-%1long">org.apache.bookkeeper.bookie.EntryLogMetadata#getEntryLogId()J*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2getEntryLogId()®•
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javac* c(=
-%2double"9org.apache.bookkeeper.bookie.EntryLogMetadata#getUsage()D*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata2
-getUsage()îë
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javab c(>
-
-%3void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%0org.slf4j.Logger**(
-&Compacting entry log {} with usage {}.*
-
-
-%1long*
-
-%2double2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)∫∑
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javad/ d(@S
-%4Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase"Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhaseˆ
-Û
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javad+ d(J
-%5"√org.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase#<init>(Lorg/apache/bookkeeper/bookie/TransactionalEntryLogCompactor;Lorg/apache/bookkeeper/bookie/EntryLogMetadata;)V*U
-S
-%4Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhase*;
-9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadata–
-Õ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javad d(K[
-scanEntryLogKorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase"__id*U
-S
-%4Morg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$ScanEntryLogPhaseﬂ‹
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javae e(#
-%6boolean"Rorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase#run()Z*]
-[
-scanEntryLogKorg.apache.bookkeeper.bookie.TransactionalEntryLogCompactor$CompactionPhase2run()*
-6
-7*¥
-1ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javax x("õ
-ê
-Ö/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/TransactionalEntryLogCompactor.javax x(
-"":9
-metadata-org.apache.bookkeeper.bookie.EntryLogMetadataB?=
-;org.apache.bookkeeper.bookie.TransactionalEntryLogCompactor

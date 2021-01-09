@@ -1,34 +1,0 @@
-
-·org.apache.bookkeeper.util.EventLoopUtil#getServerEventLoopGroup(Lorg/apache/bookkeeper/conf/ServerConfiguration;Ljava/util/concurrent/ThreadFactory;)Lio/netty/channel/EventLoopGroup;|
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/EventLoopUtil.java.! .(8"1*³
-
-1|
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/EventLoopUtil.java/ /( ¨¥
-|
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/EventLoopUtil.java/0 /(L	
-%0int"Gorg.apache.bookkeeper.conf.ServerConfiguration#getServerNumIOThreads()I*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration2getServerNumIOThreads()¦£
-|
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/EventLoopUtil.java/N /(f
-%1boolean"Eorg.apache.bookkeeper.conf.AbstractConfiguration#isBusyWaitEnabled()Z*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration2isBusyWaitEnabled()±
-®
-|
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/EventLoopUtil.java/ /(g%
-%2io.netty.channel.EventLoopGroup"ƒorg.apache.bookkeeper.util.EventLoopUtil#getEventLoopGroup(Ljava/util/concurrent/ThreadFactory;IZ)Lio/netty/channel/EventLoopGroup;*,"*
-(org.apache.bookkeeper.util.EventLoopUtil*5
-3
-threadFactory"java.util.concurrent.ThreadFactory*
-	
-%0int*
-
-%1boolean"§
-|
-r/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/util/EventLoopUtil.java/ /(h'
-%
-%2io.netty.channel.EventLoopGroup:6
-conf.org.apache.bookkeeper.conf.ServerConfiguration:3
-threadFactory"java.util.concurrent.ThreadFactoryB,"*
-(org.apache.bookkeeper.util.EventLoopUtil

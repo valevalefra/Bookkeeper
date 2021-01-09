@@ -1,280 +1,0 @@
-
-ªorg.apache.distributedlog.BKLogWriteHandler#setLogSegmentsOlderThanDLSNTruncated(Ljava/util/List;Lorg/apache/distributedlog/DLSN;)Ljava/util/concurrent/CompletableFuture;Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java¾8 ¾(\"13*Þ
-13Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÀ À(¶
-³
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÀ À(
-%0org.slf4j.Logger"__id*
-""ÄÁ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÁ Á(6
-%1java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*/-
-+org.apache.distributedlog.BKLogWriteHandler2getFullyQualifiedName()ÍÊ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÀ Á(7
-
-%2void">org.slf4j.Logger#debug(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%0org.slf4j.Logger*B@
->Setting truncation status on logs older than {} from {} for {}*(
-&
-dlsnorg.apache.distributedlog.DLSN*
-
-logSegmentsjava.util.List*
-
-%1java.lang.String2,debug(Ljava/lang/String;[Ljava/lang/Object;)ÜÙ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÂR Â(d	
-%3int"java.util.List#size()I*
-
-logSegmentsjava.util.List2size()À½
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÂ4 Â(Q
-%4java.util.ArrayList"java.util.ArrayListà
-Ý
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÂ0 Â(e
-%5"java.util.ArrayList#<init>(I)V*
-
-%4java.util.ArrayList*
-	
-%3intÓ
-Ð
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÂ Â(f
-truncateListjava.util.List"__id*
-
-%4java.util.ArrayListß
-Ü
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÃ Ã(2?
-partialTruncate,org.apache.distributedlog.LogSegmentMetadata"__id*
-""¶
-³
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÄ Ä(
-%6org.slf4j.Logger"__id*
-""ÄÁ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÄ> Ä(U
-%7java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*/-
-+org.apache.distributedlog.BKLogWriteHandler2getFullyQualifiedName()·´
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÄ Ä(\
-
-%8void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%6org.slf4j.Logger*-+
-){}: Truncating log segments older than {}*
-
-%7java.lang.String*(
-&
-dlsnorg.apache.distributedlog.DLSN2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
-12*„
-5Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÓ Ó(·
-´
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÓ Ó(
-%27org.slf4j.Logger"__id*
-""ÅÂ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÔ Ô(/
-%28java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*/-
-+org.apache.distributedlog.BKLogWriteHandler2getFullyQualifiedName()Ú×
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÓ Ô(9
-%29void"=org.slf4j.Logger#info(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%27org.slf4j.Logger*:8
-6{}: Partially truncating log segment {} older than {}.*
-
-%28java.lang.String*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata*(
-&
-dlsnorg.apache.distributedlog.DLSN2+info(Ljava/lang/String;[Ljava/lang/Object;)Œ
-‰
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÕ Õ('?
-partialTruncate,org.apache.distributedlog.LogSegmentMetadata"__id*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata*
-12*™
-6Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÎ( Î(.ÅÂ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÏ  Ï(7
-%20java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*/-
-+org.apache.distributedlog.BKLogWriteHandler2getFullyQualifiedName()£
- 
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÎ( Ï(;
-%21java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*@>
-<Potential metadata inconsistency for stream %s at segment %s*
-
-%20java.lang.String*3
-1
-l,org.apache.distributedlog.LogSegmentMetadataÍ
-Ê
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÎ Ï(<
-logMsgjava.lang.String"__id*
-
-%21java.lang.String·
-´
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÐ Ð(
-%22org.slf4j.Logger"__id*
-""ž›
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÐ Ð()
-%23void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
-
-%22org.slf4j.Logger*
-
-logMsgjava.lang.String2error(Ljava/lang/String;)“
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÑ9 Ñ(PC
-%24<org.apache.distributedlog.exceptions.DLIllegalStateException"<org.apache.distributedlog.exceptions.DLIllegalStateExceptionÖ
-Ó
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÑ5 Ñ(X
-%25"Xorg.apache.distributedlog.exceptions.DLIllegalStateException#<init>(Ljava/lang/String;)V*E
-C
-%24<org.apache.distributedlog.exceptions.DLIllegalStateException*
-
-logMsgjava.lang.String½
-º
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÑ Ñ(Y-
-%26&java.util.concurrent.CompletableFuture"|org.apache.bookkeeper.common.concurrent.FutureUtils#exception(Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*E
-C
-%24<org.apache.distributedlog.exceptions.DLIllegalStateException"¾
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÑ Ñ(Z/
--
-%26&java.util.concurrent.CompletableFuture*ã
-8Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaË Ë(ÙÖ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaË Ë(+%
-%18org.apache.distributedlog.DLSN"[org.apache.distributedlog.LogSegmentMetadata#getFirstDLSN()Lorg/apache/distributedlog/DLSN;*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getFirstDLSN()éæ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaË Ë(;
-
-%19int"Korg.apache.distributedlog.DLSN#compareTo(Lorg/apache/distributedlog/DLSN;)I*'
-%
-%18org.apache.distributedlog.DLSN*(
-&
-dlsnorg.apache.distributedlog.DLSN2+compareTo(Lorg/apache/distributedlog/DLSN;)*	
-5
-6
-1*á
-
-9Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÉ É(·
-´
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÉ É(
-%14org.slf4j.Logger"__id*
-""ÅÂ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÉ@ É(W
-%15java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*/-
-+org.apache.distributedlog.BKLogWriteHandler2getFullyQualifiedName()¼¹
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÉ É([
-%16void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%14org.slf4j.Logger*" 
-{}: Truncating log segment {} *
-
-%15java.lang.String*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)‡
-„
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÊ Ê('
-%17boolean"
-__arrayAdd* 
-
-truncateListjava.util.List*: *3
-1
-l,org.apache.distributedlog.LogSegmentMetadata*
-12*ß
-10Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÈ È(×Ô
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÈ È(#%
-%12org.apache.distributedlog.DLSN"Zorg.apache.distributedlog.LogSegmentMetadata#getLastDLSN()Lorg/apache/distributedlog/DLSN;*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getLastDLSN()éæ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÈ È(3
-
-%13int"Korg.apache.distributedlog.DLSN#compareTo(Lorg/apache/distributedlog/DLSN;)I*'
-%
-%12org.apache.distributedlog.DLSN*(
-&
-dlsnorg.apache.distributedlog.DLSN2+compareTo(Lorg/apache/distributedlog/DLSN;)*
-8
-9*À
-11Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÆ# Æ(.ú
-÷
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÆ# Æ(53
-%10,org.apache.distributedlog.LogSegmentMetadata"
-__arrayGet*
-
-logSegmentsjava.util.List*
-""€
-ý
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÆ Æ(61
-l,org.apache.distributedlog.LogSegmentMetadata"__id*5
-3
-%10,org.apache.distributedlog.LogSegmentMetadata£ 
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÇ Ç(!
-%11boolean"<org.apache.distributedlog.LogSegmentMetadata#isInProgress()Z*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2isInProgress()*
-10
-1*ù
-12Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÅ Å(ÜÙ
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÅ Å(.	
-%9int"java.util.List#size()I*
-
-logSegmentsjava.util.List2size()*
-11
-1*§
-1Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÝ Ý(,Ó
-Ð
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÝ Ý(Q-
-%30&java.util.concurrent.CompletableFuture"Ñorg.apache.distributedlog.BKLogWriteHandler#setLogSegmentTruncationStatus(Ljava/util/List;Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/DLSN;)Ljava/util/concurrent/CompletableFuture;*/-
-+org.apache.distributedlog.BKLogWriteHandler* 
-
-truncateListjava.util.List*A
-?
-partialTruncate,org.apache.distributedlog.LogSegmentMetadata*(
-&
-dlsnorg.apache.distributedlog.DLSN"¾
-Š
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÝ Ý(R/
--
-%30&java.util.concurrent.CompletableFuture:
-logSegmentsjava.util.List:&
-dlsnorg.apache.distributedlog.DLSNB/-
-+org.apache.distributedlog.BKLogWriteHandler

@@ -1,152 +1,0 @@
-
-Üorg.apache.bookkeeper.clients.impl.internal.ProtocolInternalUtils#createActiveRanges(Lorg/apache/bookkeeper/stream/proto/storage/GetActiveRangesResponse;)Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java4# 4(5"5*±
-2
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java7 7(ñ
-î
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java7 7(>
-rr8org.apache.bookkeeper.stream.proto.storage.RelatedRanges"__id*
-""
-Œ
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java7 7(>
-rr8org.apache.bookkeeper.stream.proto.storage.RelatedRanges"
-__arrayGet*
-
-%2java.util.List*
-""*
-3
-1*Í
-3
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java8$ 8(&¤¡
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java8$ 8(18
-%32org.apache.bookkeeper.stream.proto.RangeProperties"worg.apache.bookkeeper.stream.proto.storage.RelatedRanges#getProps()Lorg/apache/bookkeeper/stream/proto/RangeProperties;*@
->
-rr8org.apache.bookkeeper.stream.proto.storage.RelatedRanges2
-getProps()¢
-Ÿ
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java8 8(2;
-range2org.apache.bookkeeper.stream.proto.RangeProperties"__id*:
-8
-%32org.apache.bookkeeper.stream.proto.RangePropertiesÈÅ
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java9 9(3
-
-%4long"Eorg.apache.bookkeeper.stream.proto.RangeProperties#getStartHashKey()J*=
-;
-range2org.apache.bookkeeper.stream.proto.RangeProperties2getStartHashKey()ÄÁ
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java: :(/
-
-%5long"Corg.apache.bookkeeper.stream.proto.RangeProperties#getEndHashKey()J*=
-;
-range2org.apache.bookkeeper.stream.proto.RangeProperties2getEndHashKey()ô
-ñ
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java; =(]
-
-%6void"Gcom.google.common.base.Preconditions#checkState(ZLjava/lang/String;JJ)V*("&
-$com.google.common.base.Preconditions*
-""*86
-4Invalid range key found : expected = %s, actual = %s*
-""*
-""Í
-Ê
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java> >('8
-%72org.apache.bookkeeper.stream.proto.RangeProperties"__mapSet*
-
-rangesjava.util.TreeMap*
-""*=
-;
-range2org.apache.bookkeeper.stream.proto.RangeProperties*
-2*«
-4
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java7  7((€ý
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java7  7(8
-%2java.util.List"borg.apache.bookkeeper.stream.proto.storage.GetActiveRangesResponse#getRangesList()Ljava/util/List;*P
-N
-responseBorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesResponse2getRangesList()*
-2*ï
-5
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java50 5(4 
-
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java50 5(A
-%0java.util.TreeMap">com.google.common.collect.Maps#newTreeMap()Ljava/util/TreeMap;*"" 
-com.google.common.collect.Mapsá
-Þ
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java5 5(B
-rangesjava.util.TreeMap"__id*
-
-%0java.util.TreeMap½
-º
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.java6 6((
-
-%1long"__id*
-""*
-4*ú
-1
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaA A(½
-º
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaB B(
-
-%8long"__id*
-""½
-º
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaC7 C(E
-
-%9long"__id*
-""â
-ß
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaA C(F
-%10void"Gcom.google.common.base.Preconditions#checkState(ZLjava/lang/String;JJ)V*("&
-$com.google.common.base.Preconditions*
-""*
-Missing key range [%s - %s)*
-""*
-
-
-%9longñî
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaE E(
-
-%11int"java.util.TreeMap#size()I*
-
-rangesjava.util.TreeMap2size()Ä
-Á
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaD F($
-%12void"Ecom.google.common.base.Preconditions#checkState(ZLjava/lang/Object;)V*("&
-$com.google.common.base.Preconditions*
-""*
-No active range foundé
-æ
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaH H(6
-%13/org.apache.bookkeeper.stream.proto.RangeKeyType"__id*
-""Ú
-×
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaG I(G
-%14@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges"Ðorg.apache.bookkeeper.clients.impl.internal.api.StreamRanges#ofHash(Lorg/apache/bookkeeper/stream/proto/RangeKeyType;Ljava/util/NavigableMap;)Lorg/apache/bookkeeper/clients/impl/internal/api/HashStreamRanges;*@">
-<org.apache.bookkeeper.clients.impl.internal.api.StreamRanges*8
-6
-%13/org.apache.bookkeeper.stream.proto.RangeKeyType*
-
-rangesjava.util.TreeMap"ë
-
-’/home/valentina/Scrivania/Bookkeeper/stream/clients/java/base/src/main/java/org/apache/bookkeeper/clients/impl/internal/ProtocolInternalUtils.javaG I(I
-G
-%14@org.apache.bookkeeper.clients.impl.internal.api.HashStreamRanges:N
-responseBorg.apache.bookkeeper.stream.proto.storage.GetActiveRangesResponseBE"C
-Aorg.apache.bookkeeper.clients.impl.internal.ProtocolInternalUtils

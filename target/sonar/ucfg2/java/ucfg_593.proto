@@ -1,58 +1,0 @@
-
-Žorg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#newRange(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/op/RangeOp;ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javag g(""1*×
-1ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javah h(ýú
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javah h(/
-%0)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*:8
-6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()ýú
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaj j(/
-%1)org.apache.bookkeeper.api.kv.op.OpFactory"porg.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore#getOpFactory()Lorg/apache/bookkeeper/api/kv/op/OpFactory;*:8
-6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore2getOpFactory()ûø
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaj j(*8
-%22org.apache.bookkeeper.api.kv.options.OptionFactory"morg.apache.bookkeeper.api.kv.op.OpFactory#optionFactory()Lorg/apache/bookkeeper/api/kv/options/OptionFactory;*1
-/
-%1)org.apache.bookkeeper.api.kv.op.OpFactory2optionFactory()™–
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaj j(;=
-%37org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"|org.apache.bookkeeper.api.kv.options.OptionFactory#newRangeOption()Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*:
-8
-%22org.apache.bookkeeper.api.kv.options.OptionFactory2newRangeOption()ÇÄ
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaj k(=
-%47org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"‹org.apache.bookkeeper.api.kv.options.RangeOptionBuilder#endKey(Ljava/lang/Object;)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*?
-=
-%37org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-
-endKeyK2endKey(Ljava/lang/Object;)›˜
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaj l(=
-%57org.apache.bookkeeper.api.kv.options.RangeOptionBuilder"yorg.apache.bookkeeper.api.kv.options.RangeOptionBuilder#limit(J)Lorg/apache/bookkeeper/api/kv/options/RangeOptionBuilder;*?
-=
-%47org.apache.bookkeeper.api.kv.options.RangeOptionBuilder*
-""2limit(J)ØÕ
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javaj m(6
-%60org.apache.bookkeeper.api.kv.options.RangeOption"Forg.apache.bookkeeper.api.kv.options.Builder#build()Ljava/lang/Object;*?
-=
-%57org.apache.bookkeeper.api.kv.options.RangeOptionBuilder2build()ª§
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javah m(-
-%7'org.apache.bookkeeper.api.kv.op.RangeOp"¡org.apache.bookkeeper.api.kv.op.OpFactory#newRange(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/RangeOption;)Lorg/apache/bookkeeper/api/kv/op/RangeOp;*1
-/
-%0)org.apache.bookkeeper.api.kv.op.OpFactory*
-
-
-keyK*8
-6
-%60org.apache.bookkeeper.api.kv.options.RangeOption2NnewRange(Ljava/lang/Object;Lorg/apache/bookkeeper/api/kv/options/RangeOption;)"¼
-ˆ
-~/home/valentina/Scrivania/Bookkeeper/stream/statelib/src/main/java/org/apache/bookkeeper/statelib/api/mvcc/MVCCAsyncStore.javah m(/
--
-%7'org.apache.bookkeeper.api.kv.op.RangeOp:
-keyK:
-endKeyKB:8
-6org.apache.bookkeeper.statelib.api.mvcc.MVCCAsyncStore

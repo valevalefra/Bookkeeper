@@ -1,289 +1,0 @@
-
-œorg.apache.bookkeeper.client.LedgerFragmentReplicator$3#readComplete(ILorg/apache/bookkeeper/client/LedgerHandle;Ljava/util/Enumeration;Ljava/lang/Object;)V‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaØ Ø($"startingBlock*ã
-2‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaî î(2Û
-Ø
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaî î(2:
-	newBookie-org.apache.bookkeeper.net.BookieSocketAddress"__id*
-""é
-æ
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaî î(2:
-	newBookie-org.apache.bookkeeper.net.BookieSocketAddress"
-__arrayGet*
-""*
-""*
-3
-1*Ü
-3‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaï ï(
-Š
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaï ï(.
-%18'org.apache.bookkeeper.client.BookKeeper"__id*D*B9
-7org.apache.bookkeeper.client.LedgerFragmentReplicator$3"
-bkcìé
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaï ï()/
-%19(org.apache.bookkeeper.proto.BookieClient"corg.apache.bookkeeper.client.BookKeeper#getBookieClient()Lorg/apache/bookkeeper/proto/BookieClient;*0
-.
-%18'org.apache.bookkeeper.client.BookKeeper2getBookieClient()‹
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaï> ï(H
-%20long"2org.apache.bookkeeper.client.LedgerHandle#getId()J*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle2getId()Ÿœ
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javağ ğ(-
-%21byte[]":org.apache.bookkeeper.client.LedgerHandle#getLedgerKey()[B*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle2getLedgerKey() 
-
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javağ8 ğ(Q-
-%22&org.apache.bookkeeper.util.ByteBufList"~org.apache.bookkeeper.util.ByteBufList#clone(Lorg/apache/bookkeeper/util/ByteBufList;)Lorg/apache/bookkeeper/util/ByteBufList;**"(
-&org.apache.bookkeeper.util.ByteBufList*2
-0
-toSend&org.apache.bookkeeper.util.ByteBufList­
-ª
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javañ< ñ(\
-%23short"__id*
-""¹
-¶
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaò# ò(1
-%24java.util.EnumSet"__id*
-""‚ÿ
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaï ò(2
-%25void"ıorg.apache.bookkeeper.proto.BookieClient#addEntry(Lorg/apache/bookkeeper/net/BookieSocketAddress;J[BJLorg/apache/bookkeeper/util/ByteBufList;Lorg/apache/bookkeeper/proto/BookkeeperInternalCallbacks$WriteCallback;Ljava/lang/Object;IZLjava/util/EnumSet;)V*1
-/
-%19(org.apache.bookkeeper.proto.BookieClient*<
-:
-	newBookie-org.apache.bookkeeper.net.BookieSocketAddress*
-
-%20long*
-
-%21byte[]*
-""*/
--
-%22&org.apache.bookkeeper.util.ByteBufList*
-""*
-""*
-
-%23short*
-""*
-
-%24java.util.EnumSet2ÓaddEntry(Lorg/apache/bookkeeper/net/BookieSocketAddress;J[BJLorg/apache/bookkeeper/util/ByteBufList;Lorg/apache/bookkeeper/proto/BookkeeperInternalCallbacks$WriteCallback;Ljava/lang/Object;IZLjava/util/EnumSet;)*
-2*¶
-startingBlock‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaØ$ Ù(=ï
-ì
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.java× ×(
-%27"
-__annotate*
-java.lang.Override*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandleÙ
-Ö
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaØ: Ø(</
-lh)org.apache.bookkeeper.client.LedgerHandle"__annotation*
-
-%27Ü
-Ù
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.java× ×(
-%28"
-__annotate*
-java.lang.Override*
-
-seqjava.util.EnumerationÆ
-Ã
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÙ- Ù(0
-seqjava.util.Enumeration"__annotation*
-
-%28×
-Ô
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.java× ×(
-%29"
-__annotate*
-java.lang.Override*
-
-ctxjava.lang.ObjectÁ
-¾
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÙ9 Ù(<
-ctxjava.lang.Object"__annotation*
-
-%29*
-7*®"
-5‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaå$ å('§¤
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaå$ å(5.
-%7(org.apache.bookkeeper.client.LedgerEntry"5java.util.Enumeration#nextElement()Ljava/lang/Object;*
-
-seqjava.util.Enumeration2nextElement()ü
-ù
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaå å(61
-entry(org.apache.bookkeeper.client.LedgerEntry"__id*0
-.
-%7(org.apache.bookkeeper.client.LedgerEntry—”
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaæ æ(.
-%8byte[]"5org.apache.bookkeeper.client.LedgerEntry#getEntry()[B*3
-1
-entry(org.apache.bookkeeper.client.LedgerEntry2
-getEntry()·
-´
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaæ æ(/
-databyte[]"__id*
-
-%8byte[]“
-
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaè è()
-%9#org.apache.bookkeeper.stats.Counter"__id*O*M9
-7org.apache.bookkeeper.client.LedgerFragmentReplicator$3"
-numEntriesReadşû
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaè è($
-%10void"*org.apache.bookkeeper.stats.Counter#inc()V*+
-)
-%9#org.apache.bookkeeper.stats.Counter2inc()˜
-•
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaé é(0
-%11)org.apache.bookkeeper.stats.OpStatsLogger"__id*M*K9
-7org.apache.bookkeeper.client.LedgerFragmentReplicator$3"
-numBytesRead½º
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaé é(@
-%12void"Eorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulValue(J)V*2
-0
-%11)org.apache.bookkeeper.stats.OpStatsLogger*
-""2registerSuccessfulValue(J)…‚
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaê% ê(:9
-%132org.apache.bookkeeper.proto.checksum.DigestManager"porg.apache.bookkeeper.client.LedgerHandle#getDigestManager()Lorg/apache/bookkeeper/proto/checksum/DigestManager;*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle2getDigestManager()ª§
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaì  ì(8
-%14long"@org.apache.bookkeeper.client.LedgerHandle#getLastAddConfirmed()J*1
-/
-lh)org.apache.bookkeeper.client.LedgerHandle2getLastAddConfirmed()—”
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaì: ì(K
-%15long"5org.apache.bookkeeper.client.LedgerEntry#getLength()J*3
-1
-entry(org.apache.bookkeeper.client.LedgerEntry2getLength()´
-±
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaí  í(L
-%16io.netty.buffer.ByteBuf"Eio.netty.buffer.Unpooled#wrappedBuffer([BII)Lio/netty/buffer/ByteBuf;*"
-io.netty.buffer.Unpooled*
-
-databyte[]*2 *
-""£ 
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaê% í(M-
-%17&org.apache.bookkeeper.util.ByteBufList"šorg.apache.bookkeeper.proto.checksum.DigestManager#computeDigestAndPackageForSending(JJJLio/netty/buffer/ByteBuf;)Lorg/apache/bookkeeper/util/ByteBufList;*;
-9
-%132org.apache.bookkeeper.proto.checksum.DigestManager*
-""*
-
-%14long*
-
-%15long* 
-
-%16io.netty.buffer.ByteBuf2?computeDigestAndPackageForSending(JJJLio/netty/buffer/ByteBuf;)ú
-÷
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaê í(N0
-toSend&org.apache.bookkeeper.util.ByteBufList"__id*/
--
-%17&org.apache.bookkeeper.util.ByteBufList*
-2*§
-6‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÛ Û(·
-´
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÛ Û(
-%1org.slf4j.Logger"__id*
-""à
-İ
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÛ Û(I
-%2java.lang.String"__concat*#!
-BK error reading ledger entry: *
-""Õ
-Ò
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÜ Ü(2.
-%3(org.apache.bookkeeper.client.BKException"\org.apache.bookkeeper.client.BKException#create(I)Lorg/apache/bookkeeper/client/BKException;*,"*
-(org.apache.bookkeeper.client.BKException*
-""õò
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÛ Ü(3
-
-%4void"@org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V*
-
-%1org.slf4j.Logger*
-
-%2java.lang.String*0
-.
-%3(org.apache.bookkeeper.client.BKException2.error(Ljava/lang/String;Ljava/lang/Throwable;)°­
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaİ İ(H
-
-%5void"Kjava.util.function.BiConsumer#accept(Ljava/lang/Object;Ljava/lang/Object;)V*
-""*
-""*
-""2,accept(Ljava/lang/Object;Ljava/lang/Object;)Ú×
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaŞ Ş(H
-
-%6void"eorg.apache.zookeeper.AsyncCallback$VoidCallback#processResult(ILjava/lang/String;Ljava/lang/Object;)V*
-""*
-""*
-""*
-""24processResult(ILjava/lang/String;Ljava/lang/Object;)"–
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaß ß(
-""*Æ
-7‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÚ Ú(ª
-§
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaÚ Ú(-	
-%0int"__id*
-""*
-5
-6*«
-0 "£
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaõ õ(
-implicit return*¬
-1‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaô ô(“
-‹
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerFragmentReplicator.javaô ô( 
-%26boolean"1io.netty.util.AbstractReferenceCounted#release()Z*2
-0
-toSend&org.apache.bookkeeper.util.ByteBufList2	release()*
-0:
-"":/
-lh)org.apache.bookkeeper.client.LedgerHandle:
-seqjava.util.Enumeration:
-ctxjava.lang.ObjectB;9
-7org.apache.bookkeeper.client.LedgerFragmentReplicator$3

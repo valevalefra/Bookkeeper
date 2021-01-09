@@ -1,227 +1,0 @@
-
-®org.apache.bookkeeper.tools.cli.commands.bookie.LastMarkCommand#apply(Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/tools/framework/CliFlags;)Zî
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java1 1("startingBlock*ß)
-3î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java8* 8(-„
-‡
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java8/ 8(?
-%8java.io.File"
-__arrayGet*
-
-journalDirsjava.io.File[]*
-""ÏÈ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java8" 8()*
-%9$org.apache.bookkeeper.bookie.Journal"$org.apache.bookkeeper.bookie.Journalà
-Ö
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java8 8(S
-%10"ùorg.apache.bookkeeper.bookie.Journal#<init>(ILjava/io/File;Lorg/apache/bookkeeper/conf/ServerConfiguration;Lorg/apache/bookkeeper/bookie/LedgerDirsManager;)V*,
-*
-%9$org.apache.bookkeeper.bookie.Journal*
-""*
-
-%8java.io.File*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration*?
-=
-dirsManager.org.apache.bookkeeper.bookie.LedgerDirsManagerˇ
-¸
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java8 8(T/
-journal$org.apache.bookkeeper.bookie.Journal"__id*,
-*
-%9$org.apache.bookkeeper.bookie.JournalÅ˛
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java9" 9(:7
-%110org.apache.bookkeeper.bookie.Journal$LastLogMark"gorg.apache.bookkeeper.bookie.Journal#getLastLogMark()Lorg/apache/bookkeeper/bookie/Journal$LastLogMark;*1
-/
-journal$org.apache.bookkeeper.bookie.Journal2getLastLogMark()ıÚ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java9" 9(G+
-%12$org.apache.bookkeeper.bookie.LogMark"corg.apache.bookkeeper.bookie.Journal$LastLogMark#getCurMark()Lorg/apache/bookkeeper/bookie/LogMark;*9
-7
-%110org.apache.bookkeeper.bookie.Journal$LastLogMark2getCurMark()Ñ
-Å
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java9 9(H3
-lastLogMark$org.apache.bookkeeper.bookie.LogMark"__id*-
-+
-%12$org.apache.bookkeeper.bookie.LogMarkƒ
-¡
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java: :(
-%13java.io.PrintStream"__id*
-""§°
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java:? :(Y
-%14long"4org.apache.bookkeeper.bookie.LogMark#getLogFileId()J*5
-3
-lastLogMark$org.apache.bookkeeper.bookie.LogMark2getLogFileId()Ì
-Í
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java: :(Y
-%15java.lang.String"__concat*
-LastLogMark : Journal Id - *
-
-%14longﬂ
-‹
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java: :(_
-%16java.lang.String"__concat*
-
-%15java.lang.String*
-(§°
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java;# ;(=
-%17long"4org.apache.bookkeeper.bookie.LogMark#getLogFileId()J*5
-3
-lastLogMark$org.apache.bookkeeper.bookie.LogMark2getLogFileId()á
-Ñ
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java; ;(>
-%18java.lang.String"/java.lang.Long#toHexString(J)Ljava/lang/String;*"
-java.lang.Long*
-
-%17longÛ
-
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java: ;(>
-%19java.lang.String"__concat*
-
-%16java.lang.String*
-
-%18java.lang.StringÎ
-Ë
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java: ;(P
-%20java.lang.String"__concat*
-
-%19java.lang.String*
-.txn), Pos - ¨©
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java< <(0
-%21long"8org.apache.bookkeeper.bookie.LogMark#getLogFileOffset()J*5
-3
-lastLogMark$org.apache.bookkeeper.bookie.LogMark2getLogFileOffset()Á
-‰
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java: <(0
-%22java.lang.String"__concat*
-
-%20java.lang.String*
-
-%21longØ¨
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java: <(1
-%23void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%13java.io.PrintStream*
-
-%22java.lang.String2println(Ljava/lang/String;)*
-3
-1*â	
-startingBlockî
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java1 1(Bˇ
-¸
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java0 0(
-%24"
-__annotate*
-java.lang.Override*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfigurationÈ
-Ê
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java1- 1(16
-conf.org.apache.bookkeeper.conf.ServerConfiguration"__annotation*
-
-%24Ä
-˝
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java0 0(
-%25"
-__annotate*
-java.lang.Override*9
-7
-flags.org.apache.bookkeeper.tools.framework.CliFlagsÍ
-Á
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java1< 1(A7
-flags.org.apache.bookkeeper.tools.framework.CliFlags"__annotation*
-
-%25*
-5*‡
-5î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java3 3( «
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java3 3(&
-%0java.io.File[]"Morg.apache.bookkeeper.conf.ServerConfiguration#getLedgerDirs()[Ljava/io/File;*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration2getLedgerDirs()√¿
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java4 4(8
-%1float"Gorg.apache.bookkeeper.conf.ServerConfiguration#getDiskUsageThreshold()F*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration2getDiskUsageThreshold()À»
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java4: 4(Z
-%2float"Korg.apache.bookkeeper.conf.ServerConfiguration#getDiskUsageWarnThreshold()F*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration2getDiskUsageWarnThreshold()Ì
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java4 4(,
-%3&org.apache.bookkeeper.util.DiskChecker"&org.apache.bookkeeper.util.DiskChecker¢
-ü
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java4 4([
-%4"2org.apache.bookkeeper.util.DiskChecker#<init>(FF)V*.
-,
-%3&org.apache.bookkeeper.util.DiskChecker*
-
-%1float*
-
-%2floatÄ˝
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java2, 2(=4
-%5.org.apache.bookkeeper.bookie.LedgerDirsManager".org.apache.bookkeeper.bookie.LedgerDirsManager¸
-˘
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java2( 4(\
-%6"üorg.apache.bookkeeper.bookie.LedgerDirsManager#<init>(Lorg/apache/bookkeeper/conf/ServerConfiguration;[Ljava/io/File;Lorg/apache/bookkeeper/util/DiskChecker;)V*6
-4
-%5.org.apache.bookkeeper.bookie.LedgerDirsManager*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration*
-
-%0java.io.File[]*.
-,
-%3&org.apache.bookkeeper.util.DiskCheckeró
-î
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java2 4(]=
-dirsManager.org.apache.bookkeeper.bookie.LedgerDirsManager"__id*6
-4
-%5.org.apache.bookkeeper.bookie.LedgerDirsManagerÃ…
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java5 5(2
-%7java.io.File[]"Norg.apache.bookkeeper.conf.ServerConfiguration#getJournalDirs()[Ljava/io/File;*8
-6
-conf.org.apache.bookkeeper.conf.ServerConfiguration2getJournalDirs()◊
-‘
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java5 5(3
-journalDirsjava.io.File[]"__id*
-
-%7java.io.File[]*
-3
-1*º
-1î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java> >("ü
-î
-â/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommand.java> >(
-"":6
-conf.org.apache.bookkeeper.conf.ServerConfiguration:7
-flags.org.apache.bookkeeper.tools.framework.CliFlagsBCA
-?org.apache.bookkeeper.tools.cli.commands.bookie.LastMarkCommand

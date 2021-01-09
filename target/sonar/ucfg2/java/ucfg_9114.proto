@@ -1,50 +1,0 @@
-
-org.apache.bookkeeper.replication.Auditor#handleLostBookiesAsync(Ljava/util/Collection;Ljava/util/Map;)Ljava/util/concurrent/CompletableFuture;
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaØ! Ø(7"1*å
-1
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Ú(ª
-§
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Ú(
-%0org.slf4j.Logger"__id*
-""„
-
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Û(A
-%1java.lang.String"__concat*)'
-%Following are the failed bookies: {},*1/
-- and searching its ledgers for re-replicationÕÒ
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaÚ Û(O
-
-%2void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%0org.slf4j.Logger*
-
-%1java.lang.String*%
-#
-lostBookiesjava.util.Collection2*info(Ljava/lang/String;Ljava/lang/Object;)Ä
-Á
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaŞ Ş(+
-%3java.util.ArrayList"Wcom.google.common.collect.Lists#newArrayList(Ljava/lang/Iterable;)Ljava/util/ArrayList;*#"!
-com.google.common.collect.Lists*%
-#
-lostBookiesjava.util.Collection×
-Ô
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaİ â(	,
-%4&java.util.concurrent.CompletableFuture"¼org.apache.bookkeeper.common.concurrent.FutureUtils#processList(Ljava/util/List;Ljava/util/function/Function;Ljava/util/concurrent/ExecutorService;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*
-
-%3java.util.ArrayList*
-""*
-"""±
-
-s/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.javaİ â(
-.
-,
-%4&java.util.concurrent.CompletableFuture:#
-lostBookiesjava.util.Collection:
-ledgerDetailsjava.util.MapB-+
-)org.apache.bookkeeper.replication.Auditor

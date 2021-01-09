@@ -1,228 +1,0 @@
-
-_org.apache.distributedlog.BKAsyncLogReader#asyncClose()Ljava/util/concurrent/CompletableFuture;â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÊ# Ê(-"9*π
-2â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÅ Å(â
-Ü
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÅ Å(1
-%17*org.apache.distributedlog.BKLogReadHandler"__id*?*=,
-*org.apache.distributedlog.BKAsyncLogReader"
-readHandler‹Ÿ
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÅ Å(;
-%18void"worg.apache.distributedlog.BKLogReadHandler#unregisterListener(Lorg/apache/distributedlog/callback/LogSegmentListener;)V*3
-1
-%17*org.apache.distributedlog.BKLogReadHandler*C
-A
-readAheadReader.org.apache.distributedlog.ReadAheadEntryReader2KunregisterListener(Lorg/apache/distributedlog/callback/LogSegmentListener;)∑¥
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÇ Ç(?5
-%19.org.apache.distributedlog.ReadAheadEntryReader"´org.apache.distributedlog.ReadAheadEntryReader#removeStateChangeNotification(Lorg/apache/distributedlog/AsyncNotification;)Lorg/apache/distributedlog/ReadAheadEntryReader;*C
-A
-readAheadReader.org.apache.distributedlog.ReadAheadEntryReader*.,
-*org.apache.distributedlog.BKAsyncLogReader2LremoveStateChangeNotification(Lorg/apache/distributedlog/AsyncNotification;)*
-1*†	
-3â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java˝ ˝(Ú
-Ô
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java˝ ˝((
-%15void"Xorg.apache.distributedlog.BKAsyncLogReader#cancelAllPendingReads(Ljava/lang/Throwable;)V*.,
-*org.apache.distributedlog.BKAsyncLogReader*J
-H
-	exception;org.apache.distributedlog.exceptions.ReadCancelledException˝˙
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaˇ/ ˇ(C5
-%16.org.apache.distributedlog.ReadAheadEntryReader"oorg.apache.distributedlog.BKAsyncLogReader#getReadAheadReader()Lorg/apache/distributedlog/ReadAheadEntryReader;*.,
-*org.apache.distributedlog.BKAsyncLogReader2getReadAheadReader()ë
-é
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaˇ ˇ(DA
-readAheadReader.org.apache.distributedlog.ReadAheadEntryReader"__id*7
-5
-%16.org.apache.distributedlog.ReadAheadEntryReader*
-2
-1*±
-4â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java˘ ˘(&é
-ã
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java˘ ˘(&+
-%13$java.util.concurrent.ScheduledFuture"__id*J*H,
-*org.apache.distributedlog.BKAsyncLogReader"
-backgroundScheduleTaskâÜ
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java˘ ˘(3
-%14boolean"&java.util.concurrent.Future#cancel(Z)Z*-
-+
-%13$java.util.concurrent.ScheduledFuture*
-""2	cancel(Z)*
-3*®
-5â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java¯ ¯(é
-ã
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java¯ ¯(.+
-%12$java.util.concurrent.ScheduledFuture"__id*J*H,
-*org.apache.distributedlog.BKAsyncLogReader"
-backgroundScheduleTask*
-3
-4*∏
-6â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÓ) Ó(FÂ‚
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÓ- Ó(D,
-%2&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFuture˜
-Ù
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÓ) Ó(F
-%3"0java.util.concurrent.CompletableFuture#<init>()V*.
-,
-%2&java.util.concurrent.CompletableFutureÑ
-Å
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÓ Ó(F=,
-*org.apache.distributedlog.BKAsyncLogReader"
-closeFuture"__id*.
-,
-%2&java.util.concurrent.CompletableFuture˝
-˙
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÓ Ó(F6
-closePromise&java.util.concurrent.CompletableFuture"__id*.
-,
-%2&java.util.concurrent.CompletableFutureà
-Ö
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÔ3 Ô(>0
-%4*org.apache.distributedlog.BKLogReadHandler"__id*?*=,
-*org.apache.distributedlog.BKAsyncLogReader"
-readHandler∆√
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÔ3 Ô(V
-%5java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*2
-0
-%4*org.apache.distributedlog.BKLogReadHandler2getFullyQualifiedName()èå
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÔ Ô(2A
-%6;org.apache.distributedlog.exceptions.ReadCancelledException";org.apache.distributedlog.exceptions.ReadCancelledExceptionˆ
-Û
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÔ Ô(l
-%7"iorg.apache.distributedlog.exceptions.ReadCancelledException#<init>(Ljava/lang/String;Ljava/lang/String;)V*C
-A
-%6;org.apache.distributedlog.exceptions.ReadCancelledException*
-
-%5java.lang.String*
-Reader was closed§
-°
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÔ Ô(lH
-	exception;org.apache.distributedlog.exceptions.ReadCancelledException"__id*C
-A
-%6;org.apache.distributedlog.exceptions.ReadCancelledExceptionÏ
-È
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java ('
-
-%8void"Sorg.apache.distributedlog.BKAsyncLogReader#setLastException(Ljava/io/IOException;)V*.,
-*org.apache.distributedlog.BKAsyncLogReader*J
-H
-	exception;org.apache.distributedlog.exceptions.ReadCancelledException•¢
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÒ Ò(!
-
-%9void"Aorg.apache.distributedlog.BKAsyncLogReader#releaseCurrentEntry()V*.,
-*org.apache.distributedlog.BKAsyncLogReader2releaseCurrentEntry()®•
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaı ı(
-%10void"Borg.apache.distributedlog.BKAsyncLogReader#cancelIdleReaderTask()V*.,
-*org.apache.distributedlog.BKAsyncLogReader2cancelIdleReaderTask()
-Ì
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.java˜ ˜("
-%11java.lang.Object"__id*@*>,
-*org.apache.distributedlog.BKAsyncLogReader"
-scheduleLock*
-5*’
-7â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÏ Ï("Ñ
-Å
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÏ Ï(",
-%1&java.util.concurrent.CompletableFuture"__id*?*=,
-*org.apache.distributedlog.BKAsyncLogReader"
-closeFuture"º
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÏ Ï(#.
-,
-%1&java.util.concurrent.CompletableFuture*û
-8â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÎ Î(Ñ
-Å
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÎ Î(#,
-%0&java.util.concurrent.CompletableFuture"__id*?*=,
-*org.apache.distributedlog.BKAsyncLogReader"
-closeFuture*
-6
-7*÷
-9â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaË Ë()Á
-‰
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaË Ë()H
-	exception;org.apache.distributedlog.exceptions.ReadCancelledException"__id*
-""’
-“
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÈ È(-6
-closePromise&java.util.concurrent.CompletableFuture"__id*
-""*
-8*ƒ
-1â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÑ Ñ(ú
-ô
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÖ  Ö(78
-%201org.apache.distributedlog.BKDistributedLogManager"__id*K*I,
-*org.apache.distributedlog.BKAsyncLogReader"
-bkDistributedLogManageråâ
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÖ  Ö(F9
-%212org.apache.bookkeeper.common.util.OrderedScheduler"torg.apache.distributedlog.BKDistributedLogManager#getScheduler()Lorg/apache/bookkeeper/common/util/OrderedScheduler;*:
-8
-%201org.apache.distributedlog.BKDistributedLogManager2getScheduler()â
-Ü
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaá á(1
-%22*org.apache.distributedlog.BKLogReadHandler"__id*?*=,
-*org.apache.distributedlog.BKAsyncLogReader"
-readHandler€
-ÿ
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÖ à(-
-%23&java.util.concurrent.CompletableFuture"±org.apache.distributedlog.util.Utils#closeSequence(Ljava/util/concurrent/ExecutorService;Z[Lorg/apache/distributedlog/io/AsyncCloseable;)Ljava/util/concurrent/CompletableFuture;*("&
-$org.apache.distributedlog.util.Utils*;
-9
-%212org.apache.bookkeeper.common.util.OrderedScheduler*
-""*C
-A
-readAheadReader.org.apache.distributedlog.ReadAheadEntryReader*3
-1
-%22*org.apache.distributedlog.BKLogReadHandler—
-Œ
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaÑ â(
-%24void"éorg.apache.bookkeeper.common.concurrent.FutureUtils#proxyTo(Ljava/util/concurrent/CompletableFuture;Ljava/util/concurrent/CompletableFuture;)V*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*/
--
-%23&java.util.concurrent.CompletableFuture*8
-6
-closePromise&java.util.concurrent.CompletableFuture"∆
-â
-}/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKAsyncLogReader.javaä ä(8
-6
-closePromise&java.util.concurrent.CompletableFutureB.,
-*org.apache.distributedlog.BKAsyncLogReader

@@ -1,75 +1,0 @@
-
-Æorg.apache.distributedlog.bk.SimpleLedgerAllocator#createAllocationData(Ljava/lang/String;Lorg/apache/distributedlog/ZooKeeperClient;)Ljava/util/concurrent/CompletableFuture;í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÅ8 Å(L"13*ì
-13í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÑA Ñ(kÓÎ
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÑE Ñ(i,
-%0&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFutureÄ
-˝
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÑA Ñ(k
-%1"0java.util.concurrent.CompletableFuture#<init>()V*.
-,
-%0&java.util.concurrent.CompletableFuture*
-12*Â
-9í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javañ ñ(" 
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javañ ñ(3
-1
-promise&java.util.concurrent.CompletableFuture*å
-10í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÜ) Ü(3Õ
- 
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÜ) Ü(>%
-%5org.apache.zookeeper.CreateMode"__id*
-""õò
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÖ ï(
-
-%6void"≤org.apache.zookeeper.ZooKeeper#create(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;Lorg/apache/zookeeper/AsyncCallback$StringCallback;Ljava/lang/Object;)V*&
-$
-%2org.apache.zookeeper.ZooKeeper*"
- 
-allocatePathjava.lang.String*
-
-%3byte[]*
-
-%4java.util.List*'
-%
-%5org.apache.zookeeper.CreateMode*
-""*
-""2ícreate(Ljava/lang/String;[BLjava/util/List;Lorg/apache/zookeeper/CreateMode;Lorg/apache/zookeeper/AsyncCallback$StringCallback;Ljava/lang/Object;)*
-9*ó
-11í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÖ Ö()¥
-±
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÖ+ Ö(N
-%3byte[]"__id*
-""æª
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÜ Ü('
-%4java.util.List"Iorg.apache.distributedlog.ZooKeeperClient#getDefaultACL()Ljava/util/List;*2
-0
-zkc)org.apache.distributedlog.ZooKeeperClient2getDefaultACL()*
-10*
-12í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÑ Ñ(lÅ
-˛
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÑ Ñ(l1
-promise&java.util.concurrent.CompletableFuture"__id*.
-,
-%0&java.util.concurrent.CompletableFuture «
-í
-Ö/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/bk/SimpleLedgerAllocator.javaÖ Ö($
-%2org.apache.zookeeper.ZooKeeper"Oorg.apache.distributedlog.ZooKeeperClient#get()Lorg/apache/zookeeper/ZooKeeper;*2
-0
-zkc)org.apache.distributedlog.ZooKeeperClient2get()*
-11: 
-allocatePathjava.lang.String:0
-zkc)org.apache.distributedlog.ZooKeeperClientB6"4
-2org.apache.distributedlog.bk.SimpleLedgerAllocator

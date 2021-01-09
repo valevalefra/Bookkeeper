@@ -1,282 +1,0 @@
-
-“org.apache.distributedlog.ReadAheadEntryReader#isAllowedToPosition(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/DLSN;)Z
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaë ë('"11*²
-2
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaû û(»
-¸
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaû û(
-%23org.slf4j.Logger"__id*
-""÷
-ô
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaü ü(
-%24java.lang.String"__id*B*@0
-.org.apache.distributedlog.ReadAheadEntryReader"
-
-streamNameıú
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaû ü(2
-%25void">org.slf4j.Logger#error(Ljava/lang/String;[Ljava/lang/Object;)V*
-
-%23org.slf4j.Logger*MK
-I{}: Trying to position reader on {} when {} is marked partially truncated*
-
-%24java.lang.String*,
-*
-fromDLSNorg.apache.distributedlog.DLSN*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadata2,error(Ljava/lang/String;[Ljava/lang/Object;)÷
-ô
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaşJ ş(T
-%26java.lang.String"__id*B*@0
-.org.apache.distributedlog.ReadAheadEntryReader"
-
-streamNameü
-ù
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaşJ ÿ(@
-%27java.lang.String"__concat*
-
-%26java.lang.String*(&
-$ : trying to position read ahead at €
-ı
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaşJ ÿ(K
-%28java.lang.String"__concat*
-
-%27java.lang.String*,
-*
-fromDLSNorg.apache.distributedlog.DLSNæ
-ã
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaşJ €(*
-%29java.lang.String"__concat*
-
-%28java.lang.String*
- on a segment 
-Š
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaşJ €(4
-%30java.lang.String"__concat*
-
-%29java.lang.String*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadataü
-ù
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaşJ €(]
-%31java.lang.String"__concat*
-
-%30java.lang.String*(&
-$ that is already marked as truncated±®
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaş% ş(IP
-%32Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException"Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionExceptionñ
-î
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaş! €(^
-%33"eorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException#<init>(Ljava/lang/String;)V*R
-P
-%32Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException*
-
-%31java.lang.String«¨
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaş €(_
-%34void"Worg.apache.distributedlog.ReadAheadEntryReader#setLastException(Ljava/io/IOException;)V*20
-.org.apache.distributedlog.ReadAheadEntryReader*R
-P
-%32Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException2'setLastException(Ljava/io/IOException;)"™
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java (
-""*
-3
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaú ú(–
-“
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaú ú(<
-%215org.apache.distributedlog.DistributedLogConfiguration"__id*<*:0
-.org.apache.distributedlog.ReadAheadEntryReader"
-confÕÒ
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaú ú(1
-%22boolean"Rorg.apache.distributedlog.DistributedLogConfiguration#getIgnoreTruncationStatus()Z*>
-<
-%215org.apache.distributedlog.DistributedLogConfiguration2getIgnoreTruncationStatus()*
-2
-1*Î
-4
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java÷ ÷( ™
-–
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java÷ ÷( 3
-%19,org.apache.bookkeeper.stats.AlertStatsLogger"__id*H*F0
-.org.apache.distributedlog.ReadAheadEntryReader"
-alertStatsLogger–“
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java÷ ø(&
-%20void"Zorg.apache.bookkeeper.stats.AlertStatsLogger#raise(Ljava/lang/String;[Ljava/lang/Object;)V*5
-3
-%19,org.apache.bookkeeper.stats.AlertStatsLogger*IG
-ETrying to position reader on {} when {} is marked partially truncated*,
-*
-fromDLSNorg.apache.distributedlog.DLSN*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadata2,raise(Ljava/lang/String;[Ljava/lang/Object;)*
-3*Ÿ
-5
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaö ö(–
-“
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaö ö(<
-%175org.apache.distributedlog.DistributedLogConfiguration"__id*<*:0
-.org.apache.distributedlog.ReadAheadEntryReader"
-confçä
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaö ö(9
-%18boolean"[org.apache.distributedlog.DistributedLogConfiguration#getAlertWhenPositioningOnTruncated()Z*>
-<
-%175org.apache.distributedlog.DistributedLogConfiguration2$getAlertWhenPositioningOnTruncated()*
-3
-4*ş
-6
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaõ õ(ëè
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaõ õ(-%
-%15org.apache.distributedlog.DLSN"_org.apache.distributedlog.LogSegmentMetadata#getMinActiveDLSN()Lorg/apache/distributedlog/DLSN;*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadata2getMinActiveDLSN()ñî
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaõ õ(A
-
-%16int"Korg.apache.distributedlog.DLSN#compareTo(Lorg/apache/distributedlog/DLSN;)I*'
-%
-%15org.apache.distributedlog.DLSN*,
-*
-fromDLSNorg.apache.distributedlog.DLSN2+compareTo(Lorg/apache/distributedlog/DLSN;)*
-5
-1*Ü
-7
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaô ô(½º
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaô ô(*
-%14boolean"Dorg.apache.distributedlog.LogSegmentMetadata#isPartiallyTruncated()Z*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadata2isPartiallyTruncated()*
-6
-1*ğ
-8
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaï ï(ö
-ó
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaïF ï(P
-%5java.lang.String"__id*B*@0
-.org.apache.distributedlog.ReadAheadEntryReader"
-
-streamNameú
-÷
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaïF ğ(<
-%6java.lang.String"__concat*
-
-%5java.lang.String*(&
-$ : trying to position read ahead at ş
-û
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaïF ğ(G
-%7java.lang.String"__concat*
-
-%6java.lang.String*,
-*
-fromDLSNorg.apache.distributedlog.DLSNä
-á
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaïF ñ(&
-%8java.lang.String"__concat*
-
-%7java.lang.String*
- on a segment ‹
-ˆ
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaïF ñ(0
-%9java.lang.String"__concat*
-
-%8java.lang.String*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadataû
-ø
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaïF ñ(Y
-%10java.lang.String"__concat*
-
-%9java.lang.String*(&
-$ that is already marked as truncated±®
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaï! ï(EP
-%11Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException"Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionExceptionñ
-î
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaï ñ(Z
-%12"eorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException#<init>(Ljava/lang/String;)V*R
-P
-%11Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException*
-
-%10java.lang.String«¨
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaï ñ([
-%13void"Worg.apache.distributedlog.ReadAheadEntryReader#setLastException(Ljava/io/IOException;)V*20
-.org.apache.distributedlog.ReadAheadEntryReader*R
-P
-%11Iorg.apache.distributedlog.exceptions.AlreadyTruncatedTransactionException2'setLastException(Ljava/io/IOException;)"™
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaò ò(
-""*Š
-9
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaî î(•
-’
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaî î(;
-%35org.apache.distributedlog.DistributedLogConfiguration"__id*<*:0
-.org.apache.distributedlog.ReadAheadEntryReader"
-confÓĞ
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaî î(4
-%4boolean"Rorg.apache.distributedlog.DistributedLogConfiguration#getIgnoreTruncationStatus()Z*=
-;
-%35org.apache.distributedlog.DistributedLogConfiguration2getIgnoreTruncationStatus()*
-7
-8*ò
-10
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaí í(àİ
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaí í(($
-%1org.apache.distributedlog.DLSN"Zorg.apache.distributedlog.LogSegmentMetadata#getLastDLSN()Lorg/apache/distributedlog/DLSN;*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadata2getLastDLSN()ïì
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaí í(<	
-%2int"Korg.apache.distributedlog.DLSN#compareTo(Lorg/apache/distributedlog/DLSN;)I*&
-$
-%1org.apache.distributedlog.DLSN*,
-*
-fromDLSNorg.apache.distributedlog.DLSN2+compareTo(Lorg/apache/distributedlog/DLSN;)*
-7
-9*Ë
-11
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaì ì(ª§
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.javaì ì(!
-%0boolean";org.apache.distributedlog.LogSegmentMetadata#isTruncated()Z*9
-7
-segment,org.apache.distributedlog.LogSegmentMetadata2isTruncated()*
-7
-10*°
-1
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java„ „("™
-
-/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/ReadAheadEntryReader.java„ „(
-"":7
-segment,org.apache.distributedlog.LogSegmentMetadata:*
-fromDLSNorg.apache.distributedlog.DLSNB20
-.org.apache.distributedlog.ReadAheadEntryReader

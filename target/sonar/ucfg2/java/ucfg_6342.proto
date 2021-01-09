@@ -1,348 +1,0 @@
-
-³org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV3#getListOfEntriesOfLedgerResponse()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse;”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java7- 7(M"16*Â
-13”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaF F(Á
-¾
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaF F(
-%17org.slf4j.Logger"__id*
-""±
-®
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaFK F(R=
-%186org.apache.bookkeeper.proto.BookkeeperProtocol$Request"__id*P*NA
-?org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV3"	
-request¦£
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaF F(S
-%19void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%17org.slf4j.Logger*53
-1Received new getListOfEntriesOfLedger request: {}*?
-=
-%186org.apache.bookkeeper.proto.BookkeeperProtocol$Request2+debug(Ljava/lang/String;Ljava/lang/Object;)*
-12*ç
-14”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaE E(Á
-¾
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaE E(
-%15org.slf4j.Logger"__id*
-""ûø
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaE E( 
-%16boolean""org.slf4j.Logger#isDebugEnabled()Z*
-
-%15org.slf4j.Logger2isDebugEnabled()*
-13
-12*˜!
-15”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java? ?(,é
-æ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java?7 ?(A?
-%59org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""é
-æ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java?7 ?(M?
-%69org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""ýú
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java? ?(N]
-%7Worg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder"÷org.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder;*}
-{
- getListOfEntriesOfLedgerResponseWorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder*A
-?
-%69org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)µ
-²
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java@ @(8
-%82org.apache.bookkeeper.proto.BookieRequestProcessor"__id*Y*WA
-?org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV3"
-requestProcessor‰†
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java@ @(..
-%9(org.apache.bookkeeper.proto.RequestStats"norg.apache.bookkeeper.proto.BookieRequestProcessor#getRequestStats()Lorg/apache/bookkeeper/proto/RequestStats;*:
-8
-%82org.apache.bookkeeper.proto.BookieRequestProcessor2getRequestStats()š—
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java@ @(Q0
-%10)org.apache.bookkeeper.stats.OpStatsLogger"vorg.apache.bookkeeper.proto.RequestStats#getGetListOfEntriesOfLedgerStats()Lorg/apache/bookkeeper/stats/OpStatsLogger;*0
-.
-%9(org.apache.bookkeeper.proto.RequestStats2"getGetListOfEntriesOfLedgerStats()ž
-›
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaA) A(O
-%11long"<org.apache.bookkeeper.common.util.MathUtils#elapsedNanos(J)J*/"-
-+org.apache.bookkeeper.common.util.MathUtils*
-""Î
-Ë
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaAQ A(e$
-%12java.util.concurrent.TimeUnit"__id*
-""«¨
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java@ A(f
-%13void"`org.apache.bookkeeper.stats.OpStatsLogger#registerFailedEvent(JLjava/util/concurrent/TimeUnit;)V*2
-0
-%10)org.apache.bookkeeper.stats.OpStatsLogger*
-
-%11long*&
-$
-%12java.util.concurrent.TimeUnit25registerFailedEvent(JLjava/util/concurrent/TimeUnit;)­ª
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaB B(;V
-%14Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse"°org.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse;*}
-{
- getListOfEntriesOfLedgerResponseWorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder2build()"ñ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaB B(<X
-V
-%14Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse*ì
-16”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java8 8('‘
-Ž
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java8 8(3
-
-%0long"8org.apache.bookkeeper.common.util.MathUtils#nowInNano()J*/"-
-+org.apache.bookkeeper.common.util.MathUtilsÿ
-ü
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java:T :(tU
-%1Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse"__id*
-""†
-ƒ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java:T ;(]
-%2Worg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder"µorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse#newBuilder()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder;*S"Q
-Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponseþ
-û
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java: ;({
- getListOfEntriesOfLedgerResponseWorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder"__id*_
-]
-%2Worg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$BuilderÒÏ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java< <(>]
-%3Worg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder"¿org.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder#setLedgerId(J)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder;*}
-{
- getListOfEntriesOfLedgerResponseWorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder*
-""2setLedgerId(J)ÏÌ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java> >("
-%4boolean"Horg.apache.bookkeeper.proto.PacketProcessorBaseV3#isVersionCompatible()Z*CA
-?org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV32isVersionCompatible()*
-14
-15*Ã
-1”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java` `((‚ÿ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java` `(:^
-%52Worg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder"÷org.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder#setStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder;*}
-{
- getListOfEntriesOfLedgerResponseWorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder*E
-C
-status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode2FsetStatus(Lorg/apache/bookkeeper/proto/BookkeeperProtocol$StatusCode;)­ª
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaa a(7V
-%53Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse"°org.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder#build()Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse;*}
-{
- getListOfEntriesOfLedgerResponseWorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder2build()"ñ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaa a(8X
-V
-%53Oorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse*±
-2”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java\ \(¶
-³
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java\ \(9
-%462org.apache.bookkeeper.proto.BookieRequestProcessor"__id*Y*WA
-?org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV3"
-requestProcessor‹ˆ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java\ \(./
-%47(org.apache.bookkeeper.proto.RequestStats"norg.apache.bookkeeper.proto.BookieRequestProcessor#getRequestStats()Lorg/apache/bookkeeper/proto/RequestStats;*;
-9
-%462org.apache.bookkeeper.proto.BookieRequestProcessor2getRequestStats()¨
-¥
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java\ \(L0
-%48)org.apache.bookkeeper.stats.OpStatsLogger"__id*T*R
-/
-%47(org.apache.bookkeeper.proto.RequestStats"
-getListOfEntriesOfLedgerStatsž
-›
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java]) ](O
-%49long"<org.apache.bookkeeper.common.util.MathUtils#elapsedNanos(J)J*/"-
-+org.apache.bookkeeper.common.util.MathUtils*
-""Î
-Ë
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java]Q ](e$
-%50java.util.concurrent.TimeUnit"__id*
-""«¨
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.java\ ](f
-%51void"`org.apache.bookkeeper.stats.OpStatsLogger#registerFailedEvent(JLjava/util/concurrent/TimeUnit;)V*2
-0
-%48)org.apache.bookkeeper.stats.OpStatsLogger*
-
-%49long*&
-$
-%50java.util.concurrent.TimeUnit25registerFailedEvent(JLjava/util/concurrent/TimeUnit;)*
-1*¹
-3”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaY Y(¶
-³
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaY Y(9
-%402org.apache.bookkeeper.proto.BookieRequestProcessor"__id*Y*WA
-?org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV3"
-requestProcessor‹ˆ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaY Y(./
-%41(org.apache.bookkeeper.proto.RequestStats"norg.apache.bookkeeper.proto.BookieRequestProcessor#getRequestStats()Lorg/apache/bookkeeper/proto/RequestStats;*;
-9
-%402org.apache.bookkeeper.proto.BookieRequestProcessor2getRequestStats()¨
-¥
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaY Y(L0
-%42)org.apache.bookkeeper.stats.OpStatsLogger"__id*T*R
-/
-%41(org.apache.bookkeeper.proto.RequestStats"
-getListOfEntriesOfLedgerStatsž
-›
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaZ- Z(S
-%43long"<org.apache.bookkeeper.common.util.MathUtils#elapsedNanos(J)J*/"-
-+org.apache.bookkeeper.common.util.MathUtils*
-""Î
-Ë
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaZU Z(i$
-%44java.util.concurrent.TimeUnit"__id*
-""³°
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaY Z(j
-%45void"dorg.apache.bookkeeper.stats.OpStatsLogger#registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)V*2
-0
-%42)org.apache.bookkeeper.stats.OpStatsLogger*
-
-%43long*&
-$
-%44java.util.concurrent.TimeUnit29registerSuccessfulEvent(JLjava/util/concurrent/TimeUnit;)*
-1*ü
-4”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaX X(ê
-ç
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaX X( @
-%389org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""ê
-ç
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaX X($@
-%399org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""*
-2
-3*þ
-7”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaM N(iÜÙ
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaM N(i^
-%29Worg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder"óorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder#setAvailabilityOfEntriesOfLedger(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/proto/BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder;*}
-{
- getListOfEntriesOfLedgerResponseWorg.apache.bookkeeper.proto.BookkeeperProtocol$GetListOfEntriesOfLedgerResponse$Builder*'
-%
-%28com.google.protobuf.ByteString2BsetAvailabilityOfEntriesOfLedger(Lcom/google/protobuf/ByteString;)*
-4*å
-8”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaN N(hÃ
-À
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaN N(h%
-%28com.google.protobuf.ByteString"Kcom.google.protobuf.ByteString#copyFrom([B)Lcom/google/protobuf/ByteString;*"" 
-com.google.protobuf.ByteString*
-
-%27byte[]*
-7*ê
-9”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaK L(O¾
-»
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaK L(OY
-availabilityOfEntriesOfLedger8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger"__id*A
-?
-%258org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger‡„
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaN( N(g
-%27byte[]"\org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger#serializeStateOfEntriesOfLedger()[B*[
-Y
-availabilityOfEntriesOfLedger8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger2!serializeStateOfEntriesOfLedger()*
-8*´
-10”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaK, L(O•’
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaK0 K(M?
-%258org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger"8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedgerù
-ö
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaK, L(O
-%26"forg.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger#<init>(Ljava/util/PrimitiveIterator$OfLong;)V*A
-?
-%258org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger*+
-)
-%24"java.util.PrimitiveIterator$OfLong*
-9*ò
-11”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaL L($¶
-³
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaL L($9
-%222org.apache.bookkeeper.proto.BookieRequestProcessor"__id*Y*WA
-?org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV3"
-requestProcessor•
-’
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaL L(+*
-%23#org.apache.bookkeeper.bookie.Bookie"__id*G*E
-9
-%222org.apache.bookkeeper.proto.BookieRequestProcessor"
-bookieýú
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaL L(N)
-%24"java.util.PrimitiveIterator$OfLong"corg.apache.bookkeeper.bookie.Bookie#getListOfEntriesOfLedger(J)Ljava/util/PrimitiveIterator$OfLong;*,
-*
-%23#org.apache.bookkeeper.bookie.Bookie*
-""2getListOfEntriesOfLedger(J)*
-10*­	
-12”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaH H(&ê
-ç
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaH H(&@
-%209org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""ê
-ç
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaH H(*@
-%219org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*
-""©
-¦
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaH H(+C
-status9org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCode"__id*B
-@
-%219org.apache.bookkeeper.proto.BookkeeperProtocol$StatusCodeƒ
-€
-”
-‰/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/GetListOfEntriesOfLedgerProcessorV3.javaI I(KY
-availabilityOfEntriesOfLedger8org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedger"__id*
-""*
-11BCA
-?org.apache.bookkeeper.proto.GetListOfEntriesOfLedgerProcessorV3

@@ -1,56 +1,0 @@
-
-×org.apache.bookkeeper.clients.impl.kv.KvUtils#newIncrementRequest(Lio/netty/buffer/ByteBuf;JLorg/apache/bookkeeper/api/kv/options/IncrementOption;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java…+ …(>"1*¢
-1ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaˆ ˆ(¦
-£
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaˆ ˆ(,H
-%0Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"‹org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest#newBuilder()Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*>"<
-:org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest’
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‰4 ‰(C
-%1java.nio.ByteBuffer"8io.netty.buffer.ByteBuf#nioBuffer()Ljava/nio/ByteBuffer;* 
-
-keyio.netty.buffer.ByteBuf2nioBuffer()ë
-è
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‰ ‰(D$
-%2com.google.protobuf.ByteString"jcom.google.protobuf.UnsafeByteOperations#unsafeWrap(Ljava/nio/ByteBuffer;)Lcom/google/protobuf/ByteString;*,"*
-(com.google.protobuf.UnsafeByteOperations*
-
-%1java.nio.ByteBuffer¨¥
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaˆ ‰(EH
-%3Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"¯org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#setKey(Lcom/google/protobuf/ByteString;)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*J
-H
-%0Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder*&
-$
-%2com.google.protobuf.ByteString2(setKey(Lcom/google/protobuf/ByteString;)ÐÍ
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaˆ Š(H
-%4Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"“org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#setAmount(J)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*J
-H
-%3Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder*
-""2setAmount(J)­ª
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.java‹ ‹(*
-%5boolean"@org.apache.bookkeeper.api.kv.options.IncrementOption#getTotal()Z*@
->
-option4org.apache.bookkeeper.api.kv.options.IncrementOption2
-getTotal()ÝÚ
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaˆ ‹(+H
-%6Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder"•org.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder#setGetTotal(Z)Lorg/apache/bookkeeper/stream/proto/kv/rpc/IncrementRequest$Builder;*J
-H
-%4Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder*
-
-%5boolean2setGetTotal(Z)"×
-ˆ
-|/home/valentina/Scrivania/Bookkeeper/stream/clients/java/kv/src/main/java/org/apache/bookkeeper/clients/impl/kv/KvUtils.javaˆ ‹(,J
-H
-%6Borg.apache.bookkeeper.stream.proto.kv.rpc.IncrementRequest$Builder:
-keyio.netty.buffer.ByteBuf:
-"":>
-option4org.apache.bookkeeper.api.kv.options.IncrementOptionB1"/
--org.apache.bookkeeper.clients.impl.kv.KvUtils

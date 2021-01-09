@@ -1,136 +1,0 @@
-
-€org.apache.bookkeeper.tools.cli.helpers.ClientCommand#apply(Lorg/apache/bookkeeper/common/net/ServiceURI;Lorg/apache/commons/configuration/CompositeConfiguration;Lorg/apache/bookkeeper/tools/common/BKFlags;Lorg/apache/bookkeeper/tools/framework/CliFlags;)Z‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java+ +("startingBlock*˜	
-2‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java3 3(®«
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java3- 3(@
-%3java.net.URI"Borg.apache.bookkeeper.common.net.ServiceURI#getUri()Ljava/net/URI;*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI2getUri()ôñ
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java3- 3(K
-%4java.lang.String")java.net.URI#toString()Ljava/lang/String;*
-
-%3java.net.URI2
-toString()ÙÖ
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java3 3(L4
-%5.org.apache.bookkeeper.conf.ClientConfiguration"Œorg.apache.bookkeeper.conf.AbstractConfiguration#setMetadataServiceUri(Ljava/lang/String;)Lorg/apache/bookkeeper/conf/AbstractConfiguration;*>
-<
-
-clientConf.org.apache.bookkeeper.conf.ClientConfiguration*
-
-%4java.lang.String2)setMetadataServiceUri(Ljava/lang/String;)*
-1*„
-3‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java/) /(Bõò
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java/- /(@4
-%0.org.apache.bookkeeper.conf.ClientConfiguration".org.apache.bookkeeper.conf.ClientConfiguration‡
-„
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java/) /(B
-%1"8org.apache.bookkeeper.conf.ClientConfiguration#<init>()V*6
-4
-%0.org.apache.bookkeeper.conf.ClientConfiguration‹
-ˆ
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java/ /(C<
-
-clientConf.org.apache.bookkeeper.conf.ClientConfiguration"__id*6
-4
-%0.org.apache.bookkeeper.conf.ClientConfigurationÚ×
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java0 0(!
-
-%2void"uorg.apache.bookkeeper.conf.AbstractConfiguration#loadConf(Lorg/apache/commons/configuration/CompositeConfiguration;)V*>
-<
-
-clientConf.org.apache.bookkeeper.conf.ClientConfiguration*A
-?
-conf7org.apache.commons.configuration.CompositeConfiguration2CloadConf(Lorg/apache/commons/configuration/CompositeConfiguration;)*
-2
-1*Ü
-startingBlock‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java+ .(2ö
-ó
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java* *(
-%7"
-__annotate*
-java.lang.Override*;
-9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURIà
-Ý
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java+' +(19
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI"__annotation*
-
-%7ü
-ù
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java* *(
-%8"
-__annotate*
-java.lang.Override*A
-?
-conf7org.apache.commons.configuration.CompositeConfigurationæ
-ã
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java,3 ,(7?
-conf7org.apache.commons.configuration.CompositeConfiguration"__annotation*
-
-%8ö
-ó
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java* *(
-%9"
-__annotate*
-java.lang.Override*;
-9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlagsà
-Ý
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java-$ -(/9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlags"__annotation*
-
-%9Ö
-Ó
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java* *(
-%10"
-__annotate*
-java.lang.Override*
-
-cmdFlagsClientFlagsTÀ
-½
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java.) .(1
-cmdFlagsClientFlagsT"__annotation*
-
-%10*
-3*è
-1‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java6 6(¿¼
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java6 6(*
-%6boolean"žorg.apache.bookkeeper.tools.cli.helpers.ClientCommand#apply(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lorg/apache/bookkeeper/tools/framework/CliFlags;)Z*97
-5org.apache.bookkeeper.tools.cli.helpers.ClientCommand*>
-<
-
-clientConf.org.apache.bookkeeper.conf.ClientConfiguration*
-
-cmdFlagsClientFlagsT2gapply(Lorg/apache/bookkeeper/conf/ClientConfiguration;Lorg/apache/bookkeeper/tools/framework/CliFlags;)"”
-‰
-/home/valentina/Scrivania/Bookkeeper/bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommand.java6 6(+
-"":9
-
-serviceURI+org.apache.bookkeeper.common.net.ServiceURI:?
-conf7org.apache.commons.configuration.CompositeConfiguration:9
-globalFlags*org.apache.bookkeeper.tools.common.BKFlags:
-cmdFlagsClientFlagsTB97
-5org.apache.bookkeeper.tools.cli.helpers.ClientCommand

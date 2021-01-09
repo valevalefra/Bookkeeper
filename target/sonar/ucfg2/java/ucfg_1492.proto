@@ -1,115 +1,0 @@
-
-¼org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#deleteStream(Lorg/apache/bookkeeper/stream/proto/storage/DeleteStreamRequest;)Ljava/util/concurrent/CompletableFuture;ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŠ3 Š(?"startingBlock*’
-2ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java (Ð
-Í
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java% (FM
-%4Gorg.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse$Builder"•org.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse#newBuilder()Lorg/apache/bookkeeper/stream/proto/storage/DeleteStreamResponse$Builder;*C"A
-?org.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse›˜
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java% (TM
-%5Gorg.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse$Builder"Ñorg.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse$Builder#setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)Lorg/apache/bookkeeper/stream/proto/storage/DeleteStreamResponse$Builder;*O
-M
-%4Gorg.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse$Builder*?
-=
-code5org.apache.bookkeeper.stream.proto.storage.StatusCode2@setCode(Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;)ØÕ
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java% (\E
-%6?org.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse"org.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse$Builder#build()Lorg/apache/bookkeeper/stream/proto/storage/DeleteStreamResponse;*O
-M
-%5Gorg.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse$Builder2build()Ë
-È
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java (],
-%7&java.util.concurrent.CompletableFuture"uorg.apache.bookkeeper.common.concurrent.FutureUtils#value(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*G
-E
-%6?org.apache.bookkeeper.stream.proto.storage.DeleteStreamResponse"Ñ
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java (^.
-,
-%7&java.util.concurrent.CompletableFuture*à
-3ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‹ ‹(#ðí
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‹ ‹(-
-%0java.lang.String"Zorg.apache.bookkeeper.stream.proto.storage.DeleteStreamRequest#getName()Ljava/lang/String;*K
-I
-request>org.apache.bookkeeper.stream.proto.storage.DeleteStreamRequest2	getName()ä
-á
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‹ ‹(.
-
-streamNamejava.lang.String"__id*
-
-%0java.lang.Stringôñ
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŒ Œ(+
-%1java.lang.String"\org.apache.bookkeeper.stream.proto.storage.DeleteStreamRequest#getNsName()Ljava/lang/String;*K
-I
-request>org.apache.bookkeeper.stream.proto.storage.DeleteStreamRequest2getNsName()à
-Ý
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŒ Œ(,
-nsNamejava.lang.String"__id*
-
-%1java.lang.StringàÝ
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŽ Ž(A;
-%25org.apache.bookkeeper.stream.proto.storage.StatusCode"¶org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#verifyStreamRequest(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/bookkeeper/stream/proto/storage/StatusCode;*IG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
-
-nsNamejava.lang.String* 
-
-
-streamNamejava.lang.String29verifyStreamRequest(Ljava/lang/String;Ljava/lang/String;)¨
-¥
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŽ Ž(B=
-code5org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*=
-;
-%25org.apache.bookkeeper.stream.proto.storage.StatusCodeï
-ì
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java (;
-%35org.apache.bookkeeper.stream.proto.storage.StatusCode"__id*
-""*
-2
-1*Û
-startingBlockž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŠ? Š(\›
-˜
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java‰ ‰(
-%9"
-__annotate*
-java.lang.Override*K
-I
-request>org.apache.bookkeeper.stream.proto.storage.DeleteStreamRequest…
-‚
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.javaŠT Š([I
-request>org.apache.bookkeeper.stream.proto.storage.DeleteStreamRequest"__annotation*
-
-%9*
-3*û
-1ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java“ “(€
-ý
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java“ “(/,
-%8&java.util.concurrent.CompletableFuture" org.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl#deleteStream(Ljava/lang/String;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;*IG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl*
-
-nsNamejava.lang.String* 
-
-
-streamNamejava.lang.String"Ñ
-ž
-‘/home/valentina/Scrivania/Bookkeeper/stream/storage/impl/src/main/java/org/apache/bookkeeper/stream/storage/impl/metadata/RootRangeStoreImpl.java“ “(0.
-,
-%8&java.util.concurrent.CompletableFuture:I
-request>org.apache.bookkeeper.stream.proto.storage.DeleteStreamRequestBIG
-Eorg.apache.bookkeeper.stream.storage.impl.metadata.RootRangeStoreImpl

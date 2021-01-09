@@ -1,269 +1,0 @@
-
-›org.apache.distributedlog.BKLogWriteHandler$RecoverLogSegmentFunction#completeLogSegment(Lorg/apache/distributedlog/LogSegmentMetadata;Lorg/apache/distributedlog/LogRecordWithDLSN;)Ljava/util/concurrent/CompletableFuture;ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÉ6 É(H"7*ä
-2ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaö ö(∑
-¥
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaö ö(
-%24org.slf4j.Logger"__id*
-""ÖÇ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaö ö(G
-%25void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
-
-%24org.slf4j.Logger*,*
-(Inprogress segment {} is empty, deleting*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2*info(Ljava/lang/String;Ljava/lang/Object;)÷
-”
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaú ú(*-
-%26&java.util.concurrent.CompletableFuture"îorg.apache.distributedlog.BKLogWriteHandler#deleteLogSegment(Lorg/apache/distributedlog/LogSegmentMetadata;)Ljava/util/concurrent/CompletableFuture;*IG
-Eorg.apache.distributedlog.BKLogWriteHandler$RecoverLogSegmentFunction*3
-1
-l,org.apache.distributedlog.LogSegmentMetadataõò
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaú ¢(-
-%27&java.util.concurrent.CompletableFuture"wjava.util.concurrent.CompletableFuture#thenApply(Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;*/
--
-%26&java.util.concurrent.CompletableFuture*
-""2(thenApply(Ljava/util/function/Function;)"æ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaú ¢(/
--
-%27&java.util.concurrent.CompletableFuture*∆
-3ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaô ô(´
-®
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaô" ô(P
-%23long"__id*
-""*
-2
-1*±
-4ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî î(∑
-¥
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî î(
-%11org.slf4j.Logger"__id*
-""µ≤
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaï ï("
-%12java.lang.String"Iorg.apache.distributedlog.LogSegmentMetadata#toString()Ljava/lang/String;*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2
-toString()Ö
-Ç
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî ï("
-%13java.lang.String"__concat*53
-1Unrecoverable corruption has occurred in segment *
-
-%12java.lang.String›
-⁄
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî ï(0
-%14java.lang.String"__concat*
-
-%13java.lang.String*
-	 at path ∑¥
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaï3 ï(@
-%15java.lang.String"Jorg.apache.distributedlog.LogSegmentMetadata#getZkPath()Ljava/lang/String;*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getZkPath()È
-Ê
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî ï(@
-%16java.lang.String"__concat*
-
-%14java.lang.String*
-
-%15java.lang.StringÚ
-Ô
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî ñ(6
-%17java.lang.String"__concat*
-
-%16java.lang.String*" 
-. Unable to continue recovery.õò
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaî ñ(7
-%18void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
-
-%11org.slf4j.Logger*
-
-%17java.lang.String2error(Ljava/lang/String;)Î
-Ë
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaó= ò(+
-%19java.lang.String"__concat*
-Unrecoverable corruption,*
- please check logs.¡æ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaó1 ó(<
-%20java.io.IOException"java.io.IOExceptionÅ
-˛
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaó- ò(,
-%21"/java.io.IOException#<init>(Ljava/lang/String;)V*
-
-%20java.io.IOException*
-
-%19java.lang.Stringî
-ë
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaó ò(--
-%22&java.util.concurrent.CompletableFuture"|org.apache.bookkeeper.common.concurrent.FutureUtils#exception(Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;*7"5
-3org.apache.bookkeeper.common.concurrent.FutureUtils*
-
-%20java.io.IOException"æ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaó ò(./
--
-%22&java.util.concurrent.CompletableFuture*∆
-5ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaì ì(´
-®
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaì ì(?
-%10long"__id*
-""*
-3
-4*∏
-6ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaç ç($¶£
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaç ç(7
-
-%4long"7org.apache.distributedlog.LogRecord#getTransactionId()J*;
-9
-
-lastRecord+org.apache.distributedlog.LogRecordWithDLSN2getTransactionId()√¿
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaé é(J	
-%5int"Forg.apache.distributedlog.LogRecord#getLastPositionWithinLogSegment()I*;
-9
-
-lastRecord+org.apache.distributedlog.LogRecordWithDLSN2!getLastPositionWithinLogSegment()’“
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaè è(2$
-%6org.apache.distributedlog.DLSN"Uorg.apache.distributedlog.LogRecordWithDLSN#getDlsn()Lorg/apache/distributedlog/DLSN;*;
-9
-
-lastRecord+org.apache.distributedlog.LogRecordWithDLSN2	getDlsn()Ä˝
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaè è(?
-
-%7long",org.apache.distributedlog.DLSN#getEntryId()J*&
-$
-%6org.apache.distributedlog.DLSN2getEntryId()’“
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaê ê(1$
-%8org.apache.distributedlog.DLSN"Uorg.apache.distributedlog.LogRecordWithDLSN#getDlsn()Lorg/apache/distributedlog/DLSN;*;
-9
-
-lastRecord+org.apache.distributedlog.LogRecordWithDLSN2	getDlsn()˛˚
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaê ê(=
-
-%9long"+org.apache.distributedlog.DLSN#getSlotId()J*&
-$
-%8org.apache.distributedlog.DLSN2getSlotId()*
-5*™
-
-7ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÖ Ö(∂
-≥
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÖ Ö(
-%0org.slf4j.Logger"__id*
-""ﬁ€
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÖK Ö(b
-%1java.lang.String"Porg.apache.distributedlog.BKLogHandler#getFullyQualifiedName()Ljava/lang/String;*IG
-Eorg.apache.distributedlog.BKLogWriteHandler$RecoverLogSegmentFunction2getFullyQualifiedName()»≈
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaÖ Ö(c
-
-%2void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
-
-%0org.slf4j.Logger*31
-/Recovered last record in log segment {} for {}.*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata*
-
-%1java.lang.String2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)™
-ß
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaá á(I
-
-%3long"__id*
-""*
-5
-6*˛
-1ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java§@ §(kÁ‰
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java§D §(i-
-%28&java.util.concurrent.CompletableFuture"&java.util.concurrent.CompletableFuture˙
-˜
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java§@ §(k
-%29"0java.util.concurrent.CompletableFuture#<init>()V*/
--
-%28&java.util.concurrent.CompletableFuture˙
-˜
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java§ §(l1
-promise&java.util.concurrent.CompletableFuture"__id*/
--
-%28&java.util.concurrent.CompletableFutureΩ∫
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java¶ ¶((
-%30java.lang.String"Morg.apache.distributedlog.LogSegmentMetadata#getZNodeName()Ljava/lang/String;*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getZNodeName()æª
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaß ß(7
-%31long"Korg.apache.distributedlog.LogSegmentMetadata#getLogSegmentSequenceNumber()J*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentSequenceNumber()¶£
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java® ®(+
-%32long"?org.apache.distributedlog.LogSegmentMetadata#getLogSegmentId()J*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getLogSegmentId()†ù
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java© ©((
-%33long"<org.apache.distributedlog.LogSegmentMetadata#getFirstTxId()J*3
-1
-l,org.apache.distributedlog.LogSegmentMetadata2getFirstTxId()ıÚ
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.java• Æ( 
-%34void"åorg.apache.distributedlog.BKLogWriteHandler#doCompleteAndCloseLogSegment(Ljava/lang/String;JJJJIJJLjava/util/concurrent/CompletableFuture;)V*IG
-Eorg.apache.distributedlog.BKLogWriteHandler$RecoverLogSegmentFunction*
-
-%30java.lang.String*
-
-%31long*
-
-%32long*
-
-%33long*
-""*
-""*
-""*
-""*3
-1
-promise&java.util.concurrent.CompletableFuture2_doCompleteAndCloseLogSegment(Ljava/lang/String;JJJJIJJLjava/util/concurrent/CompletableFuture;)"¬
-ä
-~/home/valentina/Scrivania/Bookkeeper/stream/distributedlog/core/src/main/java/org/apache/distributedlog/BKLogWriteHandler.javaØ Ø(3
-1
-promise&java.util.concurrent.CompletableFuture:1
-l,org.apache.distributedlog.LogSegmentMetadata:9
-
-lastRecord+org.apache.distributedlog.LogRecordWithDLSNBIG
-Eorg.apache.distributedlog.BKLogWriteHandler$RecoverLogSegmentFunction

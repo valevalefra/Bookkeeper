@@ -1,70 +1,0 @@
-
-torg.apache.bookkeeper.metadata.etcd.helpers.KeySetReader#getLocalValue()Lorg/apache/bookkeeper/versioning/Versioned;ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java°# °(0"1*∑
-1ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java£ £(¸
-˘
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java£ £(
-%0java.util.Set"__id*F*D:
-8org.apache.bookkeeper.metadata.etcd.helpers.KeySetReader"
-keysëé
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java£ £(
-%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
-
-%0java.util.Set2stream()ç
-ä
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java£ £(%!
-%2java.util.function.Function"__id*I*G:
-8org.apache.bookkeeper.metadata.etcd.helpers.KeySetReader"	
-encoder˜Ù
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java£ £(&
-%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
-
-%1java.util.stream.Stream*#
-!
-%2java.util.function.Function2"map(Ljava/util/function/Function;)ù
-ö
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java£/ £(A 
-%4java.util.stream.Collector"?java.util.stream.Collectors#toSet()Ljava/util/stream/Collector;*"
-java.util.stream.CollectorsÎË
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java£ £(B
-%5java.util.Set"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
-
-%3java.util.stream.Stream*"
- 
-%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)˚¯
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java§ §(2
-%6,org.apache.bookkeeper.versioning.LongVersion",org.apache.bookkeeper.versioning.LongVersionñ
-ì
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java§ §(%
-%7"7org.apache.bookkeeper.versioning.LongVersion#<init>(J)V*4
-2
-%6,org.apache.bookkeeper.versioning.LongVersion*
-""˜Ù
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java¢ ¢(0
-%8*org.apache.bookkeeper.versioning.Versioned"*org.apache.bookkeeper.versioning.Versionedí
-è
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java¢ •(	
-%9"porg.apache.bookkeeper.versioning.Versioned#<init>(Ljava/lang/Object;Lorg/apache/bookkeeper/versioning/Version;)V*2
-0
-%8*org.apache.bookkeeper.versioning.Versioned*
-
-%5java.util.Set*4
-2
-%6,org.apache.bookkeeper.versioning.LongVersion" 
-ì
-Ü/home/valentina/Scrivania/Bookkeeper/metadata-drivers/etcd/src/main/java/org/apache/bookkeeper/metadata/etcd/helpers/KeySetReader.java¢ •(
-2
-0
-%8*org.apache.bookkeeper.versioning.VersionedB<:
-8org.apache.bookkeeper.metadata.etcd.helpers.KeySetReader
