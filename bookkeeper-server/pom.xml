@@ -25,7 +25,8 @@
   <artifactId>bookkeeper-server</artifactId>
   <properties>
     <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../jacoco-tests-report-aggregator/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-    <surefire.version>3.0.0-M4</surefire.version>
+      <mockito.version>1.10.19</mockito.version>
+      <surefire.version>3.0.0-M4</surefire.version>
   </properties>
 
   <name>Apache BookKeeper :: Server</name>
