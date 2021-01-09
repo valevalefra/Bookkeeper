@@ -5,9 +5,7 @@
    The ASF licenses this file to You under the Apache License, Version 2.0
    (the "License"); you may not use this file except in compliance with
    the License.  You may obtain a copy of the License at
-
        http://www.apache.org/licenses/LICENSE-2.0
-
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -627,7 +625,7 @@
         <artifactId>sketches-core</artifactId>
         <version>${datasketches.version}</version>
       </dependency>
-      
+
       <!-- http-client -->
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
@@ -798,11 +796,11 @@
     </extensions>
     <pluginManagement>
       <plugins>
-      <!--<plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-        <version>${jacoco-maven-plugin.version}</version>
-        </plugin>-->
+        <!--<plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>${jacoco-maven-plugin.version}</version>
+          </plugin>-->
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
@@ -839,21 +837,6 @@
             </execution>
           </executions>
         </plugin>
-
-        <plugin>
-          <groupId>org.pitest</groupId>
-          <artifactId>pitest</artifactId>
-          <version>1.5.2</version>
-          <configuration>
-            <targetClasses>
-              <param>org.apache.bookkeeper.bookie.Bookie</param>
-              <param>org.apache.bookkeeper.bookie.FileInfo</param>
-            </targetClasses>
-            <targetTests>
-            </targetTests>
-          </configuration>
-        </plugin>
-
       </plugins>
     </pluginManagement>
     <plugins>
@@ -865,17 +848,17 @@
           <execution>
             <id>prepare-agent</id>
             <goals>
-             <goal>prepare-agent</goal>
+              <goal>prepare-agent</goal>
             </goals>
           </execution>
           <execution>
             <id>report</id>
             <goals>
-             <goal>report</goal>
+              <goal>report</goal>
             </goals>
           </execution>
         </executions>
-        </plugin>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -907,7 +890,7 @@
             <compilerArg>-Xlint:unchecked</compilerArg>
             <!-- https://issues.apache.org/jira/browse/MCOMPILER-205 -->
             <compilerArg>-Xpkginfo:always</compilerArg>
-	      </compilerArgs>
+          </compilerArgs>
         </configuration>
       </plugin>
 
@@ -1090,7 +1073,7 @@
     </profile>
 
 
-    
+
     <profile>
       <id>apache-release</id>
       <build>
